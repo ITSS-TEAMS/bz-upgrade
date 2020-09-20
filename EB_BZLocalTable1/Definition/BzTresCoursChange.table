@@ -1,0 +1,23 @@
+public table BzTresCoursChange {
+        t24:  BZ.TRES.COURS.CHANGE
+        fields:{
+            BzTresCoursChangeMarche(DVS.MARCHE)=1
+            BzTresCoursChangeDateChargement(DVS.DATE.CHARGEMENT)=2
+            BzTresCoursChangeStatut(DVS.STATUT)=3
+            BzTresCoursChangeMessage(DVS.MESSAGE)=4
+            BzTresCoursChangeReserved2(DVS.RESERVED.2)=5
+            BzTresCoursChangeReserved3(DVS.RESERVED.3)=6
+            BzTresCoursChangeReserved4(DVS.RESERVED.4)=7
+            BzTresCoursChangeLocalRef(DVS.LOCAL.REF)=8
+            BzTresCoursChangeOverride(DVS.OVERRIDE)=9
+            BzTresCoursChangeRecordStatus(DVS.RECORD.STATUS)=10
+            BzTresCoursChangeCurrNo(DVS.CURR.NO)=11
+            BzTresCoursChangeInputter(DVS.INPUTTER)=12
+            BzTresCoursChangeDateTime(DVS.DATE.TIME)=13
+            BzTresCoursChangeAuthoriser(DVS.AUTHORISER)=14
+            BzTresCoursChangeCoCode(DVS.CO.CODE)=15
+            BzTresCoursChangeDeptCode(DVS.DEPT.CODE)=16
+            BzTresCoursChangeAuditorCode(DVS.AUDITOR.CODE)=17
+            BzTresCoursChangeAuditDateTime(DVS.AUDIT.DATE.TIME)=18
+        }
+    }

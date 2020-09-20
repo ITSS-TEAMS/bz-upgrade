@@ -1,0 +1,26 @@
+public table BzMdpTypeTiers {
+    t24:  BZ.MDP.TYPE.TIERS
+    fields:{
+        BzMdpTypeTiersDescription(TYPE.TRS.DESCRIPTION)=1
+        BzMdpTypeTiersReserved1(TYPE.TRS.RESERVED.1)=2
+        BzMdpTypeTiersReserved2(TYPE.TRS.RESERVED.2)=3
+        BzMdpTypeTiersReserved3(TYPE.TRS.RESERVED.3)=4
+        BzMdpTypeTiersReserved4(TYPE.TRS.RESERVED.4)=5
+        BzMdpTypeTiersReserved5(TYPE.TRS.RESERVED.5)=6
+        BzMdpTypeTiersReserved6(TYPE.TRS.RESERVED.6)=7
+        BzMdpTypeTiersReserved7(TYPE.TRS.RESERVED.7)=8
+        BzMdpTypeTiersReserved8(TYPE.TRS.RESERVED.8)=9
+        BzMdpTypeTiersReserved9(TYPE.TRS.RESERVED.9)=10
+        BzMdpTypeTiersReserved10(TYPE.TRS.RESERVED.10)=11
+        BzMdpTypeTiersOverride(TYPE.TRS.OVERRIDE)=12
+        BzMdpTypeTiersRecordStatus(TYPE.TRS.RECORD.STATUS)=13
+        BzMdpTypeTiersCurrNo(TYPE.TRS.CURR.NO)=14
+        BzMdpTypeTiersInputter(TYPE.TRS.INPUTTER)=15
+        BzMdpTypeTiersDateTime(TYPE.TRS.DATE.TIME)=16
+        BzMdpTypeTiersAuthoriser(TYPE.TRS.AUTHORISER)=17
+        BzMdpTypeTiersCoCode(TYPE.TRS.CO.CODE)=18
+        BzMdpTypeTiersDeptCode(TYPE.TRS.DEPT.CODE)=19
+        BzMdpTypeTiersAuditorCode(TYPE.TRS.AUDITOR.CODE)=20
+        BzMdpTypeTiersAuditDateTime(TYPE.TRS.AUDIT.DATE.TIME)=21
+    }
+}

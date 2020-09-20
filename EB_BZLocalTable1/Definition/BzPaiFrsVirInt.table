@@ -1,0 +1,27 @@
+public table BzPaiFrsVirInt {
+    t24:  BZ.PAI.FRS.VIR.INT
+    fields:{
+        BzPaiFrsVirIntTypeVir(PAI.FRS.TYPE.VIR)=1
+        BzPaiFrsVirIntRefDemande(PAI.FRS.REF.DEMANDE)=2
+        BzPaiFrsVirIntCodeFrs(PAI.FRS.CODE.FRS)=3
+        BzPaiFrsVirIntCompteFrs(PAI.FRS.COMPTE.FRS)=4
+        BzPaiFrsVirIntMntPaiement(PAI.FRS.MNT.PAIEMENT)=5
+        BzPaiFrsVirIntReference(PAI.FRS.REFERENCE)=6
+        BzPaiFrsVirIntCompteHj(PAI.FRS.COMPTE.HJ)=7
+        BzPaiFrsVirIntDateCreation(PAI.FRS.DATE.CREATION)=8
+        BzPaiFrsVirIntStatut(PAI.FRS.STATUT)=9
+        BzPaiFrsVirIntRefTxn(PAI.FRS.REF.TXN)=10
+        BzPaiFrsVirIntDateTxn(PAI.FRS.DATE.TXN)=11
+        BzPaiFrsVirIntCodeClient(PAI.FRS.CODE.CLIENT)=12
+        BzPaiFrsVirIntMntHj(PAI.FRS.MNT.HJ)=13
+        BzPaiFrsVirIntRecordStatus(PAI.FRS.RECORD.STATUS)=14
+        BzPaiFrsVirIntCurrNo(PAI.FRS.CURR.NO)=15
+        BzPaiFrsVirIntInputter(PAI.FRS.INPUTTER)=16
+        BzPaiFrsVirIntDateTime(PAI.FRS.DATE.TIME)=17
+        BzPaiFrsVirIntAuthoriser(PAI.FRS.AUTHORISER)=18
+        BzPaiFrsVirIntCoCode(PAI.FRS.CO.CODE)=19
+        BzPaiFrsVirIntDeptCode(PAI.FRS.DEPT.CODE)=20
+        BzPaiFrsVirIntAuditorCode(PAI.FRS.AUDITOR.CODE)=21
+        BzPaiFrsVirIntAuditDateTime(PAI.FRS.AUDIT.DATE.TIME)=22
+    }
+}

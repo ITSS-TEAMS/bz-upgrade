@@ -1,0 +1,23 @@
+public table BiatMatricesCbp {
+    t24:  BIAT.MATRICES.CBP
+    fields:{
+        BiatMatricesCbpDescription(MAT.CBP.DESCRIPTION)=1
+        BiatMatricesCbpMatCbpLiee(MAT.CBP.MAT.CBP.LIEE)=2
+        BiatMatricesCbpTraitement(MAT.CBP.TRAITEMENT)=3
+        BiatMatricesCbpTypeCbp(MAT.CBP.TYPE.CBP)=4
+        BiatMatricesCbpCbp(MAT.CBP.CBP)=5
+        BiatMatricesCbpDossierChange(MAT.CBP.DOSSIER.CHANGE)=6
+        BiatMatricesCbpMemeClient(MAT.CBP.MEME.CLIENT)=7
+        BiatMatricesCbpLocalRef(MAT.CBP.LOCAL.REF)=8
+        BiatMatricesCbpOverride(MAT.CBP.OVERRIDE)=9 
+        BiatMatricesCbpRecordStatus(MAT.CBP.RECORD.STATUS)=10
+        BiatMatricesCbpCurrNo(MAT.CBP.CURR.NO)=11
+        BiatMatricesCbpInputter(MAT.CBP.INPUTTER)=12
+        BiatMatricesCbpDateTime(MAT.CBP.DATE.TIME)=13
+        BiatMatricesCbpAuthoriser(MAT.CBP.AUTHORISER)=14
+        BiatMatricesCbpCoCode(MAT.CBP.CO.CODE)=15
+        BiatMatricesCbpDeptCode(MAT.CBP.DEPT.CODE)=16
+        BiatMatricesCbpAuditorCode(MAT.CBP.AUDITOR.CODE)=17
+        BiatMatricesCbpAuditDateTime(MAT.CBP.AUDIT.DATE.TIME)=18
+    }  
+}

@@ -1,0 +1,22 @@
+public table BzGenRelevesOlInit {
+        t24:  BZ.GEN.RELEVES.OL.INIT
+        fields:{
+            BzGenRelevesOlInitStatus(GEN.INIT.STATUS)=1
+            BzGenRelevesOlInitAccountId(GEN.INIT.ACCOUNT.ID)=2
+            BzGenRelevesOlInitGenStartDate(GEN.INIT.GEN.START.DATE)=3
+            BzGenRelevesOlInitGenEndDate(GEN.INIT.GEN.END.DATE)=4
+            BzGenRelevesOlInitWorkLoadPrf(GEN.INIT.WORK.LOAD.PRF)=5
+            BzGenRelevesOlInitGenPath(GEN.INIT.GEN.PATH)=6
+            BzGenRelevesOlInitLocalRef(GEN.INIT.LOCAL.REF)=7
+            BzGenRelevesOlInitOverride(GEN.INIT.OVERRIDE)=8
+            BzGenRelevesOlInitRecordStatus(GEN.INIT.RECORD.STATUS)=9
+            BzGenRelevesOlInitCurrNo(GEN.INIT.CURR.NO)=10
+            BzGenRelevesOlInitInputter(GEN.INIT.INPUTTER)=11
+            BzGenRelevesOlInitDateTime(GEN.INIT.DATE.TIME)=12
+            BzGenRelevesOlInitAuthoriser(GEN.INIT.AUTHORISER)=13
+            BzGenRelevesOlInitCoCode(GEN.INIT.CO.CODE)=14
+            BzGenRelevesOlInitDeptCode(GEN.INIT.DEPT.CODE)=15
+            BzGenRelevesOlInitAuditorCode(GEN.INIT.AUDITOR.CODE)=16
+            BzGenRelevesOlInitAuditDateTime(GEN.INIT.AUDIT.DATE.TIME)=17
+        }
+    }

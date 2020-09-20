@@ -1,0 +1,26 @@
+public table BzIbsmsFile {
+    t24:  BZ.IBSMS.FILE
+    fields:{
+        BzIbsmsFileIdClient(SMS.ID.CLIENT)=1
+        BzIbsmsFileIdContrat(SMS.ID.CONTRAT)=2
+        BzIbsmsFileSmsSup(SMS.SMS.SUP)=3
+        BzIbsmsFileRefFichier(SMS.REF.FICHIER)=4
+        BzIbsmsFileStatut(SMS.STATUT)=5
+        BzIbsmsFileDateChargement(SMS.DATE.CHARGEMENT)=6
+        BzIbsmsFileReserved1(SMS.RESERVED1)=7
+        BzIbsmsFileReserved2(SMS.RESERVED2)=8
+        BzIbsmsFileReserved3(SMS.RESERVED3)=9
+        BzIbsmsFileReserved4(SMS.RESERVED4)=10
+        BzIbsmsFileReserved5(SMS.RESERVED5)=11
+        BzIbsmsFileOverride(SMS.OVERRIDE)=12
+        BzIbsmsFileRecordStatus(SMS.RECORD.STATUS)=13
+        BzIbsmsFileCurrNo(SMS.CURR.NO)=14
+        BzIbsmsFileInputter(SMS.INPUTTER)=15
+        BzIbsmsFileDateTime(SMS.DATE.TIME)=16
+        BzIbsmsFileAuthoriser(SMS.AUTHORISER)=17
+        BzIbsmsFileCoCode(SMS.CO.CODE)=18
+        BzIbsmsFileDeptCode(SMS.DEPT.CODE)=19
+        BzIbsmsFileAuditorCode(SMS.AUDITOR.CODE)=20
+        BzIbsmsFileAuditDateTime(SMS.AUDIT.DATE.TIME)=21
+    }
+} 

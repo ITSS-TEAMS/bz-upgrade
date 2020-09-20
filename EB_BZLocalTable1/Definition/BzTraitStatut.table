@@ -1,0 +1,17 @@
+public table BzTraitStatut {
+    t24:  BZ.TRAIT.STATUT
+    fields:{
+        BzTraitStatutDescription(TRT.STT.DESCRIPTION)=1
+        BzTraitStatutSystem(TRT.STT.SYSTEM)=2
+        BzTraitStatutOverride(TRT.STT.OVERRIDE)=3
+        BzTraitStatutRecordStatus(TRT.STT.RECORD.STATUS)=4
+        BzTraitStatutCurrNo(TRT.STT.CURR.NO)=5
+        BzTraitStatutInputter(TRT.STT.INPUTTER)=6
+        BzTraitStatutDateTime(TRT.STT.DATE.TIME)=7
+        BzTraitStatutAuthoriser(TRT.STT.AUTHORISER)=8
+        BzTraitStatutCoCode(TRT.STT.CO.CODE)=9
+        BzTraitStatutDeptCode(TRT.STT.DEPT.CODE)=10
+        BzTraitStatutAuditorCode(TRT.STT.AUDITOR.CODE)=11
+        BzTraitStatutAuditDateTime(TRT.STT.AUDIT.DATE.TIME)=12
+    }
+}

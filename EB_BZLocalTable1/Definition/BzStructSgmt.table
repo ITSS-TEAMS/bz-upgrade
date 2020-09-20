@@ -1,0 +1,22 @@
+public table BzStructSgmt {
+    t24:  BZ.STRUCT.SGMT
+    fields:{
+        BzStructSgmtHeader(SGMT.HEADER)=1
+        BzStructSgmtTag(SGMT.TAG)=2
+        BzStructSgmtSourceValue(SGMT.SOURCE.VALUE)=3
+        BzStructSgmtConstant(SGMT.CONSTANT)=4
+        BzStructSgmtSeparateur(SGMT.SEPARATEUR)=5
+        BzStructSgmtConversion(SGMT.CONVERSION)=6
+        BzStructSgmtLocalRef(SGMT.LOCAL.REF)=7
+        BzStructSgmtOverride(SGMT.OVERRIDE)=8
+        BzStructSgmtRecordStatus(SGMT.RECORD.STATUS)=9
+        BzStructSgmtCurrNo(SGMT.CURR.NO)=10
+        BzStructSgmtInputter(SGMT.INPUTTER)=11
+        BzStructSgmtDateTime(SGMT.DATE.TIME)=12
+        BzStructSgmtAuthoriser(SGMT.AUTHORISER)=13
+        BzStructSgmtCoCode(SGMT.CO.CODE)=14 
+        BzStructSgmtDeptCode(SGMT.DEPT.CODE)=15
+        BzStructSgmtAuditorCode(SGMT.AUDITOR.CODE)=16
+        BzStructSgmtAuditDateTime(SGMT.AUDIT.DATE.TIME)=17
+    }
+}

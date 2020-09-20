@@ -1,0 +1,24 @@
+public table BzGenConditionAc {
+    t24:  BZ.GEN.CONDITION.AC
+    fields:{
+        BzGenConditionAcLibelle(PREF.AC.LIBELLE)=1
+        BzGenConditionAcCurrency(PREF.AC.CURRENCY)=2
+        BzGenConditionAcFlatAmount(PREF.AC.FLAT.AMOUNT)=3
+        BzGenConditionAcPercent(PREF.AC.PERCENT)=4
+        BzGenConditionAcMinAmt(PREF.AC.MIN.AMT)=5
+        BzGenConditionAcMaxAmt(PREF.AC.MAX.AMT)=6
+        BzGenConditionAcComType(PREF.AC.COM.TYPE)=7
+        BzGenConditionAcReserved2(PREF.AC.RESERVED.2)=8
+        BzGenConditionAcReserved3(PREF.AC.RESERVED.3)=9
+        BzGenConditionAcOverride(PREF.AC.OVERRIDE)=10
+        BzGenConditionAcRecordStatus(PREF.AC.RECORD.STATUS)=11
+        BzGenConditionAcCurrNo(PREF.AC.CURR.NO)=12
+        BzGenConditionAcInputter(PREF.AC.INPUTTER)=13
+        BzGenConditionAcDateTime(PREF.AC.DATE.TIME)=14
+        BzGenConditionAcAuthoriser(PREF.AC.AUTHORISER)=15
+        BzGenConditionAcCoCode(PREF.AC.CO.CODE)=16
+        BzGenConditionAcDeptCode(PREF.AC.DEPT.CODE)=17
+        BzGenConditionAcAuditorCode(PREF.AC.AUDITOR.CODE)=18
+        BzGenConditionAcAuditDateTime(PREF.AC.AUDIT.DATE.TIME)=19
+    }
+}

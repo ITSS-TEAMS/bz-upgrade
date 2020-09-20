@@ -1,0 +1,11 @@
+public table ZtAtmTxnList {
+        t24:  ZT.ATM.TXN.LIST
+        fields:{
+            ZtAtmTxnListSmtId(ATM.SMT.ID)=1
+            ZtAtmTxnListFtRefrence(ATM.FT.REFRENCE)=2
+            ZtAtmTxnListIsoMsgType(ATM.ISO.MSG.TYPE)=3
+            ZtAtmTxnListCardNo(ATM.CARD.NO)=4
+            ZtAtmTxnListLocalRef(ATM.LOCAL.REF)=5
+            ZtAtmTxnListOverride(ATM.OVERRIDE)=6
+        }
+    }

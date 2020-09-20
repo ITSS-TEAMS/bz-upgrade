@@ -1,0 +1,29 @@
+public table BzGenRelevesSetting {
+        t24:  BZ.GEN.RELEVES.SETTING
+        fields:{
+            BzGenRelevesSettingStatus(GEN.SET.STATUS)=1
+            BzGenRelevesSettingAllowProcess(GEN.SET.ALLOW.PROCESS)=2
+            BzGenRelevesSettingPriority(GEN.SET.PRIORITY)=3
+            BzGenRelevesSettingGenStartDate(GEN.SET.GEN.START.DATE)=4
+            BzGenRelevesSettingGenEndDate(GEN.SET.GEN.END.DATE)=5
+            BzGenRelevesSettingDateProcess(GEN.SET.DATE.PROCESS)=6
+            BzGenRelevesSettingStarted(GEN.SET.STARTED)=7
+            BzGenRelevesSettingStopped(GEN.SET.STOPPED)=8
+            BzGenRelevesSettingElapsed(GEN.SET.ELAPSED)=9
+            BzGenRelevesSettingLastRunDate(GEN.SET.LAST.RUN.DATE)=10
+            BzGenRelevesSettingLastStarted(GEN.SET.LAST.STARTED)=11
+            BzGenRelevesSettingLastStopped(GEN.SET.LAST.STOPPED)=12
+            BzGenRelevesSettingLastElapsed(GEN.SET.LAST.ELAPSED)=13
+            BzGenRelevesSettingLocalRef(GEN.SET.LOCAL.REF)=14
+            BzGenRelevesSettingOverride(GEN.SET.OVERRIDE)=15
+            BzGenRelevesSettingRecordStatus(GEN.SET.RECORD.STATUS)=16
+            BzGenRelevesSettingCurrNo(GEN.SET.CURR.NO)=17
+            BzGenRelevesSettingInputter(GEN.SET.INPUTTER)=18
+            BzGenRelevesSettingDateTime(GEN.SET.DATE.TIME)=19
+            BzGenRelevesSettingAuthoriser(GEN.SET.AUTHORISER)=20
+            BzGenRelevesSettingCoCode(GEN.SET.CO.CODE)=21
+            BzGenRelevesSettingDeptCode(GEN.SET.DEPT.CODE)=22
+            BzGenRelevesSettingAuditorCode(GEN.SET.AUDITOR.CODE)=23
+            BzGenRelevesSettingAuditDateTime(GEN.SET.AUDIT.DATE.TIME)=24
+        }
+    }

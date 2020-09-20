@@ -1,0 +1,22 @@
+public table BzTunepsAoElec {
+    t24:  BZ.TUNEPS.AO.ELEC
+    fields:{
+        BzTunepsAoElecCode(TUNEPS.AOE.CODE)=1
+        BzTunepsAoElecDescription(TUNEPS.AOE.DESCRIPTION)=2
+        BzTunepsAoElecReserved1(TUNEPS.AOE.RESERVED.1)=3
+        BzTunepsAoElecReserved2(TUNEPS.AOE.RESERVED.2)=4
+        BzTunepsAoElecReserved3(TUNEPS.AOE.RESERVED.3)=5
+        BzTunepsAoElecReserved4(TUNEPS.AOE.RESERVED.4)=6
+        BzTunepsAoElecReserved5(TUNEPS.AOE.RESERVED.5)=7
+        BzTunepsAoElecOverride(TUNEPS.AOE.OVERRIDE)=8
+        BzTunepsAoElecRecordStatus(TUNEPS.AOE.RECORD.STATUS)=9
+        BzTunepsAoElecCurrNo(TUNEPS.AOE.CURR.NO)=10
+        BzTunepsAoElecInputter(TUNEPS.AOE.INPUTTER)=11
+        BzTunepsAoElecDateTime(TUNEPS.AOE.DATE.TIME)=12
+        BzTunepsAoElecAuthoriser(TUNEPS.AOE.AUTHORISER)=13
+        BzTunepsAoElecCoCode(TUNEPS.AOE.CO.CODE)=14
+        BzTunepsAoElecDeptCode(TUNEPS.AOE.DEPT.CODE)=15
+        BzTunepsAoElecAuditorCode(TUNEPS.AOE.AUDITOR.CODE)=16
+        BzTunepsAoElecAuditDateTime(TUNEPS.AOE.AUDIT.DATE.TIME)=17
+    }
+}

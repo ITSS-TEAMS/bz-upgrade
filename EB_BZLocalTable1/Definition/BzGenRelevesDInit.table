@@ -1,0 +1,18 @@
+public table BzGenRelevesDInit {
+    t24:  BZ.GEN.RELEVES.D.INIT
+    fields:{
+        BzGenRelevesDInitGenPath(GEN.DAILY.GEN.PATH)=1
+        BzGenRelevesDInitAccountId(GEN.DAILY.ACCOUNT.ID)=2
+        BzGenRelevesDInitLocalRef(GEN.DAILY.LOCAL.REF)=3
+        BzGenRelevesDInitOverride(GEN.DAILY.OVERRIDE)=4
+        BzGenRelevesDInitRecordStatus(GEN.DAILY.RECORD.STATUS)=5
+        BzGenRelevesDInitCurrNo(GEN.DAILY.CURR.NO)=6
+        BzGenRelevesDInitInputter(GEN.DAILY.INPUTTER)=7
+        BzGenRelevesDInitDateTime(GEN.DAILY.DATE.TIME)=8
+        BzGenRelevesDInitAuthoriser(GEN.DAILY.AUTHORISER)=9
+        BzGenRelevesDInitCoCode(GEN.DAILY.CO.CODE)=10
+        BzGenRelevesDInitDeptCode(GEN.DAILY.DEPT.CODE)=11
+        BzGenRelevesDInitAuditorCode(GEN.DAILY.AUDITOR.CODE)=12
+        BzGenRelevesDInitAuditDateTime(GEN.DAILY.AUDIT.DATE.TIME)=13
+    }
+}

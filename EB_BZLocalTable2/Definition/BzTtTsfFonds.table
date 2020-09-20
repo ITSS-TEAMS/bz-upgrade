@@ -1,0 +1,29 @@
+public table BzTtTsfFonds {
+    t24:  BZ.TT.TSF.FONDS
+    fields:{
+        BzTtTsfFondsDateOperation(TSF.DATE.OPERATION)=1
+        BzTtTsfFondsUniteEnvoi(TSF.UNITE.ENVOI)=2
+        BzTtTsfFondsCaisseEmet(TSF.CAISSE.EMET)=3
+        BzTtTsfFondsCaissierEmet(TSF.CAISSIER.EMET)=4
+        BzTtTsfFondsUniteReceptrice(TSF.UNITE.RECEPTRICE)=5
+        BzTtTsfFondsCaisseReceptrice(TSF.CAISSE.RECEPTRICE)=6
+        BzTtTsfFondsCaissierRecepteur(TSF.CAISSIER.RECEPTEUR)=7
+        BzTtTsfFondsMontant(TSF.MONTANT)=8
+        BzTtTsfFondsDevise(TSF.DEVISE)=9
+        BzTtTsfFondsDateReception(TSF.DATE.RECEPTION)=10
+        BzTtTsfFondsCours(TSF.COURS)=11
+        BzTtTsfFondsStatut(TSF.STATUT)=12
+        BzTtTsfFondsType(TSF.TYPE)=13
+        BzTtTsfFondsLocalRef(TSF.LOCAL.REF)=14
+        BzTtTsfFondsOverride(TSF.OVERRIDE)=15
+        BzTtTsfFondsRecordStatus(TSF.RECORD.STATUS)=16
+        BzTtTsfFondsCurrNo(TSF.CURR.NO)=17
+        BzTtTsfFondsInputter(TSF.INPUTTER)=18
+        BzTtTsfFondsDateTime(TSF.DATE.TIME)=19
+        BzTtTsfFondsAuthoriser(TSF.AUTHORISER)=20
+        BzTtTsfFondsCoCode(TSF.CO.CODE)=21
+        BzTtTsfFondsDeptCode(TSF.DEPT.CODE)=22
+        BzTtTsfFondsAuditorCode(TSF.AUDITOR.CODE)=23
+        BzTtTsfFondsAuditDateTime(TSF.AUDIT.DATE.TIME)=24
+    }
+}

@@ -1,0 +1,28 @@
+public table TnaCardMouvementInterbancaire {
+    t24:  TNA.CARD.MOUVEMENT.INTERBANCAIRE
+    fields:{
+        TnaCardMouvementInterbancaireCodeEnregitrement(MOUVEMENT.CODE.ENREGITREMENT)=1
+        TnaCardMouvementInterbancaireNumEnregistrement(MOUVEMENT.NUM.ENREGISTREMENT)=2
+        TnaCardMouvementInterbancaireCodeOperation(MOUVEMENT.CODE.OPERATION)=3
+        TnaCardMouvementInterbancaireDateTraitement(MOUVEMENT.DATE.TRAITEMENT)=4
+        TnaCardMouvementInterbancaireCodeBqePartenair(MOUVEMENT.CODE.BQE.PARTENAIR)=5
+        TnaCardMouvementInterbancaireSoldeCompensation(MOUVEMENT.SOLDE.COMPENSATION)=6
+        TnaCardMouvementInterbancaireMontantDebit(MOUVEMENT.MONTANT.DEBIT)=7
+        TnaCardMouvementInterbancaireMontantCredit(MOUVEMENT.MONTANT.CREDIT)=8
+        TnaCardMouvementInterbancaireNumCtbEmetteur(MOUVEMENT.NUM.CTB.EMETTEUR)=9
+        TnaCardMouvementInterbancaireCodeBanqueEmetri(MOUVEMENT.CODE.BANQUE.EMETRI)=10
+        TnaCardMouvementInterbancaireNumCtbPartenaire(MOUVEMENT.NUM.CTB.PARTENAIRE)=11
+        TnaCardMouvementInterbancaireCodeBanqueParten(MOUVEMENT.CODE.BANQUE.PARTEN)=12
+        TnaCardMouvementInterbancaireLocalRef(MOUVEMENT.LOCAL.REF)=13
+        TnaCardMouvementInterbancaireOverride(MOUVEMENT.OVERRIDE)=14
+        TnaCardMouvementInterbancaireRecordStatus(MOUVEMENT.RECORD.STATUS)=15
+        TnaCardMouvementInterbancaireCurrNo(MOUVEMENT.CURR.NO)=16
+        TnaCardMouvementInterbancaireInputter(MOUVEMENT.INPUTTER)=17
+        TnaCardMouvementInterbancaireDateTime(MOUVEMENT.DATE.TIME)=18
+        TnaCardMouvementInterbancaireAuthoriser(MOUVEMENT.AUTHORISER)=19
+        TnaCardMouvementInterbancaireCoCode(MOUVEMENT.CO.CODE)=20
+        TnaCardMouvementInterbancaireDeptCode(MOUVEMENT.DEPT.CODE)=21
+        TnaCardMouvementInterbancaireAuditorCode(MOUVEMENT.AUDITOR.CODE)=22
+        TnaCardMouvementInterbancaireAuditDateTime(MOUVEMENT.AUDIT.DATE.TIME)=23
+    }
+}

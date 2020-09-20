@@ -1,0 +1,29 @@
+public table BzDeskPosition {
+    t24:  BZ.DESK.POSITION
+    fields:{
+        BzDeskPositionMois(DESK.POSIT.MOIS)=1
+        BzDeskPositionAnnee(DESK.POSIT.ANNEE)=2
+        BzDeskPositionAction(DESK.POSIT.ACTION)=3
+        BzDeskPositionDesk(DESK.POSIT.DESK)=4
+        BzDeskPositionReserved1(DESK.POSIT.RESERVED.1)=5
+        BzDeskPositionReserved2(DESK.POSIT.RESERVED.2)=6
+        BzDeskPositionReserved3(DESK.POSIT.RESERVED.3)=7
+        BzDeskPositionReserved4(DESK.POSIT.RESERVED.4)=8
+        BzDeskPositionReserved5(DESK.POSIT.RESERVED.5)=9
+        BzDeskPositionReserved6(DESK.POSIT.RESERVED.6)=10
+        BzDeskPositionReserved7(DESK.POSIT.RESERVED.7)=11
+        BzDeskPositionReserved8(DESK.POSIT.RESERVED.8)=12
+        BzDeskPositionReserved9(DESK.POSIT.RESERVED.9)=13
+        BzDeskPositionReserved10(DESK.POSIT.RESERVED.10)=14
+        BzDeskPositionOverride(DESK.POSIT.OVERRIDE)=15
+        BzDeskPositionRecordStatus(DESK.POSIT.RECORD.STATUS)=16
+        BzDeskPositionCurrNo(DESK.POSIT.CURR.NO)=17
+        BzDeskPositionInputter(DESK.POSIT.INPUTTER)=18
+        BzDeskPositionDateTime(DESK.POSIT.DATE.TIME)=19
+        BzDeskPositionAuthoriser(DESK.POSIT.AUTHORISER)=20
+        BzDeskPositionCoCode(DESK.POSIT.CO.CODE)=21
+        BzDeskPositionDeptCode(DESK.POSIT.DEPT.CODE)=22
+        BzDeskPositionAuditorCode(DESK.POSIT.AUDITOR.CODE)=23
+        BzDeskPositionAuditDateTime(DESK.POSIT.AUDIT.DATE.TIME)=24
+    }
+}

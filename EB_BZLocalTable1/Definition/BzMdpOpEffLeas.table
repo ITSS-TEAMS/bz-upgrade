@@ -1,0 +1,30 @@
+public table BzMdpOpEffLeas {
+        t24:  BZ.MDP.OP.EFF.LEAS
+        fields:{
+            BzMdpOpEffLeasTypeOperation(OP.LEAS.TYPE.OPERATION)=1
+            BzMdpOpEffLeasCodeClient(OP.LEAS.CODE.CLIENT)=2
+            BzMdpOpEffLeasIdLeaser(OP.LEAS.ID.LEASER)=3
+            BzMdpOpEffLeasContrat(OP.LEAS.CONTRAT)=4
+            BzMdpOpEffLeasRemise(OP.LEAS.REMISE)=5
+            BzMdpOpEffLeasRibTire(OP.LEAS.RIB.TIRE)=6
+            BzMdpOpEffLeasRefClassement(OP.LEAS.REF.CLASSEMENT)=7
+            BzMdpOpEffLeasNouveauRibTire(OP.LEAS.NOUVEAU.RIB.TIRE)=8
+            BzMdpOpEffLeasDateOperation(OP.LEAS.DATE.OPERATION)=9
+            BzMdpOpEffLeasCritere1(OP.LEAS.CRITERE.1)=10
+            BzMdpOpEffLeasCritere2(OP.LEAS.CRITERE.2)=11
+            BzMdpOpEffLeasCritere3(OP.LEAS.CRITERE.3)=12
+            BzMdpOpEffLeasCritere4(OP.LEAS.CRITERE.4)=13
+            BzMdpOpEffLeasLastVersion(OP.LEAS.LAST.VERSION)=14
+            BzMdpOpEffLeasLocalRef(OP.LEAS.LOCAL.REF)=15
+            BzMdpOpEffLeasOverride(OP.LEAS.OVERRIDE)=16
+            BzMdpOpEffLeasRecordStatus(OP.LEAS.RECORD.STATUS)=17
+            BzMdpOpEffLeasCurrNo(OP.LEAS.CURR.NO)=18
+            BzMdpOpEffLeasInputter(OP.LEAS.INPUTTER)=19
+            BzMdpOpEffLeasDateTime(OP.LEAS.DATE.TIME)=20
+            BzMdpOpEffLeasAuthoriser(OP.LEAS.AUTHORISER)=21
+            BzMdpOpEffLeasCoCode(OP.LEAS.CO.CODE)=22
+            BzMdpOpEffLeasDeptCode(OP.LEAS.DEPT.CODE)=23
+            BzMdpOpEffLeasAuditorCode(OP.LEAS.AUDITOR.CODE)=24
+            BzMdpOpEffLeasAuditDateTime(OP.LEAS.AUDIT.DATE.TIME)=25
+        }
+    }

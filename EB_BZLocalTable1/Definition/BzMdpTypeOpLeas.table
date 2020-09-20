@@ -1,0 +1,17 @@
+public table BzMdpTypeOpLeas {
+    t24:  BZ.MDP.TYPE.OP.LEAS
+    fields:{
+        BzMdpTypeOpLeasDescription(TYP.OP.DESCRIPTION)=1
+        BzMdpTypeOpLeasLocalRef(TYP.OP.LOCAL.REF)=2
+        BzMdpTypeOpLeasOverride(TYP.OP.OVERRIDE)=3
+        BzMdpTypeOpLeasRecordStatus(TYP.OP.RECORD.STATUS)=4
+        BzMdpTypeOpLeasCurrNo(TYP.OP.CURR.NO)=5
+        BzMdpTypeOpLeasInputter(TYP.OP.INPUTTER)=6
+        BzMdpTypeOpLeasDateTime(TYP.OP.DATE.TIME)=7
+        BzMdpTypeOpLeasAuthoriser(TYP.OP.AUTHORISER)=8
+        BzMdpTypeOpLeasCoCode(TYP.OP.CO.CODE)=9
+        BzMdpTypeOpLeasDeptCode(TYP.OP.DEPT.CODE)=10
+        BzMdpTypeOpLeasAuditorCode(TYP.OP.AUDITOR.CODE)=11
+        BzMdpTypeOpLeasAuditDateTime(TYP.OP.AUDIT.DATE.TIME)=12
+    }
+}

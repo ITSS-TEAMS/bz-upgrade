@@ -1,0 +1,22 @@
+public table BzAvaMotifCloture {
+    t24:  BZ.AVA.MOTIF.CLOTURE
+    fields:{
+        BzAvaMotifClotureDescription(MOT.CLO.DESCRIPTION)=1
+        BzAvaMotifClotureReserved1(MOT.CLO.RESERVED1)=2
+        BzAvaMotifClotureReserved2(MOT.CLO.RESERVED2)=3
+        BzAvaMotifClotureReserved3(MOT.CLO.RESERVED3)=4
+        BzAvaMotifClotureReserved4(MOT.CLO.RESERVED4)=5
+        BzAvaMotifClotureReserved5(MOT.CLO.RESERVED5)=6
+        BzAvaMotifClotureLocalRef(MOT.CLO.LOCAL.REF)=7
+        BzAvaMotifClotureOverride(MOT.CLO.OVERRIDE)=8
+        BzAvaMotifClotureRecordStatus(MOT.CLO.RECORD.STATUS)=9
+        BzAvaMotifClotureCurrNo(MOT.CLO.CURR.NO)=10
+        BzAvaMotifClotureInputter(MOT.CLO.INPUTTER)=11
+        BzAvaMotifClotureDateTime(MOT.CLO.DATE.TIME)=12
+        BzAvaMotifClotureAuthoriser(MOT.CLO.AUTHORISER)=13
+        BzAvaMotifClotureCoCode(MOT.CLO.CO.CODE)=14
+        BzAvaMotifClotureDeptCode(MOT.CLO.DEPT.CODE)=15
+        BzAvaMotifClotureAuditorCode(MOT.CLO.AUDITOR.CODE)=16
+        BzAvaMotifClotureAuditDateTime(MOT.CLO.AUDIT.DATE.TIME)=17
+    }
+}

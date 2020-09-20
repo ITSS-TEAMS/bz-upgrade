@@ -1,0 +1,493 @@
+component EB.BZLocalTable3
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+private method bzMdpPrelDomBz (
+)
+{
+    jBC: BZ.MDP.PREL.DOM.BZ
+}
+private method bzMdpPrelDomBzFields (
+)
+{
+    jBC: BZ.MDP.PREL.DOM.BZ.FIELDS
+}
+private method bzSedAllocRetroFields (
+)
+{
+    jBC: BZ.SED.ALLOC.RETRO.FIELDS
+}
+private method bzSedAllocRetro (
+)
+{
+    jBC: BZ.SED.ALLOC.RETRO
+}
+private method bzMdpPrelEmisGlobFields (
+)
+{
+    jBC: BZ.MDP.PREL.EMIS.GLOB.FIELDS
+}
+private method bzMdpPrelEmisGlob (
+)
+{
+    jBC: BZ.MDP.PREL.EMIS.GLOB
+}
+private method bzWuCompensation (
+)
+{
+    jBC: BZ.WU.COMPENSATION
+}
+private method bzWuCompensationFields (
+)
+{
+    jBC: BZ.WU.COMPENSATION.FIELDS
+}
+private method bzMonRegistreGabChange (
+)
+{
+    jBC: BZ.MON.REGISTRE.GAB.CHANGE
+}
+private method bzMonRegistreGabChangeFields (
+)
+{
+    jBC: BZ.MON.REGISTRE.GAB.CHANGE.FIELDS
+}
+private method bzRegistreEffLeasingFields (
+)
+{
+    jBC: BZ.REGISTRE.EFF.LEASING.FIELDS
+}
+private method bzRegistreEffLeasing (
+)
+{
+    jBC: BZ.REGISTRE.EFF.LEASING
+}
+private method bzTunepsLot (
+)
+{
+    jBC: BZ.TUNEPS.LOT
+}
+private method bzTunepsLotFields (
+)
+{
+    jBC: BZ.TUNEPS.LOT.FIELDS
+}
+private method bzMdpRegistreChq (
+)
+{
+    jBC: BZ.MDP.REGISTRE.CHQ
+}
+private method bzMdpRegistreChqFields (
+)
+{
+    jBC: BZ.MDP.REGISTRE.CHQ.FIELDS
+}
+private method bzMdpRegistreChqDraft (
+)
+{
+    jBC: BZ.MDP.REGISTRE.CHQ.DRAFT
+}
+private method bzMdpRegistreChqDraftFields (
+)
+{
+    jBC: BZ.MDP.REGISTRE.CHQ.DRAFT.FIELDS
+}
+private method bzMgCompensation (
+)
+{
+    jBC: BZ.MG.COMPENSATION
+}
+private method bzMgCompensationFields (
+)
+{
+    jBC: BZ.MG.COMPENSATION.FIELDS
+}
+private method bzMdpPrelEmis (
+)
+{
+    jBC: BZ.MDP.PREL.EMIS
+}
+private method bzMdpPrelEmisFields (
+)
+{
+    jBC: BZ.MDP.PREL.EMIS.FIELDS
+}
+private method bzCustomerChahrity (
+)
+{
+    jBC: BZ.CUSTOMER.CHAHRITY
+}
+private method bzCustomerChahrityFields (
+)
+{
+    jBC: BZ.CUSTOMER.CHAHRITY.FIELDS
+}
+private method bzTunepsContrat (
+)
+{
+    jBC: BZ.TUNEPS.CONTRAT
+}
+private method bzTunepsContratFields (
+)
+{
+    jBC: BZ.TUNEPS.CONTRAT.FIELDS
+}
+private method bzSedDecData (
+)
+{
+    jBC: BZ.SED.DEC.DATA
+}
+private method bzSedDecDataFields (
+)
+{
+    jBC: BZ.SED.DEC.DATA.FIELDS
+}
+private method bzAvis (
+)
+{
+    jBC: BZ.AVIS
+}
+private method bzAvisFields (
+)
+{
+    jBC: BZ.AVIS.FIELDS
+}
+private method bzSibtelPapEditFields (
+)
+{
+    jBC: BZ.SIBTEL.PAP.EDIT.FIELDS
+}
+private method bzSibtelPapEdit (
+)
+{
+    jBC: BZ.SIBTEL.PAP.EDIT
+}
+private method bzTunepsAppelOffreFields (
+)
+{
+    jBC: BZ.TUNEPS.APPEL.OFFRE.FIELDS
+}
+private method bzTunepsAppelOffre (
+)
+{
+    jBC: BZ.TUNEPS.APPEL.OFFRE
+}
+private method bzCommercantTransDetailFields (
+)
+{
+    jBC: BZ.COMMERCANT.TRANS.DETAIL.FIELDS
+}
+private method bzCommercantTransDetail (
+)
+{
+    jBC: BZ.COMMERCANT.TRANS.DETAIL
+}
+private method bzCommercantTransFields (
+)
+{
+    jBC: BZ.COMMERCANT.TRANS.FIELDS
+}
+private method bzCommercantTrans (
+)
+{
+    jBC: BZ.COMMERCANT.TRANS
+}
+private method bzMdpVirMasseFields (
+)
+{
+    jBC: BZ.MDP.VIR.MASSE.FIELDS
+}
+private method bzMdpVirMasse (
+)
+{
+    jBC: BZ.MDP.VIR.MASSE
+}
+private method bzPwcMonRegistryFields (
+)
+{
+    jBC: BZ.PWC.MON.REGISTRY.FIELDS
+}
+private method bzPwcMonRegistry (
+)
+{
+    jBC: BZ.PWC.MON.REGISTRY
+}
+private method bzSibtelCnpCompEdit (
+)
+{
+    jBC: BZ.SIBTEL.CNP.COMP.EDIT
+}
+private method bzSibtelCnpCompEditFields (
+)
+{
+    jBC: BZ.SIBTEL.CNP.COMP.EDIT.FIELDS
+}
+private method bzSibtelPapCompEdit (
+)
+{
+    jBC: BZ.SIBTEL.PAP.COMP.EDIT
+}
+private method bzSibtelPapCompEditFields (
+)
+{
+    jBC: BZ.SIBTEL.PAP.COMP.EDIT.FIELDS
+}
+private method bzMdpRemiseChqDraftFields (
+)
+{
+    jBC: BZ.MDP.REMISE.CHQ.DRAFT.FIELDS
+}
+private method bzMdpRemiseChqDraft (
+)
+{
+    jBC: BZ.MDP.REMISE.CHQ.DRAFT
+}
+private method bzMdpPrelDom (
+)
+{
+    jBC: BZ.MDP.PREL.DOM
+}
+private method bzMdpPrelDomFields (
+)
+{
+    jBC: BZ.MDP.PREL.DOM.FIELDS
+}
+private method bzRegistreCpsVisaFields (
+)
+{
+    jBC: BZ.REGISTRE.CPS.VISA.FIELDS
+}
+private method bzRegistreCpsVisa (
+)
+{
+    jBC: BZ.REGISTRE.CPS.VISA
+}
+private method bzMdpVirMasseGlob (
+)
+{
+    jBC: BZ.MDP.VIR.MASSE.GLOB
+}
+private method bzMdpVirMasseGlobFields (
+)
+{
+    jBC: BZ.MDP.VIR.MASSE.GLOB.FIELDS
+}
+private method bzDabTrait (
+)
+{
+    jBC: BZ.DAB.TRAIT
+}
+private method bzDabTraitFields (
+)
+{
+    jBC: BZ.DAB.TRAIT.FIELDS
+}
+private method bzIjrFacture (
+)
+{
+    jBC: BZ.IJR.FACTURE
+}
+private method bzIjrFactureFields (
+)
+{
+    jBC: BZ.IJR.FACTURE.FIELDS
+}
+private method bzTunepsFournisseurFields (
+)
+{
+    jBC: BZ.TUNEPS.FOURNISSEUR.FIELDS
+}
+private method bzTunepsFournisseur (
+)
+{
+    jBC: BZ.TUNEPS.FOURNISSEUR
+}
+private method bzEtatHabilitationFields (
+)
+{
+    jBC: BZ.ETAT.HABILITATION.FIELDS
+}
+private method bzEtatHabilitation (
+)
+{
+    jBC: BZ.ETAT.HABILITATION
+}
+private method bzFactIjaraFields (
+)
+{
+    jBC: BZ.FACT.IJARA.FIELDS
+}
+private method bzFactIjara (
+)
+{
+    jBC: BZ.FACT.IJARA
+}
+private method bzSmAffiliation (
+)
+{
+    jBC: BZ.SM.AFFILIATION
+}
+private method bzSmAffiliationFields (
+)
+{
+    jBC: BZ.SM.AFFILIATION.FIELDS
+}
+private method bzCusGarEng (
+)
+{
+    jBC: BZ.CUS.GAR.ENG
+}
+private method bzCusGarEngFields (
+)
+{
+    jBC: BZ.CUS.GAR.ENG.FIELDS
+}
+private method bzEtrTicketFxFields (
+)
+{
+    jBC: BZ.ETR.TICKET.FX.FIELDS
+}
+private method bzEtrTicketFx (
+)
+{
+    jBC: BZ.ETR.TICKET.FX
+}
+private method bzEtrSuiviFraisOurFields (
+)
+{
+    jBC: BZ.ETR.SUIVI.FRAIS.OUR.FIELDS
+}
+private method bzEtrSuiviFraisOur (
+)
+{
+    jBC: BZ.ETR.SUIVI.FRAIS.OUR
+}
+private method bzMdpRemiseChq (
+)
+{
+    jBC: BZ.MDP.REMISE.CHQ
+}
+private method bzMdpRemiseChqFields (
+)
+{
+    jBC: BZ.MDP.REMISE.CHQ.FIELDS
+}
+private method bzEmissionChqBqFields (
+)
+{
+    jBC: BZ.EMISSION.CHQ.BQ.FIELDS
+}
+private method bzEmissionChqBq (
+)
+{
+    jBC: BZ.EMISSION.CHQ.BQ
+}
+private method bzDeskMvmtPositionFields (
+)
+{
+    jBC: BZ.DESK.MVMT.POSITION.FIELDS
+}
+private method bzDeskMvmtPosition (
+)
+{
+    jBC: BZ.DESK.MVMT.POSITION
+}
+private method bzPwcCommissionRegistry (
+)
+{
+    jBC: BZ.PWC.COMMISSION.REGISTRY
+}
+private method bzPwcCommissionRegistryFields (
+)
+{
+    jBC: BZ.PWC.COMMISSION.REGISTRY.FIELDS
+}
+private method bzTakafulProduit (
+)
+{
+    jBC: BZ.TAKAFUL.PRODUIT
+}
+private method bzTakafulProduitFields (
+)
+{
+    jBC: BZ.TAKAFUL.PRODUIT.FIELDS
+}
+private method bzMdtRegistreFields (
+)
+{
+    jBC: BZ.MDT.REGISTRE.FIELDS
+}
+private method bzMdtRegistre (
+)
+{
+    jBC: BZ.MDT.REGISTRE
+}
+private method bzFactIjaraHist (
+)
+{
+    jBC: BZ.FACT.IJARA.HIST
+}
+private method bzFactIjaraHistFields (
+)
+{
+    jBC: BZ.FACT.IJARA.HIST.FIELDS
+}
+private method bzFactIjaraListe (
+)
+{
+    jBC: BZ.FACT.IJARA.LISTE
+}
+private method bzFactIjaraListEFields (
+)
+{
+    jBC: BZ.FACT.IJARA.LISTE.FIELDS
+}
+private method bzFinMurGaranties (
+    
+    ){
+        jBC: BZ.FIN.MUR.GARANTIES
+    }
+    private method bzIjrFactureConcat (
+    
+        ){
+            jBC: BZ.IJR.FACTURE.CONCAT
+        }
+
+        private method bzMdpPrelRecu (
+    
+            ){
+                jBC: BZ.MDP.PREL.RECU
+            }
+            private method bzMdpPrelRecuFields (
+    
+                ){
+                    jBC: BZ.MDP.PREL.RECU.FIELDS
+                }
+ 
+                private method bzMdpPrelRepris (
+    
+                    ){
+                        jBC: BZ.MDP.PREL.REPRIS
+                    }
+                    private method bzMdpPrelReprisFields (
+    
+                        ){
+                            jBC: BZ.MDP.PREL.REPRIS.FIELDS
+                        }
+                        private method bzSedDeclarationFields (
+    
+                            ){
+                                jBC: BZ.SED.DECLARATION.FIELDS
+                            }
+                        
+                            private method bzStructureTiersFld (
+    
+                                ){
+                                    jBC: BZ.STRUCTURE.TIERS.FLD
+                                }
+                                private method bzTtTsfFonds (
+    
+                                    ){
+                                        jBC: BZ.TT.TSF.FONDS
+                                    }

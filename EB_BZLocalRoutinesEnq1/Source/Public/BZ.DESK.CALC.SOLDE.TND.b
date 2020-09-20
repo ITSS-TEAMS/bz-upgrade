@@ -1,0 +1,99 @@
+ *-----------------------------------------------------------------------------
+* <Rating>-12</Rating>
+*-----------------------------------------------------------------------------
+*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R09-R13  : INCLUDE GLOBUS.BP to $INCLUDE ../T24_BP
+*                   INCLUDE BP to $INCLUDE BZDEV.BP
+*ZIT-UPG-R13-R19  : NO CHANGES
+*-----------------------------------------------------------------------------
+
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE  BZ.DESK.CALC.SOLDE.TND
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*ZIT-UPG-R09-R13/S
+*INCLUDE GLOBUS.BP I_COMMON
+*INCLUDE GLOBUS.BP I_EQUATE
+*INCLUDE GLOBUS.BP I_ENQUIRY.COMMON
+*INCLUDE BP I_F.BZ.DESK.COURS.PERIOD
+*INCLUDE BP I_F.BZ.DESK.POSITION.PERIOD
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+$INSERT I_F.BZ.DESK.COURS.PERIOD
+$INSERT I_F.BZ.DESK.POSITION.PERIOD
+
+
+*ZIT-UPG-R09-R13/E
+* $INSERT I_F.AC.CHARGE.REQUEST - Not Used anymore;COURS.PERIOD"
+    F.DESK.COURS.PRD=""
+    R.DESK.COURS.PRD=''
+    ERR.DESK.COURS.PRD=''
+
+
+    FN.DESK.POS.PRD="F.BZ.DESK.POSITION.PERIOD"
+    F.DESK.POS.PRD=""
+    R.DESK.POS.PRD=''
+    ERR.DESK.POS.PRD=''
+
+    CALL OPF(FN.DESK.POS.PRD,F.DESK.POS.PRD)
+    CALL OPF(FN.DESK.COURS.PRD,F.DESK.COURS.PRD)
+
+    V.DEEB.SystemTables.getVFunction()(O.DATA,"*",1EB.SystemTables.getVFunction()EV.MNT=FIELD(O.DATFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusERIODE=FIELD(O.DATA,"*",3)
+    V.AGENCE = FIEFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus
+    V.MNT.TND=FIELD(O.DATA,"*",5)
+    V.DEALER.DESK=FIELD(O.DATA,"*",6)
+
+    V.MOIS=V.PERIODE[5,6]
+
+    V.ANNEE=V.PERIODE[1,4]
+
+    IF V.MOIS EQ '01' THEN
+        V.ANNEE= V.ANNEE - 1
+        V.ANNEE=FMT(V.ANNEE, "R%4")
+        V.MOIS="12"
+        V.PERIODE.LAST=V.ANNEE:V.MOIS
+    END ELSE
+
+        V.MOIS= V.MOIS - 1
+        V.MOIS=FMT(V.MOIS, "R%2")
+        V.PERIODE.LAST=V.ANNEE:V.MOIS
+
+    END
+
+    V.ID.PERIOD=V.DEVISE: "-" : V.PERIODE.LAST : "-" : V.AGENCE : "-" : V.DEALER.DESK
+
+    CALL F.READ(FN.DESK.POS.PRD,V.ID.PERIOD,R.DESK.POS.PRD,F.DESK.POS.PRD,ERR.DESK.POS.PRD)
+    V.POS.DINARS.INIT=R.DESK.POS.PRD<DESK.PP.POSITION.DINARS>
+    V.POSITION.REVALUE.LAST=R.DESK.POS.PRD<DESK.PP.POSITION.REVALUE>
+
+*******EB.DataAccess.OpfB.DataAccess.OpfMETTRE A JOUR NOUVELLE POSITION TND**************
+
+
+    V.ID=V.DEVISE:"-":V.PERIODE:"-": V.AGENCE: "-" : V.DEALER.DESK
+    CALL F.READ(FN.DESK.POS.PRD,V.ID,R.DESK.POS.PRD,F.DESK.POS.PRD,ERR.DESK.POS.PRD)
+    V.NOUV.POS.TNDEB.SystemTables.getRNew()SFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefAST+V.MNT.TND
+    V.NOUV.POS.TND=DROUND(V.NOUV.POS.TND,3)
+    O.DATEB.DataAccess.FReadOUV.POS.TND
+    V.POSITION.REVALUE=R.DESK.POS.PRD<DESK.PP.POSITION.REVALUE>
+    V.RENTABILITE=V.POSITION.REVALUE - O.DATA
+    GOSUB ENREGISTREMENT
+
+ENREGISTREMENT:
+    R.DESEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer.setE(O.DATA)
+    R.DESK.POS.PRD<DESK.PP.TOT.MOUV.DINARS>=V.MNT.TND
+    R.DESK.POS.PRD<DEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer>=V.REB.SystemTables.getIdNew()LITE
+    CALL F.WRITE(FN.DESK.POS.PRD,V.ID,R.DESK.POS.PRD)
+    EB.DataAccess.FWriteV.ID)
+*****FIN METTRE A JOUR NOUVELLE POSITION TND
+
+    RETURN
+END

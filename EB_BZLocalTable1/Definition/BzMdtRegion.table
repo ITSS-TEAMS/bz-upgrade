@@ -1,0 +1,21 @@
+public table BzMdtRegion {
+    t24:  BZ.MDT.REGION
+    fields:{
+        BzMdtRegionDescription(MDTREGION.DESCRIPTION)=1
+        BzMdtRegionReserved1(MDTREGION.RESERVED1)=2
+        BzMdtRegionReserved2(MDTREGION.RESERVED2)=3
+        BzMdtRegionReserved3(MDTREGION.RESERVED3)=4
+        BzMdtRegionReserved4(MDTREGION.RESERVED4)=5
+        BzMdtRegionReserved5(MDTREGION.RESERVED5)=6
+        BzMdtRegionOverride(MDTREGION.OVERRIDE)=7
+        BzMdtRegionRecordStatus(MDTREGION.RECORD.STATUS)=8
+        BzMdtRegionCurrNo(MDTREGION.CURR.NO)=9
+        BzMdtRegionInputter(MDTREGION.INPUTTER)=10
+        BzMdtRegionDateTime(MDTREGION.DATE.TIME)=11
+        BzMdtRegionAuthoriser(MDTREGION.AUTHORISER)=12
+        BzMdtRegionCoCode(MDTREGION.CO.CODE)=13
+        BzMdtRegionDeptCode(MDTREGION.DEPT.CODE)=14
+        BzMdtRegionAuditorCode(MDTREGION.AUDITOR.CODE)=15
+        BzMdtRegionAuditDateTime(MDTREGION.AUDIT.DATE.TIME)=16
+    }
+}

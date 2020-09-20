@@ -1,0 +1,43 @@
+public table BzTunepsAppelOffre {
+    t24:  BZ.TUNEPS.APPEL.OFFRE
+    fields:{
+        BzTunepsAppelOffreHeureRecu(TUNEPS.AO.HEURE.RECU)=1
+        BzTunepsAppelOffreCodeResultatRecu(TUNEPS.AO.CODE.RESULTAT.RECU)=2
+        BzTunepsAppelOffreMessageResultat(TUNEPS.AO.MESSAGE.RESULTAT)=3
+        BzTunepsAppelOffreIdTransmission(TUNEPS.AO.ID.TRANSMISSION)=4
+        BzTunepsAppelOffreNomAvisAo(TUNEPS.AO.NOM.AVIS.AO)=5
+        BzTunepsAppelOffreNumAo(TUNEPS.AO.NUM.AO)=6
+        BzTunepsAppelOffreNumSeqAo(TUNEPS.AO.NUM.SEQ.AO)=7
+        BzTunepsAppelOffreNumLot(TUNEPS.AO.NUM.LOT)=8
+        BzTunepsAppelOffreNomLot(TUNEPS.AO.NOM.LOT)=9
+        BzTunepsAppelOffreDetailLot(TUNEPS.AO.DETAIL.LOT)=10
+        BzTunepsAppelOffreDevise(TUNEPS.AO.DEVISE)=11
+        BzTunepsAppelOffreMontantAo(TUNEPS.AO.MONTANT.AO)=12
+        BzTunepsAppelOffreNomAcheteur(TUNEPS.AO.NOM.ACHETEUR)=13
+        BzTunepsAppelOffreCodeAcheteur(TUNEPS.AO.CODE.ACHETEUR)=14
+        BzTunepsAppelOffreAvisReel(TUNEPS.AO.AVIS.REEL)=15
+        BzTunepsAppelOffreValiditeOffre(TUNEPS.AO.VALIDITE.OFFRE)=16
+        BzTunepsAppelOffreCategorieActiv(TUNEPS.AO.CATEGORIE.ACTIV)=17
+        BzTunepsAppelOffreModePassation(TUNEPS.AO.MODE.PASSATION)=18
+        BzTunepsAppelOffreAoElectronique(TUNEPS.AO.AO.ELECTRONIQUE)=19
+        BzTunepsAppelOffreDatePublication(TUNEPS.AO.DATE.PUBLICATION)=20
+        BzTunepsAppelOffreDateDebRecp(TUNEPS.AO.DATE.DEB.RECP)=21
+        BzTunepsAppelOffreDateFinRecp(TUNEPS.AO.DATE.FIN.RECP)=22
+        BzTunepsAppelOffreDateOuvPlis(TUNEPS.AO.DATE.OUV.PLIS)=23
+        BzTunepsAppelOffreDescActiv(TUNEPS.AO.DESC.ACTIV)=24
+        BzTunepsAppelOffreDescPassation(TUNEPS.AO.DESC.PASSATION)=25
+        BzTunepsAppelOffreDescAoElec(TUNEPS.AO.DESC.AO.ELEC)=26
+        BzTunepsAppelOffreReserved4(TUNEPS.AO.RESERVED.4)=27
+        BzTunepsAppelOffreReserved5(TUNEPS.AO.RESERVED.5)=28
+        BzTunepsAppelOffreOverride(TUNEPS.AO.OVERRIDE)=29
+        BzTunepsAppelOffreRecordStatus(TUNEPS.AO.RECORD.STATUS)=30
+        BzTunepsAppelOffreCurrNo(TUNEPS.AO.CURR.NO)=31
+        BzTunepsAppelOffreInputter(TUNEPS.AO.INPUTTER)=32
+        BzTunepsAppelOffreDateTime(TUNEPS.AO.DATE.TIME)=33
+        BzTunepsAppelOffreAuthoriser(TUNEPS.AO.AUTHORISER)=34
+        BzTunepsAppelOffreCoCode(TUNEPS.AO.CO.CODE)=35
+        BzTunepsAppelOffreDeptCode(TUNEPS.AO.DEPT.CODE)=36
+        BzTunepsAppelOffreAuditorCode(TUNEPS.AO.AUDITOR.CODE)=37
+        BzTunepsAppelOffreAuditDateTime(TUNEPS.AO.AUDIT.DATE.TIME)=38
+    }
+}

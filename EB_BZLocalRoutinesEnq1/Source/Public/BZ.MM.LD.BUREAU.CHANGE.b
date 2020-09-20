@@ -1,0 +1,373 @@
+*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R09-R13  : $INSERT BP to $INCLUDE BZDEV.BP
+*ZIT-UPG-R13-R19  : FM,VM CHANGED TO @FM,@VM 
+*                   CONVERT CHANGED TO CHANGE
+*                   AC.WORKING.BALANCE CHANGED TO ECB.WORKING.BALANCE
+*                   ARITHEMATIC OPERATOR CHANGED TO T24 OPERATOR
+*-----------------------------------------------------------------------------
+*cree par Fahmi Abdeltif (fahmi.abdeltif@banquezitouna.com)
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.MM.LD.BUREAU.CHANGE(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.SECTOR
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.MM.MONEY.MARKET
+    $INSERT I_F.CATEGORY
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    * $INSERT I_COMMON - Not Used anymore;ENCY
+    * $INSERT I_EQUATE - Not Used anymore;
+*ZIT-UPG-R13-R19/S
+	* $INSERT I_F.AC.CHARGE.REQUEST - Not Used anymore;
+*ZIT-UPG-R13-R19/E
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB PROCESS
+    RETURN
+
+INIT:
+
+    FN.LD="F.LD.LOANS.AND.DEPOSITS"
+    F.LD=""
+    CALL OPF(FN.LD,F.LD)
+
+    FN.MM="F.MM.MONEY.MARKET"
+    F.MM=""
+    CALL OPF(FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus  FN.CURR = 'F.CURRENCY'
+    F.CURR = ''
+   FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus, F.CURR)
+
+    FN.CUSTOMER = 'F.CUSTOMER'
+    F.CUSTOMER = ''
+    CALL OPF(FN.CUSTOMER,F.CUSTOMER)
+
+    FN.AC= 'F.ACCOUNT'
+    F.AC = ''
+    CALL OPF(FN.AC,F.AC)
+
+    FN.CATEG = 'F.CATEGORY'
+    F.CATEG = ''
+    CALL OPF(FN.CATEG,F.CATEG)
+
+    FN.SECTOR = 'F.SECTOR'
+    F.SECTOR = ''
+    CALL OPF(FN.SECTOR,F.SECTOR)
+
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+    CALL OPF (FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+
+    FN.USEB.DataAccess.Opf'F.USER'
+    F.USEEB.DataAccess.Opf'
+    CALL OPF (FN.USER,F.USER)
+    REF.ID=""
+    COMMENTAIRE=""
+    RETURN
+
+PROCESS:
+AC.IDS ='EB.FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefdCOUNT =''
+AC.ERROR =''
+    SQL.AC = 'SELECT ':FN.AC:' WITH CATEGORY EQ 1086'
+    CALL EB.READLIST(SQL.AC EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerT,AC.ERROR)
+
+    FOR I =1EB.SystemTables.setE()*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R09-R13  : $INSERT BP to $INCLUDE BZDEV.BP
+*ZIT-UPG-R13-R19  : FM,VM CHANGED TO @FM,@VM 
+*                   CONVERT CHANGED TO CHANGE
+*                   AC.WORKING.BALANCE CHANGED TO ECB.WORKING.BALANCE
+*                   ARITHEMATIC OPERATOR CHANGED TO T24 OPERATOR
+*-----------------------------------------------------------------------------
+*cree par Fahmi Abdeltif (fahmi.abdeltif@banquezitouna.com)
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.MM.LD.BUREAU.CHANGE(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.SECTOR
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.MM.MONEY.MARKET
+    $INSERT I_F.CATEGORY
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.USER
+*ZIT-UPG-R13-R19/S
+	$INSERT I_F.EB.CONTRACT.BALANCES
+*ZIT-UPG-R13-R19/E
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB PROCESS
+    RETURN
+
+INIT:
+
+    FN.LD="F.LD.LOANS.AND.DEPOSITS"
+    F.LD=""
+    CALL OPF(FN.LD,F.LD)
+
+    FN.MM="F.MM.MONEY.MARKET"
+    F.MM=""
+    CALL OPF(FN.MM,F.MM)
+
+    FN.CURR = 'F.CURRENCY'
+    F.CURR = ''
+    CALL OPF(FN.CURR, F.CURR)
+
+    FN.CUSTOMER = 'F.CUSTOMER'
+    F.CUSTOMER = ''
+    CALL OPF(FN.CUSTOMER,F.CUSTOMER)
+
+    FN.AC= 'F.ACCOUNT'
+    F.AC = ''
+    CALL OPF(FN.AC,F.AC)
+
+    FN.CATEG = 'F.CATEGORY'
+    F.CATEG = ''
+    CALL OPF(FN.CATEG,F.CATEG)
+
+    FN.SECTOR = 'F.SECTOR'
+    F.SECTOR = ''
+    CALL OPF(FN.SECTOR,F.SECTOR)
+
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+    CALL OPF (FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+
+    FN.USER='F.USER'
+    F.USER=''
+    CALL OPF (FN.USER,F.USER)
+    REF.ID=""
+    COMMENTAIRE=""
+    RETURN
+
+PROCESS:
+AC.IDS =''
+AC.COUNT =''
+AC.ERROR =''
+    SQL.AC = 'SELECT ':FN.AC:' WITH CATEGORY EQ 1086'
+    CALL EB.READLIST(SQL.AC ,AC.IDS,'',AC.COUNT,AC.ERROR)
+
+    FOR I =1 TO AC.COUNT
+        REF.ID=AC.IDS<I>
+		R.ACEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer        EB.DataAccess.FWriteC,REF.ID,R.AC,F.AC,YERR)
+        CUSTOMER.ID = R.AC<AC.CUSTOMER>
+		
+*ZIT-UPG-R13-R19/S		
+CALL EB.EB.SystemTables.setAf()*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R09-R13  : $INSERT BP to $INCLUDE BZDEV.BP
+*ZIT-UPG-R13-R19  : FM,VM CHANGED TO @FM,@VM 
+*                   CONVERT CHANGED TO CHANGE
+*                   AC.WORKING.BALANCE CHANGED TO ECB.WORKING.BALANCE
+*                   ARITHEMATIC OPERATOR CHANGED TO T24 OPERATOR
+*-----------------------------------------------------------------------------
+*cree par Fahmi Abdeltif (fahmi.abdeltif@banquezitouna.com)
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.MM.LD.BUREAU.CHANGE(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.SECTOR
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.MM.MONEY.MARKET
+    $INSERT I_F.CATEGORY
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.USER
+*ZIT-UPG-R13-R19/S
+	$INSERT I_F.EB.CONTRACT.BALANCES
+*ZIT-UPG-R13-R19/E
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB PROCESS
+    RETURN
+
+INIT:
+
+    FN.LD="F.LD.LOANS.AND.DEPOSITS"
+    F.LD=""
+    CALL OPF(FN.LD,F.LD)
+
+    FN.MM="F.MM.MONEY.MARKET"
+    F.MM=""
+    CALL OPF(FN.MM,F.MM)
+
+    FN.CURR = 'F.CURRENCY'
+    F.CURR = ''
+    CALL OPF(FN.CURR, F.CURR)
+
+    FN.CUSTOMER = 'F.CUSTOMER'
+    F.CUSTOMER = ''
+    CALL OPF(FN.CUSTOMER,F.CUSTOMER)
+
+    FN.AC= 'F.ACCOUNT'
+    F.AC = ''
+    CALL OPF(FN.AC,F.AC)
+
+    FN.CATEG = 'F.CATEGORY'
+    F.CATEG = ''
+    CALL OPF(FN.CATEG,F.CATEG)
+
+    FN.SECTOR = 'F.SECTOR'
+    F.SECTOR = ''
+    CALL OPF(FN.SECTOR,F.SECTOR)
+
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+    CALL OPF (FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+
+    FN.USER='F.USER'
+    F.USER=''
+    CALL OPF (FN.USER,F.USER)
+    REF.ID=""
+    COMMENTAIRE=""
+    RETURN
+
+PROCESS:
+AC.IDS =''
+AC.COUNT =''
+AC.ERROR =''
+    SQL.AC = 'SELECT ':FN.AC:' WITH CATEGORY EQ 1086'
+    CALL EB.READLIST(SQL.AC ,AC.IDS,'',AC.COUNT,AC.ERROR)
+
+    FOR I =1 TO AC.COUNT
+        REF.ID=AC.IDS<I>
+		R.AC =''
+		YERR =''
+        CALL F.READ(FN.AC,REF.ID,R.AC,F.AC,YERR)
+        CUSTOMER.ID = R.AC<AC.CUSTOMER>
+		
+*ZIT-UPG-R13-R19/S		
+CALL EB.REAFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefRACT.BALANCES', ACCOUNT.ID, R.ECB, ECB.ERR)
+W.BALANCEB.SystemTables.setE(R.ECB<ECB.WORKING.BALANCE>)
+*ZIT-UPG-R13-R19/E
+*	    W.BALANCE = R.AC<AC.WORKING.BALANCE>  ;*AC.WORKING.BALANCE CHANGED TO ECB.WORKING.BALANCE
+
+        DEPT.CODE=R.AC<AC.ACCOUNT.OFFICER>
+        DEPART.CODE = R.USER<EB.USE.DEPARTMENT.CODE>
+		R.CUSTOMER =''
+		CUS.YERR =''
+        CALL F.READ(FN.CUSTOMER,CUSTOMER.ID,R.CUSTOMER,F.CUSTOMER,CUS.YERR)
+        DEVISE.COMPTE = R.AC<AC.CURRENCY>
+        PHONE = R.CUSTOMER<EB.CUS.PHONE.1>
+        EMAIL = R.CUSTOMER<EB.CUS.EMAIL.1>
+		R.CURR =''
+		ERR.CURR =''
+        CALL F.READ(FN.CURR,DEVISE.COMPTE,R.CURR,F.CURR,ERR.CURR)
+        CURRENCY.MARKET = R.CURR<EB.CUR.CURRENCY.MARKET>
+        REVAL.RATES = R.CURR<EB.CUR.REVAL.RATE>
+        CCY.MKT = "1"
+*        CONVERT VM TO FM IN CURRENCY.MARKET  ;*CONVERT CHANGED TO CHANGE
+        CHANGE @VM TO @FM IN CURRENCY.MARKET
+        LOCATE CCY.MKT IN  CURRENCY.MARKET<1> SETTING POS ELSE POS = 0
+        REVAL.RATE = REVAL.RATES<1,POS>
+        CONTRE.VALEUR=W.BALANCE*REVAL.RATE
+        IF CONTRE.VALEUR EQ 0 THEN  ;*
+            CONTRE.VALEUR = W.BALANCE
+            CALL EB.ROUND.AMOUNT(LCCY,CONTRE.VALEUR,"","")
+        END
+		 MM.IDS =''
+		 MM.COUNT =''
+		 MM.ERROR =''
+        SQL.MM = "SELECT " : FN.MM :" WITH CUSTOMER.ID EQ " :CUSTOMER.ID: " AND CURRENCY EQ " :DEVISE.COMPTE:
+        CALL EB.READLIST(SQL.MM , MM.IDS,'',MM.COUNT,MM.ERROR)
+
+        FOR J = 1 TO MM.COUNT
+            CONTRAT.MM = MM.IDS<J>
+            CALL F.READ(FN.MM,MM.IDS<J>,R.MM,F.MM,YERR)
+            Y.AMOUNT.MM= R.MM<MM.PRINCIPAL>
+            DEVISE.CONTRAT.MM=R.MM<MM.CURRENCY>
+            CALL F.READ(FN.CURR,DEVISE.CONTRAT.MM,R.CURR,F.CURR,ERR.CURR)
+            REVAL.RATES = R.CURR<EB.CUR.REVAL.RATE>
+            CCY.MKT = "1"
+*            CONVERT VM TO FM IN CURRENCY.MARKET ;*CONVERT CHANGED TO CHANGE
+            CHANGE @VM TO @FM IN CURRENCY.MARKET
+            LOCATE CCY.MKT IN  CURRENCY.MARKET<1> SETTING POS ELSE POS = 0
+            REVAL.RATE = REVAL.RATES<1,POS>
+            Y.AMOUNT.MM.TND=Y.AMOUNT.MM*REVAL.RATE
+            CALL EB.ROUND.AMOUNT(LCCY,Y.AMOUNT.MM.TND,"","")
+        NEXT J
+LD.IDS =''
+LD.COUNT =''
+LD.ERROR =''
+        SQL.LD = "SELECT " : FN.LD :" WITH CUSTOMER.ID EQ " :CUSTOMER.ID: " AND CURRENCY EQ " :DEVISE.COMPTE: " AND CATEGORY EQ 21001 21005 21006"
+        CALL EB.READLIST(SQL.LD , LD.IDS,'',LD.COUNT,LD.ERROR)
+        FOR K = 1 TO LD.COUNT
+            CONTRAT.LD=LD.IDS<K>
+            CALL F.READ(FN.LD,CONTRAT.LD,R.LD,F.LD,YERR)
+            Y.AMOUNT.LD= R.LD<LD.AMOUNT>
+            DEVISE.CONTRAT.LD=R.LD<LD.CURRENCY>
+			R.CURR =''
+			ERR.CURR =''
+            CALL F.READ(FN.CURR,DEVISE.CONTRAT.LD,R.CURR,F.CURR,ERR.CURR)
+            REVAL.RATES = R.CURR<EB.CUR.REVAL.RATE>
+            CCY.MKT = "1"
+ *           CONVERT VM TO FM IN CURRENCY.MARKET ;*CONVERT CHANGED TO CHANGE
+            CHANGE @VM TO @FM IN CURRENCY.MARKET 
+            LOCATE CCY.MKT IN  CURRENCY.MARKET<1> SETTING POS ELSE POS = 0
+            REVAL.RATE = REVAL.RATES<1,POS>
+            Y.AMOUNT.LD.TND=Y.AMOUNT.LD*REVAL.RATE
+            CALL EB.ROUND.AMOUNT(LCCY,Y.AMOUNT.TND,"","")
+        NEXT K
+
+        TOTAL.TND=Y.AMOUNT.LD.TND+Y.AMOUNT.MM.TND+CONTRE.VALEUR
+        TABLEAU<-I>=REF.ID:'*':CUSTOMER.ID:'*':DEVISE.COMPTE:'*':W.BALANCE:'*':CONTRE.VALEUR:'*':MM.IDS<J>:'*':Y.AMOUNT.MM<J>:'*':DEVISE.CONTRAT.MM:'*':Y.AMOUNT.MM.TND:'*':LD.IDS<K>:'*':Y.AMOUNT.LD:'*':DEVISE.CONTRAT.LD:'*':Y.AMOUNT.LD.TND:'*':TOTAL.TND:'*':PHONE:'*':EMAIL
+        Y.AMOUNT.MM=''
+        Y.AMOUNT.LD=''
+        TOTAL.TND=''
+        CONTRAT.MM=''
+        CONTRAT.LD=''
+        Y.AMOUNT.LD.TND=0
+        Y.AMOUNT.MM.TND=0
+        DEVISE.CONTRAT.MM=''
+        DEVISE.CONTRAT.LD=''
+    NEXT I
+    RETURN
+END

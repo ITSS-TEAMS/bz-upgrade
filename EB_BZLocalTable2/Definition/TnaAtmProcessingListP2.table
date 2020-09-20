@@ -1,0 +1,22 @@
+public table TnaAtmProcessingListP2 {
+    t24:  TNA.ATM.PROCESSING.LIST.P2
+    fields:{
+        TnaAtmProcessingListP2FullLine(TNA.DATA.P2.FULL.LINE)=1
+        TnaAtmProcessingListP2FtRef(TNA.DATA.P2.FT.REF)=2
+        TnaAtmProcessingListP2Traite(TNA.DATA.P2.TRAITE)=3
+        TnaAtmProcessingListP2Errors(TNA.DATA.P2.ERRORS)=4
+        TnaAtmProcessingListP2MapId(TNA.DATA.P2.MAP.ID)=5
+        TnaAtmProcessingListP2IdChg(TNA.DATA.P2.ID.CHG)=6
+        TnaAtmProcessingListP2LocalRef(TNA.DATA.P2.LOCAL.REF)=7
+        TnaAtmProcessingListP2Override(TNA.DATA.P2.OVERRIDE)=8
+        TnaAtmProcessingListP2RecordStatus(TNA.DATA.P2.RECORD.STATUS)=9
+        TnaAtmProcessingListP2CurrNo(TNA.DATA.P2.CURR.NO)=10
+        TnaAtmProcessingListP2Inputter(TNA.DATA.P2.INPUTTER)=11
+        TnaAtmProcessingListP2DateTime(TNA.DATA.P2.DATE.TIME)=12
+        TnaAtmProcessingListP2Authoriser(TNA.DATA.P2.AUTHORISER)=13
+        TnaAtmProcessingListP2CoCode(TNA.DATA.P2.CO.CODE)=14
+        TnaAtmProcessingListP2DeptCode(TNA.DATA.P2.DEPT.CODE)=15
+        TnaAtmProcessingListP2AuditorCode(TNA.DATA.P2.AUDITOR.CODE)=16
+        TnaAtmProcessingListP2AuditDateTime(TNA.DATA.P2.AUDIT.DATE.TIME)=17
+    }
+}

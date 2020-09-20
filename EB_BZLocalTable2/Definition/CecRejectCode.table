@@ -1,0 +1,36 @@
+public table CecRejectCode {
+t24:  CEC.REJECT.CODE
+fields:{
+    CecRejectCodeDescription(CEC.REJ.DESCRIPTION) = 1  
+	CecRejectCodeCecLayoutId(CEC.REJ.CEC.LAYOUT.ID) = 2
+    CecRejectCodeProcessType(CEC.REJ.PROCESS.TYPE) = 3  
+	CecRejectCodeExpireDays(CEC.REJ.EXPIRE.DAYS) = 4
+    CecRejectCodeBlockProvision(CEC.REJ.BLOCK.PROVISION) = 5  
+    CecRejectCodeRepresentation(CEC.REJ.REPRESENTATION) = 6
+    CecRejectCodeCrossCheckRtn(CEC.REJ.CROSS.CHECK.RTN) = 7  
+    CecRejectCodeStatusCode(CEC.REJ.STATUS.CODE) = 8
+    CecRejectCodeMessages(CEC.REJ.MESSAGES) = 9  
+    CecRejectCodeSupport(CEC.REJ.SUPPORT) = 10
+    CecRejectCodeValRoutine(CEC.REJ.VAL.ROUTINE) = 11 
+	CecRejectCodeReserved9(CEC.REJ.RESERVED.9) = 12 
+    CecRejectCodeReserved8(CEC.REJ.RESERVED.8) = 13 
+    CecRejectCodeReserved7(CEC.REJ.RESERVED.7) = 14
+    CecRejectCodeReserved6(CEC.REJ.RESERVED.6) = 15 
+	CecRejectCodeReserved5(CEC.REJ.RESERVED.5) = 16
+    CecRejectCodeReserved4(CEC.REJ.RESERVED.4) = 17 
+	CecRejectCodeReserved3(CEC.REJ.RESERVED.3) = 18
+    CecRejectCodeReserved2(CEC.REJ.RESERVED.2) = 19 
+	CecRejectCodeReserved1(CEC.REJ.RESERVED.1) = 20 
+    CecRejectCodeLocalRef(CEC.REJ.LOCAL.REF) = 21 
+	CecRejectCodeOverride(CEC.REJ.OVERRIDE) = 22
+    CecRejectCodeRecordStatus(CEC.REJ.RECORD.STATUS) = 23 
+	CecRejectCodeCurrNo(CEC.REJ.CURR.NO) = 24 
+    CecRejectCodeInputter(CEC.REJ.INPUTTER) = 25 
+    CecRejectCodeDateTime(CEC.REJ.DATE.TIME) = 26 
+    CecRejectCodeAuthoriser(CEC.REJ.AUTHORISER) = 27 
+	CecRejectCodeCoCode(CEC.REJ.CO.CODE) = 28
+    CecRejectCodeDeptCode(CEC.REJ.DEPT.CODE) = 29 
+	CecRejectCodeAuditorCode(CEC.REJ.AUDITOR.CODE) = 30
+    CecRejectCodeAuditDateTime(CEC.REJ.AUDIT.DATE.TIME) = 31
+}
+}

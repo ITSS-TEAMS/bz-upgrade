@@ -1,0 +1,18 @@
+public table TnaAtmFttc {
+    t24:  TNA.ATM.FTTC
+    fields:{
+        TnaAtmFttcDescription(FTTC.DESCRIPTION)=1
+        TnaAtmFttcFttcCode(FTTC.FTTC.CODE)=2
+        TnaAtmFttcLocalRef(FTTC.LOCAL.REF)=3
+        TnaAtmFttcOverride(FTTC.OVERRIDE)=4
+        TnaAtmFttcRecordStatus(FTTC.RECORD.STATUS)=5
+        TnaAtmFttcCurrNo(FTTC.CURR.NO)=6
+        TnaAtmFttcInputter(FTTC.INPUTTER)=7
+        TnaAtmFttcDateTime(FTTC.DATE.TIME)=8
+        TnaAtmFttcAuthoriser(FTTC.AUTHORISER)=9
+        TnaAtmFttcCoCode(FTTC.CO.CODE)=10
+        TnaAtmFttcDeptCode(FTTC.DEPT.CODE)=11
+        TnaAtmFttcAuditorCode(FTTC.AUDITOR.CODE)=12
+        TnaAtmFttcAuditDateTime(FTTC.AUDIT.DATE.TIME)=13
+    }
+}

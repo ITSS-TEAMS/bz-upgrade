@@ -1,0 +1,29 @@
+public table BzDeclarationEmployeur {
+    t24:  BZ.DECLARATION.EMPLOYEUR
+    fields:{
+        BzDeclarationEmployeurMois(DECEMP.MOIS)=1
+        BzDeclarationEmployeurAnnee(DECEMP.ANNEE)=2
+        BzDeclarationEmployeurStatut(DECEMP.STATUT)=3
+        BzDeclarationEmployeurCompte(DECEMP.COMPTE)=4
+        BzDeclarationEmployeurAnnexe(DECEMP.ANNEXE)=5
+        BzDeclarationEmployeurReserved2(DECEMP.RESERVED.2)=6
+        BzDeclarationEmployeurReserved3(DECEMP.RESERVED.3)=7
+        BzDeclarationEmployeurReserved4(DECEMP.RESERVED.4)=8
+        BzDeclarationEmployeurReserved5(DECEMP.RESERVED.5)=9
+        BzDeclarationEmployeurReserved6(DECEMP.RESERVED.6)=10
+        BzDeclarationEmployeurReserved7(DECEMP.RESERVED.7)=11
+        BzDeclarationEmployeurReserved8(DECEMP.RESERVED.8)=12
+        BzDeclarationEmployeurReserved9(DECEMP.RESERVED.9)=13
+        BzDeclarationEmployeurReserved10(DECEMP.RESERVED.10)=14
+        BzDeclarationEmployeurOverride(DECEMP.OVERRIDE)=15
+        BzDeclarationEmployeurRecordStatus(DECEMP.RECORD.STATUS)=16
+        BzDeclarationEmployeurCurrNo(DECEMP.CURR.NO)=17
+        BzDeclarationEmployeurInputter(DECEMP.INPUTTER)=18
+        BzDeclarationEmployeurDateTime(DECEMP.DATE.TIME)=19
+        BzDeclarationEmployeurAuthoriser(DECEMP.AUTHORISER)=20
+        BzDeclarationEmployeurCoCode(DECEMP.CO.CODE)=21
+        BzDeclarationEmployeurDeptCode(DECEMP.DEPT.CODE)=22
+        BzDeclarationEmployeurAuditorCode(DECEMP.AUDITOR.CODE)=23
+        BzDeclarationEmployeurAuditDateTime(DECEMP.AUDIT.DATE.TIME)=24
+    }
+}

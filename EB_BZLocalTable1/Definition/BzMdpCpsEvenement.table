@@ -1,0 +1,24 @@
+public table BzMdpCpsEvenement {
+    t24:  BZ.MDP.CPS.EVENEMENT
+    fields:{
+        BzMdpCpsEvenementDescription(EVT.CPS.DESCRIPTION)=1
+        BzMdpCpsEvenementCodeTransaction(EVT.CPS.CODE.TRANSACTION)=2
+        BzMdpCpsEvenementDbCompte(EVT.CPS.DB.COMPTE)=3
+        BzMdpCpsEvenementCrCompte(EVT.CPS.CR.COMPTE)=4
+        BzMdpCpsEvenementStatut(EVT.CPS.STATUT)=5
+        BzMdpCpsEvenementEcran(EVT.CPS.ECRAN)=6
+        BzMdpCpsEvenementSystem(EVT.CPS.SYSTEM)=7
+        BzMdpCpsEvenementCommission(EVT.CPS.COMMISSION)=8
+        BzMdpCpsEvenementCodeCommission(EVT.CPS.CODE.COMMISSION)=9
+        BzMdpCpsEvenementOverride(EVT.CPS.OVERRIDE)=10
+        BzMdpCpsEvenementRecordStatus(EVT.CPS.RECORD.STATUS)=11
+        BzMdpCpsEvenementCurrNo(EVT.CPS.CURR.NO)=12
+        BzMdpCpsEvenementInputter(EVT.CPS.INPUTTER)=13
+        BzMdpCpsEvenementDateTime(EVT.CPS.DATE.TIME)=14
+        BzMdpCpsEvenementAuthoriser(EVT.CPS.AUTHORISER)=15
+        BzMdpCpsEvenementCoCode(EVT.CPS.CO.CODE)=16
+        BzMdpCpsEvenementDeptCode(EVT.CPS.DEPT.CODE)=17
+        BzMdpCpsEvenementAuditorCode(EVT.CPS.AUDITOR.CODE)=18
+        BzMdpCpsEvenementAuditDateTime(EVT.CPS.AUDIT.DATE.TIME)=19
+    }
+}

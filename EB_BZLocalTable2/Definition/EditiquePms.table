@@ -1,0 +1,36 @@
+public table EditiquePms {
+        t24:  EDITIQUE.PMS
+        fields:{
+            EditiquePmsNumCompte(ED.PMS.NUM.COMPTE)=1
+            EditiquePmsDateFin(ED.PMS.DATE.FIN)=2
+            EditiquePmsDateOperation(ED.PMS.DATE.OPERATION)=3
+            EditiquePmsEditer(ED.PMS.EDITER)=4
+            EditiquePmsType(ED.PMS.TYPE)=5
+            EditiquePmsProfit(ED.PMS.PROFIT)=6
+            EditiquePmsTax(ED.PMS.TAX)=7
+            EditiquePmsNom(ED.PMS.NOM)=8
+            EditiquePmsAdresse(ED.PMS.ADRESSE)=9
+            EditiquePmsTypeIdent(ED.PMS.TYPE.IDENT)=10
+            EditiquePmsNumIdent(ED.PMS.NUM.IDENT)=11
+            EditiquePmsReserved1(ED.PMS.RESERVED.1)=12
+            EditiquePmsReserved2(ED.PMS.RESERVED.2)=13
+            EditiquePmsReserved3(ED.PMS.RESERVED.3)=14
+            EditiquePmsReserved4(ED.PMS.RESERVED.4)=15
+            EditiquePmsReserved5(ED.PMS.RESERVED.5)=16
+            EditiquePmsReserved6(ED.PMS.RESERVED.6)=17
+            EditiquePmsReserved7(ED.PMS.RESERVED.7)=18
+            EditiquePmsReserved8(ED.PMS.RESERVED.8)=19
+            EditiquePmsReserved9(ED.PMS.RESERVED.9)=20
+            EditiquePmsReserved10(ED.PMS.RESERVED.10)=21
+            EditiquePmsOverride(ED.PMS.OVERRIDE)=22
+            EditiquePmsRecordStatus(ED.PMS.RECORD.STATUS)=23
+            EditiquePmsCurrNo(ED.PMS.CURR.NO)=24
+            EditiquePmsInputter(ED.PMS.INPUTTER)=25
+            EditiquePmsDateTime(ED.PMS.DATE.TIME)=26
+            EditiquePmsAuthoriser(ED.PMS.AUTHORISER)=27
+            EditiquePmsCoCode(ED.PMS.CO.CODE)=28
+            EditiquePmsDeptCode(ED.PMS.DEPT.CODE)=29
+            EditiquePmsAuditorCode(ED.PMS.AUDITOR.CODE)=30
+            EditiquePmsAuditDateTime(ED.PMS.AUDIT.DATE.TIME)=31
+        }
+    }

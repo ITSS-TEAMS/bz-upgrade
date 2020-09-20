@@ -1,0 +1,28 @@
+public table BzTxnCont {
+    t24:  BZ.TXN.CONT
+    fields:{
+        BzTxnContCustomer(OP.CONT.CUSTOMER)=1
+        BzTxnContAccountNumber(OP.CONT.ACCOUNT.NUMBER)=2
+        BzTxnContCurrency(OP.CONT.CURRENCY)=3
+        BzTxnContCompanyCode(OP.CONT.COMPANY.CODE)=4
+        BzTxnContDepartementCode(OP.CONT.DEPARTEMENT.CODE)=5
+        BzTxnContStmtEntryId(OP.CONT.STMT.ENTRY.ID)=6
+        BzTxnContValueDate(OP.CONT.VALUE.DATE)=7
+        BzTxnContSystemId(OP.CONT.SYSTEM.ID)=8
+        BzTxnContTransReference(OP.CONT.TRANS.REFERENCE)=9
+        BzTxnContTransactionCode(OP.CONT.TRANSACTION.CODE)=10
+        BzTxnContAmountLcy(OP.CONT.AMOUNT.LCY)=11
+        BzTxnContAmountFcy(OP.CONT.AMOUNT.FCY)=12
+        BzTxnContReserved1(OP.CONT.RESERVED1)=13
+        BzTxnContReserved2(OP.CONT.RESERVED2)=14
+        BzTxnContReserved3(OP.CONT.RESERVED3)=15
+        BzTxnContReserved4(OP.CONT.RESERVED4)=16
+        BzTxnContReserved5(OP.CONT.RESERVED5)=17
+        BzTxnContReserved6(OP.CONT.RESERVED6)=18
+        BzTxnContReserved7(OP.CONT.RESERVED7)=19
+        BzTxnContReserved8(OP.CONT.RESERVED8)=20
+        BzTxnContReserved9(OP.CONT.RESERVED9)=21
+        BzTxnContReserved10(OP.CONT.RESERVED10)=22
+        BzTxnContOverride(OP.CONT.OVERRIDE)=23
+    }
+}

@@ -1,0 +1,1316 @@
+component EB.BZLocalTable2
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+private method bzAvisType (
+)
+{
+    jBC: BZ.AVIS.TYPE
+}
+private method bzAvisTypeFields (
+)
+{
+    jBC: BZ.AVIS.TYPE.FIELDS
+}
+private method bzFichierChrg (
+)
+{
+    jBC: BZ.FICHIER.CHRG
+}
+private method bzFichierChrgFields (
+)
+{
+    jBC: BZ.FICHIER.CHRG.FIELDS
+}
+private method bzChqsCertif (
+)
+{
+    jBC: BZ.CHQS.CERTIF
+}
+private method bzChqsCertifFields (
+)
+{
+    jBC: BZ.CHQS.CERTIF.FIELDS
+}
+private method bzCoffreVisite (
+)
+{
+    jBC: BZ.COFFRE.VISITE
+}
+private method bzCoffreVisiteFields (
+)
+{
+    jBC: BZ.COFFRE.VISITE.FIELDS
+}
+private method bzFactureIjaraHist (
+)
+{
+    jBC: BZ.FACTURE.IJARA.HIST
+}
+private method bzFactureIjaraHistFields (
+)
+{
+    jBC: BZ.FACTURE.IJARA.HIST.FIELDS
+}
+private method bzFactureIjaraListe (
+)
+{
+    jBC: BZ.FACTURE.IJARA.LISTE
+}
+private method bzFactureIjaraListeFields (
+)
+{
+    jBC: BZ.FACTURE.IJARA.LISTE.FIELDS
+}
+private method bzFactureIjara (
+)
+{
+    jBC: BZ.FACTURE.IJARA
+}
+private method bzFactureIjaraFields (
+)
+{
+    jBC: BZ.FACTURE.IJARA.FIELDS  
+}
+private method bzGenRelevesOlInit (
+)
+{
+    jBC: BZ.GEN.RELEVES.OL.INIT
+}
+private method bzGenRelevesOlInitFields (
+)
+{
+    jBC: BZ.GEN.RELEVES.OL.INIT.FIELDS
+}
+private method bzLdPostSimulation (
+)
+{
+    jBC: BZ.LD.POST.SIMULATION
+}
+private method bzLdPostSimulationFields (
+)
+{
+    jBC: BZ.LD.POST.SIMULATION.FIELDS
+}
+private method bzMdpChargTiersFields (
+)
+{
+    jBC: BZ.MDP.CHARG.TIERS.FIELDS
+}
+private method bzMdpChargTiers (
+)
+{
+    jBC: BZ.MDP.CHARG.TIERS
+}
+private method bzMvmtSm (
+)
+{
+    jBC: BZ.MVMT.SM
+}
+private method bzMvmtSmFields (
+)
+{
+    jBC: BZ.MVMT.SM.FIELDS
+}
+private method bzSedParameter (
+)
+{
+    jBC: BZ.SED.PARAMETER
+}
+private method bzSedParameterFields (
+)
+{
+    jBC: BZ.SED.PARAMETER.FIELDS
+}
+private method bzSedDeclaration (
+)
+{
+    jBC: BZ.SED.DECLARATION
+}
+private method bzSedDeclarationFields (
+)
+{
+    jBC: BZ.SED.DECLARATION.FIELDS
+}
+private method bzSedIntermediaire (
+)
+{
+    jBC: BZ.SED.INTERMEDIAIRE
+}
+private method bzSedIntermediaireFields (
+)
+{
+    jBC: BZ.SED.INTERMEDIAIRE.FIELDS
+}
+private method bzTtTsfFonds (
+)
+{
+    jBC: BZ.TT.TSF.FONDS
+}
+private method bzTtTsfFondsFields (
+)
+{
+    jBC: BZ.TT.TSF.FONDS.FIELDS
+}
+private method cecTxnConcat (
+)
+{
+    jBC: CEC.TXN.CONCAT
+}
+private method tnaAtmRejectReason (
+)
+{
+    jBC: TNA.ATM.REJECT.REASON
+}
+private method tnaAtmRejectReasonFields (
+)
+{
+    jBC: TNA.ATM.REJECT.REASON.FIELDS
+}
+private method tnaAtmFileType (
+)
+{
+    jBC: TNA.ATM.FILE.TYPE
+}
+private method tnaAtmFileTypeFields (
+)
+{
+    jBC: TNA.ATM.FILE.TYPE.FIELDS
+}
+private method tnaCardParametrageAssurance (
+)
+{
+    jBC: TNA.CARD.PARAMETRAGE.ASSURANCE
+}
+private method tnaCardParametrageAssuranceFields (
+)
+{
+    jBC: TNA.CARD.PARAMETRAGE.ASSURANCE.FIELDS
+}
+private method tnaCardGenerationFichier (
+)
+{
+    jBC: TNA.CARD.GENERATION.FICHIER
+}
+private method tnaCardGenerationFichierFields (
+)
+{
+    jBC: TNA.CARD.GENERATION.FICHIER.FIELDS
+}
+private method t24WPackMan (
+)
+{
+    jBC: T24.W.PACK.MAN
+}
+private method tnaAtmBankAccount (
+)
+{
+    jBC: TNA.ATM.BANK.ACCOUNT
+}
+private method tnaAtmBankAccountFields (
+)
+{
+    jBC: TNA.ATM.BANK.ACCOUNT.FIELDS
+}
+private method tnaAtmCustomerFttcFields (
+)
+{
+    jBC: TNA.ATM.CUSTOMER.FTTC.FIELDS
+}
+private method tnaAtmCustomerFttc (
+)
+{
+    jBC: TNA.ATM.CUSTOMER.FTTC
+}
+private method tnaAtmFileLoadQueue (
+)
+{
+    jBC: TNA.ATM.FILE.LOAD.QUEUE
+}
+private method tnaAtmFileLoadQueueFields (
+)
+{
+    jBC: TNA.ATM.FILE.LOAD.QUEUE.FIELDS
+}
+private method tnaAtmFilesLoad (
+)
+{
+    jBC: TNA.ATM.FILES.LOAD 
+}
+private method tnaAtmFilesLoadFields (
+)
+{
+    jBC: TNA.ATM.FILES.LOAD.FIELDS
+}
+private method tnaAtmFttcFields (
+)
+{
+    jBC: TNA.ATM.FTTC.FIELDS
+}
+private method tnaAtmFttc (
+)
+{
+    jBC: TNA.ATM.FTTC
+}
+private method tnaAtmProcessingListP2 (
+)
+{
+    jBC: TNA.ATM.PROCESSING.LIST.P2
+}
+private method tnaAtmProcessingListP2Fields (
+)
+{
+    jBC: TNA.ATM.PROCESSING.LIST.P2.FIELDS
+}
+private method tnaAtmProcessingListP1Fields (
+)
+{
+    jBC: TNA.ATM.PROCESSING.LIST.P1.FIELDS
+}
+private method tnaAtmProcessingListP1 (
+)
+{
+    jBC: TNA.ATM.PROCESSING.LIST.P1
+}
+private method tnaAtmTxnMapping (
+)
+{
+    jBC: TNA.ATM.TXN.MAPPING
+}
+private method tnaAtmTxnMappingFields (
+)
+{
+    jBC: TNA.ATM.TXN.MAPPING.FIELDS
+}
+private method tnaCardBatchFields (
+)
+{
+    jBC: TNA.CARD.BATCH.FIELDS
+}
+private method tnaCardBatch (
+)
+{
+    jBC: TNA.CARD.BATCH
+}
+private method tnaCardBzRenouvGen (
+)
+{
+    jBC: TNA.CARD.BZ.RENOUV.GEN
+}
+private method tnaCardBzRenouvGenFields (
+)
+{
+    jBC: TNA.CARD.BZ.RENOUV.GEN.FIELDS
+}
+private method tnaCardBzRenouv (
+)
+{
+    jBC: TNA.CARD.BZ.RENOUV
+}
+private method tnaCardBzRenouvFields (
+)
+{
+    jBC: TNA.CARD.BZ.RENOUV.FIELDS
+}
+private method tnaCardBzRenouvHist (
+)
+{
+    jBC: TNA.CARD.BZ.RENOUV.HIST
+}
+private method tnaCardBzRenouvHistFields (
+)
+{
+    jBC: TNA.CARD.BZ.RENOUV.HIST.FIELDS
+}
+private method tnaCardGestionPlafond (
+)
+{
+    jBC: TNA.CARD.GESTION.PLAFOND
+}
+private method tnaCardOperation (
+)
+{
+    jBC: TNA.CARD.OPERATION
+}
+private method tnaCardRecalculCode (
+)
+{
+    jBC: TNA.CARD.RECALCUL.CODE
+}
+
+private method tnaCardCompensationCommercantFields (
+)
+{
+    jBC: TNA.CARD.COMPENSATION.COMMERCANT.FIELDS
+}
+private method tnaCardCompensationNationaleFields (
+)
+{
+    jBC: TNA.CARD.COMPENSATION.NATIONALE.FIELDS
+}
+private method tnaCardRangeFields (
+)
+{
+    jBC: TNA.CARD.RANGE.FIELDS
+}
+private method tnaCardStopListFields (
+)
+{
+    jBC: TNA.CARD.STOP.LIST.FIELDS
+}
+private method tnaCardSuiviFields (
+)
+{
+    jBC: TNA.CARD.SUIVI.FIELDS
+}
+private method tnaMonetiqueProtocoleFields (
+)
+{
+    jBC: TNA.MONETIQUE.PROTOCOLE.FIELDS
+}
+private method tnaMonetiqueProtocole (
+)
+{
+    jBC: TNA.MONETIQUE.PROTOCOLE
+}
+private method tnaCardGenFichierFields (
+)
+{
+    jBC: TNA.CARD.GEN.FICHIER.FIELDS
+}
+
+private method tnaCardTransactionLogFileFields (
+)
+{
+    jBC: TNA.CARD.TRANSACTION.LOG.FILE.FIELDS
+}
+private method tnaCardCompensationPorteur (
+)
+{
+    jBC: TNA.CARD.COMPENSATION.PORTEUR
+}
+private method tnaCardCapture (
+)
+{
+    jBC: TNA.CARD.CAPTURE
+}
+private method tnaCardLimits (
+)
+{
+    jBC: TNA.CARD.LIMITS
+}
+private method tnaCardProduct (
+)
+{
+    jBC: TNA.CARD.PRODUCT
+}
+private method tnaCardRange (
+)
+{
+    jBC: TNA.CARD.RANGE
+}
+private method tnaCardRecalculCodeFields (
+)
+{
+    jBC: TNA.CARD.RECALCUL.CODE.FIELDS
+}
+private method tnaCardFeesFields (
+)
+{
+    jBC: TNA.CARD.FEES.FIELDS
+}
+
+private method tnaCardReasonFields (
+)
+{
+    jBC: TNA.CARD.REASON.FIELDS
+}
+private method tnaCardCotisations (
+)
+{
+    jBC: TNA.CARD.COTISATIONS
+}
+private method tnaCardMouvementInterbancaire (
+)
+{
+    jBC: TNA.CARD.MOUVEMENT.INTERBANCAIRE
+}
+private method tnaCardTransactionLogFile (
+)
+{
+    jBC: TNA.CARD.TRANSACTION.LOG.FILE
+}
+private method tnaCardStopList (
+)
+{
+    jBC: TNA.CARD.STOP.LIST
+}
+private method tnaCardDeclAssuranceFields (
+)
+{
+    jBC: TNA.CARD.DECL.ASSURANCE.FIELDS
+}
+private method tnaCardDeliveryFields (
+)
+{
+    jBC: TNA.CARD.DELIVERY.FIELDS
+}
+private method tnaCardOperationFields (
+)
+{
+    jBC: TNA.CARD.OPERATION.FIELDS
+}
+private method tnaCardCompensationCommercant (
+)
+{
+    jBC: TNA.CARD.COMPENSATION.COMMERCANT 
+}
+private method tnaCardDelivery (
+)
+{
+    jBC: TNA.CARD.DELIVERY  
+}
+private method tnaCardSuivi (
+)
+{
+    jBC: TNA.CARD.SUIVI
+}
+private method tnaCardCaptureFields (
+)
+{
+    jBC: TNA.CARD.CAPTURE.FIELDS
+}
+private method tnaCardCompensationPorteurFields (
+)
+{
+    jBC: TNA.CARD.COMPENSATION.PORTEUR.FIELDS
+}
+private method tnaCardCotisationsFields (
+)
+{
+    jBC: TNA.CARD.COTISATIONS.FIELDS
+}
+private method tnaCardLimitsFields (
+)
+{
+    jBC: TNA.CARD.LIMITS.FIELDS
+}
+private method tnaCardMouvementInterbancaireFields (
+)
+{
+    jBC: TNA.CARD.MOUVEMENT.INTERBANCAIRE.FIELDS
+}
+private method tnaCardProductFields (
+)
+{
+    jBC: TNA.CARD.PRODUCT.FIELDS
+}
+
+private method tnaCardStopListWithdrawalFields (
+)
+{
+    jBC: TNA.CARD.STOP.LIST.WITHDRAWAL.FIELDS
+}
+private method tnaCardCompensationNationale (
+)
+{
+    jBC: TNA.CARD.COMPENSATION.NATIONALE
+}
+private method tnaCardDeclAssurance (
+)
+{
+    jBC: TNA.CARD.DECL.ASSURANCE
+}
+private method tnaCardFees (
+)
+{
+    jBC: TNA.CARD.FEES
+}
+private method tnaCardGenFichier (
+)
+{
+    jBC: TNA.CARD.GEN.FICHIER
+}
+private method tnaCardReason (
+)
+{
+    jBC: TNA.CARD.REASON
+}
+private method tnaCardStopListWithdrawal (
+)
+{
+    jBC: TNA.CARD.STOP.LIST.WITHDRAWAL
+}
+private method zitPosMvmtDetails (
+)
+{
+    jBC: ZIT.POS.MVMT.DETAILS
+}
+private method zitPosMvmtDetailsFields (
+)
+{
+    jBC: ZIT.POS.MVMT.DETAILS.FIELDS
+}
+private method ztAtmTxnListFields (
+)
+{
+    jBC: ZT.ATM.TXN.LIST.FIELDS
+}
+private method ztAtmTxnList (
+)
+{
+    jBC: ZT.ATM.TXN.LIST
+}
+private method zitounaPeriodicIntSprd (
+)
+{
+    jBC: ZITOUNA.PERIODIC.INT.SPRD
+}
+private method zitounaPeriodicIntSprdFields (
+)
+{
+    jBC: ZITOUNA.PERIODIC.INT.SPRD.FIELDS
+}
+private method ebDfnTrxnSlr (
+)
+{
+    jBC: EB.DFN.TRXN.SLR
+}
+private method ebDfnTrxnSlrFields (
+)
+{
+    jBC: EB.DFN.TRXN.SLR.FIELDS
+}
+private method editiquePmsRetSourceFields (
+)
+{
+    jBC: EDITIQUE.PMS.RET.SOURCE.FIELDS
+}
+private method editiqueAfrs (
+)
+{
+    jBC: EDITIQUE.AFRS
+}
+private method editiqueParameters (
+)
+{
+    jBC: EDITIQUE.PARAMETERS
+}
+private method editiqueParametersFields (
+)
+{
+    jBC: EDITIQUE.PARAMETERS.FIELDS
+}
+private method editiqueArFields (
+)
+{
+    jBC: EDITIQUE.AR.FIELDS
+}
+private method editiqueAnr (
+)
+{
+    jBC: EDITIQUE.ANR
+}
+private method editiqueAfrsFields (
+)
+{
+    jBC: EDITIQUE.AFRS.FIELDS
+}
+private method editiqueQuitAmendeFields (
+)
+{
+    jBC: EDITIQUE.QUIT.AMENDE.FIELDS
+}
+private method editiqueSync (
+)
+{
+    jBC: EDITIQUE.SYNC
+}
+private method editiqueSyncFields (
+)
+{
+    jBC: EDITIQUE.SYNC.FIELDS
+}
+private method editiquePmsRetSource (
+)
+{
+    jBC: EDITIQUE.PMS.RET.SOURCE
+}
+private method editiqueQuitAmende (
+)
+{
+    jBC: EDITIQUE.QUIT.AMENDE
+}
+private method editiqueAnrFields (
+)
+{
+    jBC: EDITIQUE.ANR.FIELDS
+}
+private method editiquePmsFields (
+)
+{
+    jBC: EDITIQUE.PMS.FIELDS
+}
+private method editiqueAr (
+)
+{
+    jBC: EDITIQUE.AR
+}
+private method editiquePms (
+)
+{
+    jBC: EDITIQUE.PMS
+}
+private method eng0001IstMarge (
+)
+{
+    jBC: ENG0001.IST.MARGE
+}
+private method eng0001IstMargeFields (
+)
+{
+    jBC: ENG0001.IST.MARGE.FIELDS
+}
+private method hStructureInterface (
+)
+{
+    jBC: H.STRUCTURE.INTERFACE
+}
+private method hTypeStructure (
+)
+{
+    jBC: H.TYPE.STRUCTURE
+}
+private method hStructureInterfaceFld (
+)
+{
+    jBC: H.STRUCTURE.INTERFACE.FLD
+}
+
+private method journeeVisaMcd (
+)
+{
+    jBC: JOURNEE.VISA.MCD
+}
+private method journeeVisaMcdFields (
+)
+{
+    jBC: JOURNEE.VISA.MCD.FIELDS
+}
+private method lotContract (
+)
+{
+    jBC: LOT.CONTRACT
+}
+private method lotParameter (
+)
+{
+    jBC: LOT.PARAMETER
+}
+private method lotWork (
+)
+{
+    jBC: LOT.WORK
+}
+private method lotConcat (
+)
+{
+    jBC: LOT.CONCAT
+}
+private method lotLogLevel (
+)
+{
+    jBC: LOT.LOG.LEVEL
+}
+private method lotLog (
+)
+{
+    jBC: LOT.LOG
+}
+private method lotPending (
+)
+{
+    jBC: LOT.PENDING
+}
+private method lotDestination (
+)
+{
+    jBC: LOT.DESTINATION
+}
+private method lotFiles (
+)
+{
+    jBC: LOT.FILES
+}
+private method pacsLendingExtract (
+)
+{
+    jBC: PACS.LENDING.EXTRACT
+}
+private method pacsAcDataExtractFields (
+)
+{
+    jBC: PACS.AC.DATA.EXTRACT.FIELDS
+}
+private method pacsAcDataExtract (
+)
+{
+    jBC: PACS.AC.DATA.EXTRACT
+}
+private method pacsLendingExtractFields (
+)
+{
+    jBC: PACS.LENDING.EXTRACT.FIELDS
+}
+private method cecEffect (
+)
+{
+    jBC: CEC.EFFECT
+}
+private method cecInwardFiles (
+)
+{
+    jBC: CEC.INWARD.FILES
+}
+private method cecOutwardFiles (
+)
+{
+    jBC: CEC.OUTWARD.FILES
+}
+private method cecFields (
+)
+{
+    jBC: CEC.FIELDS
+}
+private method cecInwardLog (
+)
+{
+    jBC: CEC.INWARD.LOG
+}
+private method cecOutwardLog (
+)
+{
+    jBC: CEC.OUTWARD.LOG
+}
+private method cecParameter (
+)
+{
+    jBC: CEC.PARAMETER
+}
+private method cecAccountEffect (
+)
+{
+    jBC: CEC.ACCOUNT.EFFECT
+}
+private method cecCenter (
+)
+{
+    jBC: CEC.CENTER
+}
+private method cecInwardConcat (
+)
+{
+    jBC: CEC.INWARD.CONCAT
+}
+private method cecMsgConcat (
+)
+{
+    jBC: CEC.MSG.CONCAT
+}
+private method cecOutwardConcat (
+)
+{
+    jBC: CEC.OUTWARD.CONCAT
+}
+private method cecDomiciliation (
+)
+{
+    jBC: CEC.DOMICILIATION
+}
+
+private method cecHoliday (
+)
+{
+    jBC: CEC.HOLIDAY
+}
+
+private method cecLayout (
+)
+{
+    jBC: CEC.LAYOUT
+}
+
+private method cecRejectCode (
+)
+{
+    jBC: CEC.REJECT.CODE
+}
+private method cecFollowUp (
+)
+{
+    jBC: CEC.FOLLOW.UP
+}
+
+private method cecHeader (
+)
+{
+    jBC: CEC.HEADER
+}
+
+private method cecInwardPending (
+)
+{
+    jBC: CEC.INWARD.PENDING
+}
+
+private method cecOutwardPending (
+)
+{
+    jBC: CEC.OUTWARD.PENDING
+}
+private method cfonbFields (
+)
+{
+    jBC: CFONB.FIELDS
+}
+private method cfonbLayout (
+)
+{
+    jBC: CFONB.LAYOUT
+}
+private method cfonbHeader (
+)
+{
+    jBC: CFONB.HEADER
+}
+private method custNegCoursValJour (
+)
+{
+    jBC: CUST.NEG.COURS.VAL.JOUR
+}
+private method custNegCoursValJourFields (
+)
+{
+    jBC: CUST.NEG.COURS.VAL.JOUR.FIELDS
+}
+private method bzDemandeCarthago (
+)
+{
+    jBC: BZ.DEMANDE.CARTHAGO
+}
+private method bzDemandeCarthagoFields (
+)
+{
+    jBC: BZ.DEMANDE.CARTHAGO.FIELDS
+}
+private method bzTunepsCautionDefFields (
+)
+{
+    jBC: BZ.TUNEPS.CAUTION.DEF.FIELDS
+}
+private method bzTunepsCautionDef (
+)
+{
+    jBC: BZ.TUNEPS.CAUTION.DEF
+}
+private method bzTmpEntryTodayFields (
+)
+{
+    jBC: BZ.TMP.ENTRY.TODAY.FIELDS
+}
+private method bzTmpEntryToday (
+)
+{
+    jBC: BZ.TMP.ENTRY.TODAY
+}
+private method bzStmtEntryWeeks (
+)
+{
+    jBC: BZ.STMT.ENTRY.WEEKS
+}
+private method bzStmtEntryWeeksFields (
+)
+{
+    jBC: BZ.STMT.ENTRY.WEEKS.FIELDS
+}
+private method bzDemandeIsbFields (
+)
+{
+    jBC: BZ.DEMANDE.ISB.FIELDS
+}
+private method bzDemandeIsb (
+)
+{
+    jBC: BZ.DEMANDE.ISB
+}
+private method bzMdpRegistreEffFields (
+)
+{
+    jBC: BZ.MDP.REGISTRE.EFF.FIELDS
+}
+private method bzMdpRegistreEff (
+)
+{
+    jBC: BZ.MDP.REGISTRE.EFF
+}
+private method bzLiDecisionFinancement (
+)
+{
+    jBC: BZ.LI.DECISION.FINANCEMENT
+} 
+private method bzLiDecisionFinancementFields (
+)
+{
+    jBC: BZ.LI.DECISION.FINANCEMENT.FIELDS
+}
+private method bzTunepsCprovFields (
+)
+{
+    jBC: BZ.TUNEPS.CPROV.FIELDS
+}
+private method bzTunepsCprov (
+)
+{
+    jBC: BZ.TUNEPS.CPROV
+}
+private method bzComptaGarSummaryFields (
+)
+{
+    jBC: BZ.COMPTA.GAR.SUMMARY.FIELDS
+}
+private method bzComptaGarSummary (
+)
+{
+    jBC: BZ.COMPTA.GAR.SUMMARY
+}
+private method bzCnpRegulChqSimul (
+)
+{
+    jBC: BZ.CNP.REGUL.CHQ.SIMUL
+}
+private method bzCnpRegulChqSimulFields (
+)
+{
+    jBC: BZ.CNP.REGUL.CHQ.SIMUL.FIELDS
+}
+private method bzMdpEffetRecuFields (
+)
+{
+    jBC: BZ.MDP.EFFET.RECU.FIELDS
+}
+private method bzMdpEffetRecu (
+)
+{
+    jBC: BZ.MDP.EFFET.RECU
+}
+private method bzKycAssociationFields (
+)
+{
+    jBC: BZ.KYC.ASSOCIATION.FIELDS
+}
+private method bzKycAssociation (
+)
+{
+    jBC: BZ.KYC.ASSOCIATION
+}
+private method bzRegistreAvis (
+)
+{
+    jBC: BZ.REGISTRE.AVIS
+}
+private method bzRegistreAvisFields (
+)
+{
+    jBC: BZ.REGISTRE.AVIS.FIELDS
+}
+private method bzMdpVirementRecuFields (
+)
+{
+    jBC: BZ.MDP.VIREMENT.RECU.FIELDS
+}
+private method bzMdpVirementRecu (
+)
+{
+    jBC: BZ.MDP.VIREMENT.RECU
+}
+private method bzCpsParameter (
+)
+{
+    jBC: BZ.CPS.PARAMETER
+}
+private method bzCpsParameterFields (
+)
+{
+    jBC: BZ.CPS.PARAMETER.FIELDS
+}
+private method bzMdpVirementEmis (
+)
+{
+    jBC: BZ.MDP.VIREMENT.EMIS
+}
+private method bzMdpVirementEmisFields (
+)
+{
+    jBC: BZ.MDP.VIREMENT.EMIS.FIELDS
+}
+private method bzRegistreCpsMcd (
+)
+{
+    jBC: BZ.REGISTRE.CPS.MCD 
+}
+private method bzRegistreCpsMcdFields (
+)
+{
+    jBC: BZ.REGISTRE.CPS.MCD.FIELDS
+}
+private method bzEchDetailFields (
+)
+{
+    jBC: BZ.ECH.DETAIL.FIELDS
+}
+private method bzEchDetail (
+)
+{
+    jBC: BZ.ECH.DETAIL
+}
+private method bzCorporateFields (
+)
+{
+    jBC: BZ.CORPORATE.FIELDS
+}
+private method bzCorporate (
+)
+{
+    jBC: BZ.CORPORATE
+}
+private method bzCnpIncPai (
+)
+{
+    jBC: BZ.CNP.INC.PAI
+}
+private method bzCnpIncPaiFields (
+)
+{
+    jBC: BZ.CNP.INC.PAI.FIELDS
+}
+private method bzMdpChqRecu (
+)
+{
+    jBC: BZ.MDP.CHQ.RECU
+}
+private method bzMdpChqRecuFields (
+)
+{
+    jBC: BZ.MDP.CHQ.RECU.FIELDS
+}
+private method bzSedSoldeContreVal2Fields (
+)
+{
+    jBC: BZ.SED.SOLDE.CONTRE.VAL.2.FIELDS
+}
+private method bzSedSoldeContreVal2 (
+)
+{
+    jBC: BZ.SED.SOLDE.CONTRE.VAL.2
+}
+private method bzClientEngClassif (
+)
+{
+    jBC: BZ.CLIENT.ENG.CLASSIF
+}
+private method bzClientEngClassifFields (
+)
+{
+    jBC: BZ.CLIENT.ENG.CLASSIF.FIELDS
+}
+private method bzMgDataOperation (
+)
+{
+    jBC: BZ.MG.DATA.OPERATION
+}
+private method bzMgDataOperationFields (
+)
+{
+    jBC: BZ.MG.DATA.OPERATION.FIELDS
+}
+private method bzSmRegistreCpsFields (
+)
+{
+    jBC: BZ.SM.REGISTRE.CPS.FIELDS
+}
+private method bzSmRegistreCps (
+)
+{
+    jBC: BZ.SM.REGISTRE.CPS
+}
+private method bzArreteDab (
+)
+{
+    jBC: BZ.ARRETE.DAB
+}
+private method bzArreteDabFields (
+)
+{
+    jBC: BZ.ARRETE.DAB.FIELDS
+}
+private method bzMdpEffetReprisFields (
+)
+{
+    jBC: BZ.MDP.EFFET.REPRIS.FIELDS
+}
+private method bzMdpEffetRepris (
+)
+{
+    jBC: BZ.MDP.EFFET.REPRIS
+}
+private method bzMdpDocEmisChq (
+)
+{
+    jBC: BZ.MDP.DOC.EMIS.CHQ
+}
+private method bzMdpDocEmisChqFields (
+)
+{
+    jBC: BZ.MDP.DOC.EMIS.CHQ.FIELDS
+}
+private method bzPostePrelevementFields (
+)
+{
+    jBC: BZ.POSTE.PRELEVEMENT.FIELDS
+}
+private method bzPostePrelevement (
+)
+{
+    jBC: BZ.POSTE.PRELEVEMENT
+}
+private method bzSmRegistreAutorisation (
+)
+{
+    jBC: BZ.SM.REGISTRE.AUTORISATION
+}
+private method bzSmRegistreAutorisationFields (
+)
+{
+    jBC: BZ.SM.REGISTRE.AUTORISATION.FIELDS
+}
+private method bzMdpPrelRecu (
+)
+{
+    jBC: BZ.MDP.PREL.RECU
+}
+private method bzMdpPrelRecuFields (
+)
+{
+    jBC: BZ.MDP.PREL.RECU.FIELDS
+}
+private method bzLdSimParam (
+)
+{
+    jBC: BZ.LD.SIM.PARAM
+}
+private method bzLdSimParamFields (
+)
+{
+    jBC: BZ.LD.SIM.PARAM.FIELDS
+}
+private method bzMgOperationsAg (
+)
+{
+    jBC: BZ.MG.OPERATIONS.AG
+}
+private method bzMgOperationsAgFields (
+)
+{
+    jBC: BZ.MG.OPERATIONS.AG.FIELDS
+}
+private method bzAvaDossier (
+)
+{
+    jBC: BZ.AVA.DOSSIER
+}
+private method bzAvaDossierFields (
+)
+{
+    jBC: BZ.AVA.DOSSIER.FIELDS
+}
+private method bzMdpPrelReprisFields (
+)
+{
+    jBC: BZ.MDP.PREL.REPRIS.FIELDS
+}
+private method bzMdpPrelRepris (
+)
+{
+    jBC: BZ.MDP.PREL.REPRIS
+}
+private method bzSibtelCnpEdit (
+)
+{
+    jBC: BZ.SIBTEL.CNP.EDIT
+}
+private method bzSibtelCnpEditFields (
+)
+{
+    jBC: BZ.SIBTEL.CNP.EDIT.FIELDS
+}
+private method bzRiaOperationsAgFields (
+)
+{
+    jBC: BZ.RIA.OPERATIONS.AG.FIELDS
+}
+private method bzRiaOperationsAg (
+)
+{
+    jBC: BZ.RIA.OPERATIONS.AG
+}
+private method bzRiaCompensationFields (
+)
+{
+    jBC: BZ.RIA.COMPENSATION.FIELDS
+}
+private method bzRiaCompensation (
+)
+{
+    jBC: BZ.RIA.COMPENSATION
+}
+private method bzMdpDocReprisChqFields (
+)
+{
+    jBC: BZ.MDP.DOC.REPRIS.CHQ.FIELDS
+}
+private method bzMdpDocReprisChq (
+)
+{
+    jBC: BZ.MDP.DOC.REPRIS.CHQ
+}
+public method lotTranslateError (
+    INOUT MESG.ERROR string,
+    INOUT MESG.LEVEL string
+    ){
+        jBC: LOT.TRANSLATE.ERROR
+    }
+    public method hNatureStructureFld (
+        ){
+            jBC: H.NATURE.STRUCTURE.FLD
+        }
+        public method hNatureStructure (
+            ){
+                jBC: H.NATURE.STRUCTURE
+            }
+            public method hStructure (
+                ){
+                    jBC: H.STRUCTURE
+                }
+                public method hStructureFld (
+                    ){
+                        jBC: H.STRUCTURE.FLD
+                    }
+                    public method lotProcessConcat (
+                        ){
+                            jBC: LOT.PROCESS.CONCAT
+                        }
+                        public method cecLayoutConcat (
+                            
+                            ){
+                                jBC: CEC.LAYOUT.CONCAT
+                            }

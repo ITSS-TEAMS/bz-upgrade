@@ -1,0 +1,27 @@
+public table BzMdpMvmtIbs {
+    t24:  BZ.MDP.MVMT.IBS
+    fields:{
+        BzMdpMvmtIbsCodeTransaction(MVMT.IBS.CODE.TRANSACTION)=1
+        BzMdpMvmtIbsUniteGestion(MVMT.IBS.UNITE.GESTION)=2
+        BzMdpMvmtIbsCaisse(MVMT.IBS.CAISSE)=3
+        BzMdpMvmtIbsCaissier(MVMT.IBS.CAISSIER)=4
+        BzMdpMvmtIbsCodeIbs(MVMT.IBS.CODE.IBS)=5
+        BzMdpMvmtIbsCompteIbs(MVMT.IBS.COMPTE.IBS)=6
+        BzMdpMvmtIbsCompteCaisse(MVMT.IBS.COMPTE.CAISSE)=7
+        BzMdpMvmtIbsDevise(MVMT.IBS.DEVISE)=8
+        BzMdpMvmtIbsMontant(MVMT.IBS.MONTANT)=9
+        BzMdpMvmtIbsDateOperation(MVMT.IBS.DATE.OPERATION)=10
+        BzMdpMvmtIbsHeure(MVMT.IBS.HEURE)=11
+        BzMdpMvmtIbsLocalRef(MVMT.IBS.LOCAL.REF)=12
+        BzMdpMvmtIbsOverride(MVMT.IBS.OVERRIDE)=13
+        BzMdpMvmtIbsRecordStatus(MVMT.IBS.RECORD.STATUS)=14
+        BzMdpMvmtIbsCurrNo(MVMT.IBS.CURR.NO)=15
+        BzMdpMvmtIbsInputter(MVMT.IBS.INPUTTER)=16
+        BzMdpMvmtIbsDateTime(MVMT.IBS.DATE.TIME)=17
+        BzMdpMvmtIbsAuthoriser(MVMT.IBS.AUTHORISER)=18
+        BzMdpMvmtIbsCoCode(MVMT.IBS.CO.CODE)=19
+        BzMdpMvmtIbsDeptCode(MVMT.IBS.DEPT.CODE)=20
+        BzMdpMvmtIbsAuditorCode(MVMT.IBS.AUDITOR.CODE)=21
+        BzMdpMvmtIbsAuditDateTime(MVMT.IBS.AUDIT.DATE.TIME)=22
+    } 
+}

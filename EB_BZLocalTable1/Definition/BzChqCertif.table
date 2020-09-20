@@ -1,0 +1,25 @@
+public table BzChqCertif {
+        t24:  BZ.CHQ.CERTIF
+        fields:{
+            BzChqCertifNumCheque(CC.NUM.CHEQUE)=1
+            BzChqCertifRib(CC.RIB)=2
+            BzChqCertifCptClient(CC.CPT.CLIENT)=3
+            BzChqCertifMontant(CC.MONTANT)=4
+            BzChqCertifCptCertif(CC.CPT.CERTIF)=5
+            BzChqCertifObjetCertif(CC.OBJET.CERTIF)=6
+            BzChqCertifDateCertif(CC.DATE.CERTIF)=7
+            BzChqCertifStatut(CC.STATUT)=8
+            BzChqCertifDateSort(CC.DATE.SORT)=9
+            BzChqCertifLocalRef(CC.LOCAL.REF)=10
+            BzChqCertifOverride(CC.OVERRIDE)=11
+            BzChqCertifRecordStatus(CC.RECORD.STATUS)=12
+            BzChqCertifCurrNo(CC.CURR.NO)=13
+            BzChqCertifInputter(CC.INPUTTER)=14
+            BzChqCertifDateTime(CC.DATE.TIME)=15
+            BzChqCertifAuthoriser(CC.AUTHORISER)=16
+            BzChqCertifCoCode(CC.CO.CODE)=17
+            BzChqCertifDeptCode(CC.DEPT.CODE)=18
+            BzChqCertifAuditorCode(CC.AUDITOR.CODE)=19
+            BzChqCertifAuditDateTime(CC.AUDIT.DATE.TIME)=20
+        }
+    }

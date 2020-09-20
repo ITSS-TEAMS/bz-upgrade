@@ -1,0 +1,31 @@
+public table BzMdpStructGlob {
+    t24:  BZ.MDP.STRUCT.GLOB
+    fields:{
+        BzMdpStructGlobPosMntGlobal(STR.GLB.POS.MNT.GLOBAL)=1
+        BzMdpStructGlobLngMntGlobal(STR.GLB.LNG.MNT.GLOBAL)=2
+        BzMdpStructGlobPosNbrGlobal(STR.GLB.POS.NBR.GLOBAL)=3
+        BzMdpStructGlobLngNbrGlobal(STR.GLB.LNG.NBR.GLOBAL)=4
+        BzMdpStructGlobPosRang(STR.GLB.POS.RANG)=5
+        BzMdpStructGlobLngRang(STR.GLB.LNG.RANG)=6
+        BzMdpStructGlobPosMnt1(STR.GLB.POS.MNT.1)=7
+        BzMdpStructGlobLngMnt1(STR.GLB.LNG.MNT.1)=8
+        BzMdpStructGlobPosMnt2(STR.GLB.POS.MNT.2)=9
+        BzMdpStructGlobLngMnt2(STR.GLB.LNG.MNT.2)=10
+        BzMdpStructGlobPosDateOp(STR.GLB.POS.DATE.OP)=11
+        BzMdpStructGlobDelaiPres(STR.GLB.DELAI.PRES)=12
+        BzMdpStructGlobLngLigneGlobal(STR.GLB.LNG.LIGNE.GLOBAL)=13
+        BzMdpStructGlobLngLigneDetail(STR.GLB.LNG.LIGNE.DETAIL)=14
+        BzMdpStructGlobPosMnt3(STR.GLB.POS.MNT.3)=15
+        BzMdpStructGlobLngMnt3(STR.GLB.LNG.MNT.3)=16
+        BzMdpStructGlobOverride(STR.GLB.OVERRIDE)=17
+        BzMdpStructGlobRecordStatus(STR.GLB.RECORD.STATUS)=18
+        BzMdpStructGlobCurrNo(STR.GLB.CURR.NO)=19
+        BzMdpStructGlobInputter(STR.GLB.INPUTTER)=20
+        BzMdpStructGlobDateTime(STR.GLB.DATE.TIME)=21
+        BzMdpStructGlobAuthoriser(STR.GLB.AUTHORISER)=22
+        BzMdpStructGlobCoCode(STR.GLB.CO.CODE)=23
+        BzMdpStructGlobDeptCode(STR.GLB.DEPT.CODE)=24
+        BzMdpStructGlobAuditorCode(STR.GLB.AUDITOR.CODE)=25
+        BzMdpStructGlobAuditDateTime(STR.GLB.AUDIT.DATE.TIME)=26
+    }
+}

@@ -1,0 +1,26 @@
+public table BzMdpChargLeasing {
+        t24:  BZ.MDP.CHARG.LEASING
+        fields:{
+            BzMdpChargLeasingRefEchange(CHRG.REF.ECHANGE)=1
+            BzMdpChargLeasingAction(CHRG.ACTION)=2
+            BzMdpChargLeasingCompte(CHRG.COMPTE)=3
+            BzMdpChargLeasingClient(CHRG.CLIENT)=4
+            BzMdpChargLeasingNomPrenom(CHRG.NOM.PRENOM)=5
+            BzMdpChargLeasingDateChargement(CHRG.DATE.CHARGEMENT)=6
+            BzMdpChargLeasingMntGlobal(CHRG.MNT.GLOBAL)=7
+            BzMdpChargLeasingNbreGlobal(CHRG.NBRE.GLOBAL)=8
+            BzMdpChargLeasingObservation(CHRG.OBSERVATION)=9
+            BzMdpChargLeasingRefFichier(CHRG.REF.FICHIER)=10
+            BzMdpChargLeasingFichierGenere(CHRG.FICHIER.GENERE)=11
+            BzMdpChargLeasingOverride(CHRG.OVERRIDE)=12
+            BzMdpChargLeasingRecordStatus(CHRG.RECORD.STATUS)=13
+            BzMdpChargLeasingCurrNo(CHRG.CURR.NO)=14
+            BzMdpChargLeasingInputter(CHRG.INPUTTER)=15
+            BzMdpChargLeasingDateTime(CHRG.DATE.TIME)=16
+            BzMdpChargLeasingAuthoriser(CHRG.AUTHORISER)=17
+            BzMdpChargLeasingCoCode(CHRG.CO.CODE)=18
+            BzMdpChargLeasingDeptCode(CHRG.DEPT.CODE)=19
+            BzMdpChargLeasingAuditorCode(CHRG.AUDITOR.CODE)=20
+            BzMdpChargLeasingAuditDateTime(CHRG.AUDIT.DATE.TIME)=21
+        }
+    }

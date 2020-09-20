@@ -1,0 +1,26 @@
+public table BzTransactionOnline {
+    t24:  BZ.TRANSACTION.ONLINE
+    fields:{
+        BzTransactionOnlineDateSysteme(TRANS.OL.DATE.SYSTEME)=1
+        BzTransactionOnlineDateAut(TRANS.OL.DATE.AUT)=2
+        BzTransactionOnlineFtAut(TRANS.OL.FT.AUT)=3
+        BzTransactionOnlineRefAut(TRANS.OL.REF.AUT)=4
+        BzTransactionOnlineDateAnl(TRANS.OL.DATE.ANL)=5
+        BzTransactionOnlineFtAnl(TRANS.OL.FT.ANL)=6
+        BzTransactionOnlineRefAnl(TRANS.OL.REF.ANL)=7
+        BzTransactionOnlineReserved1(TRANS.OL.RESERVED.1)=8
+        BzTransactionOnlineReserved2(TRANS.OL.RESERVED.2)=9
+        BzTransactionOnlineReserved3(TRANS.OL.RESERVED.3)=10
+        BzTransactionOnlineReserved4(TRANS.OL.RESERVED.4)=11
+        BzTransactionOnlineOverride(TRANS.OL.OVERRIDE)=12
+        BzTransactionOnlineRecordStatus(TRANS.OL.RECORD.STATUS)=13
+        BzTransactionOnlineCurrNo(TRANS.OL.CURR.NO)=14
+        BzTransactionOnlineInputter(TRANS.OL.INPUTTER)=15
+        BzTransactionOnlineDateTime(TRANS.OL.DATE.TIME)=16
+        BzTransactionOnlineAuthoriser(TRANS.OL.AUTHORISER)=17
+        BzTransactionOnlineCoCode(TRANS.OL.CO.CODE)=18
+        BzTransactionOnlineDeptCode(TRANS.OL.DEPT.CODE)=19
+        BzTransactionOnlineAuditorCode(TRANS.OL.AUDITOR.CODE)=20
+        BzTransactionOnlineAuditDateTime(TRANS.OL.AUDIT.DATE.TIME)=21
+    }
+}

@@ -1,0 +1,26 @@
+public table BzKycPartieLieePm {
+        t24:  BZ.KYC.PARTIE.LIEE.PM
+        fields:{
+            BzKycPartieLieePmDescription(PART.LIEE.PM.DESCRIPTION)=1
+            BzKycPartieLieePmReserved1(PART.LIEE.PM.RESERVED1)=2
+            BzKycPartieLieePmReserved2(PART.LIEE.PM.RESERVED2)=3
+            BzKycPartieLieePmReserved3(PART.LIEE.PM.RESERVED3)=4
+            BzKycPartieLieePmReserved4(PART.LIEE.PM.RESERVED4)=5
+            BzKycPartieLieePmReserved5(PART.LIEE.PM.RESERVED5)=6
+            BzKycPartieLieePmReserved6(PART.LIEE.PM.RESERVED6)=7
+            BzKycPartieLieePmReserved7(PART.LIEE.PM.RESERVED7)=8
+            BzKycPartieLieePmReserved8(PART.LIEE.PM.RESERVED8)=9
+            BzKycPartieLieePmReserved9(PART.LIEE.PM.RESERVED9)=10
+            BzKycPartieLieePmReserved10(PART.LIEE.PM.RESERVED10)=11
+            BzKycPartieLieePmOverride(PART.LIEE.PM.OVERRIDE)=12
+            BzKycPartieLieePmRecordStatus(PART.LIEE.PM.RECORD.STATUS)=13
+            BzKycPartieLieePmCurrNo(PART.LIEE.PM.CURR.NO)=14
+            BzKycPartieLieePmInputter(PART.LIEE.PM.INPUTTER)=15
+            BzKycPartieLieePmDateTime(PART.LIEE.PM.DATE.TIME)=16
+            BzKycPartieLieePmAuthoriser(PART.LIEE.PM.AUTHORISER)=17
+            BzKycPartieLieePmCoCode(PART.LIEE.PM.CO.CODE)=18
+            BzKycPartieLieePmDeptCode(PART.LIEE.PM.DEPT.CODE)=19
+            BzKycPartieLieePmAuditorCode(PART.LIEE.PM.AUDITOR.CODE)=20
+            BzKycPartieLieePmAuditDateTime(PART.LIEE.PM.AUDIT.DATE.TIME)=21
+        }
+    }

@@ -1,0 +1,17 @@
+public table BzFonctionDirection {
+        t24:  BZ.FONCTION.DIRECTION
+        fields:{
+            BzFonctionDirectionFonction(BZ.FD.FONCTION)=1
+            BzFonctionDirectionLocalRef(BZ.FD.LOCAL.REF)=2
+            BzFonctionDirectionOverride(BZ.FD.OVERRIDE)=3
+            BzFonctionDirectionRecordStatus(BZ.FD.RECORD.STATUS)=4
+            BzFonctionDirectionCurrNo(BZ.FD.CURR.NO)=5
+            BzFonctionDirectionInputter(BZ.FD.INPUTTER)=6
+            BzFonctionDirectionDateTime(BZ.FD.DATE.TIME)=7
+            BzFonctionDirectionAuthoriser(BZ.FD.AUTHORISER)=8
+            BzFonctionDirectionCoCode(BZ.FD.CO.CODE)=9
+            BzFonctionDirectionDeptCode(BZ.FD.DEPT.CODE)=10
+            BzFonctionDirectionAuditorCode(BZ.FD.AUDITOR.CODE)=11
+            BzFonctionDirectionAuditDateTime(BZ.FD.AUDIT.DATE.TIME)=12
+        }
+    }

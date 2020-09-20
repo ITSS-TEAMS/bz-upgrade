@@ -1,0 +1,18 @@
+public table BzStatut {
+    t24:  BZ.STATUT
+    fields:{
+        BzStatutDescription(BZ.STT.DESCRIPTION)=1
+        BzStatutStatut(BZ.STT.STATUT)=2
+        BzStatutStatutDesc(BZ.STT.STATUT.DESC)=3
+        BzStatutOverride(BZ.STT.OVERRIDE)=4
+        BzStatutRecordStatus(BZ.STT.RECORD.STATUS)=5
+        BzStatutCurrNo(BZ.STT.CURR.NO)=6
+        BzStatutInputter(BZ.STT.INPUTTER)=7
+        BzStatutDateTime(BZ.STT.DATE.TIME)=8
+        BzStatutAuthoriser(BZ.STT.AUTHORISER)=9
+        BzStatutCoCode(BZ.STT.CO.CODE)=10
+        BzStatutDeptCode(BZ.STT.DEPT.CODE)=11
+        BzStatutAuditorCode(BZ.STT.AUDITOR.CODE)=12
+        BzStatutAuditDateTime(BZ.STT.AUDIT.DATE.TIME)=13
+    }
+}

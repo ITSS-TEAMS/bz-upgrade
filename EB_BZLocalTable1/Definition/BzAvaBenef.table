@@ -1,0 +1,30 @@
+public table BzAvaBenef {
+    t24:  BZ.AVA.BENEF
+    fields:{
+        BzAvaBenefIdClient(AVA.BEN.ID.CLIENT)=1
+        BzAvaBenefNomPrenomBen(AVA.BEN.NOM.PRENOM.BEN)=2
+        BzAvaBenefTypeBenefTrf(AVA.BEN.TYPE.BENEF.TRF)=3
+        BzAvaBenefNumIdentifBen(AVA.BEN.NUM.IDENTIF.BEN)=4
+        BzAvaBenefQualiteBen(AVA.BEN.QUALITE.BEN)=5
+        BzAvaBenefRefAva(AVA.BEN.REF.AVA)=6
+        BzAvaBenefActive(AVA.BEN.ACTIVE)=7
+        BzAvaBenefDateModification(AVA.BEN.DATE.MODIFICATION)=8
+        BzAvaBenefAgence(AVA.BEN.AGENCE)=9
+        BzAvaBenefReserved1(AVA.BEN.RESERVED1)=10
+        BzAvaBenefReserved2(AVA.BEN.RESERVED2)=11
+        BzAvaBenefReserved3(AVA.BEN.RESERVED3)=12
+        BzAvaBenefReserved4(AVA.BEN.RESERVED4)=13
+        BzAvaBenefReserved5(AVA.BEN.RESERVED5)=14
+        BzAvaBenefLocalRef(AVA.BEN.LOCAL.REF)=15
+        BzAvaBenefOverride(AVA.BEN.OVERRIDE)=16
+        BzAvaBenefRecordStatus(AVA.BEN.RECORD.STATUS)=17
+        BzAvaBenefCurrNo(AVA.BEN.CURR.NO)=18
+        BzAvaBenefInputter(AVA.BEN.INPUTTER)=19
+        BzAvaBenefDateTime(AVA.BEN.DATE.TIME)=20
+        BzAvaBenefAuthoriser(AVA.BEN.AUTHORISER)=21
+        BzAvaBenefCoCode(AVA.BEN.CO.CODE)=22
+        BzAvaBenefDeptCode(AVA.BEN.DEPT.CODE)=23
+        BzAvaBenefAuditorCode(AVA.BEN.AUDITOR.CODE)=24
+        BzAvaBenefAuditDateTime(AVA.BEN.AUDIT.DATE.TIME)=25
+    }
+}

@@ -1,0 +1,43 @@
+public table BzIjrFacture {  
+    t24:  BZ.IJR.FACTURE
+    fields:{
+        BzIjrFactureAccountNo(BZ.IJRF.ACCOUNT.NO)=1
+        BzIjrFactureCustomerNo(BZ.IJRF.CUSTOMER.NO)=2
+        BzIjrFactureAcctOfficer(BZ.IJRF.ACCT.OFFICER)=3
+        BzIjrFactureCusShortName(BZ.IJRF.CUS.SHORT.NAME)=4
+        BzIjrFactureAddress(BZ.IJRF.ADDRESS)=5
+        BzIjrFactureTaxRegNo(BZ.IJRF.TAX.REG.NO)=6
+        BzIjrFactureContractNo(BZ.IJRF.CONTRACT.NO)=7
+        BzIjrFactureLoanType(BZ.IJRF.LOAN.TYPE)=8
+        BzIjrFactureFactNo(BZ.IJRF.FACT.NO)=9
+        BzIjrFactureCreateDate(BZ.IJRF.CREATE.DATE)=10
+        BzIjrFactureSendDate(BZ.IJRF.SEND.DATE)=11
+        BzIjrFactureSchDate(BZ.IJRF.SCH.DATE)=12
+        BzIjrFactureSchStDate(BZ.IJRF.SCH.ST.DATE)=13
+        BzIjrFactureSchEndDate(BZ.IJRF.SCH.END.DATE)=14
+        BzIjrFacturePrinAmt(BZ.IJRF.PRIN.AMT)=15
+        BzIjrFactureIntAmt(BZ.IJRF.INT.AMT)=16
+        BzIjrFactureRentAmt(BZ.IJRF.RENT.AMT)=17
+        BzIjrFactureVatAmt(BZ.IJRF.VAT.AMT)=18
+        BzIjrFactureAmtTtc(BZ.IJRF.AMT.TTC)=19
+        BzIjrFactureMatCommAmt(BZ.IJRF.MAT.COMM.AMT)=20
+        BzIjrFactureMatTvaAmt(BZ.IJRF.MAT.TVA.AMT)=21
+        BzIjrFactureStampAmt(BZ.IJRF.STAMP.AMT)=22
+        BzIjrFactureLettCarrAmt(BZ.IJRF.LETT.CARR.AMT)=23
+        BzIjrFactureTakafulAmt(BZ.IJRF.TAKAFUL.AMT)=24
+        BzIjrFactureTotAmt(BZ.IJRF.TOT.AMT)=25
+        BzIjrFactureLetterAmt(BZ.IJRF.LETTER.AMT)=26
+        BzIjrFactureLocalRef(BZ.IJRF.LOCAL.REF)=27
+        BzIjrFactureReserved10(BZ.IJRF.RESERVED10)=28
+        BzIjrFactureReserved09(BZ.IJRF.RESERVED09)=29
+        BzIjrFactureReserved08(BZ.IJRF.RESERVED08)=30
+        BzIjrFactureReserved07(BZ.IJRF.RESERVED07)=31
+        BzIjrFactureReserved06(BZ.IJRF.RESERVED06)=32
+        BzIjrFactureReserved05(BZ.IJRF.RESERVED05)=33
+        BzIjrFactureReserved04(BZ.IJRF.RESERVED04)=34
+        BzIjrFactureReserved03(BZ.IJRF.RESERVED03)=35
+        BzIjrFactureReserved02(BZ.IJRF.RESERVED02)=36
+        BzIjrFactureReserved01(BZ.IJRF.RESERVED01)=37
+        BzIjrFactureOverride(BZ.IJRF.OVERRIDE)=38
+    }
+}

@@ -1,0 +1,27 @@
+public table BzAvaParameter {
+    t24:  BZ.AVA.PARAMETER
+    fields:{
+        BzAvaParameterRepOut(AVA.PAR.REP.OUT)=1
+        BzAvaParameterReserved1(AVA.PAR.RESERVED1)=2
+        BzAvaParameterReserved2(AVA.PAR.RESERVED2)=3
+        BzAvaParameterReserved3(AVA.PAR.RESERVED3)=4
+        BzAvaParameterReserved4(AVA.PAR.RESERVED4)=5
+        BzAvaParameterReserved5(AVA.PAR.RESERVED5)=6
+        BzAvaParameterReserved6(AVA.PAR.RESERVED6)=7
+        BzAvaParameterReserved7(AVA.PAR.RESERVED7)=8
+        BzAvaParameterReserved8(AVA.PAR.RESERVED8)=9
+        BzAvaParameterReserved9(AVA.PAR.RESERVED9)=10
+        BzAvaParameterReserved10(AVA.PAR.RESERVED10)=11
+        BzAvaParameterLocalRef(AVA.PAR.LOCAL.REF)=12
+        BzAvaParameterOverride(AVA.PAR.OVERRIDE)=13
+        BzAvaParameterRecordStatus(AVA.PAR.RECORD.STATUS)=14
+        BzAvaParameterCurrNo(AVA.PAR.CURR.NO)=15
+        BzAvaParameterInputter(AVA.PAR.INPUTTER)=16
+        BzAvaParameterDateTime(AVA.PAR.DATE.TIME)=17
+        BzAvaParameterAuthoriser(AVA.PAR.AUTHORISER)=18
+        BzAvaParameterCoCode(AVA.PAR.CO.CODE)=19
+        BzAvaParameterDeptCode(AVA.PAR.DEPT.CODE)=20
+        BzAvaParameterAuditorCode(AVA.PAR.AUDITOR.CODE)=21
+        BzAvaParameterAuditDateTime(AVA.PAR.AUDIT.DATE.TIME)=22
+    }
+}

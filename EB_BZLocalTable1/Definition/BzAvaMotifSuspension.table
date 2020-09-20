@@ -1,0 +1,22 @@
+public table BzAvaMotifSuspension {
+    t24:  BZ.AVA.MOTIF.SUSPENSION
+    fields:{
+        BzAvaMotifSuspensionDescription(MOT.SUS.DESCRIPTION)=1
+        BzAvaMotifSuspensionReserved1(MOT.SUS.RESERVED1)=2
+        BzAvaMotifSuspensionReserved2(MOT.SUS.RESERVED2)=3
+        BzAvaMotifSuspensionReserved3(MOT.SUS.RESERVED3)=4
+        BzAvaMotifSuspensionReserved4(MOT.SUS.RESERVED4)=5
+        BzAvaMotifSuspensionReserved5(MOT.SUS.RESERVED5)=6
+        BzAvaMotifSuspensionLocalRef(MOT.SUS.LOCAL.REF)=7
+        BzAvaMotifSuspensionOverride(MOT.SUS.OVERRIDE)=8
+        BzAvaMotifSuspensionRecordStatus(MOT.SUS.RECORD.STATUS)=9
+        BzAvaMotifSuspensionCurrNo(MOT.SUS.CURR.NO)=10
+        BzAvaMotifSuspensionInputter(MOT.SUS.INPUTTER)=11
+        BzAvaMotifSuspensionDateTime(MOT.SUS.DATE.TIME)=12
+        BzAvaMotifSuspensionAuthoriser(MOT.SUS.AUTHORISER)=13
+        BzAvaMotifSuspensionCoCode(MOT.SUS.CO.CODE)=14
+        BzAvaMotifSuspensionDeptCode(MOT.SUS.DEPT.CODE)=15
+        BzAvaMotifSuspensionAuditorCode(MOT.SUS.AUDITOR.CODE)=16
+        BzAvaMotifSuspensionAuditDateTime(MOT.SUS.AUDIT.DATE.TIME)=17
+    }
+}

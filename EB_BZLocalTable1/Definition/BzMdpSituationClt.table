@@ -1,0 +1,16 @@
+public table BzMdpSituationClt {
+    t24:  BZ.MDP.SITUATION.CLT
+    fields:{
+        BzMdpSituationCltDesignation(ST.CLT.DESIGNATION)=1
+        BzMdpSituationCltOverride(ST.CLT.OVERRIDE)=2
+        BzMdpSituationCltRecordStatus(ST.CLT.RECORD.STATUS)=3
+        BzMdpSituationCltCurrNo(ST.CLT.CURR.NO)=4
+        BzMdpSituationCltInputter(ST.CLT.INPUTTER)=5
+        BzMdpSituationCltDateTime(ST.CLT.DATE.TIME)=6
+        BzMdpSituationCltAuthoriser(ST.CLT.AUTHORISER)=7
+        BzMdpSituationCltCoCode(ST.CLT.CO.CODE)=8
+        BzMdpSituationCltDeptCode(ST.CLT.DEPT.CODE)=9
+        BzMdpSituationCltAuditorCode(ST.CLT.AUDITOR.CODE)=10
+        BzMdpSituationCltAuditDateTime(ST.CLT.AUDIT.DATE.TIME)=11
+    }
+}

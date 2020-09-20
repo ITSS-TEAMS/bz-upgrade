@@ -1,0 +1,22 @@
+public table BzTunepsJuridique {
+    t24:  BZ.TUNEPS.JURIDIQUE
+    fields:{
+        BzTunepsJuridiqueCode(TUNEPS.JURID.CODE)=1
+        BzTunepsJuridiqueDescription(TUNEPS.JURID.DESCRIPTION)=2
+        BzTunepsJuridiqueReserved1(TUNEPS.JURID.RESERVED.1)=3
+        BzTunepsJuridiqueReserved2(TUNEPS.JURID.RESERVED.2)=4
+        BzTunepsJuridiqueReserved3(TUNEPS.JURID.RESERVED.3)=5
+        BzTunepsJuridiqueReserved4(TUNEPS.JURID.RESERVED.4)=6
+        BzTunepsJuridiqueReserved5(TUNEPS.JURID.RESERVED.5)=7
+        BzTunepsJuridiqueOverride(TUNEPS.JURID.OVERRIDE)=8
+        BzTunepsJuridiqueRecordStatus(TUNEPS.JURID.RECORD.STATUS)=9
+        BzTunepsJuridiqueCurrNo(TUNEPS.JURID.CURR.NO)=10
+        BzTunepsJuridiqueInputter(TUNEPS.JURID.INPUTTER)=11
+        BzTunepsJuridiqueDateTime(TUNEPS.JURID.DATE.TIME)=12
+        BzTunepsJuridiqueAuthoriser(TUNEPS.JURID.AUTHORISER)=13
+        BzTunepsJuridiqueCoCode(TUNEPS.JURID.CO.CODE)=14
+        BzTunepsJuridiqueDeptCode(TUNEPS.JURID.DEPT.CODE)=15
+        BzTunepsJuridiqueAuditorCode(TUNEPS.JURID.AUDITOR.CODE)=16
+        BzTunepsJuridiqueAuditDateTime(TUNEPS.JURID.AUDIT.DATE.TIME)=17
+    }
+}

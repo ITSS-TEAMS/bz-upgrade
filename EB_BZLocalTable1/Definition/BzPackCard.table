@@ -1,0 +1,19 @@
+public table BzPackCard {
+        t24:  BZ.PACK.CARD
+        fields:{
+            BzPackCardStatut(PK.CD.STATUT)=1
+            BzPackCardRefPack(PK.CD.REF.PACK)=2
+            BzPackCardReserved2(PK.CD.RESERVED.2)=3
+            BzPackCardReserved3(PK.CD.RESERVED.3)=4
+            BzPackCardOverride(PK.CD.OVERRIDE)=5
+            BzPackCardRecordStatus(PK.CD.RECORD.STATUS)=6
+            BzPackCardCurrNo(PK.CD.CURR.NO)=7
+            BzPackCardInputter(PK.CD.INPUTTER)=8
+            BzPackCardDateTime(PK.CD.DATE.TIME)=9
+            BzPackCardAuthoriser(PK.CD.AUTHORISER)=10
+            BzPackCardCoCode(PK.CD.CO.CODE)=11
+            BzPackCardDeptCode(PK.CD.DEPT.CODE)=12
+            BzPackCardAuditorCode(PK.CD.AUDITOR.CODE)=13
+            BzPackCardAuditDateTime(PK.CD.AUDIT.DATE.TIME)=14
+        }
+    }

@@ -1,0 +1,22 @@
+public table BzTunepsTypecaution {
+        t24:  BZ.TUNEPS.TYPECAUTION
+        fields:{
+            BzTunepsTypecautionCode(TUNEPS.TYC.CODE)=1
+            BzTunepsTypecautionDescription(TUNEPS.TYC.DESCRIPTION)=2
+            BzTunepsTypecautionReserved1(TUNEPS.TYC.RESERVED.1)=3
+            BzTunepsTypecautionReserved2(TUNEPS.TYC.RESERVED.2)=4
+            BzTunepsTypecautionReserved3(TUNEPS.TYC.RESERVED.3)=5
+            BzTunepsTypecautionReserved4(TUNEPS.TYC.RESERVED.4)=6
+            BzTunepsTypecautionReserved5(TUNEPS.TYC.RESERVED.5)=7
+            BzTunepsTypecautionOverride(TUNEPS.TYC.OVERRIDE)=8
+            BzTunepsTypecautionRecordStatus(TUNEPS.TYC.RECORD.STATUS)=9
+            BzTunepsTypecautionCurrNo(TUNEPS.TYC.CURR.NO)=10
+            BzTunepsTypecautionInputter(TUNEPS.TYC.INPUTTER)=11
+            BzTunepsTypecautionDateTime(TUNEPS.TYC.DATE.TIME)=12
+            BzTunepsTypecautionAuthoriser(TUNEPS.TYC.AUTHORISER)=13
+            BzTunepsTypecautionCoCode(TUNEPS.TYC.CO.CODE)=14
+            BzTunepsTypecautionDeptCode(TUNEPS.TYC.DEPT.CODE)=15
+            BzTunepsTypecautionAuditorCode(TUNEPS.TYC.AUDITOR.CODE)=16
+            BzTunepsTypecautionAuditDateTime(TUNEPS.TYC.AUDIT.DATE.TIME)=17
+        }
+    }

@@ -1,0 +1,17 @@
+public table BzCodeTce {
+        t24:  BZ.CODE.TCE
+        fields:{
+            BzCodeTceLibelletitre(BZ.CODE.TCE.LIBELLE.TITRE)=1
+            BzCodeTceLocalRef(BZ.CODE.TCE.LOCAL.REF)=2
+            BzCodeTceOverride(BZ.CODE.TCE.OVERRIDE)=3
+            BzCodeTceRecordStatus(BZ.CODE.TCE.RECORD.STATUS)=4
+            BzCodeTceCurrNo(BZ.CODE.TCE.CURR.NO)=5
+            BzCodeTceInputter(BZ.CODE.TCE.INPUTTER)=6
+            BzCodeTceDateTime(BZ.CODE.TCE.DATE.TIME)=7
+            BzCodeTceAuthoriser(BZ.CODE.TCE.AUTHORISER)=8
+            BzCodeTceCoCode(BZ.CODE.TCE.CO.CODE)=9
+            BzCodeTceDeptCode(BZ.CODE.TCE.DEPT.CODE)=10
+            BzCodeTceAuditorCode(BZ.CODE.TCE.AUDITOR.CODE)=11
+            BzCodeTceAuditDateTime(BZ.CODE.TCE.AUDIT.DATE.TIME)=12
+        }
+    }

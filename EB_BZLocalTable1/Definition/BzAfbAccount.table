@@ -1,0 +1,26 @@
+public table BzAfbAccount { 
+    t24:  BZ.AFB.ACCOUNT
+    fields:{
+        BzAfbAccountAfbAccount(AFB.ACCOUNT.AFB.ACCOUNT)=1
+        BzAfbAccountCodeClient(AFB.ACCOUNT.CODE.CLIENT)=2
+        BzAfbAccountDateCreation(AFB.ACCOUNT.DATE.CREATION)=3
+        BzAfbAccountAdrMail(AFB.ACCOUNT.ADR.MAIL)=4
+        BzAfbAccountReserved1(AFB.ACCOUNT.RESERVED.1)=5
+        BzAfbAccountReserved2(AFB.ACCOUNT.RESERVED.2)=6
+        BzAfbAccountReserved3(AFB.ACCOUNT.RESERVED.3)=7
+        BzAfbAccountReserved4(AFB.ACCOUNT.RESERVED.4)=8
+        BzAfbAccountReserved5(AFB.ACCOUNT.RESERVED.5)=9
+        BzAfbAccountReserved6(AFB.ACCOUNT.RESERVED.6)=10
+        BzAfbAccountReserved7(AFB.ACCOUNT.RESERVED.7)=11
+        BzAfbAccountReserved8(AFB.ACCOUNT.RESERVED.8)=12
+        BzAfbAccountRecordStatus(AFB.ACCOUNT.RECORD.STATUS)=13
+        BzAfbAccountCurrNo(AFB.ACCOUNT.CURR.NO)=14
+        BzAfbAccountInputter(AFB.ACCOUNT.INPUTTER)=15
+        BzAfbAccountDateTime(AFB.ACCOUNT.DATE.TIME)=16
+        BzAfbAccountAuthoriser(AFB.ACCOUNT.AUTHORISER)=17
+        BzAfbAccountCoCode(AFB.ACCOUNT.CO.CODE)=18
+        BzAfbAccountDeptCode(AFB.ACCOUNT.DEPT.CODE)=19
+        BzAfbAccountAuditorCode(AFB.ACCOUNT.AUDITOR.CODE)=20
+        BzAfbAccountAuditDateTime(AFB.ACCOUNT.AUDIT.DATE.TIME)=21
+    }
+} 

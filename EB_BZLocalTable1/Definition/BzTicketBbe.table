@@ -1,0 +1,36 @@
+public table BzTicketBbe {
+    t24:  BZ.TICKET.BBE
+    fields:{
+        BzTicketBbeCours(TICK.BBE.COURS)=1
+        BzTicketBbeAgence(TICK.BBE.AGENCE)=2
+        BzTicketBbeRefTransaction(TICK.BBE.REF.TRANSACTION)=3
+        BzTicketBbeTypeOperation(TICK.BBE.TYPE.OPERATION)=4
+        BzTicketBbeDateOperation(TICK.BBE.DATE.OPERATION)=5
+        BzTicketBbeStatut(TICK.BBE.STATUT)=6
+        BzTicketBbeDevise(TICK.BBE.DEVISE)=7
+        BzTicketBbeMontant(TICK.BBE.MONTANT)=8
+        BzTicketBbePersonnelBz(TICK.BBE.PERSONNEL.BZ)=9
+        BzTicketBbeMatricule(TICK.BBE.MATRICULE)=10
+        BzTicketBbeMontantServi(TICK.BBE.MONTANT.SERVI)=11
+        BzTicketBbeReserved1(TICK.BBE.RESERVED.1)=12
+        BzTicketBbeReserved2(TICK.BBE.RESERVED.2)=13
+        BzTicketBbeReserved3(TICK.BBE.RESERVED.3)=14
+        BzTicketBbeReserved4(TICK.BBE.RESERVED.4)=15
+        BzTicketBbeReserved5(TICK.BBE.RESERVED.5)=16
+        BzTicketBbeReserved6(TICK.BBE.RESERVED.6)=17
+        BzTicketBbeReserved7(TICK.BBE.RESERVED.7)=18
+        BzTicketBbeReserved8(TICK.BBE.RESERVED.8)=19
+        BzTicketBbeReserved9(TICK.BBE.RESERVED.9)=20
+        BzTicketBbeReserved10(TICK.BBE.RESERVED.10)=21
+        BzTicketBbeOverride(TICK.BBE.OVERRIDE)=22
+        BzTicketBbeRecordStatus(TICK.BBE.RECORD.STATUS)=23
+        BzTicketBbeCurrNo(TICK.BBE.CURR.NO)=24
+        BzTicketBbeInputter(TICK.BBE.INPUTTER)=25
+        BzTicketBbeDateTime(TICK.BBE.DATE.TIME)=26
+        BzTicketBbeAuthoriser(TICK.BBE.AUTHORISER)=27
+        BzTicketBbeCoCode(TICK.BBE.CO.CODE)=28
+        BzTicketBbeDeptCode(TICK.BBE.DEPT.CODE)=29
+        BzTicketBbeAuditorCode(TICK.BBE.AUDITOR.CODE)=30
+        BzTicketBbeAuditDateTime(TICK.BBE.AUDIT.DATE.TIME)=31
+    }
+}

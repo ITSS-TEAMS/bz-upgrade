@@ -1,0 +1,42 @@
+public table BzFactIjara {
+    t24:  BZ.FACT.IJARA
+    fields:{
+        BzFactIjaraNumCpte(FACT.NUM.CPTE)=1
+        BzFactIjaraCodeClient(FACT.CODE.CLIENT)=2
+        BzFactIjaraAgence(FACT.AGENCE)=3
+        BzFactIjaraDateOperation(FACT.DATE.OPERATION)=4
+        BzFactIjaraDateGeneration(FACT.DATE.GENERATION)=5
+        BzFactIjaraNomClient(FACT.NOM.CLIENT)=6
+        BzFactIjaraAdresse(FACT.ADRESSE)=7
+        BzFactIjaraMatFiscale(FACT.MAT.FISCALE)=8
+        BzFactIjaraNumContrat(FACT.NUM.CONTRAT)=9
+        BzFactIjaraNumFacture(FACT.NUM.FACTURE)=10
+        BzFactIjaraMois(FACT.MOIS)=11
+        BzFactIjaraDateEmission(FACT.DATE.EMISSION)=12
+        BzFactIjaraDateEcheance(FACT.DATE.ECHEANCE)=13
+        BzFactIjaraPeriodeDu(FACT.PERIODE.DU)=14
+        BzFactIjaraPeriodeAu(FACT.PERIODE.AU)=15
+        BzFactIjaraDescBien(FACT.DESC.BIEN)=16
+        BzFactIjaraMontantPrinc(FACT.MONTANT.PRINC)=17
+        BzFactIjaraMontantPrft(FACT.MONTANT.PRFT)=18
+        BzFactIjaraMontantLoyerHt(FACT.MONTANT.LOYER.HT)=19
+        BzFactIjaraMontantTva(FACT.MONTANT.TVA)=20
+        BzFactIjaraMontantTtc(FACT.MONTANT.TTC)=21
+        BzFactIjaraMontantCommEch(FACT.MONTANT.COMM.ECH)=22
+        BzFactIjaraMontantTvaEch(FACT.MONTANT.TVA.ECH)=23
+        BzFactIjaraMontantTimbre(FACT.MONTANT.TIMBRE)=24
+        BzFactIjaraFraisPortLettre(FACT.FRAIS.PORT.LETTRE)=25
+        BzFactIjaraMontantTotPayer(FACT.MONTANT.TOT.PAYER)=26
+        BzFactIjaraMontantTotLettre(FACT.MONTANT.TOT.LETTRE)=27
+        BzFactIjaraMontantTakaful(FACT.MONTANT.TAKAFUL)=28
+        BzFactIjaraRecordStatus(FACT.RECORD.STATUS)=29
+        BzFactIjaraCurrNo(FACT.CURR.NO)=30
+        BzFactIjaraInputter(FACT.INPUTTER)=31
+        BzFactIjaraDateTime(FACT.DATE.TIME)=32
+        BzFactIjaraAuthoriser(FACT.AUTHORISER)=33
+        BzFactIjaraCoCode(FACT.CO.CODE)=34
+        BzFactIjaraDeptCode(FACT.DEPT.CODE)=35
+        BzFactIjaraAuditorCode(FACT.AUDITOR.CODE)=36
+        BzFactIjaraAuditDateTime(FACT.AUDIT.DATE.TIME)=37
+    }
+}

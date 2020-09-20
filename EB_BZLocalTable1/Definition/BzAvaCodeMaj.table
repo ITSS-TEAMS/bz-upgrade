@@ -1,0 +1,22 @@
+public table BzAvaCodeMaj {
+    t24:  BZ.AVA.CODE.MAJ
+    fields:{
+        BzAvaCodeMajDescription(COD.MAJ.DESCRIPTION)=1
+        BzAvaCodeMajReserved1(COD.MAJ.RESERVED1)=2
+        BzAvaCodeMajReserved2(COD.MAJ.RESERVED2)=3
+        BzAvaCodeMajReserved3(COD.MAJ.RESERVED3)=4
+        BzAvaCodeMajReserved4(COD.MAJ.RESERVED4)=5
+        BzAvaCodeMajReserved5(COD.MAJ.RESERVED5)=6
+        BzAvaCodeMajLocalRef(COD.MAJ.LOCAL.REF)=7
+        BzAvaCodeMajOverride(COD.MAJ.OVERRIDE)=8
+        BzAvaCodeMajRecordStatus(COD.MAJ.RECORD.STATUS)=9
+        BzAvaCodeMajCurrNo(COD.MAJ.CURR.NO)=10
+        BzAvaCodeMajInputter(COD.MAJ.INPUTTER)=11
+        BzAvaCodeMajDateTime(COD.MAJ.DATE.TIME)=12
+        BzAvaCodeMajAuthoriser(COD.MAJ.AUTHORISER)=13
+        BzAvaCodeMajCoCode(COD.MAJ.CO.CODE)=14
+        BzAvaCodeMajDeptCode(COD.MAJ.DEPT.CODE)=15
+        BzAvaCodeMajAuditorCode(COD.MAJ.AUDITOR.CODE)=16
+        BzAvaCodeMajAuditDateTime(COD.MAJ.AUDIT.DATE.TIME)=17
+    }
+}

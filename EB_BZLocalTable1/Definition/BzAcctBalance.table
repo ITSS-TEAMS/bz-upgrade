@@ -1,0 +1,18 @@
+public table BzAcctBalance {
+    t24:  BZ.ACCT.BALANCE
+    fields:{
+        BzAcctBalanceAccountNumber(AC.BAL.ACCOUNT.NUMBER)=1
+        BzAcctBalanceDateBalance(AC.BAL.DATE.BALANCE)=2
+        BzAcctBalanceBalance(AC.BAL.BALANCE)=3
+        BzAcctBalanceCategory(AC.BAL.CATEGORY)=4
+        BzAcctBalanceRecordStatus(AC.BAL.RECORD.STATUS)=5
+        BzAcctBalanceCurrNo(AC.BAL.CURR.NO)=6
+        BzAcctBalanceInputter(AC.BAL.INPUTTER)=7
+        BzAcctBalanceDateTime(AC.BAL.DATE.TIME)=8
+        BzAcctBalanceAuthoriser(AC.BAL.AUTHORISER)=9
+        BzAcctBalanceCoCode(AC.BAL.CO.CODE)=10
+        BzAcctBalanceDeptCode(AC.BAL.DEPT.CODE)=11
+        BzAcctBalanceAuditorCode(AC.BAL.AUDITOR.CODE)=12
+        BzAcctBalanceAuditDateTime(AC.BAL.AUDIT.DATE.TIME)=13
+    }
+}   

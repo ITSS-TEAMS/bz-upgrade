@@ -1,0 +1,31 @@
+public table BzDeskRegularisation {
+        t24:  BZ.DESK.REGULARISATION
+        fields:{
+            BzDeskRegularisationDesk(DESK.REG.DESK)=1
+            BzDeskRegularisationDevise(DESK.REG.DEVISE)=2
+            BzDeskRegularisationPeriode(DESK.REG.PERIODE)=3
+            BzDeskRegularisationAgence(DESK.REG.AGENCE)=4
+            BzDeskRegularisationRefTrans(DESK.REG.REF.TRANS)=5
+            BzDeskRegularisationDateOperation(DESK.REG.DATE.OPERATION)=6
+            BzDeskRegularisationMontantDevise(DESK.REG.MONTANT.DEVISE)=7
+            BzDeskRegularisationMontantTnd(DESK.REG.MONTANT.TND)=8
+            BzDeskRegularisationCours(DESK.REG.COURS)=9
+            BzDeskRegularisationMois(DESK.REG.MOIS)=10
+            BzDeskRegularisationAnnee(DESK.REG.ANNEE)=11
+            BzDeskRegularisationReserved1(DESK.REG.RESERVED.1)=12
+            BzDeskRegularisationReserved2(DESK.REG.RESERVED.2)=13
+            BzDeskRegularisationReserved3(DESK.REG.RESERVED.3)=14
+            BzDeskRegularisationReserved4(DESK.REG.RESERVED.4)=15
+            BzDeskRegularisationReserved5(DESK.REG.RESERVED.5)=16
+            BzDeskRegularisationOverride(DESK.REG.OVERRIDE)=17
+            BzDeskRegularisationRecordStatus(DESK.REG.RECORD.STATUS)=18
+            BzDeskRegularisationCurrNo(DESK.REG.CURR.NO)=19
+            BzDeskRegularisationInputter(DESK.REG.INPUTTER)=20
+            BzDeskRegularisationDateTime(DESK.REG.DATE.TIME)=21
+            BzDeskRegularisationAuthoriser(DESK.REG.AUTHORISER)=22
+            BzDeskRegularisationCoCode(DESK.REG.CO.CODE)=23
+            BzDeskRegularisationDeptCode(DESK.REG.DEPT.CODE)=24
+            BzDeskRegularisationAuditorCode(DESK.REG.AUDITOR.CODE)=25
+            BzDeskRegularisationAuditDateTime(DESK.REG.AUDIT.DATE.TIME)=26
+        }
+    }

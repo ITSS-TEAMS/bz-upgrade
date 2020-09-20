@@ -1,0 +1,15 @@
+public table BzNiveauRisque {
+    t24:  BZ.NIVEAU.RISQUE
+    fields:{
+        BzNiveauRisqueDescription(RISK.DESCRIPTION)=1
+        BzNiveauRisqueRecordStatus(RISK.RECORD.STATUS)=2
+        BzNiveauRisqueCurrNo(RISK.CURR.NO)=3
+        BzNiveauRisqueInputter(RISK.INPUTTER)=4
+        BzNiveauRisqueDateTime(RISK.DATE.TIME)=5
+        BzNiveauRisqueAuthoriser(RISK.AUTHORISER)=6
+        BzNiveauRisqueCoCode(RISK.CO.CODE)=7
+        BzNiveauRisqueDeptCode(RISK.DEPT.CODE)=8
+        BzNiveauRisqueAuditorCode(RISK.AUDITOR.CODE)=9
+        BzNiveauRisqueAuditDateTime(RISK.AUDIT.DATE.TIME)=10
+    }
+}

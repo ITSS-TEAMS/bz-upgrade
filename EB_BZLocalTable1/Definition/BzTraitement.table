@@ -1,0 +1,17 @@
+public table BzTraitement {
+    t24:  BZ.TRAITEMENT
+    fields:{
+        BzTraitementCodeTraitement(TRT.CODE.TRAITEMENT)=1
+        BzTraitementMessage(TRT.MESSAGE)=2
+        BzTraitementOverride(TRT.OVERRIDE)=3
+        BzTraitementRecordStatus(TRT.RECORD.STATUS)=4
+        BzTraitementCurrNo(TRT.CURR.NO)=5
+        BzTraitementInputter(TRT.INPUTTER)=6
+        BzTraitementDateTime(TRT.DATE.TIME)=7
+        BzTraitementAuthoriser(TRT.AUTHORISER)=8
+        BzTraitementCoCode(TRT.CO.CODE)=9
+        BzTraitementDeptCode(TRT.DEPT.CODE)=10
+        BzTraitementAuditorCode(TRT.AUDITOR.CODE)=11
+        BzTraitementAuditDateTime(TRT.AUDIT.DATE.TIME)=12
+    }
+}

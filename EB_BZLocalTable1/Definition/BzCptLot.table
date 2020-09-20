@@ -1,0 +1,25 @@
+public table BzCptLot {
+    t24:  BZ.CPT.LOT
+    fields:{
+        BzCptLotSsSysteme(LOT.SS.SYSTEME)=1
+        BzCptLotAction(LOT.ACTION)=2
+        BzCptLotDateOperation(LOT.DATE.OPERATION)=3
+        BzCptLotCommentaire(LOT.COMMENTAIRE)=4
+        BzCptLotReserved1(LOT.RESERVED1)=5
+        BzCptLotReserved2(LOT.RESERVED2)=6
+        BzCptLotReserved3(LOT.RESERVED3)=7
+        BzCptLotReserved4(LOT.RESERVED4)=8
+        BzCptLotReserved5(LOT.RESERVED5)=9
+        BzCptLotLocalRef(LOT.LOCAL.REF)=10
+        BzCptLotOverride(LOT.OVERRIDE)=11
+        BzCptLotRecordStatus(LOT.RECORD.STATUS)=12
+        BzCptLotCurrNo(LOT.CURR.NO)=13
+        BzCptLotInputter(LOT.INPUTTER)=14
+        BzCptLotDateTime(LOT.DATE.TIME)=15
+        BzCptLotAuthoriser(LOT.AUTHORISER)=16
+        BzCptLotCoCode(LOT.CO.CODE)=17
+        BzCptLotDeptCode(LOT.DEPT.CODE)=18
+        BzCptLotAuditorCode(LOT.AUDITOR.CODE)=19
+        BzCptLotAuditDateTime(LOT.AUDIT.DATE.TIME)=20
+    }
+}

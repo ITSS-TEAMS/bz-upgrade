@@ -1,0 +1,46 @@
+public table BzTunepsContrat {
+    t24:  BZ.TUNEPS.CONTRAT
+    fields:{
+        BzTunepsContratHeureRecu(TUNEPS.CONT.HEURE.RECU)=1
+        BzTunepsContratCodeResultat(TUNEPS.CONT.CODE.RESULTAT)=2
+        BzTunepsContratMessageResultat(TUNEPS.CONT.MESSAGE.RESULTAT)=3
+        BzTunepsContratIdTransmission(TUNEPS.CONT.ID.TRANSMISSION)=4
+        BzTunepsContratNomContrat(TUNEPS.CONT.NOM.CONTRAT)=5
+        BzTunepsContratNumContrat(TUNEPS.CONT.NUM.CONTRAT)=6
+        BzTunepsContratNumNotice(TUNEPS.CONT.NUM.NOTICE)=7
+        BzTunepsContratNumSeqContrat(TUNEPS.CONT.NUM.SEQ.CONTRAT)=8
+        BzTunepsContratRaisonSociale(TUNEPS.CONT.RAISON.SOCIALE)=9
+        BzTunepsContratNumRc(TUNEPS.CONT.NUM.RC)=10
+        BzTunepsContratNomAo(TUNEPS.CONT.NOM.AO)=11
+        BzTunepsContratNumAo(TUNEPS.CONT.NUM.AO)=12
+        BzTunepsContratNumSeqAo(TUNEPS.CONT.NUM.SEQ.AO)=13
+        BzTunepsContratNomAcheteur(TUNEPS.CONT.NOM.ACHETEUR)=14
+        BzTunepsContratNumTuneps(TUNEPS.CONT.NUM.TUNEPS)=15
+        BzTunepsContratMontantContrat(TUNEPS.CONT.MONTANT.CONTRAT)=16
+        BzTunepsContratMontantLettre(TUNEPS.CONT.MONTANT.LETTRE)=17
+        BzTunepsContratDelaisAns(TUNEPS.CONT.DELAIS.ANS)=18
+        BzTunepsContratDelaisMois(TUNEPS.CONT.DELAIS.MOIS)=19
+        BzTunepsContratDelaisJours(TUNEPS.CONT.DELAIS.JOURS)=20
+        BzTunepsContratNumPj(TUNEPS.CONT.NUM.PJ)=21
+        BzTunepsContratTitrePj(TUNEPS.CONT.TITRE.PJ)=22
+        BzTunepsContratNomPj(TUNEPS.CONT.NOM.PJ)=23
+        BzTunepsContratCheminPj(TUNEPS.CONT.CHEMIN.PJ)=24
+        BzTunepsContratRefCaution(TUNEPS.CONT.REF.CAUTION)=25
+        BzTunepsContratIdCustomer(TUNEPS.CONT.ID.CUSTOMER)=26
+        BzTunepsContratCodeAcheteur(TUNEPS.CONT.CODE.ACHETEUR)=27
+        BzTunepsContratDateTitMarche(TUNEPS.CONT.DATE.TIT.MARCHE)=28
+        BzTunepsContratDevise(TUNEPS.CONT.DEVISE)=29
+        BzTunepsContratReserved4(TUNEPS.CONT.RESERVED.4)=30
+        BzTunepsContratReserved5(TUNEPS.CONT.RESERVED.5)=31
+        BzTunepsContratOverride(TUNEPS.CONT.OVERRIDE)=32
+        BzTunepsContratRecordStatus(TUNEPS.CONT.RECORD.STATUS)=33
+        BzTunepsContratCurrNo(TUNEPS.CONT.CURR.NO)=34
+        BzTunepsContratInputter(TUNEPS.CONT.INPUTTER)=35
+        BzTunepsContratDateTime(TUNEPS.CONT.DATE.TIME)=36
+        BzTunepsContratAuthoriser(TUNEPS.CONT.AUTHORISER)=37
+        BzTunepsContratCoCode(TUNEPS.CONT.CO.CODE)=38
+        BzTunepsContratDeptCode(TUNEPS.CONT.DEPT.CODE)=39
+        BzTunepsContratAuditorCode(TUNEPS.CONT.AUDITOR.CODE)=40
+        BzTunepsContratAuditDateTime(TUNEPS.CONT.AUDIT.DATE.TIME)=41
+    }
+}

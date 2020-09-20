@@ -1,0 +1,16 @@
+public table BzDomaine {
+    t24:  BZ.DOMAINE
+    fields:{
+        BzDomaineDescription(DOM.DESCRIPTION)=1
+        BzDomaineShortDesc(DOM.SHORT.DESC)=2
+        BzDomaineRecordStatus(DOM.RECORD.STATUS)=3
+        BzDomaineCurrNo(DOM.CURR.NO)=4
+        BzDomaineInputter(DOM.INPUTTER)=5
+        BzDomaineDateTime(DOM.DATE.TIME)=6
+        BzDomaineAuthoriser(DOM.AUTHORISER)=7
+        BzDomaineCoCode(DOM.CO.CODE)=8
+        BzDomaineDeptCode(DOM.DEPT.CODE)=9
+        BzDomaineAuditorCode(DOM.AUDITOR.CODE)=10
+        BzDomaineAuditDateTime(DOM.AUDIT.DATE.TIME)=11
+    }
+}

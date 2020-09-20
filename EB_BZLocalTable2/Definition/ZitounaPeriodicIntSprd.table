@@ -1,0 +1,21 @@
+public table ZitounaPeriodicIntSprd {
+    t24:  ZITOUNA.PERIODIC.INT.SPRD
+    fields:{
+        ZitounaPeriodicIntSprdDescription(ST.ZITOUNA.DESCRIPTION)=1
+        ZitounaPeriodicIntSprdBidTolerance(ST.ZITOUNA.BID.TOLERANCE)=2
+        ZitounaPeriodicIntSprdOfferTolerance(ST.ZITOUNA.OFFER.TOLERANCE)=3
+        ZitounaPeriodicIntSprdRestPeriod(ST.ZITOUNA.REST.PERIOD)=4
+        ZitounaPeriodicIntSprdMontant(ST.ZITOUNA.MONTANT)=5
+        ZitounaPeriodicIntSprdBidIntSprd(ST.ZITOUNA.BID.INT.SPRD)=6
+        ZitounaPeriodicIntSprdOfferIntSprd(ST.ZITOUNA.OFFER.INT.SPRD)=7
+        ZitounaPeriodicIntSprdRecordStatus(ST.ZITOUNA.RECORD.STATUS)=8
+        ZitounaPeriodicIntSprdCurrNo(ST.ZITOUNA.CURR.NO)=9
+        ZitounaPeriodicIntSprdInputter(ST.ZITOUNA.INPUTTER)=10
+        ZitounaPeriodicIntSprdDateTime(ST.ZITOUNA.DATE.TIME)=11
+        ZitounaPeriodicIntSprdAuthoriser(ST.ZITOUNA.AUTHORISER)=12
+        ZitounaPeriodicIntSprdCoCode(ST.ZITOUNA.CO.CODE)=13
+        ZitounaPeriodicIntSprdDeptCode(ST.ZITOUNA.DEPT.CODE)=14
+        ZitounaPeriodicIntSprdAuditorCode(ST.ZITOUNA.AUDITOR.CODE)=15
+        ZitounaPeriodicIntSprdAuditDateTime(ST.ZITOUNA.AUDIT.DATE.TIME)=16
+    }
+}

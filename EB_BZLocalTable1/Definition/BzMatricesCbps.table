@@ -1,0 +1,23 @@
+public table BzMatricesCbps {
+        t24:  BZ.MATRICES.CBPS
+        fields:{
+            BzMatricesCbpsDescription(MAT.CBP.DESCRIPTION)=1
+            BzMatricesCbpsMatCbpLiee(MAT.CBP.MAT.CBP.LIEE)=2
+            BzMatricesCbpsTraitement(MAT.CBP.TRAITEMENT)=3
+            BzMatricesCbpsTypeCbp(MAT.CBP.TYPE.CBP)=4
+            BzMatricesCbpsCbp(MAT.CBP.CBP)=5
+            BzMatricesCbpsDossierChange(MAT.CBP.DOSSIER.CHANGE)=6
+            BzMatricesCbpsMemeClient(MAT.CBP.MEME.CLIENT)=7
+            BzMatricesCbpsLocalRef(MAT.CBP.LOCAL.REF)=8
+            BzMatricesCbpsOverride(MAT.CBP.OVERRIDE)=9
+            BzMatricesCbpsRecordStatus(MAT.CBP.RECORD.STATUS)=10
+            BzMatricesCbpsCurrNo(MAT.CBP.CURR.NO)=11
+            BzMatricesCbpsInputter(MAT.CBP.INPUTTER)=12
+            BzMatricesCbpsDateTime(MAT.CBP.DATE.TIME)=13
+            BzMatricesCbpsAuthoriser(MAT.CBP.AUTHORISER)=14
+            BzMatricesCbpsCoCode(MAT.CBP.CO.CODE)=15
+            BzMatricesCbpsDeptCode(MAT.CBP.DEPT.CODE)=16
+            BzMatricesCbpsAuditorCode(MAT.CBP.AUDITOR.CODE)=17
+            BzMatricesCbpsAuditDateTime(MAT.CBP.AUDIT.DATE.TIME)=18
+        }
+    }

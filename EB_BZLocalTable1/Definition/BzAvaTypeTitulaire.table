@@ -1,0 +1,22 @@
+public table BzAvaTypeTitulaire {
+    t24:  BZ.AVA.TYPE.TITULAIRE
+    fields:{
+        BzAvaTypeTitulaireDescription(TYP.TUT.DESCRIPTION)=1
+        BzAvaTypeTitulaireReserved1(TYP.TUT.RESERVED1)=2
+        BzAvaTypeTitulaireReserved2(TYP.TUT.RESERVED2)=3
+        BzAvaTypeTitulaireReserved3(TYP.TUT.RESERVED3)=4
+        BzAvaTypeTitulaireReserved4(TYP.TUT.RESERVED4)=5
+        BzAvaTypeTitulaireReserved5(TYP.TUT.RESERVED5)=6
+        BzAvaTypeTitulaireLocalRef(TYP.TUT.LOCAL.REF)=7
+        BzAvaTypeTitulaireOverride(TYP.TUT.OVERRIDE)=8
+        BzAvaTypeTitulaireRecordStatus(TYP.TUT.RECORD.STATUS)=9
+        BzAvaTypeTitulaireCurrNo(TYP.TUT.CURR.NO)=10
+        BzAvaTypeTitulaireInputter(TYP.TUT.INPUTTER)=11
+        BzAvaTypeTitulaireDateTime(TYP.TUT.DATE.TIME)=12
+        BzAvaTypeTitulaireAuthoriser(TYP.TUT.AUTHORISER)=13
+        BzAvaTypeTitulaireCoCode(TYP.TUT.CO.CODE)=14
+        BzAvaTypeTitulaireDeptCode(TYP.TUT.DEPT.CODE)=15
+        BzAvaTypeTitulaireAuditorCode(TYP.TUT.AUDITOR.CODE)=16
+        BzAvaTypeTitulaireAuditDateTime(TYP.TUT.AUDIT.DATE.TIME)=17
+    }
+} 

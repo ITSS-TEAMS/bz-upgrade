@@ -1,0 +1,38 @@
+public table BzMdtRegistre {
+    t24:  BZ.MDT.REGISTRE
+    fields:{
+        BzMdtRegistreCodeDept(CHGMDT.CODE.DEPT)=1
+        BzMdtRegistreMatricule(CHGMDT.MATRICULE)=2
+        BzMdtRegistreCodeBanque(CHGMDT.CODE.BANQUE)=3
+        BzMdtRegistreArticle(CHGMDT.ARTICLE)=4
+        BzMdtRegistreCodeRegion(CHGMDT.CODE.REGION)=5
+        BzMdtRegistreNumMandat(CHGMDT.NUM.MANDAT)=6
+        BzMdtRegistreNumBordereau(CHGMDT.NUM.BORDEREAU)=7
+        BzMdtRegistreNomClient(CHGMDT.NOM.CLIENT)=8
+        BzMdtRegistreNumCompte(CHGMDT.NUM.COMPTE)=9
+        BzMdtRegistreMontantBrut(CHGMDT.MONTANT.BRUT)=10
+        BzMdtRegistreMontantOpposition(CHGMDT.MONTANT.OPPOSITION)=11
+        BzMdtRegistreMontantNet(CHGMDT.MONTANT.NET)=12
+        BzMdtRegistreMois(CHGMDT.MOIS)=13
+        BzMdtRegistreAnnee(CHGMDT.ANNEE)=14
+        BzMdtRegistreRefFichier(CHGMDT.REF.FICHIER)=15
+        BzMdtRegistreStatut(CHGMDT.STATUT)=16
+        BzMdtRegistreDateChargement(CHGMDT.DATE.CHARGEMENT)=17
+        BzMdtRegistreMotifRejet(CHGMDT.MOTIF.REJET)=18
+        BzMdtRegistreReserved1(CHGMDT.RESERVED1)=19
+        BzMdtRegistreReserved2(CHGMDT.RESERVED2)=20
+        BzMdtRegistreReserved3(CHGMDT.RESERVED3)=21
+        BzMdtRegistreReserved4(CHGMDT.RESERVED4)=22
+        BzMdtRegistreReserved5(CHGMDT.RESERVED5)=23
+        BzMdtRegistreOverride(CHGMDT.OVERRIDE)=24
+        BzMdtRegistreRecordStatus(CHGMDT.RECORD.STATUS)=25
+        BzMdtRegistreCurrNo(CHGMDT.CURR.NO)=26
+        BzMdtRegistreInputter(CHGMDT.INPUTTER)=27
+        BzMdtRegistreDateTime(CHGMDT.DATE.TIME)=28
+        BzMdtRegistreAuthoriser(CHGMDT.AUTHORISER)=29
+        BzMdtRegistreCoCode(CHGMDT.CO.CODE)=30
+        BzMdtRegistreDeptCode(CHGMDT.DEPT.CODE)=31
+        BzMdtRegistreAuditorCode(CHGMDT.AUDITOR.CODE)=32
+        BzMdtRegistreAuditDateTime(CHGMDT.AUDIT.DATE.TIME)=33
+    }
+}

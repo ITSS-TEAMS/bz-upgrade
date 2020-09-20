@@ -1,0 +1,26 @@
+public table BzMdpTypeStructure {
+    t24:  BZ.MDP.TYPE.STRUCTURE
+    fields:{
+        BzMdpTypeStructureDescription(TYPE.STR.DESCRIPTION)=1
+        BzMdpTypeStructureReserved1(TYPE.STR.RESERVED.1)=2
+        BzMdpTypeStructureReserved2(TYPE.STR.RESERVED.2)=3
+        BzMdpTypeStructureReserved3(TYPE.STR.RESERVED.3)=4
+        BzMdpTypeStructureReserved4(TYPE.STR.RESERVED.4)=5
+        BzMdpTypeStructureReserved5(TYPE.STR.RESERVED.5)=6
+        BzMdpTypeStructureReserved6(TYPE.STR.RESERVED.6)=7
+        BzMdpTypeStructureReserved7(TYPE.STR.RESERVED.7)=8
+        BzMdpTypeStructureReserved8(TYPE.STR.RESERVED.8)=9
+        BzMdpTypeStructureReserved9(TYPE.STR.RESERVED.9)=10
+        BzMdpTypeStructureReserved10(TYPE.STR.RESERVED.10)=11
+        BzMdpTypeStructureOverride(TYPE.STR.OVERRIDE)=12
+        BzMdpTypeStructureRecordStatus(TYPE.STR.RECORD.STATUS)=13
+        BzMdpTypeStructureCurrNo(TYPE.STR.CURR.NO)=14
+        BzMdpTypeStructureInputter(TYPE.STR.INPUTTER)=15
+        BzMdpTypeStructureDateTime(TYPE.STR.DATE.TIME)=16
+        BzMdpTypeStructureAuthoriser(TYPE.STR.AUTHORISER)=17
+        BzMdpTypeStructureCoCode(TYPE.STR.CO.CODE)=18
+        BzMdpTypeStructureDeptCode(TYPE.STR.DEPT.CODE)=19
+        BzMdpTypeStructureAuditorCode(TYPE.STR.AUDITOR.CODE)=20
+        BzMdpTypeStructureAuditDateTime(TYPE.STR.AUDIT.DATE.TIME)=21
+    }
+}

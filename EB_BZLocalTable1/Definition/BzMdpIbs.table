@@ -1,0 +1,20 @@
+public table BzMdpIbs {
+    t24:  BZ.MDP.IBS
+    fields:{
+        BzMdpIbsDescription(IBS.DESCRIPTION)=1
+        BzMdpIbsCompteIbs(IBS.COMPTE.IBS)=2
+        BzMdpIbsCompteVersTnd(IBS.COMPTE.VERS.TND)=3
+        BzMdpIbsCompteRetTnd(IBS.COMPTE.RET.TND)=4
+        BzMdpIbsOverride(IBS.OVERRIDE)=5
+        BzMdpIbsLocalRef(IBS.LOCAL.REF)=6
+        BzMdpIbsRecordStatus(IBS.RECORD.STATUS)=7
+        BzMdpIbsCurrNo(IBS.CURR.NO)=8
+        BzMdpIbsInputter(IBS.INPUTTER)=9
+        BzMdpIbsDateTime(IBS.DATE.TIME)=10
+        BzMdpIbsAuthoriser(IBS.AUTHORISER)=11
+        BzMdpIbsCoCode(IBS.CO.CODE)=12
+        BzMdpIbsDeptCode(IBS.DEPT.CODE)=13
+        BzMdpIbsAuditorCode(IBS.AUDITOR.CODE)=14
+        BzMdpIbsAuditDateTime(IBS.AUDIT.DATE.TIME)=15
+    }
+}

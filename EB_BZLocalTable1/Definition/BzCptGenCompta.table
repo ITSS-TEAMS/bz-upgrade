@@ -1,0 +1,33 @@
+public table BzCptGenCompta {
+        t24:  BZ.CPT.GEN.COMPTA
+        fields:{
+            BzCptGenComptaIdCptLot(GEN.CPT.ID.CPT.LOT)=1
+            BzCptGenComptaEvenement(GEN.CPT.EVENEMENT)=2
+            BzCptGenComptaRefOfs(GEN.CPT.REF.OFS)=3
+            BzCptGenComptaOfsMessage(GEN.CPT.OFS.MESSAGE)=4
+            BzCptGenComptaRefTransaction(GEN.CPT.REF.TRANSACTION)=5
+            BzCptGenComptaErreurMsg(GEN.CPT.ERREUR.MSG)=6
+            BzCptGenComptaDbDevise(GEN.CPT.DB.DEVISE)=7
+            BzCptGenComptaDbCompte(GEN.CPT.DB.COMPTE)=8
+            BzCptGenComptaCrDevise(GEN.CPT.CR.DEVISE)=9
+            BzCptGenComptaCrCompte(GEN.CPT.CR.COMPTE)=10
+            BzCptGenComptaMontant(GEN.CPT.MONTANT)=11
+            BzCptGenComptaDebitRef(GEN.CPT.DEBIT.REF)=12
+            BzCptGenComptaCreditRef(GEN.CPT.CREDIT.REF)=13
+            BzCptGenComptaDateOperation(GEN.CPT.DATE.OPERATION)=14
+            BzCptGenComptaStatut(GEN.CPT.STATUT)=15
+            BzCptGenComptaDept(GEN.CPT.DEPT)=16
+            BzCptGenComptaRefOrigine(GEN.CPT.REF.ORIGINE)=17
+            BzCptGenComptaDomaine(GEN.CPT.DOMAINE)=18
+            BzCptGenComptaOverride(GEN.CPT.OVERRIDE)=19
+            BzCptGenComptaRecordStatus(GEN.CPT.RECORD.STATUS)=20
+            BzCptGenComptaCurrNo(GEN.CPT.CURR.NO)=21
+            BzCptGenComptaInputter(GEN.CPT.INPUTTER)=22
+            BzCptGenComptaDateTime(GEN.CPT.DATE.TIME)=23
+            BzCptGenComptaAuthoriser(GEN.CPT.AUTHORISER)=24
+            BzCptGenComptaCoCode(GEN.CPT.CO.CODE)=25
+            BzCptGenComptaDeptCode(GEN.CPT.DEPT.CODE)=26
+            BzCptGenComptaAuditorCode(GEN.CPT.AUDITOR.CODE)=27
+            BzCptGenComptaAuditDateTime(GEN.CPT.AUDIT.DATE.TIME)=28
+        }
+    }

@@ -1,0 +1,26 @@
+public table HStructureInterface {
+t24:  H.STRUCTURE.INTERFACE
+fields:{
+        HStructureInterfaceTypeStructure(FE.TYPE.STRUCTURE)=1
+HStructureInterfaceSeparateur(FE.SEPARATEUR)=2
+HStructureInterfaceDescription(FE.DESCRIPTION)=3
+HStructureInterfaceNomTable(FE.NOM.TABLE)=4
+HStructureInterfaceChampFichier(FE.CHAMP.FICHIER)=5
+HStructureInterfacePosition(FE.POSITION)=6
+HStructureInterfaceLongueur(FE.LONGUEUR)=7
+HStructureInterfaceChampT24(FE.CHAMP.T24)=8
+HStructureInterfaceType(FE.TYPE)=9
+HStructureInterfaceLocalRef(FE.LOCAL.REF)=10
+HStructureInterfaceStmtNos(FE.STMT.NOS)=11
+HStructureInterfaceOverride(FE.OVERRIDE)=12
+HStructureInterfaceRecordStatus(FE.RECORD.STATUS)=13
+HStructureInterfaceCurrNo(FE.CURR.NO)=14
+HStructureInterfaceInputter(FE.INPUTTER)=15
+HStructureInterfaceDateTime(FE.DATE.TIME)=16
+HStructureInterfaceAuthoriser(FE.AUTHORISER)=17
+HStructureInterfaceCoCode(FE.CO.CODE)=18
+HStructureInterfaceDeptCode(FE.DEPT.CODE)=19
+HStructureInterfaceAuditorCode(FE.AUDITOR.CODE)=20
+HStructureInterfaceAuditDateTime(FE.AUDIT.DATE.TIME)=21
+}
+}

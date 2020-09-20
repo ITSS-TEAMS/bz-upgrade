@@ -1,0 +1,28 @@
+public table BzCardAccount {
+    t24:  BZ.CARD.ACCOUNT
+    fields:{
+        BzCardAccountCompte(CAC.COMPTE)=1
+        BzCardAccountDate(CAC.DATE)=2
+        BzCardAccountRefOrigine(CAC.REF.ORIGINE)=3
+        BzCardAccountReserved1(CAC.RESERVED.1)=4
+        BzCardAccountReserved2(CAC.RESERVED.2)=5
+        BzCardAccountReserved3(CAC.RESERVED.3)=6
+        BzCardAccountReserved4(CAC.RESERVED.4)=7
+        BzCardAccountReserved5(CAC.RESERVED.5)=8
+        BzCardAccountReserved6(CAC.RESERVED.6)=9
+        BzCardAccountReserved7(CAC.RESERVED.7)=10
+        BzCardAccountReserved8(CAC.RESERVED.8)=11
+        BzCardAccountReserved9(CAC.RESERVED.9)=12
+        BzCardAccountReserved10(CAC.RESERVED.10)=13
+        BzCardAccountOverride(CAC.OVERRIDE)=14
+        BzCardAccountRecordStatus(CAC.RECORD.STATUS)=15
+        BzCardAccountCurrNo(CAC.CURR.NO)=16
+        BzCardAccountInputter(CAC.INPUTTER)=17
+        BzCardAccountDateTime(CAC.DATE.TIME)=18
+        BzCardAccountAuthoriser(CAC.AUTHORISER)=19
+        BzCardAccountCoCode(CAC.CO.CODE)=20
+        BzCardAccountDeptCode(CAC.DEPT.CODE)=21
+        BzCardAccountAuditorCode(CAC.AUDITOR.CODE)=22
+        BzCardAccountAuditDateTime(CAC.AUDIT.DATE.TIME)=23
+    }
+}

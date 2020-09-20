@@ -1,0 +1,20 @@
+public table BzSedCodeBanqueDevise {
+    t24:  BZ.SED.CODE.BANQUE.DEVISE
+    fields:{
+        BzSedCodeBanqueDeviseDescription(CDBKDEV.DESCRIPTION)=1
+        BzSedCodeBanqueDeviseSwift(CDBKDEV.SWIFT)=2
+        BzSedCodeBanqueDeviseNom(CDBKDEV.NOM)=3
+        BzSedCodeBanqueDeviseCode(CDBKDEV.CODE)=4
+        BzSedCodeBanqueDeviseLocalRef(CDBKDEV.LOCAL.REF)=5
+        BzSedCodeBanqueDeviseOverride(CDBKDEV.OVERRIDE)=6
+        BzSedCodeBanqueDeviseRecordStatus(CDBKDEV.RECORD.STATUS)=7
+        BzSedCodeBanqueDeviseCurrNo(CDBKDEV.CURR.NO)=8
+        BzSedCodeBanqueDeviseInputter(CDBKDEV.INPUTTER)=9
+        BzSedCodeBanqueDeviseDateTime(CDBKDEV.DATE.TIME)=10
+        BzSedCodeBanqueDeviseAuthoriser(CDBKDEV.AUTHORISER)=11
+        BzSedCodeBanqueDeviseCoCode(CDBKDEV.CO.CODE)=12
+        BzSedCodeBanqueDeviseDeptCode(CDBKDEV.DEPT.CODE)=13
+        BzSedCodeBanqueDeviseAuditorCode(CDBKDEV.AUDITOR.CODE)=14
+        BzSedCodeBanqueDeviseAuditDateTime(CDBKDEV.AUDIT.DATE.TIME)=15
+    }
+}

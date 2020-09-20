@@ -1,0 +1,21 @@
+public table BzMdpSeuilChqToday {
+    t24:  BZ.MDP.SEUIL.CHQ.TODAY
+    fields:{
+        BzMdpSeuilChqTodayDescription(SEUIL.CHQ.TD.DESCRIPTION)=1
+        BzMdpSeuilChqTodaySeuilTimeDeb(SEUIL.CHQ.TD.SEUIL.TIME.DEB)=2
+        BzMdpSeuilChqTodaySeuilTimeFin(SEUIL.CHQ.TD.SEUIL.TIME.FIN)=3
+        BzMdpSeuilChqTodaySeuilNombre(SEUIL.CHQ.TD.SEUIL.NOMBRE)=4
+        BzMdpSeuilChqTodayChequeDepose(SEUIL.CHQ.TD.CHEQUE.DEPOSE)=5
+        BzMdpSeuilChqTodayOverride(SEUIL.CHQ.TD.OVERRIDE)=6
+        BzMdpSeuilChqTodayLocalRef(SEUIL.CHQ.TD.LOCAL.REF)=7
+        BzMdpSeuilChqTodayRecordStatus(SEUIL.CHQ.TD.RECORD.STATUS)=8
+        BzMdpSeuilChqTodayCurrNo(SEUIL.CHQ.TD.CURR.NO)=9
+        BzMdpSeuilChqTodayInputter(SEUIL.CHQ.TD.INPUTTER)=10
+        BzMdpSeuilChqTodayDateTime(SEUIL.CHQ.TD.DATE.TIME)=11
+        BzMdpSeuilChqTodayAuthoriser(SEUIL.CHQ.TD.AUTHORISER)=12
+        BzMdpSeuilChqTodayCoCode(SEUIL.CHQ.TD.CO.CODE)=13
+        BzMdpSeuilChqTodayDeptCode(SEUIL.CHQ.TD.DEPT.CODE)=14
+        BzMdpSeuilChqTodayAuditorCode(SEUIL.CHQ.TD.AUDITOR.CODE)=15
+        BzMdpSeuilChqTodayAuditDateTime(SEUIL.CHQ.TD.AUDIT.DATE.TIME)=16
+    }
+}

@@ -1,0 +1,31 @@
+public table BzTraitMasse {
+    t24:  BZ.TRAIT.MASSE
+    fields:{
+        BzTraitMasseProcessDt(BzTraitMasse.PROCESS.DT)=1
+        BzTraitMasseAccountNo(CM.ACCOUNT.NO)=2
+        BzTraitMasseCustomerNo(CM.CUSTOMER.NO)=3
+        BzTraitMasseCurrency(CM.CURRENCY)=4
+        BzTraitMasseAmount(CM.AMOUNT)=5
+        BzTraitMasseAmountLcy(CM.AMOUNT.LCY)=6
+        BzTraitMasseDrCrMarket(CM.DR.CR.MARKER)=7
+        BzTraitMasseTxnCode(CM.TXN.CODE)=8
+        BzTraitMasseValueDate(CM.VALUE.DATE)=9
+        BzTraitMasseRemark(CM.REMARKS)=10
+        BzTraitMasseAcctOfficer(CM.ACCT.OFFICER)=11
+        BzTraitMasseCcyMarket(CM.CCY.MARKET)=12
+        BzTraitMasseTotDrAmt(CM.TOT.DR.AMT)=13
+        BzTraitMasseTotCrAmt(CM.TOT.CR.AMT)=14
+        BzTraitMasseLocalRef(CM.LOCAL.REF)=15
+        BzTraitMasseStmtNos(CM.STMT.NOS)=16
+        BzTraitMasseOverride(CM.OVERRIDE)=17
+        BzTraitMasseRecordStatus(CM.RECORD.STATUS)=18
+        BzTraitMasseCurrNo(CM.CURR.NO)=19
+        BzTraitMasseInputter(CM.INPUTTER)=20
+        BzTraitMasseDateTime(CM.DATE.TIME)=21
+        BzTraitMasseAuthoriser(CM.AUTHORISER)=22
+        BzTraitMasseCoCode(CM.CO.CODE)23
+        BzTraitMasseDeptCode(CM.DEPT.CODE)24
+        BzTraitMasseAuditorCode(CM.AUDITOR.CODE)25
+        BzTraitMasseAuditDateTime(CM.AUDIT.DATE.TIME)26
+    }
+}

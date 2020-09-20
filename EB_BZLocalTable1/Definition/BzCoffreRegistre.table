@@ -1,0 +1,20 @@
+public table BzCoffreRegistre {
+    t24:  BZ.COFFRE.REGISTRE
+    fields:{
+        BzCoffreRegistreType(CF.REG.TYPE)=1
+        BzCoffreRegistreAgence(CF.REG.AGENCE)=2
+        BzCoffreRegistreNumero(CF.REG.NUMERO)=3
+        BzCoffreRegistreStatut(CF.REG.STATUT)=4
+        BzCoffreRegistreDateCreation(CF.REG.DATE.CREATION)=5
+        BzCoffreRegistreOverride(CF.REG.OVERRIDE)=6
+        BzCoffreRegistreRecordStatus(CF.REG.RECORD.STATUS)=7
+        BzCoffreRegistreCurrNo(CF.REG.CURR.NO)=8
+        BzCoffreRegistreInputter(CF.REG.INPUTTER)=9
+        BzCoffreRegistreDateTime(CF.REG.DATE.TIME)=10
+        BzCoffreRegistreAuthoriser(CF.REG.AUTHORISER)=11
+        BzCoffreRegistreCoCode(CF.REG.CO.CODE)=12
+        BzCoffreRegistreDeptCode(CF.REG.DEPT.CODE)=13
+        BzCoffreRegistreAuditorCode(CF.REG.AUDITOR.CODE)=14
+        BzCoffreRegistreAuditDateTime(CF.REG.AUDIT.DATE.TIME)=15
+    }
+}

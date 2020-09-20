@@ -1,0 +1,26 @@
+public table BzAfbTxn {
+    t24:  BZ.AFB.TXN
+    fields:{
+        BzAfbTxnT24Txn(AFB.TXN.T24.TXN)=1
+        BzAfbTxnLabelTxn(AFB.TXN.LABEL.TXN)=2
+        BzAfbTxnCodeAfb(AFB.TXN.CODE.AFB)=3
+        BzAfbTxnLabelAfb(AFB.TXN.LABEL.AFB)=4
+        BzAfbTxnReserved1(AFB.TXN.RESERVED.1)=5
+        BzAfbTxnReserved2(AFB.TXN.RESERVED.2)=6
+        BzAfbTxnReserved3(AFB.TXN.RESERVED.3)=7
+        BzAfbTxnReserved4(AFB.TXN.RESERVED.4)=8
+        BzAfbTxnReserved5(AFB.TXN.RESERVED.5)=9
+        BzAfbTxnReserved6(AFB.TXN.RESERVED.6)=10
+        BzAfbTxnReserved7(AFB.TXN.RESERVED.7)=11
+        BzAfbTxnReserved8(AFB.TXN.RESERVED.8)=12
+        BzAfbTxnRecordStatus(AFB.TXN.RECORD.STATUS)=13
+        BzAfbTxnCurrNo(AFB.TXN.CURR.NO)=14
+        BzAfbTxnInputter(AFB.TXN.INPUTTER)=15
+        BzAfbTxnDateTime(AFB.TXN.DATE.TIME)=16
+        BzAfbTxnAuthoriser(AFB.TXN.AUTHORISER)=17
+        BzAfbTxnCoCode(AFB.TXN.CO.CODE)=18
+        BzAfbTxnDeptCode(AFB.TXN.DEPT.CODE)=19
+        BzAfbTxnAuditorCode(AFB.TXN.AUDITOR.CODE)=20
+        BzAfbTxnAuditDateTime(AFB.TXN.AUDIT.DATE.TIME)=21
+    }
+} 

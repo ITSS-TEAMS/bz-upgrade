@@ -1,0 +1,34 @@
+public table BzPackDefinition {
+        t24:  BZ.PACK.DEFINITION
+        fields:{
+            BzPackDefinitionDescription(DEF.PK.DESCRIPTION)=1
+            BzPackDefinitionAccount(DEF.PK.ACCOUNT)=2
+            BzPackDefinitionCard(DEF.PK.CARD)=3
+            BzPackDefinitionTpe(DEF.PK.TPE)=4
+            BzPackDefinitionTawassool(DEF.PK.TAWASSOOL)=5
+            BzPackDefinitionCardType(DEF.PK.CARD.TYPE)=6
+            BzPackDefinitionTpeType(DEF.PK.TPE.TYPE)=7
+            BzPackDefinitionTarget(DEF.PK.TARGET)=8
+            BzPackDefinitionCategory(DEF.PK.CATEGORY)=9
+            BzPackDefinitionFrequency(DEF.PK.FREQUENCY)=10
+            BzPackDefinitionChargeKey(DEF.PK.CHARGE.KEY)=11
+            BzPackDefinitionActive(DEF.PK.ACTIVE)=12
+            BzPackDefinitionGroupAc(DEF.PK.GROUP.AC)=13
+            BzPackDefinitionFraisAnn(DEF.PK.FRAIS.ANN)=14
+            BzPackDefinitionReserved4(DEF.PK.RESERVED.4)=15
+            BzPackDefinitionReserved5(DEF.PK.RESERVED.5)=16
+            BzPackDefinitionReserved6(DEF.PK.RESERVED.6)=17
+            BzPackDefinitionReserved7(DEF.PK.RESERVED.7)=18
+            BzPackDefinitionReserved8(DEF.PK.RESERVED.8)=19
+            BzPackDefinitionOverride(DEF.PK.OVERRIDE)=20
+            BzPackDefinitionRecordStatus(DEF.PK.RECORD.STATUS)=21
+            BzPackDefinitionCurrNo(DEF.PK.CURR.NO)=22
+            BzPackDefinitionInputter(DEF.PK.INPUTTER)=23
+            BzPackDefinitionDateTime(DEF.PK.DATE.TIME)=24
+            BzPackDefinitionAuthoriser(DEF.PK.AUTHORISER)=25
+            BzPackDefinitionCoCode(DEF.PK.CO.CODE)=26
+            BzPackDefinitionDeptCode(DEF.PK.DEPT.CODE)=27
+            BzPackDefinitionAuditorCode(DEF.PK.AUDITOR.CODE)=28
+            BzPackDefinitionAuditDateTime(DEF.PK.AUDIT.DATE.TIME)=29
+        }
+    }

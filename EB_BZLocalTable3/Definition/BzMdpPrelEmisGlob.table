@@ -1,0 +1,47 @@
+public table BzMdpPrelEmisGlob {
+    t24:  BZ.MDP.PREL.EMIS.GLOB
+    fields:{
+        BzMdpPrelEmisGlobCodeEmetteur(PREL.GLOB.CODE.EMETTEUR)=1
+        BzMdpPrelEmisGlobRibCreancier(PREL.GLOB.RIB.CREANCIER)=2
+        BzMdpPrelEmisGlobDateEcheance(PREL.GLOB.DATE.ECHEANCE)=3
+        BzMdpPrelEmisGlobRefSupport(PREL.GLOB.REF.SUPPORT)=4
+        BzMdpPrelEmisGlobNombrePrel(PREL.GLOB.NOMBRE.PREL)=5
+        BzMdpPrelEmisGlobMontant(PREL.GLOB.MONTANT)=6
+        BzMdpPrelEmisGlobNombreDom(PREL.GLOB.NOMBRE.DOM)=7
+        BzMdpPrelEmisGlobLigneRecu(PREL.GLOB.LIGNE.RECU)=8
+        BzMdpPrelEmisGlobMotifDetecte(PREL.GLOB.MOTIF.DETECTE)=9
+        BzMdpPrelEmisGlobStatut(PREL.GLOB.STATUT)=10
+        BzMdpPrelEmisGlobCompteCreancier(PREL.GLOB.COMPTE.CREANCIER)=11
+        BzMdpPrelEmisGlobUniteGestion(PREL.GLOB.UNITE.GESTION)=12
+        BzMdpPrelEmisGlobDateChargement(PREL.GLOB.DATE.CHARGEMENT)=13
+        BzMdpPrelEmisGlobFtLiquidation(PREL.GLOB.FT.LIQUIDATION)=14
+        BzMdpPrelEmisGlobFichierRecu(PREL.GLOB.FICHIER.RECU)=15
+        BzMdpPrelEmisGlobRefGlobal(PREL.GLOB.REF.GLOBAL)=16
+        BzMdpPrelEmisGlobRefChargement(PREL.GLOB.REF.CHARGEMENT)=17
+        BzMdpPrelEmisGlobFichierEmis(PREL.GLOB.FICHIER.EMIS)=18
+        BzMdpPrelEmisGlobDateOperation(PREL.GLOB.DATE.OPERATION)=19
+        BzMdpPrelEmisGlobDateCompensation(PREL.GLOB.DATE.COMPENSATION)=20
+        BzMdpPrelEmisGlobNumLot(PREL.GLOB.NUM.LOT)=21
+        BzMdpPrelEmisGlobCptTechnique(PREL.GLOB.CPT.TECHNIQUE)=22
+        BzMdpPrelEmisGlobDatePres(PREL.GLOB.DATE.PRES)=23
+        BzMdpPrelEmisGlobFichierRetour(PREL.GLOB.FICHIER.RETOUR)=24
+        BzMdpPrelEmisGlobReserved3(PREL.GLOB.RESERVED.3)=25
+        BzMdpPrelEmisGlobReserved4(PREL.GLOB.RESERVED.4)=26
+        BzMdpPrelEmisGlobReserved5(PREL.GLOB.RESERVED.5)=27
+        BzMdpPrelEmisGlobReserved6(PREL.GLOB.RESERVED.6)=28
+        BzMdpPrelEmisGlobReserved7(PREL.GLOB.RESERVED.7)=29
+        BzMdpPrelEmisGlobReserved8(PREL.GLOB.RESERVED.8)=30
+        BzMdpPrelEmisGlobReserved9(PREL.GLOB.RESERVED.9)=31
+        BzMdpPrelEmisGlobReserved10(PREL.GLOB.RESERVED.10)=32
+        BzMdpPrelEmisGlobOverride(PREL.GLOB.OVERRIDE)=33
+        BzMdpPrelEmisGlobRecordStatus(PREL.GLOB.RECORD.STATUS)=34
+        BzMdpPrelEmisGlobCurrNo(PREL.GLOB.CURR.NO)=35
+        BzMdpPrelEmisGlobInputter(PREL.GLOB.INPUTTER)=36
+        BzMdpPrelEmisGlobDateTime(PREL.GLOB.DATE.TIME)=37
+        BzMdpPrelEmisGlobAuthoriser(PREL.GLOB.AUTHORISER)=38
+        BzMdpPrelEmisGlobCoCode(PREL.GLOB.CO.CODE)=39
+        BzMdpPrelEmisGlobDeptCode(PREL.GLOB.DEPT.CODE)=40
+        BzMdpPrelEmisGlobAuditorCode(PREL.GLOB.AUDITOR.CODE)=41
+        BzMdpPrelEmisGlobAuditDateTime(PREL.GLOB.AUDIT.DATE.TIME)=42
+    }
+} 

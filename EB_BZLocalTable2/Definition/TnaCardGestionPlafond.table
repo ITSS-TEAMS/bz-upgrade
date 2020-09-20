@@ -1,0 +1,17 @@
+public table TnaCardGestionPlafond {
+    t24:  TNA.CARD.GESTION.PLAFOND
+    fields:{
+        TnaCardGestionPlafondTypeFichier(PLAFOND.TYPE.FICHIER)=1
+        TnaCardGestionPlafondLocalRef(PLAFOND.LOCAL.REF)=2
+        TnaCardGestionPlafondOverride(PLAFOND.OVERRIDE)=3
+        TnaCardGestionPlafondRecordStatus(PLAFOND.RECORD.STATUS)=4
+        TnaCardGestionPlafondCurrNo(PLAFOND.CURR.NO)=5
+        TnaCardGestionPlafondInputter(PLAFOND.INPUTTER)=6
+        TnaCardGestionPlafondDateTime(PLAFOND.DATE.TIME)=7
+        TnaCardGestionPlafondAuthoriser(PLAFOND.AUTHORISER)=8
+        TnaCardGestionPlafondCoCode(PLAFOND.CO.CODE)=9
+        TnaCardGestionPlafondDeptCode(PLAFOND.DEPT.CODE)=10
+        TnaCardGestionPlafondAuditorCode(PLAFOND.AUDITOR.CODE)=11
+        TnaCardGestionPlafondAuditDateTime(PLAFOND.AUDIT.DATE.TIME)=12
+    }
+}

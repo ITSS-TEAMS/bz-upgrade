@@ -1,0 +1,28 @@
+public table BzConventions {
+        t24:  BZ.CONVENTIONS
+        fields:{
+            BzConventionsNomPart(BZ.CONVENT.NOM.PART)=1
+            BzConventionsDateAjout(BZ.CONVENT.DATE.AJOUT)=2
+            BzConventionsDateNotif(BZ.CONVENT.DATE.NOTIF)=3
+            BzConventionsReserved1(BZ.CONVENT.RESERVED.1)=4
+            BzConventionsReserved2(BZ.CONVENT.RESERVED.2)=5
+            BzConventionsReserved3(BZ.CONVENT.RESERVED.3)=6
+            BzConventionsReserved4(BZ.CONVENT.RESERVED.4)=7
+            BzConventionsReserved5(BZ.CONVENT.RESERVED.5)=8
+            BzConventionsReserved6(BZ.CONVENT.RESERVED.6)=9
+            BzConventionsReserved7(BZ.CONVENT.RESERVED.7)=10
+            BzConventionsReserved8(BZ.CONVENT.RESERVED.8)=11
+            BzConventionsReserved9(BZ.CONVENT.RESERVED.9)=12
+            BzConventionsReserved10(BZ.CONVENT.RESERVED.10)=13
+            BzConventionsOverride(BZ.CONVENT.OVERRIDE)=14
+            BzConventionsRecordStatus(BZ.CONVENT.RECORD.STATUS)=15
+            BzConventionsCurrNo(BZ.CONVENT.CURR.NO)=16
+            BzConventionsInputter(BZ.CONVENT.INPUTTER)=17
+            BzConventionsDateTime(BZ.CONVENT.DATE.TIME)=18
+            BzConventionsAuthoriser(BZ.CONVENT.AUTHORISER)=19
+            BzConventionsCoCode(BZ.CONVENT.CO.CODE)=20
+            BzConventionsDeptCode(BZ.CONVENT.DEPT.CODE)=21
+            BzConventionsAuditorCode(BZ.CONVENT.AUDITOR.CODE)=22
+            BzConventionsAuditDateTime(BZ.CONVENT.AUDIT.DATE.TIME)=23
+        }
+    }

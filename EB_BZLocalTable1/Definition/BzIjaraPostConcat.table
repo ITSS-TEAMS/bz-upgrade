@@ -1,0 +1,17 @@
+public table BzIjaraPostConcat {
+    t24:  BZ.IJARA.POST.CONCAT
+    fields:{
+        BzIjaraPostConcatStatus(BZ.RSC.STATUS)=1
+        BzIjaraPostConcatCustomerNumber(BZ.RSC.CUSTOMER.NUMBER)=2
+        BzIjaraPostConcatCustomerName(BZ.RSC.CUSTOMER.NAME)=3
+        BzIjaraPostConcatCustomerAccount(BZ.RSC.CUSTOMER.ACCOUNT)=4
+        BzIjaraPostConcatCurrency(BZ.RSC.CURRENCY)=5
+        BzIjaraPostConcatLoanType(BZ.RSC.LOAN.TYPE)=6
+        BzIjaraPostConcatStartDate(BZ.RSC.START.DATE)=7
+        BzIjaraPostConcatEndDate(BZ.RSC.END.DATE)=8
+        BzIjaraPostConcatResidualValue(BZ.RSC.RESIDUAL.VALUE)=9
+        BzIjaraPostConcatTermFt(BZ.RSC.TERM.FT)=10
+        BzIjaraPostConcatAgency(BZ.RSC.AGENCY)=11
+        BzIjaraPostConcatFailureReason(BZ.RSC.FAILURE.REASON)=12
+    }
+}

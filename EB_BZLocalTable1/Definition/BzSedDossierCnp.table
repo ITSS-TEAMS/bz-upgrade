@@ -1,0 +1,27 @@
+public table BzSedDossierCnp {
+    t24:  BZ.SED.DOSSIER.CNP
+    fields:{
+        BzSedDossierCnpEvtDec(SED.CNP.EVT.DEC)=1
+        BzSedDossierCnpIdDossier(SED.CNP.ID.DOSSIER)=2
+        BzSedDossierCnpStatut(SED.CNP.STATUT)=3
+        BzSedDossierCnpDateEvt(SED.CNP.DATE.EVT)=4
+        BzSedDossierCnpFichierEmis(SED.CNP.FICHIER.EMIS)=5
+        BzSedDossierCnpDateEmission(SED.CNP.DATE.EMISSION)=6
+        BzSedDossierCnpFichierRecu(SED.CNP.FICHIER.RECU)=7
+        BzSedDossierCnpDateReception(SED.CNP.DATE.RECEPTION)=8
+        BzSedDossierCnpCodeRejet(SED.CNP.CODE.REJET)=9
+        BzSedDossierCnpCommentaire(SED.CNP.COMMENTAIRE)=10
+        BzSedDossierCnpLigne(SED.CNP.LIGNE)=11
+        BzSedDossierCnpLocalRef(SED.CNP.LOCAL.REF)=12
+        BzSedDossierCnpOverride(SED.CNP.OVERRIDE)=13
+        BzSedDossierCnpRecordStatus(SED.CNP.RECORD.STATUS)=14
+        BzSedDossierCnpCurrNo(SED.CNP.CURR.NO)=15
+        BzSedDossierCnpInputter(SED.CNP.INPUTTER)=16
+        BzSedDossierCnpDateTime(SED.CNP.DATE.TIME)=17
+        BzSedDossierCnpAuthoriser(SED.CNP.AUTHORISER)=18
+        BzSedDossierCnpCoCode(SED.CNP.CO.CODE)=19
+        BzSedDossierCnpDeptCode(SED.CNP.DEPT.CODE)=20
+        BzSedDossierCnpAuditorCode(SED.CNP.AUDITOR.CODE)=21
+        BzSedDossierCnpAuditDateTime(SED.CNP.AUDIT.DATE.TIME)=22
+    }
+}

@@ -1,0 +1,46 @@
+public table BzRegistreEffLeasing {
+    t24:  BZ.REGISTRE.EFF.LEASING
+    fields:{
+        BzRegistreEffLeasingCodeValeur(REG.LEAS.CODE.VALEUR)=1
+        BzRegistreEffLeasingRibTire(REG.LEAS.RIB.TIRE)=2
+        BzRegistreEffLeasingNomTire(REG.LEAS.NOM.TIRE)=3
+        BzRegistreEffLeasingNumLcn(REG.LEAS.NUM.LCN)=4
+        BzRegistreEffLeasingDateEcheance(REG.LEAS.DATE.ECHEANCE)=5
+        BzRegistreEffLeasingMontant(REG.LEAS.MONTANT)=6
+        BzRegistreEffLeasingRefRemise(REG.LEAS.REF.REMISE)=7
+        BzRegistreEffLeasingRefInterne(REG.LEAS.REF.INTERNE)=8
+        BzRegistreEffLeasingRibBenef(REG.LEAS.RIB.BENEF)=9
+        BzRegistreEffLeasingNomBenef(REG.LEAS.NOM.BENEF)=10
+        BzRegistreEffLeasingStatut(REG.LEAS.STATUT)=11
+        BzRegistreEffLeasingRefChargement(REG.LEAS.REF.CHARGEMENT)=12
+        BzRegistreEffLeasingDateChargement(REG.LEAS.DATE.CHARGEMENT)=13
+        BzRegistreEffLeasingScanne(REG.LEAS.SCANNE)=14
+        BzRegistreEffLeasingMotifRejet(REG.LEAS.MOTIF.REJET)=15
+        BzRegistreEffLeasingRefFichier(REG.LEAS.REF.FICHIER)=16
+        BzRegistreEffLeasingDateCapture(REG.LEAS.DATE.CAPTURE)=17
+        BzRegistreEffLeasingRefClet(REG.LEAS.REF.CLET)=18
+        BzRegistreEffLeasingDateCreation(REG.LEAS.DATE.CREATION)=19
+        BzRegistreEffLeasingFichierEmis(REG.LEAS.FICHIER.EMIS)=20
+        BzRegistreEffLeasingSort(REG.LEAS.SORT)=21
+        BzRegistreEffLeasingRefClassement(REG.LEAS.REF.CLASSEMENT)=22
+        BzRegistreEffLeasingReserved2(REG.LEAS.RESERVED.2)=23
+        BzRegistreEffLeasingReserved3(REG.LEAS.RESERVED.3)=24
+        BzRegistreEffLeasingReserved4(REG.LEAS.RESERVED.4)=25
+        BzRegistreEffLeasingReserved5(REG.LEAS.RESERVED.5)=26
+        BzRegistreEffLeasingReserved6(REG.LEAS.RESERVED.6)=27
+        BzRegistreEffLeasingReserved7(REG.LEAS.RESERVED.7)=28
+        BzRegistreEffLeasingReserved8(REG.LEAS.RESERVED.8)=29
+        BzRegistreEffLeasingReserved9(REG.LEAS.RESERVED.9)=30
+        BzRegistreEffLeasingReserved10(REG.LEAS.RESERVED.10)=31
+        BzRegistreEffLeasingOverride(REG.LEAS.OVERRIDE)=32
+        BzRegistreEffLeasingRecordStatus(REG.LEAS.RECORD.STATUS)=33
+        BzRegistreEffLeasingCurrNo(REG.LEAS.CURR.NO)=34
+        BzRegistreEffLeasingInputter(REG.LEAS.INPUTTER)=35
+        BzRegistreEffLeasingDateTime(REG.LEAS.DATE.TIME)=36
+        BzRegistreEffLeasingAuthoriser(REG.LEAS.AUTHORISER)=37
+        BzRegistreEffLeasingCoCode(REG.LEAS.CO.CODE)=38
+        BzRegistreEffLeasingDeptCode(REG.LEAS.DEPT.CODE)=39
+        BzRegistreEffLeasingAuditorCode(REG.LEAS.AUDITOR.CODE)=40
+        BzRegistreEffLeasingAuditDateTime(REG.LEAS.AUDIT.DATE.TIME)=41
+    }
+}

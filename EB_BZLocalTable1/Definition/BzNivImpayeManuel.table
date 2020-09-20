@@ -1,0 +1,26 @@
+public table BzNivImpayeManuel {
+    t24:  BZ.NIV.IMPAYE.MANUEL
+    fields:{
+        BzNivImpayeManuelIdCompte(NIV.IMP.ID.COMPTE)=1
+        BzNivImpayeManuelIdClient(NIV.IMP.ID.CLIENT)=2
+        BzNivImpayeManuelIdImpaye(NIV.IMP.ID.IMPAYE)=3
+        BzNivImpayeManuelContratLd(NIV.IMP.CONTRAT.LD)=4
+        BzNivImpayeManuelDateEcheance(NIV.IMP.DATE.ECHEANCE)=5
+        BzNivImpayeManuelMontantImpaye(NIV.IMP.MONTANT.IMPAYE)=6
+        BzNivImpayeManuelDateExecution(NIV.IMP.DATE.EXECUTION)=7
+        BzNivImpayeManuelStatutGlobal(NIV.IMP.STATUT.GLOBAL)=8
+        BzNivImpayeManuelReserved3(NIV.IMP.RESERVED.3)=9
+        BzNivImpayeManuelReserved4(NIV.IMP.RESERVED.4)=10
+        BzNivImpayeManuelReserved5(NIV.IMP.RESERVED.5)=11
+        BzNivImpayeManuelOverride(NIV.IMP.OVERRIDE)=12
+        BzNivImpayeManuelRecordStatus(NIV.IMP.RECORD.STATUS)=13
+        BzNivImpayeManuelCurrNo(NIV.IMP.CURR.NO)=14
+        BzNivImpayeManuelInputter(NIV.IMP.INPUTTER)=15
+        BzNivImpayeManuelDateTime(NIV.IMP.DATE.TIME)=16
+        BzNivImpayeManuelAuthoriser(NIV.IMP.AUTHORISER)=17
+        BzNivImpayeManuelCoCode(NIV.IMP.CO.CODE)=18
+        BzNivImpayeManuelDeptCode(NIV.IMP.DEPT.CODE)=19
+        BzNivImpayeManuelAuditorCode(NIV.IMP.AUDITOR.CODE)=20
+        BzNivImpayeManuelAuditDateTime(NIV.IMP.AUDIT.DATE.TIME)=21
+    }
+} 

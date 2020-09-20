@@ -1,0 +1,18 @@
+public table TnaCardRange {
+    t24:  TNA.CARD.RANGE
+    fields:{
+        TnaCardRangeHighRange(RANGE.HIGH.RANGE)=1
+        TnaCardRangeProductCode(RANGE.PRODUCT.CODE)=2
+        TnaCardRangeLocalRef(RANGE.LOCAL.REF)=3
+        TnaCardRangeOverride(RANGE.OVERRIDE)=4
+        TnaCardRangeRecordStatus(RANGE.RECORD.STATUS)=5
+        TnaCardRangeCurrNo(RANGE.CURR.NO)=6
+        TnaCardRangeInputter(RANGE.INPUTTER)=7
+        TnaCardRangeDateTime(RANGE.DATE.TIME)=8
+        TnaCardRangeAuthoriser(RANGE.AUTHORISER)=9
+        TnaCardRangeCoCode(RANGE.CO.CODE)=10
+        TnaCardRangeDeptCode(RANGE.DEPT.CODE)=11
+        TnaCardRangeAuditorCode(RANGE.AUDITOR.CODE)=12
+        TnaCardRangeAuditDateTime(RANGE.AUDIT.DATE.TIME)=13
+    }
+}

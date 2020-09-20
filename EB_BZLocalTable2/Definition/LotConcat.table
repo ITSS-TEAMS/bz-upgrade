@@ -1,0 +1,8 @@
+public table LotConcat {
+t24:  LOT.CONCAT
+fields:{
+
+LotConcatFilesId(LOT.CON.LOT.FILES.ID)=1
+
+}
+}

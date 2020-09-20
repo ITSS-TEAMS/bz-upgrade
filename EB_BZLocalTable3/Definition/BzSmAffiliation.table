@@ -1,0 +1,43 @@
+public table BzSmAffiliation {
+    t24:  BZ.SM.AFFILIATION
+    fields:{
+        BzSmAffiliationCodeClient(AFF.CODE.CLIENT)=1
+        BzSmAffiliationAddresse(AFF.ADDRESSE)=2
+        BzSmAffiliationAccountNo(AFF.ACCOUNT.NO)=3
+        BzSmAffiliationRepresent(AFF.REPRESENT)=4
+        BzSmAffiliationQualite(AFF.QUALITE)=5
+        BzSmAffiliationTel(AFF.TEL)=6
+        BzSmAffiliationEmail(AFF.EMAIL)=7
+        BzSmAffiliationActivite(AFF.ACTIVITE)=8
+        BzSmAffiliationTypeCommerce(AFF.TYPE.COMMERCE)=9
+        BzSmAffiliationChiffreAff(AFF.CHIFFRE.AFF)=10
+        BzSmAffiliationNbrTpe(AFF.NBR.TPE)=11
+        BzSmAffiliationStatut(AFF.STATUT)=12
+        BzSmAffiliationDateCreation(AFF.DATE.CREATION)=13
+        BzSmAffiliationTypeAffiliation(AFF.TYPE.AFFILIATION)=14
+        BzSmAffiliationType(AFF.TYPE)=15
+        BzSmAffiliationTauxVisa(AFF.TAUX.VISA)=16
+        BzSmAffiliationTauxMcd(AFF.TAUX.MCD)=17
+        BzSmAffiliationCodeComm(AFF.CODE.COMM)=18
+        BzSmAffiliationCodeMmc(AFF.CODE.MMC)=19
+        BzSmAffiliationActive(AFF.ACTIVE)=20
+        BzSmAffiliationTauxNational(AFF.TAUX.NATIONAL)=21
+        BzSmAffiliationCompteTechnique(AFF.COMPTE.TECHNIQUE)=22
+        BzSmAffiliationMontantLocation(AFF.MONTANT.LOCATION)=23
+        BzSmAffiliationReserved4(AFF.RESERVED.4)=24
+        BzSmAffiliationReserved5(AFF.RESERVED.5)=25
+        BzSmAffiliationReserved6(AFF.RESERVED.6)=26
+        BzSmAffiliationReserved7(AFF.RESERVED.7)=27
+        BzSmAffiliationReserved8(AFF.RESERVED.8)=28
+        BzSmAffiliationOverride(AFF.OVERRIDE)=29
+        BzSmAffiliationRecordStatus(AFF.RECORD.STATUS)=30
+        BzSmAffiliationCurrNo(AFF.CURR.NO)=31
+        BzSmAffiliationInputter(AFF.INPUTTER)=32
+        BzSmAffiliationDateTime(AFF.DATE.TIME)=33
+        BzSmAffiliationAuthoriser(AFF.AUTHORISER)=34
+        BzSmAffiliationCoCode(AFF.CO.CODE)=35
+        BzSmAffiliationDeptCode(AFF.DEPT.CODE)=36
+        BzSmAffiliationAuditorCode(AFF.AUDITOR.CODE)=37
+        BzSmAffiliationAuditDateTime(AFF.AUDIT.DATE.TIME)=38
+    }
+}

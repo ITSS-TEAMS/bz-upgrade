@@ -1,0 +1,18 @@
+public table BzFormeJuridique {
+        t24:  BZ.FORME.JURIDIQUE
+        fields:{
+            BzFormeJuridiqueLibelle(BZ.FJ.LIBELLE)=1
+            BzFormeJuridiqueCorrespBct(BZ.FJ.CORRESP.BCT)=2
+            BzFormeJuridiqueLocalRef(BZ.FJ.LOCAL.REF)=3
+            BzFormeJuridiqueOverride(BZ.FJ.OVERRIDE)=4
+            BzFormeJuridiqueRecordStatus(BZ.FJ.RECORD.STATUS)=5
+            BzFormeJuridiqueCurrNo(BZ.FJ.CURR.NO)=6
+            BzFormeJuridiqueInputter(BZ.FJ.INPUTTER)=7
+            BzFormeJuridiqueDateTime(BZ.FJ.DATE.TIME)=8
+            BzFormeJuridiqueAuthoriser(BZ.FJ.AUTHORISER)=9
+            BzFormeJuridiqueCoCode(BZ.FJ.CO.CODE)=10
+            BzFormeJuridiqueDeptCode(BZ.FJ.DEPT.CODE)=11
+            BzFormeJuridiqueAuditorCode(BZ.FJ.AUDITOR.CODE)=12
+            BzFormeJuridiqueAuditDateTime(BZ.FJ.AUDIT.DATE.TIME)=13
+        }
+    }

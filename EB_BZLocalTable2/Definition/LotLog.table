@@ -1,0 +1,20 @@
+public table LotLog {
+t24:  LOT.LOG
+fields:{
+   LotLogFileName(LOT.LOG.FILE.NAME) = 1  
+   LotLogFilesId(LOT.LOG.LOT.FILES.ID) = 2
+   LotLogProcessLevel(LOT.LOG.PROCESS.LEVEL) = 3       
+   LotLogUserId(LOT.LOG.USER.ID) = 4 
+   LotLogEventTime(LOT.LOG.EVENT.TIME) = 5     
+   LotLogEventMess(LOT.LOG.EVENT.MESS) = 6 
+   LotLogEventLevel(LOT.LOG.EVENT.LEVEL) = 7   
+   LotLogProblemTime(LOT.LOG.PROBLEM.TIME) = 8  
+   LotLogProblemMess(LOT.LOG.PROBLEM.MESS) = 9  
+   LotLogProblemLevel(LOT.LOG.PROBLEM.LEVEL) = 10  
+   LotLogReserved5(LOT.LOG.RESERVED.5) = 11   
+   LotLogReserved5(LOT.LOG.RESERVED.4) = 12
+   LotLogReserved5(LOT.LOG.RESERVED.3) = 13   
+   LotLogReserved5(LOT.LOG.RESERVED.2) = 14 
+   LotLogReserved5(LOT.LOG.RESERVED.1) = 15
+}
+}

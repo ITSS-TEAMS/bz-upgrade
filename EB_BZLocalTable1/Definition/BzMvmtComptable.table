@@ -1,0 +1,28 @@
+public table BzMvmtComptable {
+    t24:  BZ.MVMT.COMPTABLE
+    fields:{
+        BzMvmtComptableTypeTrait(MVT.CPT.TYPE.TRAIT)=1
+        BzMvmtComptableCodeMvmt(MVT.CPT.CODE.MVMT)=2
+        BzMvmtComptableDateMvmt(MVT.CPT.DATE.MVMT)=3
+        BzMvmtComptableSens(MVT.CPT.SENS)=4
+        BzMvmtComptableCodeTransaction(MVT.CPT.CODE.TRANSACTION)=5
+        BzMvmtComptableDateValeur(MVT.CPT.DATE.VALEUR)=6
+        BzMvmtComptableCompte(MVT.CPT.COMPTE)=7
+        BzMvmtComptableDevise(MVT.CPT.DEVISE)=8
+        BzMvmtComptableMontant(MVT.CPT.MONTANT)=9
+        BzMvmtComptableDetailPai(MVT.CPT.DETAIL.PAI)=10
+        BzMvmtComptableStatut(MVT.CPT.STATUT)=11
+        BzMvmtComptableRefTrait(MVT.CPT.REF.TRAIT)=12
+        BzMvmtComptableFichierRecu(MVT.CPT.FICHIER.RECU)=13
+        BzMvmtComptableOverride(MVT.CPT.OVERRIDE)=14
+        BzMvmtComptableRecordStatus(MVT.CPT.RECORD.STATUS)=15
+        BzMvmtComptableCurrNo(MVT.CPT.CURR.NO)=16
+        BzMvmtComptableInputter(MVT.CPT.INPUTTER)=17
+        BzMvmtComptableDateTime(MVT.CPT.DATE.TIME)=18
+        BzMvmtComptableAuthoriser(MVT.CPT.AUTHORISER)=19
+        BzMvmtComptableCoCode(MVT.CPT.CO.CODE)=20
+        BzMvmtComptableDeptCode(MVT.CPT.DEPT.CODE)=21
+        BzMvmtComptableAuditorCode(MVT.CPT.AUDITOR.CODE)=22
+        BzMvmtComptableAuditDateTime(MVT.CPT.AUDIT.DATE.TIME)=23
+    }
+}

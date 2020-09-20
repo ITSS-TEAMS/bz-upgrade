@@ -1,0 +1,15 @@
+public table BzSegmentFinancement {
+    t24:  BZ.SEGMENT.FINANCEMENT
+    fields:{
+        BzSegmentFinancementDescription(SEG.FIN.DESCRIPTION)=1
+        BzSegmentFinancementRecordStatus(SEG.FIN.RECORD.STATUS)=2
+        BzSegmentFinancementCurrNo(SEG.FIN.CURR.NO)=3
+        BzSegmentFinancementInputter(SEG.FIN.INPUTTER)=4
+        BzSegmentFinancementDateTime(SEG.FIN.DATE.TIME)=5
+        BzSegmentFinancementAuthoriser(SEG.FIN.AUTHORISER)=6
+        BzSegmentFinancementCoCode(SEG.FIN.CO.CODE)=7
+        BzSegmentFinancementDeptCode(SEG.FIN.DEPT.CODE)=8
+        BzSegmentFinancementAuditorCode(SEG.FIN.AUDITOR.CODE)=9
+        BzSegmentFinancementAuditDateTime(SEG.FIN.AUDIT.DATE.TIME)=10
+    }
+} 

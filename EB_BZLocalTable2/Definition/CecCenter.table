@@ -1,0 +1,30 @@
+public table CecCenter {
+t24:  CEC.CENTER
+fields:{
+
+CecCenterName(CEC.CEN.NAME)=1
+CecCenterFinalComment(CEC.CEN.COMMENT)=2
+CecCenterMsgCenter(CEC.CEN.MSG.NATURE)=3
+CecCenterAcctNumber(CEC.CEN.ACCT.NUMBER)=4
+CecCenterLastOutNumber(CEC.CEN.LAST.OUT.NUMBER)=5
+CecCenterReserved1(CEC.CEN.RESERVED.1)=13
+CecCenterReserved2(CEC.CEN.RESERVED.2)=12
+CecCenterReserved3(CEC.CEN.RESERVED.3)=11
+CecCenterReserved4(CEC.CEN.RESERVED.4)=10
+CecCenterReserved5(CEC.CEN.RESERVED.1)=9
+CecCenterReserved6(CEC.CEN.RESERVED.2)=8
+CecCenterReserved7(CEC.CEN.RESERVED.3)=7
+CecCenterReserved8(CEC.CEN.RESERVED.4)=6
+CecCenterLocalRef(CEC.CEN.LOCAL.REF)=14
+CecCenterOverride(CEC.CEN.OVERRIDE)=15
+CecCenterRecordStatus(CEC.CEN.RECORD.STATUS)=16
+CecCenterCurrNo(CEC.CEN.CURR.NO)=17
+CecCenterInputter(CEC.CEN.INPUTTER)=18
+CecCenterDateTime(CEC.CEN.DATE.TIME)=19
+CecCenterAuthoriser(CEC.CEN.AUTHORISER)=20
+CecCenterCoCode(CEC.CEN.CO.CODE)=21
+CecCenterDeptCode(CEC.CEN.DEPT.CODE)=22
+CecCenterAuditorCode(CEC.CEN.AUDITOR.CODE)=23
+CecCenterAuditDateTime(CEC.CEN.AUDIT.DATE.TIME)=24
+}
+}

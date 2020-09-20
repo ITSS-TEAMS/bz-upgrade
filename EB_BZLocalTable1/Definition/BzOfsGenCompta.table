@@ -1,0 +1,31 @@
+public table BzOfsGenCompta {
+    t24:  BZ.OFS.GEN.COMPTA
+    fields:{
+        BzOfsGenComptaEvenement(GEN.OFS.EVENEMENT)=1
+        BzOfsGenComptaRefOfs(GEN.OFS.REF.OFS)=2
+        BzOfsGenComptaOfsMessage(GEN.OFS.OFS.MESSAGE)=3
+        BzOfsGenComptaRefTransaction(GEN.OFS.REF.TRANSACTION)=4
+        BzOfsGenComptaErreurMsg(GEN.OFS.ERREUR.MSG)=5
+        BzOfsGenComptaDbDevise(GEN.OFS.DB.DEVISE)=6
+        BzOfsGenComptaDbCompte(GEN.OFS.DB.COMPTE)=7
+        BzOfsGenComptaCrDevise(GEN.OFS.CR.DEVISE)=8
+        BzOfsGenComptaCrCompte(GEN.OFS.CR.COMPTE)=9
+        BzOfsGenComptaMontant(GEN.OFS.MONTANT)=10
+        BzOfsGenComptaDebitRef(GEN.OFS.DEBIT.REF)=11
+        BzOfsGenComptaCreditRef(GEN.OFS.CREDIT.REF)=12
+        BzOfsGenComptaDateOperation(GEN.OFS.DATE.OPERATION)=13
+        BzOfsGenComptaStatut(GEN.OFS.STATUT)=14
+        BzOfsGenComptaUniteGestion(GEN.OFS.UNITE.GESTION)=15
+        BzOfsGenComptaDomaine(GEN.OFS.DOMAINE)=16
+        BzOfsGenComptaOverride(GEN.OFS.OVERRIDE)=17
+        BzOfsGenComptaRecordStatus(GEN.OFS.RECORD.STATUS)=18
+        BzOfsGenComptaCurrNo(GEN.OFS.CURR.NO)=19
+        BzOfsGenComptaInputter(GEN.OFS.INPUTTER)=20
+        BzOfsGenComptaDateTime(GEN.OFS.DATE.TIME)=21
+        BzOfsGenComptaAuthoriser(GEN.OFS.AUTHORISER)=22
+        BzOfsGenComptaCoCode(GEN.OFS.CO.CODE)=23
+        BzOfsGenComptaDeptCode(GEN.OFS.DEPT.CODE)=24
+        BzOfsGenComptaAuditorCode(GEN.OFS.AUDITOR.CODE)=25
+        BzOfsGenComptaAuditDateTime(GEN.OFS.AUDIT.DATE.TIME)=26
+    }
+}

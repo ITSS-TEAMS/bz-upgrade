@@ -1,0 +1,20 @@
+public table BzPwcTypeFrais {
+    t24:  BZ.PWC.TYPE.FRAIS
+    fields:{
+        BzPwcTypeFraisDescription(TYP.FR.DESCRIPTION)=1
+        BzPwcTypeFraisReserved1(TYP.FR.RESERVED.1)=2
+        BzPwcTypeFraisReserved2(TYP.FR.RESERVED.2)=3
+        BzPwcTypeFraisReserved3(TYP.FR.RESERVED.3)=4
+        BzPwcTypeFraisLocalRef(TYP.FR.LOCAL.REF)=5
+        BzPwcTypeFraisOverride(TYP.FR.OVERRIDE)=6
+        BzPwcTypeFraisRecordStatus(TYP.FR.RECORD.STATUS)=7
+        BzPwcTypeFraisCurrNo(TYP.FR.CURR.NO)=8
+        BzPwcTypeFraisInputter(TYP.FR.INPUTTER)=9
+        BzPwcTypeFraisDateTime(TYP.FR.DATE.TIME)=10
+        BzPwcTypeFraisAuthoriser(TYP.FR.AUTHORISER)=11
+        BzPwcTypeFraisCoCode(TYP.FR.CO.CODE)=12
+        BzPwcTypeFraisDeptCode(TYP.FR.DEPT.CODE)=13
+        BzPwcTypeFraisAuditorCode(TYP.FR.AUDITOR.CODE)=14
+        BzPwcTypeFraisAuditDateTime(TYP.FR.AUDIT.DATE.TIME)=15
+    }
+}

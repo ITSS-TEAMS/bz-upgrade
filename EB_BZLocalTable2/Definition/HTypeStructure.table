@@ -1,0 +1,19 @@
+public table HTypeStructure {
+    t24:  H.TYPE.STRUCTURE
+    fields:{
+	
+   HTypeStructureType(TY.TYPE) = 1        
+   HTypeStructureLocalRef(TY.LOCAL.REF) = 2 
+   HTypeStructureOverride(TY.OVERRIDE) = 3    
+   HTypeStructureRecordStatus(TY.RECORD.STATUS) = 4 
+   HTypeStructureCurrNo(TY.CURR.NO) = 5         
+   HTypeStructureInputter(TY.INPUTTER) = 6 
+   HTypeStructureDateTime(TY.DATE.TIME) = 7       
+   HTypeStructureAuthoriser(TY.AUTHORISER) = 8 
+   HTypeStructureCoCode(TY.CO.CODE) = 9       
+   HTypeStructureDeptCode(TY.DEPT.CODE) = 10 
+   HTypeStructureAuditorCode(TY.AUDITOR.CODE) = 11 
+   HTypeStructureAuditDateTime(TY.AUDIT.DATE.TIME) = 12
+   
+   }
+   }

@@ -1,0 +1,11 @@
+public table CecInwardPending  {
+    t24: CEC.INWARD.PENDING
+    fields:{
+        CecInwardPendingFileId(CEC.ICP.FILE.ID)= 1
+        CecInwardPendingRemitNum(CEC.ICP.REMIT.NUM)= 2
+        CecInwardPendingBlockStatus(CEC.ICP.BLOCK.STATUS)= 3
+        CecInwardPendingReserved2(CEC.ICP.RESERVED.2)= 4
+        CecInwardPendingReserved1(CEC.ICP.RESERVED.1)= 5
+        CecInwardPendingLocalRef(CEC.ICP.LOCAL.REF)= 6
+    }
+}

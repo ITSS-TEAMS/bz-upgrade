@@ -1,0 +1,22 @@
+public table BzAvaActivite {
+    t24:  BZ.AVA.ACTIVITE
+    fields:{
+        BzAvaActiviteActiviteAva(AVA.ACT.ACTIVITE.AVA)=1
+        BzAvaActiviteReserved1(AVA.ACT.RESERVED1)=2
+        BzAvaActiviteReserved2(AVA.ACT.RESERVED2)=3
+        BzAvaActiviteReserved3(AVA.ACT.RESERVED3)=4
+        BzAvaActiviteReserved4(AVA.ACT.RESERVED4)=5
+        BzAvaActiviteReserved5(AVA.ACT.RESERVED5)=6
+        BzAvaActiviteLocalRef(AVA.ACT.LOCAL.REF)=7
+        BzAvaActiviteOverride(AVA.ACT.OVERRIDE)=8
+        BzAvaActiviteRecordStatus(AVA.ACT.RECORD.STATUS)=9
+        BzAvaActiviteCurrNo(AVA.ACT.CURR.NO)=10
+        BzAvaActiviteInputter(AVA.ACT.INPUTTER)=11
+        BzAvaActiviteDateTime(AVA.ACT.DATE.TIME)=12
+        BzAvaActiviteAuthoriser(AVA.ACT.AUTHORISER)=13
+        BzAvaActiviteCoCode(AVA.ACT.CO.CODE)=14
+        BzAvaActiviteDeptCode(AVA.ACT.DEPT.CODE)=15
+        BzAvaActiviteAuditorCode(AVA.ACT.AUDITOR.CODE)=16
+        BzAvaActiviteAuditDateTime(AVA.ACT.AUDIT.DATE.TIME)=17
+    }
+}

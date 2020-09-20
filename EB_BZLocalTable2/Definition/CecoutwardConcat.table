@@ -1,0 +1,8 @@
+public table CecoutwardConcat {
+t24:  CEC.OUTWARD.CONCAT
+fields:{
+
+CecoutwardConcatOutFileId(CEC.OCC.OUT.FILE.ID)=1
+
+}
+}

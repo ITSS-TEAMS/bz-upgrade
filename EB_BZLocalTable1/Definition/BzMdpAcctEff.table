@@ -1,0 +1,19 @@
+public table BzMdpAcctEff {
+    t24:  BZ.MDP.ACCT.EFF
+    fields:{
+        BzMdpAcctEffDescription(NET.EFF.DESCRIPTION)=1
+        BzMdpAcctEffExecYN(NET.EFF.EXEC.Y.N)=2
+        BzMdpAcctEffLocalRef(NET.EFF.LOCAL.REF)=3
+        BzMdpAcctEffStmtNos(NET.EFF.STMT.NOS)=4
+        BzMdpAcctEffOverride(NET.EFF.OVERRIDE)=5
+        BzMdpAcctEffRecordStatus(NET.EFF.RECORD.STATUS)=6
+        BzMdpAcctEffCurrNo(NET.EFF.CURR.NO)=7
+        BzMdpAcctEffInputter(NET.EFF.INPUTTER)=8
+        BzMdpAcctEffDateTime(NET.EFF.DATE.TIME)=9
+        BzMdpAcctEffAuthoriser(NET.EFF.AUTHORISER)=10
+        BzMdpAcctEffCoCode(NET.EFF.CO.CODE)=11
+        BzMdpAcctEffDeptCode(NET.EFF.DEPT.CODE)=12
+        BzMdpAcctEffAuditorCode(NET.EFF.AUDITOR.CODE)=13
+        BzMdpAcctEffAuditDateTime(NET.EFF.AUDIT.DATE.TIME)=14
+    }
+}

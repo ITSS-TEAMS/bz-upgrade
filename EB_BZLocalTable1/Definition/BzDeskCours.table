@@ -1,0 +1,24 @@
+public table BzDeskCours {
+        t24:  BZ.DESK.COURS
+        fields:{
+            BzDeskCoursDevise(DESK.CRS.DEVISE)=1
+            BzDeskCoursCoursReval(DESK.CRS.COURS.REVAL)=2
+            BzDeskCoursMois(DESK.CRS.MOIS)=3
+            BzDeskCoursAnnee(DESK.CRS.ANNEE)=4
+            BzDeskCoursReserved1(DESK.CRS.RESERVED.1)=5
+            BzDeskCoursReserved2(DESK.CRS.RESERVED.2)=6
+            BzDeskCoursReserved3(DESK.CRS.RESERVED.3)=7
+            BzDeskCoursReserved4(DESK.CRS.RESERVED.4)=8
+            BzDeskCoursReserved5(DESK.CRS.RESERVED.5)=9
+            BzDeskCoursOverride(DESK.CRS.OVERRIDE)=10
+            BzDeskCoursRecordStatus(DESK.CRS.RECORD.STATUS)=11
+            BzDeskCoursCurrNo(DESK.CRS.CURR.NO)=12
+            BzDeskCoursInputter(DESK.CRS.INPUTTER)=13
+            BzDeskCoursDateTime(DESK.CRS.DATE.TIME)=14
+            BzDeskCoursAuthoriser(DESK.CRS.AUTHORISER)=15
+            BzDeskCoursCoCode(DESK.CRS.CO.CODE)=16
+            BzDeskCoursDeptCode(DESK.CRS.DEPT.CODE)=17
+            BzDeskCoursAuditorCode(DESK.CRS.AUDITOR.CODE)=18
+            BzDeskCoursAuditDateTime(DESK.CRS.AUDIT.DATE.TIME)=19
+        }
+    }

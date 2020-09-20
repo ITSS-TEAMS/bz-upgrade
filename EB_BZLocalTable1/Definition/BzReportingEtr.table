@@ -1,0 +1,34 @@
+public table BzReportingEtr {
+    t24:  BZ.REPORTING.ETR
+    fields:{
+        BzReportingEtrDateOperation(REP.ETR.DATE.OPERATION)=1
+        BzReportingEtrNom(REP.ETR.NOM)=2
+        BzReportingEtrTypeDocument(REP.ETR.TYPE.DOCUMENT)=3
+        BzReportingEtrNumeroDocument(REP.ETR.NUMERO.DOCUMENT)=4
+        BzReportingEtrIdBeneficiaire(REP.ETR.ID.BENEFICIAIRE)=5
+        BzReportingEtrPays(REP.ETR.PAYS)=6
+        BzReportingEtrMontantTransfert(REP.ETR.MONTANT.TRANSFERT)=7
+        BzReportingEtrDevise(REP.ETR.DEVISE)=8
+        BzReportingEtrNatureTransfert(REP.ETR.NATURE.TRANSFERT)=9
+        BzReportingEtrRetenueSource(REP.ETR.RETENUE.SOURCE)=10
+        BzReportingEtrReferenceFt(REP.ETR.REFERENCE.FT)=11
+        BzReportingEtrTypeTransaction(REP.ETR.TYPE.TRANSACTION)=12
+        BzReportingEtrStatut(REP.ETR.STATUT)=13
+        BzReportingEtrReserved1(REP.ETR.RESERVED1)=14
+        BzReportingEtrReserved2(REP.ETR.RESERVED2)=15
+        BzReportingEtrReserved3(REP.ETR.RESERVED3)=16
+        BzReportingEtrReserved4(REP.ETR.RESERVED4)=17
+        BzReportingEtrReserved5(REP.ETR.RESERVED5)=18
+        BzReportingEtrLocalRef(REP.ETR.LOCAL.REF)=19
+        BzReportingEtrOverride(REP.ETR.OVERRIDE)=20
+        BzReportingEtrRecordStatus(REP.ETR.RECORD.STATUS)=21
+        BzReportingEtrCurrNo(REP.ETR.CURR.NO)=22
+        BzReportingEtrInputter(REP.ETR.INPUTTER)=23
+        BzReportingEtrDateTime(REP.ETR.DATE.TIME)=24
+        BzReportingEtrAuthoriser(REP.ETR.AUTHORISER)=25
+        BzReportingEtrCoCode(REP.ETR.CO.CODE)=26
+        BzReportingEtrDeptCode(REP.ETR.DEPT.CODE)=27
+        BzReportingEtrAuditorCode(REP.ETR.AUDITOR.CODE)=28
+        BzReportingEtrAuditDateTime(REP.ETR.AUDIT.DATE.TIME)=29
+    }
+}

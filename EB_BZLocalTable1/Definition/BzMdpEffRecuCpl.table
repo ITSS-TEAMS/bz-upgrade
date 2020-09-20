@@ -1,0 +1,33 @@
+public table BzMdpEffRecuCpl {
+    t24:  BZ.MDP.EFF.RECU.CPL
+    fields:{
+        BzMdpEffRecuCplCodeValeur(EFR.CPL.CODE.VALEUR)=1
+        BzMdpEffRecuCplNatureRem(EFR.CPL.NATURE.REM)=2
+        BzMdpEffRecuCplCodeRem(EFR.CPL.CODE.REM)=3
+        BzMdpEffRecuCplCodeCentreRem(EFR.CPL.CODE.CENTRE.REM)=4
+        BzMdpEffRecuCplDateOperation(EFR.CPL.DATE.OPERATION)=5
+        BzMdpEffRecuCplNumLot(EFR.CPL.NUM.LOT)=6
+        BzMdpEffRecuCplCodeEnreg(EFR.CPL.CODE.ENREG)=7
+        BzMdpEffRecuCplCodeDevise(EFR.CPL.CODE.DEVISE)=8
+        BzMdpEffRecuCplRang(EFR.CPL.RANG)=9
+        BzMdpEffRecuCplNumLcn(EFR.CPL.NUM.LCN)=10
+        BzMdpEffRecuCplNomRsTire(EFR.CPL.NOM.RS.TIRE)=11
+        BzMdpEffRecuCplAdresse(EFR.CPL.ADRESSE)=12
+        BzMdpEffRecuCplNatureIdentifiant(EFR.CPL.NATURE.IDENTIFIANT)=13
+        BzMdpEffRecuCplNumeroIdentifiant(EFR.CPL.NUMERO.IDENTIFIANT)=14
+        BzMdpEffRecuCplCodeRisqueBct(EFR.CPL.CODE.RISQUE.BCT)=15
+        BzMdpEffRecuCplZoneLibre(EFR.CPL.ZONE.LIBRE)=16
+        BzMdpEffRecuCplStatut(EFR.CPL.STATUT)=17
+        BzMdpEffRecuCplFichierRecu(EFR.CPL.FICHIER.RECU)=18
+        BzMdpEffRecuCplOverride(EFR.CPL.OVERRIDE)=19
+        BzMdpEffRecuCplRecordStatus(EFR.CPL.RECORD.STATUS)=20
+        BzMdpEffRecuCplCurrNo(EFR.CPL.CURR.NO)=21
+        BzMdpEffRecuCplInputter(EFR.CPL.INPUTTER)=22
+        BzMdpEffRecuCplDateTime(EFR.CPL.DATE.TIME)=23
+        BzMdpEffRecuCplAuthoriser(EFR.CPL.AUTHORISER)=24
+        BzMdpEffRecuCplCoCode(EFR.CPL.CO.CODE)=25
+        BzMdpEffRecuCplDeptCode(EFR.CPL.DEPT.CODE)=26
+        BzMdpEffRecuCplAuditorCode(EFR.CPL.AUDITOR.CODE)=27
+        BzMdpEffRecuCplAuditDateTime(EFR.CPL.AUDIT.DATE.TIME)=28
+    }
+}

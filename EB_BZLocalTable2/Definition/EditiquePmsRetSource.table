@@ -1,0 +1,42 @@
+public table EditiquePmsRetSource {
+    t24:  EDITIQUE.PMS.RET.SOURCE
+    fields:{
+        EditiquePmsRetSourceAgence(ED.PMS.RS.AGENCE)=1
+        EditiquePmsRetSourceRib(ED.PMS.RS.RIB)=2
+        EditiquePmsRetSourceIban(ED.PMS.RS.IBAN)=3
+        EditiquePmsRetSourceDestinaire(ED.PMS.RS.DESTINAIRE)=4
+        EditiquePmsRetSourceMatriculeFiscale(ED.PMS.RS.MATRICULE.FISCALE)=5
+        EditiquePmsRetSourceCodeTva(ED.PMS.RS.CODE.TVA)=6
+        EditiquePmsRetSourceCodeCateg(ED.PMS.RS.CODE.CATEG)=7
+        EditiquePmsRetSourceNumEtabSecond(ED.PMS.RS.NUM.ETAB.SECOND)=8
+        EditiquePmsRetSourceNumIdentite(ED.PMS.RS.NUM.IDENTITE)=9
+        EditiquePmsRetSourceNomClient(ED.PMS.RS.NOM.CLIENT)=10
+        EditiquePmsRetSourceAdresse(ED.PMS.RS.ADRESSE)=11
+        EditiquePmsRetSourceMontantRetenue(ED.PMS.RS.MONTANT.RETENUE)=12
+        EditiquePmsRetSourceMontantNet(ED.PMS.RS.MONTANT.NET)=13
+        EditiquePmsRetSourceTypeNumIdentite(ED.PMS.RS.TYPE.NUM.IDENTITE)=14
+        EditiquePmsRetSourceCurrencyDecimal(ED.PMS.RS.CURRENCY.DECIMAL)=15
+        EditiquePmsRetSourceMontantBrut(ED.PMS.RS.MONTANT.BRUT)=16
+        EditiquePmsRetSourceDateProfit(ED.PMS.RS.DATE.PROFIT)=17
+        EditiquePmsRetSourceReserved1(ED.PMS.RS.RESERVED.1)=18
+        EditiquePmsRetSourceReserved2(ED.PMS.RS.RESERVED.2)=19
+        EditiquePmsRetSourceReserved3(ED.PMS.RS.RESERVED.3)=20
+        EditiquePmsRetSourceReserved4(ED.PMS.RS.RESERVED.4)=21
+        EditiquePmsRetSourceReserved5(ED.PMS.RS.RESERVED.5)=22
+        EditiquePmsRetSourceReserved6(ED.PMS.RS.RESERVED.6)=23
+        EditiquePmsRetSourceReserved7(ED.PMS.RS.RESERVED.7)=24
+        EditiquePmsRetSourceReserved8(ED.PMS.RS.RESERVED.8)=25
+        EditiquePmsRetSourceReserved9(ED.PMS.RS.RESERVED.9)=26
+        EditiquePmsRetSourceReserved10(ED.PMS.RS.RESERVED.10)=27
+        EditiquePmsRetSourceOverride(ED.PMS.RS.OVERRIDE)=28
+        EditiquePmsRetSourceRecordStatus(ED.PMS.RS.RECORD.STATUS)=29
+        EditiquePmsRetSourceCurrNo(ED.PMS.RS.CURR.NO)=30
+        EditiquePmsRetSourceInputter(ED.PMS.RS.INPUTTER)=31
+        EditiquePmsRetSourceDateTime(ED.PMS.RS.DATE.TIME)=32
+        EditiquePmsRetSourceAuthoriser(ED.PMS.RS.AUTHORISER)=33
+        EditiquePmsRetSourceCoCode(ED.PMS.RS.CO.CODE)=34
+        EditiquePmsRetSourceDeptCode(ED.PMS.RS.DEPT.CODE)=35
+        EditiquePmsRetSourceAuditorCode(ED.PMS.RS.AUDITOR.CODE)=36
+        EditiquePmsRetSourceAuditDateTime(ED.PMS.RS.AUDIT.DATE.TIME)=37
+    }
+}

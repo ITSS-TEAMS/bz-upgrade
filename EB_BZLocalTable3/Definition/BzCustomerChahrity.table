@@ -1,0 +1,50 @@
+public table BzCustomerChahrity {
+    t24:  BZ.CUSTOMER.CHAHRITY
+    fields:{
+        BzCustomerChahrityNom(CUS.CH.NOM)=1
+        BzCustomerChahrityPrenom(CUS.CH.PRENOM)=2
+        BzCustomerChahrityGenre(CUS.CH.GENRE)=3
+        BzCustomerChahrityNumCin(CUS.CH.NUM.CIN)=4
+        BzCustomerChahrityDateCin(CUS.CH.DATE.CIN)=5
+        BzCustomerChahrityDateNaiss(CUS.CH.DATE.NAISS)=6
+        BzCustomerChahrityNumTel(CUS.CH.NUM.TEL)=7
+        BzCustomerChahrityEmail(CUS.CH.EMAIL)=8
+        BzCustomerChahrityAdresse(CUS.CH.ADRESSE)=9
+        BzCustomerChahrityCodePostal(CUS.CH.CODE.POSTAL)=10
+        BzCustomerChahritySalaire(CUS.CH.SALAIRE)=11
+        BzCustomerChahrityDateChargement(CUS.CH.DATE.CHARGEMENT)=12
+        BzCustomerChahrityFichierRecu(CUS.CH.FICHIER.RECU)=13
+        BzCustomerChahrityRefChargement(CUS.CH.REF.CHARGEMENT)=14
+        BzCustomerChahrityStatut(CUS.CH.STATUT)=15
+        BzCustomerChahrityAnomalies(CUS.CH.ANOMALIES)=16
+        BzCustomerChahritySector(CUS.CH.SECTOR)=17
+        BzCustomerChahrityAccountOfficer(CUS.CH.ACCOUNT.OFFICER)=18
+        BzCustomerChahrityOtherOfficer(CUS.CH.OTHER.OFFICER)=19
+        BzCustomerChahrityIndustry(CUS.CH.INDUSTRY)=20
+        BzCustomerChahrityEmployerName(CUS.CH.EMPLOYER.NAME)=21
+        BzCustomerChahrityActivite(CUS.CH.ACTIVITE)=22
+        BzCustomerChahrityGouvernorat(CUS.CH.GOUVERNORAT)=23
+        BzCustomerChahrityMnemonic(CUS.CH.MNEMONIC)=24
+        BzCustomerChahrityNomPrenom(CUS.CH.NOM.PRENOM)=25
+        BzCustomerChahrityDateExecution(CUS.CH.DATE.EXECUTION)=26
+        BzCustomerChahrityMessageOfs(CUS.CH.MESSAGE.OFS)=27
+        BzCustomerChahrityReponseOfs(CUS.CH.REPONSE.OFS)=28
+        BzCustomerChahrityCompteDo(CUS.CH.COMPTE.DO)=29
+        BzCustomerChahrityMessageOfsAc(CUS.CH.MESSAGE.OFS.AC)=30
+        BzCustomerChahrityReponseOfsAc(CUS.CH.REPONSE.OFS.AC)=31
+        BzCustomerChahrityStatutAc(CUS.CH.STATUT.AC)=32
+        BzCustomerChahrityReserved8(CUS.CH.RESERVED.8)=33
+        BzCustomerChahrityOverride(CUS.CH.OVERRIDE)=34
+        BzCustomerChahrityRecordStatus(CUS.CH.RECORD.STATUS)=35
+        BzCustomerChahrityCurrNo(CUS.CH.CURR.NO)=36
+        BzCustomerChahrityInputter(CUS.CH.INPUTTER)=37
+        BzCustomerChahrityDateTime(CUS.CH.DATE.TIME)=38
+        BzCustomerChahrityAuthoriser(CUS.CH.AUTHORISER)=39
+        BzCustomerChahrityCoCode(CUS.CH.CO.CODE)=40
+        BzCustomerChahrityDeptCode(CUS.CH.DEPT.CODE)=41
+        BzCustomerChahrityAuditorCode(CUS.CH.AUDITOR.CODE)=42
+        BzCustomerChahrityAuditDateTime(CUS.CH.AUDIT.DATE.TIME)=43
+    }
+}
+
+

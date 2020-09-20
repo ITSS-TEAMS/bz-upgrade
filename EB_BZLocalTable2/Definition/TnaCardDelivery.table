@@ -1,0 +1,19 @@
+public table TnaCardDelivery {
+    t24:  TNA.CARD.DELIVERY
+    fields:{
+        TnaCardDeliveryDescription(LIVRAISON.DESCRIPTION)=1
+        TnaCardDeliveryToutLot(LIVRAISON.TOUT.LOT)=2
+        TnaCardDeliveryCarte(LIVRAISON.CARTE)=3
+        TnaCardDeliveryLocalRef(LIVRAISON.LOCAL.REF)=4
+        TnaCardDeliveryOverride(LIVRAISON.OVERRIDE)=5
+        TnaCardDeliveryRecordStatus(LIVRAISON.RECORD.STATUS)=6
+        TnaCardDeliveryCurrNo(LIVRAISON.CURR.NO)=7
+        TnaCardDeliveryInputter(LIVRAISON.INPUTTER)=8
+        TnaCardDeliveryDateTime(LIVRAISON.DATE.TIME)=9
+        TnaCardDeliveryAuthoriser(LIVRAISON.AUTHORISER)=10
+        TnaCardDeliveryCoCode(LIVRAISON.CO.CODE)=11
+        TnaCardDeliveryDeptCode(LIVRAISON.DEPT.CODE)=12
+        TnaCardDeliveryAuditorCode(LIVRAISON.AUDITOR.CODE)=13
+        TnaCardDeliveryAuditDateTime(LIVRAISON.AUDIT.DATE.TIME)=14
+    }
+}

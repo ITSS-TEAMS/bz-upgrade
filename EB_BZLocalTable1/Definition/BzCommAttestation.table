@@ -1,0 +1,16 @@
+public table BzCommAttestation {
+    t24:  BZ.COMM.ATTESTATION
+    fields:{
+        BzCommAttestationCodeCommission(COMMT.CODE.COMMISSION)=1
+        BzCommAttestationLibelle(COMMT.LIBELLE)=2
+        BzCommAttestationRecordStatus(COMMT.RECORD.STATUS)=3
+        BzCommAttestationCurrNo(COMMT.CURR.NO)=4
+        BzCommAttestationInputter(COMMT.INPUTTER)=5
+        BzCommAttestationDateTime(COMMT.DATE.TIME)=6
+        BzCommAttestationAuthoriser(COMMT.AUTHORISER)=7
+        BzCommAttestationCoCode(COMMT.CO.CODE)=8
+        BzCommAttestationDeptCode(COMMT.DEPT.CODE)=9
+        BzCommAttestationAuditorCode(COMMT.AUDITOR.CODE)=10
+        BzCommAttestationAuditDateTime(COMMT.AUDIT.DATE.TIME)=11
+    }
+}

@@ -1,0 +1,22 @@
+public table BzEtrClientNegoce {
+    t24:  BZ.ETR.CLIENT.NEGOCE
+    fields:{
+        BzEtrClientNegoceActive(CLT.NEG.ACTIVE)=1
+        BzEtrClientNegoceCommentaire(CLT.NEG.COMMENTAIRE)=2
+        BzEtrClientNegoceReserved1(CLT.NEG.RESERVED.1)=3
+        BzEtrClientNegoceReserved2(CLT.NEG.RESERVED.2)=4
+        BzEtrClientNegoceReserved3(CLT.NEG.RESERVED.3)=5
+        BzEtrClientNegoceReserved4(CLT.NEG.RESERVED.4)=6
+        BzEtrClientNegoceReserved5(CLT.NEG.RESERVED.5)=7
+        BzEtrClientNegoceOverride(CLT.NEG.OVERRIDE)=8
+        BzEtrClientNegoceRecordStatus(CLT.NEG.RECORD.STATUS)=9
+        BzEtrClientNegoceCurrNo(CLT.NEG.CURR.NO)=10
+        BzEtrClientNegoceInputter(CLT.NEG.INPUTTER)=11
+        BzEtrClientNegoceDateTime(CLT.NEG.DATE.TIME)=12
+        BzEtrClientNegoceAuthoriser(CLT.NEG.AUTHORISER)=13
+        BzEtrClientNegoceCoCode(CLT.NEG.CO.CODE)=14
+        BzEtrClientNegoceDeptCode(CLT.NEG.DEPT.CODE)=15
+        BzEtrClientNegoceAuditorCode(CLT.NEG.AUDITOR.CODE)=16
+        BzEtrClientNegoceAuditDateTime(CLT.NEG.AUDIT.DATE.TIME)=17
+    }
+}

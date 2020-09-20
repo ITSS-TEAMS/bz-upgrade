@@ -1,0 +1,18 @@
+public table BzTypeTraitement {
+    t24:  BZ.TYPE.TRAITEMENT
+    fields:{
+        BzTypeTraitementDescription(TYP.TRT.DESCRIPTION)=1
+        BzTypeTraitementDepartement(TYP.TRT.DEPARTEMENT)=2
+        BzTypeTraitementRepertoire(TYP.TRT.REPERTOIRE)=3
+        BzTypeTraitementOverride(TYP.TRT.OVERRIDE)=4
+        BzTypeTraitementRecordStatus(TYP.TRT.RECORD.STATUS)=5
+        BzTypeTraitementCurrNo(TYP.TRT.CURR.NO)=6
+        BzTypeTraitementInputter(TYP.TRT.INPUTTER)=7
+        BzTypeTraitementDateTime(TYP.TRT.DATE.TIME)=8
+        BzTypeTraitementAuthoriser(TYP.TRT.AUTHORISER)=9
+        BzTypeTraitementCoCode(TYP.TRT.CO.CODE)=10
+        BzTypeTraitementDeptCode(TYP.TRT.DEPT.CODE)=11
+        BzTypeTraitementAuditorCode(TYP.TRT.AUDITOR.CODE)=12
+        BzTypeTraitementAuditDateTime(TYP.TRT.AUDIT.DATE.TIME)=13
+    }
+}

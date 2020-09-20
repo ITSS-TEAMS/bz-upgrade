@@ -1,0 +1,57 @@
+public table CecLayout {
+t24:  CEC.LAYOUT
+fields:{
+    CecLayoutDescription(CEC.LAY.DESCRIPTION)=1    
+	CecLayoutTransactionType(CEC.LAY.TRANSACTION.TYPE)=2 
+    CecLayoutAllowedHeader(CEC.LAY.ALLOWED.HEADER)=3         
+	CecLayoutAllowedOpe(CEC.LAY.ALLOWED.OPE)=4 
+    CecLayoutRecordLength(CEC.LAY.RECORD.LENGTH)=5          
+	CecLayoutFieldName(CEC.LAY.FIELD.NAME)=6  
+    CecLayoutFieldStart(CEC.LAY.FIELD.START)=7        
+    CecLayoutFieldLength(CEC.LAY.FIELD.LENGTH)=8   
+    CecLayoutFieldType(CEC.LAY.FIELD.TYPE)=9       
+	CecLayoutFieldArchive(CEC.LAY.FIELD.ARCHIVE)=10
+    CecLayoutFieldDetail(CEC.LAY.FIELD.DETAIL)=11      
+	CecLayoutFieldExtract(CEC.LAY.FIELD.EXTRACT)=12
+    CecLayoutPreviousOper(CEC.LAY.PREVIOUS.OPER)=13        
+	CecLayoutRejectOper(CEC.LAY.REJECT.OPER)=14
+    CecLayoutCancelOper(CEC.LAY.CANCEL.OPER)=15      
+	CecLayoutCustomerSign(CEC.LAY.CUSTOMER.SIGN)=16
+    CecLayoutProcessType(CEC.LAY.PROCESS.TYPE)=17    
+	CecLayoutSettlementDays(CEC.LAY.SETTLEMENT.DAYS)=18
+    CecLayoutCutOffTime(CEC.LAY.CUT.OFF.TIME)=19  
+	CecLayoutReductionAllowed(CEC.LAY.REDUCTION.ALLOWED)=20
+    CecLayoutNostroAcctNo(CEC.LAY.NOSTRO.ACCT.NO)=21    
+	CecLayoutTransitAcctNo(CEC.LAY.TRANSIT.ACCT.NO)=22
+    CecLayoutSuspensAcctNo(CEC.LAY.SUSPENS.ACCT.NO)=23     
+    CecLayoutOffsetAcctNo(CEC.LAY.OFFSET.ACCT.NO)=24
+    CecLayoutValidationRtn(CEC.LAY.VALIDATION.RTN)=25     
+	CecLayoutAfterAuthRtn(CEC.LAY.AFTER.AUTH.RTN)=26
+    CecLayoutMappingKey(CEC.LAY.MAPPING.KEY)=27 
+    CecLayoutApplicationFormat(CEC.LAY.APPLICATION.FORMAT)=28
+    CecLayoutDeliveryRoutine(CEC.LAY.DELIVERY.ROUTINE)=29    
+    CecLayoutCommissionCode(CEC.LAY.COMMISSION.CODE)=30
+    CecLayoutChargeCode(CEC.LAY.CHARGE.CODE)=31       
+    CecLayoutRegroupCode(CEC.LAY.REGROUP.CODE)=32 
+    CecLayoutMultipleOccurence(CEC.LAY.MULTIPLE.OCCURENCE)=33      
+    CecLayoutAllowedAnnex(CEC.LAY.ALLOWED.ANNEX)=34 
+    CecLayoutMassCancelOper(CEC.LAY.MASS.CANCEL.OPER)=35       
+    CecLayoutDummyLayout(CEC.LAY.DUMMY.LAYOUT)=36 
+    CecLayoutReserverd4(CEC.LAY.RESERVED.4)=37         
+	CecLayoutReserverd3(CEC.LAY.RESERVED.3)=38 
+    CecLayoutReserverd2(CEC.LAY.RESERVED.2) =39         
+	CecLayoutReserverd1(CEC.LAY.RESERVED.1)=40
+    CecLayoutLocalRef(CEC.LAY.LOCAL.REF)=41           
+	CecLayoutOverride(CEC.LAY.OVERRIDE)=42
+    CecLayoutRecordStatus(CEC.LAY.RECORD.STATUS)=43            
+	CecLayoutCurrNo(CEC.LAY.CURR.NO)=44 
+    CecLayoutInputter(CEC.LAY.INPUTTER)=45          
+    CecLayoutDateTime(CEC.LAY.DATE.TIME)=46
+    CecLayoutAuthoriser(CEC.LAY.AUTHORISER)=47            
+	CecLayoutCoCode(CEC.LAY.CO.CODE)=48
+    CecLayoutDeptCode(CEC.LAY.DEPT.CODE)=49       
+    CecLayoutAuditorCode(CEC.LAY.AUDITOR.CODE)=50
+    CecLayoutAuditDateTime(CEC.LAY.AUDIT.DATE.TIME)=51
+
+}
+}

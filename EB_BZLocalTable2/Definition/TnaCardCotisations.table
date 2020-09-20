@@ -1,0 +1,18 @@
+public table TnaCardCotisations {
+    t24:  TNA.CARD.COTISATIONS
+    fields:{
+        TnaCardCotisationsDescription(COT.DESCRIPTION)=1
+        TnaCardCotisationsCategory(COT.CATEGORY)=2
+        TnaCardCotisationsLocalRef(COT.LOCAL.REF)=3
+        TnaCardCotisationsOverride(COT.OVERRIDE)=4
+        TnaCardCotisationsRecordStatus(COT.RECORD.STATUS)=5
+        TnaCardCotisationsCurrNo(COT.CURR.NO)=6
+        TnaCardCotisationsInputter(COT.INPUTTER)=7
+        TnaCardCotisationsDateTime(COT.DATE.TIME)=8
+        TnaCardCotisationsAuthoriser(COT.AUTHORISER)=9
+        TnaCardCotisationsCoCode(COT.CO.CODE)=10
+        TnaCardCotisationsDeptCode(COT.DEPT.CODE)=11
+        TnaCardCotisationsAuditorCode(COT.AUDITOR.CODE)=12
+        TnaCardCotisationsAuditDateTime(COT.AUDIT.DATE.TIME)=13
+    }
+}

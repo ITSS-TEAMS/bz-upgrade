@@ -1,0 +1,41 @@
+public table BzMdpVirMasseGlob {
+    t24:  BZ.MDP.VIR.MASSE.GLOB
+    fields:{
+        BzMdpVirMasseGlobRibPayeur(VIR.GLOB.RIB.PAYEUR)=1
+        BzMdpVirMasseGlobDateEcheance(VIR.GLOB.DATE.ECHEANCE)=2
+        BzMdpVirMasseGlobRefEnvoi(VIR.GLOB.REF.ENVOI)=3
+        BzMdpVirMasseGlobDateCreation(VIR.GLOB.DATE.CREATION)=4
+        BzMdpVirMasseGlobNumLot(VIR.GLOB.NUM.LOT)=5
+        BzMdpVirMasseGlobNombre(VIR.GLOB.NOMBRE)=6
+        BzMdpVirMasseGlobMontant(VIR.GLOB.MONTANT)=7
+        BzMdpVirMasseGlobLigneRecu(VIR.GLOB.LIGNE.RECU)=8
+        BzMdpVirMasseGlobMotifDetecte(VIR.GLOB.MOTIF.DETECTE)=9
+        BzMdpVirMasseGlobStatut(VIR.GLOB.STATUT)=10
+        BzMdpVirMasseGlobCompteDo(VIR.GLOB.COMPTE.DO)=11
+        BzMdpVirMasseGlobUniteGestion(VIR.GLOB.UNITE.GESTION)=12
+        BzMdpVirMasseGlobDateChargement(VIR.GLOB.DATE.CHARGEMENT)=13
+        BzMdpVirMasseGlobFtDecision(VIR.GLOB.FT.DECISION)=14
+        BzMdpVirMasseGlobFichierRecu(VIR.GLOB.FICHIER.RECU)=15
+        BzMdpVirMasseGlobRefChargement(VIR.GLOB.REF.CHARGEMENT)=16
+        BzMdpVirMasseGlobReserved1(VIR.GLOB.RESERVED.1)=17
+        BzMdpVirMasseGlobReserved2(VIR.GLOB.RESERVED.2)=18
+        BzMdpVirMasseGlobReserved3(VIR.GLOB.RESERVED.3)=19
+        BzMdpVirMasseGlobReserved4(VIR.GLOB.RESERVED.4)=20
+        BzMdpVirMasseGlobReserved5(VIR.GLOB.RESERVED.5)=21
+        BzMdpVirMasseGlobReserved6(VIR.GLOB.RESERVED.6)=22
+        BzMdpVirMasseGlobReserved7(VIR.GLOB.RESERVED.7)=23
+        BzMdpVirMasseGlobReserved8(VIR.GLOB.RESERVED.8)=24
+        BzMdpVirMasseGlobReserved9(VIR.GLOB.RESERVED.9)=25
+        BzMdpVirMasseGlobReserved10(VIR.GLOB.RESERVED.10)=26
+        BzMdpVirMasseGlobOverride(VIR.GLOB.OVERRIDE)=27
+        BzMdpVirMasseGlobRecordStatus(VIR.GLOB.RECORD.STATUS)=28
+        BzMdpVirMasseGlobCurrNo(VIR.GLOB.CURR.NO)=29
+        BzMdpVirMasseGlobInputter(VIR.GLOB.INPUTTER)=30
+        BzMdpVirMasseGlobDateTime(VIR.GLOB.DATE.TIME)=31
+        BzMdpVirMasseGlobAuthoriser(VIR.GLOB.AUTHORISER)=32
+        BzMdpVirMasseGlobCoCode(VIR.GLOB.CO.CODE)=33
+        BzMdpVirMasseGlobDeptCode(VIR.GLOB.DEPT.CODE)=34
+        BzMdpVirMasseGlobAuditorCode(VIR.GLOB.AUDITOR.CODE)=35
+        BzMdpVirMasseGlobAuditDateTime(VIR.GLOB.AUDIT.DATE.TIME)=36
+    }
+}

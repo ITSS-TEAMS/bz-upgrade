@@ -1,0 +1,18 @@
+public table BzMdpLibelleChequier {
+    t24:  BZ.MDP.LIBELLE.CHEQUIER
+    fields:{
+        BzMdpLibelleChequierLibelle(MDP.LIB.LIBELLE)=1
+        BzMdpLibelleChequierLocalRef(MDP.LIB.LOCAL.REF)=2
+        BzMdpLibelleChequierReserved(MDP.LIB.Reserved)=3
+        BzMdpLibelleChequierOverride(MDP.LIB.OVERRIDE)=4
+        BzMdpLibelleChequierRecordStatus(MDP.LIB.RECORD.STATUS)=5
+        BzMdpLibelleChequierCurrNo(MDP.LIB.CURR.NO)=6
+        BzMdpLibelleChequierInputter(MDP.LIB.INPUTTER)=7
+        BzMdpLibelleChequierDateTime(MDP.LIB.DATE.TIME)=8
+        BzMdpLibelleChequierAuthoriser(MDP.LIB.AUTHORISER)=9
+        BzMdpLibelleChequierCoCode(MDP.LIB.CO.CODE)=10
+        BzMdpLibelleChequierDeptCode(MDP.LIB.DEPT.CODE)=11
+        BzMdpLibelleChequierAuditorCode(MDP.LIB.AUDITOR.CODE)=12
+        BzMdpLibelleChequierAuditDateTime(MDP.LIB.AUDIT.DATE.TIME)=13
+    }
+}

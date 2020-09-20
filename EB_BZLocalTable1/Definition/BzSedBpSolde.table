@@ -1,0 +1,27 @@
+public table BzSedBpSolde {
+    t24:  BZ.SED.BP.SOLDE
+    fields:{
+        BzSedBpSoldePeriodeDec(SED.SOLDE.PERIODE.DEC)=1
+        BzSedBpSoldeDevise(SED.SOLDE.DEVISE)=2
+        BzSedBpSoldeMntSoldeInit(SED.SOLDE.MNT.SOLDE.INIT)=3
+        BzSedBpSoldeMntSoldeFinal(SED.SOLDE.MNT.SOLDE.FINAL)=4
+        BzSedBpSoldeDateDeclaration(SED.SOLDE.DATE.DECLARATION)=5
+        BzSedBpSoldeStatut(SED.SOLDE.STATUT)=6
+        BzSedBpSoldeReserved1(SED.SOLDE.RESERVED1)=7
+        BzSedBpSoldeReserved2(SED.SOLDE.RESERVED2)=8
+        BzSedBpSoldeReserved3(SED.SOLDE.RESERVED3)=9
+        BzSedBpSoldeReserved4(SED.SOLDE.RESERVED4)=10
+        BzSedBpSoldeReserved5(SED.SOLDE.RESERVED5)=11
+        BzSedBpSoldeLocalRef(SED.SOLDE.LOCAL.REF)=12
+        BzSedBpSoldeOverride(SED.SOLDE.OVERRIDE)=13
+        BzSedBpSoldeRecordStatus(SED.SOLDE.RECORD.STATUS)=14
+        BzSedBpSoldeCurrNo(SED.SOLDE.CURR.NO)=15
+        BzSedBpSoldeInputter(SED.SOLDE.INPUTTER)=16
+        BzSedBpSoldeDateTime(SED.SOLDE.DATE.TIME)=17
+        BzSedBpSoldeAuthoriser(SED.SOLDE.AUTHORISER)=18
+        BzSedBpSoldeCoCode(SED.SOLDE.CO.CODE)=19
+        BzSedBpSoldeDeptCode(SED.SOLDE.DEPT.CODE)=20
+        BzSedBpSoldeAuditorCode(SED.SOLDE.AUDITOR.CODE)=21
+        BzSedBpSoldeAuditDateTime(SED.SOLDE.AUDIT.DATE.TIME)=22
+    }
+}

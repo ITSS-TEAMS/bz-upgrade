@@ -1,0 +1,35 @@
+public table BzWuOperationsAg {
+    t24:  BZ.WU.OPERATIONS.AG
+    fields:{
+        BzWuOperationsAgReference(WU.OPER.REFERENCE)=1
+        BzWuOperationsAgDateOperation(WU.OPER.DATE.OPERATION)=2
+        BzWuOperationsAgMontant(WU.OPER.MONTANT)=3
+        BzWuOperationsAgCodeAgence(WU.OPER.CODE.AGENCE)=4
+        BzWuOperationsAgMtcn(WU.OPER.MTCN)=5
+        BzWuOperationsAgTellerId(WU.OPER.TELLER.ID)=6
+        BzWuOperationsAgBeneficiaire(WU.OPER.BENEFICIAIRE)=7
+        BzWuOperationsAgTypePiece(WU.OPER.TYPE.PIECE)=8
+        BzWuOperationsAgNumPiece(WU.OPER.NUM.PIECE)=9
+        BzWuOperationsAgDateDelivrance(WU.OPER.DATE.DELIVRANCE)=10
+        BzWuOperationsAgReserved1(WU.OPER.RESERVED.1)=11
+        BzWuOperationsAgReserved2(WU.OPER.RESERVED.2)=12
+        BzWuOperationsAgReserved3(WU.OPER.RESERVED.3)=13
+        BzWuOperationsAgReserved4(WU.OPER.RESERVED.4)=14
+        BzWuOperationsAgReserved5(WU.OPER.RESERVED.5)=15
+        BzWuOperationsAgReserved6(WU.OPER.RESERVED.6)=16
+        BzWuOperationsAgReserved7(WU.OPER.RESERVED.7)=17
+        BzWuOperationsAgReserved8(WU.OPER.RESERVED.8)=18
+        BzWuOperationsAgReserved9(WU.OPER.RESERVED.9)=19
+        BzWuOperationsAgReserved10(WU.OPER.RESERVED.10)=20
+        BzWuOperationsAgOverride(WU.OPER.OVERRIDE)=21
+        BzWuOperationsAgRecordStatus(WU.OPER.RECORD.STATUS)=22
+        BzWuOperationsAgCurrNo(WU.OPER.CURR.NO)=23
+        BzWuOperationsAgInputter(WU.OPER.INPUTTER)=24
+        BzWuOperationsAgDateTime(WU.OPER.DATE.TIME)=25
+        BzWuOperationsAgAuthoriser(WU.OPER.AUTHORISER)=26
+        BzWuOperationsAgCoCode(WU.OPER.CO.CODE)=27
+        BzWuOperationsAgDeptCode(WU.OPER.DEPT.CODE)=28
+        BzWuOperationsAgAuditorCode(WU.OPER.AUDITOR.CODE)=29
+        BzWuOperationsAgAuditDateTime(WU.OPER.AUDIT.DATE.TIME)=30
+    }
+}

@@ -1,0 +1,19 @@
+public table BzFinChq {
+    t24:  BZ.FIN.CHQ
+    fields:{
+        BzFinChqRefDemande(CHQ.FIN.REF.DEMANDE)=1
+        BzFinChqDateLivraison(CHQ.FIN.DATE.LIVRAISON)=2
+        BzFinChqRefFt(CHQ.FIN.REF.FT)=3
+        BzFinChqLocalRef(CHQ.FIN.LOCAL.REF)=4
+        BzFinChqOverride(CHQ.FIN.OVERRIDE)=5
+        BzFinChqRecordStatus(CHQ.FIN.RECORD.STATUS)=6
+        BzFinChqCurrNo(CHQ.FIN.CURR.NO)=7
+        BzFinChqInputter(CHQ.FIN.INPUTTER)=8
+        BzFinChqDateTime(CHQ.FIN.DATE.TIME)=9
+        BzFinChqAuthoriser(CHQ.FIN.AUTHORISER)=10
+        BzFinChqCoCode(CHQ.FIN.CO.CODE)=11
+        BzFinChqDeptCode(CHQ.FIN.DEPT.CODE)=12
+        BzFinChqAuditorCode(CHQ.FIN.AUDITOR.CODE)=13
+        BzFinChqAuditDateTime(CHQ.FIN.AUDIT.DATE.TIME)=14
+    }
+}

@@ -1,0 +1,190 @@
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.ETR.LINKFE.DETAIL
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*--------------------------------------
+* Modification History :  
+*ZIT-UPG-R13-R19     :  No Changes.
+*-------------------------------------
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.USER
+    $INSERT I_F.FUNDS.TRANSFER
+
+
+    GOSUB INITIALISATION
+    GOSUB MAIN.PROCESS
+
+    RETURN
+
+INITIALISATION:
+
+    FN.FT = "F.FUNDS.TRANSFER"
+    F.FT = ""
+
+    CALL OPF(FN.FT, F.FT)
+
+* $INSERT I_EQUATE - Not Used anymore;UNDS.TRANSFER$HIS"
+    F.FT.HIS = ""
+
+    CALL OPF(FN.FT.HIS, F.FT.HIS)
+
+    RECORD.FINAL = ""
+    Y.LIST.TYPE = ''
+
+    RETURN
+
+MAIN.PROCESS:
+
+    DATA.ID = O.DATA
+
+    CALL F.READ(FN.FT,DATA.ID,FT.REC,F.FT,FT.ERR)
+
+    IF FEB.SystemTables.getVFunction()
+        RECORD.FINAL = FT.REC
+    END FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusRR = EB.SystemTables.getRNew(FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusRR)
+        CALL F.READ.HISTORY(FN.FT.HIS,DATA.ID,FT.HItmp.R.NEW.FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusRR
+EB.SystemTables.setRNew(FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusRR, tmp.R.NEW.FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusRR)
+        IF FT.HIS.REC THEN
+            RECORD.FINAL = FT.HIS.REC
+        END
+    END
+
+    IF RECORD.FINAL THEN
+        TRANSACTION.TYPE  = RECORD.FINAL<FT.TRANSACTION.TYPE>
+        DEBIT.ACCT.NO   = RECORD.FINAL<FT.DEBIT.ACCT.NO>
+        DEBIT.CURRENCY   = RECORD.FINAL<FT.DEBIT.CURRENCY>
+        DEBIT.AMOUNT  = RECORD.FINAL<FT.DEBIT.AMOUNT>
+        CREDIT.ACCT.NO   = RECORD.FINAL<FT.CREDIT.ACCT.NO>
+        CREDIT.CURRENCY  = RECORD.FINAL<FT.CREDIT.CURRENCY>
+        CREDIT.AMOUNT   = RECORD.FINAL<FT.CREDIT.AMOUNT>
+        RIB.BEN = RECORD.FINAL<FT.IN.BEN.ACCT.NO>
+**
+        ORDERING.CUS = RECORD.FINAL<FT.ORDERING.CUST>
+        CREDIT.THEIR.REF = RECORD.FINAL<FT.DEBIT.THEIR.REF>
+
+
+        IF LEN(RIB.BEN) EQ "20" THEN
+            COMPTE.BEN = RIB.BEN[9,10]
+        END ELSE
+            COMPTE.BEN = ""
+        END
+
+        IEB.DataAccess.OpfEBIT.AMOUNT THEN
+         EB.DataAccess.OpfCCY.TXN = DEBIT.CURRENCY
+            AMT.TXN = DEBIT.AMOUNT
+        END ELSE
+            CCY.TXN = CREDIT.CURRENCY
+            AMT.TXN = CREDIT.AMOUNT
+        END
+
+        DFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefRead = FIELD(DATA.ID,";",1)
+
+        O.DATA = DEBIT.ACCT.NO:'*':DEBIT.CURRENCY:'*':CREDIT.ACCT.NO:'*':CREDIT.CURRENCY:'*':CCY.TXN:'*':AMT.TXN:'*':COMPTE.BEN:'*':ORDERING.CUS:'*':CREDIT.THEIR.REF
+
+
+    END
+
+    RETURNEB.SyEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerPACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.ETR.LINKFE.DETAIL
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*--------------------------------------
+* Modification History :  
+*ZIT-UPG-R13-R19     :  No Changes.
+*-------------------------------------
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.USER
+    $INSERT I_F.FUNDS.TRANSFER
+
+
+    GOSUB INITIALISATION
+    GOSUB MAIN.PROCESS
+
+    RETURN
+
+INITIALISATION:
+
+    FN.FT = "F.FUNDS.TRANSFER"
+    F.FT = ""
+
+    CALL OPF(FN.FT, F.FT)
+
+    FN.FT.HIS = "F.FUNDS.TRANSFER$HIS"
+    F.FT.HIS = ""
+
+    CALL OPF(FN.FT.HIS, F.FT.HIS)
+
+    RECORD.FINAL = ""
+    Y.LIST.TYPE = ''
+
+    RETURN
+
+MAIN.PROCESS:
+
+    DATA.ID = O.DATA
+
+    CALL F.READ(FN.FT,DATA.ID,FT.REC,F.FT,FT.ERR)
+
+    IF FT.REC THEN
+        RECORD.FINAL = FT.REC
+    END ELSE
+        CALL F.READ.HISTORY(FN.FT.HIS,DATA.ID,FT.HIS.REC,F.FT.HIS,FT.HIS.ERR)
+        IF FT.HIS.REC THEN
+            RECORD.FINAL = FT.HIS.REC
+        END
+    END
+
+    IF RECORD.FINAL THEN
+        TRANSACTION.TYPE  = RECORD.FINAL<FT.TRANSACTION.TYPE>
+        DEBIT.ACCT.NO   = RECORD.FINAL<FT.DEBIT.ACCT.NO>
+        DEBIT.CURRENCY   = RECORD.FINAL<FT.DEBIT.CURRENCY>
+        DEBIT.AMOUNT  = RECORD.FINAL<FT.DEBIT.AMOUNT>
+        CREDIT.ACCT.NO   = RECORD.FINAL<FT.CREDIT.ACCT.NO>
+        CREDIT.CURRENCY  = RECORD.FINAL<FT.CREDIT.CURRENCY>
+        CREDIT.AMOUNT   = RECORD.FINAL<FT.CREDIT.AMOUNT>
+        RIB.BEN = RECORD.FINAL<FT.IN.BEN.ACCT.NO>
+**
+        ORDERING.CUS = RECORD.FINAL<FT.ORDERING.CUST>
+        CREDIT.THEIR.REF = RECORD.FINAL<FT.DEBIT.THEIR.REF>
+
+
+        IF LEN(RIB.BEN) EQ "20" THEN
+            COMPTE.BEN = RIB.BEN[9,10]
+        END ELSE
+            COMPTE.BEN = ""
+        END
+
+        IF DEBIT.AMOUNT THEN
+            CCY.TXN = DEBIT.CURRENCY
+            AMT.TXN = DEBIT.AMOUNT
+        END ELSE
+            CCY.TXN = CREDIT.CURRENCY
+            AMT.TXN = CREDIT.AMOUNT
+        END
+
+        DATA.ID = FIELD(DATA.ID,";",1)
+
+        O.DATA = DEBIT.ACCT.NO:'*':DEBIT.CURRENCY:'*':CREDIT.ACCT.NO:'*':CREDIT.CURRENCY:'*':CCY.TXN:'*':AMT.TXN:'*':COMPTE.BEN:'*':ORDERING.CUS:'*':CREDIT.THEIR.REF
+
+
+    END
+
+    RETURN
+
+END

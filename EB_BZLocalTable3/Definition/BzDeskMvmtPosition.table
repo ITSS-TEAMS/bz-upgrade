@@ -1,0 +1,36 @@
+public table BzDeskMvmtPosition {
+    t24:  BZ.DESK.MVMT.POSITION
+    fields:{
+        BzDeskMvmtPositionDesk(DESK.POS.DESK)=1
+        BzDeskMvmtPositionDevise(DESK.POS.DEVISE)=2
+        BzDeskMvmtPositionAgence(DESK.POS.AGENCE)=3
+        BzDeskMvmtPositionRefTrans(DESK.POS.REF.TRANS)=4
+        BzDeskMvmtPositionDateOperation(DESK.POS.DATE.OPERATION)=5
+        BzDeskMvmtPositionMontantDevise(DESK.POS.MONTANT.DEVISE)=6
+        BzDeskMvmtPositionMontantTnd(DESK.POS.MONTANT.TND)=7
+        BzDeskMvmtPositionTauxChange(DESK.POS.TAUX.CHANGE)=8
+        BzDeskMvmtPositionRefStmt(DESK.POS.REF.STMT)=9
+        BzDeskMvmtPositionPosBreak(DESK.POS.POS.BREAK)=10
+        BzDeskMvmtPositionPeriode(DESK.POS.PERIODE)=11
+        BzDeskMvmtPositionReserved1(DESK.POS.RESERVED.1)=12
+        BzDeskMvmtPositionReserved2(DESK.POS.RESERVED.2)=13
+        BzDeskMvmtPositionReserved3(DESK.POS.RESERVED.3)=14
+        BzDeskMvmtPositionReserved4(DESK.POS.RESERVED.4)=15
+        BzDeskMvmtPositionReserved5(DESK.POS.RESERVED.5)=16
+        BzDeskMvmtPositionReserved6(DESK.POS.RESERVED.6)=17
+        BzDeskMvmtPositionReserved7(DESK.POS.RESERVED.7)=18
+        BzDeskMvmtPositionReserved8(DESK.POS.RESERVED.8)=19
+        BzDeskMvmtPositionReserved9(DESK.POS.RESERVED.9)=20
+        BzDeskMvmtPositionReserved10(DESK.POS.RESERVED.10)=21
+        BzDeskMvmtPositionOverride(DESK.POS.OVERRIDE)=22
+        BzDeskMvmtPositionRecordStatus(DESK.POS.RECORD.STATUS)=23
+        BzDeskMvmtPositionCurrNo(DESK.POS.CURR.NO)=24
+        BzDeskMvmtPositionInputter(DESK.POS.INPUTTER)=25
+        BzDeskMvmtPositionDateTime(DESK.POS.DATE.TIME)=26
+        BzDeskMvmtPositionAuthoriser(DESK.POS.AUTHORISER)=27
+        BzDeskMvmtPositionCoCode(DESK.POS.CO.CODE)=28
+        BzDeskMvmtPositionDeptCode(DESK.POS.DEPT.CODE)=29
+        BzDeskMvmtPositionAuditorCode(DESK.POS.AUDITOR.CODE)=30
+        BzDeskMvmtPositionAuditDateTime(DESK.POS.AUDIT.DATE.TIME)=31
+    }
+}

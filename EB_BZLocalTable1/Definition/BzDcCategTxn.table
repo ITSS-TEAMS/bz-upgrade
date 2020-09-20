@@ -1,0 +1,19 @@
+public table BzDcCategTxn {
+    t24:  BZ.DC.CATEG.TXN
+    fields:{
+        BzDcCategTxnTransaction(CAT.TR.TRANSACTION)=1
+        BzDcCategTxnDebit(CAT.TR.DEBIT)=2
+        BzDcCategTxnCredit(CAT.TR.CREDIT)=3
+        BzDcCategTxnLocalRef(CAT.TR.LOCAL.REF)=4
+        BzDcCategTxnOverride(CAT.TR.OVERRIDE)=5
+        BzDcCategTxnRecordStatus(CAT.TR.RECORD.STATUS)=6
+        BzDcCategTxnCurrNo(CAT.TR.CURR.NO)=7
+        BzDcCategTxnInputter(CAT.TR.INPUTTER)=8
+        BzDcCategTxnDateTime(CAT.TR.DATE.TIME)=9
+        BzDcCategTxnAuthoriser(CAT.TR.AUTHORISER)=10
+        BzDcCategTxnCoCode(CAT.TR.CO.CODE)=11
+        BzDcCategTxnDeptCode(CAT.TR.DEPT.CODE)=12
+        BzDcCategTxnAuditorCode(CAT.TR.AUDITOR.CODE)=13
+        BzDcCategTxnAuditDateTime(CAT.TR.AUDIT.DATE.TIME)=14
+    }
+}  

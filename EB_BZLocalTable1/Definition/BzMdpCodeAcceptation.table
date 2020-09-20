@@ -1,0 +1,17 @@
+public table BzMdpCodeAcceptation {
+    t24:  BZ.MDP.CODE.ACCEPTATION
+    fields:{
+        BzMdpCodeAcceptationDescription(COD.ACP.DESCRIPTION)=1
+        BzMdpCodeAcceptationLocalRef(COD.ACP.LOCAL.REF)=2
+        BzMdpCodeAcceptationOverride(COD.ACP.OVERRIDE)=3
+        BzMdpCodeAcceptationRecordStatus(COD.ACP.RECORD.STATUS)=4
+        BzMdpCodeAcceptationCurrNo(COD.ACP.CURR.NO)=5
+        BzMdpCodeAcceptationInputter(COD.ACP.INPUTTER)=6
+        BzMdpCodeAcceptationDateTime(COD.ACP.DATE.TIME)=7
+        BzMdpCodeAcceptationAuthoriser(COD.ACP.AUTHORISER)=8
+        BzMdpCodeAcceptationCoCode(COD.ACP.CO.CODE)=9
+        BzMdpCodeAcceptationDeptCode(COD.ACP.DEPT.CODE)=10
+        BzMdpCodeAcceptationAuditorCode(COD.ACP.AUDITOR.CODE)=11
+        BzMdpCodeAcceptationAuditDateTime(COD.ACP.AUDIT.DATE.TIME)=12
+    }
+}

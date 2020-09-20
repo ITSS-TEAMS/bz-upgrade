@@ -1,0 +1,28 @@
+public table BzIjrTvaParam {
+    t24:  BZ.IJR.TVA.PARAM
+    fields:{
+        BzIjrTvaParamTvaRate(BZ.IJ.TVA.P.TVA.RATE)=1
+        BzIjrTvaParamTvaDedAcct(BZ.IJ.TVA.P.TVA.DED.ACCT)=2
+        BzIjrTvaParamLocalRef(BZ.IJ.TVA.P.LOCAL.REF)=3
+        BzIjrTvaParamReserved10(BZ.IJ.TVA.P.RESERVED10)=4
+        BzIjrTvaParamReserved09(BZ.IJ.TVA.P.RESERVED09)=5
+        BzIjrTvaParamReserved08(BZ.IJ.TVA.P.RESERVED08)=6
+        BzIjrTvaParamReserved07(BZ.IJ.TVA.P.RESERVED07)=7
+        BzIjrTvaParamReserved06(BZ.IJ.TVA.P.RESERVED06)=8
+        BzIjrTvaParamReserved05(BZ.IJ.TVA.P.RESERVED05)=9
+        BzIjrTvaParamReserved04(BZ.IJ.TVA.P.RESERVED04)=10
+        BzIjrTvaParamReserved03(BZ.IJ.TVA.P.RESERVED03)=11
+        BzIjrTvaParamReserved02(BZ.IJ.TVA.P.RESERVED02)=12
+        BzIjrTvaParamReserved01(BZ.IJ.TVA.P.RESERVED01)=13
+        BzIjrTvaParamOverride(BZ.IJ.TVA.P.OVERRIDE)=14
+        BzIjrTvaParamRecordStatus(BZ.IJ.TVA.P.RECORD.STATUS)=15
+        BzIjrTvaParamCurrNo(BZ.IJ.TVA.P.CURR.NO)=16
+        BzIjrTvaParamInputter(BZ.IJ.TVA.P.INPUTTER)=17
+        BzIjrTvaParamDateTime(BZ.IJ.TVA.P.DATE.TIME)=18
+        BzIjrTvaParamAuthoriser(BZ.IJ.TVA.P.AUTHORISER)=19
+        BzIjrTvaParamCoCode(BZ.IJ.TVA.P.CO.CODE)=20
+        BzIjrTvaParamDeptCode(BZ.IJ.TVA.P.DEPT.CODE)=21
+        BzIjrTvaParamAuditorCode(BZ.IJ.TVA.P.AUDITOR.CODE)=22
+        BzIjrTvaParamAuditDateTime(BZ.IJ.TVA.P.AUDIT.DATE.TIME)=23
+    }
+}

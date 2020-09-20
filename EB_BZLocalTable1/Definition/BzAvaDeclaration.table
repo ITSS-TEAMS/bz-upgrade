@@ -1,0 +1,28 @@
+public table BzAvaDeclaration {
+    t24:  BZ.AVA.DECLARATION
+    fields:{
+        BzAvaDeclarationAnnePeriode(AVA.DEC.ANNE.PERIODE)=1
+        BzAvaDeclarationMois(AVA.DEC.MOIS)=2
+        BzAvaDeclarationRefFichierBen(AVA.DEC.REF.FICHIER.BEN)=3
+        BzAvaDeclarationRefFichierDoss(AVA.DEC.REF.FICHIER.DOSS)=4
+        BzAvaDeclarationTypeGeneration(AVA.DEC.TYPE.GENERATION)=5
+        BzAvaDeclarationStatut(AVA.DEC.STATUT)=6
+        BzAvaDeclarationCommentaire(AVA.DEC.COMMENTAIRE)=7
+        BzAvaDeclarationReserved1(AVA.DEC.RESERVED1)=8
+        BzAvaDeclarationReserved2(AVA.DEC.RESERVED2)=9
+        BzAvaDeclarationReserved3(AVA.DEC.RESERVED3)=10
+        BzAvaDeclarationReserved4(AVA.DEC.RESERVED4)=11
+        BzAvaDeclarationReserved5(AVA.DEC.RESERVED5)=12
+        BzAvaDeclarationLocalRef(AVA.DEC.LOCAL.REF)=13
+        BzAvaDeclarationOverride(AVA.DEC.OVERRIDE)=14
+        BzAvaDeclarationRecordStatus(AVA.DEC.RECORD.STATUS)=15
+        BzAvaDeclarationCurrNo(AVA.DEC.CURR.NO)=16
+        BzAvaDeclarationInputter(AVA.DEC.INPUTTER)=17
+        BzAvaDeclarationDateTime(AVA.DEC.DATE.TIME)=18
+        BzAvaDeclarationAuthoriser(AVA.DEC.AUTHORISER)=19
+        BzAvaDeclarationCoCode(AVA.DEC.CO.CODE)=20
+        BzAvaDeclarationDeptCode(AVA.DEC.DEPT.CODE)=21
+        BzAvaDeclarationAuditorCode(AVA.DEC.AUDITOR.CODE)=22
+        BzAvaDeclarationAuditDateTime(AVA.DEC.AUDIT.DATE.TIME)=23
+    }
+}

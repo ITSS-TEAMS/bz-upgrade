@@ -1,0 +1,28 @@
+public table BzChargFileEng {
+    t24:  BZ.CHARG.FILE.ENG
+    fields:{
+        BzChargFileEngFichier(CHRG.ENG.FICHIER)=1
+        BzChargFileEngStatut(CHRG.ENG.STATUT)=2
+        BzChargFileEngDateChargement(CHRG.ENG.DATE.CHARGEMENT)=3
+        BzChargFileEngReserved1(CHRG.ENG.RESERVED1)=4
+        BzChargFileEngReserved2(CHRG.ENG.RESERVED2)=5
+        BzChargFileEngReserved3(CHRG.ENG.RESERVED3)=6
+        BzChargFileEngReserved4(CHRG.ENG.RESERVED4)=7
+        BzChargFileEngReserved5(CHRG.ENG.RESERVED5)=8
+        BzChargFileEngReserved6(CHRG.ENG.RESERVED6)=9
+        BzChargFileEngReserved7(CHRG.ENG.RESERVED7)=10
+        BzChargFileEngReserved8(CHRG.ENG.RESERVED8)=11
+        BzChargFileEngReserved9(CHRG.ENG.RESERVED9)=12
+        BzChargFileEngReserved10(CHRG.ENG.RESERVED10)=13
+        BzChargFileEngOverride(CHRG.ENG.OVERRIDE)=14
+        BzChargFileEngRecordStatus(CHRG.ENG.RECORD.STATUS)=15
+        BzChargFileEngCurrNo(CHRG.ENG.CURR.NO)=16
+        BzChargFileEngInputter(CHRG.ENG.INPUTTER)=17
+        BzChargFileEngDateTime(CHRG.ENG.DATE.TIME)=18
+        BzChargFileEngAuthoriser(CHRG.ENG.AUTHORISER)=19
+        BzChargFileEngCoCode(CHRG.ENG.CO.CODE)=20
+        BzChargFileEngDeptCode(CHRG.ENG.DEPT.CODE)=21
+        BzChargFileEngAuditorCode(CHRG.ENG.AUDITOR.CODE)=22
+        BzChargFileEngAuditDateTime(CHRG.ENG.AUDIT.DATE.TIME)=23
+    }
+}

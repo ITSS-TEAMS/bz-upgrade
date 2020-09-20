@@ -1,0 +1,38 @@
+public table EditiqueAfrs {
+    t24:  EDITIQUE.AFRS
+    fields:{
+        EditiqueAfrsDateAvis(AFRS.DATE.AVIS)=1
+        EditiqueAfrsBqTire(AFRS.BQ.TIRE)=2
+        EditiqueAfrsBqTireTxt(AFRS.BQ.TIRE.TXT)=3
+        EditiqueAfrsBqPres(AFRS.BQ.PRES)=4
+        EditiqueAfrsBqPresTxt(AFRS.BQ.PRES.TXT)=5
+        EditiqueAfrsAgTire(AFRS.AG.TIRE)=6
+        EditiqueAfrsAgTireTxt(AFRS.AG.TIRE.TXT)=7
+        EditiqueAfrsAgPres(AFRS.AG.PRES)=8
+        EditiqueAfrsAgPresTxt(AFRS.AG.PRES.TXT)=9
+        EditiqueAfrsNumChq(AFRS.NUM.CHQ)=10
+        EditiqueAfrsNumTire(AFRS.NUM.TIRE)=11
+        EditiqueAfrsDateAfrs(AFRS.DATE.AFRS)=12
+        EditiqueAfrsMntFrais(AFRS.MNT.FRAIS)=13
+        EditiqueAfrsNomHuissier(AFRS.NOM.HUISSIER)=14
+        EditiqueAfrsNumExploit(AFRS.NUM.EXPLOIT)=15
+        EditiqueAfrsDateExploit(AFRS.DATE.EXPLOIT)=16
+        EditiqueAfrsNumCnp(AFRS.NUM.CNP)=17
+        EditiqueAfrsDateCnp(AFRS.DATE.CNP)=18
+        EditiqueAfrsStatut(AFRS.STATUT)=19
+        EditiqueAfrsIdSynchro(AFRS.ID.SYNCHRO)=20
+        EditiqueAfrsTitulaire(AFRS.TITULAIRE)=21
+        EditiqueAfrsDateChargement(AFRS.DATE.CHARGEMENT)=22
+        EditiqueAfrsLocalRef(AFRS.LOCAL.REF)=23
+        EditiqueAfrsOverride(AFRS.OVERRIDE)=24
+        EditiqueAfrsRecordStatus(AFRS.RECORD.STATUS)=25
+        EditiqueAfrsCurrNo(AFRS.CURR.NO)=26
+        EditiqueAfrsInputter(AFRS.INPUTTER)=27
+        EditiqueAfrsDateTime(AFRS.DATE.TIME)=28
+        EditiqueAfrsAuthoriser(AFRS.AUTHORISER)=29
+        EditiqueAfrsCoCode(AFRS.CO.CODE)=30
+        EditiqueAfrsDeptCode(AFRS.DEPT.CODE)=31
+        EditiqueAfrsAuditorCode(AFRS.AUDITOR.CODE)=32
+        EditiqueAfrsAuditDateTime(AFRS.AUDIT.DATE.TIME)=33
+    }
+}

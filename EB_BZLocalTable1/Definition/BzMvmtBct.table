@@ -1,0 +1,24 @@
+public table BzMvmtBct {
+        t24:  BZ.MVMT.BCT
+        fields:{
+            BzMvmtBctDateOperation(MVT.BCT.DATE.OPERATION)=1
+            BzMvmtBctTypeValeur(MVT.BCT.TYPE.VALEUR)=2
+            BzMvmtBctTypeMvmt(MVT.BCT.TYPE.MVMT)=3
+            BzMvmtBctDevise(MVT.BCT.DEVISE)=4
+            BzMvmtBctMontant(MVT.BCT.MONTANT)=5
+            BzMvmtBctBqDest(MVT.BCT.BQ.DEST)=6
+            BzMvmtBctStatut(MVT.BCT.STATUT)=7
+            BzMvmtBctCodeValeur(MVT.BCT.CODE.VALEUR)=8
+            BzMvmtBctRefTransaction(MVT.BCT.REF.TRANSACTION)=9
+            BzMvmtBctOverride(MVT.BCT.OVERRIDE)=10
+            BzMvmtBctRecordStatus(MVT.BCT.RECORD.STATUS)=11
+            BzMvmtBctCurrNo(MVT.BCT.CURR.NO)=12
+            BzMvmtBctInputter(MVT.BCT.INPUTTER)=13
+            BzMvmtBctDateTime(MVT.BCT.DATE.TIME)=14
+            BzMvmtBctAuthoriser(MVT.BCT.AUTHORISER)=15
+            BzMvmtBctCoCode(MVT.BCT.CO.CODE)=16
+            BzMvmtBctDeptCode(MVT.BCT.DEPT.CODE)=17
+            BzMvmtBctAuditorCode(MVT.BCT.AUDITOR.CODE)=18
+            BzMvmtBctAuditDateTime(MVT.BCT.AUDIT.DATE.TIME)=19
+        }
+    }

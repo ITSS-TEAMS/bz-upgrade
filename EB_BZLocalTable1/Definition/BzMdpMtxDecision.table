@@ -1,0 +1,24 @@
+public table BzMdpMtxDecision {
+    t24:  BZ.MDP.MTX.DECISION
+    fields:{
+        BzMdpMtxDecisionCrtNatVal(MDP.DC.CRT.NAT.VAL)=1
+        BzMdpMtxDecisionCrtSens(MDP.DC.CRT.SENS)=2
+        BzMdpMtxDecisionCrtCertifie(MDP.DC.CRT.CERTIFIE)=3
+        BzMdpMtxDecisionCrtInexploitable(MDP.DC.CRT.INEXPLOITABLE)=4
+        BzMdpMtxDecisionCrtOpposition(MDP.DC.CRT.OPPOSITION)=5
+        BzMdpMtxDecisionCrtCpteCloture(MDP.DC.CRT.CPTE.CLOTURE)=6
+        BzMdpMtxDecisionCrtViceForme(MDP.DC.CRT.VICE.FORME)=7
+        BzMdpMtxDecisionDsnDocRej(MDP.DC.DSN.DOC.REJ)=8
+        BzMdpMtxDecisionDsnBlocage(MDP.DC.DSN.BLOCAGE)=9
+        BzMdpMtxDecisionOverride(MDP.DC.OVERRIDE)=10
+        BzMdpMtxDecisionRecordStatus(MDP.DC.RECORD.STATUS)=11
+        BzMdpMtxDecisionCurrNo(MDP.DC.CURR.NO)=12
+        BzMdpMtxDecisionInputter(MDP.DC.INPUTTER)=13
+        BzMdpMtxDecisionDateTime(MDP.DC.DATE.TIME)=14
+        BzMdpMtxDecisionAuthoriser(MDP.DC.AUTHORISER)=15
+        BzMdpMtxDecisionCoCode(MDP.DC.CO.CODE)=16
+        BzMdpMtxDecisionDeptCode(MDP.DC.DEPT.CODE)=17
+        BzMdpMtxDecisionAuditorCode(MDP.DC.AUDITOR.CODE)=18
+        BzMdpMtxDecisionAuditDateTime(MDP.DC.AUDIT.DATE.TIME)=19
+    }
+}

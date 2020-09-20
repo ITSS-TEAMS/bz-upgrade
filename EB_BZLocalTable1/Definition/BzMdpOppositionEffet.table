@@ -1,0 +1,24 @@
+public table BzMdpOppositionEffet {
+    t24:  BZ.MDP.OPPOSITION.EFFET
+    fields:{
+        BzMdpOppositionEffetNumEffet(OPP.EFF.NUM.EFFET)=1
+        BzMdpOppositionEffetNumCompte(OPP.EFF.NUM.COMPTE)=2
+        BzMdpOppositionEffetDateEcheance(OPP.EFF.DATE.ECHEANCE)=3
+        BzMdpOppositionEffetMontant(OPP.EFF.MONTANT)=4
+        BzMdpOppositionEffetMotif(OPP.EFF.MOTIF)=5
+        BzMdpOppositionEffetObservation(OPP.EFF.OBSERVATION)=6
+        BzMdpOppositionEffetDateCreation(OPP.EFF.DATE.CREATION)=7
+        BzMdpOppositionEffetStatut(OPP.EFF.STATUT)=8
+        BzMdpOppositionEffetDateMainLevee(OPP.EFF.DATE.MAIN.LEVEE)=9
+        BzMdpOppositionEffetOverride(OPP.EFF.OVERRIDE)=10
+        BzMdpOppositionEffetRecordStatus(OPP.EFF.RECORD.STATUS)=11
+        BzMdpOppositionEffetCurrNo(OPP.EFF.CURR.NO)=12
+        BzMdpOppositionEffetInputter(OPP.EFF.INPUTTER)=13
+        BzMdpOppositionEffetDateTime(OPP.EFF.DATE.TIME)=14
+        BzMdpOppositionEffetAuthoriser(OPP.EFF.AUTHORISER)=15
+        BzMdpOppositionEffetCoCode(OPP.EFF.CO.CODE)=16
+        BzMdpOppositionEffetDeptCode(OPP.EFF.DEPT.CODE)=17
+        BzMdpOppositionEffetAuditorCode(OPP.EFF.AUDITOR.CODE)=18
+        BzMdpOppositionEffetAuditDateTime(OPP.EFF.AUDIT.DATE.TIME)=19
+    }
+}

@@ -1,0 +1,26 @@
+public table BzCnpPv {
+    t24:  BZ.CNP.PV
+    fields:{
+        BzCnpPvRefDossier(BZ.CNP.PV.REF.DOSSIER)=1
+        BzCnpPvSeqPv(BZ.CNP.PV.SEQ.PV)=2
+        BzCnpPvRefPv(BZ.CNP.PV.REF.PV)=3
+        BzCnpPvIdHuissier(BZ.CNP.PV.ID.HUISSIER)=4
+        BzCnpPvDateSignif(BZ.CNP.PV.DATE.SIGNIF)=5
+        BzCnpPvDateRcptPv(BZ.CNP.PV.DATE.RCPT.PV)=6
+        BzCnpPvMontantFrais(BZ.CNP.PV.MONTANT.FRAIS)=7
+        BzCnpPvTypePv(BZ.CNP.PV.TYPE.PV)=8
+        BzCnpPvRefPaiPv(BZ.CNP.PV.REF.PAI.PV)=9
+        BzCnpPvHuissier(BZ.CNP.PV.HUISSIER)=10
+        BzCnpPvLocalRef(BZ.CNP.PV.LOCAL.REF)=11
+        BzCnpPvOverride(BZ.CNP.PV.OVERRIDE)=12
+        BzCnpPvRecordStatus(BZ.CNP.PV.RECORD.STATUS)=13
+        BzCnpPvCurrNo(BZ.CNP.PV.CURR.NO)=14
+        BzCnpPvInputter(BZ.CNP.PV.INPUTTER)=15
+        BzCnpPvDateTime(BZ.CNP.PV.DATE.TIME)=16
+        BzCnpPvAuthoriser(BZ.CNP.PV.AUTHORISER)=17
+        BzCnpPvCoCode(BZ.CNP.PV.CO.CODE)=18
+        BzCnpPvDeptCode(BZ.CNP.PV.DEPT.CODE)=19
+        BzCnpPvAuditorCode(BZ.CNP.PV.AUDITOR.CODE)=20
+        BzCnpPvAuditDateTime(BZ.CNP.PV.AUDIT.DATE.TIME)=21
+    }
+}

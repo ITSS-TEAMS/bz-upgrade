@@ -1,0 +1,25 @@
+public table BzPwcAnnulation {
+        t24:  BZ.PWC.ANNULATION
+        fields:{
+            BzPwcAnnulationDateAnnulation(ANL.PWC.DATE.ANNULATION)=1
+            BzPwcAnnulationRefFt(ANL.PWC.REF.FT)=2
+            BzPwcAnnulationType(ANL.PWC.TYPE)=3
+            BzPwcAnnulationRefOfs(ANL.PWC.REF.OFS)=4
+            BzPwcAnnulationStatut(ANL.PWC.STATUT)=5
+            BzPwcAnnulationReserved2(ANL.PWC.RESERVED.2)=6
+            BzPwcAnnulationReserved3(ANL.PWC.RESERVED.3)=7
+            BzPwcAnnulationReserved4(ANL.PWC.RESERVED.4)=8
+            BzPwcAnnulationReserved5(ANL.PWC.RESERVED.5)=9
+            BzPwcAnnulationLocalRef(ANL.PWC.LOCAL.REF)=10
+            BzPwcAnnulationOverride(ANL.PWC.OVERRIDE)=11
+            BzPwcAnnulationRecordStatus(ANL.PWC.RECORD.STATUS)=12
+            BzPwcAnnulationCurrNo(ANL.PWC.CURR.NO)=13
+            BzPwcAnnulationInputter(ANL.PWC.INPUTTER)=14
+            BzPwcAnnulationDateTime(ANL.PWC.DATE.TIME)=15
+            BzPwcAnnulationAuthoriser(ANL.PWC.AUTHORISER)=16
+            BzPwcAnnulationCoCode(ANL.PWC.CO.CODE)=17
+            BzPwcAnnulationDeptCode(ANL.PWC.DEPT.CODE)=18
+            BzPwcAnnulationAuditorCode(ANL.PWC.AUDITOR.CODE)=19
+            BzPwcAnnulationAuditDateTime(ANL.PWC.AUDIT.DATE.TIME)=20
+        }
+    }

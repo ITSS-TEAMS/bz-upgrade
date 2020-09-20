@@ -1,0 +1,31 @@
+public table TnaCardFees {
+        t24:  TNA.CARD.FEES
+        fields:{
+            TnaCardFeesDescription(FEES.DESCRIPTION)=1
+            TnaCardFeesCurrencyCode(FEES.CURRENCY.CODE)=2
+            TnaCardFeesIssuanceFee(FEES.ISSUANCE.FEE)=3
+            TnaCardFeesRenewalFee(FEES.RENEWAL.FEE)=4
+            TnaCardFeesPinFee(FEES.PIN.FEE)=5
+            TnaCardFeesDamagedReplFee(FEES.DAMAGED.REPL.FEE)=6
+            TnaCardFeesStolenReplFee(FEES.STOLEN.REPL.FEE)=7
+            TnaCardFeesErronousReplFee(FEES.ERRONOUS.REPL.FEE)=8
+            TnaCardFeesLostReplFee(FEES.LOST.REPL.FEE)=9
+            TnaCardFeesOtherReplFee(FEES.OTHER.REPL.FEE)=10
+            TnaCardFeesCountrefeitReplF(FEES.COUNTREFEIT.REPL.F)=11
+            TnaCardFeesStopListFee1(FEES.STOP.LIST.FEE.1)=12
+            TnaCardFeesStopListFee2(FEES.STOP.LIST.FEE.2)=13
+            TnaCardFeesOthersFees(FEES.OTHERS.FEES)=14
+            TnaCardFeesTransactionCode(FEES.TRANSACTION.CODE)=15
+            TnaCardFeesLocalRef(FEES.LOCAL.REF)=16
+            TnaCardFeesOverride(FEES.OVERRIDE)=17
+            TnaCardFeesRecordStatus(FEES.RECORD.STATUS)=18
+            TnaCardFeesCurrNo(FEES.CURR.NO)=19
+            TnaCardFeesInputter(FEES.INPUTTER)=20
+            TnaCardFeesDateTime(FEES.DATE.TIME)=21
+            TnaCardFeesAuthoriser(FEES.AUTHORISER)=22
+            TnaCardFeesCoCode(FEES.CO.CODE)=23
+            TnaCardFeesDeptCode(FEES.DEPT.CODE)=24
+            TnaCardFeesAuditorCode(FEES.AUDITOR.CODE)=25
+            TnaCardFeesAuditDateTime(FEES.AUDIT.DATE.TIME)=26
+        }
+    }

@@ -1,0 +1,36 @@
+public table CecHeader {
+    t24: CEC.HEADER
+    fields:{
+        CecHeaderDescription(CEC.HEA.DESCRIPTION) = 1
+        CecHeaderRecordLength(CEC.HEA.RECORD.LENGTH) = 2
+        CecHeaderFieldName(CEC.HEA.FIELD.NAME) = 3
+        CecHeaderFieldStart(CEC.HEA.FIELD.START)=4
+        CecHeaderFieldLength(CEC.HEA.FIELD.LENGTH)=5
+        CecHeaderFieldType(CEC.HEA.FIELD.TYPE)= 6
+        CecHeaderFieldDetail(CEC.HEA.FIELD.DETAIL) = 7
+        CecHeaderFieldExtract(CEC.HEA.FIELD.EXTRACT) = 8
+        CecHeaderDetCodeEnreg(CEC.HEA.DET.CODE.ENREG)= 9
+        CecHeaderTrailerCodeEnreg(CEC.HEA.TRAILER.CODE.ENREG)= 10
+        CecHeaderValidateFileRtn(CEC.HEA.VALIDATE.FILE.RTN)= 11
+        CecHeaderOtherSuffixes(CEC.HEA.OTHER.SUFFIXES)= 12
+        CecHeaderCenterId(CEC.HEA.CENTER.ID)= 13
+        CecHeaderReserved7(CEC.HEA.RESERVED.7)= 14
+        CecHeaderReserved6(CEC.HEA.RESERVED.6)= 15
+        CecHeaderReserved5(CEC.HEA.RESERVED.5)= 16
+        CecHeaderReserved4(CEC.HEA.RESERVED.4)= 17
+        CecHeaderReserved3(CEC.HEA.RESERVED.3)= 18
+        CecHeaderReserved2(CEC.HEA.RESERVED.2)= 19
+        CecHeaderReserved1(CEC.HEA.RESERVED.1)= 20
+        CecHeaderLocalRef(CEC.HEA.LOCAL.REF)= 21
+        CecHeaderOverride(CEC.HEA.OVERRIDE)= 22
+        CecHeaderRecordStatus(CEC.HEA.RECORD.STATUS)= 23
+        CecHeaderCurrNo(CEC.HEA.CURR.NO)= 24
+        CecHeaderInputter(CEC.HEA.INPUTTER)= 25  
+        CecHeaderDateTime(CEC.HEA.DATE.TIME)= 26
+        CecHeaderAuthoriser(CEC.HEA.AUTHORISER)= 27
+        CecHeaderCoCode(CEC.HEA.CO.CODE)= 28
+        CecHeaderDeptCode(CEC.HEA.DEPT.CODE)= 29
+        CecHeaderAuditorCode(CEC.HEA.AUDITOR.CODE)= 30
+        CecHeaderAuditDateTime(CEC.HEA.AUDIT.DATE.TIME)= 31
+    } 
+}

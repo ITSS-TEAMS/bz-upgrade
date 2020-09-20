@@ -1,0 +1,20 @@
+public table TnaCardRecalculCode {
+        t24:  TNA.CARD.RECALCUL.CODE
+        fields:{
+            TnaCardRecalculCodeNomPorteur(CONFIDENTIEL.NOM.PORTEUR)=1
+            TnaCardRecalculCodeFrais(CONFIDENTIEL.FRAIS)=2
+            TnaCardRecalculCodeDateOperation(CONFIDENTIEL.DATE.OPERATION)=3
+            TnaCardRecalculCodeReasonCode(CONFIDENTIEL.REASON.CODE)=4
+            TnaCardRecalculCodeLocalRef(CONFIDENTIEL.LOCAL.REF)=5
+            TnaCardRecalculCodeOverride(CONFIDENTIEL.OVERRIDE)=6
+            TnaCardRecalculCodeRecordStatus(CONFIDENTIEL.RECORD.STATUS)=7
+            TnaCardRecalculCodeCurrNo(CONFIDENTIEL.CURR.NO)=8
+            TnaCardRecalculCodeInputter(CONFIDENTIEL.INPUTTER)=9
+            TnaCardRecalculCodeDateTime(CONFIDENTIEL.DATE.TIME)=10
+            TnaCardRecalculCodeAuthoriser(CONFIDENTIEL.AUTHORISER)=11
+            TnaCardRecalculCodeCoCode(CONFIDENTIEL.CO.CODE)=12
+            TnaCardRecalculCodeDeptCode(CONFIDENTIEL.DEPT.CODE)=13
+            TnaCardRecalculCodeAuditorCode(CONFIDENTIEL.AUDITOR.CODE)=14
+            TnaCardRecalculCodeAuditDateTime(CONFIDENTIEL.AUDIT.DATE.TIME)=15
+        }
+    }

@@ -1,0 +1,19 @@
+public table BzCodePostal {
+    t24:  BZ.CODE.POSTAL
+    fields:{
+        BzCodePostalKcpost(BZ.CP.KCPOST)=1
+        BzCodePostalKgouvDeleg(BZ.CP.KGOUV.DELEG)=2
+        BzCodePostalLocalite(BZ.CP.LOCALITE)=3
+        BzCodePostalLocalRef(BZ.CP.LOCAL.REF)=4
+        BzCodePostalOverride(BZ.CP.OVERRIDE)=5
+        BzCodePostalRecordStatus(BZ.CP.RECORD.STATUS)=6
+        BzCodePostalCurrNo(BZ.CP.CURR.NO)=7
+        BzCodePostalInputter(BZ.CP.INPUTTER)=8
+        BzCodePostalDateTime(BZ.CP.DATE.TIME)=9
+        BzCodePostalAuthoriser(BZ.CP.AUTHORISER)=10
+        BzCodePostalCoCode(BZ.CP.CO.CODE)=11
+        BzCodePostalDeptCode(BZ.CP.DEPT.CODE)=12
+        BzCodePostalAuditorCode(BZ.CP.AUDITOR.CODE)=13
+        BzCodePostalAuditDateTime(BZ.CP.AUDIT.DATE.TIME)=14
+    }
+}

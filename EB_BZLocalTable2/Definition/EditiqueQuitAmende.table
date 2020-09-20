@@ -1,0 +1,44 @@
+public table EditiqueQuitAmende {
+    t24:  EDITIQUE.QUIT.AMENDE
+    fields:{
+        EditiqueQuitAmendePourcentageAmende(QAMED.POURCENTAGE.AMENDE)=1
+        EditiqueQuitAmendeDateEmission(QAMED.DATE.EMISSION)=2
+        EditiqueQuitAmendeCodeBanqueTiree(QAMED.CODE.BANQUE.TIREE)=3
+        EditiqueQuitAmendeLibBanqueTiree(QAMED.LIB.BANQUE.TIREE)=4
+        EditiqueQuitAmendeCodeAgenceTiree(QAMED.CODE.AGENCE.TIREE)=5
+        EditiqueQuitAmendeLibAgenceTiree(QAMED.LIB.AGENCE.TIREE)=6
+        EditiqueQuitAmendeNumeroRib(QAMED.NUMERO.RIB)=7
+        EditiqueQuitAmendeNumeroCheque(QAMED.NUMERO.CHEQUE)=8
+        EditiqueQuitAmendeNatPieceIdentite(QAMED.NAT.PIECE.IDENTITE)=9
+        EditiqueQuitAmendeNomPrenomSign(QAMED.NOM.PRENOM.SIGN)=10
+        EditiqueQuitAmendeNoPieceIdentite(QAMED.NO.PIECE.IDENTITE)=11
+        EditiqueQuitAmendeMontantCheque(QAMED.MONTANT.CHEQUE)=12
+        EditiqueQuitAmendeMontantProvision(QAMED.MONTANT.PROVISION)=13
+        EditiqueQuitAmendeCodeBanquePres(QAMED.CODE.BANQUE.PRES)=14
+        EditiqueQuitAmendeLibBanquePres(QAMED.LIB.BANQUE.PRES)=15
+        EditiqueQuitAmendeCodeAgPres(QAMED.CODE.AG.PRES)=16
+        EditiqueQuitAmendeLibAgPres(QAMED.LIB.AG.PRES)=17
+        EditiqueQuitAmendeNumeroCnp(QAMED.NUMERO.CNP)=18
+        EditiqueQuitAmendeDateCnp(QAMED.DATE.CNP)=19
+        EditiqueQuitAmendeTitulaireCompte(QAMED.TITULAIRE.COMPTE)=20
+        EditiqueQuitAmendeDateVersAmende(QAMED.DATE.VERS.AMENDE)=21
+        EditiqueQuitAmendeMontantAmende(QAMED.MONTANT.AMENDE)=22
+        EditiqueQuitAmendeDerHuissierNotif(QAMED.DER.HUISSIER.NOTIF)=23
+        EditiqueQuitAmendeNoDernierPv(QAMED.NO.DERNIER.PV)=24
+        EditiqueQuitAmendeDateSignification(QAMED.DATE.SIGNIFICATION)=25
+        EditiqueQuitAmendeStatut(QAMED.STATUT)=26
+        EditiqueQuitAmendeIdSynchro(QAMED.ID.SYNCHRO)=27
+        EditiqueQuitAmendeDateChargement(QAMED.DATE.CHARGEMENT)=28
+        EditiqueQuitAmendeLocalRef(QAMED.LOCAL.REF)=29
+        EditiqueQuitAmendeOverride(QAMED.OVERRIDE)=30
+        EditiqueQuitAmendeRecordStatus(QAMED.RECORD.STATUS)=31
+        EditiqueQuitAmendeCurrNo(QAMED.CURR.NO)=32
+        EditiqueQuitAmendeInputter(QAMED.INPUTTER)=33
+        EditiqueQuitAmendeDateTime(QAMED.DATE.TIME)=34
+        EditiqueQuitAmendeAuthoriser(QAMED.AUTHORISER)=35
+        EditiqueQuitAmendeCoCode(QAMED.CO.CODE)=36
+        EditiqueQuitAmendeDeptCode(QAMED.DEPT.CODE)=37
+        EditiqueQuitAmendeAuditorCode(QAMED.AUDITOR.CODE)=38
+        EditiqueQuitAmendeAuditDateTime(QAMED.AUDIT.DATE.TIME)=39
+    }
+}

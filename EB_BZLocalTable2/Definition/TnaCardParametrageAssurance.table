@@ -1,0 +1,25 @@
+public table TnaCardParametrageAssurance {
+    t24:  TNA.CARD.PARAMETRAGE.ASSURANCE
+    fields:{
+        TnaCardParametrageAssuranceCompteAssurance(CARD.COMPTE.ASSURANCE)=1
+        TnaCardParametrageAssuranceFileName(CARD.FILE.NAME)=2
+        TnaCardParametrageAssuranceFilePath(CARD.FILE.PATH)=3
+        TnaCardParametrageAssuranceCompteTva(CARD.COMPTE.TVA)=4
+        TnaCardParametrageAssuranceComptePl(CARD.COMPTE.PL)=5
+        TnaCardParametrageAssuranceTauxCommission(CARD.TAUX.COMMISSION)=6
+        TnaCardParametrageAssuranceTauxTva(CARD.TAUX.TVA)=7
+        TnaCardParametrageAssuranceFttcTva(CARD.FTTC.TVA)=8
+        TnaCardParametrageAssuranceSector(CARD.SECTOR)=9
+        TnaCardParametrageAssuranceLocalRef(CARD.LOCAL.REF)=10
+        TnaCardParametrageAssuranceOverride(CARD.OVERRIDE)=11
+        TnaCardParametrageAssuranceRecordStatus(CARD.RECORD.STATUS)=12
+        TnaCardParametrageAssuranceCurrNo(CARD.CURR.NO)=13
+        TnaCardParametrageAssuranceInputter(CARD.INPUTTER)=14
+        TnaCardParametrageAssuranceDateTime(CARD.DATE.TIME)=15
+        TnaCardParametrageAssuranceAuthoriser(CARD.AUTHORISER)=16
+        TnaCardParametrageAssuranceCoCode(CARD.CO.CODE)=17
+        TnaCardParametrageAssuranceDeptCode(CARD.DEPT.CODE)=18
+        TnaCardParametrageAssuranceAuditorCode(CARD.AUDITOR.CODE)=19
+        TnaCardParametrageAssuranceAuditDateTime(CARD.AUDIT.DATE.TIME)=20
+    }
+}

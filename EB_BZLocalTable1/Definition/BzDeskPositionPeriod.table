@@ -1,0 +1,32 @@
+public table BzDeskPositionPeriod {
+    t24:  BZ.DESK.POSITION.PERIOD
+    fields:{
+        BzDeskPositionPeriodDevise(DESK.PP.DEVISE)=1
+        BzDeskPositionPeriodPeriode(DESK.PP.PERIODE)=2
+        BzDeskPositionPeriodAgence(DESK.PP.AGENCE)=3
+        BzDeskPositionPeriodPositionDevise(DESK.PP.POSITION.DEVISE)=4
+        BzDeskPositionPeriodPositionRevalue(DESK.PP.POSITION.REVALUE)=5
+        BzDeskPositionPeriodPositionDinars(DESK.PP.POSITION.DINARS)=6
+        BzDeskPositionPeriodPosDeviseInit(DESK.PP.POS.DEVISE.INIT)=7
+        BzDeskPositionPeriodPosDinarsInit(DESK.PP.POS.DINARS.INIT)=8
+        BzDeskPositionPeriodRentabilite(DESK.PP.RENTABILITE)=9
+        BzDeskPositionPeriodCoursReval(DESK.PP.COURS.REVAL)=10
+        BzDeskPositionPeriodTotMouvDevise(DESK.PP.TOT.MOUV.DEVISE)=11
+        BzDeskPositionPeriodTotMouvDinars(DESK.PP.TOT.MOUV.DINARS)=12
+        BzDeskPositionPeriodReserved1(DESK.PP.RESERVED.1)=13
+        BzDeskPositionPeriodReserved2(DESK.PP.RESERVED.2)=14
+        BzDeskPositionPeriodReserved3(DESK.PP.RESERVED.3)=15
+        BzDeskPositionPeriodReserved4(DESK.PP.RESERVED.4)=16
+        BzDeskPositionPeriodReserved5(DESK.PP.RESERVED.5)=17
+        BzDeskPositionPeriodOverride(DESK.PP.OVERRIDE)=18
+        BzDeskPositionPeriodRecordStatus(DESK.PP.RECORD.STATUS)=19
+        BzDeskPositionPeriodCurrNo(DESK.PP.CURR.NO)=20
+        BzDeskPositionPeriodInputter(DESK.PP.INPUTTER)=21
+        BzDeskPositionPeriodDateTime(DESK.PP.DATE.TIME)=22
+        BzDeskPositionPeriodAuthoriser(DESK.PP.AUTHORISER)=23
+        BzDeskPositionPeriodCoCode(DESK.PP.CO.CODE)=24
+        BzDeskPositionPeriodDeptCode(DESK.PP.DEPT.CODE)=25
+        BzDeskPositionPeriodAuditorCode(DESK.PP.AUDITOR.CODE)=26
+        BzDeskPositionPeriodAuditDateTime(DESK.PP.AUDIT.DATE.TIME)=27
+    }
+}

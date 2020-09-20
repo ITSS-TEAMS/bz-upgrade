@@ -1,0 +1,26 @@
+public table BzSedBctParametres {
+    t24:  BZ.SED.BCT.PARAMETRES
+    fields:{
+        BzSedBctParametresNomFichier(SED.PARM.NOM.FICHIER)=1
+        BzSedBctParametresFrequence(SED.PARM.FREQUENCE)=2
+        BzSedBctParametresServiceAuto(SED.PARM.SERVICE.AUTO)=3
+        BzSedBctParametresReserved1(SED.PARM.RESERVED.1)=4
+        BzSedBctParametresReserved2(SED.PARM.RESERVED.2)=5
+        BzSedBctParametresReserved3(SED.PARM.RESERVED.3)=6
+        BzSedBctParametresReserved4(SED.PARM.RESERVED.4)=7
+        BzSedBctParametresReserved5(SED.PARM.RESERVED.5)=8
+        BzSedBctParametresReserved6(SED.PARM.RESERVED.6)=9
+        BzSedBctParametresReserved7(SED.PARM.RESERVED.7)=10
+        BzSedBctParametresReserved8(SED.PARM.RESERVED.8)=11
+        BzSedBctParametresOverride(SED.PARM.OVERRIDE)=12
+        BzSedBctParametresRecordStatus(SED.PARM.RECORD.STATUS)=13
+        BzSedBctParametresCurrNo(SED.PARM.CURR.NO)=14
+        BzSedBctParametresInputter(SED.PARM.INPUTTER)=15
+        BzSedBctParametresDateTime(SED.PARM.DATE.TIME)=16
+        BzSedBctParametresAuthoriser(SED.PARM.AUTHORISER)=17
+        BzSedBctParametresCoCode(SED.PARM.CO.CODE)=18
+        BzSedBctParametresDeptCode(SED.PARM.DEPT.CODE)=19
+        BzSedBctParametresAuditorCode(SED.PARM.AUDITOR.CODE)=20
+        BzSedBctParametresAuditDateTime(SED.PARM.AUDIT.DATE.TIME)=21
+    }
+}

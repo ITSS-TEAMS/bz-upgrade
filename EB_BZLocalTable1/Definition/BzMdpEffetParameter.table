@@ -1,0 +1,22 @@
+public table BzMdpEffetParameter {
+    t24:  BZ.MDP.EFFET.PARAMETER
+    fields:{
+        BzMdpEffetParameterNbrEffetGen(BZ.EF.PAR.NBR.EFFET.GEN)=1
+        BzMdpEffetParameterReserved1(BZ.EF.PAR.RESERVED.1)=2
+        BzMdpEffetParameterReserved2(BZ.EF.PAR.RESERVED.2)=3
+        BzMdpEffetParameterReserved3(BZ.EF.PAR.RESERVED.3)=4
+        BzMdpEffetParameterReserved4(BZ.EF.PAR.RESERVED.4)=5
+        BzMdpEffetParameterReserved5(BZ.EF.PAR.RESERVED.5)=6
+        BzMdpEffetParameterReserved6(BZ.EF.PAR.RESERVED.6)=7
+        BzMdpEffetParameterReserved7(BZ.EF.PAR.RESERVED.7)=8
+        BzMdpEffetParameterRecordStatus(BZ.EF.PAR.RECORD.STATUS)=9
+        BzMdpEffetParameterCurrNo(BZ.EF.PAR.CURR.NO)=10
+        BzMdpEffetParameterInputter(BZ.EF.PAR.INPUTTER)=11
+        BzMdpEffetParameterDateTime(BZ.EF.PAR.DATE.TIME)=12
+        BzMdpEffetParameterAuthoriser(BZ.EF.PAR.AUTHORISER)=13
+        BzMdpEffetParameterCoCode(BZ.EF.PAR.CO.CODE)=14
+        BzMdpEffetParameterDeptCode(BZ.EF.PAR.DEPT.CODE)=15
+        BzMdpEffetParameterAuditorCode(BZ.EF.PAR.AUDITOR.CODE)=16
+        BzMdpEffetParameterAuditDateTime(BZ.EF.PAR.AUDIT.DATE.TIME)=17
+    }
+}

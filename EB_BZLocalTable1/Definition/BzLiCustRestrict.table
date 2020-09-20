@@ -1,0 +1,23 @@
+public table BzLiCustRestrict {
+    t24:  BZ.LI.CUST.RESTRICT
+    fields:{
+        BzLiCustRestrictDateOperation(CUS.REST.DATE.OPERATION)=1
+        BzLiCustRestrictRaison(CUS.REST.RAISON)=2
+        BzLiCustRestrictDerogation(CUS.REST.DEROGATION)=3
+        BzLiCustRestrictReserved1(CUS.REST.RESERVED.1)=4
+        BzLiCustRestrictReserved2(CUS.REST.RESERVED.2)=5
+        BzLiCustRestrictReserved3(CUS.REST.RESERVED.3)=6
+        BzLiCustRestrictReserved4(CUS.REST.RESERVED.4)=7
+        BzLiCustRestrictReserved5(CUS.REST.RESERVED.5)=8
+        BzLiCustRestrictOverride(CUS.REST.OVERRIDE)=9
+        BzLiCustRestrictRecordStatus(CUS.REST.RECORD.STATUS)=10
+        BzLiCustRestrictCurrNo(CUS.REST.CURR.NO)=11
+        BzLiCustRestrictInputter(CUS.REST.INPUTTER)=12
+        BzLiCustRestrictDateTime(CUS.REST.DATE.TIME)=13
+        BzLiCustRestrictAuthoriser(CUS.REST.AUTHORISER)=14
+        BzLiCustRestrictCoCode(CUS.REST.CO.CODE)=15
+        BzLiCustRestrictDeptCode(CUS.REST.DEPT.CODE)=16
+        BzLiCustRestrictAuditorCode(CUS.REST.AUDITOR.CODE)=17
+        BzLiCustRestrictAuditDateTime(CUS.REST.AUDIT.DATE.TIME)=18
+    }
+} 

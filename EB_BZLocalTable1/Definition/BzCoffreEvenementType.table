@@ -1,0 +1,16 @@
+public table BzCoffreEvenementType {
+    t24:  BZ.COFFRE.EVENEMENT.TYPE
+    fields:{
+        BzCoffreEvenementTypeDescription(CF.EVNT.TYPE.DESCRIPTION)=1
+        BzCoffreEvenementTypeOverride(CF.EVNT.TYPE.OVERRIDE)=2
+        BzCoffreEvenementTypeRecordStatus(CF.EVNT.TYPE.RECORD.STATUS)=3
+        BzCoffreEvenementTypeCurrNo(CF.EVNT.TYPE.CURR.NO)=4
+        BzCoffreEvenementTypeInputter(CF.EVNT.TYPE.INPUTTER)=5
+        BzCoffreEvenementTypeDateTime(CF.EVNT.TYPE.DATE.TIME)=6
+        BzCoffreEvenementTypeAuthoriser(CF.EVNT.TYPE.AUTHORISER)=7
+        BzCoffreEvenementTypeCoCode(CF.EVNT.TYPE.CO.CODE)=8
+        BzCoffreEvenementTypeDeptCode(CF.EVNT.TYPE.DEPT.CODE)=9
+        BzCoffreEvenementTypeAuditorCode(CF.EVNT.TYPE.AUDITOR.CODE)=10
+        BzCoffreEvenementTypeAuditDateTime(CF.EVNT.TYPE.AUDIT.DATE.TIME)=11
+    }
+}

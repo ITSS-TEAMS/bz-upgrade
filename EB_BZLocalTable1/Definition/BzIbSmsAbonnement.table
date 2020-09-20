@@ -1,0 +1,34 @@
+public table BzIbSmsAbonnement {
+    t24:  BZ.IB.SMS.ABONNEMENT
+    fields:{
+        BzIbSmsAbonnementAbonne(IBABN.ABONNE)=1
+        BzIbSmsAbonnementTypePack(IBABN.TYPE.PACK)=2
+        BzIbSmsAbonnementCptFacturation(IBABN.CPT.FACTURATION)=3
+        BzIbSmsAbonnementDateActivation(IBABN.DATE.ACTIVATION)=4
+        BzIbSmsAbonnementDateFacturation(IBABN.DATE.FACTURATION)=5
+        BzIbSmsAbonnementDateAbonnement(IBABN.DATE.ABONNEMENT)=6
+        BzIbSmsAbonnementDateDernFact(IBABN.DATE.DERN.FACT)=7
+        BzIbSmsAbonnementRefDerFact(IBABN.REF.DER.FACT)=8
+        BzIbSmsAbonnementPeriodicite(IBABN.PERIODICITE)=9
+        BzIbSmsAbonnementStatut(IBABN.STATUT)=10
+        BzIbSmsAbonnementDateResiliation(IBABN.DATE.RESILIATION)=11
+        BzIbSmsAbonnementChargeWaive(IBABN.CHARGE.WAIVE)=12
+        BzIbSmsAbonnementOfsRef(IBABN.OFS.REF)=13
+        BzIbSmsAbonnementDateDernAnniv(IBABN.DATE.DERN.ANNIV)=14
+        BzIbSmsAbonnementRefPack(IBABN.REF.PACK)=15
+        BzIbSmsAbonnementChargeWaivePack(IBABN.CHARGE.WAIVE.PACK)=16
+        BzIbSmsAbonnementReserved4(IBABN.RESERVED.4)=17
+        BzIbSmsAbonnementReserved5(IBABN.RESERVED.5)=18
+        BzIbSmsAbonnementLocalRef(IBABN.LOCAL.REF)=19
+        BzIbSmsAbonnementOverride(IBABN.OVERRIDE)=20
+        BzIbSmsAbonnementRecordStatus(IBABN.RECORD.STATUS)=21
+        BzIbSmsAbonnementCurrNo(IBABN.CURR.NO)=22
+        BzIbSmsAbonnementInputter(IBABN.INPUTTER)=23
+        BzIbSmsAbonnementDateTime(IBABN.DATE.TIME)=24
+        BzIbSmsAbonnementAuthoriser(IBABN.AUTHORISER)=25
+        BzIbSmsAbonnementCoCode(IBABN.CO.CODE)=26
+        BzIbSmsAbonnementDeptCode(IBABN.DEPT.CODE)=27
+        BzIbSmsAbonnementAuditorCode(IBABN.AUDITOR.CODE)=28
+        BzIbSmsAbonnementAuditDateTime(IBABN.AUDIT.DATE.TIME)=29
+    }
+}

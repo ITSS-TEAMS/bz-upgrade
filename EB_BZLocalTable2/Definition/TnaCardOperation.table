@@ -1,0 +1,17 @@
+public table TnaCardOperation {
+    t24:  TNA.CARD.OPERATION
+    fields:{
+        TnaCardOperationDescription(COPR.DESCRIPTION)=1
+        TnaCardOperationLocalRef(COPR.LOCAL.REF)=2
+        TnaCardOperationOverride(COPR.OVERRIDE)=3
+        TnaCardOperationRecordStatus(COPR.RECORD.STATUS)=4
+        TnaCardOperationCurrNo(COPR.CURR.NO)=5
+        TnaCardOperationInputter(COPR.INPUTTER)=6
+        TnaCardOperationDateTime(COPR.DATE.TIME)=7
+        TnaCardOperationAuthoriser(COPR.AUTHORISER)=8
+        TnaCardOperationCoCode(COPR.CO.CODE)=9
+        TnaCardOperationDeptCode(COPR.DEPT.CODE)=10
+        TnaCardOperationAuditorCode(COPR.AUDITOR.CODE)=11
+        TnaCardOperationAuditDateTime(COPR.AUDIT.DATE.TIME)=12
+    }
+}

@@ -1,0 +1,18 @@
+public table BzSedBalPayement {
+    t24:  BZ.SED.BAL.PAYEMENT
+    fields:{
+        BzSedBalPayementDescription(BALCOD.DESCRIPTION)=1
+        BzSedBalPayementFamilleBp(BALCOD.FAMILLE.BP)=2
+        BzSedBalPayementLocalRef(BALCOD.LOCAL.REF)=3
+        BzSedBalPayementOverride(BALCOD.OVERRIDE)=4
+        BzSedBalPayementRecordStatus(BALCOD.RECORD.STATUS)=5
+        BzSedBalPayementCurrNo(BALCOD.CURR.NO)=6
+        BzSedBalPayementInputter(BALCOD.INPUTTER)=7
+        BzSedBalPayementDateTime(BALCOD.DATE.TIME)=8
+        BzSedBalPayementAuthoriser(BALCOD.AUTHORISER)=9
+        BzSedBalPayementCoCode(BALCOD.CO.CODE)=10
+        BzSedBalPayementDeptCode(BALCOD.DEPT.CODE)=11
+        BzSedBalPayementAuditorCode(BALCOD.AUDITOR.CODE)=12
+        BzSedBalPayementAuditDateTime(BALCOD.AUDIT.DATE.TIME)=13
+    }
+}

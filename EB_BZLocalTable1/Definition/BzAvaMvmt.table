@@ -1,0 +1,38 @@
+public table BzAvaMvmt {
+    t24:  BZ.AVA.MVMT
+    fields:{
+        BzAvaMvmtCodeAgence(AVA.MVT.CODE.AGENCE)=1
+        BzAvaMvmtIdBenef(AVA.MVT.ID.BENEF)=2
+        BzAvaMvmtSens(AVA.MVT.SENS)=3
+        BzAvaMvmtLibelle(AVA.MVT.LIBELLE)=4
+        BzAvaMvmtRefMvmt(AVA.MVT.REF.MVMT)=5
+        BzAvaMvmtDateMvmt(AVA.MVT.DATE.MVMT)=6
+        BzAvaMvmtMontantTnd(AVA.MVT.MONTANT.TND)=7
+        BzAvaMvmtOrigineFond(AVA.MVT.ORIGINE.FOND)=8
+        BzAvaMvmtBaseCalcul(AVA.MVT.BASE.CALCUL)=9
+        BzAvaMvmtDroitCumule(AVA.MVT.DROIT.CUMULE)=10
+        BzAvaMvmtTransCumule(AVA.MVT.TRANS.CUMULE)=11
+        BzAvaMvmtCommentaire(AVA.MVT.COMMENTAIRE)=12
+        BzAvaMvmtStatut(AVA.MVT.STATUT)=13
+        BzAvaMvmtDateCreation(AVA.MVT.DATE.CREATION)=14
+        BzAvaMvmtRefDossier(AVA.MVT.REF.DOSSIER)=15
+        BzAvaMvmtDateDepart(AVA.MVT.DATE.DEPART)=16
+        BzAvaMvmtDateRetour(AVA.MVT.DATE.RETOUR)=17
+        BzAvaMvmtNatureOp(AVA.MVT.NATURE.OP)=18
+        BzAvaMvmtRefMvmtCrBbe(AVA.MVT.REF.MVMT.CR.BBE)=19
+        BzAvaMvmtLastVersion(AVA.MVT.LAST.VERSION)=20
+        BzAvaMvmtReserved1(AVA.MVT.RESERVED1)=21
+        BzAvaMvmtPaysDestination(AVA.MVT.PAYS.DESTINATION)=22
+        BzAvaMvmtLocalRef(AVA.MVT.LOCAL.REF)=23
+        BzAvaMvmtOverride(AVA.MVT.OVERRIDE)=24
+        BzAvaMvmtRecordStatus(AVA.MVT.RECORD.STATUS)=25
+        BzAvaMvmtCurrNo(AVA.MVT.CURR.NO)=26
+        BzAvaMvmtInputter(AVA.MVT.INPUTTER)=27
+        BzAvaMvmtDateTime(AVA.MVT.DATE.TIME)=28
+        BzAvaMvmtAuthoriser(AVA.MVT.AUTHORISER)=29
+        BzAvaMvmtCoCode(AVA.MVT.CO.CODE)=30
+        BzAvaMvmtDeptCode(AVA.MVT.DEPT.CODE)=31
+        BzAvaMvmtAuditorCode(AVA.MVT.AUDITOR.CODE)=32
+        BzAvaMvmtAuditDateTime(AVA.MVT.AUDIT.DATE.TIME)=33
+    }
+}

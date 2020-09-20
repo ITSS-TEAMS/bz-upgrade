@@ -1,0 +1,36 @@
+public table TnaCardLimits {
+    t24:  TNA.CARD.LIMITS
+    fields:{
+        TnaCardLimitsWording(LIMITS.WORDING)=1
+        TnaCardLimitsCurrency(LIMITS.CURRENCY)=2
+        TnaCardLimitsDailyOnusAmt(LIMITS.DAILY.ONUS.AMT)=3
+        TnaCardLimitsDailyOnusNbr(LIMITS.DAILY.ONUS.NBR)=4
+        TnaCardLimitsDailyNatAmt(LIMITS.DAILY.NAT.AMT)=5
+        TnaCardLimitsDailyNatNbr(LIMITS.DAILY.NAT.NBR)=6
+        TnaCardLimitsDailyIntAmt(LIMITS.DAILY.INT.AMT)=7
+        TnaCardLimitsDailyIntNbr(LIMITS.DAILY.INT.NBR)=8
+        TnaCardLimitsPerOnusAmt(LIMITS.PER.ONUS.AMT)=9
+        TnaCardLimitsPerOnusNbr(LIMITS.PER.ONUS.NBR)=10
+        TnaCardLimitsPerNatAmt(LIMITS.PER.NAT.AMT)=11
+        TnaCardLimitsPerNatNbr(LIMITS.PER.NAT.NBR)=12
+        TnaCardLimitsPerIntAmt(LIMITS.PER.INT.AMT)=13
+        TnaCardLimitsPerIntNbr(LIMITS.PER.INT.NBR)=14
+        TnaCardLimitsPeriodValue(LIMITS.PERIOD.VALUE)=15
+        TnaCardLimitsPrrocessingCode(LIMITS.PRROCESSING.CODE)=16
+        TnaCardLimitsDailyTotalAmt(LIMITS.DAILY.TOTAL.AMT)=17
+        TnaCardLimitsDailyTotalNbr(LIMITS.DAILY.TOTAL.NBR)=18
+        TnaCardLimitsPerTotalAmt(LIMITS.PER.TOTAL.AMT)=19
+        TnaCardLimitsPerTotalNbr(LIMITS.PER.TOTAL.NBR)=20
+        TnaCardLimitsLocalRef(LIMITS.LOCAL.REF)=21
+        TnaCardLimitsOverride(LIMITS.OVERRIDE)=22
+        TnaCardLimitsRecordStatus(LIMITS.RECORD.STATUS)=23
+        TnaCardLimitsCurrNo(LIMITS.CURR.NO)=24
+        TnaCardLimitsInputter(LIMITS.INPUTTER)=25
+        TnaCardLimitsDateTime(LIMITS.DATE.TIME)=26
+        TnaCardLimitsAuthoriser(LIMITS.AUTHORISER)=27
+        TnaCardLimitsCoCode(LIMITS.CO.CODE)=28
+        TnaCardLimitsDeptCode(LIMITS.DEPT.CODE)=29
+        TnaCardLimitsAuditorCode(LIMITS.AUDITOR.CODE)=30
+        TnaCardLimitsAuditDateTime(LIMITS.AUDIT.DATE.TIME)=31
+    }
+}

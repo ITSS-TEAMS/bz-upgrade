@@ -1,0 +1,27 @@
+public table BzMdpEmetteurPrel {
+    t24:  BZ.MDP.EMETTEUR.PREL
+    fields:{
+        BzMdpEmetteurPrelDescription(EMET.PREL.DESCRIPTION)=1
+        BzMdpEmetteurPrelCptTechnique(EMET.PREL.CPT.TECHNIQUE)=2
+        BzMdpEmetteurPrelReserved1(EMET.PREL.RESERVED.1)=3
+        BzMdpEmetteurPrelReserved2(EMET.PREL.RESERVED.2)=4
+        BzMdpEmetteurPrelReserved3(EMET.PREL.RESERVED.3)=5
+        BzMdpEmetteurPrelReserved4(EMET.PREL.RESERVED.4)=6
+        BzMdpEmetteurPrelReserved5(EMET.PREL.RESERVED.5)=7
+        BzMdpEmetteurPrelReserved6(EMET.PREL.RESERVED.6)=8
+        BzMdpEmetteurPrelReserved7(EMET.PREL.RESERVED.7)=9
+        BzMdpEmetteurPrelReserved8(EMET.PREL.RESERVED.8)=10
+        BzMdpEmetteurPrelReserved9(EMET.PREL.RESERVED.9)=11
+        BzMdpEmetteurPrelReserved10(EMET.PREL.RESERVED.10)=12
+        BzMdpEmetteurPrelOverride(EMET.PREL.OVERRIDE)=13
+        BzMdpEmetteurPrelRecordStatus(EMET.PREL.RECORD.STATUS)=14
+        BzMdpEmetteurPrelCurrNo(EMET.PREL.CURR.NO)=15
+        BzMdpEmetteurPrelInputter(EMET.PREL.INPUTTER)=16
+        BzMdpEmetteurPrelDateTime(EMET.PREL.DATE.TIME)=17
+        BzMdpEmetteurPrelAuthoriser(EMET.PREL.AUTHORISER)=18
+        BzMdpEmetteurPrelCoCode(EMET.PREL.CO.CODE)=19
+        BzMdpEmetteurPrelDeptCode(EMET.PREL.DEPT.CODE)=20
+        BzMdpEmetteurPrelAuditorCode(EMET.PREL.AUDITOR.CODE)=21
+        BzMdpEmetteurPrelAuditDateTime(EMET.PREL.AUDIT.DATE.TIME)=22
+    }
+}

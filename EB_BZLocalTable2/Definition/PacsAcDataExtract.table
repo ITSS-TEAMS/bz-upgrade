@@ -1,0 +1,32 @@
+public table PacsAcDataExtract {
+    t24:  PACS.AC.DATA.EXTRACT
+    fields:{
+        PacsAcDataExtractAccountNumber(AC.TOOL.ACCOUNT.NUMBER)=1
+        PacsAcDataExtractListFilePath(AC.TOOL.LIST.FILE.PATH)=2
+        PacsAcDataExtractFileName(AC.TOOL.FILE.NAME)=3
+        PacsAcDataExtractLogFilePath(AC.TOOL.LOG.FILE.PATH)=4
+        PacsAcDataExtractEntryStartDate(AC.TOOL.ENTRY.START.DATE)=5
+        PacsAcDataExtractGlExtractReq(AC.TOOL.GL.EXTRACT.REQ)=6
+        PacsAcDataExtractGlStartDate(AC.TOOL.GL.START.DATE)=7
+        PacsAcDataExtractGlBranchReq(AC.TOOL.GL.BRANCH.REQ)=8
+        PacsAcDataExtractWorkingBalChk(AC.TOOL.WORKING.BAL.CHK)=9
+        PacsAcDataExtractFwdEntDetsReqd(AC.TOOL.FWD.ENT.DETS.REQD)=10
+        PacsAcDataExtractDateExpoReqd(AC.TOOL.DATE.EXPO.REQD)=11
+        PacsAcDataExtractClearLogFiles(AC.TOOL.CLEAR.LOG.FILES)=12
+        PacsAcDataExtractExecutionStatus(AC.TOOL.EXECUTION.STATUS)=13
+        PacsAcDataExtractReserved05(AC.TOOL.RESERVED.05)=14
+        PacsAcDataExtractReserved04(AC.TOOL.RESERVED.04)=15
+        PacsAcDataExtractReserved03(AC.TOOL.RESERVED.03)=16
+        PacsAcDataExtractReserved02(AC.TOOL.RESERVED.02)=17
+        PacsAcDataExtractReserved01(AC.TOOL.RESERVED.01)=18
+        PacsAcDataExtractRecordStatus(AC.TOOL.RECORD.STATUS)=19
+        PacsAcDataExtractCurrNo(AC.TOOL.CURR.NO)=20
+        PacsAcDataExtractInputter(AC.TOOL.INPUTTER)=21
+        PacsAcDataExtractDateTime(AC.TOOL.DATE.TIME)=22
+        PacsAcDataExtractAuthoriser(AC.TOOL.AUTHORISER)=23
+        PacsAcDataExtractCoCode(AC.TOOL.CO.CODE)=24
+        PacsAcDataExtractDeptCode(AC.TOOL.DEPT.CODE)=25
+        PacsAcDataExtractAuditorCode(AC.TOOL.AUDITOR.CODE)=26
+        PacsAcDataExtractAuditDateTime(AC.TOOL.AUDIT.DATE.TIME)=27
+    }
+}

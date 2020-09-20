@@ -1,0 +1,19 @@
+public table BzSedErrorCnp {
+    t24:  BZ.SED.ERROR.CNP
+    fields:{
+        BzSedErrorCnpLigne(CNP.ERR.LIGNE)=1
+        BzSedErrorCnpCode(CNP.ERR.CODE)=2
+        BzSedErrorCnpDescription(CNP.ERR.DESCRIPTION)=3
+        BzSedErrorCnpLocalRef(CNP.ERR.LOCAL.REF)=4
+        BzSedErrorCnpOverride(CNP.ERR.OVERRIDE)=5
+        BzSedErrorCnpRecordStatus(CNP.ERR.RECORD.STATUS)=6
+        BzSedErrorCnpCurrNo(CNP.ERR.CURR.NO)=7
+        BzSedErrorCnpInputter(CNP.ERR.INPUTTER)=8
+        BzSedErrorCnpDateTime(CNP.ERR.DATE.TIME)=9
+        BzSedErrorCnpAuthoriser(CNP.ERR.AUTHORISER)=10
+        BzSedErrorCnpCoCode(CNP.ERR.CO.CODE)=11
+        BzSedErrorCnpDeptCode(CNP.ERR.DEPT.CODE)=12
+        BzSedErrorCnpAuditorCode(CNP.ERR.AUDITOR.CODE)=13
+        BzSedErrorCnpAuditDateTime(CNP.ERR.AUDIT.DATE.TIME)=14
+    }
+}

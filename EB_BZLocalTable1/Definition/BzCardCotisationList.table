@@ -1,0 +1,31 @@
+public table BzCardCotisationList {
+    t24:  BZ.CARD.COTISATION.LIST
+    fields:{
+        BzCardCotisationListDateTraitement(CS.CARD.LIST.DATE.TRAITEMENT)=1
+        BzCardCotisationListIdCard(CS.CARD.LIST.ID.CARD)=2
+        BzCardCotisationListMoisAnnee(CS.CARD.LIST.MOIS.ANNEE)=3
+        BzCardCotisationListNumCard(CS.CARD.LIST.NUM.CARD)=4
+        BzCardCotisationListMontantLcy(CS.CARD.LIST.MONTANT.LCY)=5
+        BzCardCotisationListProductCode(CS.CARD.LIST.PRODUCT.CODE)=6
+        BzCardCotisationListReserved1(CS.CARD.LIST.RESERVED.1)=7
+        BzCardCotisationListReserved2(CS.CARD.LIST.RESERVED.2)=8
+        BzCardCotisationListReserved3(CS.CARD.LIST.RESERVED.3)=9
+        BzCardCotisationListReserved4(CS.CARD.LIST.RESERVED.4)=10
+        BzCardCotisationListReserved5(CS.CARD.LIST.RESERVED.5)=11
+        BzCardCotisationListReserved6(CS.CARD.LIST.RESERVED.6)=12
+        BzCardCotisationListReserved7(CS.CARD.LIST.RESERVED.7)=13
+        BzCardCotisationListReserved8(CS.CARD.LIST.RESERVED.8)=14
+        BzCardCotisationListReserved9(CS.CARD.LIST.RESERVED.9)=15
+        BzCardCotisationListReserved10(CS.CARD.LIST.RESERVED.10)=16
+        BzCardCotisationListOverride(CS.CARD.LIST.OVERRIDE)=17
+        BzCardCotisationListRecordStatus(CS.CARD.LIST.RECORD.STATUS)=18
+        BzCardCotisationListCurrNo(CS.CARD.LIST.CURR.NO)=19
+        BzCardCotisationListInputter(CS.CARD.LIST.INPUTTER)=20
+        BzCardCotisationListDateTime(CS.CARD.LIST.DATE.TIME)=21
+        BzCardCotisationListAuthoriser(CS.CARD.LIST.AUTHORISER)=22
+        BzCardCotisationListCoCode(CS.CARD.LIST.CO.CODE)=23
+        BzCardCotisationListDeptCode(CS.CARD.LIST.DEPT.CODE)=24
+        BzCardCotisationListAuditorCode(CS.CARD.LIST.AUDITOR.CODE)=25
+        BzCardCotisationListAuditDateTime(CS.CARD.LIST.AUDIT.DATE.TIME)=26
+    }
+}

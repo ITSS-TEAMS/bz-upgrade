@@ -1,0 +1,23 @@
+public table BzMdpGenerateurFichier {
+    t24:  BZ.MDP.GENERATEUR.FICHIER
+    fields:{
+        BzMdpGenerateurFichierControlSeuil(GEN.CHQ.CONTROL.SEUIL)=1
+        BzMdpGenerateurFichierCodeValeur(GEN.CHQ.CODE.VALEUR)=2
+        BzMdpGenerateurFichierNombreTotal(GEN.CHQ.NOMBRE.TOTAL)=3
+        BzMdpGenerateurFichierNombreInter(GEN.CHQ.NOMBRE.INTER)=4
+        BzMdpGenerateurFichierNombreIntra(GEN.CHQ.NOMBRE.INTRA)=5
+        BzMdpGenerateurFichierInclus(GEN.CHQ.INCLUS)=6
+        BzMdpGenerateurFichierCommentaire(GEN.CHQ.COMMENTAIRE)=7
+        BzMdpGenerateurFichierOverride(GEN.CHQ.OVERRIDE)=8
+        BzMdpGenerateurFichierLocalRef(GEN.CHQ.LOCAL.REF)=9
+        BzMdpGenerateurFichierRecordStatus(GEN.CHQ.RECORD.STATUS)=10
+        BzMdpGenerateurFichierCurrNo(GEN.CHQ.CURR.NO)=11
+        BzMdpGenerateurFichierInputter(GEN.CHQ.INPUTTER)=12
+        BzMdpGenerateurFichierDateTime(GEN.CHQ.DATE.TIME)=13
+        BzMdpGenerateurFichierAuthoriser(GEN.CHQ.AUTHORISER)=14
+        BzMdpGenerateurFichierCoCode(GEN.CHQ.CO.CODE)=15
+        BzMdpGenerateurFichierDeptCode(GEN.CHQ.DEPT.CODE)=16
+        BzMdpGenerateurFichierAuditorCode(GEN.CHQ.AUDITOR.CODE)=17
+        BzMdpGenerateurFichierAuditDateTime(GEN.CHQ.AUDIT.DATE.TIME)=18
+    }
+} 

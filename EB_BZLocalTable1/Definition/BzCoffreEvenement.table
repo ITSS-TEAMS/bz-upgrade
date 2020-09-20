@@ -1,0 +1,22 @@
+public table BzCoffreEvenement {
+    t24:  BZ.COFFRE.EVENEMENT
+    fields:{
+        BzCoffreEvenementDate(CF.EVENT.DATE)=1
+        BzCoffreEvenementDetails(CF.EVENT.DETAILS)=2
+        BzCoffreEvenementNumeroCoffre(CF.EVENT.NUMERO.COFFRE)=3
+        BzCoffreEvenementTypeEvent(CF.EVENT.TYPE.EVENT)=4
+        BzCoffreEvenementIdContrat(CF.EVENT.ID.CONTRAT)=5
+        BzCoffreEvenementRefOperation(CF.EVENT.REF.OPERATION)=6
+        BzCoffreEvenementDateTimeEvent(CF.EVENT.DATE.TIME.EVENT)=7
+        BzCoffreEvenementOverride(CF.EVENT.OVERRIDE)=8
+        BzCoffreEvenementRecordStatus(CF.EVENT.RECORD.STATUS)=9
+        BzCoffreEvenementCurrNo(CF.EVENT.CURR.NO)=10
+        BzCoffreEvenementInputter(CF.EVENT.INPUTTER)=11
+        BzCoffreEvenementDateTime(CF.EVENT.DATE.TIME)=12
+        BzCoffreEvenementAuthoriser(CF.EVENT.AUTHORISER)=13
+        BzCoffreEvenementCoCode(CF.EVENT.CO.CODE)=14
+        BzCoffreEvenementDeptCode(CF.EVENT.DEPT.CODE)=15
+        BzCoffreEvenementAuditorCode(CF.EVENT.AUDITOR.CODE)=16
+        BzCoffreEvenementAuditDateTime(CF.EVENT.AUDIT.DATE.TIME)=17
+    }
+}

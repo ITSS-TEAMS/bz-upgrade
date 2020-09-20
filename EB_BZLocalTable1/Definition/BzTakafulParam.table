@@ -1,0 +1,23 @@
+public table BzTakafulParam {
+    t24:  BZ.TAKAFUL.PARAM
+    fields:{
+        BzTakafulParamIdTakaful(PARAM.TAKAFUL.ID.TAKAFUL)=1
+        BzTakafulParamCompteRs(PARAM.TAKAFUL.COMPTE.RS)=2
+        BzTakafulParamReserved1(PARAM.TAKAFUL.RESERVED1)=3
+        BzTakafulParamReserved2(PARAM.TAKAFUL.RESERVED2)=4
+        BzTakafulParamReserved3(PARAM.TAKAFUL.RESERVED3)=5
+        BzTakafulParamReserved4(PARAM.TAKAFUL.RESERVED4)=6
+        BzTakafulParamReserved5(PARAM.TAKAFUL.RESERVED5)=7
+        BzTakafulParamLocalRef(PARAM.TAKAFUL.LOCAL.REF)=8
+        BzTakafulParamOverride(PARAM.TAKAFUL.OVERRIDE)=9
+        BzTakafulParamRecordStatus(PARAM.TAKAFUL.RECORD.STATUS)=10
+        BzTakafulParamCurrNo(PARAM.TAKAFUL.CURR.NO)=11
+        BzTakafulParamInputter(PARAM.TAKAFUL.INPUTTER)=12
+        BzTakafulParamDateTime(PARAM.TAKAFUL.DATE.TIME)=13
+        BzTakafulParamAuthoriser(PARAM.TAKAFUL.AUTHORISER)=14
+        BzTakafulParamCoCode(PARAM.TAKAFUL.CO.CODE)=15
+        BzTakafulParamDeptCode(PARAM.TAKAFUL.DEPT.CODE)=16
+        BzTakafulParamAuditorCode(PARAM.TAKAFUL.AUDITOR.CODE)=17
+        BzTakafulParamAuditDateTime(PARAM.TAKAFUL.AUDIT.DATE.TIME)=18
+    }
+}

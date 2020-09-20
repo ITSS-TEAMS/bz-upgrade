@@ -1,0 +1,30 @@
+public table TnaAtmTxnMapping {
+    t24:  TNA.ATM.TXN.MAPPING
+    fields:{
+        TnaAtmTxnMappingDescription(MAP.IN.DESCRIPTION)=1
+        TnaAtmTxnMappingPriority(MAP.IN.PRIORITY)=2
+        TnaAtmTxnMappingT24Application(MAP.IN.T24.APPLICATION)=3
+        TnaAtmTxnMappingT24Ecran(MAP.IN.T24.ECRAN)=4
+        TnaAtmTxnMappingUtilisateur(MAP.IN.UTILISATEUR)=5
+        TnaAtmTxnMappingPassword(MAP.IN.PASSWORD)=6
+        TnaAtmTxnMappingOfsSource(MAP.IN.OFS.SOURCE)=7
+        TnaAtmTxnMappingOfsFunction(MAP.IN.OFS.FUNCTION)=8
+        TnaAtmTxnMappingIdTxn(MAP.IN.ID.TXN)=9
+        TnaAtmTxnMappingAtmFieldNum(MAP.IN.ATM.FIELD.NUM)=10
+        TnaAtmTxnMappingT24FieldName(MAP.IN.T24.FIELD.NAME)=11
+        TnaAtmTxnMappingConstante(MAP.IN.CONSTANTE)=12
+        TnaAtmTxnMappingConversionRtn(MAP.IN.CONVERSION.RTN)=13
+        TnaAtmTxnMappingControlRtn(MAP.IN.CONTROL.RTN)=14
+        TnaAtmTxnMappingLocalRef(MAP.IN.LOCAL.REF)=15
+        TnaAtmTxnMappingOverride(MAP.IN.OVERRIDE)=16
+        TnaAtmTxnMappingRecordStatus(MAP.IN.RECORD.STATUS)=17
+        TnaAtmTxnMappingCurrNo(MAP.IN.CURR.NO)=18
+        TnaAtmTxnMappingInputter(MAP.IN.INPUTTER)=19
+        TnaAtmTxnMappingDateTime(MAP.IN.DATE.TIME)=20
+        TnaAtmTxnMappingAuthoriser(MAP.IN.AUTHORISER)=21
+        TnaAtmTxnMappingCoCode(MAP.IN.CO.CODE)=22
+        TnaAtmTxnMappingDeptCode(MAP.IN.DEPT.CODE)=23
+        TnaAtmTxnMappingAuditorCode(MAP.IN.AUDITOR.CODE)=24
+        TnaAtmTxnMappingAuditDateTime(MAP.IN.AUDIT.DATE.TIME)=25
+    }
+}

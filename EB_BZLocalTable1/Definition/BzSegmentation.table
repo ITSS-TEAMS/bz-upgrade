@@ -1,0 +1,27 @@
+public table BzSegmentation {
+        t24:  BZ.SEGMENTATION
+        fields:{
+            BzSegmentationIdSegment(SEG.ID.SEGMENT)=1
+            BzSegmentationDescription(SEG.DESCRIPTION)=2
+            BzSegmentationReserved1(SEG.RESERVED1)=3
+            BzSegmentationReserved2(SEG.RESERVED2)=4
+            BzSegmentationReserved3(SEG.RESERVED3)=5
+            BzSegmentationReserved4(SEG.RESERVED4)=6
+            BzSegmentationReserved5(SEG.RESERVED5)=7
+            BzSegmentationReserved6(SEG.RESERVED6)=8
+            BzSegmentationReserved7(SEG.RESERVED7)=9
+            BzSegmentationReserved8(SEG.RESERVED8)=10
+            BzSegmentationReserved9(SEG.RESERVED9)=11
+            BzSegmentationReserved10(SEG.RESERVED10)=12
+            BzSegmentationOverride(SEG.OVERRIDE)=13
+            BzSegmentationRecordStatus(SEG.RECORD.STATUS)=14
+            BzSegmentationCurrNo(SEG.CURR.NO)=15
+            BzSegmentationInputter(SEG.INPUTTER)=16
+            BzSegmentationDateTime(SEG.DATE.TIME)=17
+            BzSegmentationAuthoriser(SEG.AUTHORISER)=18
+            BzSegmentationCoCode(SEG.CO.CODE)=19
+            BzSegmentationDeptCode(SEG.DEPT.CODE)=20
+            BzSegmentationAuditorCode(SEG.AUDITOR.CODE)=21
+            BzSegmentationAuditDateTime(SEG.AUDIT.DATE.TIME)=22
+        }
+    }

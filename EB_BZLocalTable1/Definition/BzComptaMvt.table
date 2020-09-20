@@ -1,0 +1,18 @@
+public table BzComptaMvt {
+        t24:  BZ.COMPTA.MVT
+        fields:{
+            BzComptaMvtInterface(COMPT.INTERFACE)=1
+            BzComptaMvtLocalRef(COMPT.LOCAL.REF)=2
+            BzComptaMvtStmtNos(COMPT.STMT.NOS)=3
+            BzComptaMvtOverride(COMPT.OVERRIDE)=4
+            BzComptaMvtRecordStatus(COMPT.RECORD.STATUS)=5
+            BzComptaMvtCurrNo(COMPT.CURR.NO)=6
+            BzComptaMvtInputter(COMPT.INPUTTER)=7
+            BzComptaMvtDateTime(COMPT.DATE.TIME)=8
+            BzComptaMvtAuthoriser(COMPT.AUTHORISER)=9
+            BzComptaMvtCoCode(COMPT.CO.CODE)=10
+            BzComptaMvtDeptCode(COMPT.DEPT.CODE)=11
+            BzComptaMvtAuditorCode(COMPT.AUDITOR.CODE)=12
+            BzComptaMvtAuditDateTime(COMPT.AUDIT.DATE.TIME)=13
+        }
+    }

@@ -1,0 +1,28 @@
+public table BzBctDeclaration {
+    t24:  BZ.BCT.DECLARATION
+    fields:{
+        BzBctDeclarationAnnePeriode(BCT.DEC.ANNE.PERIODE)=1
+        BzBctDeclarationMois(BCT.DEC.MOIS)=2
+        BzBctDeclarationCodeIa(BCT.DEC.CODE.IA)=3
+        BzBctDeclarationTypeDeclaration(BCT.DEC.TYPE.DECLARATION)=4
+        BzBctDeclarationFichierEmis(BCT.DEC.FICHIER.EMIS)=5
+        BzBctDeclarationStatut(BCT.DEC.STATUT)=6
+        BzBctDeclarationCommentaire(BCT.DEC.COMMENTAIRE)=7
+        BzBctDeclarationReserved1(BCT.DEC.RESERVED1)=8
+        BzBctDeclarationReserved2(BCT.DEC.RESERVED2)=9
+        BzBctDeclarationReserved3(BCT.DEC.RESERVED3)=10
+        BzBctDeclarationReserved4(BCT.DEC.RESERVED4)=11
+        BzBctDeclarationTrimestre(BCT.DEC.TRIMESTRE)=12
+        BzBctDeclarationLocalRef(BCT.DEC.LOCAL.REF)=13
+        BzBctDeclarationOverride(BCT.DEC.OVERRIDE)=14
+        BzBctDeclarationRecordStatus(BCT.DEC.RECORD.STATUS)=15
+        BzBctDeclarationCurrNo(BCT.DEC.CURR.NO)=16
+        BzBctDeclarationInputter(BCT.DEC.INPUTTER)=17
+        BzBctDeclarationDateTime(BCT.DEC.DATE.TIME)=18
+        BzBctDeclarationAuthoriser(BCT.DEC.AUTHORISER)=19
+        BzBctDeclarationCoCode(BCT.DEC.CO.CODE)=20
+        BzBctDeclarationDeptCode(BCT.DEC.DEPT.CODE)=21
+        BzBctDeclarationAuditorCode(BCT.DEC.AUDITOR.CODE)=22
+        BzBctDeclarationAuditDateTime(BCT.DEC.AUDIT.DATE.TIME)=23
+    }
+}

@@ -1,0 +1,18 @@
+public table BzTraitementTrxn {
+    t24:  BZ.TRAITEMENT.TRXN
+    fields:{
+        BzTraitementTrxnShortDescription(TRT.TXN.SHORT.DESCRIPTION)=1
+        BzTraitementTrxnDescription(TRT.TXN.DESCRIPTION)=2
+        BzTraitementTrxnUniteGestion(TRT.TXN.UNITE.GESTION)=3
+        BzTraitementTrxnOverride(TRT.TXN.OVERRIDE)=4
+        BzTraitementTrxnRecordStatus(TRT.TXN.RECORD.STATUS)=5
+        BzTraitementTrxnCurrNo(TRT.TXN.CURR.NO)=6
+        BzTraitementTrxnInputter(TRT.TXN.INPUTTER)=7
+        BzTraitementTrxnDateTime(TRT.TXN.DATE.TIME)=8
+        BzTraitementTrxnAuthoriser(TRT.TXN.AUTHORISER)=9
+        BzTraitementTrxnCoCode(TRT.TXN.CO.CODE)=10
+        BzTraitementTrxnDeptCode(TRT.TXN.DEPT.CODE)=11
+        BzTraitementTrxnAuditorCode(TRT.TXN.AUDITOR.CODE)=12
+        BzTraitementTrxnAuditDateTime(TRT.TXN.AUDIT.DATE.TIME)=13
+    }
+}

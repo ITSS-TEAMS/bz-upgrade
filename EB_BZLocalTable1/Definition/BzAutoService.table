@@ -1,0 +1,25 @@
+public table BzAutoService {
+    t24:  BZ.AUTO.SERVICE
+    fields:{
+        BzAutoServiceServiceName(BZ.TSA.SERVICE.NAME)=1
+        BzAutoServiceDescrtiption(BZ.TSA.DESCRTIPTION)=2
+        BzAutoServiceDateCreation(BZ.TSA.DATE.CREATION)=3
+        BzAutoServiceReserved1(BZ.TSA.RESERVED.1)=4
+        BzAutoServiceReserved2(BZ.TSA.RESERVED.2)=5
+        BzAutoServiceReserved3(BZ.TSA.RESERVED.3)=6
+        BzAutoServiceReserved4(BZ.TSA.RESERVED.4)=7
+        BzAutoServiceReserved5(BZ.TSA.RESERVED.5)=8
+        BzAutoServiceReserved6(BZ.TSA.RESERVED.6)=9
+        BzAutoServiceReserved7(BZ.TSA.RESERVED.7)=10
+        BzAutoServiceReserved8(BZ.TSA.RESERVED.8)=11
+        BzAutoServiceRecordStatus(BZ.TSA.RECORD.STATUS)=12 
+        BzAutoServiceCurrNo(BZ.TSA.CURR.NO)=13
+        BzAutoServiceInputter(BZ.TSA.INPUTTER)=14
+        BzAutoServiceDateTime(BZ.TSA.DATE.TIME)=15
+        BzAutoServiceAuthoriser(BZ.TSA.AUTHORISER)=16
+        BzAutoServiceCoCode(BZ.TSA.CO.CODE)=17
+        BzAutoServiceDeptCode(BZ.TSA.DEPT.CODE)=18
+        BzAutoServiceAuditorCode(BZ.TSA.AUDITOR.CODE)=19
+        BzAutoServiceAuditDateTime(BZ.TSA.AUDIT.DATE.TIME)=20
+    }
+}

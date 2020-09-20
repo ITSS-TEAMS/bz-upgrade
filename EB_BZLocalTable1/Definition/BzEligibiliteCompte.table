@@ -1,0 +1,23 @@
+public table BzEligibiliteCompte {
+    t24:  BZ.ELIGIBILITE.COMPTE
+    fields:{
+        BzEligibiliteCompteDevise(EL.AC.DEVISE)=1
+        BzEligibiliteCompteResident(EL.AC.RESIDENT)=2
+        BzEligibiliteCompteNationalite(EL.AC.NATIONALITE)=3
+        BzEligibiliteCompteAgentEque(EL.AC.AGENT.EQUE)=4
+        BzEligibiliteCompteReserved1(EL.AC.RESERVED.1)=5
+        BzEligibiliteCompteReserved2(EL.AC.RESERVED.2)=6
+        BzEligibiliteCompteReserved3(EL.AC.RESERVED.3)=7
+        BzEligibiliteCompteLocalRef(EL.AC.LOCAL.REF)=8
+        BzEligibiliteCompteOverride(EL.AC.OVERRIDE)=9
+        BzEligibiliteCompteRecordStatus(EL.AC.RECORD.STATUS)=10
+        BzEligibiliteCompteCurrNo(EL.AC.CURR.NO)=11
+        BzEligibiliteCompteInputter(EL.AC.INPUTTER)=12
+        BzEligibiliteCompteDateTime(EL.AC.DATE.TIME)=13
+        BzEligibiliteCompteAuthoriser(EL.AC.AUTHORISER)=14
+        BzEligibiliteCompteCoCode(EL.AC.CO.CODE)=15
+        BzEligibiliteCompteDeptCode(EL.AC.DEPT.CODE)=16
+        BzEligibiliteCompteAuditorCode(EL.AC.AUDITOR.CODE)=17
+        BzEligibiliteCompteAuditDateTime(EL.AC.AUDIT.DATE.TIME)=18
+    }
+}

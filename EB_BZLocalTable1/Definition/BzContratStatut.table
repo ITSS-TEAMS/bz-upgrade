@@ -1,0 +1,16 @@
+public table BzContratStatut {
+    t24:  BZ.CONTRAT.STATUT
+    fields:{
+        BzContratStatutDescription(CT.STATUT.DESCRIPTION)=1
+        BzContratStatutOverride(CT.STATUT.OVERRIDE)=2
+        BzContratStatutRecordStatus(CT.STATUT.RECORD.STATUS)=3
+        BzContratStatutCurrNo(CT.STATUT.CURR.NO)=4
+        BzContratStatutInputter(CT.STATUT.INPUTTER)=5
+        BzContratStatutDateTime(CT.STATUT.DATE.TIME)=6
+        BzContratStatutAuthoriser(CT.STATUT.AUTHORISER)=7
+        BzContratStatutCoCode(CT.STATUT.CO.CODE)=8
+        BzContratStatutDeptCode(CT.STATUT.DEPT.CODE)=9
+        BzContratStatutAuditorCode(CT.STATUT.AUDITOR.CODE)=10
+        BzContratStatutAuditDateTime(CT.STATUT.AUDIT.DATE.TIME)=11
+    }
+}

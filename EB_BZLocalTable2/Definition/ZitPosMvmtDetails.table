@@ -1,0 +1,27 @@
+public table ZitPosMvmtDetails {
+    t24:  ZIT.POS.MVMT.DETAILS
+    fields:{
+        ZitPosMvmtDetailsRequete(ZIT.POS.REQUETE)=1
+        ZitPosMvmtDetailsMontant(ZIT.POS.MONTANT)=2
+        ZitPosMvmtDetailsDeviseDebit(ZIT.POS.DEVISE.DEBIT)=3
+        ZitPosMvmtDetailsDeviseCredit(ZIT.POS.DEVISE.CREDIT)=4
+        ZitPosMvmtDetailsCompteDebit(ZIT.POS.COMPTE.DEBIT)=5
+        ZitPosMvmtDetailsCompteCredit(ZIT.POS.COMPTE.CREDIT)=6
+        ZitPosMvmtDetailsExchRate(ZIT.POS.EXCH.RATE)=7
+        ZitPosMvmtDetailsAbsMontant(ZIT.POS.ABS.MONTANT)=8
+        ZitPosMvmtDetailsDealerDesk(ZIT.POS.DEALER.DESK)=9
+        ZitPosMvmtDetailsMontantCredit(ZIT.POS.MONTANT.CREDIT)=10
+        ZitPosMvmtDetailsMontantDebit(ZIT.POS.MONTANT.DEBIT)=11
+        ZitPosMvmtDetailsLocalRef(ZIT.POS.LOCAL.REF)=12
+        ZitPosMvmtDetailsOverride(ZIT.POS.OVERRIDE)=13
+        ZitPosMvmtDetailsRecordStatus(ZIT.POS.RECORD.STATUS)=14
+        ZitPosMvmtDetailsCurrNo(ZIT.POS.CURR.NO)=15
+        ZitPosMvmtDetailsInputter(ZIT.POS.INPUTTER)=16
+        ZitPosMvmtDetailsDateTime(ZIT.POS.DATE.TIME)=17
+        ZitPosMvmtDetailsAuthoriser(ZIT.POS.AUTHORISER)=18
+        ZitPosMvmtDetailsCoCode(ZIT.POS.CO.CODE)=19
+        ZitPosMvmtDetailsDeptCode(ZIT.POS.DEPT.CODE)=20
+        ZitPosMvmtDetailsAuditorCode(ZIT.POS.AUDITOR.CODE)=21
+        ZitPosMvmtDetailsAuditDateTime(ZIT.POS.AUDIT.DATE.TIME)=22
+    }
+}

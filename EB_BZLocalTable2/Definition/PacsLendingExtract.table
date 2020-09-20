@@ -1,0 +1,30 @@
+public table PacsLendingExtract {
+        t24:  PACS.LENDING.EXTRACT
+        fields:{
+            PacsTrDataExtractAccountNumber(TR.TOOL.CONTRACT.NUMBER)=1
+            PacsTrDataExtractListFilePath(TR.TOOL.LIST.FILE.PATH)=2
+            PacsTrDataExtractFileName(TR.TOOL.FILE.NAME)=3
+            PacsTrDataExtractLogFilePath(TR.TOOL.LOG.FILE.PATH)=4
+            PacsTrDataExtractNoOfHistory(TR.TOOL.NO.OF.HISTORY)=5
+            PacsTrDataExtractGlExtractReq(TR.TOOL.GL.EXTRACT.REQ)=6
+            PacsTrDataExtractGlStartDate(TR.TOOL.GL.START.DATE)=7
+            PacsTrDataExtractGlBranchReq(TR.TOOL.GL.BRANCH.REQ)=8
+            PacsTrDataExtractConcatFilesReqd(TR.TOOL.CONCAT.FILES.REQD)=9
+            PacsTrDataExtractClearLogFiles(TR.TOOL.CLEAR.LOG.FILES)=10
+            PacsTrDataExtractExecutionStatus(TR.TOOL.EXECUTION.STATUS)=11
+            PacsTrDataExtractReserved05(TR.TOOL.RESERVED.05)=12
+            PacsTrDataExtractReserved04(TR.TOOL.RESERVED.04)=13
+            PacsTrDataExtractReserved03(TR.TOOL.RESERVED.03)=14
+            PacsTrDataExtractReserved02(TR.TOOL.RESERVED.02)=15
+            PacsTrDataExtractReserved01(TR.TOOL.RESERVED.01)=16
+            PacsTrDataExtractRecordStatus(TR.TOOL.RECORD.STATUS)=17
+            PacsTrDataExtractCurrNo(TR.TOOL.CURR.NO)=18
+            PacsTrDataExtractInputter(TR.TOOL.INPUTTER)=19
+            PacsTrDataExtractDateTime(TR.TOOL.DATE.TIME)=20
+            PacsTrDataExtractAuthoriser(TR.TOOL.AUTHORISER)=21
+            PacsTrDataExtractCoCode(TR.TOOL.CO.CODE)=22
+            PacsTrDataExtractDeptCode(TR.TOOL.DEPT.CODE)=23
+            PacsTrDataExtractAuditorCode(TR.TOOL.AUDITOR.CODE)=24
+            PacsTrDataExtractAuditDateTime(TR.TOOL.AUDIT.DATE.TIME)=25
+        }
+    }

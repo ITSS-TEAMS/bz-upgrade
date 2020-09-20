@@ -1,0 +1,46 @@
+public table BzMdpRegistreChqDraft {
+    t24:  BZ.MDP.REGISTRE.CHQ.DRAFT
+    fields:{
+        BzMdpRegistreChqDraftCodeVal(RG.CHQ.DR.CODE.VAL)=1
+        BzMdpRegistreChqDraftDateOperation(RG.CHQ.DR.DATE.OPERATION)=2
+        BzMdpRegistreChqDraftCodeDevise(RG.CHQ.DR.CODE.DEVISE)=3
+        BzMdpRegistreChqDraftMntCheque(RG.CHQ.DR.MNT.CHEQUE)=4
+        BzMdpRegistreChqDraftNumCheque(RG.CHQ.DR.NUM.CHEQUE)=5
+        BzMdpRegistreChqDraftRibTireur(RG.CHQ.DR.RIB.TIREUR)=6
+        BzMdpRegistreChqDraftCodeDest(RG.CHQ.DR.CODE.DEST)=7
+        BzMdpRegistreChqDraftRibBenef(RG.CHQ.DR.RIB.BENEF)=8
+        BzMdpRegistreChqDraftNomBenef(RG.CHQ.DR.NOM.BENEF)=9
+        BzMdpRegistreChqDraftSituationBenef(RG.CHQ.DR.SITUATION.BENEF)=10
+        BzMdpRegistreChqDraftNatureCompte(RG.CHQ.DR.NATURE.COMPTE)=11
+        BzMdpRegistreChqDraftDateEmission(RG.CHQ.DR.DATE.EMISSION)=12
+        BzMdpRegistreChqDraftLieuEmission(RG.CHQ.DR.LIEU.EMISSION)=13
+        BzMdpRegistreChqDraftDateCnp(RG.CHQ.DR.DATE.CNP)=14
+        BzMdpRegistreChqDraftNumCnp(RG.CHQ.DR.NUM.CNP)=15
+        BzMdpRegistreChqDraftCodeDevPos(RG.CHQ.DR.CODE.DEV.POS)=16
+        BzMdpRegistreChqDraftMntReclame(RG.CHQ.DR.MNT.RECLAME)=17
+        BzMdpRegistreChqDraftMntRegulInt(RG.CHQ.DR.MNT.REGUL.INT)=18
+        BzMdpRegistreChqDraftRefBord(RG.CHQ.DR.REF.BORD)=19
+        BzMdpRegistreChqDraftNumRem(RG.CHQ.DR.NUM.REM)=20
+        BzMdpRegistreChqDraftIdentifiantClt(RG.CHQ.DR.IDENTIFIANT.CLT)=21
+        BzMdpRegistreChqDraftCptRemettant(RG.CHQ.DR.CPT.REMETTANT)=22
+        BzMdpRegistreChqDraftDateRemise(RG.CHQ.DR.DATE.REMISE)=23
+        BzMdpRegistreChqDraftUniteGestion(RG.CHQ.DR.UNITE.GESTION)=24
+        BzMdpRegistreChqDraftStatut(RG.CHQ.DR.STATUT)=25
+        BzMdpRegistreChqDraftTypeRejet(RG.CHQ.DR.TYPE.REJET)=26
+        BzMdpRegistreChqDraftPreavise(RG.CHQ.DR.PREAVISE)=27
+        BzMdpRegistreChqDraftRefCle(RG.CHQ.DR.REF.CLE)=28
+        BzMdpRegistreChqDraftIdRegistre(RG.CHQ.DR.ID.REGISTRE)=29
+        BzMdpRegistreChqDraftDateEnvoiReg(RG.CHQ.DR.DATE.ENVOI.REG)=30
+        BzMdpRegistreChqDraftRefFichier(RG.CHQ.DR.REF.FICHIER)=31
+        BzMdpRegistreChqDraftOverride(RG.CHQ.DR.OVERRIDE)=32
+        BzMdpRegistreChqDraftRecordStatus(RG.CHQ.DR.RECORD.STATUS)=33
+        BzMdpRegistreChqDraftCurrNo(RG.CHQ.DR.CURR.NO)=34
+        BzMdpRegistreChqDraftInputter(RG.CHQ.DR.INPUTTER)=35
+        BzMdpRegistreChqDraftDateTime(RG.CHQ.DR.DATE.TIME)=36
+        BzMdpRegistreChqDraftAuthoriser(RG.CHQ.DR.AUTHORISER)=37
+        BzMdpRegistreChqDraftCoCode(RG.CHQ.DR.CO.CODE)=38
+        BzMdpRegistreChqDraftDeptCode(RG.CHQ.DR.DEPT.CODE)=39
+        BzMdpRegistreChqDraftAuditorCode(RG.CHQ.DR.AUDITOR.CODE)=40
+        BzMdpRegistreChqDraftAuditDateTime(RG.CHQ.DR.AUDIT.DATE.TIME)=41
+    }
+}

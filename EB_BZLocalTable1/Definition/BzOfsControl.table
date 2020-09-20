@@ -1,0 +1,29 @@
+public table BzOfsControl {
+    t24:  BZ.OFS.CONTROL
+    fields:{
+        BzOfsControlRefOfs(OFS.CTL.REF.OFS)=1
+        BzOfsControlStatut(OFS.CTL.STATUT)=2
+        BzOfsControlRefTrans(OFS.CTL.REF.TRANS)=3
+        BzOfsControlErreurMessage(OFS.CTL.ERREUR.MESSAGE)=4
+        BzOfsControlOfsMessage(OFS.CTL.OFS.MESSAGE)=5
+        BzOfsControlEvenement(OFS.CTL.EVENEMENT)=6
+        BzOfsControlDbDevise(OFS.CTL.DB.DEVISE)=7
+        BzOfsControlDbCompte(OFS.CTL.DB.COMPTE)=8
+        BzOfsControlCrDevise(OFS.CTL.CR.DEVISE)=9
+        BzOfsControlCrCompte(OFS.CTL.CR.COMPTE)=10
+        BzOfsControlAmount(OFS.CTL.AMOUNT)=11
+        BzOfsControlDeviseAmount(OFS.CTL.DEVISE.AMOUNT)=12
+        BzOfsControlCodeTransaction(OFS.CTL.CODE.TRANSACTION)=13
+        BzOfsControlDomaine(OFS.CTL.DOMAINE)=14
+        BzOfsControlOverride(OFS.CTL.OVERRIDE)=15
+        BzOfsControlRecordStatus(OFS.CTL.RECORD.STATUS)=16
+        BzOfsControlCurrNo(OFS.CTL.CURR.NO)=17
+        BzOfsControlInputter(OFS.CTL.INPUTTER)=18
+        BzOfsControlDateTime(OFS.CTL.DATE.TIME)=19
+        BzOfsControlAuthoriser(OFS.CTL.AUTHORISER)=20
+        BzOfsControlCoCode(OFS.CTL.CO.CODE)=21
+        BzOfsControlDeptCode(OFS.CTL.DEPT.CODE)=22
+        BzOfsControlAuditorCode(OFS.CTL.AUDITOR.CODE)=23
+        BzOfsControlAuditDateTime(OFS.CTL.AUDIT.DATE.TIME)=24
+    }
+}

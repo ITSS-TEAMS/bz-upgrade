@@ -1,0 +1,17 @@
+public table BzSituationJuridique {
+    t24:  BZ.SITUATION.JURIDIQUE
+    fields:{
+        BzSituationJuridiqueLibelle(BZ.SJ.LIBELLE)=1
+        BzSituationJuridiqueLocalRef(BZ.SJ.LOCAL.REF)=2
+        BzSituationJuridiqueOverride(BZ.SJ.OVERRIDE)=3
+        BzSituationJuridiqueRecordStatus(BZ.SJ.RECORD.STATUS)=4
+        BzSituationJuridiqueCurrNo(BZ.SJ.CURR.NO)=5
+        BzSituationJuridiqueInputter(BZ.SJ.INPUTTER)=6
+        BzSituationJuridiqueDateTime(BZ.SJ.DATE.TIME)=7
+        BzSituationJuridiqueAuthoriser(BZ.SJ.AUTHORISER)=8
+        BzSituationJuridiqueCoCode(BZ.SJ.CO.CODE)=9
+        BzSituationJuridiqueDeptCode(BZ.SJ.DEPT.CODE)=10
+        BzSituationJuridiqueAuditorCode(BZ.SJ.AUDITOR.CODE)=11
+        BzSituationJuridiqueAuditDateTime(BZ.SJ.AUDIT.DATE.TIME)=12
+    }
+}

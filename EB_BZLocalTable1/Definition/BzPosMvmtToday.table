@@ -1,0 +1,37 @@
+public table BzPosMvmtToday {
+    t24:  BZ.POS.MVMT.TODAY
+    fields:{
+        BzPosMvmtTodayDevise(POS.DEVISE)=1
+        BzPosMvmtTodayDatePosition(POS.DATE.POSITION)=2
+        BzPosMvmtTodayOpenBalance(POS.OPEN.BALANCE)=3
+        BzPosMvmtTodayRevalVeille(POS.REVAL.VEILLE)=4
+        BzPosMvmtTodayOpenBalanceLcy(POS.OPEN.BALANCE.LCY)=5
+        BzPosMvmtTodayAchat(POS.ACHAT)=6
+        BzPosMvmtTodayAchatLcy(POS.ACHAT.LCY)=7
+        BzPosMvmtTodayVente(POS.VENTE)=8
+        BzPosMvmtTodayVenteLcy(POS.VENTE.LCY)=9
+        BzPosMvmtTodayTxnEod(POS.TXN.EOD)=10
+        BzPosMvmtTodayTxnEodLcy(POS.TXN.EOD.LCY)=11
+        BzPosMvmtTodayPositionFinal(POS.POSITION.FINAL)=12
+        BzPosMvmtTodayReval(POS.REVAL)=13
+        BzPosMvmtTodayPositionFinalLcy(POS.POSITION.FINAL.LCY)=14
+        BzPosMvmtTodayResultat(POS.RESULTAT)=15
+        BzPosMvmtTodayPourFp(POS.POUR.FP)=16
+        BzPosMvmtTodayRank(POS.RANK)=17
+        BzPosMvmtTodayPosFinalNew(POS.POS.FINAL.NEW)=18
+        BzPosMvmtTodayResultatNew(POS.RESULTAT.NEW)=19
+        BzPosMvmtTodayPourFpNew(POS.POUR.FP.NEW)=20
+        BzPosMvmtTodayResserved5(POS.RESSERVED.5)=21
+        BzPosMvmtTodayLocalRef(POS.LOCAL.REF)=22
+        BzPosMvmtTodayOverride(POS.OVERRIDE)=23
+        BzPosMvmtTodayRecordStatus(POS.RECORD.STATUS)=24
+        BzPosMvmtTodayCurrNo(POS.CURR.NO)=25
+        BzPosMvmtTodayInputter(POS.INPUTTER)=26
+        BzPosMvmtTodayDateTime(POS.DATE.TIME)=27
+        BzPosMvmtTodayAuthoriser(POS.AUTHORISER)=28
+        BzPosMvmtTodayCoCode(POS.CO.CODE)=29
+        BzPosMvmtTodayDeptCode(POS.DEPT.CODE)=30
+        BzPosMvmtTodayAuditorCode(POS.AUDITOR.CODE)=31
+        BzPosMvmtTodayAuditDateTime(POS.AUDIT.DATE.TIME)=32
+    }
+}

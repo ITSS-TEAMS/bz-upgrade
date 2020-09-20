@@ -1,0 +1,23 @@
+public table BzMvmtSm {
+    t24:  BZ.MVMT.SM
+    fields:{
+        BzMvmtSmDateOperation(MVT.BCT.DATE.OPERATION)=1
+        BzMvmtSmMontant(MVT.BCT.MONTANT)=2
+        BzMvmtSmSens(MVT.BCT.SENS)=3
+        BzMvmtSmCompte(MVT.BCT.COMPTE)=4
+        BzMvmtSmRefTransaction(MVT.BCT.REF.TRANSACTION)=5
+        BzMvmtSmRefRegistreCps(MVT.BCT.REF.REGISTRE.CPS)=6
+        BzMvmtSmStatut(MVT.BCT.STATUT)=7
+        BzMvmtSmRefNetCps(MVT.BCT.REF.NET.CPS)=8
+        BzMvmtSmOverride(MVT.BCT.OVERRIDE)=9
+        BzMvmtSmRecordStatus(MVT.BCT.RECORD.STATUS)=10
+        BzMvmtSmCurrNo(MVT.BCT.CURR.NO)=11
+        BzMvmtSmInputter(MVT.BCT.INPUTTER)=12
+        BzMvmtSmDateTime(MVT.BCT.DATE.TIME)=13
+        BzMvmtSmAuthoriser(MVT.BCT.AUTHORISER)=14
+        BzMvmtSmCoCode(MVT.BCT.CO.CODE)=15
+        BzMvmtSmDeptCode(MVT.BCT.DEPT.CODE)=16
+        BzMvmtSmAuditorCode(MVT.BCT.AUDITOR.CODE)=17
+        BzMvmtSmAuditDateTime(MVT.BCT.AUDIT.DATE.TIME)=18
+    }
+}

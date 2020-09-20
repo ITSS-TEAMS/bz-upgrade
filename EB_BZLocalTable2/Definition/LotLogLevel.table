@@ -1,0 +1,24 @@
+public table LotLogLevel {
+t24:  LOT.LOG.LEVEL
+fields:{
+
+LotLogLevelDescription(LOT.LGL.DESCRIPTION)=1
+LotLogLevelFinalDirectory(LOT.LGL.FINAL.DIRECTORY)=2
+LotLogLevelFinalRoutine(LOT.LGL.FINAL.ROUTINE)=3
+LotLogLevelRestoreFile(LOT.LGL.RESTORE.FILE)=4
+LotLogLevelReserved1(LOT.LGL.RESERVED.1)=8
+LotLogLevelReserved2(LOT.LGL.RESERVED.2)=7
+LotLogLevelReserved3(LOT.LGL.RESERVED.3)=6
+LotLogLevelReserved4(LOT.LGL.RESERVED.4)=5
+LotLogLevelLocalRef(LOT.LGL.LOCAL.REF)=9
+LotLogLevelRecordStatus(LOT.LGL.RECORD.STATUS)=10
+LotLogLevelCurrNo(LOT.LGL.CURR.NO)=11
+LotLogLevelInputter(LOT.LGL.INPUTTER)=12
+LotLogLevelDateTime(LOT.LGL.DATE.TIME)=13
+LotLogLevelAuthoriser(LOT.LGL.AUTHORISER)=14
+LotLogLevelCoCode(LOT.LGL.CO.CODE)=15
+LotLogLevelDeptCode(LOT.LGL.DEPT.CODE)=16
+LotLogLevelAuditorCode(LOT.LGL.AUDITOR.CODE)=17
+LotLogLevelAuditDateTime(LOT.LGL.AUDIT.DATE.TIME)=18
+}
+}

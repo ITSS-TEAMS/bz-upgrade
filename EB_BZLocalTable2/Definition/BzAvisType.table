@@ -1,0 +1,17 @@
+public table BzAvisType {
+    t24:  BZ.AVIS.TYPE
+    fields:{
+        BzAvisTypeDescription(AV.DESCRIPTION)=1
+        BzAvisTypeShortDesc(AV.SHORT.DESC)=2
+        BzAvisTypeDomaine(AV.DOMAINE)=3
+        BzAvisTypeRecordStatus(AV.RECORD.STATUS)=4
+        BzAvisTypeCurrNo(AV.CURR.NO)=5
+        BzAvisTypeInputter(AV.INPUTTER)=6
+        BzAvisTypeDateTime(AV.DATE.TIME)=7
+        BzAvisTypeAuthoriser(AV.AUTHORISER)=8
+        BzAvisTypeCoCode(AV.CO.CODE)=9
+        BzAvisTypeDeptCode(AV.DEPT.CODE)=10
+        BzAvisTypeAuditorCode(AV.AUDITOR.CODE)=11
+        BzAvisTypeAuditDateTime(AV.AUDIT.DATE.TIME)=12
+    }
+}

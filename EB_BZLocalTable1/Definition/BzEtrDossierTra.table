@@ -1,0 +1,25 @@
+public table BzEtrDossierTra {
+    t24:  BZ.ETR.DOSSIER.TRA
+    fields:{
+        BzEtrDossierTraDateOperation(ETR.INS.DATE.OPERATION)=1
+        BzEtrDossierTraStatut(ETR.INS.STATUT)=2
+        BzEtrDossierTraRefAchevement(ETR.INS.REF.ACHEVEMENT)=3
+        BzEtrDossierTraReserved1(ETR.INS.RESERVED.1)=4
+        BzEtrDossierTraReserved2(ETR.INS.RESERVED.2)=5
+        BzEtrDossierTraReserved3(ETR.INS.RESERVED.3)=6
+        BzEtrDossierTraReserved4(ETR.INS.RESERVED.4)=7
+        BzEtrDossierTraReserved5(ETR.INS.RESERVED.5)=8
+        BzEtrDossierTraReserved6(ETR.INS.RESERVED.6)=9
+        BzEtrDossierTraReserved7(ETR.INS.RESERVED.7)=10
+        BzEtrDossierTraOverride(ETR.INS.OVERRIDE)=11
+        BzEtrDossierTraRecordStatus(ETR.INS.RECORD.STATUS)=12
+        BzEtrDossierTraCurrNo(ETR.INS.CURR.NO)=13
+        BzEtrDossierTraInputter(ETR.INS.INPUTTER)=14
+        BzEtrDossierTraDateTime(ETR.INS.DATE.TIME)=15
+        BzEtrDossierTraAuthoriser(ETR.INS.AUTHORISER)=16
+        BzEtrDossierTraCoCode(ETR.INS.CO.CODE)=17
+        BzEtrDossierTraDeptCode(ETR.INS.DEPT.CODE)=18
+        BzEtrDossierTraAuditorCode(ETR.INS.AUDITOR.CODE)=19
+        BzEtrDossierTraAuditDateTime(ETR.INS.AUDIT.DATE.TIME)=20
+    }
+}

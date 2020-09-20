@@ -1,0 +1,27 @@
+public table BzMonPrepayee {
+    t24:  BZ.MON.PREPAYEE
+    fields:{
+        BzMonPrepayeeDescription(MON.PRE.DESCRIPTION)=1
+        BzMonPrepayeePlafond(MON.PRE.PLAFOND)=2
+        BzMonPrepayeeDateCreation(MON.PRE.DATE.CREATION)=3
+        BzMonPrepayeeCategory(MON.PRE.CATEGORY)=4
+        BzMonPrepayeeDevise(MON.PRE.DEVISE)=5
+        BzMonPrepayeeStatut(MON.PRE.STATUT)=6
+        BzMonPrepayeeReserved1(MON.PRE.RESERVED1)=7
+        BzMonPrepayeeReserved2(MON.PRE.RESERVED2)=8
+        BzMonPrepayeeReserved3(MON.PRE.RESERVED3)=9
+        BzMonPrepayeeReserved4(MON.PRE.RESERVED4)=10
+        BzMonPrepayeeReserved5(MON.PRE.RESERVED5)=11
+        BzMonPrepayeeLocalRef(MON.PRE.LOCAL.REF)=12
+        BzMonPrepayeeOverride(MON.PRE.OVERRIDE)=13
+        BzMonPrepayeeRecordStatus(MON.PRE.RECORD.STATUS)=14
+        BzMonPrepayeeCurrNo(MON.PRE.CURR.NO)=15
+        BzMonPrepayeeInputter(MON.PRE.INPUTTER)=16
+        BzMonPrepayeeDateTime(MON.PRE.DATE.TIME)=17
+        BzMonPrepayeeAuthoriser(MON.PRE.AUTHORISER)=18
+        BzMonPrepayeeCoCode(MON.PRE.CO.CODE)=19
+        BzMonPrepayeeDeptCode(MON.PRE.DEPT.CODE)=20
+        BzMonPrepayeeAuditorCode(MON.PRE.AUDITOR.CODE)=21
+        BzMonPrepayeeAuditDateTime(MON.PRE.AUDIT.DATE.TIME)=22
+    }
+}

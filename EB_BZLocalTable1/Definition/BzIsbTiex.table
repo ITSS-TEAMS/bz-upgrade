@@ -1,0 +1,18 @@
+public table BzIsbTiex {
+    t24:  BZ.ISB.TIEX
+    fields:{
+        BzIsbTiexDescription(BZ.ISB.TIEX.DESCRIPTION)=1
+        BzIsbTiexTaux(BZ.ISB.TIEX.TAUX)=2
+        BzIsbTiexLocalRef(BZ.ISB.TIEX.LOCAL.REF)=3
+        BzIsbTiexOverride(BZ.ISB.TIEX.OVERRIDE)=4
+        BzIsbTiexRecordStatus(BZ.ISB.TIEX.RECORD.STATUS)=5
+        BzIsbTiexCurrNo(BZ.ISB.TIEX.CURR.NO)=6
+        BzIsbTiexInputter(BZ.ISB.TIEX.INPUTTER)=7
+        BzIsbTiexDateTime(BZ.ISB.TIEX.DATE.TIME)=8
+        BzIsbTiexAuthoriser(BZ.ISB.TIEX.AUTHORISER)=9
+        BzIsbTiexCoCode(BZ.ISB.TIEX.CO.CODE)=10
+        BzIsbTiexDeptCode(BZ.ISB.TIEX.DEPT.CODE)=11
+        BzIsbTiexAuditorCode(BZ.ISB.TIEX.AUDITOR.CODE)=12
+        BzIsbTiexAuditDateTime(BZ.ISB.TIEX.AUDIT.DATE.TIME)=13
+    }
+}

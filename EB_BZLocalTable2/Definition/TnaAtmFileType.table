@@ -1,0 +1,26 @@
+public table TnaAtmFileType {
+        t24:  TNA.ATM.FILE.TYPE
+        fields:{
+            TnaAtmFileTypePrecheckRtn(TYPE.PRECHECK.RTN)=1
+            TnaAtmFileTypeMsgMapIdRtn(TYPE.MSG.MAP.ID.RTN)=2
+            TnaAtmFileTypeDecription(TYPE.DECRIPTION)=3
+            TnaAtmFileTypeFieldNum(TYPE.FIELD.NUM)=4
+            TnaAtmFileTypeFieldName(TYPE.FIELD.NAME)=5
+            TnaAtmFileTypeFieldPos(TYPE.FIELD.POS)=6
+            TnaAtmFileTypeFieldLen(TYPE.FIELD.LEN)=7
+            TnaAtmFileTypeFieldType(TYPE.FIELD.TYPE)=8
+            TnaAtmFileTypeFinalProcessRtn(TYPE.FINAL.PROCESS.RTN)=9
+            TnaAtmFileTypeFileNamePrefix(TYPE.FILE.NAME.PREFIX)=10
+            TnaAtmFileTypeLocalRef(TYPE.LOCAL.REF)=11
+            TnaAtmFileTypeOverride(TYPE.OVERRIDE)=12
+            TnaAtmFileTypeRecordStatus(TYPE.RECORD.STATUS)=13
+            TnaAtmFileTypeCurrNo(TYPE.CURR.NO)=14
+            TnaAtmFileTypeInputter(TYPE.INPUTTER)=15
+            TnaAtmFileTypeDateTime(TYPE.DATE.TIME)=16
+            TnaAtmFileTypeAuthoriser(TYPE.AUTHORISER)=17
+            TnaAtmFileTypeCoCode(TYPE.CO.CODE)=18
+            TnaAtmFileTypeDeptCode(TYPE.DEPT.CODE)=19
+            TnaAtmFileTypeAuditorCode(TYPE.AUDITOR.CODE)=20
+            TnaAtmFileTypeAuditDateTime(TYPE.AUDIT.DATE.TIME)=21
+        }
+    }

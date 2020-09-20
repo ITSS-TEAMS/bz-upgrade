@@ -1,0 +1,22 @@
+public table BzMdpCompteLiquidation {
+    t24:  BZ.MDP.COMPTE.LIQUIDATION
+    fields:{
+        BzMdpCompteLiquidationCompte(CPT.LIQ.COMPTE)=1
+        BzMdpCompteLiquidationReserved1(CPT.LIQ.RESERVED.1)=2
+        BzMdpCompteLiquidationReserved2(CPT.LIQ.RESERVED.2)=3
+        BzMdpCompteLiquidationReserved3(CPT.LIQ.RESERVED.3)=4
+        BzMdpCompteLiquidationReserved4(CPT.LIQ.RESERVED.4)=5
+        BzMdpCompteLiquidationReserved5(CPT.LIQ.RESERVED.5)=6
+        BzMdpCompteLiquidationLocalRef(CPT.LIQ.LOCAL.REF)=7
+        BzMdpCompteLiquidationOverride(CPT.LIQ.OVERRIDE)=8
+        BzMdpCompteLiquidationRecordStatus(CPT.LIQ.RECORD.STATUS)=9
+        BzMdpCompteLiquidationCurrNo(CPT.LIQ.CURR.NO)=10
+        BzMdpCompteLiquidationInputter(CPT.LIQ.INPUTTER)=11
+        BzMdpCompteLiquidationDateTime(CPT.LIQ.DATE.TIME)=12
+        BzMdpCompteLiquidationAuthoriser(CPT.LIQ.AUTHORISER)=13
+        BzMdpCompteLiquidationCoCode(CPT.LIQ.CO.CODE)=14
+        BzMdpCompteLiquidationDeptCode(CPT.LIQ.DEPT.CODE)=15
+        BzMdpCompteLiquidationAuditorCode(CPT.LIQ.AUDITOR.CODE)=16
+        BzMdpCompteLiquidationAuditDateTime(CPT.LIQ.AUDIT.DATE.TIME)=17
+    }
+}

@@ -1,0 +1,30 @@
+public table BzTtComBct {
+    t24:  BZ.TT.COM.BCT
+    fields:{
+        BzTtComBctRefTeller(COM.BCT.REF.TELLER)=1
+        BzTtComBctCodeTransaction(COM.BCT.CODE.TRANSACTION)=2
+        BzTtComBctDevise(COM.BCT.DEVISE)=3
+        BzTtComBctCompteCaisse(COM.BCT.COMPTE.CAISSE)=4
+        BzTtComBctCompteBct(COM.BCT.COMPTE.BCT)=5
+        BzTtComBctMontantFcy(COM.BCT.MONTANT.FCY)=6
+        BzTtComBctMontantLcy(COM.BCT.MONTANT.LCY)=7
+        BzTtComBctRefBct(COM.BCT.REF.BCT)=8
+        BzTtComBctCaisse(COM.BCT.CAISSE)=9
+        BzTtComBctCaissier(COM.BCT.CAISSIER)=10
+        BzTtComBctRefCom(COM.BCT.REF.COM)=11
+        BzTtComBctMontantCom(COM.BCT.MONTANT.COM)=12
+        BzTtComBctDateOperation(COM.BCT.DATE.OPERATION)=13
+        BzTtComBctStatutCom(COM.BCT.STATUT.COM)=14
+        BzTtComBctRefOfs(COM.BCT.REF.OFS)=15
+        BzTtComBctOverride(COM.BCT.OVERRIDE)=16
+        BzTtComBctRecordStatus(COM.BCT.RECORD.STATUS)=17
+        BzTtComBctCurrNo(COM.BCT.CURR.NO)=18
+        BzTtComBctInputter(COM.BCT.INPUTTER)=19
+        BzTtComBctDateTime(COM.BCT.DATE.TIME)=20
+        BzTtComBctAuthoriser(COM.BCT.AUTHORISER)=21
+        BzTtComBctCoCode(COM.BCT.CO.CODE)=22
+        BzTtComBctDeptCode(COM.BCT.DEPT.CODE)=23
+        BzTtComBctAuditorCode(COM.BCT.AUDITOR.CODE)=24
+        BzTtComBctAuditDateTime(COM.BCT.AUDIT.DATE.TIME)=25
+    }
+}

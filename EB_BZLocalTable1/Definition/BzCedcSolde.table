@@ -1,0 +1,24 @@
+public table BzCedcSolde {
+    t24:  BZ.CEDC.SOLDE
+    fields:{
+        BzCedcSoldeSoldeDepart(CEDC.SOLDE.DEPART)=1
+        BzCedcSoldeSoldeFin(CEDC.SOLDE.FIN)=2
+        BzCedcSoldeReserved1(CEDC.RESERVED.1)=3
+        BzCedcSoldeReserved2(CEDC.RESERVED.2)=4
+        BzCedcSoldeReserved3(CEDC.RESERVED.3)=5
+        BzCedcSoldeReserved4(CEDC.RESERVED.4)=6
+        BzCedcSoldeReserved5(CEDC.RESERVED.5)=7
+        BzCedcSoldeReserved6(CEDC.RESERVED.6)=8
+        BzCedcSoldeLocalRef(CEDC.LOCAL.REF)=9
+        BzCedcSoldeOverride(CEDC.OVERRIDE)=10
+        BzCedcSoldeRecordStatus(CEDC.RECORD.STATUS)=11
+        BzCedcSoldeCurrNo(CEDC.CURR.NO)=12
+        BzCedcSoldeInputter(CEDC.INPUTTER)=13
+        BzCedcSoldeDateTime(CEDC.DATE.TIME)=14
+        BzCedcSoldeAuthoriser(CEDC.AUTHORISER)=15
+        BzCedcSoldeCoCode(CEDC.CO.CODE)=16
+        BzCedcSoldeDeptCode(CEDC.DEPT.CODE)=17
+        BzCedcSoldeAuditorCode(CEDC.AUDITOR.CODE)=18
+        BzCedcSoldeAuditDateTime(CEDC.AUDIT.DATE.TIME)=19
+    }
+}

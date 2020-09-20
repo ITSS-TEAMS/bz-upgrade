@@ -1,0 +1,31 @@
+public table BzMaRevaluation {
+    t24:  BZ.MA.REVALUATION
+    fields:{
+        BzMaRevaluationLdReference(BZ.REV.LD.REFERENCE)=1
+        BzMaRevaluationGoodType(BZ.REV.GOOD.TYPE)=2
+        BzMaRevaluationGoodRef(BZ.REV.GOOD.REF)=3
+        BzMaRevaluationCustomer(BZ.REV.CUSTOMER)=4
+        BzMaRevaluationProduct(BZ.REV.PRODUCT)=5
+        BzMaRevaluationOrigVatAmt(BZ.REV.ORIG.VAT.AMT)=6
+        BzMaRevaluationOrigGoodAmt(BZ.REV.ORIG.GOOD.AMT)=7
+        BzMaRevaluationOrigIncDate(BZ.REV.ORIG.INC.DATE)=8
+        BzMaRevaluationCurRevDate(BZ.REV.CUR.REV.DATE)=9
+        BzMaRevaluationCurVatAmt(BZ.REV.CUR.VAT.AMT)=10
+        BzMaRevaluationCurGoodAmt(BZ.REV.CUR.GOOD.AMT)=11
+        BzMaRevaluationCurPlAmt(BZ.REV.CUR.PL.AMT)=12
+        BzMaRevaluationRevDate(BZ.REV.REV.DATE)=13
+        BzMaRevaluationVatAmt(BZ.REV.VAT.AMT)=14
+        BzMaRevaluationGoodAmt(BZ.REV.GOOD.AMT)=15
+        BzMaRevaluationPlAmt(BZ.REV.PL.AMT)=16
+        BzMaRevaluationOverride(BZ.REV.OVERRIDE)=17
+        BzMaRevaluationRecordStatus(BZ.REV.RECORD.STATUS)=18
+        BzMaRevaluationCurrNo(BZ.REV.CURR.NO)=19
+        BzMaRevaluationInputter(BZ.REV.INPUTTER)=20
+        BzMaRevaluationDateTime(BZ.REV.DATE.TIME)=21
+        BzMaRevaluationAuthoriser(BZ.REV.AUTHORISER)=22
+        BzMaRevaluationCoCode(BZ.REV.CO.CODE)=23
+        BzMaRevaluationDeptCode(BZ.REV.DEPT.CODE)=24
+        BzMaRevaluationAuditorCode(BZ.REV.AUDITOR.CODE)=25
+        BzMaRevaluationAuditDateTime(BZ.REV.AUDIT.DATE.TIME)=26
+    }
+} 

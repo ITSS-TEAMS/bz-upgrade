@@ -1,0 +1,27 @@
+public table BzSedDecConcat {
+    t24:  BZ.SED.DEC.CONCAT
+    fields:{
+        BzSedDecConcatIdOperation(SEDCONC.ID.OPERATION)=1
+        BzSedDecConcatDteOperation(SEDCONC.DTE.OPERATION)=2
+        BzSedDecConcatAnnexe(SEDCONC.ANNEXE)=3
+        BzSedDecConcatDateDec(SEDCONC.DATE.DEC)=4
+        BzSedDecConcatFichierDec(SEDCONC.FICHIER.DEC)=5
+        BzSedDecConcatStatut(SEDCONC.STATUT)=6
+        BzSedDecConcatReserved1(SEDCONC.RESERVED.1)=7
+        BzSedDecConcatReserved2(SEDCONC.RESERVED.2)=8
+        BzSedDecConcatReserved3(SEDCONC.RESERVED.3)=9
+        BzSedDecConcatReserved4(SEDCONC.RESERVED.4)=10
+        BzSedDecConcatReserved5(SEDCONC.RESERVED.5)=11
+        BzSedDecConcatLocalRef(SEDCONC.LOCAL.REF)=12
+        BzSedDecConcatOverride(SEDCONC.OVERRIDE)=13
+        BzSedDecConcatRecordStatus(SEDCONC.RECORD.STATUS)=14
+        BzSedDecConcatCurrNo(SEDCONC.CURR.NO)=15
+        BzSedDecConcatInputter(SEDCONC.INPUTTER)=16
+        BzSedDecConcatDateTime(SEDCONC.DATE.TIME)=17
+        BzSedDecConcatAuthoriser(SEDCONC.AUTHORISER)=18
+        BzSedDecConcatCoCode(SEDCONC.CO.CODE)=19
+        BzSedDecConcatDeptCode(SEDCONC.DEPT.CODE)=20
+        BzSedDecConcatAuditorCode(SEDCONC.AUDITOR.CODE)=21
+        BzSedDecConcatAuditDateTime(SEDCONC.AUDIT.DATE.TIME)=22
+    }
+}

@@ -1,0 +1,27 @@
+public table BzSmParameter {
+    t24:  BZ.SM.PARAMETER
+    fields:{
+        BzSmParameterDevise(SM.PARAM.DEVISE)=1
+        BzSmParameterTaux(SM.PARAM.TAUX)=2
+        BzSmParameterTolerance(SM.PARAM.TOLERANCE)=3
+        BzSmParameterFraisVisa(SM.PARAM.FRAIS.VISA)=4
+        BzSmParameterFraisMdc(SM.PARAM.FRAIS.MDC)=5
+        BzSmParameterFraisCashAdvc(SM.PARAM.FRAIS.CASH.ADVC)=6
+        BzSmParameterCashAdvanceVar(SM.PARAM.CASH.ADVANCE.VAR)=7
+        BzSmParameterFraisRetDabFixe(SM.PARAM.FRAIS.RET.DAB.FIXE)=8
+        BzSmParameterRetraitDabVar(SM.PARAM.RETRAIT.DAB.VAR)=9
+        BzSmParameterCptNostro(SM.PARAM.CPT.NOSTRO)=10
+        BzSmParameterCptTechnique(SM.PARAM.CPT.TECHNIQUE)=11
+        BzSmParameterFraisAtb(SM.PARAM.FRAIS.ATB)=12
+        BzSmParameterOverride(SM.PARAM.OVERRIDE)=13
+        BzSmParameterRecordStatus(SM.PARAM.RECORD.STATUS)=14
+        BzSmParameterCurrNo(SM.PARAM.CURR.NO)=15
+        BzSmParameterInputter(SM.PARAM.INPUTTER)=16
+        BzSmParameterDateTime(SM.PARAM.DATE.TIME)=17
+        BzSmParameterAuthoriser(SM.PARAM.AUTHORISER)=18
+        BzSmParameterCoCode(SM.PARAM.CO.CODE)=19
+        BzSmParameterDeptCode(SM.PARAM.DEPT.CODE)=20
+        BzSmParameterAuditorCode(SM.PARAM.AUDITOR.CODE)=21
+        BzSmParameterAuditDateTime(SM.PARAM.AUDIT.DATE.TIME)=22
+    }
+}

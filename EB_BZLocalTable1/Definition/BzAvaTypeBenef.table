@@ -1,0 +1,22 @@
+public table BzAvaTypeBenef {
+        t24:  BZ.AVA.TYPE.BENEF
+        fields:{
+            BzAvaTypeBenefDescription(TYP.BEN.DESCRIPTION)=1
+            BzAvaTypeBenefReserved1(TYP.BEN.RESERVED1)=2
+            BzAvaTypeBenefReserved2(TYP.BEN.RESERVED2)=3
+            BzAvaTypeBenefReserved3(TYP.BEN.RESERVED3)=4
+            BzAvaTypeBenefReserved4(TYP.BEN.RESERVED4)=5
+            BzAvaTypeBenefReserved5(TYP.BEN.RESERVED5)=6
+            BzAvaTypeBenefLocalRef(TYP.BEN.LOCAL.REF)=7
+            BzAvaTypeBenefOverride(TYP.BEN.OVERRIDE)=8
+            BzAvaTypeBenefRecordStatus(TYP.BEN.RECORD.STATUS)=9
+            BzAvaTypeBenefCurrNo(TYP.BEN.CURR.NO)=10
+            BzAvaTypeBenefInputter(TYP.BEN.INPUTTER)=11
+            BzAvaTypeBenefDateTime(TYP.BEN.DATE.TIME)=12
+            BzAvaTypeBenefAuthoriser(TYP.BEN.AUTHORISER)=13
+            BzAvaTypeBenefCoCode(TYP.BEN.CO.CODE)=14
+            BzAvaTypeBenefDeptCode(TYP.BEN.DEPT.CODE)=15
+            BzAvaTypeBenefAuditorCode(TYP.BEN.AUDITOR.CODE)=16
+            BzAvaTypeBenefAuditDateTime(TYP.BEN.AUDIT.DATE.TIME)=17
+        }
+    }

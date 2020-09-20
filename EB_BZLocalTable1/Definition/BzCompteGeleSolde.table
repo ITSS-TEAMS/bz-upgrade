@@ -1,0 +1,27 @@
+public table BzCompteGeleSolde {
+    t24:  BZ.COMPTE.GELE.SOLDE
+    fields:{
+        BzCompteGeleSoldeCompteSolde(AC.GELE.COMPTE.SOLDE)=1
+        BzCompteGeleSoldeRefFt(AC.GELE.REF.FT)=2
+        BzCompteGeleSoldeReserved1(AC.GELE.RESERVED.1)=3
+        BzCompteGeleSoldeReserved2(AC.GELE.RESERVED.2)=4
+        BzCompteGeleSoldeReserved3(AC.GELE.RESERVED.3)=5
+        BzCompteGeleSoldeReserved4(AC.GELE.RESERVED.4)=6
+        BzCompteGeleSoldeReserved5(AC.GELE.RESERVED.5)=7
+        BzCompteGeleSoldeReserved6(AC.GELE.RESERVED.6)=8
+        BzCompteGeleSoldeReserved7(AC.GELE.RESERVED.7)=9
+        BzCompteGeleSoldeReserved8(AC.GELE.RESERVED.8)=10
+        BzCompteGeleSoldeReserved9(AC.GELE.RESERVED.9)=11
+        BzCompteGeleSoldeReserved10(AC.GELE.RESERVED.10)=12
+        BzCompteGeleSoldeOverride(AC.GELE.OVERRIDE)=13
+        BzCompteGeleSoldeRecordStatus(AC.GELE.RECORD.STATUS)=14
+        BzCompteGeleSoldeCurrNo(AC.GELE.CURR.NO)=15
+        BzCompteGeleSoldeInputter(AC.GELE.INPUTTER)=16
+        BzCompteGeleSoldeDateTime(AC.GELE.DATE.TIME)=17
+        BzCompteGeleSoldeAuthoriser(AC.GELE.AUTHORISER)=18
+        BzCompteGeleSoldeCoCode(AC.GELE.CO.CODE)=19
+        BzCompteGeleSoldeDeptCode(AC.GELE.DEPT.CODE)=20
+        BzCompteGeleSoldeAuditorCode(AC.GELE.AUDITOR.CODE)=21
+        BzCompteGeleSoldeAuditDateTime(AC.GELE.AUDIT.DATE.TIME)=22
+    }
+}

@@ -1,0 +1,368 @@
+*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R13-R19  : MULTI.GET.LOC.REF HAS INCLUDED FOR THE LOCAL FIELD 'LOAN.TYPE'
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+	SUBROUTINE BZ.LIST.FIN.DEBLOQUES(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-----------------------------------------------------------------------------
+** List des dossiers de financement debloques
+** Author Fahmi Abdeltif <fahmi.abdeltif@banquezitouna.coml> le 14/05/2019
+*-----------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_SCREEN.VARIABLES
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.PW.ACTIVITY.TXN
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.IS.H.PRODUCTS
+
+*-----------------------------------------------------------------------------
+
+* $INSERT I_COMMON - Not Used anymore;
+* $INSERT I_EQUATE - Not Used anymore;NDITION
+    GOSUB PROCESS
+
+*-----------------------------------------------------------------------------
+INITIALIZE:
+*---------
+* $INSERT I_F.BZ.COFFRE.LOYER - Not Used anymore;
+    F.CUSTOMER = ''
+    CALL OPF(FN.CUSTOMER,F.CUSTOMER)
+
+    FN.PW.ACTIVITY.TXN = 'F.PW.ACTIVITY.TXN'
+    F.PW.ACTIVITY.TXN = ''
+    CALL OPF(FN.PW.ACTIVITY.TXN,F.PW.ACTIVITY.TXN)
+
+    FN.LD.LOANS.AND.DEPOSITS = 'F.LD.LOANS.AND.DEPOSITS'
+    F.LD.LOANS.AND.DEPOSITS = ''
+    CALLEB.SystemTables.getVFunction().LOANS.AND.DEPOSITS,F.LD.LOANS.AND.DEPOSIFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusHIS= 'F.LD.LOANS.AND.DEPOSITS$HIS'
+    F.LD.HFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusPF(FN.LD.HIS,F.LD.HIS)
+
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+    CALL OPF (FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+
+    FN.IS.H.PRODUCTS = 'F.IS.H.PRODUCTS'
+    F.IS.H.PRODUCTS = ''
+    CALL OPF(FN.IS.H.PRODUCTS,F.IS.H.PRODUCTS)
+
+    RETURN
+
+*----------------------------------------------------------------------------
+PREPARE.CONDITION:
+*    DEBUG
+
+    LOCATE "COMPLETION.DATE" IN D.FIELDS<1> SETTING COMPLETION.DATE.POS THEN
+        COMPLETION.DATE = D.RANGE.AND.VALUE<COMPLETION.DATE.POS>
+    END
+
+    CONDITION=""
+
+    IF COMPLETION.DATE THEN
+        CONDITION:=" COMPLETION.DATE GE ":COMPLETION.DATE
+    END
+
+    RETEB.DataAccess.OpfB.DataAccess.Opf*-----------------------------------------------------------------------------
+PROCESS:
+*-------
+*ZIT-UPG-R13-R19 /S
+YAPPLICATION.NAME EB.SystemTables.getRNew().FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefITS'
+YFIELD.NAME ='LOAN.TYPE'
+LREF.POS EB.DataAccess.FReadCALL MULTI.GET.LOC.REF(YAPPLICATION.NAME, YFIELD.NAME, LREF.POS)
+POS1 = LREF.POS<1,1>
+*ZIT-UPG-R13-R19 /E
+
+    IF CONDITION THEN
+   EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerTables.setE('SELECT ':FN.PW.ACTIVITY.TXN:' WITH ACTIVITY EQ AUTHORISE.IS.CONTRAT BZISB.AUTHCONTRAT AUTHORISE.IS.IJA.CONTRAT AND WITH ' :CONDITION)
+    END ELSE
+        SELECT.STATEEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerN.PW.EB.SystemTables.getIdNew()TY.TXN:' WITH ACTIVITY EQ AUTHORISE.IS.CONTRAT BZISB.AUTHCONTRAT AUTHORISE.IS.IJA.CONTRAT'
+    END
+
+    PW.ACTIVITYEB.DataAccess.FWriteST = ''
+    LIST.NAME = ''
+    SELECTED = ''
+    SYSTEB.SystemTables.setAf()*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R13-R19  : MULTI.GET.LOC.REF HAS INCLUDED FOR THE LOCAL FIELD 'LOAN.TYPE'
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+	SUBROUTINE BZ.LIST.FIN.DEBLOQUES(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-----------------------------------------------------------------------------
+** List des dossiers de financement debloques
+** Author Fahmi Abdeltif <fahmi.abdeltif@banquezitouna.coml> le 14/05/2019
+*-----------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_SCREEN.VARIABLES
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.PW.ACTIVITY.TXN
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.IS.H.PRODUCTS
+
+*-----------------------------------------------------------------------------
+
+    GOSUB INITIALIZE
+    GOSUB PREPARE.CONDITION
+    GOSUB PROCESS
+
+*-----------------------------------------------------------------------------
+INITIALIZE:
+*---------
+    FN.CUSTOMER = 'F.CUSTOMER'
+    F.CUSTOMER = ''
+    CALL OPF(FN.CUSTOMER,F.CUSTOMER)
+
+    FN.PW.ACTIVITY.TXN = 'F.PW.ACTIVITY.TXN'
+    F.PW.ACTIVITY.TXN = ''
+    CALL OPF(FN.PW.ACTIVITY.TXN,F.PW.ACTIVITY.TXN)
+
+    FN.LD.LOANS.AND.DEPOSITS = 'F.LD.LOANS.AND.DEPOSITS'
+    F.LD.LOANS.AND.DEPOSITS = ''
+    CALL OPF(FN.LD.LOANS.AND.DEPOSITS,F.LD.LOANS.AND.DEPOSITS)
+
+    FN.LD.HIS= 'F.LD.LOANS.AND.DEPOSITS$HIS'
+    F.LD.HIS=''
+    CALL OPF(FN.LD.HIS,F.LD.HIS)
+
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+    CALL OPF (FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+
+    FN.IS.H.PRODUCTS = 'F.IS.H.PRODUCTS'
+    F.IS.H.PRODUCTS = ''
+    CALL OPF(FN.IS.H.PRODUCTS,F.IS.H.PRODUCTS)
+
+    RETURN
+
+*----------------------------------------------------------------------------
+PREPARE.CONDITION:
+*    DEBUG
+
+    LOCATE "COMPLETION.DATE" IN D.FIELDS<1> SETTING COMPLETION.DATE.POS THEN
+        COMPLETION.DATE = D.RANGE.AND.VALUE<COMPLETION.DATE.POS>
+    END
+
+    CONDITION=""
+
+    IF COMPLETION.DATE THEN
+        CONDITION:=" COMPLETION.DATE GE ":COMPLETION.DATE
+    END
+
+    RETURN
+*-----------------------------------------------------------------------------
+PROCESS:
+*-------
+*ZIT-UPG-R13-R19 /S
+YAPPLICATION.NAME = 'LD.LOANS.AND.DEPOSITS'
+YFIELD.NAME ='LOAN.TYPE'
+LREF.POS = ''
+CALL MULTI.GET.LOC.REF(YAPPLICATION.NAME, YFIELD.NAME, LREF.POS)
+POS1 = LREF.POS<1,1>
+*ZIT-UPG-R13-R19 /E
+
+    IF CONDITION THEN
+        SELECT.STATEMENT = 'SELECT ':FN.PW.ACTIVITY.TXN:' WITH ACTIVITY EQ AUTHORISE.IS.CONTRAT BZISB.AUTHCONTRAT AUTHORISE.IS.IJA.CONTRAT AND WITH ' :CONDITION
+    END ELSE
+        SELECT.STATEMENT = 'SELECT ':FN.PW.ACTIVITY.TXN:' WITH ACTIVITY EQ AUTHORISE.IS.CONTRAT BZISB.AUTHCONTRAT AUTHORISE.IS.IJA.CONTRAT'
+    END
+
+    PW.ACTIVITY.TXN.LIST = ''
+    LIST.NAME = ''
+    SELECTED = ''
+    SYSTEM.FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRef'
+    CALLEB.SystemTables.setE()*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R13-R19  : MULTI.GET.LOC.REF HAS INCLUDED FOR THE LOCAL FIELD 'LOAN.TYPE'
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+	SUBROUTINE BZ.LIST.FIN.DEBLOQUES(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-----------------------------------------------------------------------------
+** List des dossiers de financement debloques
+** Author Fahmi Abdeltif <fahmi.abdeltif@banquezitouna.coml> le 14/05/2019
+*-----------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_SCREEN.VARIABLES
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.PW.ACTIVITY.TXN
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.IS.H.PRODUCTS
+
+*-----------------------------------------------------------------------------
+
+    GOSUB INITIALIZE
+    GOSUB PREPARE.CONDITION
+    GOSUB PROCESS
+
+*-----------------------------------------------------------------------------
+INITIALIZE:
+*---------
+    FN.CUSTOMER = 'F.CUSTOMER'
+    F.CUSTOMER = ''
+    CALL OPF(FN.CUSTOMER,F.CUSTOMER)
+
+    FN.PW.ACTIVITY.TXN = 'F.PW.ACTIVITY.TXN'
+    F.PW.ACTIVITY.TXN = ''
+    CALL OPF(FN.PW.ACTIVITY.TXN,F.PW.ACTIVITY.TXN)
+
+    FN.LD.LOANS.AND.DEPOSITS = 'F.LD.LOANS.AND.DEPOSITS'
+    F.LD.LOANS.AND.DEPOSITS = ''
+    CALL OPF(FN.LD.LOANS.AND.DEPOSITS,F.LD.LOANS.AND.DEPOSITS)
+
+    FN.LD.HIS= 'F.LD.LOANS.AND.DEPOSITS$HIS'
+    F.LD.HIS=''
+    CALL OPF(FN.LD.HIS,F.LD.HIS)
+
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+    CALL OPF (FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+
+    FN.IS.H.PRODUCTS = 'F.IS.H.PRODUCTS'
+    F.IS.H.PRODUCTS = ''
+    CALL OPF(FN.IS.H.PRODUCTS,F.IS.H.PRODUCTS)
+
+    RETURN
+
+*----------------------------------------------------------------------------
+PREPARE.CONDITION:
+*    DEBUG
+
+    LOCATE "COMPLETION.DATE" IN D.FIELDS<1> SETTING COMPLETION.DATE.POS THEN
+        COMPLETION.DATE = D.RANGE.AND.VALUE<COMPLETION.DATE.POS>
+    END
+
+    CONDITION=""
+
+    IF COMPLETION.DATE THEN
+        CONDITION:=" COMPLETION.DATE GE ":COMPLETION.DATE
+    END
+
+    RETURN
+*-----------------------------------------------------------------------------
+PROCESS:
+*-------
+*ZIT-UPG-R13-R19 /S
+YAPPLICATION.NAME = 'LD.LOANS.AND.DEPOSITS'
+YFIELD.NAME ='LOAN.TYPE'
+LREF.POS = ''
+CALL MULTI.GET.LOC.REF(YAPPLICATION.NAME, YFIELD.NAME, LREF.POS)
+POS1 = LREF.POS<1,1>
+*ZIT-UPG-R13-R19 /E
+
+    IF CONDITION THEN
+        SELECT.STATEMENT = 'SELECT ':FN.PW.ACTIVITY.TXN:' WITH ACTIVITY EQ AUTHORISE.IS.CONTRAT BZISB.AUTHCONTRAT AUTHORISE.IS.IJA.CONTRAT AND WITH ' :CONDITION
+    END ELSE
+        SELECT.STATEMENT = 'SELECT ':FN.PW.ACTIVITY.TXN:' WITH ACTIVITY EQ AUTHORISE.IS.CONTRAT BZISB.AUTHCONTRAT AUTHORISE.IS.IJA.CONTRAT'
+    END
+
+    PW.ACTIVITY.TXN.LIST = ''
+    LIST.NAME = ''
+    SELECTED = ''
+    SYSTEM.RETURN.CODE = ''
+    CALL EB.READLIST(SELECT.STATEMENT,PW.ACTIVITY.TXN.LIST,LIST.NAME,SELECTED,SYSTEM.RETURN.CODE)
+    LOOP
+        REMOVE PW.ACTIVITY.TXN.LIST.ID FROM PW.ACTIVITY.TXN.LIST SETTING PW.ACTIVITY.TXN.LIST.MARK
+    WHILE PW.ACTIVITY.TXN.LIST.ID : PW.ACTIVITY.TXN.LIST.MARK
+        R.PW.ACTIVITY.TXN = ''
+        YERR = ''
+        CALL F.READ(FN.PW.ACTIVITY.TXN,PW.ACTIVITY.TXN.LIST.ID,R.PW.ACTIVITY.TXN,F.PW.ACTIVITY.TXN,YERR)
+        Y.REF.TRANSACTION = R.PW.ACTIVITY.TXN<PW.ACT.TXN.TRANSACTION.REF>
+        Y.PROCESS = R.PW.ACTIVITY.TXN<PW.ACT.TXN.PROCESS>
+        Y.COMPLETION.DATE=R.PW.ACTIVITY.TXN<PW.ACT.TXN.COMPLETION.DATE>
+
+        R.LD.LOANS.AND.DEPOSITS = ''
+        YERR = ''
+        CALL F.READ(FN.LD.LOANS.AND.DEPOSITS,Y.REF.TRANSACTION,R.LD.LOANS.AND.DEPOSITS,F.LD.LOANS.AND.DEPOSITS,YERR)
+
+        Y.CUSTOMER.ID = R.LD.LOANS.AND.DEPOSITS<LD.CUSTOMER.ID>
+        Y.CURRENCY = R.LD.LOANS.AND.DEPOSITS<LD.CURRENCY>
+        Y.CATEGORY = R.LD.LOANS.AND.DEPOSITS<LD.CATEGORY>
+        Y.LOAN.TYPE = R.LD.LOANS.AND.DEPOSITS<LD.LOCAL.REF,POS1> *CHANGED
+        Y.DRAWDOWN.AMOUNT = R.LD.LOANS.AND.DEPOSITS<LD.DRAWDOWN.NET.AMT>
+        Y.AMOUNT = R.LD.LOANS.AND.DEPOSITS<LD.AMOUNT>
+        Y.VALUE.DATE = R.LD.LOANS.AND.DEPOSITS<LD.VALUE.DATE>
+        Y.FIN.MAT.DATE = R.LD.LOANS.AND.DEPOSITS<LD.FIN.MAT.DATE>
+        Y.INTEREST.RATE = R.LD.LOANS.AND.DEPOSITS<LD.INTEREST.RATE>
+        Y.MIS.ACCT.OFFICER = R.LD.LOANS.AND.DEPOSITS<LD.MIS.ACCT.OFFICER>
+
+
+        IF YERR THEN
+            Y.REF.TRANSACTION.2=Y.REF.TRANSACTION:';1'
+            CALL F.READ(FN.LD.HIS,Y.REF.TRANSACTION.2,R.LD.HIS,F.LD.HIS,YERR.2)
+            IF YERR.2 THEN
+*                CRT YERR.2
+            END ELSE
+
+                Y.CUSTOMER.ID = R.LD.HIS<LD.CUSTOMER.ID>
+                Y.CURRENCY = R.LD.HIS<LD.CURRENCY>
+                Y.CATEGORY = R.LD.HIS<LD.CATEGORY>
+                Y.LOAN.TYPE = R.LD.HIS<LD.LOCAL.REF,POS1>  *CHANGED
+                Y.DRAWDOWN.AMOUNT = R.LD.HIS<LD.DRAWDOWN.NET.AMT>
+                Y.AMOUNT = R.LD.HIS<LD.AMOUNT>
+                Y.VALUE.DATE = R.LD.HIS<LD.VALUE.DATE>
+                Y.FIN.MAT.DATE = R.LD.HIS<LD.FIN.MAT.DATE>
+                Y.INTEREST.RATE = R.LD.HIS<LD.INTEREST.RATE>
+                Y.MIS.ACCT.OFFICER = R.LD.HIS<LD.MIS.ACCT.OFFICER>
+            END
+        END
+
+        R.IS.H.PRODUCTS = ''
+        YERR = ''
+        CALL F.READ(FN.IS.H.PRODUCTS,Y.LOAN.TYPE,R.IS.H.PRODUCTS,F.IS.H.PRODUCTS,YERR)
+        Y.LOAN.DESC = R.IS.H.PRODUCTS<IS.PROD.DESCRIPTION>
+
+        R.DEPT.ACCT.OFFICER = ''
+        YERR = ''
+        CALL F.READ(FN.DEPT.ACCT.OFFICER,Y.MIS.ACCT.OFFICER,R.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER,YERR)
+        Y.DAO.NAME = R.DEPT.ACCT.OFFICER<EB.DAO.NAME>
+
+        R.CUSTOMER = ''
+        YERR = ''
+        CALL F.READ(FN.CUSTOMER,Y.CUSTOMER.ID,R.CUSTOMER,F.CUSTOMER,YERR)
+        Y.CUS.NAME.1 = R.CUSTOMER<EB.CUS.NAME.1>
+
+
+
+        TABLEAU<-1>=Y.REF.TRANSACTION:'*':Y.PROCESS:'*':Y.CUSTOMER.ID:'*':Y.CUS.NAME.1:'*':Y.CURRENCY:'*':Y.CATEGORY:'*':Y.LOAN.DESC:'*':Y.DRAWDOWN.AMOUNT:'*':Y.AMOUNT:'*':Y.VALUE.DATE:'*':Y.FIN.MAT.DATE:'*':Y.COMPLETION.DATE:'*':Y.INTEREST.RATE:'*':Y.MIS.ACCT.OFFICER:'*':Y.DAO.NAME
+
+    REPEAT
+
+
+    RETURN
+END

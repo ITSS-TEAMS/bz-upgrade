@@ -1,0 +1,23 @@
+public table TnaMonetiqueProtocole {
+    t24:  TNA.MONETIQUE.PROTOCOLE
+    fields:{
+        TnaMonetiqueProtocolePrgCardProdFile(MONETI.PRG.CARD.PROD.FILE)=1
+        TnaMonetiqueProtocoleCardProdName(MONETI.CARD.PROD.NAME)=2
+        TnaMonetiqueProtocolePrgCardUpdate(MONETI.PRG.CARD.UPDATE)=3
+        TnaMonetiqueProtocoleCardUpdateNameF(MONETI.CARD.UPDATE.NAME.F)=4
+        TnaMonetiqueProtocoleCardUpdateNameP(MONETI.CARD.UPDATE.NAME.P)=5
+        TnaMonetiqueProtocoleGenCardNumber(MONETI.GEN.CARD.NUMBER)=6
+        TnaMonetiqueProtocoleCardRenew(MONETI.CARD.RENEW)=7
+        TnaMonetiqueProtocoleLocalRef(MONETI.LOCAL.REF)=8
+        TnaMonetiqueProtocoleOverride(MONETI.OVERRIDE)=9
+        TnaMonetiqueProtocoleRecordStatus(MONETI.RECORD.STATUS)=10
+        TnaMonetiqueProtocoleCurrNo(MONETI.CURR.NO)=11
+        TnaMonetiqueProtocoleInputter(MONETI.INPUTTER)=12
+        TnaMonetiqueProtocoleDateTime(MONETI.DATE.TIME)=13
+        TnaMonetiqueProtocoleAuthoriser(MONETI.AUTHORISER)=14
+        TnaMonetiqueProtocoleCoCode(MONETI.CO.CODE)=15
+        TnaMonetiqueProtocoleDeptCode(MONETI.DEPT.CODE)=16
+        TnaMonetiqueProtocoleAuditorCode(MONETI.AUDITOR.CODE)=17
+        TnaMonetiqueProtocoleAuditDateTime(MONETI.AUDIT.DATE.TIME)=18
+    }
+}

@@ -1,0 +1,26 @@
+public table BzFichierChrg {
+    t24:  BZ.FICHIER.CHRG
+    fields:{
+        BzFichierChrgDescription(FICH.DESCRIPTION)=1
+        BzFichierChrgSystem(FICH.SYSTEM)=2
+        BzFichierChrgStructure(FICH.STRUCTURE)=3
+        BzFichierChrgFichier(FICH.FICHIER)=4
+        BzFichierChrgStatut(FICH.STATUT)=5
+        BzFichierChrgDateChargement(FICH.DATE.CHARGEMENT)=6
+        BzFichierChrgReserved1(FICH.RESERVED1)=7
+        BzFichierChrgReserved2(FICH.RESERVED2)=8
+        BzFichierChrgReserved3(FICH.RESERVED3)=9
+        BzFichierChrgReserved4(FICH.RESERVED4)=10
+        BzFichierChrgReserved5(FICH.RESERVED5)=11
+        BzFichierChrgOverride(FICH.OVERRIDE)=12
+        BzFichierChrgRecordStatus(FICH.RECORD.STATUS)=13
+        BzFichierChrgCurrNo(FICH.CURR.NO)=14
+        BzFichierChrgInputter(FICH.INPUTTER)=15
+        BzFichierChrgDateTime(FICH.DATE.TIME)=16
+        BzFichierChrgAuthoriser(FICH.AUTHORISER)=17
+        BzFichierChrgCoCode(FICH.CO.CODE)=18
+        BzFichierChrgDeptCode(FICH.DEPT.CODE)=19
+        BzFichierChrgAuditorCode(FICH.AUDITOR.CODE)=20
+        BzFichierChrgAuditDateTime(FICH.AUDIT.DATE.TIME)=21
+    }
+}

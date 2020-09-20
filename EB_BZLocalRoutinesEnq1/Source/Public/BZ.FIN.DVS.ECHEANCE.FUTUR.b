@@ -1,0 +1,372 @@
+*-----------------------------------------------------------------------------
+* <Rating>728</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.FIN.DVS.ECHEANCE.FUTUR(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;FM TO @FM
+********************************************************
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.STMT.ENTRY
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.LMM.ACCOUNT.BALANCES
+MAIN:
+
+
+    GOSUB INIT
+    GOSUB PREPARE.CONDITION
+    GOSUB PROCESS
+    RETURN
+
+INIT:
+    NBR.JOURS=""
+* $INSERT I_EQUATE - Not Used anymore;S.AND.DEPOSITS"
+    F.LD=""
+    FN.STMT="F.STMT.ENTRY"
+    F.STMT=""
+    FN.FWD="F.ACCT.TRANS.FWD"
+    F.FWD=""
+	FWD.REC=""
+	ERR.FWD=""
+	
+    FN.LMM.ACCOUNT.BALANCES = "F.LMM.ACCOUNT.BALANCES"
+    F.LMM.ACCOUNT.BALANCES = ""
+	R.LM=""
+	LM.ERR1=""
+	
+    Y.CONDITION=""
+
+    COMPEB.SystemTables.getVFunction()    DATE.DEBUT = TODAY
+    DATE.FIN = TOFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusDT('',DATE.FIN, '+02W')
+
+
+    LOCATE "REF.LFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus SETTING REF.LD.POS THEN
+        REF.LD = D.RANGE.AND.VALUE<REF.LD.POS>
+    END
+
+    LOCATE "ID.CLIENT" IN D.FIELDS<1> SETTING ID.CLIENT.POS THEN
+        ID.CLIENT = D.RANGE.AND.VALUE<ID.CLIENT.POS>
+    END
+
+    LOCATE "LOAN.TYPE" IN D.FIELDS<1> SETTING LOAN.TYPE.POS THEN
+        LOAN.TYPE= D.RANGE.AND.VALUE<LOAN.TYPE.POS>
+    END
+
+    LOCATE "AGENCE" IN D.FIELDS<1> SETTING AGENCE.POS THEN
+        AGENCE = D.RANGE.AND.VALUE<AGENCE.POS>
+    END
+
+    CALL OPF(FN.LD,F.LD)
+    CALL OPF(FN.STMT,F.STMT)
+    CALL OPF(FN.FWD,F.FWD)
+    CALL OPF(FN.LMM.ACCOUNT.BALANCES,F.LMM.ACCOUNT.BALANCES)
+
+
+    EB.EB.DataAccess.OpfaAccess.OpfENQ.INT.I
+
+    RETURN
+
+PROCESS:
+
+	LD.IDS=''
+	LEB.DataAFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRef
+	LD.ERR0R=''
+    SQL.LD = "SELECT " : FN.LD : Y.CONDITION
+
+    CALL EB.READLIST(SQL.LD EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerNT,LD.ERROR)
+
+	SQL.EB.SystemTables.setE('')
+	SQL.CMD.COUNT=''
+	SQL.CMD.ERROEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerS THEN
+        FOR LD.SEEB.DataAccess.FWrite= 1 TO LD.COUNT
+            REMOVE LD.ID FROM LD.IDS SETTING LD.POS
+
+            SQL.CMD = "SELECT ":FN.FWD:" WITH @ID LIKE '...":LD.ID:"...'"
+        EB.SystemTables.setAf()*-----------------------------------------------------------------------------
+* <Rating>728</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.FIN.DVS.ECHEANCE.FUTUR(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;FM TO @FM
+********************************************************
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.STMT.ENTRY
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.LMM.ACCOUNT.BALANCES
+MAIN:
+
+
+    GOSUB INIT
+    GOSUB PREPARE.CONDITION
+    GOSUB PROCESS
+    RETURN
+
+INIT:
+    NBR.JOURS=""
+    FN.LD="F.LD.LOANS.AND.DEPOSITS"
+    F.LD=""
+    FN.STMT="F.STMT.ENTRY"
+    F.STMT=""
+    FN.FWD="F.ACCT.TRANS.FWD"
+    F.FWD=""
+	FWD.REC=""
+	ERR.FWD=""
+	
+    FN.LMM.ACCOUNT.BALANCES = "F.LMM.ACCOUNT.BALANCES"
+    F.LMM.ACCOUNT.BALANCES = ""
+	R.LM=""
+	LM.ERR1=""
+	
+    Y.CONDITION=""
+
+    COMPTEUR=0
+
+    DATE.DEBUT = TODAY
+    DATE.FIN = TODAY
+
+    CALL CDT('',DATE.FIN, '+02W')
+
+
+    LOCATE "REF.LD" IN D.FIELDS<1> SETTING REF.LD.POS THEN
+        REF.LD = D.RANGE.AND.VALUE<REF.LD.POS>
+    END
+
+    LOCATE "ID.CLIENT" IN D.FIELDS<1> SETTING ID.CLIENT.POS THEN
+        ID.CLIENT = D.RANGE.AND.VALUE<ID.CLIENT.POS>
+    END
+
+    LOCATE "LOAN.TYPE" IN D.FIELDS<1> SETTING LOAN.TYPE.POS THEN
+        LOAN.TYPE= D.RANGE.AND.VALUE<LOAN.TYPE.POS>
+    END
+
+    LOCATE "AGENCE" IN D.FIELDS<1> SETTING AGENCE.POS THEN
+        AGENCE = D.RANGE.AND.VALUE<AGENCE.POS>
+    END
+
+    CALL OPF(FN.LD,F.LD)
+    CALL OPF(FN.STMT,F.STMT)
+    CALL OPF(FN.FWD,F.FWD)
+    CALL OPF(FN.LMM.ACCOUNT.BALANCES,F.LMM.ACCOUNT.BALANCES)
+
+
+    CALL LD.ENQ.INT.I
+
+    RETURN
+
+PROCESS:
+
+	LD.IDS=''
+	LD.COUNT=''
+	LD.ERR0R=''
+    SQL.LD = "SELECT " : FN.LD : Y.CONDITION
+
+    CALL EB.READLIST(SQL.LD , LD.IDS,'',LD.COUNT,LD.ERROR)
+
+	SQL.CMD.IDS=''
+	SQL.CMD.COUNT=''
+	SQL.CMD.ERROR=''
+    IF LD.IDS THEN
+        FOR LD.SEQUENCE = 1 TO LD.COUNT
+            REMOVE LD.ID FROM LD.IDS SETTING LD.POS
+
+            SQL.CMD = "SELECT ":FN.FWD:" WITH @ID LIKE '...":LD.ID:"...'"
+           FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefST(SQL.CMD , SQL.CMD.IDS,'',SQL.CMD.COUNT,SQL.CMD.ERROR)
+
+      EB.SystemTables.setE()*-----------------------------------------------------------------------------
+* <Rating>728</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.FIN.DVS.ECHEANCE.FUTUR(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;FM TO @FM
+********************************************************
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.STMT.ENTRY
+    $INSERT I_F.LD.LOANS.AND.DEPOSITS
+    $INSERT I_F.LMM.ACCOUNT.BALANCES
+MAIN:
+
+
+    GOSUB INIT
+    GOSUB PREPARE.CONDITION
+    GOSUB PROCESS
+    RETURN
+
+INIT:
+    NBR.JOURS=""
+    FN.LD="F.LD.LOANS.AND.DEPOSITS"
+    F.LD=""
+    FN.STMT="F.STMT.ENTRY"
+    F.STMT=""
+    FN.FWD="F.ACCT.TRANS.FWD"
+    F.FWD=""
+	FWD.REC=""
+	ERR.FWD=""
+	
+    FN.LMM.ACCOUNT.BALANCES = "F.LMM.ACCOUNT.BALANCES"
+    F.LMM.ACCOUNT.BALANCES = ""
+	R.LM=""
+	LM.ERR1=""
+	
+    Y.CONDITION=""
+
+    COMPTEUR=0
+
+    DATE.DEBUT = TODAY
+    DATE.FIN = TODAY
+
+    CALL CDT('',DATE.FIN, '+02W')
+
+
+    LOCATE "REF.LD" IN D.FIELDS<1> SETTING REF.LD.POS THEN
+        REF.LD = D.RANGE.AND.VALUE<REF.LD.POS>
+    END
+
+    LOCATE "ID.CLIENT" IN D.FIELDS<1> SETTING ID.CLIENT.POS THEN
+        ID.CLIENT = D.RANGE.AND.VALUE<ID.CLIENT.POS>
+    END
+
+    LOCATE "LOAN.TYPE" IN D.FIELDS<1> SETTING LOAN.TYPE.POS THEN
+        LOAN.TYPE= D.RANGE.AND.VALUE<LOAN.TYPE.POS>
+    END
+
+    LOCATE "AGENCE" IN D.FIELDS<1> SETTING AGENCE.POS THEN
+        AGENCE = D.RANGE.AND.VALUE<AGENCE.POS>
+    END
+
+    CALL OPF(FN.LD,F.LD)
+    CALL OPF(FN.STMT,F.STMT)
+    CALL OPF(FN.FWD,F.FWD)
+    CALL OPF(FN.LMM.ACCOUNT.BALANCES,F.LMM.ACCOUNT.BALANCES)
+
+
+    CALL LD.ENQ.INT.I
+
+    RETURN
+
+PROCESS:
+
+	LD.IDS=''
+	LD.COUNT=''
+	LD.ERR0R=''
+    SQL.LD = "SELECT " : FN.LD : Y.CONDITION
+
+    CALL EB.READLIST(SQL.LD , LD.IDS,'',LD.COUNT,LD.ERROR)
+
+	SQL.CMD.IDS=''
+	SQL.CMD.COUNT=''
+	SQL.CMD.ERROR=''
+    IF LD.IDS THEN
+        FOR LD.SEQUENCE = 1 TO LD.COUNT
+            REMOVE LD.ID FROM LD.IDS SETTING LD.POS
+
+            SQL.CMD = "SELECT ":FN.FWD:" WITH @ID LIKE '...":LD.ID:"...'"
+            CALL EB.READLIST(SQL.CMD , SQL.CMD.IDS,'',SQL.CMD.COUNT,SQL.CMD.ERROR)
+
+            IF SQL.CMD.IDS THEN
+
+**********
+                LD.ID = LD.ID[1,12]:"00"
+
+
+                CALL F.READ(FN.LMM.ACCOUNT.BALANCES,LD.ID,R.LM,F.LMM.ACCOUNT.BALANCES,LM.ERR1)
+
+                ID =  LD.ID
+                CALL E.LD.SCHED.LIST
+
+**********
+                FOR COMPTEUR.FWD = 1 TO SQL.CMD.COUNT
+                    MONTANT.COM=0
+                    MONTANT.PRINCIPAL=0
+                    MONTANT.ECHEANCE=0
+                    MONTANT.PROFIT=0
+
+                    CALL F.READ(FN.FWD,LMM.ID,FWD.REC, F.FWD, ERR.FWD)
+                    NOMBRE.ECHEANCE=DCOUNT(FWD.REC,@FM)
+
+                    DATE.TOMBE = R.RECORD<15,COMPTEUR.FWD>
+                    MONTANT.PRINCIPAL = R.RECORD<17,COMPTEUR.FWD>
+                    MONTANT.PROFIT = R.RECORD<16,COMPTEUR.FWD>
+                    MONTANT.COM = R.RECORD<28,COMPTEUR.FWD>
+                    MONTANT.ECHEANCE = R.RECORD<18,COMPTEUR.FWD>
+
+                    IF (DATE.TOMBE LE DATE.FIN) AND (DATE.TOMBE GE DATE.DEBUT) THEN
+
+                        TABLEAU<-1>=LD.ID[1,12]:'*':MONTANT.PRINCIPAL:'*':MONTANT.COM:'*':MONTANT.PROFIT:'*':DATE.TOMBE:'*':MONTANT.ECHEANCE
+
+                    END ELSE
+                        BREAK
+                    END
+                NEXT COMPTEUR.FWD
+            END
+
+        NEXT LD.SEQUENCE
+    END
+
+    RETURN
+
+PREPARE.CONDITION:
+
+    IF REF.LD NE "" THEN
+        Y.CONDITION=" AND @ID EQ ":REF.LD
+    END
+
+    IF ID.CLIENT NE "" THEN
+        Y.CONDITION:=" AND CUSTOMER.ID EQ ":ID.CLIENT
+
+    END
+
+    IF LOAN.TYPE NE "" THEN
+        Y.CONDITION:=" AND LOAN.TYPE EQ ":LOAN.TYPE
+    END
+
+    IF AGENCE NE "" THEN
+        Y.CONDITION:=" AND MIS.ACCT.OFFICER EQ ":AGENCE
+    END
+
+
+    Y.CONDITION:=" AND CURRENCY NE TND "
+
+
+    IF Y.CONDITION NE "" THEN
+        Y.CONDITION=Y.CONDITION[5,200]
+        Y.CONDITION=" WITH ":Y.CONDITION
+    END
+
+    RETURN
+
+END

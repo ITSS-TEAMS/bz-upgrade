@@ -1,0 +1,11 @@
+public table BzIjLdSimActivity {
+    t24:  BZ.IJ.LD.SIM.ACTIVITY
+    fields:{
+        BzIjLdSimActivityInitOutsAmt(SIM.ACT.INIT.OUTS.AMT)=1
+        BzIjLdSimActivityGoodRef(SIM.ACT.GOOD.REF)=2
+        BzIjLdSimActivityActivity(SIM.ACT.ACTIVITY)=3
+        BzIjLdSimActivityPaymentAmount(SIM.ACT.PAYMENT.AMOUNT)=4
+        BzIjLdSimActivityContractStatus(SIM.ACT.CONTRACT.STATUS)=5
+        BzIjLdSimActivityTotOutsAmt(SIM.ACT.TOT.OUTS.AMT)=6
+    }
+}

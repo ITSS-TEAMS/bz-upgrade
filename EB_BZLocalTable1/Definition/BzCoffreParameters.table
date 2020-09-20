@@ -1,0 +1,16 @@
+public table BzCoffreParameters {
+        t24:  BZ.COFFRE.PARAMETERS
+        fields:{
+            BzCoffreParametersSector(CF.PARAM.SECTOR)=1
+            BzCoffreParametersOverride(CF.PARAM.OVERRIDE)=2
+            BzCoffreParametersRecordStatus(CF.PARAM.RECORD.STATUS)=3
+            BzCoffreParametersCurrNo(CF.PARAM.CURR.NO)=4
+            BzCoffreParametersInputter(CF.PARAM.INPUTTER)=5
+            BzCoffreParametersDateTime(CF.PARAM.DATE.TIME)=6
+            BzCoffreParametersAuthoriser(CF.PARAM.AUTHORISER)=7
+            BzCoffreParametersCoCode(CF.PARAM.CO.CODE)=8
+            BzCoffreParametersDeptCode(CF.PARAM.DEPT.CODE)=9
+            BzCoffreParametersAuditorCode(CF.PARAM.AUDITOR.CODE)=10
+            BzCoffreParametersAuditDateTime(CF.PARAM.AUDIT.DATE.TIME)=11
+        }
+    }

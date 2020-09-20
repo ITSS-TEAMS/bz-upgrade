@@ -1,0 +1,33 @@
+public table BzEtrSuiviFraisOur {
+        t24:  BZ.ETR.SUIVI.FRAIS.OUR
+        fields:{
+            BzEtrSuiviFraisOurRefOfs(ETR.OUR.REF.OFS)=1
+            BzEtrSuiviFraisOurOfsMessage(ETR.OUR.OFS.MESSAGE)=2
+            BzEtrSuiviFraisOurIdChg(ETR.OUR.ID.CHG)=3
+            BzEtrSuiviFraisOurErreurMsg(ETR.OUR.ERREUR.MSG)=4
+            BzEtrSuiviFraisOurDateOperation(ETR.OUR.DATE.OPERATION)=5
+            BzEtrSuiviFraisOurStatut(ETR.OUR.STATUT)=6
+            BzEtrSuiviFraisOurMontantReclame(ETR.OUR.MONTANT.RECLAME)=7
+            BzEtrSuiviFraisOurMontantRecu(ETR.OUR.MONTANT.RECU)=8
+            BzEtrSuiviFraisOurFichierRecu(ETR.OUR.FICHIER.RECU)=9
+            BzEtrSuiviFraisOurDateMatching(ETR.OUR.DATE.MATCHING)=10
+            BzEtrSuiviFraisOurRefCommission(ETR.OUR.REF.COMMISSION)=11
+            BzEtrSuiviFraisOurRefOfsPaid(ETR.OUR.REF.OFS.PAID)=12
+            BzEtrSuiviFraisOurCodeCommRecu(ETR.OUR.CODE.COMM.RECU)=13
+            BzEtrSuiviFraisOurMntCommRecu(ETR.OUR.MNT.COMM.RECU)=14
+            BzEtrSuiviFraisOurOfsMessagePaid(ETR.OUR.OFS.MESSAGE.PAID)=15
+            BzEtrSuiviFraisOurStatutPaid(ETR.OUR.STATUT.PAID)=16
+            BzEtrSuiviFraisOurIdChgPaid(ETR.OUR.ID.CHG.PAID)=17
+            BzEtrSuiviFraisOurConvention(ETR.OUR.CONVENTION)=18
+            BzEtrSuiviFraisOurOverride(ETR.OUR.OVERRIDE)=19
+            BzEtrSuiviFraisOurRecordStatus(ETR.OUR.RECORD.STATUS)=20
+            BzEtrSuiviFraisOurCurrNo(ETR.OUR.CURR.NO)=21
+            BzEtrSuiviFraisOurInputter(ETR.OUR.INPUTTER)=22
+            BzEtrSuiviFraisOurDateTime(ETR.OUR.DATE.TIME)=23
+            BzEtrSuiviFraisOurAuthoriser(ETR.OUR.AUTHORISER)=24
+            BzEtrSuiviFraisOurCoCode(ETR.OUR.CO.CODE)=25
+            BzEtrSuiviFraisOurDeptCode(ETR.OUR.DEPT.CODE)=26
+            BzEtrSuiviFraisOurAuditorCode(ETR.OUR.AUDITOR.CODE)=27
+            BzEtrSuiviFraisOurAuditDateTime(ETR.OUR.AUDIT.DATE.TIME)=28
+        }
+    }

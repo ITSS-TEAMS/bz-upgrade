@@ -1,0 +1,21 @@
+public table BzDeFormatAdvice {
+        t24:  BZ.DE.FORMAT.ADVICE
+        fields:{
+            BzDeFormatAdviceDescription(DE.FOR.DESCRIPTION)=1
+            BzDeFormatAdviceZone(DE.FOR.ZONE)=2
+            BzDeFormatAdviceLibelle(DE.FOR.LIBELLE)=3
+            BzDeFormatAdviceMandatory(DE.FOR.MANDATORY)=4
+            BzDeFormatAdviceFormat(DE.FOR.FORMAT)=5
+            BzDeFormatAdviceRoutine(DE.FOR.ROUTINE)=6
+            BzDeFormatAdviceOverride(DE.FOR.OVERRIDE)=7
+            BzDeFormatAdviceRecordStatus(DE.FOR.RECORD.STATUS)=8
+            BzDeFormatAdviceCurrNo(DE.FOR.CURR.NO)=9
+            BzDeFormatAdviceInputter(DE.FOR.INPUTTER)=10
+            BzDeFormatAdviceDateTime(DE.FOR.DATE.TIME)=11
+            BzDeFormatAdviceAuthoriser(DE.FOR.AUTHORISER)=12
+            BzDeFormatAdviceCoCode(DE.FOR.CO.CODE)=13
+            BzDeFormatAdviceDeptCode(DE.FOR.DEPT.CODE)=14
+            BzDeFormatAdviceAuditorCode(DE.FOR.AUDITOR.CODE)=15
+            BzDeFormatAdviceAuditDateTime(DE.FOR.AUDIT.DATE.TIME)=16
+        }
+    }

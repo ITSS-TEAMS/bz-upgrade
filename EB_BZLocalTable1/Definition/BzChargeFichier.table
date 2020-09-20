@@ -1,0 +1,31 @@
+public table BzChargeFichier {
+    t24:  BZ.CHARGE.FICHIER
+    fields:{
+        BzChargeFichierDescription(FICH.CHARG.DESCRIPTION)=1
+        BzChargeFichierSystem(FICH.CHARG.SYSTEM)=2
+        BzChargeFichierStructure(FICH.CHARG.STRUCTURE)=3
+        BzChargeFichierFichier(FICH.CHARG.FICHIER)=4
+        BzChargeFichierStatut(FICH.CHARG.STATUT)=5
+        BzChargeFichierDateChargement(FICH.CHARG.DATE.CHARGEMENT)=6
+        BzChargeFichierReserved1(FICH.CHARG.RESERVED1)=7
+        BzChargeFichierReserved2(FICH.CHARG.RESERVED2)=8
+        BzChargeFichierReserved3(FICH.CHARG.RESERVED3)=9
+        BzChargeFichierReserved4(FICH.CHARG.RESERVED4)=10
+        BzChargeFichierReserved5(FICH.CHARG.RESERVED5)=11
+        BzChargeFichierReserved6(FICH.CHARG.RESERVED6)=12
+        BzChargeFichierReserved7(FICH.CHARG.RESERVED7)=13
+        BzChargeFichierReserved8(FICH.CHARG.RESERVED8)=14
+        BzChargeFichierReserved9(FICH.CHARG.RESERVED9)=15
+        BzChargeFichierReserved10(FICH.CHARG.RESERVED10)=16
+        BzChargeFichierOverride(FICH.CHARG.OVERRIDE)=17
+        BzChargeFichierRecordStatus(FICH.CHARG.RECORD.STATUS)=18
+        BzChargeFichierCurrNo(FICH.CHARG.CURR.NO)=19
+        BzChargeFichierInputter(FICH.CHARG.INPUTTER)=20
+        BzChargeFichierDateTime(FICH.CHARG.DATE.TIME)=21
+        BzChargeFichierAuthoriser(FICH.CHARG.AUTHORISER)=22
+        BzChargeFichierCoCode(FICH.CHARG.CO.CODE)=23
+        BzChargeFichierDeptCode(FICH.CHARG.DEPT.CODE)=24
+        BzChargeFichierAuditorCode(FICH.CHARG.AUDITOR.CODE)=25
+        BzChargeFichierAuditDateTime(FICH.CHARG.AUDIT.DATE.TIME)=26
+    }
+}

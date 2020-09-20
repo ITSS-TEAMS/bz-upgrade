@@ -1,0 +1,25 @@
+public table BzTtDab {
+    t24:  BZ.TT.DAB
+    fields:{
+        BzTtDabDescription(DAB.DESCRIPTION)=1
+        BzTtDabAdresse(DAB.ADRESSE)=2
+        BzTtDabContact(DAB.CONTACT)=3
+        BzTtDabConstructeur(DAB.CONSTRUCTEUR)=4
+        BzTtDabModele(DAB.MODELE)=5
+        BzTtDabUniteGestion(DAB.UNITE.GESTION)=6
+        BzTtDabCompteDab(DAB.COMPTE.DAB)=7
+        BzTtDabTypeGab(DAB.TYPE.GAB)=8
+        BzTtDabCompteGab(DAB.COMPTE.GAB)=9
+        BzTtDabLocalRef(DAB.LOCAL.REF)=10
+        BzTtDabOverride(DAB.OVERRIDE)=11
+        BzTtDabRecordStatus(DAB.RECORD.STATUS)=12
+        BzTtDabCurrNo(DAB.CURR.NO)=13
+        BzTtDabInputter(DAB.INPUTTER)=14
+        BzTtDabDateTime(DAB.DATE.TIME)=15
+        BzTtDabAuthoriser(DAB.AUTHORISER)=16
+        BzTtDabCoCode(DAB.CO.CODE)=17
+        BzTtDabDeptCode(DAB.DEPT.CODE)=18
+        BzTtDabAuditorCode(DAB.AUDITOR.CODE)=19
+        BzTtDabAuditDateTime(DAB.AUDIT.DATE.TIME)=20
+    }
+}

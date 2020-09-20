@@ -1,0 +1,39 @@
+public table CecHoliday {
+t24:  CEC.HOLIDAY
+fields:{
+        CecHolidayJanuary(CEC.HOL.JANUARY)=1
+        CecHolidayFebruary(CEC.HOL.FEBRUARY)=2
+        CecHolidayMarch(CEC.HOL.MARCH)=3
+        CecHolidayApril(CEC.HOL.APRIL)=4
+        CecHolidayMay(CEC.HOL.MAY)=5
+        CecHolidayJune(CEC.HOL.JUNE)=6
+        CecHolidayJuly(CEC.HOL.JULY)=7
+        CecHolidayAugust(CEC.HOL.AUGUST)=8
+        CecHolidaySeptember(CEC.HOL.SEPTEMBER)=9
+		CecHolidayOctober(CEC.HOL.OCTOBER)=10
+		CecHolidayNovember(CEC.HOL.NOVEMBER)=11        
+		CecHolidayDecember(CEC.HOL.DECEMBER)=12 
+		CecHolidayWeekendDays(CEC.HOL.WEEKEND.DAYS)=13    
+		CecHolidayMth01Table(CEC.HOL.MTH.01.TABLE)=14 
+		CecHolidayMth02Table(CEC.HOL.MTH.02.TABLE)=15    
+		CecHolidayMth03Table(CEC.HOL.MTH.03.TABLE)=16 
+		CecHolidayMth04Table(CEC.HOL.MTH.04.TABLE)=17    
+		CecHolidayMth05Table(CEC.HOL.MTH.05.TABLE)=18 
+		CecHolidayMth06Table(CEC.HOL.MTH.06.TABLE)=19    
+		CecHolidayMth07Table(CEC.HOL.MTH.07.TABLE)=20 
+		CecHolidayMth08Table(CEC.HOL.MTH.08.TABLE)=21    
+		CecHolidayMth09Table(CEC.HOL.MTH.09.TABLE)=22 
+		CecHolidayMth10Table(CEC.HOL.MTH.10.TABLE)=23    
+		CecHolidayMth11Table(CEC.HOL.MTH.11.TABLE)=24 
+		CecHolidayMth12Table(CEC.HOL.MTH.12.TABLE)=25   
+		CecHolidayRecordStatus(CEC.HOL.RECORD.STATUS)=26 
+        CecHolidayCurrNo(CEC.HOL.CURR.NO)=27        
+		CecHolidayInputter(CEC.HOL.INPUTTER)=28 
+        CecHolidayDateTime(CEC.HOL.DATE.TIME)=29      
+	    CecHolidayAuthoriser(CEC.HOL.AUTHORISER)=30 
+        CecHolidayCoCode(CEC.HOL.CO.CODE)=31       
+		CecHolidayDeptCode(CEC.HOL.DEPT.CODE)=32 
+        CecHolidayAuditorCode(CEC.HOL.AUDITOR.CODE)=33 
+        CecHolidayAuditDateTime(CEC.HOL.AUDIT.DATE.TIME)=34
+}
+}

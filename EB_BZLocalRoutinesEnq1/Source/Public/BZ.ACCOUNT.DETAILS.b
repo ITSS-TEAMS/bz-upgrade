@@ -1,0 +1,494 @@
+*-------------------------------------------------------------------------------
+* @author Fahmi.abdeltif@banquezitouna.com 24/09/2019
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.ACCOUNT.DETAILS
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19- REPLACED AC.ONLINE.ACTUAL.BAL WITH ECB.ONLINE.ACTUAL.BAL;GET.LOC.REF-MULTI.GET.LOC.REF;INITIALISE F.READ VARIABLES.
+*           	-STOP REPLACED BY FATAL.ERROR AND CRT WITH OCOMO
+********************************************************
+    $INSERT I_COMMON
+	$INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.POSTING.RESTRICT
+    $INSERT I_F.INDUSTRY
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.SECTOR
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CATEGORY
+
+	$INSERT I_F.EB.CONTRACT.BALANCES  ;*ADDED
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+    RETURN
+***************************************
+INIT:
+
+
+    FN.CUS="F.CUSTOMER"
+    F.CUS=""
+	R.CUS=''
+	CUS.ERR=''
+	
+    FN.POS="F.POSTING.RESTRICT"
+    F.POS=""
+	R.POS=""
+	EB.SystemTables.getVFunction()
+	
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.AFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus F.DEPT.ACCT.OFFICER = ''
+	R.DAO=''
+	Y.ERR='FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusOR = 'F.SECTOR'
+    F.SECTOR = ''
+	R.SECTOR=''
+	SECTOR.ERR=''
+	
+    FN.INDUSTRY = 'F.INDUSTRY'
+    F.INDUSTRY = ''
+
+    FN.ACC = 'F.ACCOUNT'
+    F.ACC = ''
+	R.ACC=''
+	ACC.ERR=''
+	
+    FN.CATEG="F.CATEGORY"
+    F.CATEG=""
+	R.CATEG=""
+	CATEG.ERR=""
+	
+*ZIT-UPG-R13-R19 S 	
+	Y.APP='CUSTOMER'
+	Y.FIELD='BZ.RESID'
+	Y.POS=''
+	EB.DataAccess.Opf MULTI.GET.LOC.REF(Y.APP,Y.FIELD,Y.POS)
+	REB.DataAccess.OpfD.POS=Y.POS<1,1>
+*ZIT-UPG-R13-R19 E	
+    RETURN
+***************************************
+OPENFILES:
+
+tmp.R.NEW.FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedReftaAccess.FRead.POS.F.POS = EB.SystemTables.getRNew(FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedReftaAccess.FRead.POS,F.POS)
+    CALL OPF(FN.tmp.R.NEW.FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedReftaAccess.FRead.POS.F.POS
+EB.SystemTables.setRNew(FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedReftaAccess.FRead.POS,F.POS, tmp.R.NEW.FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedReftaAccess.FRead.POS.F.POS)
+    CALL OPF(FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+    CALL OPF(FN.INDUSTRY,F.INDUSTRY)
+    CALL OPF(FN.SECTOR,F.SECTOR)
+    CALL OPF(FN.ACC,F.ACC)
+EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerTEG,F.CATEG)
+    RETURN
+EB.SystemTables.setE()*-------------------------------------------------------------------------------
+* @author Fahmi.abdeltif@banquezitouna.com 24/09/2019
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.ACCOUNT.DETAILS
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19- REPLACED AC.ONLINE.ACTUAL.BAL WITH ECB.ONLINE.ACTUAL.BAL;GET.LOC.REF-MULTI.GET.LOC.REF;INITIALISE F.READ VARIABLES.
+*           	-STOP REPLACED BY FATAL.ERROR AND CRT WITH OCOMO
+********************************************************
+    $INSERT I_COMMON
+	$INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.POSTING.RESTRICT
+    $INSERT I_F.INDUSTRY
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.SECTOR
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CATEGORY
+
+	$INSERT I_F.EB.CONTRACT.BALANCES  ;*ADDED
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+    RETURN
+***************************************
+INIT:
+
+
+    FN.CUS="F.CUSTOMER"
+    F.CUS=""
+	R.CUS=''
+	CUS.ERR=''
+	
+    FN.POS="F.POSTING.RESTRICT"
+    F.POS=""
+	R.POS=""
+	POS.ERR=""
+	
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+	R.DAO=''
+	Y.ERR=''
+	
+    FN.SECTOR = 'F.SECTOR'
+    F.SECTOR = ''
+	R.SECTOR=''
+	SECTOR.ERR=''
+	
+    FN.INDUSTRY = 'F.INDUSTRY'
+    F.INDUSTRY = ''
+
+    FN.ACC = 'F.ACCOUNT'
+    F.ACC = ''
+	R.ACC=''
+	ACC.ERR=''
+	
+    FN.CATEG="F.CATEGORY"
+    F.CATEG=""
+	R.CATEG=""
+	CATEG.ERR=""
+	
+*ZIT-UPG-R13-R19 S 	
+	Y.APP='CUSTOMER'
+	Y.FIELD='BZ.RESID'
+	Y.POS=''
+	CALL MULTI.GET.LOC.REF(Y.APP,Y.FIELD,Y.POS)
+	RESID.POS=Y.POS<1,1>
+*ZIT-UPG-R13-R19 E	
+    RETURN
+***************************************
+OPENFILES:
+
+    CALL OPF(FN.CUS,F.CUS)
+    CALL OPF(FN.POS,F.POS)
+    CALL OPF(FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+    CALL OPF(FN.INDUSTRY,F.INDUSTRY)
+    CALL OPF(FN.SECTOR,F.SECTOR)
+    CALL OPF(FN.ACC,F.ACC)
+    CALL OPF(FN.CATEG,F.CATEG)
+    RETURN
+***************************************
+PROCESS:
+    Y.TIMEEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerMTS")
+    CHANGE ':' TOEB.DataAccess.FWriteY.TIME
+    DIRFILE="./EXTRACTION.BI/LISTE.BZ.ACCOUNT.DETAILS":TODAY:Y.TIME:".txt"
+    OPENSEQ DIRFILE TO FICHIER.SEQ ELSE
+        CREATE FICHIER.SEQ  ELSE
+*       EB.SystemTables.setAf()*-------------------------------------------------------------------------------
+* @author Fahmi.abdeltif@banquezitouna.com 24/09/2019
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.ACCOUNT.DETAILS
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19- REPLACED AC.ONLINE.ACTUAL.BAL WITH ECB.ONLINE.ACTUAL.BAL;GET.LOC.REF-MULTI.GET.LOC.REF;INITIALISE F.READ VARIABLES.
+*           	-STOP REPLACED BY FATAL.ERROR AND CRT WITH OCOMO
+********************************************************
+    $INSERT I_COMMON
+	$INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.POSTING.RESTRICT
+    $INSERT I_F.INDUSTRY
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.SECTOR
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CATEGORY
+
+	$INSERT I_F.EB.CONTRACT.BALANCES  ;*ADDED
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+    RETURN
+***************************************
+INIT:
+
+
+    FN.CUS="F.CUSTOMER"
+    F.CUS=""
+	R.CUS=''
+	CUS.ERR=''
+	
+    FN.POS="F.POSTING.RESTRICT"
+    F.POS=""
+	R.POS=""
+	POS.ERR=""
+	
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+	R.DAO=''
+	Y.ERR=''
+	
+    FN.SECTOR = 'F.SECTOR'
+    F.SECTOR = ''
+	R.SECTOR=''
+	SECTOR.ERR=''
+	
+    FN.INDUSTRY = 'F.INDUSTRY'
+    F.INDUSTRY = ''
+
+    FN.ACC = 'F.ACCOUNT'
+    F.ACC = ''
+	R.ACC=''
+	ACC.ERR=''
+	
+    FN.CATEG="F.CATEGORY"
+    F.CATEG=""
+	R.CATEG=""
+	CATEG.ERR=""
+	
+*ZIT-UPG-R13-R19 S 	
+	Y.APP='CUSTOMER'
+	Y.FIELD='BZ.RESID'
+	Y.POS=''
+	CALL MULTI.GET.LOC.REF(Y.APP,Y.FIELD,Y.POS)
+	RESID.POS=Y.POS<1,1>
+*ZIT-UPG-R13-R19 E	
+    RETURN
+***************************************
+OPENFILES:
+
+    CALL OPF(FN.CUS,F.CUS)
+    CALL OPF(FN.POS,F.POS)
+    CALL OPF(FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+    CALL OPF(FN.INDUSTRY,F.INDUSTRY)
+    CALL OPF(FN.SECTOR,F.SECTOR)
+    CALL OPF(FN.ACC,F.ACC)
+    CALL OPF(FN.CATEG,F.CATEG)
+    RETURN
+***************************************
+PROCESS:
+    Y.TIME = OCONV(TIME(), "MTS")
+    CHANGE ':' TO '' IN Y.TIME
+    DIRFILE="./EXTRACTION.BI/LISTE.BZ.ACCOUNT.DETAILS":TODAY:Y.TIME:".txt"
+    OPENSEQ DIRFILE TO FICHIER.SEQ ELSE
+        CREATE FICHIER.SEQ  ELSE
+*          FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRef CREATE FILE POINTER TO FILE ":DIRFILE
+*       EB.SystemTables.setE()*-------------------------------------------------------------------------------
+* @author Fahmi.abdeltif@banquezitouna.com 24/09/2019
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.ACCOUNT.DETAILS
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19- REPLACED AC.ONLINE.ACTUAL.BAL WITH ECB.ONLINE.ACTUAL.BAL;GET.LOC.REF-MULTI.GET.LOC.REF;INITIALISE F.READ VARIABLES.
+*           	-STOP REPLACED BY FATAL.ERROR AND CRT WITH OCOMO
+********************************************************
+    $INSERT I_COMMON
+	$INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.CUSTOMER
+    $INSERT I_F.POSTING.RESTRICT
+    $INSERT I_F.INDUSTRY
+    $INSERT I_F.DEPT.ACCT.OFFICER
+    $INSERT I_F.SECTOR
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CATEGORY
+
+	$INSERT I_F.EB.CONTRACT.BALANCES  ;*ADDED
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+    RETURN
+***************************************
+INIT:
+
+
+    FN.CUS="F.CUSTOMER"
+    F.CUS=""
+	R.CUS=''
+	CUS.ERR=''
+	
+    FN.POS="F.POSTING.RESTRICT"
+    F.POS=""
+	R.POS=""
+	POS.ERR=""
+	
+    FN.DEPT.ACCT.OFFICER = 'F.DEPT.ACCT.OFFICER'
+    F.DEPT.ACCT.OFFICER = ''
+	R.DAO=''
+	Y.ERR=''
+	
+    FN.SECTOR = 'F.SECTOR'
+    F.SECTOR = ''
+	R.SECTOR=''
+	SECTOR.ERR=''
+	
+    FN.INDUSTRY = 'F.INDUSTRY'
+    F.INDUSTRY = ''
+
+    FN.ACC = 'F.ACCOUNT'
+    F.ACC = ''
+	R.ACC=''
+	ACC.ERR=''
+	
+    FN.CATEG="F.CATEGORY"
+    F.CATEG=""
+	R.CATEG=""
+	CATEG.ERR=""
+	
+*ZIT-UPG-R13-R19 S 	
+	Y.APP='CUSTOMER'
+	Y.FIELD='BZ.RESID'
+	Y.POS=''
+	CALL MULTI.GET.LOC.REF(Y.APP,Y.FIELD,Y.POS)
+	RESID.POS=Y.POS<1,1>
+*ZIT-UPG-R13-R19 E	
+    RETURN
+***************************************
+OPENFILES:
+
+    CALL OPF(FN.CUS,F.CUS)
+    CALL OPF(FN.POS,F.POS)
+    CALL OPF(FN.DEPT.ACCT.OFFICER,F.DEPT.ACCT.OFFICER)
+    CALL OPF(FN.INDUSTRY,F.INDUSTRY)
+    CALL OPF(FN.SECTOR,F.SECTOR)
+    CALL OPF(FN.ACC,F.ACC)
+    CALL OPF(FN.CATEG,F.CATEG)
+    RETURN
+***************************************
+PROCESS:
+    Y.TIME = OCONV(TIME(), "MTS")
+    CHANGE ':' TO '' IN Y.TIME
+    DIRFILE="./EXTRACTION.BI/LISTE.BZ.ACCOUNT.DETAILS":TODAY:Y.TIME:".txt"
+    OPENSEQ DIRFILE TO FICHIER.SEQ ELSE
+        CREATE FICHIER.SEQ  ELSE
+*            CRT"UNABLE TO CREATE FILE POINTER TO FILE ":DIRFILE
+*            STOP  ;*NOTICED STOP
+*ZIT-UPG-R13-R19 S 		
+		Y.MESSAGE="UNABLE TO CREATE FILE POINTER TO FILE ":DIRFILE
+		Y.MESSAGE.INFO=''
+        Y.MESSAGE.INFO<1> =''
+        Y.MESSAGE.INFO<2> = ''
+		Y.MESSAGE.INFO<3> =''
+        Y.MESSAGE.INFO<4> = Y.MESSAGE
+        Y.MESSAGE.INFO<5> = 'NO'
+		Y.MESSAGE.INFO<6> = ''
+        Y.MESSAGE.INFO<7> = ''
+
+		CALL FATAL.ERROR(Y.MESSAGE.INFO)
+*ZIT-UPG-R13-R19 E 
+        END
+    END
+    LIGNE.ENTETE=""
+    LIGNE.ENTETE = " Compte ; " :  " Client ; " : " Code Produit ; " : " Produit ; " : " Ccy ; " : " Gestionnaire de cpte ; " : " Nom Client ; " : " Type Piece Ident ;" : " Num Piece ; " : " Secteur ;  " : " Date Ouverture  ; " : " Solde  ; " : " Restriction Client  ; " : " Restriction Compte  ;" : " Qualitdence "
+    IF LIGNE.ENTETE THEN
+        WRITESEQ LIGNE.ENTETE APPEND TO FICHIER.SEQ ELSE
+*            CRT "UNABLE TO PERFORM ENTETE"
+			CALL OCOMO("UNABLE TO PERFORM ENTETE IN ":FICHIER.SEQ)
+        END
+    END
+    SEP=";"
+
+    SEL.COMMAND="SELECT ": FN.ACC :
+    ACC.LIST = ''
+    LIST.NAME = ''
+    SELECTED = ''
+    SYSTEM.RETURN.CODE = ''
+    CALL EB.READLIST(SEL.COMMAND,ACC.LIST,LIST.NAME,SELECTED,SYSTEM.RETURN.CODE)
+
+    FOR I = 1 TO SELECTED
+        COMPTE = ACC.LIST<I>
+        CALL F.READ(FN.ACC,COMPTE,R.ACC,F.ACC,ACC.ERR)
+        CUSTOMER=R.ACC<AC.CUSTOMER>
+        CATEGORY=R.ACC<AC.CATEGORY>
+		
+        CALL F.READ(FN.CATEG,CATEGORY,R.CATEG,F.CATEG,CATEG.ERR)
+        CURRENCY=R.ACC<AC.CURRENCY>
+        ACCOUNT.OFFICER=R.ACC<AC.ACCOUNT.OFFICER>
+		
+        CALL F.READ(FN.DEPT.ACCT.OFFICER,ACCOUNT.OFFICER,R.DAO,F.DEPT.ACCT.OFFICER,YERR)
+        AGENCE=R.DAO<EB.DAO.NAME>
+		
+        CALL F.READ(FN.CUS,CUSTOMER,R.CUS,F.CUS,CUS.ERR)
+        NOM.CLIENT=R.CUS<EB.CUS.NAME.1>
+        LEGAL.DOC.NAME=R.CUS<EB.CUS.LEGAL.DOC.NAME>
+        LEGAL.ID=R.CUS<EB.CUS.LEGAL.ID>
+        SECTOR=R.CUS<EB.CUS.SECTOR>
+		
+        CALL F.READ(FN.SECTOR,SECTOR,R.SECTOR,F.SECTOR,SECTOR.ERR)
+        SECTOR.LIB=R.SECTOR<EB.SEC.DESCRIPTION>
+		
+        CATEG.DESC=R.CATEG<EB.CAT.DESCRIPTION>
+        OPENING.DATE=R.ACC<AC.OPENING.DATE>
+*       ONLINE.ACTUAL.BAL=R.ACC<AC.ONLINE.ACTUAL.BAL>
+        CALL EB.READ.HVT('EB.CONTRACT.BALANCES', AC.ID, R.ECB, ECB.ERR)
+		ONLINE.ACTUAL.BAL=R.ECB<ECB.ONLINE.ACTUAL.BAL>  ;*REPLACED FOR ACCOUNT<AC.ONLINE.ACTUAL.BAL>
+        
+		CUS.POS.RECTRICT=R.CUS<EB.CUS.POSTING.RESTRICT>
+		
+        CALL F.READ(FN.POS,CUS.POS.RECTRICT,R.POS,F.POS,POS.ERR)
+        CUS.POS.DESCR=R.POS<AC.POS.DESCRIPTION>
+        POSTING.RESTRICT=R.ACC<AC.POSTING.RESTRICT>
+        CALL F.READ(FN.POS,POSTING.RESTRICT,R.POS,F.POS,POS.ERR)
+        AC.POS.DESCR=R.POS<AC.POS.DESCRIPTION>
+*       CALL GET.LOC.REF("CUSTOMER","BZ.RESID",RESID.POS)
+		
+        QUALITE.RES= R.CUS<EB.CUS.LOCAL.REF,RESID.POS>
+
+
+        LINESEQ=''
+        LINESEQ=LINESEQ:COMPTE:SEP
+        LINESEQ=LINESEQ:CUSTOMER:SEP
+        LINESEQ=LINESEQ:CATEGORY:SEP
+        LINESEQ=LINESEQ:CATEG.DESC:SEP
+        LINESEQ=LINESEQ:CURRENCY:SEP
+        LINESEQ=LINESEQ:ACCOUNT.OFFICER:SEP
+        LINESEQ=LINESEQ:NOM.CLIENT:SEP
+        LINESEQ=LINESEQ:LEGAL.DOC.NAME:SEP
+        LINESEQ=LINESEQ:LEGAL.ID:SEP
+        LINESEQ=LINESEQ:SECTOR.LIB:SEP
+        LINESEQ=LINESEQ:OPENING.DATE:SEP
+        LINESEQ=LINESEQ:ONLINE.ACTUAL.BAL:SEP
+        LINESEQ=LINESEQ:CUS.POS.DESCR:SEP
+        LINESEQ=LINESEQ:AC.POS.DESCR:SEP
+        LINESEQ=LINESEQ:QUALITE.RES:SEP
+
+        IF LINESEQ THEN
+            WRITESEQ LINESEQ APPEND TO FICHIER.SEQ ELSE
+*                CRT"UNABLE TO PERFORM WRITESEQ "
+				CALL OCOMO("UNABLE TO PERFORM WRITESEQ IN ":FICHIER.SEQ)
+            END
+        END
+    NEXT I
+    RETURN
+
+
+END

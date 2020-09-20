@@ -1,0 +1,28 @@
+public table BzGenRelevesInit {
+    t24:  BZ.GEN.RELEVES.INIT
+    fields:{
+        BzGenRelevesInitStatus(GEN.INIT.STATUS)=1
+        BzGenRelevesInitStartCategory(GEN.INIT.START.CATEGORY)=2
+        BzGenRelevesInitEndCategory(GEN.INIT.END.CATEGORY)=3
+        BzGenRelevesInitGenStartDate(GEN.INIT.GEN.START.DATE)=4
+        BzGenRelevesInitGenEndDate(GEN.INIT.GEN.END.DATE)=5
+        BzGenRelevesInitBulkLot(GEN.INIT.BULK.LOT)=6
+        BzGenRelevesInitBulkSplit(GEN.INIT.BULK.SPLIT)=7
+        BzGenRelevesInitNbTopCritical(GEN.INIT.NB.TOP.CRITICAL)=8
+        BzGenRelevesInitWprfCritical(GEN.INIT.WPRF.CRITICAL)=9
+        BzGenRelevesInitWprfLot(GEN.INIT.WPRF.LOT)=10
+        BzGenRelevesInitTotalAgents(GEN.INIT.TOTAL.AGENTS)=11
+        BzGenRelevesInitGenPath(GEN.INIT.GEN.PATH)=12
+        BzGenRelevesInitLocalRef(GEN.INIT.LOCAL.REF)=13
+        BzGenRelevesInitOverride(GEN.INIT.OVERRIDE)=14
+        BzGenRelevesInitRecordStatus(GEN.INIT.RECORD.STATUS)=15
+        BzGenRelevesInitCurrNo(GEN.INIT.CURR.NO)=16
+        BzGenRelevesInitInputter(GEN.INIT.INPUTTER)=17
+        BzGenRelevesInitDateTime(GEN.INIT.DATE.TIME)=18
+        BzGenRelevesInitAuthoriser(GEN.INIT.AUTHORISER)=19
+        BzGenRelevesInitCoCode(GEN.INIT.CO.CODE)=20
+        BzGenRelevesInitDeptCode(GEN.INIT.DEPT.CODE)=21
+        BzGenRelevesInitAuditorCode(GEN.INIT.AUDITOR.CODE)=22
+        BzGenRelevesInitAuditDateTime(GEN.INIT.AUDIT.DATE.TIME)=23
+    }
+}

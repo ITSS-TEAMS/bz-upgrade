@@ -1,0 +1,39 @@
+public table BzCommercantTransDetail {
+    t24:  BZ.COMMERCANT.TRANS.DETAIL
+    fields:{
+        BzCommercantTransDetailTransactionDate(TRANS.DETAIL.TRANSACTION.DATE)=1
+        BzCommercantTransDetailTypeCommerce(TRANS.DETAIL.TYPE.COMMERCE)=2
+        BzCommercantTransDetailNumAffiliation(TRANS.DETAIL.NUM.AFFILIATION)=3
+        BzCommercantTransDetailMontant(TRANS.DETAIL.MONTANT)=4
+        BzCommercantTransDetailAffiliation(TRANS.DETAIL.AFFILIATION)=5
+        BzCommercantTransDetailBanqueEmetrice(TRANS.DETAIL.BANQUE.EMETRICE)=6
+        BzCommercantTransDetailMontantCompense(TRANS.DETAIL.MONTANT.COMPENSE)=7
+        BzCommercantTransDetailNumCarte(TRANS.DETAIL.NUM.CARTE)=8
+        BzCommercantTransDetailNumAutorisation(TRANS.DETAIL.NUM.AUTORISATION)=9
+        BzCommercantTransDetailPorteur(TRANS.DETAIL.PORTEUR)=10
+        BzCommercantTransDetailTpe(TRANS.DETAIL.TPE)=11
+        BzCommercantTransDetailStatut(TRANS.DETAIL.STATUT)=12
+        BzCommercantTransDetailRefFt(TRANS.DETAIL.REF.FT)=13
+        BzCommercantTransDetailDateEncaissement(TRANS.DETAIL.DATE.ENCAISSEMENT)=14
+        BzCommercantTransDetailReserved1(TRANS.DETAIL.RESERVED.1)=15
+        BzCommercantTransDetailReserved2(TRANS.DETAIL.RESERVED.2)=16
+        BzCommercantTransDetailReserved3(TRANS.DETAIL.RESERVED.3)=17
+        BzCommercantTransDetailReserved4(TRANS.DETAIL.RESERVED.4)=18
+        BzCommercantTransDetailReserved5(TRANS.DETAIL.RESERVED.5)=19
+        BzCommercantTransDetailReserved6(TRANS.DETAIL.RESERVED.6)=20
+        BzCommercantTransDetailReserved7(TRANS.DETAIL.RESERVED.7)=21
+        BzCommercantTransDetailReserved8(TRANS.DETAIL.RESERVED.8)=22
+        BzCommercantTransDetailReserved9(TRANS.DETAIL.RESERVED.9)=23
+        BzCommercantTransDetailReserved10(TRANS.DETAIL.RESERVED.10)=24
+        BzCommercantTransDetailOverride(TRANS.DETAIL.OVERRIDE)=25
+        BzCommercantTransDetailRecordStatus(TRANS.DETAIL.RECORD.STATUS)=26
+        BzCommercantTransDetailCurrNo(TRANS.DETAIL.CURR.NO)=27
+        BzCommercantTransDetailInputter(TRANS.DETAIL.INPUTTER)=28
+        BzCommercantTransDetailDateTime(TRANS.DETAIL.DATE.TIME)=29
+        BzCommercantTransDetailAuthoriser(TRANS.DETAIL.AUTHORISER)=30
+        BzCommercantTransDetailCoCode(TRANS.DETAIL.CO.CODE)=31
+        BzCommercantTransDetailDeptCode(TRANS.DETAIL.DEPT.CODE)=32
+        BzCommercantTransDetailAuditorCode(TRANS.DETAIL.AUDITOR.CODE)=33
+        BzCommercantTransDetailAuditDateTime(TRANS.DETAIL.AUDIT.DATE.TIME)=34
+    }
+}

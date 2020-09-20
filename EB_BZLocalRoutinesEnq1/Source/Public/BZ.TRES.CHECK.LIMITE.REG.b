@@ -1,0 +1,535 @@
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.TRES.CHECK.LIMITE.REG
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+
+**AUTHOR :BOUNOUARA FEHMI
+**DATE 22/06/2016
+**DESCRIPTION: POSITION DE CHANGE VENTE
+*-----------------------------------------------------------------------------
+*Modification History:                                                        
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R13-R19:FM,VM converted to @FM,@VM
+*               :Arithmetic operators converted to T24 Operands  
+*               :++ converted to += 1                   
+*-----------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.POS.MVMT.TODAY
+    $INSERT I_F.FOREX
+
+
+    GOSUB INIT
+* $INSERT I_EQUATE - Not Used anymore;
+    GOSUB PROCESS
+
+INIT:
+
+    CONDITION.SEL=""
+
+    FN.AC = "F.ACCOUNT"
+    F.AC=""
+
+    FN.CURR="F.CURRENCY"
+    F.CURR=""
+
+    Y.DEVISE.ACHAT = R.NEW(FX.CURRENCY.BOUGHT)
+    Y.DEVISE.VENTE = R.NEW(FX.CURRENCY.SOLD)
+
+    FN.PEB.SystemTables.getVFunction()"F.POS.MVMT.TEB.SystemTables.getVFunction() F.POS.MVMT = ""
+FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus0
+    NBRE.DEVISE = 0
+
+    RETURN
+
+
+OPENFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusL OPF(FN.CURR,F.CURR)
+    CALL OPF(FN.AC,F.AC)
+    CALL OPF(FN.POS.MVMT,F.POS.MVMT)
+
+    RETURN
+
+**************
+PROCESS:
+**************
+
+    Y.SOMME.MVMT.ACHAT = 0
+    Y.SOMME.MVMT.ACHAT.REV = 0
+    Y.SOMME.MVMT.ACHAT.RST = 0
+
+    Y.SOMME.MVMT.VENTE = 0
+    Y.SOMME.MVMT.VENTE.REV = 0
+    Y.SOMME.MVMT.VENTE.RST = 0
+
+    TAB.DEB.DataAccess.OpfSE = ""
+    TAB.SEB.DataAccess.OpfE = ""
+
+
+    SEL.CMD.A="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1":Y.DEVISE.ACHAT:"...'"
+	ENTRY.IDS.A=''
+	ENTRY.COUNEB.SystemTables.getRNew()'FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefA=''
+    EB.DataAccess.FReadDLIST(SEL.CMD.A, ENTRY.IDS.A, '', ENTRY.COUNT.A, ENTRY.ERROR.A)
+
+    SEL.CMD.V="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1":Y.DEVISE.VENTE:"...'"
+	ENTRY.IDS.V=''
+	ENTRY.COUNT.V=''
+	EEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer   CALL EB.EB.SystemTables.setE()$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.TRES.CHECK.LIMITE.REG
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+
+**AUTHOR :BOUNOUARA FEHMI
+**DATE 22/06/2016
+**DESCRIPTION: POSITION DE CHANGE VENTE
+*-----------------------------------------------------------------------------
+*Modification History:                                                        
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R13-R19:FM,VM converted to @FM,@VM
+*               :Arithmetic operators converted to T24 Operands  
+*               :++ converted to += 1                   
+*-----------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.POS.MVMT.TODAY
+    $INSERT I_F.FOREX
+
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+
+INIT:
+
+    CONDITION.SEL=""
+
+    FN.AC = "F.ACCOUNT"
+    F.AC=""
+
+    FN.CURR="F.CURRENCY"
+    F.CURR=""
+
+    Y.DEVISE.ACHAT = R.NEW(FX.CURRENCY.BOUGHT)
+    Y.DEVISE.VENTE = R.NEW(FX.CURRENCY.SOLD)
+
+    FN.POS.MVMT = "F.POS.MVMT.TODAY"
+    F.POS.MVMT = ""
+
+    NBRE.REC = 0
+    NBRE.DEVISE = 0
+
+    RETURN
+
+
+OPENFILES:
+
+    CALL OPF(FN.CURR,F.CURR)
+    CALL OPF(FN.AC,F.AC)
+    CALL OPF(FN.POS.MVMT,F.POS.MVMT)
+
+    RETURN
+
+**************
+PROCESS:
+**************
+
+    Y.SOMME.MVMT.ACHAT = 0
+    Y.SOMME.MVMT.ACHAT.REV = 0
+    Y.SOMME.MVMT.ACHAT.RST = 0
+
+    Y.SOMME.MVMT.VENTE = 0
+    Y.SOMME.MVMT.VENTE.REV = 0
+    Y.SOMME.MVMT.VENTE.RST = 0
+
+    TAB.DEVISE = ""
+    TAB.SOLDE = ""
+
+
+    SEL.CMD.A="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1":Y.DEVISE.ACHAT:"...'"
+	ENTRY.IDS.A=''
+	ENTRY.COUNT.A=''
+	ENTRY.ERROR.A=''
+    CALL EB.READLIST(SEL.CMD.A, ENTRY.IDS.A, '', ENTRY.COUNT.A, ENTRY.ERROR.A)
+
+    SEL.CMD.V="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1":Y.DEVISE.VENTE:"...'"
+	ENTRY.IDS.V=''
+	ENTRY.COUNT.V=''
+	ENTRY.ERROR.V=''
+    CALL EB.READLIST(SEL.CMD.V, ENTRY.IDS.V, '', ENTRY.COUNT.V, ENTRY.ERROR.V)
+
+    ENTRY.IDS = ENTREB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerTRY.IEB.SystemTables.getIdNew()
+    ENTRY.COUNT =EB.DataAccess.FWriteCOUNT.A + ENTRY.COUNT.V
+
+    KEY.LIST = ENTRY.IDS
+    NKEY = KEY.LIST ;* Build list of keys for enquiry
+    NEW.EB.SystemTables.setAf()$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.TRES.CHECK.LIMITE.REG
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+
+**AUTHOR :BOUNOUARA FEHMI
+**DATE 22/06/2016
+**DESCRIPTION: POSITION DE CHANGE VENTE
+*-----------------------------------------------------------------------------
+*Modification History:                                                        
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R13-R19:FM,VM converted to @FM,@VM
+*               :Arithmetic operators converted to T24 Operands  
+*               :++ converted to += 1                   
+*-----------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.POS.MVMT.TODAY
+    $INSERT I_F.FOREX
+
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+
+INIT:
+
+    CONDITION.SEL=""
+
+    FN.AC = "F.ACCOUNT"
+    F.AC=""
+
+    FN.CURR="F.CURRENCY"
+    F.CURR=""
+
+    Y.DEVISE.ACHAT = R.NEW(FX.CURRENCY.BOUGHT)
+    Y.DEVISE.VENTE = R.NEW(FX.CURRENCY.SOLD)
+
+    FN.POS.MVMT = "F.POS.MVMT.TODAY"
+    F.POS.MVMT = ""
+
+    NBRE.REC = 0
+    NBRE.DEVISE = 0
+
+    RETURN
+
+
+OPENFILES:
+
+    CALL OPF(FN.CURR,F.CURR)
+    CALL OPF(FN.AC,F.AC)
+    CALL OPF(FN.POS.MVMT,F.POS.MVMT)
+
+    RETURN
+
+**************
+PROCESS:
+**************
+
+    Y.SOMME.MVMT.ACHAT = 0
+    Y.SOMME.MVMT.ACHAT.REV = 0
+    Y.SOMME.MVMT.ACHAT.RST = 0
+
+    Y.SOMME.MVMT.VENTE = 0
+    Y.SOMME.MVMT.VENTE.REV = 0
+    Y.SOMME.MVMT.VENTE.RST = 0
+
+    TAB.DEVISE = ""
+    TAB.SOLDE = ""
+
+
+    SEL.CMD.A="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1":Y.DEVISE.ACHAT:"...'"
+	ENTRY.IDS.A=''
+	ENTRY.COUNT.A=''
+	ENTRY.ERROR.A=''
+    CALL EB.READLIST(SEL.CMD.A, ENTRY.IDS.A, '', ENTRY.COUNT.A, ENTRY.ERROR.A)
+
+    SEL.CMD.V="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1":Y.DEVISE.VENTE:"...'"
+	ENTRY.IDS.V=''
+	ENTRY.COUNT.V=''
+	ENTRY.ERROR.V=''
+    CALL EB.READLIST(SEL.CMD.V, ENTRY.IDS.V, '', ENTRY.COUNT.V, ENTRY.ERROR.V)
+
+    ENTRY.IDS = ENTRY.IDS.V : @FM : ENTRY.IDS.A
+
+    ENTRY.COUNT = ENTRY.COUNT.A + ENTRY.COUNT.V
+
+    KEY.LIST = ENTRY.IDS
+    NKEY = KEY.LIST ;* Build list of keys for enquiry
+    NEW.KEYFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefSEB.SystemTables.setE(0)
+    YPOS.OPEN.BAL.LCY = 0
+*
+* Read the correct record and store in R.POS.RECORD
+*
+    LOOP
+        REMOVE YKEY FROM NKEY SETTING YD
+        AST.POS = INDEX(YKEY,'*',1)
+        IF AST.POS THEN
+            AST.POS += 1
+            SEQ.NO = YKEY['*',2,1]
+
+            IF SEQ.NO EQ '' THEN
+                SEQ.NO = '0'
+            END
+        END
+*
+    UNTIL YKEY = ""
+*
+        Y.CHANGE = 0
+
+        R.POS.RECORD.MVMT=''
+		POS.MVMT.ERR=''
+        CALL F.READ(FN.POS.MVMT,YKEY,R.POS.RECORD.MVMT,F.POS.MVMT,POS.MVMT.ERR)
+
+        IF R.POS.RECORD.MVMT THEN
+            IF R.POS.RECORD.MVMT<PSE.CURRENCY> MATCHES "":@VM:LCCY THEN
+                R.POS.RECORD.MVMT<PSE.AMOUNT.FCY> = R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>     ;* makes calculation easier
+            END
+
+*           NBRE.REC++
+			NBRE.REC += 1
+
+            Y.DEVISE.TMP = R.POS.RECORD.MVMT<PSE.CURRENCY>
+
+            IF TAB.DEVISE EQ "" THEN
+*               NBRE.DEVISE++
+				NBRE.DEVISE += 1
+                TAB.DEVISE<NBRE.DEVISE> = Y.DEVISE.TMP
+            END ELSE
+                IF Y.DEVISE.TMP NE TAB.DEVISE<NBRE.DEVISE> THEN
+                    Y.CHANGE = 1
+*                   NBRE.DEVISE++
+					NBRE.DEVISE += 1
+                    TAB.DEVISE<NBRE.DEVISE> = Y.DEVISE.TMP
+                END
+
+            END
+
+        END
+
+        IF SEQ.NO EQ '0' THEN
+
+            GOSUB READ.FILE
+
+            IF Y.CHANGE EQ 1 THEN
+                TAB.SOLDE<NBRE.DEVISE-1,1,1> = YPOS.OPEN.BAL
+                TAB.SOLDE<NBRE.DEVISE-1,1,2> = YPOS.OPEN.BAL.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,2,1> = Y.SOMME.MVMT.ACHAT
+                TAB.SOLDE<NBRE.DEVISE-1,2,2> = Y.SOMME.MVMT.ACHAT.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,3,1> = Y.SOMME.MVMT.ACHAT.REV
+                TAB.SOLDE<NBRE.DEVISE-1,3,2> = Y.SOMME.MVMT.ACHAT.REV.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,4,1> = Y.SOMME.MVMT.VENTE
+                TAB.SOLDE<NBRE.DEVISE-1,4,2> = Y.SOMME.MVMT.VENTE.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,5,1> = Y.SOMME.MVMT.VENTE.REV
+                TAB.SOLDE<NBRE.DEVISE-1,5,2> = Y.SOMME.MVMT.VENTE.REV.LCY
+
+
+                YPOS.OPEN.BAL = 0
+                YPOS.OPEN.BAL.LCY = 0
+                Y.SOMME.MVMT.ACHAT = 0
+                Y.SOMME.MVMT.ACHAT.REV = 0
+                Y.SOMME.MVMT.VENTE = 0
+                Y.SOMME.MVMT.VENTE.REV = 0
+
+                Y.SOMME.MVMT.ACHAT.LCY = 0
+                Y.SOMME.MVMT.ACHAT.REV.LCY = 0
+                Y.SOMME.MVMT.VENTE.LCY = 0
+                Y.SOMME.MVMT.VENTE.REV.LCY = 0
+
+                YPOS.OPEN.BAL += R.POS.RECORD<PSE.AMOUNT.FCY>
+                YPOS.OPEN.BAL.LCY += R.POS.RECORD<PSE.AMOUNT.LCY>
+
+            END ELSE
+                YPOS.OPEN.BAL += R.POS.RECORD<PSE.AMOUNT.FCY>
+                YPOS.OPEN.BAL.LCY += R.POS.RECORD<PSE.AMOUNT.LCY>
+            END
+
+        END ELSE
+*****
+            IF Y.CHANGE EQ 1 THEN
+
+                TAB.SOLDE<NBRE.DEVISE-1,2,1> = Y.SOMME.MVMT.ACHAT
+                TAB.SOLDE<NBRE.DEVISE-1,2,2> = Y.SOMME.MVMT.ACHAT.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,3,1> = Y.SOMME.MVMT.ACHAT.REV
+                TAB.SOLDE<NBRE.DEVISE-1,3,2> = Y.SOMME.MVMT.ACHAT.REV.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,4,1> = Y.SOMME.MVMT.VENTE
+                TAB.SOLDE<NBRE.DEVISE-1,4,2> = Y.SOMME.MVMT.VENTE.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,5,1> = Y.SOMME.MVMT.VENTE.REV
+                TAB.SOLDE<NBRE.DEVISE-1,5,2> = Y.SOMME.MVMT.VENTE.REV.LCY
+
+                YPOS.OPEN.BAL = 0
+                YPOS.OPEN.BAL.LCY = 0
+                Y.SOMME.MVMT.ACHAT = 0
+                Y.SOMME.MVMT.ACHAT.REV = 0
+                Y.SOMME.MVMT.VENTE = 0
+                Y.SOMME.MVMT.VENTE.REV = 0
+
+                GOSUB TRAIT.DETAIL
+
+            END ELSE
+
+                GOSUB TRAIT.DETAIL
+
+            END
+******
+
+        END
+
+    REPEAT
+
+    TAB.SOLDE<NBRE.DEVISE,1,1> = YPOS.OPEN.BAL
+    TAB.SOLDE<NBRE.DEVISE,1,2> = YPOS.OPEN.BAL.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,2,1> = Y.SOMME.MVMT.ACHAT
+    TAB.SOLDE<NBRE.DEVISE,2,2> = Y.SOMME.MVMT.ACHAT.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,3,1> = Y.SOMME.MVMT.ACHAT.REV
+    TAB.SOLDE<NBRE.DEVISE,3,2> = Y.SOMME.MVMT.ACHAT.REV.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,4,1> = Y.SOMME.MVMT.VENTE
+    TAB.SOLDE<NBRE.DEVISE,4,2> = Y.SOMME.MVMT.VENTE.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,5,1> = Y.SOMME.MVMT.VENTE.REV
+    TAB.SOLDE<NBRE.DEVISE,5,2> = Y.SOMME.MVMT.VENTE.REV.LCY
+
+
+    FOR COMPTEUR.DEV = 1 TO NBRE.DEVISE
+
+        IF TAB.DEVISE<COMPTEUR.DEV> MATCHES "TND":@VM:"TNC" THEN
+            CONTINUE
+        END
+
+        GOSUB GET.COURS
+
+        Y.OPENNING.BALANCE =     TAB.SOLDE<COMPTEUR.DEV,1,1> * -1
+        Y.OPENNING.BALANCE.LCY = TAB.SOLDE<COMPTEUR.DEV,1,2> * -1
+
+************
+        Y.SOMME.MVMT.ACHAT = TAB.SOLDE<COMPTEUR.DEV,2,1>
+        Y.SOMME.MVMT.ACHAT.REV = TAB.SOLDE<COMPTEUR.DEV,3,1>
+        Y.SOMME.MVMT.ACHAT.RST = (Y.SOMME.MVMT.ACHAT + Y.SOMME.MVMT.ACHAT.REV) * -1
+
+        Y.SOMME.MVMT.ACHAT.LCY = (TAB.SOLDE<COMPTEUR.DEV,2,2> + TAB.SOLDE<COMPTEUR.DEV,3,2>) * -1
+************
+************
+        Y.SOMME.MVMT.VENTE = TAB.SOLDE<COMPTEUR.DEV,4,1>
+        Y.SOMME.MVMT.VENTE.REV = TAB.SOLDE<COMPTEUR.DEV,5,1>
+        Y.SOMME.MVMT.VENTE.RST = (Y.SOMME.MVMT.VENTE + Y.SOMME.MVMT.VENTE.REV) * -1
+
+        Y.SOMME.MVMT.VENTE.LCY = (TAB.SOLDE<COMPTEUR.DEV,4,2> +TAB.SOLDE<COMPTEUR.DEV,5,2>) * -1
+
+************
+************
+        Y.ONLINE.BALANCE.SUM = Y.SOMME.MVMT.ACHAT.RST + Y.SOMME.MVMT.VENTE.RST + Y.OPENNING.BALANCE
+
+        Y.MVMT.SUM = Y.ONLINE.BALANCE.SUM - Y.OPENNING.BALANCE
+
+        Y.RESULT.REVAL = (Y.ONLINE.BALANCE.SUM * (Y.COUS.REVAL/Y.QUTATION.FINAL)) - (Y.OPENNING.BALANCE.LCY + Y.SOMME.MVMT.ACHAT.LCY + Y.SOMME.MVMT.VENTE.LCY)
+
+        Y.ONLINE.BALANCE.SUM.LCY = Y.ONLINE.BALANCE.SUM * (Y.COUS.REVAL/Y.QUTATION.FINAL)
+        Y.COUS.REVAL.HIS = ""
+
+        TABLEAU<-1>=TAB.DEVISE<COMPTEUR.DEV>:'*':Y.OPENNING.BALANCE:'*':Y.MVMT.SUM:'*':Y.ONLINE.BALANCE.SUM:'*':Y.COUS.REVAL.HIS:'*':Y.COUS.REVAL:'*':Y.RESULT.REVAL:'*':Y.SOMME.MVMT.ACHAT.RST :'*': Y.SOMME.MVMT.VENTE.RST:'*':Y.SOMME.MVMT.ACHAT.LCY :'*': Y.SOMME.MVMT.VENTE.LCY:'*':Y.OPENNING.BALANCE.LCY:'*':Y.ONLINE.BALANCE.SUM.LCY
+
+ TEXT = TAB.DEVISE<COMPTEUR.DEV>:"/":Y.ONLINE.BALANCE.SUM
+ CALL REM
+    NEXT COMPTEUR.DEV  
+
+    RETURN
+******************
+GET.COURS:
+******************
+    Y.COUS.REVAL = ""
+    
+	CURR.REC=''
+	CURR.ERR=''
+    CALL F.READ(FN.CURR,TAB.DEVISE<COMPTEUR.DEV>,CURR.REC,F.CURR,CURR.ERR)
+
+    IF CURR.REC THEN
+        Y.COUS.REVAL = CURR.REC<EB.CUR.REVAL.RATE,1>
+        Y.QUTATION = CURR.REC<EB.CUR.QUOTATION.CODE,1>
+        Y.QUTATION.FINAL=PWR(10,Y.QUTATION)
+    END ELSE
+        E ="ERROR CURRENCY"
+    END
+
+    RETURN
+
+****************
+TRAIT.DETAIL:
+****************
+
+    BEGIN CASE
+    CASE R.POS.RECORD.MVMT<PSE.AMOUNT.LCY> LT 0 AND R.POS.RECORD.MVMT<PSE.TRANSACTION.CODE> MATCHES "DEL":@VM:"REV"
+        BUY.SELL = "S*"
+        Y.SOMME.MVMT.VENTE.REV = Y.SOMME.MVMT.VENTE.REV + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.VENTE.REV.LCY = Y.SOMME.MVMT.VENTE.REV.LCY + R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>
+
+
+    CASE R.POS.RECORD.MVMT<PSE.AMOUNT.LCY> LT 0
+        BUY.SELL = "P"
+        Y.SOMME.MVMT.ACHAT = Y.SOMME.MVMT.ACHAT + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.ACHAT.LCY = Y.SOMME.MVMT.ACHAT.LCY + R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>
+
+    CASE R.POS.RECORD.MVMT<PSE.TRANSACTION.CODE> MATCHES "DEL":@VM:"REV"
+        BUY.SELL = "P*"
+        Y.SOMME.MVMT.ACHAT.REV = Y.SOMME.MVMT.ACHAT.REV + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.ACHAT.REV.LCY = Y.SOMME.MVMT.ACHAT.REV.LCY + R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>
+
+
+    CASE 1
+        BUY.SELL = "S"
+        Y.SOMME.MVMT.VENTE = Y.SOMME.MVMT.VENTE + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.VENTE.LCY = Y.SOMME.MVMT.VENTE.LCY + R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>
+
+    END CASE
+
+    RETURN
+
+READ.FILE:
+*=========
+*
+    CALL F.READ(FN.POS.MVMT,YKEY,R.POS.RECORD,F.POS.MVMT,POS.MVMT.ERR)
+    IF R.POS.RECORD THEN
+        IF R.POS.RECORD<PSE.CURRENCY> MATCHES "":@VM:LCCY THEN
+
+            R.POS.RECORD<PSE.AMOUNT.FCY> = R.POS.RECORD<PSE.AMOUNT.LCY>         ;* makes calculation easier
+        END
+    END
+    RETURN
+
+END

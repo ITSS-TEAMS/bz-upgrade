@@ -1,0 +1,15 @@
+public table BzTraitBatch {
+    t24:  BZ.TRAIT.BATCH
+    fields:{
+        BzTraitBatchDescription(BZ.TRAIT.DESCRIPTION)=1
+        BzTraitBatchRecordStatus(BZ.TRAIT.RECORD.STATUS)=2
+        BzTraitBatchCurrNo(BZ.TRAIT.CURR.NO)=3
+        BzTraitBatchInputter(BZ.TRAIT.INPUTTER)=4
+        BzTraitBatchDateTime(BZ.TRAIT.DATE.TIME)=5
+        BzTraitBatchAuthoriser(BZ.TRAIT.AUTHORISER)=6
+        BzTraitBatchCoCode(BZ.TRAIT.CO.CODE)=7
+        BzTraitBatchDeptCode(BZ.TRAIT.DEPT.CODE)=8
+        BzTraitBatchAuditorCode(BZ.TRAIT.AUDITOR.CODE)=9
+        BzTraitBatchAuditDateTime(BZ.TRAIT.AUDIT.DATE.TIME)=10
+    }
+}

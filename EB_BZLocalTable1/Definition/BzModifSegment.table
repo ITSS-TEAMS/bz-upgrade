@@ -1,0 +1,21 @@
+public table BzModifSegment {
+    t24:  BZ.MODIF.SEGMENT
+    fields:{
+        BzModifSegmentAncienSegment(BZ.MS.ANCIEN.SEGMENT)=1
+        BzModifSegmentNouveauSegment(BZ.MS.NOUVEAU.SEGMENT)=2
+        BzModifSegmentDateModif(BZ.MS.DATE.MODIF)=3
+        BzModifSegmentMotifDeModif(BZ.MS.MOTIF.DE.MODIF)=4
+        BzModifSegmentModifiePar(BZ.MS.MODIFIE.PAR)=5
+        BzModifSegmentLocalRef(BZ.MS.LOCAL.REF)=6
+        BzModifSegmentOverride(BZ.MS.OVERRIDE)=7
+        BzModifSegmentRecordStatus(BZ.MS.RECORD.STATUS)=8
+        BzModifSegmentCurrNo(BZ.MS.CURR.NO)=9
+        BzModifSegmentInputter(BZ.MS.INPUTTER)=10
+        BzModifSegmentDateTime(BZ.MS.DATE.TIME)=11
+        BzModifSegmentAuthoriser(BZ.MS.AUTHORISER)=12
+        BzModifSegmentCoCode(BZ.MS.CO.CODE)=13
+        BzModifSegmentDeptCode(BZ.MS.DEPT.CODE)=14
+        BzModifSegmentAuditorCode(BZ.MS.AUDITOR.CODE)=15
+        BzModifSegmentAuditDateTime(BZ.MS.AUDIT.DATE.TIME)=16
+    }
+}

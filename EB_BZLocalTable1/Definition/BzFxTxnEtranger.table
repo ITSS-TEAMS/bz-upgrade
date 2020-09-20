@@ -1,0 +1,21 @@
+public table BzFxTxnEtranger {
+    t24:  BZ.FX.TXN.ETRANGER
+    fields:{
+        BzFxTxnEtrangerDateOperation(ETR.DATE.OPERATION)=1
+        BzFxTxnEtrangerReserved1(ETR.RESERVED.1)=2
+        BzFxTxnEtrangerReserved2(ETR.RESERVED.2)=3
+        BzFxTxnEtrangerReserved3(ETR.RESERVED.3)=4
+        BzFxTxnEtrangerReserved4(ETR.RESERVED.4)=5
+        BzFxTxnEtrangerReserved5(ETR.RESERVED.5)=6
+        BzFxTxnEtrangerReserved6(ETR.RESERVED.6)=7
+        BzFxTxnEtrangerRecordStatus(ETR.RECORD.STATUS)=8
+        BzFxTxnEtrangerCurrNo(ETR.CURR.NO)=9
+        BzFxTxnEtrangerInputter(ETR.INPUTTER)=10
+        BzFxTxnEtrangerDateTime(ETR.DATE.TIME)=11
+        BzFxTxnEtrangerAuthoriser(ETR.AUTHORISER)=12
+        BzFxTxnEtrangerCoCode(ETR.CO.CODE)=13
+        BzFxTxnEtrangerDeptCode(ETR.DEPT.CODE)=14
+        BzFxTxnEtrangerAuditorCode(ETR.AUDITOR.CODE)=15
+        BzFxTxnEtrangerAuditDateTime(ETR.AUDIT.DATE.TIME)=16
+    }
+}

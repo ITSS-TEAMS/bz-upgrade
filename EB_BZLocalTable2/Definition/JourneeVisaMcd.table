@@ -1,0 +1,28 @@
+public table JourneeVisaMcd {
+    t24:  JOURNEE.VISA.MCD
+    fields:{
+        JourneeVisaMcdType(JOUR.VIS.MCD.TYPE)=1
+        JourneeVisaMcdJournee(JOUR.VIS.MCD.JOURNEE)=2
+        JourneeVisaMcdStatut(JOUR.VIS.MCD.STATUT)=3
+        JourneeVisaMcdReserved1(JOUR.VIS.MCD.RESERVED.1)=4
+        JourneeVisaMcdReserved2(JOUR.VIS.MCD.RESERVED.2)=5
+        JourneeVisaMcdReserved3(JOUR.VIS.MCD.RESERVED.3)=6
+        JourneeVisaMcdReserved4(JOUR.VIS.MCD.RESERVED.4)=7
+        JourneeVisaMcdReserved5(JOUR.VIS.MCD.RESERVED.5)=8
+        JourneeVisaMcdReserved6(JOUR.VIS.MCD.RESERVED.6)=9
+        JourneeVisaMcdReserved7(JOUR.VIS.MCD.RESERVED.7)=10
+        JourneeVisaMcdReserved8(JOUR.VIS.MCD.RESERVED.8)=11
+        JourneeVisaMcdReserved9(JOUR.VIS.MCD.RESERVED.9)=12
+        JourneeVisaMcdReserved10(JOUR.VIS.MCD.RESERVED.10)=13
+        JourneeVisaMcdOverride(JOUR.VIS.MCD.OVERRIDE)=14
+        JourneeVisaMcdRecordStatus(JOUR.VIS.MCD.RECORD.STATUS)=15
+        JourneeVisaMcdCurrNo(JOUR.VIS.MCD.CURR.NO)=16
+        JourneeVisaMcdInputter(JOUR.VIS.MCD.INPUTTER)=17
+        JourneeVisaMcdDateTime(JOUR.VIS.MCD.DATE.TIME)=18
+        JourneeVisaMcdAuthoriser(JOUR.VIS.MCD.AUTHORISER)=19
+        JourneeVisaMcdCoCode(JOUR.VIS.MCD.CO.CODE)=20
+        JourneeVisaMcdDeptCode(JOUR.VIS.MCD.DEPT.CODE)=21
+        JourneeVisaMcdAuditorCode(JOUR.VIS.MCD.AUDITOR.CODE)=22
+        JourneeVisaMcdAuditDateTime(JOUR.VIS.MCD.AUDIT.DATE.TIME)=23
+    }
+}

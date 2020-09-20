@@ -1,0 +1,21 @@
+public table BzMdpMotifValeur {
+    t24:  BZ.MDP.MOTIF.VALEUR
+    fields:{
+        BzMdpMotifValeurCodeValeur(MOT.VAL.CODE.VALEUR)=1
+        BzMdpMotifValeurMotif(MOT.VAL.MOTIF)=2
+        BzMdpMotifValeurClasse(MOT.VAL.CLASSE)=3
+        BzMdpMotifValeurCertifie(MOT.VAL.CERTIFIE)=4
+        BzMdpMotifValeurBonAPayer(MOT.VAL.BON.A.PAYER)=5
+        BzMdpMotifValeurMontantMin(MOT.VAL.MONTANT.MIN)=6
+        BzMdpMotifValeurOverride(MOT.VAL.OVERRIDE)=7
+        BzMdpMotifValeurRecordStatus(MOT.VAL.RECORD.STATUS)=8
+        BzMdpMotifValeurCurrNo(MOT.VAL.CURR.NO)=9
+        BzMdpMotifValeurInputter(MOT.VAL.INPUTTER)=10
+        BzMdpMotifValeurDateTime(MOT.VAL.DATE.TIME)=11
+        BzMdpMotifValeurAuthoriser(MOT.VAL.AUTHORISER)=12
+        BzMdpMotifValeurCoCode(MOT.VAL.CO.CODE)=13
+        BzMdpMotifValeurDeptCode(MOT.VAL.DEPT.CODE)=14
+        BzMdpMotifValeurAuditorCode(MOT.VAL.AUDITOR.CODE)=15
+        BzMdpMotifValeurAuditDateTime(MOT.VAL.AUDIT.DATE.TIME)=16
+    }
+}

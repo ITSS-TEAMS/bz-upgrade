@@ -1,0 +1,24 @@
+public table BzCptUser {
+    t24:  BZ.CPT.USER
+    fields:{
+        BzCptUserCompte(CPT.USER.COMPTE)=1
+        BzCptUserDateValidite(CPT.USER.DATE.VALIDITE)=2
+        BzCptUserAll(CPT.USER.ALL)=3
+        BzCptUserReserved1(CPT.USER.RESERVED.1)=4
+        BzCptUserReserved2(CPT.USER.RESERVED.2)=5
+        BzCptUserReserved3(CPT.USER.RESERVED.3)=6
+        BzCptUserReserved4(CPT.USER.RESERVED.4)=7
+        BzCptUserReserved5(CPT.USER.RESERVED.5)=8
+        BzCptUserLocalRef(CPT.USER.LOCAL.REF)=9
+        BzCptUserOverride(CPT.USER.OVERRIDE)=10
+        BzCptUserRecordStatus(CPT.USER.RECORD.STATUS)=11
+        BzCptUserCurrNo(CPT.USER.CURR.NO)=12
+        BzCptUserInputter(CPT.USER.INPUTTER)=13
+        BzCptUserDateTime(CPT.USER.DATE.TIME)=14
+        BzCptUserAuthoriser(CPT.USER.AUTHORISER)=15
+        BzCptUserCoCode(CPT.USER.CO.CODE)=16
+        BzCptUserDeptCode(CPT.USER.DEPT.CODE)=17
+        BzCptUserAuditorCode(CPT.USER.AUDITOR.CODE)=18
+        BzCptUserAuditDateTime(CPT.USER.AUDIT.DATE.TIME)=19
+    }
+}

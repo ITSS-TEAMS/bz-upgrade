@@ -1,0 +1,28 @@
+public table BzCardCotisationHist {
+    t24:  BZ.CARD.COTISATION.HIST
+    fields:{
+        BzCardCotisationHistDateTraitement(CS.CARD.HIST.DATE.TRAITEMENT)=1
+        BzCardCotisationHistNbrCarte(CS.CARD.HIST.NBR.CARTE)=2
+        BzCardCotisationHistUser(CS.CARD.HIST.USER)=3
+        BzCardCotisationHistReserved1(CS.CARD.HIST.RESERVED.1)=4
+        BzCardCotisationHistReserved2(CS.CARD.HIST.RESERVED.2)=5
+        BzCardCotisationHistReserved3(CS.CARD.HIST.RESERVED.3)=6
+        BzCardCotisationHistReserved4(CS.CARD.HIST.RESERVED.4)=7
+        BzCardCotisationHistReserved5(CS.CARD.HIST.RESERVED.5)=8
+        BzCardCotisationHistReserved6(CS.CARD.HIST.RESERVED.6)=9
+        BzCardCotisationHistReserved7(CS.CARD.HIST.RESERVED.7)=10
+        BzCardCotisationHistReserved8(CS.CARD.HIST.RESERVED.8)=11
+        BzCardCotisationHistReserved9(CS.CARD.HIST.RESERVED.9)=12
+        BzCardCotisationHistReserved10(CS.CARD.HIST.RESERVED.10)=13
+        BzCardCotisationHistOverride(CS.CARD.HIST.OVERRIDE)=14
+        BzCardCotisationHistRecordStatus(CS.CARD.HIST.RECORD.STATUS)=15
+        BzCardCotisationHistCurrNo(CS.CARD.HIST.CURR.NO)=16
+        BzCardCotisationHistInputter(CS.CARD.HIST.INPUTTER)=17
+        BzCardCotisationHistDateTime(CS.CARD.HIST.DATE.TIME)=18
+        BzCardCotisationHistAuthoriser(CS.CARD.HIST.AUTHORISER)=19
+        BzCardCotisationHistCoCode(CS.CARD.HIST.CO.CODE)=20
+        BzCardCotisationHistDeptCode(CS.CARD.HIST.DEPT.CODE)=21
+        BzCardCotisationHistAuditorCode(CS.CARD.HIST.AUDITOR.CODE)=22
+        BzCardCotisationHistAuditDateTime(CS.CARD.HIST.AUDIT.DATE.TIME)=23
+    }
+}

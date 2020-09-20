@@ -1,0 +1,20 @@
+public table BzGenericUser {
+        t24:  BZ.GENERIC.USER
+        fields:{
+            BzGenericUserUser(BZ.GENERIC.USER.USER)=1
+            BzGenericUserPassword(BZ.GENERIC.USER.PASSWORD)=2
+            BzGenericUserOfsSource(BZ.GENERIC.USER.OFS.SOURCE)=3
+            BzGenericUserVersionOfs(BZ.GENERIC.USER.VERSION.OFS)=4
+            BzGenericUserLocalRef(BZ.GENERIC.USER.LOCAL.REF)=5
+            BzGenericUserOverride(BZ.GENERIC.USER.OVERRIDE)=6
+            BzGenericUserRecordStatus(BZ.GENERIC.USER.RECORD.STATUS)=7
+            BzGenericUserCurrNo(BZ.GENERIC.USER.CURR.NO)=8
+            BzGenericUserInputter(BZ.GENERIC.USER.INPUTTER)=9
+            BzGenericUserDateTime(BZ.GENERIC.USER.DATE.TIME)=10
+            BzGenericUserAuthoriser(BZ.GENERIC.USER.AUTHORISER)=11
+            BzGenericUserCoCode(BZ.GENERIC.USER.CO.CODE)=12
+            BzGenericUserDeptCode(BZ.GENERIC.USER.DEPT.CODE)=13
+            BzGenericUserAuditorCode(BZ.GENERIC.USER.AUDITOR.CODE)=14
+            BzGenericUserAuditDateTime(BZ.GENERIC.USER.AUDIT.DATE.TIME)=15
+        }
+    }

@@ -1,0 +1,24 @@
+public table BzMailParameters {
+    t24:  BZ.MAIL.PARAMETERS
+    fields:{
+        BzMailParametersSystemName(BZ.MAIL.SYSTEM.NAME)=1
+        BzMailParametersMailFrom(BZ.MAIL.MAIL.FROM)=2
+        BzMailParametersMailTo(BZ.MAIL.MAIL.TO)=3
+        BzMailParametersStatut(BZ.MAIL.STATUT)=4
+        BzMailParametersReserved1(BZ.MAIL.RESERVED.1)=5
+        BzMailParametersReserved2(BZ.MAIL.RESERVED.2)=6
+        BzMailParametersReserved3(BZ.MAIL.RESERVED.3)=7
+        BzMailParametersReserved4(BZ.MAIL.RESERVED.4)=8
+        BzMailParametersLocalRef(BZ.MAIL.LOCAL.REF)=9
+        BzMailParametersOverride(BZ.MAIL.OVERRIDE)=10
+        BzMailParametersRecordStatus(BZ.MAIL.RECORD.STATUS)=11
+        BzMailParametersCurrNo(BZ.MAIL.CURR.NO)=12
+        BzMailParametersInputter(BZ.MAIL.INPUTTER)=13
+        BzMailParametersDateTime(BZ.MAIL.DATE.TIME)=14
+        BzMailParametersAuthoriser(BZ.MAIL.AUTHORISER)=15
+        BzMailParametersCoCode(BZ.MAIL.CO.CODE)=16
+        BzMailParametersDeptCode(BZ.MAIL.DEPT.CODE)=17
+        BzMailParametersAuditorCode(BZ.MAIL.AUDITOR.CODE)=18
+        BzMailParametersAuditDateTime(BZ.MAIL.AUDIT.DATE.TIME)=19
+    }
+}

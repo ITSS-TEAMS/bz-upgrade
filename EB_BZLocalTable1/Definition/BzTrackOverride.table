@@ -1,0 +1,26 @@
+public table BzTrackOverride {
+        t24:  BZ.TRACK.OVERRIDE
+        fields:{
+            BzTrackOverrideMessage(BZ.OV.MESSAGE)=1
+            BzTrackOverrideReference(BZ.OV.REFERENCE)=2
+            BzTrackOverrideArgument1(BZ.OV.ARGUMENT.1)=3
+            BzTrackOverrideArgument2(BZ.OV.ARGUMENT.2)=4
+            BzTrackOverrideArgument3(BZ.OV.ARGUMENT.3)=5
+            BzTrackOverrideArgument4(BZ.OV.ARGUMENT.4)=6
+            BzTrackOverrideDateOperation(BZ.OV.DATE.OPERATION)=7
+            BzTrackOverrideReserved2(BZ.OV.RESERVED.2)=8
+            BzTrackOverrideReserved3(BZ.OV.RESERVED.3)=9
+            BzTrackOverrideReserved4(BZ.OV.RESERVED.4)=10
+            BzTrackOverrideReserved5(BZ.OV.RESERVED.5)=11
+            BzTrackOverrideOverride(BZ.OV.OVERRIDE)=12
+            BzTrackOverrideRecordStatus(BZ.OV.RECORD.STATUS)=13
+            BzTrackOverrideCurrNo(BZ.OV.CURR.NO)=14
+            BzTrackOverrideInputter(BZ.OV.INPUTTER)=15
+            BzTrackOverrideDateTime(BZ.OV.DATE.TIME)=16
+            BzTrackOverrideAuthoriser(BZ.OV.AUTHORISER)=17
+            BzTrackOverrideCoCode(BZ.OV.CO.CODE)=18
+            BzTrackOverrideDeptCode(BZ.OV.DEPT.CODE)=19
+            BzTrackOverrideAuditorCode(BZ.OV.AUDITOR.CODE)=20
+            BzTrackOverrideAuditDateTime(BZ.OV.AUDIT.DATE.TIME)=21
+        }
+    }

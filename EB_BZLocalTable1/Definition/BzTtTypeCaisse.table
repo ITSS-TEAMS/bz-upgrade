@@ -1,0 +1,19 @@
+public table BzTtTypeCaisse {
+    t24:  BZ.TT.TYPE.CAISSE
+    fields:{
+        BzTtTypeCaisseDescription(TYP.CAI.DESCRIPTION)=1
+        BzTtTypeCaisseSeuilOperation(TYP.CAI.SEUIL.OPERATION)=2
+        BzTtTypeCaisseSeuilEncaisse(TYP.CAI.SEUIL.ENCAISSE)=3
+        BzTtTypeCaisseLocalRef(TYP.CAI.LOCAL.REF)=4
+        BzTtTypeCaisseOverride(TYP.CAI.OVERRIDE)=5
+        BzTtTypeCaisseRecordStatus(TYP.CAI.RECORD.STATUS)=6
+        BzTtTypeCaisseCurrNo(TYP.CAI.CURR.NO)=7
+        BzTtTypeCaisseInputter(TYP.CAI.INPUTTER)=8
+        BzTtTypeCaisseDateTime(TYP.CAI.DATE.TIME)=9
+        BzTtTypeCaisseAuthoriser(TYP.CAI.AUTHORISER)=10
+        BzTtTypeCaisseCoCode(TYP.CAI.CO.CODE)=11
+        BzTtTypeCaisseDeptCode(TYP.CAI.DEPT.CODE)=12
+        BzTtTypeCaisseAuditorCode(TYP.CAI.AUDITOR.CODE)=13
+        BzTtTypeCaisseAuditDateTime(TYP.CAI.AUDIT.DATE.TIME)=14
+    }
+}

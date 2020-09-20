@@ -1,0 +1,22 @@
+public table BzAvaNatOp {
+        t24:  BZ.AVA.NAT.OP
+        fields:{
+            BzAvaNatOpDescription(NAT.OPE.DESCRIPTION)=1
+            BzAvaNatOpReserved1(NAT.OPE.RESERVED1)=2
+            BzAvaNatOpReserved2(NAT.OPE.RESERVED2)=3
+            BzAvaNatOpReserved3(NAT.OPE.RESERVED3)=4
+            BzAvaNatOpReserved4(NAT.OPE.RESERVED4)=5
+            BzAvaNatOpReserved5(NAT.OPE.RESERVED5)=6
+            BzAvaNatOpLocalRef(NAT.OPE.LOCAL.REF)=7
+            BzAvaNatOpOverride(NAT.OPE.OVERRIDE)=8
+            BzAvaNatOpRecordStatus(NAT.OPE.RECORD.STATUS)=9
+            BzAvaNatOpCurrNo(NAT.OPE.CURR.NO)=10
+            BzAvaNatOpInputter(NAT.OPE.INPUTTER)=11
+            BzAvaNatOpDateTime(NAT.OPE.DATE.TIME)=12
+            BzAvaNatOpAuthoriser(NAT.OPE.AUTHORISER)=13
+            BzAvaNatOpCoCode(NAT.OPE.CO.CODE)=14
+            BzAvaNatOpDeptCode(NAT.OPE.DEPT.CODE)=15
+            BzAvaNatOpAuditorCode(NAT.OPE.AUDITOR.CODE)=16
+            BzAvaNatOpAuditDateTime(NAT.OPE.AUDIT.DATE.TIME)=17
+        }
+    }

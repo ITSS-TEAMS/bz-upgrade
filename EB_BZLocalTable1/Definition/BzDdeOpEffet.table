@@ -1,0 +1,33 @@
+public table BzDdeOpEffet {
+    t24:  BZ.DDE.OP.EFFET
+    fields:{
+        BzDdeOpEffetTypeDemande(OP.EFF.TYPE.DEMANDE)=1
+        BzDdeOpEffetTypeReclamation(OP.EFF.TYPE.RECLAMATION)=2
+        BzDdeOpEffetNumLcn(OP.EFF.NUM.LCN)=3
+        BzDdeOpEffetCompteCedant(OP.EFF.COMPTE.CEDANT)=4
+        BzDdeOpEffetNomCedant(OP.EFF.NOM.CEDANT)=5
+        BzDdeOpEffetMontantPrincipal(OP.EFF.MONTANT.PRINCIPAL)=6
+        BzDdeOpEffetDateEcheance(OP.EFF.DATE.ECHEANCE)=7
+        BzDdeOpEffetRibTire(OP.EFF.RIB.TIRE)=8
+        BzDdeOpEffetDateCreation(OP.EFF.DATE.CREATION)=9
+        BzDdeOpEffetDateRemise(OP.EFF.DATE.REMISE)=10
+        BzDdeOpEffetDateEffetDde(OP.EFF.DATE.EFFET.DDE)=11
+        BzDdeOpEffetDatePecDde(OP.EFF.DATE.PEC.DDE)=12
+        BzDdeOpEffetUniteGestion(OP.EFF.UNITE.GESTION)=13
+        BzDdeOpEffetNvlDdeEcheance(OP.EFF.NVL.DDE.ECHEANCE)=14
+        BzDdeOpEffetNouveauRibTire(OP.EFF.NOUVEAU.RIB.TIRE)=15
+        BzDdeOpEffetDateTraitPfc(OP.EFF.DATE.TRAIT.PFC)=16
+        BzDdeOpEffetDateApurement(OP.EFF.DATE.APUREMENT)=17
+        BzDdeOpEffetStatut(OP.EFF.STATUT)=18
+        BzDdeOpEffetOverride(OP.EFF.OVERRIDE)=19
+        BzDdeOpEffetRecordStatus(OP.EFF.RECORD.STATUS)=20
+        BzDdeOpEffetCurrNo(OP.EFF.CURR.NO)=21
+        BzDdeOpEffetInputter(OP.EFF.INPUTTER)=22
+        BzDdeOpEffetDateTime(OP.EFF.DATE.TIME)=23
+        BzDdeOpEffetAuthoriser(OP.EFF.AUTHORISER)=24
+        BzDdeOpEffetCoCode(OP.EFF.CO.CODE)=25
+        BzDdeOpEffetDeptCode(OP.EFF.DEPT.CODE)=26
+        BzDdeOpEffetAuditorCode(OP.EFF.AUDITOR.CODE)=27
+        BzDdeOpEffetAuditDateTime(OP.EFF.AUDIT.DATE.TIME)=28
+    }
+}

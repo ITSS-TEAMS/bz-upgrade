@@ -1,0 +1,34 @@
+public table CfonbFields {
+t24:  CFONB.FIELDS
+fields:{
+    CfonbFieldsDestAppl(CFB.FIE.DEST.APPL) = 1        
+	CfonbFieldsDestJoin(CFB.FIE.DEST.JOIN) = 2 
+    CfonbFieldsDestFinal(CFB.FIE.DEST.FINAL) = 3     
+	CfonbFieldsDestFmtRtn(CFB.FIE.DEST.FMT.RTN) = 4
+    CfonbFieldsDestJustify(CFB.FIE.DEST.JUSTIFY) = 5      
+	CfonbFieldsDestChars(CFB.FIE.DEST.CHARS) = 6
+    CfonbFieldsOrigAppl(CFB.FIE.ORIG.APPL) = 7      
+	CfonbFieldsOrigJoin(CFB.FIE.ORIG.JOIN) = 8 
+    CfonbFieldsOrigFinal(CFB.FIE.ORIG.FINAL) = 9    
+	CfonbFieldsOrigFmtRtn(CFB.FIE.ORIG.FMT.RTN) = 10
+    CfonbFieldsOrigJustify(CFB.FIE.ORIG.JUSTIFY) = 11   
+	CfonbFieldsOrigChars(CFB.FIE.ORIG.CHARS) = 12
+    CfonbFieldsReserved6(CFB.FIE.RESERVED.6) = 13   
+	CfonbFieldsReserved5(CFB.FIE.RESERVED.5) = 14
+    CfonbFieldsReserved4(CFB.FIE.RESERVED.4) = 15   
+	CfonbFieldsReserved3(CFB.FIE.RESERVED.3) = 16
+    CfonbFieldsReserved2(CFB.FIE.RESERVED.2) = 17    
+	CfonbFieldsReserved1(CFB.FIE.RESERVED.1) = 18
+    CfonbFieldsLocalRef(CFB.FIE.LOCAL.REF) = 19     
+	CfonbFieldsOverride(CFB.FIE.OVERRIDE) = 20           
+    CfonbFieldsRecordStatus(CFB.FIE.RECORD.STATUS) = 21    
+    CfonbFieldsCurrNo(CFB.FIE.CURR.NO) = 22
+    CfonbFieldsInputter(CFB.FIE.INPUTTER) = 23      
+	CfonbFieldsDateTime(CFB.FIE.DATE.TIME) = 24
+    CfonbFieldsAuthoriser(CFB.FIE.AUTHORISER) = 25    
+	CfonbFieldsCoCode(CFB.FIE.CO.CODE) = 26
+    CfonbFieldsDeptCode(CFB.FIE.DEPT.CODE) = 27  
+	CfonbFieldsAuditorCode(CFB.FIE.AUDITOR.CODE) = 28
+    CfonbFieldsAuditTime(CFB.FIE.AUDIT.DATE.TIME) = 29
+}
+}

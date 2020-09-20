@@ -1,0 +1,8 @@
+public table CecInwardConcat {
+t24:  CEC.INWARD.CONCAT
+fields:{
+
+CecInwardConcatInFileId(CEC.ICC.IN.FILE.ID)=1
+
+}
+}

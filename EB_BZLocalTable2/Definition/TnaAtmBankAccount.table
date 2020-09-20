@@ -1,0 +1,24 @@
+public table TnaAtmBankAccount {
+    t24:  TNA.ATM.BANK.ACCOUNT
+    fields:{
+        TnaAtmBankAccountPayAccount(BANK.PAY.ACCOUNT)=1
+        TnaAtmBankAccountReceiveAccount(BANK.RECEIVE.ACCOUNT)=2
+        TnaAtmBankAccountRejetAccount(BANK.REJET.ACCOUNT)=3
+        TnaAtmBankAccountComAccount(BANK.COM.ACCOUNT)=4
+        TnaAtmBankAccountComCode(BANK.COM.CODE)=5
+        TnaAtmBankAccountDealCcy(BANK.DEAL.CCY)=6
+        TnaAtmBankAccountFraisAccount(BANK.FRAIS.ACCOUNT)=7
+        TnaAtmBankAccountFrais2Account(BANK.FRAIS2.ACCOUNT)=8
+        TnaAtmBankAccountLocalRef(BANK.LOCAL.REF)=9
+        TnaAtmBankAccountOverride(BANK.OVERRIDE)=10
+        TnaAtmBankAccountRecordStatus(BANK.RECORD.STATUS)=11
+        TnaAtmBankAccountCurrNo(BANK.CURR.NO)=12
+        TnaAtmBankAccountInputter(BANK.INPUTTER)=13
+        TnaAtmBankAccountDateTime(BANK.DATE.TIME)=14
+        TnaAtmBankAccountAuthoriser(BANK.AUTHORISER)=15
+        TnaAtmBankAccountCoCode(BANK.CO.CODE)=16
+        TnaAtmBankAccountDeptCode(BANK.DEPT.CODE)=17
+        TnaAtmBankAccountAuditorCode(BANK.AUDITOR.CODE)=18
+        TnaAtmBankAccountAuditDateTime(BANK.AUDIT.DATE.TIME)=19
+    }
+}

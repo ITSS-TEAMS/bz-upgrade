@@ -1,0 +1,24 @@
+public table BzSoldeMoyenParam {
+    t24:  BZ.SOLDE.MOYEN.PARAM
+    fields:{
+        BzSoldeMoyenParamDateMaj(SODLE.PARAM.DATE.MAJ)=1
+        BzSoldeMoyenParamMois(SODLE.PARAM.MOIS)=2
+        BzSoldeMoyenParamAnne(SODLE.PARAM.ANNE)=3
+        BzSoldeMoyenParamReserved1(SODLE.PARAM.RESERVED.1)=4
+        BzSoldeMoyenParamReserved2(SODLE.PARAM.RESERVED.2)=5
+        BzSoldeMoyenParamReserved3(SODLE.PARAM.RESERVED.3)=6
+        BzSoldeMoyenParamReserved4(SODLE.PARAM.RESERVED.4)=7
+        BzSoldeMoyenParamReserved5(SODLE.PARAM.RESERVED.5)=8
+        BzSoldeMoyenParamLocalRef(SODLE.PARAM.LOCAL.REF)=9
+        BzSoldeMoyenParamOverride(SODLE.PARAM.OVERRIDE)=10
+        BzSoldeMoyenParamRecordStatus(SODLE.PARAM.RECORD.STATUS)=11
+        BzSoldeMoyenParamCurrNo(SODLE.PARAM.CURR.NO)=12
+        BzSoldeMoyenParamInputter(SODLE.PARAM.INPUTTER)=13
+        BzSoldeMoyenParamDateTime(SODLE.PARAM.DATE.TIME)=14
+        BzSoldeMoyenParamAuthoriser(SODLE.PARAM.AUTHORISER)=15
+        BzSoldeMoyenParamCoCode(SODLE.PARAM.CO.CODE)=16
+        BzSoldeMoyenParamDeptCode(SODLE.PARAM.DEPT.CODE)=17
+        BzSoldeMoyenParamAuditorCode(SODLE.PARAM.AUDITOR.CODE)=18
+        BzSoldeMoyenParamAuditDateTime(SODLE.PARAM.AUDIT.DATE.TIME)=19
+    }
+}

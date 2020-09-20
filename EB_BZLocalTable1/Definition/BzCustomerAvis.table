@@ -1,0 +1,22 @@
+public table BzCustomerAvis {
+    t24:  BZ.CUSTOMER.AVIS
+    fields:{
+        BzCustomerAvisSendAdvice(CUS.AV.SEND.ADVICE)=1
+        BzCustomerAvisCommentaire(CUS.AV.COMMENTAIRE)=2
+        BzCustomerAvisReserved1(CUS.AV.RESERVED.1)=3
+        BzCustomerAvisReserved2(CUS.AV.RESERVED.2)=4
+        BzCustomerAvisReserved3(CUS.AV.RESERVED.3)=5
+        BzCustomerAvisReserved4(CUS.AV.RESERVED.4)=6
+        BzCustomerAvisReserved5(CUS.AV.RESERVED.5)=7
+        BzCustomerAvisReserved6(CUS.AV.RESERVED.6)=8
+        BzCustomerAvisRecordStatus(CUS.AV.RECORD.STATUS)=9
+        BzCustomerAvisCurrNo(CUS.AV.CURR.NO)=10
+        BzCustomerAvisInputter(CUS.AV.INPUTTER)=11
+        BzCustomerAvisDateTime(CUS.AV.DATE.TIME)=12
+        BzCustomerAvisAuthoriser(CUS.AV.AUTHORISER)=13
+        BzCustomerAvisCoCode(CUS.AV.CO.CODE)=14
+        BzCustomerAvisDeptCode(CUS.AV.DEPT.CODE)=15
+        BzCustomerAvisAuditorCode(CUS.AV.AUDITOR.CODE)=16
+        BzCustomerAvisAuditDateTime(CUS.AV.AUDIT.DATE.TIME)=17
+    }
+}

@@ -1,0 +1,24 @@
+public table BzPrefDateValeur {
+    t24:  BZ.PREF.DATE.VALEUR
+    fields:{
+        BzPrefDateValeurApplication(DV.APPLICATION)=1
+        BzPrefDateValeurCodeOperation(DV.CODE.OPERATION)=2
+        BzPrefDateValeurSens(DV.SENS)=3
+        BzPrefDateValeurDateValeur(DV.DATE.VALEUR)=4
+        BzPrefDateValeurNomPrenom(DV.NOM.PRENOM)=5
+        BzPrefDateValeurReserved2(DV.RATE.PREF)=6
+        BzPrefDateValeurReserved3(DV.RESERVED.3)=7
+        BzPrefDateValeurReserved4(DV.RESERVED.4)=8
+        BzPrefDateValeurLocalRef(DV.LOCAL.REF)=9
+        BzPrefDateValeurOverride(DV.OVERRIDE)=10
+        BzPrefDateValeurRecordStatus(DV.RECORD.STATUS)=11
+        BzPrefDateValeurCurrNo(DV.CURR.NO)=12
+        BzPrefDateValeurInputter(DV.INPUTTER)=13
+        BzPrefDateValeurDateTime(DV.DATE.TIME)=14
+        BzPrefDateValeurAuthoriser(DV.AUTHORISER)=15
+        BzPrefDateValeurCoCode(DV.CO.CODE)=16
+        BzPrefDateValeurDeptCode(DV.DEPT.CODE)=17
+        BzPrefDateValeurAuditorCode(DV.AUDITOR.CODE)=18
+        BzPrefDateValeurAuditDateTime(DV.AUDIT.DATE.TIME)=19
+    }
+}

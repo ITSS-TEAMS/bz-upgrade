@@ -1,0 +1,27 @@
+public table BzIbSmsPackDef {
+    t24:  BZ.IB.SMS.PACK.DEF
+    fields:{
+        BzIbSmsPackDefDescription(IBSMS.DESCRIPTION)=1
+        BzIbSmsPackDefTypePack(IBSMS.TYPE.PACK)=2
+        BzIbSmsPackDefPeriodicite(IBSMS.PERIODICITE)=3
+        BzIbSmsPackDefPrix(IBSMS.PRIX)=4
+        BzIbSmsPackDefNbrSms(IBSMS.NBR.SMS)=5
+        BzIbSmsPackDefMntSmsSup(IBSMS.MNT.SMS.SUP)=6
+        BzIbSmsPackDefReserved1(IBSMS.RESERVED.1)=7
+        BzIbSmsPackDefReserved2(IBSMS.RESERVED.2)=8
+        BzIbSmsPackDefReserved3(IBSMS.RESERVED.3)=9
+        BzIbSmsPackDefReserved4(IBSMS.RESERVED.4)=10
+        BzIbSmsPackDefReserved5(IBSMS.RESERVED.5)=11
+        BzIbSmsPackDefLocalRef(IBSMS.LOCAL.REF)=12
+        BzIbSmsPackDefOverride(IBSMS.OVERRIDE)=13
+        BzIbSmsPackDefRecordStatus(IBSMS.RECORD.STATUS)=14
+        BzIbSmsPackDefCurrNo(IBSMS.CURR.NO)=15
+        BzIbSmsPackDefInputter(IBSMS.INPUTTER)=16
+        BzIbSmsPackDefDateTime(IBSMS.DATE.TIME)=17
+        BzIbSmsPackDefAuthoriser(IBSMS.AUTHORISER)=18
+        BzIbSmsPackDefCoCode(IBSMS.CO.CODE)=19
+        BzIbSmsPackDefDeptCode(IBSMS.DEPT.CODE)=20
+        BzIbSmsPackDefAuditorCode(IBSMS.AUDITOR.CODE)=21
+        BzIbSmsPackDefAuditDateTime(IBSMS.AUDIT.DATE.TIME)=22
+    }
+}

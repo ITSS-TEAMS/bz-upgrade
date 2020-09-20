@@ -1,0 +1,22 @@
+public table BzTribunal {
+    t24:  BZ.TRIBUNAL
+    fields:{
+        BzTribunalDescription(TRIB.DESCRIPTION)=1
+        BzTribunalReserved1(TRIB.RESERVED1)=2
+        BzTribunalReserved2(TRIB.RESERVED2)=3
+        BzTribunalReserved3(TRIB.RESERVED3)=4
+        BzTribunalReserved4(TRIB.RESERVED4)=5
+        BzTribunalReserved5(TRIB.RESERVED5)=6
+        BzTribunalLocalRef(TRIB.LOCAL.REF)=7
+        BzTribunalOverride(TRIB.OVERRIDE)=8
+        BzTribunalRecordStatus(TRIB.RECORD.STATUS)=9
+        BzTribunalCurrNo(TRIB.CURR.NO)=10
+        BzTribunalInputter(TRIB.INPUTTER)=11
+        BzTribunalDateTime(TRIB.DATE.TIME)=12
+        BzTribunalAuthoriser(TRIB.AUTHORISER)=13
+        BzTribunalCoCode(TRIB.CO.CODE)=14
+        BzTribunalDeptCode(TRIB.DEPT.CODE)=15
+        BzTribunalAuditorCode(TRIB.AUDITOR.CODE)=16
+        BzTribunalAuditDateTime(TRIB.AUDIT.DATE.TIME)=17
+    }
+}

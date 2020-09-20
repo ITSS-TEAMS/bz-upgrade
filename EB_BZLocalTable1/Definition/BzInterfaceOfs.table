@@ -1,0 +1,21 @@
+public table BzInterfaceOfs {
+    t24:  BZ.INTERFACE.OFS
+    fields:{
+        BzInterfaceOfsDescription(INTER.DESCRIPTION)=1
+        BzInterfaceOfsTypeApplication(INTER.TYPE.APPLICATION)=2
+        BzInterfaceOfsApplication(INTER.APPLICATION)=3
+        BzInterfaceOfsDonneeIn(INTER.DONNEE.IN)=4
+        BzInterfaceOfsDonneeMap(INTER.DONNEE.MAP)=5
+        BzInterfaceOfsFonction(INTER.FONCTION)=6
+        BzInterfaceOfsOverride(INTER.OVERRIDE)=7
+        BzInterfaceOfsRecordStatus(INTER.RECORD.STATUS)=8
+        BzInterfaceOfsCurrNo(INTER.CURR.NO)=9
+        BzInterfaceOfsInputter(INTER.INPUTTER)=10
+        BzInterfaceOfsDateTime(INTER.DATE.TIME)=11
+        BzInterfaceOfsAuthoriser(INTER.AUTHORISER)=12
+        BzInterfaceOfsCoCode(INTER.CO.CODE)=13
+        BzInterfaceOfsDeptCode(INTER.DEPT.CODE)=14
+        BzInterfaceOfsAuditorCode(INTER.AUDITOR.CODE)=15
+        BzInterfaceOfsAuditDateTime(INTER.AUDIT.DATE.TIME)=16
+    }
+}

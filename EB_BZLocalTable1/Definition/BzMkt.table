@@ -1,0 +1,23 @@
+public table BzMkt {
+    t24:  BZ.MKT
+    fields:{
+        BzMktNomConjoint(BZ.MKT.NOM.CONJOINT)=1
+        BzMktProfesConj(BZ.MKT.PROFES.CONJ)=2
+        BzMktNaissConj(BZ.MKT.NAISS.CONJ)=3
+        BzMktNbreEnfants(BZ.MKT.NBRE.ENFANTS)=4
+        BzMktPrenomEnfant(BZ.MKT.PRENOM.ENFANT)=5
+        BzMktSexeEnfant(BZ.MKT.SEXE.ENFANT)=6
+        BzMktNaissEnf(BZ.MKT.NAISS.ENF)=7
+        BzMktLocalRef(BZ.MKT.LOCAL.REF)=8
+        BzMktOverride(BZ.MKT.OVERRIDE)=9
+        BzMktRecordStatus(BZ.MKT.RECORD.STATUS)=10
+        BzMktCurrNo(BZ.MKT.CURR.NO)=11
+        BzMktInputter(BZ.MKT.INPUTTER)=12
+        BzMktDateTime(BZ.MKT.DATE.TIME)=13
+        BzMktAuthoriser(BZ.MKT.AUTHORISER)=14
+        BzMktCoCode(BZ.MKT.CO.CODE)=15
+        BzMktDeptCode(BZ.MKT.DEPT.CODE)=16
+        BzMktAuditorCode(BZ.MKT.AUDITOR.CODE)=17
+        BzMktAuditDateTime(BZ.MKT.AUDIT.DATE.TIME)=18
+    }
+}

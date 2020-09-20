@@ -1,0 +1,28 @@
+public table BzSmTpe {
+    t24:  BZ.SM.TPE
+    fields:{
+        BzSmTpeCodeClient(ST.CODE.CLIENT)=1
+        BzSmTpeCodeAffiliation(ST.CODE.AFFILIATION)=2
+        BzSmTpeTypeTpe(ST.TYPE.TPE)=3
+        BzSmTpeNumeroSerie(ST.NUMERO.SERIE)=4
+        BzSmTpeModel(ST.MODEL)=5
+        BzSmTpeFournisseur(ST.FOURNISSEUR)=6
+        BzSmTpeActif(ST.ACTIF)=7
+        BzSmTpeCurrency(ST.CURRENCY)=8
+        BzSmTpeAdrTpe(ST.ADR.TPE)=9
+        BzSmTpeRefPack(ST.REF.PACK)=10
+        BzSmTpeStatut(ST.STATUT)=11
+        BzSmTpeType(ST.TYPE)=12
+        BzSmTpeLocalRef(ST.LOCAL.REF)=13
+        BzSmTpeOverride(ST.OVERRIDE)=14
+        BzSmTpeRecordStatus(ST.RECORD.STATUS)=15
+        BzSmTpeCurrNo(ST.CURR.NO)=16
+        BzSmTpeInputter(ST.INPUTTER)=17
+        BzSmTpeDateTime(ST.DATE.TIME)=18
+        BzSmTpeAuthoriser(ST.AUTHORISER)=19
+        BzSmTpeCoCode(ST.CO.CODE)=20
+        BzSmTpeDeptCode(ST.DEPT.CODE)=21
+        BzSmTpeAuditorCode(ST.AUDITOR.CODE)=22
+        BzSmTpeAuditDateTime(ST.AUDIT.DATE.TIME)=23
+    }
+}

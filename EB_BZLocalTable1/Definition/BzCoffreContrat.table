@@ -1,0 +1,29 @@
+public table BzCoffreContrat {
+    t24:  BZ.COFFRE.CONTRAT
+    fields:{
+        BzCoffreContratIdClient(CF.CT.ID.CLIENT)=1
+        BzCoffreContratNumeroCoffre(CF.CT.NUMERO.COFFRE)=2
+        BzCoffreContratDateContrat(CF.CT.DATE.CONTRAT)=3
+        BzCoffreContratCompteFacturation(CF.CT.COMPTE.FACTURATION)=4
+        BzCoffreContratGarantie(CF.CT.GARANTIE)=5
+        BzCoffreContratCompteGarantie(CF.CT.COMPTE.GARANTIE)=6
+        BzCoffreContratAmountGarantie(CF.CT.AMOUNT.GARANTIE)=7
+        BzCoffreContratReferenceGarantie(CF.CT.REFERENCE.GARANTIE)=8
+        BzCoffreContratRefRestitGar(CF.CT.REF.RESTIT.GAR)=9
+        BzCoffreContratStatut(CF.CT.STATUT)=10
+        BzCoffreContratDateResiliation(CF.CT.DATE.RESILIATION)=11
+        BzCoffreContratMntPreLoyer(CF.CT.MNT.PRE.LOYER)=12
+        BzCoffreContratMntGarFcy(CF.CT.MNT.GAR.FCY)=13
+        BzCoffreContratCompteFactOld(CF.CT.COMPTE.FACT.OLD)=14
+        BzCoffreContratOverride(CF.CT.OVERRIDE)=15
+        BzCoffreContratRecordStatus(CF.CT.RECORD.STATUS)=16
+        BzCoffreContratCurrNo(CF.CT.CURR.NO)=17
+        BzCoffreContratInputter(CF.CT.INPUTTER)=18
+        BzCoffreContratDateTime(CF.CT.DATE.TIME)=19
+        BzCoffreContratAuthoriser(CF.CT.AUTHORISER)=20
+        BzCoffreContratCoCode(CF.CT.CO.CODE)=21
+        BzCoffreContratDeptCode(CF.CT.DEPT.CODE)=22
+        BzCoffreContratAuditorCode(CF.CT.AUDITOR.CODE)=23
+        BzCoffreContratAuditDateTime(CF.CT.AUDIT.DATE.TIME)=24
+    }
+}

@@ -1,0 +1,20 @@
+public table TnaCardReason {
+        t24:  TNA.CARD.REASON
+        fields:{
+            TnaCardReasonDescription(RSN.DESCRIPTION)=1
+            TnaCardReasonOperation(RSN.OPERATION)=2
+            TnaCardReasonTypeCarte(RSN.TYPE.CARTE)=3
+            TnaCardReasonCodeCommission(RSN.CODE.COMMISSION)=4
+            TnaCardReasonLocalRef(RSN.LOCAL.REF)=5
+            TnaCardReasonOverride(RSN.OVERRIDE)=6
+            TnaCardReasonRecordStatus(RSN.RECORD.STATUS)=7
+            TnaCardReasonCurrNo(RSN.CURR.NO)=8
+            TnaCardReasonInputter(RSN.INPUTTER)=9
+            TnaCardReasonDateTime(RSN.DATE.TIME)=10
+            TnaCardReasonAuthoriser(RSN.AUTHORISER)=11
+            TnaCardReasonCoCode(RSN.CO.CODE)=12
+            TnaCardReasonDeptCode(RSN.DEPT.CODE)=13
+            TnaCardReasonAuditorCode(RSN.AUDITOR.CODE)=14
+            TnaCardReasonAuditDateTime(RSN.AUDIT.DATE.TIME)=15
+        }
+    }

@@ -1,0 +1,26 @@
+public table BzSedCnpFicheierRcp {
+    t24:  BZ.SED.CNP.FICHEIER.RCP
+    fields:{
+        BzSedCnpFicheierRcpNomFichier(CNP.RCP.NOM.FICHIER)=1
+        BzSedCnpFicheierRcpDateChargement(CNP.RCP.DATE.CHARGEMENT)=2
+        BzSedCnpFicheierRcpNbrDossier(CNP.RCP.NBR.DOSSIER)=3
+        BzSedCnpFicheierRcpObservation(CNP.RCP.OBSERVATION)=4
+        BzSedCnpFicheierRcpStatut(CNP.RCP.STATUT)=5
+        BzSedCnpFicheierRcpReserved1(CNP.RCP.RESERVED.1)=6
+        BzSedCnpFicheierRcpReserved2(CNP.RCP.RESERVED.2)=7
+        BzSedCnpFicheierRcpReserved3(CNP.RCP.RESERVED.3)=8
+        BzSedCnpFicheierRcpReserved4(CNP.RCP.RESERVED.4)=9
+        BzSedCnpFicheierRcpReserved5(CNP.RCP.RESERVED.5)=10
+        BzSedCnpFicheierRcpLocalRef(CNP.RCP.LOCAL.REF)=11
+        BzSedCnpFicheierRcpOverride(CNP.RCP.OVERRIDE)=12
+        BzSedCnpFicheierRcpRecordStatus(CNP.RCP.RECORD.STATUS)=13
+        BzSedCnpFicheierRcpCurrNo(CNP.RCP.CURR.NO)=14
+        BzSedCnpFicheierRcpInputter(CNP.RCP.INPUTTER)=15
+        BzSedCnpFicheierRcpDateTime(CNP.RCP.DATE.TIME)=16
+        BzSedCnpFicheierRcpAuthoriser(CNP.RCP.AUTHORISER)=17
+        BzSedCnpFicheierRcpCoCode(CNP.RCP.CO.CODE)=18
+        BzSedCnpFicheierRcpDeptCode(CNP.RCP.DEPT.CODE)=19
+        BzSedCnpFicheierRcpAuditorCode(CNP.RCP.AUDITOR.CODE)=20
+        BzSedCnpFicheierRcpAuditDateTime(CNP.RCP.AUDIT.DATE.TIME)=21
+    }
+}

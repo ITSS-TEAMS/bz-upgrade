@@ -1,0 +1,30 @@
+public table BzMdpArpEmis {
+    t24:  BZ.MDP.ARP.EMIS
+    fields:{
+        BzMdpArpEmisDateOperation(ARP.EM.DATE.OPERATION)=1
+        BzMdpArpEmisNumLot(ARP.EM.NUM.LOT)=2
+        BzMdpArpEmisMntChq(ARP.EM.MNT.CHQ)=3
+        BzMdpArpEmisNumChq(ARP.EM.NUM.CHQ)=4
+        BzMdpArpEmisRibTireur(ARP.EM.RIB.TIREUR)=5
+        BzMdpArpEmisCptTireur(ARP.EM.CPT.TIREUR)=6
+        BzMdpArpEmisRibBenef(ARP.EM.RIB.BENEF)=7
+        BzMdpArpEmisDateEmissChq(ARP.EM.DATE.EMISS.CHQ)=8
+        BzMdpArpEmisLieu(ARP.EM.LIEU)=9
+        BzMdpArpEmisDateCnp(ARP.EM.DATE.CNP)=10
+        BzMdpArpEmisNumCnp(ARP.EM.NUM.CNP)=11
+        BzMdpArpEmisMntRegulChq(ARP.EM.MNT.REGUL.CHQ)=12
+        BzMdpArpEmisMntRegulInteret(ARP.EM.MNT.REGUL.INTERET)=13
+        BzMdpArpEmisZoneLibre(ARP.EM.ZONE.LIBRE)=14
+        BzMdpArpEmisStatut(ARP.EM.STATUT)=15
+        BzMdpArpEmisOverride(ARP.EM.OVERRIDE)=16
+        BzMdpArpEmisRecordStatus(ARP.EM.RECORD.STATUS)=17
+        BzMdpArpEmisCurrNo(ARP.EM.CURR.NO)=18
+        BzMdpArpEmisInputter(ARP.EM.INPUTTER)=19
+        BzMdpArpEmisDateTime(ARP.EM.DATE.TIME)=20
+        BzMdpArpEmisAuthoriser(ARP.EM.AUTHORISER)=21
+        BzMdpArpEmisCoCode(ARP.EM.CO.CODE)=22
+        BzMdpArpEmisDeptCode(ARP.EM.DEPT.CODE)=23
+        BzMdpArpEmisAuditorCode(ARP.EM.AUDITOR.CODE)=24
+        BzMdpArpEmisAuditDateTime(ARP.EM.AUDIT.DATE.TIME)=25
+    }
+}

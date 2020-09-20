@@ -1,0 +1,7 @@
+public table CecTxnConcat {
+t24:  CEC.TXN.CONCAT
+fields:{
+    CecTxnConcatClearingId(CEC.TXNC.CLEARING.ID) = 1 
+	CecTxnConcatClearingAmt(CEC.TXNC.CLEARING.AMT) = 2
+}
+}

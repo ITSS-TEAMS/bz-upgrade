@@ -1,0 +1,28 @@
+public table BzMdpTiers {
+    t24:  BZ.MDP.TIERS
+    fields:{
+        BzMdpTiersDescription(TIERS.DESCRIPTION)=1
+        BzMdpTiersTypeTiers(TIERS.TYPE.TIERS)=2
+        BzMdpTiersCptTechnique(TIERS.CPT.TECHNIQUE)=3
+        BzMdpTiersEmetteur(TIERS.EMETTEUR)=4
+        BzMdpTiersTypeEncaiss(TIERS.TYPE.ENCAISS)=5
+        BzMdpTiersTypeRejet(TIERS.TYPE.REJET)=6
+        BzMdpTiersReserved4(TIERS.RESERVED.4)=7
+        BzMdpTiersReserved5(TIERS.RESERVED.5)=8
+        BzMdpTiersReserved6(TIERS.RESERVED.6)=9
+        BzMdpTiersReserved7(TIERS.RESERVED.7)=10
+        BzMdpTiersReserved8(TIERS.RESERVED.8)=11
+        BzMdpTiersReserved9(TIERS.RESERVED.9)=12
+        BzMdpTiersReserved10(TIERS.RESERVED.10)=13
+        BzMdpTiersOverride(TIERS.OVERRIDE)=14
+        BzMdpTiersRecordStatus(TIERS.RECORD.STATUS)=15
+        BzMdpTiersCurrNo(TIERS.CURR.NO)=16
+        BzMdpTiersInputter(TIERS.INPUTTER)=17
+        BzMdpTiersDateTime(TIERS.DATE.TIME)=18
+        BzMdpTiersAuthoriser(TIERS.AUTHORISER)=19
+        BzMdpTiersCoCode(TIERS.CO.CODE)=20
+        BzMdpTiersDeptCode(TIERS.DEPT.CODE)=21
+        BzMdpTiersAuditorCode(TIERS.AUDITOR.CODE)=22
+        BzMdpTiersAuditDateTime(TIERS.AUDIT.DATE.TIME)=23
+    }
+}

@@ -1,0 +1,34 @@
+public table BzPwcCommissionRegistry {
+    t24:  BZ.PWC.COMMISSION.REGISTRY
+    fields:{
+        BzPwcCommissionRegistryTypeFrais(REG.COM.TYPE.FRAIS)=1
+        BzPwcCommissionRegistryCodeCom(REG.COM.CODE.COM)=2
+        BzPwcCommissionRegistryMontantBrut(REG.COM.MONTANT.BRUT)=3
+        BzPwcCommissionRegistryMontantPrime(REG.COM.MONTANT.PRIME)=4
+        BzPwcCommissionRegistryComBziPrime(REG.COM.COM.BZI.PRIME)=5
+        BzPwcCommissionRegistryDeviseCpt(REG.COM.DEVISE.CPT)=6
+        BzPwcCommissionRegistryEvtCpt(REG.COM.EVT.CPT)=7
+        BzPwcCommissionRegistryIdCarte(REG.COM.ID.CARTE)=8
+        BzPwcCommissionRegistryIdClient(REG.COM.ID.CLIENT)=9
+        BzPwcCommissionRegistryIdCompte(REG.COM.ID.COMPTE)=10
+        BzPwcCommissionRegistryDaoPl(REG.COM.DAO.PL)=11
+        BzPwcCommissionRegistryCategoryPl(REG.COM.CATEGORY.PL)=12
+        BzPwcCommissionRegistryNarrative(REG.COM.NARRATIVE)=13
+        BzPwcCommissionRegistryRefPwc(REG.COM.REF.PWC)=14
+        BzPwcCommissionRegistryDateOperation(REG.COM.DATE.OPERATION)=15
+        BzPwcCommissionRegistryStatut(REG.COM.STATUT)=16
+        BzPwcCommissionRegistryRefOfs(REG.COM.REF.OFS)=17
+        BzPwcCommissionRegistryRefTrans(REG.COM.REF.TRANS)=18
+        BzPwcCommissionRegistryLocalRef(REG.COM.LOCAL.REF)=19
+        BzPwcCommissionRegistryOverride(REG.COM.OVERRIDE)=20
+        BzPwcCommissionRegistryRecordStatus(REG.COM.RECORD.STATUS)=21
+        BzPwcCommissionRegistryCurrNo(REG.COM.CURR.NO)=22
+        BzPwcCommissionRegistryInputter(REG.COM.INPUTTER)=23
+        BzPwcCommissionRegistryDateTime(REG.COM.DATE.TIME)=24
+        BzPwcCommissionRegistryAuthoriser(REG.COM.AUTHORISER)=25
+        BzPwcCommissionRegistryCoCode(REG.COM.CO.CODE)=26
+        BzPwcCommissionRegistryDeptCode(REG.COM.DEPT.CODE)=27
+        BzPwcCommissionRegistryAuditorCode(REG.COM.AUDITOR.CODE)=28
+        BzPwcCommissionRegistryAuditDateTime(REG.COM.AUDIT.DATE.TIME)=29
+    }
+}

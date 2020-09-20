@@ -1,0 +1,26 @@
+public table BzLdImmatriculation {
+    t24:  BZ.LD.IMMATRICULATION
+    fields:{
+        BzLdImmatriculationImmatriculation(LD.IJR.IMMATRICULATION)=1
+        BzLdImmatriculationReserved1(LD.IJR.RESERVED.1)=2
+        BzLdImmatriculationReserved2(LD.IJR.RESERVED.2)=3
+        BzLdImmatriculationReserved3(LD.IJR.RESERVED.3)=4
+        BzLdImmatriculationReserved4(LD.IJR.RESERVED.4)=5
+        BzLdImmatriculationReserved5(LD.IJR.RESERVED.5)=6
+        BzLdImmatriculationReserved6(LD.IJR.RESERVED.6)=7
+        BzLdImmatriculationReserved7(LD.IJR.RESERVED.7)=8
+        BzLdImmatriculationReserved8(LD.IJR.RESERVED.8)=9
+        BzLdImmatriculationReserved9(LD.IJR.RESERVED.9)=10
+        BzLdImmatriculationReserved10(LD.IJR.RESERVED.10)=11
+        BzLdImmatriculationOverride(LD.IJR.OVERRIDE)=12
+        BzLdImmatriculationRecordStatus(LD.IJR.RECORD.STATUS)=13
+        BzLdImmatriculationCurrNo(LD.IJR.CURR.NO)=14
+        BzLdImmatriculationInputter(LD.IJR.INPUTTER)=15
+        BzLdImmatriculationDateTime(LD.IJR.DATE.TIME)=16
+        BzLdImmatriculationAuthoriser(LD.IJR.AUTHORISER)=17
+        BzLdImmatriculationCoCode(LD.IJR.CO.CODE)=18
+        BzLdImmatriculationDeptCode(LD.IJR.DEPT.CODE)=19
+        BzLdImmatriculationAuditorCode(LD.IJR.AUDITOR.CODE)=20
+        BzLdImmatriculationAuditDateTime(LD.IJR.AUDIT.DATE.TIME)=21
+    }
+}

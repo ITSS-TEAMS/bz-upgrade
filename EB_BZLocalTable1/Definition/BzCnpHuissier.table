@@ -1,0 +1,23 @@
+public table BzCnpHuissier {
+    t24:  BZ.CNP.HUISSIER
+    fields:{
+        BzCnpHuissierNumAccount(BZ.CNP.HUIS.NUM.ACCOUNT)=1
+        BzCnpHuissierNomHuissier(BZ.CNP.HUIS.NOM.HUISSIER)=2
+        BzCnpHuissierRegFisc(BZ.CNP.HUIS.REG.FISC)=3
+        BzCnpHuissierMatriculeFis(BZ.CNP.HUIS.MATRICULE.FIS)=4
+        BzCnpHuissierCaInitial(BZ.CNP.HUIS.CA.INITIAL)=5
+        BzCnpHuissierCaCumul(BZ.CNP.HUIS.CA.CUMUL)=6
+        BzCnpHuissierMvmtSens(BZ.CNP.HUIS.MVMT.SENS)=7
+        BzCnpHuissierMvmtMnt(BZ.CNP.HUIS.MVMT.MNT)=8
+        BzCnpHuissierAdresse(BZ.CNP.HUIS.ADRESSE)=9
+        BzCnpHuissierRecordStatus(BZ.CNP.HUIS.RECORD.STATUS)=10
+        BzCnpHuissierCurrNo(BZ.CNP.HUIS.CURR.NO)=11
+        BzCnpHuissierInputter(BZ.CNP.HUIS.INPUTTER)=12
+        BzCnpHuissierDateTime(BZ.CNP.HUIS.DATE.TIME)=13
+        BzCnpHuissierAuthoriser(BZ.CNP.HUIS.AUTHORISER)=14
+        BzCnpHuissierCoCode(BZ.CNP.HUIS.CO.CODE)=15
+        BzCnpHuissierDeptCode(BZ.CNP.HUIS.DEPT.CODE)=16
+        BzCnpHuissierAuditorCode(BZ.CNP.HUIS.AUDITOR.CODE)=17
+        BzCnpHuissierAuditDateTime(BZ.CNP.HUIS.AUDIT.DATE.TIME)=18
+    }
+}

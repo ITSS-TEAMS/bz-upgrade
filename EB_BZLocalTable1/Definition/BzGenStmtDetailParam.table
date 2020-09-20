@@ -1,0 +1,21 @@
+public table BzGenStmtDetailParam {
+    t24:  BZ.GEN.STMT.DETAIL.PARAM
+    fields:{
+        BzGenStmtDetailParamAccountId(GEN.STMT.ACCOUNT.ID)=1
+        BzGenStmtDetailParamGenMonthly(GEN.STMT.GEN.MONTHLY)=2
+        BzGenStmtDetailParamGenDaily(GEN.STMT.GEN.DAILY)=3
+        BzGenStmtDetailParamReportId(GEN.STMT.REPORT.ID)=4
+        BzGenStmtDetailParamOnlineDate(GEN.STMT.ONLINE.DATE)=5
+        BzGenStmtDetailParamLocalRef(GEN.STMT.LOCAL.REF)=6
+        BzGenStmtDetailParamOverride(GEN.STMT.OVERRIDE)=7
+        BzGenStmtDetailParamRecordStatus(GEN.STMT.RECORD.STATUS)=8
+        BzGenStmtDetailParamCurrNo(GEN.STMT.CURR.NO)=9
+        BzGenStmtDetailParamInputter(GEN.STMT.INPUTTER)=10
+        BzGenStmtDetailParamDateTime(GEN.STMT.DATE.TIME)=11
+        BzGenStmtDetailParamAuthoriser(GEN.STMT.AUTHORISER)=12
+        BzGenStmtDetailParamCoCode(GEN.STMT.CO.CODE)=13
+        BzGenStmtDetailParamDeptCode(GEN.STMT.DEPT.CODE)=14
+        BzGenStmtDetailParamAuditorCode(GEN.STMT.AUDITOR.CODE)=15
+        BzGenStmtDetailParamAuditDateTime(GEN.STMT.AUDIT.DATE.TIME)=16
+    }
+}

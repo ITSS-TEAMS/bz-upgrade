@@ -1,0 +1,18 @@
+public table BzSedIntermediaire {
+    t24:  BZ.SED.INTERMEDIAIRE
+    fields:{
+        BzSedIntermediaireDescription(SED.INT.DESCRIPTION)=1
+        BzSedIntermediaireAbreviation(SED.INT.ABREVIATION)=2
+        BzSedIntermediaireLocalRef(SED.INT.LOCAL.REF)=3
+        BzSedIntermediaireOverride(SED.INT.OVERRIDE)=4
+        BzSedIntermediaireRecordStatus(SED.INT.RECORD.STATUS)=5
+        BzSedIntermediaireCurrNo(SED.INT.CURR.NO)=6
+        BzSedIntermediaireInputter(SED.INT.INPUTTER)=7
+        BzSedIntermediaireDateTime(SED.INT.DATE.TIME)=8
+        BzSedIntermediaireAuthoriser(SED.INT.AUTHORISER)=9
+        BzSedIntermediaireCoCode(SED.INT.CO.CODE)=10
+        BzSedIntermediaireDeptCode(SED.INT.DEPT.CODE)=11
+        BzSedIntermediaireAuditorCode(SED.INT.AUDITOR.CODE)=12
+        BzSedIntermediaireAuditDateTime(SED.INT.AUDIT.DATE.TIME)=13
+    }
+} 

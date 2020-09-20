@@ -1,0 +1,23 @@
+public table TnaCardStopListWithdrawal {
+    t24:  TNA.CARD.STOP.LIST.WITHDRAWAL
+    fields:{
+        TnaCardStopListWithdrawalDeclarationDate(WITHDRAWAL.DECLARATION.DATE)=1
+        TnaCardStopListWithdrawalEndDate(WITHDRAWAL.END.DATE)=2
+        TnaCardStopListWithdrawalReasonCode(WITHDRAWAL.REASON.CODE)=3
+        TnaCardStopListWithdrawalSendRecord(WITHDRAWAL.SEND.RECORD)=4
+        TnaCardStopListWithdrawalMemo(WITHDRAWAL.MEMO)=5
+        TnaCardStopListWithdrawalReasonWithdrawal(WITHDRAWAL.REASON.WITHDRAWAL)=6
+        TnaCardStopListWithdrawalWithdrawalDate(WITHDRAWAL.WITHDRAWAL.DATE)=7
+        TnaCardStopListWithdrawalLocalRef(WITHDRAWAL.LOCAL.REF)=8
+        TnaCardStopListWithdrawalOverride(WITHDRAWAL.OVERRIDE)=9
+        TnaCardStopListWithdrawalRecordStatus(WITHDRAWAL.RECORD.STATUS)=10
+        TnaCardStopListWithdrawalCurrNo(WITHDRAWAL.CURR.NO)=11
+        TnaCardStopListWithdrawalInputter(WITHDRAWAL.INPUTTER)=12
+        TnaCardStopListWithdrawalDateTime(WITHDRAWAL.DATE.TIME)=13
+        TnaCardStopListWithdrawalAuthoriser(WITHDRAWAL.AUTHORISER)=14
+        TnaCardStopListWithdrawalCoCode(WITHDRAWAL.CO.CODE)=15
+        TnaCardStopListWithdrawalDeptCode(WITHDRAWAL.DEPT.CODE)=16
+        TnaCardStopListWithdrawalAuditorCode(WITHDRAWAL.AUDITOR.CODE)=17
+        TnaCardStopListWithdrawalAuditDateTime(WITHDRAWAL.AUDIT.DATE.TIME)=18
+    }
+}

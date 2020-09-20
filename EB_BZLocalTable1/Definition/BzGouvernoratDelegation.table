@@ -1,0 +1,17 @@
+public table BzGouvernoratDelegation {
+    t24:  BZ.GOUVERNORAT.DELEGATION
+    fields:{
+        BzGouvernoratDelegationLibelle(BZ.GD.LIBELLE)=1
+        BzGouvernoratDelegationLocalRef(BZ.GD.LOCAL.REF)=2
+        BzGouvernoratDelegationOverride(BZ.GD.OVERRIDE)=3
+        BzGouvernoratDelegationRecordStatus(BZ.GD.RECORD.STATUS)=4
+        BzGouvernoratDelegationCurrNo(BZ.GD.CURR.NO)=5
+        BzGouvernoratDelegationInputter(BZ.GD.INPUTTER)=6
+        BzGouvernoratDelegationDateTime(BZ.GD.DATE.TIME)=7
+        BzGouvernoratDelegationAuthoriser(BZ.GD.AUTHORISER)=8
+        BzGouvernoratDelegationCoCode(BZ.GD.CO.CODE)=9
+        BzGouvernoratDelegationDeptCode(BZ.GD.DEPT.CODE)=10
+        BzGouvernoratDelegationAuditorCode(BZ.GD.AUDITOR.CODE)=11
+        BzGouvernoratDelegationAuditDateTime(BZ.GD.AUDIT.DATE.TIME)=12
+    }
+}

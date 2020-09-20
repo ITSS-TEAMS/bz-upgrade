@@ -1,0 +1,24 @@
+public table TnaCardSuivi {
+    t24:  TNA.CARD.SUIVI
+    fields:{
+        TnaCardSuiviCardNumber(SUIC.CARD.NUMBER)=1
+        TnaCardSuiviOperation(SUIC.OPERATION)=2
+        TnaCardSuiviReason(SUIC.REASON)=3
+        TnaCardSuiviRefOfs(SUIC.REF.OFS)=4
+        TnaCardSuiviRef(SUIC.REF)=5
+        TnaCardSuiviUtilisateur(SUIC.UTILISATEUR)=6
+        TnaCardSuiviCodeDept(SUIC.CODE.DEPT)=7
+        TnaCardSuiviOfsMessage(SUIC.OFS.MESSAGE)=8
+        TnaCardSuiviLocalRef(SUIC.LOCAL.REF)=9
+        TnaCardSuiviOverride(SUIC.OVERRIDE)=10
+        TnaCardSuiviRecordStatus(SUIC.RECORD.STATUS)=11
+        TnaCardSuiviCurrNo(SUIC.CURR.NO)=12
+        TnaCardSuiviInputter(SUIC.INPUTTER)=13
+        TnaCardSuiviDateTime(SUIC.DATE.TIME)=14
+        TnaCardSuiviAuthoriser(SUIC.AUTHORISER)=15
+        TnaCardSuiviCoCode(SUIC.CO.CODE)=16
+        TnaCardSuiviDeptCode(SUIC.DEPT.CODE)=17
+        TnaCardSuiviAuditorCode(SUIC.AUDITOR.CODE)=18
+        TnaCardSuiviAuditDateTime(SUIC.AUDIT.DATE.TIME)=19
+    }
+}

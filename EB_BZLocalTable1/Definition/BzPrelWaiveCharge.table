@@ -1,0 +1,23 @@
+public table BzPrelWaiveCharge {
+    t24:  BZ.PREL.WAIVE.CHARGE
+    fields:{
+        BzPrelWaiveChargeDateOperation(CUS.WAIV.DATE.OPERATION)=1
+        BzPrelWaiveChargeCommentaire(CUS.WAIV.COMMENTAIRE)=2
+        BzPrelWaiveChargeWaive(CUS.WAIV.WAIVE)=3
+        BzPrelWaiveChargeReserved1(CUS.WAIV.RESERVED.1)=4
+        BzPrelWaiveChargeReserved2(CUS.WAIV.RESERVED.2)=5
+        BzPrelWaiveChargeReserved3(CUS.WAIV.RESERVED.3)=6
+        BzPrelWaiveChargeReserved4(CUS.WAIV.RESERVED.4)=7
+        BzPrelWaiveChargeReserved5(CUS.WAIV.RESERVED.5)=8
+        BzPrelWaiveChargeOverride(CUS.WAIV.OVERRIDE)=9
+        BzPrelWaiveChargeRecordStatus(CUS.WAIV.RECORD.STATUS)=10
+        BzPrelWaiveChargeCurrNo(CUS.WAIV.CURR.NO)=11
+        BzPrelWaiveChargeInputter(CUS.WAIV.INPUTTER)=12
+        BzPrelWaiveChargeDateTime(CUS.WAIV.DATE.TIME)=13
+        BzPrelWaiveChargeAuthoriser(CUS.WAIV.AUTHORISER)=14
+        BzPrelWaiveChargeCoCode(CUS.WAIV.CO.CODE)=15
+        BzPrelWaiveChargeDeptCode(CUS.WAIV.DEPT.CODE)=16
+        BzPrelWaiveChargeAuditorCode(CUS.WAIV.AUDITOR.CODE)=17
+        BzPrelWaiveChargeAuditDateTime(CUS.WAIV.AUDIT.DATE.TIME)=18
+    }
+}

@@ -1,0 +1,41 @@
+public table BzRegistreCpsVisa {
+    t24:  BZ.REGISTRE.CPS.VISA
+    fields:{
+        BzRegistreCpsVisaRefEnreg(CPS.VISA.REF.ENREG)=1
+        BzRegistreCpsVisaNumLot(CPS.VISA.NUM.LOT)=2
+        BzRegistreCpsVisaNumRemise(CPS.VISA.NUM.REMISE)=3
+        BzRegistreCpsVisaNumOrdre(CPS.VISA.NUM.ORDRE)=4
+        BzRegistreCpsVisaCodeBanque(CPS.VISA.CODE.BANQUE)=5
+        BzRegistreCpsVisaFiller(CPS.VISA.FILLER)=6
+        BzRegistreCpsVisaCleLuhn(CPS.VISA.CLE.LUHN)=7
+        BzRegistreCpsVisaNumBordereau(CPS.VISA.NUM.BORDEREAU)=8
+        BzRegistreCpsVisaNumFacturette(CPS.VISA.NUM.FACTURETTE)=9
+        BzRegistreCpsVisaNumPorteur(CPS.VISA.NUM.PORTEUR)=10
+        BzRegistreCpsVisaIcaPorteur(CPS.VISA.ICA.PORTEUR)=11
+        BzRegistreCpsVisaMontantTransac(CPS.VISA.MONTANT.TRANSAC)=12
+        BzRegistreCpsVisaHeureTransac(CPS.VISA.HEURE.TRANSAC)=13
+        BzRegistreCpsVisaDateValidite(CPS.VISA.DATE.VALIDITE)=14
+        BzRegistreCpsVisaNumAutoris(CPS.VISA.NUM.AUTORIS)=15
+        BzRegistreCpsVisaDateAchat(CPS.VISA.DATE.ACHAT)=16
+        BzRegistreCpsVisaMontantCompense(CPS.VISA.MONTANT.COMPENSE)=17
+        BzRegistreCpsVisaTypeTerminal(CPS.VISA.TYPE.TERMINAL)=18
+        BzRegistreCpsVisaCodeOperation(CPS.VISA.CODE.OPERATION)=19
+        BzRegistreCpsVisaNumeroBatch(CPS.VISA.NUMERO.BATCH)=20
+        BzRegistreCpsVisaCodeMonnaie(CPS.VISA.CODE.MONNAIE)=21
+        BzRegistreCpsVisaProvenanceTrans(CPS.VISA.PROVENANCE.TRANS)=22
+        BzRegistreCpsVisaStatut(CPS.VISA.STATUT)=23
+        BzRegistreCpsVisaDateChargement(CPS.VISA.DATE.CHARGEMENT)=24
+        BzRegistreCpsVisaRefFichier(CPS.VISA.REF.FICHIER)=25
+        BzRegistreCpsVisaDateFichier(CPS.VISA.DATE.FICHIER)=26
+        BzRegistreCpsVisaFiller2(CPS.VISA.FILLER.2)=27
+        BzRegistreCpsVisaRecordStatus(CPS.VISA.RECORD.STATUS)=28
+        BzRegistreCpsVisaCurrNo(CPS.VISA.CURR.NO)=29
+        BzRegistreCpsVisaInputter(CPS.VISA.INPUTTER)=30
+        BzRegistreCpsVisaDateTime(CPS.VISA.DATE.TIME)=31
+        BzRegistreCpsVisaAuthoriser(CPS.VISA.AUTHORISER)=32
+        BzRegistreCpsVisaCoCode(CPS.VISA.CO.CODE)=33
+        BzRegistreCpsVisaDeptCode(CPS.VISA.DEPT.CODE)=34
+        BzRegistreCpsVisaAuditorCode(CPS.VISA.AUDITOR.CODE)=35
+        BzRegistreCpsVisaAuditDateTime(CPS.VISA.AUDIT.DATE.TIME)=36
+    }
+}

@@ -1,0 +1,19 @@
+public table BzMdpAcctVir {
+    t24:  BZ.MDP.ACCT.VIR
+    fields:{
+        BzMdpAcctVirDescription(NET.VIR.DESCRIPTION)=1
+        BzMdpAcctVirExecYN(NET.VIR.EXEC.Y.N)=2
+        BzMdpAcctVirLocalRef(NET.VIR.LOCAL.REF)=3
+        BzMdpAcctVirStmtNos(NET.VIR.STMT.NOS)=4
+        BzMdpAcctVirOverride(NET.VIR.OVERRIDE)=5
+        BzMdpAcctVirRecordStatus(NET.VIR.RECORD.STATUS)=6
+        BzMdpAcctVirCurrNo(NET.VIR.CURR.NO)=7
+        BzMdpAcctVirInputter(NET.VIR.INPUTTER)=8
+        BzMdpAcctVirDateTime(NET.VIR.DATE.TIME)=9
+        BzMdpAcctVirAuthoriser(NET.VIR.AUTHORISER)=10
+        BzMdpAcctVirCoCode(NET.VIR.CO.CODE)=11
+        BzMdpAcctVirDeptCode(NET.VIR.DEPT.CODE)=12
+        BzMdpAcctVirAuditorCode(NET.VIR.AUDITOR.CODE)=13
+        BzMdpAcctVirAuditDateTime(NET.VIR.AUDIT.DATE.TIME)=14
+    }
+}

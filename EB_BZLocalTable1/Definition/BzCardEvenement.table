@@ -1,0 +1,21 @@
+public table BzCardEvenement {
+    t24:  BZ.CARD.EVENEMENT
+    fields:{
+        BzCardEvenementDescription(CARDEVT.DESCRIPTION)=1
+        BzCardEvenementReserved1(CARDEVT.RESERVED1)=2
+        BzCardEvenementReserved2(CARDEVT.RESERVED2)=3
+        BzCardEvenementReserved3(CARDEVT.RESERVED3)=4
+        BzCardEvenementReserved4(CARDEVT.RESERVED4)=5
+        BzCardEvenementReserved5(CARDEVT.RESERVED5)=6
+        BzCardEvenementOverride(CARDEVT.OVERRIDE)=7
+        BzCardEvenementRecordStatus(CARDEVT.RECORD.STATUS)=8
+        BzCardEvenementCurrNo(CARDEVT.CURR.NO)=9
+        BzCardEvenementInputter(CARDEVT.INPUTTER)=10
+        BzCardEvenementDateTime(CARDEVT.DATE.TIME)=11
+        BzCardEvenementAuthoriser(CARDEVT.AUTHORISER)=12
+        BzCardEvenementCoCode(CARDEVT.CO.CODE)=13
+        BzCardEvenementDeptCode(CARDEVT.DEPT.CODE)=14
+        BzCardEvenementAuditorCode(CARDEVT.AUDITOR.CODE)=15
+        BzCardEvenementAuditDateTime(CARDEVT.AUDIT.DATE.TIME)=16
+    }
+}

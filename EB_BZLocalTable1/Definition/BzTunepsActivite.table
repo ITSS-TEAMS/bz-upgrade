@@ -1,0 +1,22 @@
+public table BzTunepsActivite {
+    t24:  BZ.TUNEPS.ACTIVITE
+    fields:{
+        BzTunepsActiviteCode(TUNEPS.ACT.CODE)=1
+        BzTunepsActiviteDescription(TUNEPS.ACT.DESCRIPTION)=2
+        BzTunepsActiviteReserved1(TUNEPS.ACT.RESERVED.1)=3
+        BzTunepsActiviteReserved2(TUNEPS.ACT.RESERVED.2)=4
+        BzTunepsActiviteReserved3(TUNEPS.ACT.RESERVED.3)=5
+        BzTunepsActiviteReserved4(TUNEPS.ACT.RESERVED.4)=6
+        BzTunepsActiviteReserved5(TUNEPS.ACT.RESERVED.5)=7
+        BzTunepsActiviteOverride(TUNEPS.ACT.OVERRIDE)=8
+        BzTunepsActiviteRecordStatus(TUNEPS.ACT.RECORD.STATUS)=9
+        BzTunepsActiviteCurrNo(TUNEPS.ACT.CURR.NO)=10
+        BzTunepsActiviteInputter(TUNEPS.ACT.INPUTTER)=11
+        BzTunepsActiviteDateTime(TUNEPS.ACT.DATE.TIME)=12
+        BzTunepsActiviteAuthoriser(TUNEPS.ACT.AUTHORISER)=13
+        BzTunepsActiviteCoCode(TUNEPS.ACT.CO.CODE)=14
+        BzTunepsActiviteDeptCode(TUNEPS.ACT.DEPT.CODE)=15
+        BzTunepsActiviteAuditorCode(TUNEPS.ACT.AUDITOR.CODE)=16
+        BzTunepsActiviteAuditDateTime(TUNEPS.ACT.AUDIT.DATE.TIME)=17
+    }
+}

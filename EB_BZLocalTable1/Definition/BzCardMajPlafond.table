@@ -1,0 +1,29 @@
+public table BzCardMajPlafond {
+        t24:  BZ.CARD.MAJ.PLAFOND
+        fields:{
+            BzCardMajPlafondTypeEvt(PLAF.TYPE.EVT)=1
+            BzCardMajPlafondDateEvt(PLAF.DATE.EVT)=2
+            BzCardMajPlafondNumeroCarte(PLAF.NUMERO.CARTE)=3
+            BzCardMajPlafondRefOrigine(PLAF.REF.ORIGINE)=4
+            BzCardMajPlafondPlafondAchat(PLAF.PLAFOND.ACHAT)=5
+            BzCardMajPlafondPlafondRetrait(PLAF.PLAFOND.RETRAIT)=6
+            BzCardMajPlafondPlafondCash(PLAF.PLAFOND.CASH)=7
+            BzCardMajPlafondAccountOfficer(PLAF.ACCOUNT.OFFICER)=8
+            BzCardMajPlafondReserved1(PLAF.RESERVED1)=9
+            BzCardMajPlafondReserved2(PLAF.RESERVED2)=10
+            BzCardMajPlafondReserved3(PLAF.RESERVED3)=11
+            BzCardMajPlafondReserved4(PLAF.RESERVED4)=12
+            BzCardMajPlafondReserved5(PLAF.RESERVED5)=13
+            BzCardMajPlafondLocalRef(PLAF.LOCAL.REF)=14
+            BzCardMajPlafondOverride(PLAF.OVERRIDE)=15
+            BzCardMajPlafondRecordStatus(PLAF.RECORD.STATUS)=16
+            BzCardMajPlafondCurrNo(PLAF.CURR.NO)=17
+            BzCardMajPlafondInputter(PLAF.INPUTTER)=18
+            BzCardMajPlafondDateTime(PLAF.DATE.TIME)=19
+            BzCardMajPlafondAuthoriser(PLAF.AUTHORISER)=20
+            BzCardMajPlafondCoCode(PLAF.CO.CODE)=21
+            BzCardMajPlafondDeptCode(PLAF.DEPT.CODE)=22
+            BzCardMajPlafondAuditorCode(PLAF.AUDITOR.CODE)=23
+            BzCardMajPlafondAuditDateTime(PLAF.AUDIT.DATE.TIME)=24
+        }
+    }

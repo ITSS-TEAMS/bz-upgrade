@@ -1,0 +1,34 @@
+public table BzMdpRemiseEff {
+    t24:  BZ.MDP.REMISE.EFF
+    fields:{
+        BzMdpRemiseEffCompteCedant(BORD.EFF.COMPTE.CEDANT)=1
+        BzMdpRemiseEffDevise(BORD.EFF.DEVISE)=2
+        BzMdpRemiseEffRibCedant(BORD.EFF.RIB.CEDANT)=3
+        BzMdpRemiseEffNomCedant(BORD.EFF.NOM.CEDANT)=4
+        BzMdpRemiseEffSituationCedant(BORD.EFF.SITUATION.CEDANT)=5
+        BzMdpRemiseEffNatureCompte(BORD.EFF.NATURE.COMPTE)=6
+        BzMdpRemiseEffNumBord(BORD.EFF.NUM.BORD)=7
+        BzMdpRemiseEffMontantGlob(BORD.EFF.MONTANT.GLOB)=8
+        BzMdpRemiseEffNombreGlob(BORD.EFF.NOMBRE.GLOB)=9
+        BzMdpRemiseEffDateRemise(BORD.EFF.DATE.REMISE)=10
+        BzMdpRemiseEffUniteGestion(BORD.EFF.UNITE.GESTION)=11
+        BzMdpRemiseEffObservation(BORD.EFF.OBSERVATION)=12
+        BzMdpRemiseEffStatut(BORD.EFF.STATUT)=13
+        BzMdpRemiseEffDateRcptPfc(BORD.EFF.DATE.RCPT.PFC)=14
+        BzMdpRemiseEffRefScan(BORD.EFF.REF.SCAN)=15
+        BzMdpRemiseEffVersion(BORD.EFF.VERSION)=16
+        BzMdpRemiseEffModifie(BORD.EFF.MODIFIE)=17
+        BzMdpRemiseEffCodeClient(BORD.EFF.CODE.CLIENT)=18
+        BzMdpRemiseEffDateCapture(BORD.EFF.DATE.CAPTURE)=19
+        BzMdpRemiseEffOverride(BORD.EFF.OVERRIDE)=20
+        BzMdpRemiseEffRecordStatus(BORD.EFF.RECORD.STATUS)=21
+        BzMdpRemiseEffCurrNo(BORD.EFF.CURR.NO)=22
+        BzMdpRemiseEffInputter(BORD.EFF.INPUTTER)=23
+        BzMdpRemiseEffDateTime(BORD.EFF.DATE.TIME)=24
+        BzMdpRemiseEffAuthoriser(BORD.EFF.AUTHORISER)=25
+        BzMdpRemiseEffCoCode(BORD.EFF.CO.CODE)=26
+        BzMdpRemiseEffDeptCode(BORD.EFF.DEPT.CODE)=27
+        BzMdpRemiseEffAuditorCode(BORD.EFF.AUDITOR.CODE)=28
+        BzMdpRemiseEffAuditDateTime(BORD.EFF.AUDIT.DATE.TIME)=29
+    }
+}

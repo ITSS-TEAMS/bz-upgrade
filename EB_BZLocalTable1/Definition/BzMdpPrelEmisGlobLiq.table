@@ -1,0 +1,33 @@
+public table BzMdpPrelEmisGlobLiq {
+    t24:  BZ.MDP.PREL.EMIS.GLOB.LIQ
+    fields:{
+        BzMdpPrelEmisGlobLiqCompte(PREL.LIQ.COMPTE)=1
+        BzMdpPrelEmisGlobLiqTypeLiq(PREL.LIQ.TYPE.LIQ)=2
+        BzMdpPrelEmisGlobLiqNbreEncais(PREL.LIQ.NBRE.ENCAIS)=3
+        BzMdpPrelEmisGlobLiqMntEncais(PREL.LIQ.MNT.ENCAIS)=4
+        BzMdpPrelEmisGlobLiqNbreRejet(PREL.LIQ.NBRE.REJET)=5
+        BzMdpPrelEmisGlobLiqMntRejet(PREL.LIQ.MNT.REJET)=6
+        BzMdpPrelEmisGlobLiqNbreRepris(PREL.LIQ.NBRE.REPRIS)=7
+        BzMdpPrelEmisGlobLiqMntRepris(PREL.LIQ.MNT.REPRIS)=8
+        BzMdpPrelEmisGlobLiqNbrRepTot(PREL.LIQ.NBR.REP.TOT)=9
+        BzMdpPrelEmisGlobLiqMntRepTot(PREL.LIQ.MNT.REP.TOT)=10
+        BzMdpPrelEmisGlobLiqMntComEnc(PREL.LIQ.MNT.COM.ENC)=11
+        BzMdpPrelEmisGlobLiqMntComRej(PREL.LIQ.MNT.COM.REJ)=12
+        BzMdpPrelEmisGlobLiqMntTvaEnc(PREL.LIQ.MNT.TVA.ENC)=13
+        BzMdpPrelEmisGlobLiqMntTvaRej(PREL.LIQ.MNT.TVA.REJ)=14
+        BzMdpPrelEmisGlobLiqReserved7(PREL.LIQ.RESERVED.7)=15
+        BzMdpPrelEmisGlobLiqReserved8(PREL.LIQ.RESERVED.8)=16
+        BzMdpPrelEmisGlobLiqReserved9(PREL.LIQ.RESERVED.9)=17
+        BzMdpPrelEmisGlobLiqReserved10(PREL.LIQ.RESERVED.10)=18
+        BzMdpPrelEmisGlobLiqOverride(PREL.LIQ.OVERRIDE)=19
+        BzMdpPrelEmisGlobLiqRecordStatus(PREL.LIQ.RECORD.STATUS)=20
+        BzMdpPrelEmisGlobLiqCurrNo(PREL.LIQ.CURR.NO)=21
+        BzMdpPrelEmisGlobLiqInputter(PREL.LIQ.INPUTTER)=22
+        BzMdpPrelEmisGlobLiqDateTime(PREL.LIQ.DATE.TIME)=23
+        BzMdpPrelEmisGlobLiqAuthoriser(PREL.LIQ.AUTHORISER)=24
+        BzMdpPrelEmisGlobLiqCoCode(PREL.LIQ.CO.CODE)=25
+        BzMdpPrelEmisGlobLiqDeptCode(PREL.LIQ.DEPT.CODE)=26
+        BzMdpPrelEmisGlobLiqAuditorCode(PREL.LIQ.AUDITOR.CODE)=27
+        BzMdpPrelEmisGlobLiqAuditDateTime(PREL.LIQ.AUDIT.DATE.TIME)=28
+    }
+}

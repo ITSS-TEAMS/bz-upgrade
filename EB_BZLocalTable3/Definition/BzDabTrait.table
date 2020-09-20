@@ -1,0 +1,44 @@
+public table BzDabTrait {
+    t24:  BZ.DAB.TRAIT
+    fields:{
+        BzDabTraitDateSaisie(DAB.TRAIT.DATE.SAISIE)=1
+        BzDabTraitNumeroDab(DAB.TRAIT.NUMERO.DAB)=2
+        BzDabTraitDevise(DAB.TRAIT.DEVISE)=3
+        BzDabTraitAgence(DAB.TRAIT.AGENCE)=4
+        BzDabTraitAmtInit(DAB.TRAIT.AMT.INIT)=5
+        BzDabTraitAmtDist(DAB.TRAIT.AMT.DIST)=6
+        BzDabTraitAmtDistjour(DAB.TRAIT.AMT.DISTJOUR)=7
+        BzDabTraitAmtRejt(DAB.TRAIT.AMT.REJT)=8
+        BzDabTraitAmtRest(DAB.TRAIT.AMT.REST)=9
+        BzDabTraitAmtDisttl(DAB.TRAIT.AMT.DISTTL)=10
+        BzDabTraitTotDisttl(DAB.TRAIT.TOT.DISTTL)=11
+        BzDabTraitAmtEcart(DAB.TRAIT.AMT.ECART)=12
+        BzDabTraitSoldeDab(DAB.TRAIT.SOLDE.DAB)=13
+        BzDabTraitSoldeCalc(DAB.TRAIT.SOLDE.CALC)=14
+        BzDabTraitEcartDab(DAB.TRAIT.ECART.DAB)=15
+        BzDabTraitAmtDecharg(DAB.TRAIT.AMT.DECHARG)=16
+        BzDabTraitAmtPhy(DAB.TRAIT.AMT.PHY)=17
+        BzDabTraitAmtPhyTot(DAB.TRAIT.AMT.PHY.TOT)=18
+        BzDabTraitAmtCharg(DAB.TRAIT.AMT.CHARG)=19
+        BzDabTraitReserved1(DAB.TRAIT.RESERVED.1)=20
+        BzDabTraitReserved2(DAB.TRAIT.RESERVED.2)=21
+        BzDabTraitReserved3(DAB.TRAIT.RESERVED.3)=22
+        BzDabTraitReserved4(DAB.TRAIT.RESERVED.4)=23
+        BzDabTraitReserved5(DAB.TRAIT.RESERVED.5)=24
+        BzDabTraitReserved6(DAB.TRAIT.RESERVED.6)=25
+        BzDabTraitReserved7(DAB.TRAIT.RESERVED.7)=26
+        BzDabTraitReserved8(DAB.TRAIT.RESERVED.8)=27
+        BzDabTraitReserved9(DAB.TRAIT.RESERVED.9)=28
+        BzDabTraitReserved10(DAB.TRAIT.RESERVED.10)=29
+        BzDabTraitOverride(DAB.TRAIT.OVERRIDE)=30
+        BzDabTraitRecordStatus(DAB.TRAIT.RECORD.STATUS)=31
+        BzDabTraitCurrNo(DAB.TRAIT.CURR.NO)=32
+        BzDabTraitInputter(DAB.TRAIT.INPUTTER)=33
+        BzDabTraitDateTime(DAB.TRAIT.DATE.TIME)=34
+        BzDabTraitAuthoriser(DAB.TRAIT.AUTHORISER)=35
+        BzDabTraitCoCode(DAB.TRAIT.CO.CODE)=36
+        BzDabTraitDeptCode(DAB.TRAIT.DEPT.CODE)=37
+        BzDabTraitAuditorCode(DAB.TRAIT.AUDITOR.CODE)=38
+        BzDabTraitAuditDateTime(DAB.TRAIT.AUDIT.DATE.TIME)=39
+    }
+}

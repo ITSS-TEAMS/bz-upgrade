@@ -1,0 +1,25 @@
+public table BzMdpChargTiers {
+    t24:  BZ.MDP.CHARG.TIERS
+    fields:{
+        BzMdpChargTiersRefEchange(CHRG.REF.ECHANGE)=1
+        BzMdpChargTiersAction(CHRG.ACTION)=2
+        BzMdpChargTiersSens(CHRG.SENS)=3
+        BzMdpChargTiersTypeTiers(CHRG.TYPE.TIERS)=4
+        BzMdpChargTiersTiers(CHRG.TIERS)=5
+        BzMdpChargTiersDateGeneration(CHRG.DATE.GENERATION)=6
+        BzMdpChargTiersMntGlobal(CHRG.MNT.GLOBAL)=7
+        BzMdpChargTiersNbreGlobal(CHRG.NBRE.GLOBAL)=8
+        BzMdpChargTiersObservation(CHRG.OBSERVATION)=9
+        BzMdpChargTiersDatePres(CHRG.DATE.PRES)=10
+        BzMdpChargTiersOverride(CHRG.OVERRIDE)=11
+        BzMdpChargTiersRecordStatus(CHRG.RECORD.STATUS)=12
+        BzMdpChargTiersCurrNo(CHRG.CURR.NO)=13
+        BzMdpChargTiersInputter(CHRG.INPUTTER)=14
+        BzMdpChargTiersDateTime(CHRG.DATE.TIME)=15
+        BzMdpChargTiersAuthoriser(CHRG.AUTHORISER)=16
+        BzMdpChargTiersCoCode(CHRG.CO.CODE)=17
+        BzMdpChargTiersDeptCode(CHRG.DEPT.CODE)=18
+        BzMdpChargTiersAuditorCode(CHRG.AUDITOR.CODE)=19
+        BzMdpChargTiersAuditDateTime(CHRG.AUDIT.DATE.TIME)=20
+    }
+}

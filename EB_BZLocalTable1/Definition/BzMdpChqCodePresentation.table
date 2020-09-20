@@ -1,0 +1,22 @@
+public table BzMdpChqCodePresentation {
+    t24:  BZ.MDP.CHQ.CODE.PRESENTATION
+    fields:{
+        BzMdpChqCodePresentationCodeValeur(COD.PRS.CODE.VALEUR)=1
+        BzMdpChqCodePresentationRefFichier(COD.PRS.REF.FICHIER)=2
+        BzMdpChqCodePresentationMontantRegul(COD.PRS.MONTANT.REGUL)=3
+        BzMdpChqCodePresentationMontantInt(COD.PRS.MONTANT.INT)=4
+        BzMdpChqCodePresentationDateEmiss(COD.PRS.DATE.EMISS)=5
+        BzMdpChqCodePresentationDateDoc(COD.PRS.DATE.DOC)=6
+        BzMdpChqCodePresentationNumDoc(COD.PRS.NUM.DOC)=7
+        BzMdpChqCodePresentationOverride(COD.PRS.OVERRIDE)=8
+        BzMdpChqCodePresentationRecordStatus(COD.PRS.RECORD.STATUS)=9
+        BzMdpChqCodePresentationCurrNo(COD.PRS.CURR.NO)=10
+        BzMdpChqCodePresentationInputter(COD.PRS.INPUTTER)=11
+        BzMdpChqCodePresentationDateTime(COD.PRS.DATE.TIME)=12
+        BzMdpChqCodePresentationAuthoriser(COD.PRS.AUTHORISER)=13
+        BzMdpChqCodePresentationCoCode(COD.PRS.CO.CODE)=14
+        BzMdpChqCodePresentationDeptCode(COD.PRS.DEPT.CODE)=15
+        BzMdpChqCodePresentationAuditorCode(COD.PRS.AUDITOR.CODE)=16
+        BzMdpChqCodePresentationAuditDateTime(COD.PRS.AUDIT.DATE.TIME)=17
+    }
+}

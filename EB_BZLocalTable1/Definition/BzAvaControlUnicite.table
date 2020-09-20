@@ -1,0 +1,24 @@
+public table BzAvaControlUnicite {
+    t24:  BZ.AVA.CONTROL.UNICITE
+    fields:{
+        BzAvaControlUniciteDate(AVA.UNI.DATE)=1
+        BzAvaControlUniciteStatut(AVA.UNI.STATUT)=2
+        BzAvaControlUniciteRefAva(AVA.UNI.REF.AVA)=3
+        BzAvaControlUniciteReserved1(AVA.UNI.RESERVED1)=4
+        BzAvaControlUniciteReserved2(AVA.UNI.RESERVED2)=5
+        BzAvaControlUniciteReserved3(AVA.UNI.RESERVED3)=6
+        BzAvaControlUniciteReserved4(AVA.UNI.RESERVED4)=7
+        BzAvaControlUniciteReserved5(AVA.UNI.RESERVED5)=8
+        BzAvaControlUniciteLocalRef(AVA.UNI.LOCAL.REF)=9
+        BzAvaControlUniciteOverride(AVA.UNI.OVERRIDE)=10
+        BzAvaControlUniciteRecordStatus(AVA.UNI.RECORD.STATUS)=11
+        BzAvaControlUniciteCurrNo(AVA.UNI.CURR.NO)=12
+        BzAvaControlUniciteInputter(AVA.UNI.INPUTTER)=13
+        BzAvaControlUniciteDateTime(AVA.UNI.DATE.TIME)=14
+        BzAvaControlUniciteAuthoriser(AVA.UNI.AUTHORISER)=15
+        BzAvaControlUniciteCoCode(AVA.UNI.CO.CODE)=16
+        BzAvaControlUniciteDeptCode(AVA.UNI.DEPT.CODE)=17
+        BzAvaControlUniciteAuditorCode(AVA.UNI.AUDITOR.CODE)=18
+        BzAvaControlUniciteAuditDateTime(AVA.UNI.AUDIT.DATE.TIME)=19
+    }
+}

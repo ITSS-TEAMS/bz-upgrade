@@ -1,0 +1,306 @@
+*-----------------------------------------------------------------------
+*Modification History:
+*ZIT-UPG-R13-R19:VM converted to @VM
+*-----------------------------------------------------------------------   
+$PACKAGE EB.BZLocalRoutinesEnq1
+   SUBROUTINE BZ.ETR.NOTIF.DEFAULT.VALUE
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.USER
+    $INSERT I_F.FUNDS.TRANSFER
+
+
+    GOSUB INITIALISATION
+    GOSUB MAIN.PROCESS
+
+    RETURN
+
+INITIALISATION:
+
+    FN.FT = "F.FUNDS.TRANSFER"
+    F.FT = ""
+
+* $INSERT I_COMMON - Not Used anymore;F.FT)
+
+* $INSERT I_ENQUIRY.COMMON - Not Used anymore;NSFER$HIS"
+    F.FT.HIS = ""
+
+    CALL OPF(FN.FT.HIS, F.FT.HIS)
+
+    RECORD.FINAL = ""
+    Y.LIST.TYPE = ''
+
+    RETURN
+
+MAIN.PROCESS:
+
+
+    DATA.ID = R.NEW(FT.DEBIT.THEIR.REF)[1,12]
+
+tmp.V$FUNCTION = EB.SystemTables.getVFunction()
+    CALLEB.SystemTables.getVFunction().FT,DATA.ID,Ftmp.V$FUNCTION,FT.ERR)
+EB.SystemTables.setVFunction(tmp.V$FUNCTION)
+
+    IFFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus     RECORD.FINAL = FT.REC
+    END ELSE
+    FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusISTORY(FN.FT.HIS,DATA.ID,FT.HIS.REC,F.FT.HIS,FT.HIS.ERR)
+        IF FT.HIS.REC THEN
+            RECORD.FINAL = FT.HIS.REC
+        END
+    END
+
+    IF RECORD.FINAL THEN
+        TRANSACTION.TYPE  = RECORD.FINAL<FT.TRANSACTION.TYPE>
+        DEBIT.ACCT.NO   = RECORD.FINAL<FT.DEBIT.ACCT.NO>
+        DEBIT.CURRENCY   = RECORD.FINAL<FT.DEBIT.CURRENCY>
+        DEBIT.AMOUNT  = RECORD.FINAL<FT.DEBIT.AMOUNT>
+        CREDIT.ACCT.NO   = RECORD.FINAL<FT.CREDIT.ACCT.NO>
+        CREDIT.CURRENCY  = RECORD.FINAL<FT.CREDIT.CURRENCY>
+        CREDIT.AMOUNT   = RECORD.FINAL<FT.CREDIT.AMOUNT>
+        RIB.BEN = RECORD.FINAL<FT.IN.BEN.ACCT.NO>
+***
+**
+        SWIFT.DET = RECORD.FINAL<FT.IN.SWIFT.MSG>
+        NBRE.TG= DCOUNT(SWIFT.DET,@VM)
+
+        FOR COPTEUR = 1 TO NBRE.TG
+            Y.VL= SWIFT.DET<1,COPTEUR>[1,4]
+
+            IF Y.VL EQ ":71A" THEN
+         EB.DataAccess.Opf    CHG.TYPE = FIELD(SWIFT.DET<1,COPTEUR>,":",3)
+         EB.DataAccess.Opf    BREAK
+            END ELSE
+                CHG.TYPE = ""
+            END
+
+
+        NEXT COPTEUR
+FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefaAccess.FReadRDERING.CUS = RECORD.FINAL<FT.ORDERING.CUST>
+        CREDIT.THEIR.REF = RECORD.FINAL<FT.CREDIT.THEIR.REF>
+        BK.TO.BK.INFO = RECOEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerBK.INFO>
+        PAYMENT.DETAILS = RECORD.FINAL<FT.PAYMENT.DETAILS>
+
+        R.EB.SystemTables.setE(ORDERING.CUS)
+        R.NEW(FT.BK.EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerO.BK.INFO
+        R.NEW(FT.PAYMENT.DETAILS) = PAYMENT.DETAILS
+        R.NEW(FT.EB.DataAccess.FWrite.CHARGES) = CHG.TYPE
+        IF CHG.TYPE EQ "OUR" THEN
+            R.NEW(FT.COMMISSION.CODE) = "WAIVE"
+            R.NEW(FT.CHARGES.ACCT.NO) = ""
+        EB.SystemTables.setAf()*-----------------------------------------------------------------------
+*Modification History:
+*ZIT-UPG-R13-R19:VM converted to @VM
+*-----------------------------------------------------------------------   
+$PACKAGE EB.BZLocalRoutinesEnq1
+   SUBROUTINE BZ.ETR.NOTIF.DEFAULT.VALUE
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.USER
+    $INSERT I_F.FUNDS.TRANSFER
+
+
+    GOSUB INITIALISATION
+    GOSUB MAIN.PROCESS
+
+    RETURN
+
+INITIALISATION:
+
+    FN.FT = "F.FUNDS.TRANSFER"
+    F.FT = ""
+
+    CALL OPF(FN.FT, F.FT)
+
+    FN.FT.HIS = "F.FUNDS.TRANSFER$HIS"
+    F.FT.HIS = ""
+
+    CALL OPF(FN.FT.HIS, F.FT.HIS)
+
+    RECORD.FINAL = ""
+    Y.LIST.TYPE = ''
+
+    RETURN
+
+MAIN.PROCESS:
+
+
+    DATA.ID = R.NEW(FT.DEBIT.THEIR.REF)[1,12]
+
+    CALL F.READ(FN.FT,DATA.ID,FT.REC,F.FT,FT.ERR)
+
+    IF FT.REC THEN
+        RECORD.FINAL = FT.REC
+    END ELSE
+        CALL F.READ.HISTORY(FN.FT.HIS,DATA.ID,FT.HIS.REC,F.FT.HIS,FT.HIS.ERR)
+        IF FT.HIS.REC THEN
+            RECORD.FINAL = FT.HIS.REC
+        END
+    END
+
+    IF RECORD.FINAL THEN
+        TRANSACTION.TYPE  = RECORD.FINAL<FT.TRANSACTION.TYPE>
+        DEBIT.ACCT.NO   = RECORD.FINAL<FT.DEBIT.ACCT.NO>
+        DEBIT.CURRENCY   = RECORD.FINAL<FT.DEBIT.CURRENCY>
+        DEBIT.AMOUNT  = RECORD.FINAL<FT.DEBIT.AMOUNT>
+        CREDIT.ACCT.NO   = RECORD.FINAL<FT.CREDIT.ACCT.NO>
+        CREDIT.CURRENCY  = RECORD.FINAL<FT.CREDIT.CURRENCY>
+        CREDIT.AMOUNT   = RECORD.FINAL<FT.CREDIT.AMOUNT>
+        RIB.BEN = RECORD.FINAL<FT.IN.BEN.ACCT.NO>
+***
+**
+        SWIFT.DET = RECORD.FINAL<FT.IN.SWIFT.MSG>
+        NBRE.TG= DCOUNT(SWIFT.DET,@VM)
+
+        FOR COPTEUR = 1 TO NBRE.TG
+            Y.VL= SWIFT.DET<1,COPTEUR>[1,4]
+
+            IF Y.VL EQ ":71A" THEN
+                CHG.TYPE = FIELD(SWIFT.DET<1,COPTEUR>,":",3)
+                BREAK
+            END ELSE
+                CHG.TYPE = ""
+            END
+
+
+        NEXT COPTEUR
+
+**
+        ORDERING.CUS = RECORD.FINAL<FT.ORDERING.CUST>
+        CREDIT.THEIR.REF = RECORD.FINAL<FT.CREDIT.THEIR.REF>
+        BK.TO.BK.INFO = RECORD.FINAL<FT.BK.TO.BK.INFO>
+        PAYMENT.DETAILS = RECORD.FINAL<FT.PAYMENT.DETAILS>
+
+        R.NEW(FT.ORDERING.CUST) = ORDERING.CUS
+        R.NEW(FT.BK.TO.BK.INFO) = BK.TO.BK.INFO
+        R.NEW(FT.PAYMENT.DETAILS) = PAYMENT.DETAILS
+        R.NEW(FT.BEN.OUR.CHARGES) = CHG.TYPE
+        IF CHG.TYPE EQ "OUR" THEN
+            R.NEW(FT.COMMISSION.CODE) = "WAIVE"
+            R.NEW(FT.CHARGES.ACCT.NO) = ""
+        ENDFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefstemTables.setE()*-----------------------------------------------------------------------
+*Modification History:
+*ZIT-UPG-R13-R19:VM converted to @VM
+*-----------------------------------------------------------------------   
+$PACKAGE EB.BZLocalRoutinesEnq1
+   SUBROUTINE BZ.ETR.NOTIF.DEFAULT.VALUE
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.USER
+    $INSERT I_F.FUNDS.TRANSFER
+
+
+    GOSUB INITIALISATION
+    GOSUB MAIN.PROCESS
+
+    RETURN
+
+INITIALISATION:
+
+    FN.FT = "F.FUNDS.TRANSFER"
+    F.FT = ""
+
+    CALL OPF(FN.FT, F.FT)
+
+    FN.FT.HIS = "F.FUNDS.TRANSFER$HIS"
+    F.FT.HIS = ""
+
+    CALL OPF(FN.FT.HIS, F.FT.HIS)
+
+    RECORD.FINAL = ""
+    Y.LIST.TYPE = ''
+
+    RETURN
+
+MAIN.PROCESS:
+
+
+    DATA.ID = R.NEW(FT.DEBIT.THEIR.REF)[1,12]
+
+    CALL F.READ(FN.FT,DATA.ID,FT.REC,F.FT,FT.ERR)
+
+    IF FT.REC THEN
+        RECORD.FINAL = FT.REC
+    END ELSE
+        CALL F.READ.HISTORY(FN.FT.HIS,DATA.ID,FT.HIS.REC,F.FT.HIS,FT.HIS.ERR)
+        IF FT.HIS.REC THEN
+            RECORD.FINAL = FT.HIS.REC
+        END
+    END
+
+    IF RECORD.FINAL THEN
+        TRANSACTION.TYPE  = RECORD.FINAL<FT.TRANSACTION.TYPE>
+        DEBIT.ACCT.NO   = RECORD.FINAL<FT.DEBIT.ACCT.NO>
+        DEBIT.CURRENCY   = RECORD.FINAL<FT.DEBIT.CURRENCY>
+        DEBIT.AMOUNT  = RECORD.FINAL<FT.DEBIT.AMOUNT>
+        CREDIT.ACCT.NO   = RECORD.FINAL<FT.CREDIT.ACCT.NO>
+        CREDIT.CURRENCY  = RECORD.FINAL<FT.CREDIT.CURRENCY>
+        CREDIT.AMOUNT   = RECORD.FINAL<FT.CREDIT.AMOUNT>
+        RIB.BEN = RECORD.FINAL<FT.IN.BEN.ACCT.NO>
+***
+**
+        SWIFT.DET = RECORD.FINAL<FT.IN.SWIFT.MSG>
+        NBRE.TG= DCOUNT(SWIFT.DET,@VM)
+
+        FOR COPTEUR = 1 TO NBRE.TG
+            Y.VL= SWIFT.DET<1,COPTEUR>[1,4]
+
+            IF Y.VL EQ ":71A" THEN
+                CHG.TYPE = FIELD(SWIFT.DET<1,COPTEUR>,":",3)
+                BREAK
+            END ELSE
+                CHG.TYPE = ""
+            END
+
+
+        NEXT COPTEUR
+
+**
+        ORDERING.CUS = RECORD.FINAL<FT.ORDERING.CUST>
+        CREDIT.THEIR.REF = RECORD.FINAL<FT.CREDIT.THEIR.REF>
+        BK.TO.BK.INFO = RECORD.FINAL<FT.BK.TO.BK.INFO>
+        PAYMENT.DETAILS = RECORD.FINAL<FT.PAYMENT.DETAILS>
+
+        R.NEW(FT.ORDERING.CUST) = ORDERING.CUS
+        R.NEW(FT.BK.TO.BK.INFO) = BK.TO.BK.INFO
+        R.NEW(FT.PAYMENT.DETAILS) = PAYMENT.DETAILS
+        R.NEW(FT.BEN.OUR.CHARGES) = CHG.TYPE
+        IF CHG.TYPE EQ "OUR" THEN
+            R.NEW(FT.COMMISSION.CODE) = "WAIVE"
+            R.NEW(FT.CHARGES.ACCT.NO) = ""
+        END
+
+    END
+
+    RETURN
+
+END

@@ -1,0 +1,22 @@
+public table BzCategCompte {
+    t24:  BZ.CATEG.COMPTE
+    fields:{
+        BzCategCompteCodeCateg(CATEG.AC.CODE.CATEG)=1
+        BzCategCompteReserved1(CATEG.AC.RESERVED1)=2
+        BzCategCompteReserved2(CATEG.AC.RESERVED2)=3
+        BzCategCompteReserved3(CATEG.AC.RESERVED3)=4
+        BzCategCompteReserved4(CATEG.AC.RESERVED4)=5
+        BzCategCompteReserved5(CATEG.AC.RESERVED5)=6
+        BzCategCompteLocalRef(CATEG.AC.LOCAL.REF)=7
+        BzCategCompteOverride(CATEG.AC.OVERRIDE)=8
+        BzCategCompteRecordStatus(CATEG.AC.RECORD.STATUS)=9
+        BzCategCompteCurrNo(CATEG.AC.CURR.NO)=10
+        BzCategCompteInputter(CATEG.AC.INPUTTER)=11
+        BzCategCompteDateTime(CATEG.AC.DATE.TIME)=12
+        BzCategCompteAuthoriser(CATEG.AC.AUTHORISER)=13
+        BzCategCompteCoCode(CATEG.AC.CO.CODE)=14
+        BzCategCompteDeptCode(CATEG.AC.DEPT.CODE)=15
+        BzCategCompteAuditorCode(CATEG.AC.AUDITOR.CODE)=16
+        BzCategCompteAuditDateTime(CATEG.AC.AUDIT.DATE.TIME)=17
+    }
+}

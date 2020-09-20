@@ -1,0 +1,34 @@
+public table BzSedDecBpBbe {
+    t24:  BZ.SED.DEC.BP.BBE
+    fields:{
+        BzSedDecBpBbeTypeMouvement(SED.BBE.TYPE.MOUVEMENT)=1
+        BzSedDecBpBbeDevise(SED.BBE.DEVISE)=2
+        BzSedDecBpBbeCodeBp(SED.BBE.CODE.BP)=3
+        BzSedDecBpBbeMontantSigne(SED.BBE.MONTANT.SIGNE)=4
+        BzSedDecBpBbeMontantDebit(SED.BBE.MONTANT.DEBIT)=5
+        BzSedDecBpBbeMontantCredit(SED.BBE.MONTANT.CREDIT)=6
+        BzSedDecBpBbeCodePays(SED.BBE.CODE.PAYS)=7
+        BzSedDecBpBbeCodeIa(SED.BBE.CODE.IA)=8
+        BzSedDecBpBbeDateOperation(SED.BBE.DATE.OPERATION)=9
+        BzSedDecBpBbeRefTransaction(SED.BBE.REF.TRANSACTION)=10
+        BzSedDecBpBbeCodeAgence(SED.BBE.CODE.AGENCE)=11
+        BzSedDecBpBbeStatut(SED.BBE.STATUT)=12
+        BzSedDecBpBbeCodeNationalite(SED.BBE.CODE.NATIONALITE)=13
+        BzSedDecBpBbeReserved1(SED.BBE.RESERVED1)=14
+        BzSedDecBpBbeReserved2(SED.BBE.RESERVED2)=15
+        BzSedDecBpBbeReserved3(SED.BBE.RESERVED3)=16
+        BzSedDecBpBbeReserved4(SED.BBE.RESERVED4)=17
+        BzSedDecBpBbeReserved5(SED.BBE.RESERVED5)=18
+        BzSedDecBpBbeLocalRef(SED.BBE.LOCAL.REF)=19
+        BzSedDecBpBbeOverride(SED.BBE.OVERRIDE)=20
+        BzSedDecBpBbeRecordStatus(SED.BBE.RECORD.STATUS)=21
+        BzSedDecBpBbeCurrNo(SED.BBE.CURR.NO)=22
+        BzSedDecBpBbeInputter(SED.BBE.INPUTTER)=23
+        BzSedDecBpBbeDateTime(SED.BBE.DATE.TIME)=24
+        BzSedDecBpBbeAuthoriser(SED.BBE.AUTHORISER)=25
+        BzSedDecBpBbeCoCode(SED.BBE.CO.CODE)=26
+        BzSedDecBpBbeDeptCode(SED.BBE.DEPT.CODE)=27
+        BzSedDecBpBbeAuditorCode(SED.BBE.AUDITOR.CODE)=28
+        BzSedDecBpBbeAuditDateTime(SED.BBE.AUDIT.DATE.TIME)=29
+    }
+}

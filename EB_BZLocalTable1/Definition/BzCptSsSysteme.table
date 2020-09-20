@@ -1,0 +1,31 @@
+public table BzCptSsSysteme {
+        t24:  BZ.CPT.SS.SYSTEME
+        fields:{
+            BzCptSsSystemeDescription(SS.SYS.DESCRIPTION)=1
+            BzCptSsSystemeSysteme(SS.SYS.SYSTEME)=2
+            BzCptSsSystemeEvenement(SS.SYS.EVENEMENT)=3
+            BzCptSsSystemeDepartement(SS.SYS.DEPARTEMENT)=4
+            BzCptSsSystemeRoutine(SS.SYS.ROUTINE)=5
+            BzCptSsSystemeDescRoutine(SS.SYS.DESC.ROUTINE)=6
+            BzCptSsSystemeReserved1(SS.SYS.RESERVED.1)=7
+            BzCptSsSystemeReserved2(SS.SYS.RESERVED.2)=8
+            BzCptSsSystemeReserved3(SS.SYS.RESERVED.3)=9
+            BzCptSsSystemeReserved4(SS.SYS.RESERVED.4)=10
+            BzCptSsSystemeReserved5(SS.SYS.RESERVED.5)=11
+            BzCptSsSystemeReserved6(SS.SYS.RESERVED.6)=12
+            BzCptSsSystemeReserved7(SS.SYS.RESERVED.7)=13
+            BzCptSsSystemeReserved8(SS.SYS.RESERVED.8)=14
+            BzCptSsSystemeReserved9(SS.SYS.RESERVED.9)=15
+            BzCptSsSystemeReserved10(SS.SYS.RESERVED.10)=16
+            BzCptSsSystemeOverride(SS.SYS.OVERRIDE)=17
+            BzCptSsSystemeRecordStatus(SS.SYS.RECORD.STATUS)=18
+            BzCptSsSystemeCurrNo(SS.SYS.CURR.NO)=19
+            BzCptSsSystemeInputter(SS.SYS.INPUTTER)=20
+            BzCptSsSystemeDateTime(SS.SYS.DATE.TIME)=21
+            BzCptSsSystemeAuthoriser(SS.SYS.AUTHORISER)=22
+            BzCptSsSystemeCoCode(SS.SYS.CO.CODE)=23
+            BzCptSsSystemeDeptCode(SS.SYS.DEPT.CODE)=24
+            BzCptSsSystemeAuditorCode(SS.SYS.AUDITOR.CODE)=25
+            BzCptSsSystemeAuditDateTime(SS.SYS.AUDIT.DATE.TIME)=26
+        }
+    }

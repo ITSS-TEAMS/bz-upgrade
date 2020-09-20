@@ -1,0 +1,25 @@
+public table BzMdpFichierSibtel {
+    t24:  BZ.MDP.FICHIER.SIBTEL
+    fields:{
+        BzMdpFichierSibtelRefEchange(FIC.SBT.REF.ECHANGE)=1
+        BzMdpFichierSibtelAction(FIC.SBT.ACTION)=2
+        BzMdpFichierSibtelSens(FIC.SBT.SENS)=3
+        BzMdpFichierSibtelCodeValeur(FIC.SBT.CODE.VALEUR)=4
+        BzMdpFichierSibtelTypePres(FIC.SBT.TYPE.PRES)=5
+        BzMdpFichierSibtelDateGeneration(FIC.SBT.DATE.GENERATION)=6
+        BzMdpFichierSibtelMntGlobal(FIC.SBT.MNT.GLOBAL)=7
+        BzMdpFichierSibtelNbreGlobal(FIC.SBT.NBRE.GLOBAL)=8
+        BzMdpFichierSibtelCatPack(FIC.SBT.CAT.PACK)=9
+        BzMdpFichierSibtelObservation(FIC.SBT.OBSERVATION)=10
+        BzMdpFichierSibtelOverride(FIC.SBT.OVERRIDE)=11
+        BzMdpFichierSibtelRecordStatus(FIC.SBT.RECORD.STATUS)=12
+        BzMdpFichierSibtelCurrNo(FIC.SBT.CURR.NO)=13
+        BzMdpFichierSibtelInputter(FIC.SBT.INPUTTER)=14
+        BzMdpFichierSibtelDateTime(FIC.SBT.DATE.TIME)=15
+        BzMdpFichierSibtelAuthoriser(FIC.SBT.AUTHORISER)=16
+        BzMdpFichierSibtelCoCode(FIC.SBT.CO.CODE)=17
+        BzMdpFichierSibtelDeptCode(FIC.SBT.DEPT.CODE)=18
+        BzMdpFichierSibtelAuditorCode(FIC.SBT.AUDITOR.CODE)=19
+        BzMdpFichierSibtelAuditDateTime(FIC.SBT.AUDIT.DATE.TIME)=20
+    }
+}

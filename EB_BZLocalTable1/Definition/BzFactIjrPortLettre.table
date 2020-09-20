@@ -1,0 +1,33 @@
+public table BzFactIjrPortLettre {
+    t24:  BZ.FACT.IJR.PORT.LETTRE
+    fields:{
+        BzFactIjrPortLettreRefOfs(PORT.REF.OFS)=1
+        BzFactIjrPortLettreMessageOfs(PORT.MESSAGE.OFS)=2
+        BzFactIjrPortLettreMessageErreur(PORT.MESSAGE.ERREUR)=3
+        BzFactIjrPortLettreDbCompte(PORT.DB.COMPTE)=4
+        BzFactIjrPortLettreMontant(PORT.MONTANT)=5
+        BzFactIjrPortLettreDateEcheance(PORT.DATE.ECHEANCE)=6
+        BzFactIjrPortLettreStatut(PORT.STATUT)=7
+        BzFactIjrPortLettreReserved0(PORT.RESERVED.0)=8
+        BzFactIjrPortLettreReserved1(PORT.RESERVED.1)=9
+        BzFactIjrPortLettreReserved2(PORT.RESERVED.2)=10
+        BzFactIjrPortLettreReserved3(PORT.RESERVED.3)=11
+        BzFactIjrPortLettreReserved4(PORT.RESERVED.4)=12
+        BzFactIjrPortLettreReserved5(PORT.RESERVED.5)=13
+        BzFactIjrPortLettreReserved6(PORT.RESERVED.6)=14
+        BzFactIjrPortLettreReserved7(PORT.RESERVED.7)=15
+        BzFactIjrPortLettreReserved8(PORT.RESERVED.8)=16
+        BzFactIjrPortLettreReserved9(PORT.RESERVED.9)=17
+        BzFactIjrPortLettreReserved10(PORT.RESERVED.10)=18
+        BzFactIjrPortLettreOverride(PORT.OVERRIDE)=19
+        BzFactIjrPortLettreRecordStatus(PORT.RECORD.STATUS)=20
+        BzFactIjrPortLettreCurrNo(PORT.CURR.NO)=21
+        BzFactIjrPortLettreInputter(PORT.INPUTTER)=22
+        BzFactIjrPortLettreDateTime(PORT.DATE.TIME)=23
+        BzFactIjrPortLettreAuthoriser(PORT.AUTHORISER)=24
+        BzFactIjrPortLettreCoCode(PORT.CO.CODE)=25
+        BzFactIjrPortLettreDeptCode(PORT.DEPT.CODE)=26
+        BzFactIjrPortLettreAuditorCode(PORT.AUDITOR.CODE)=27
+        BzFactIjrPortLettreAuditDateTime(PORT.AUDIT.DATE.TIME)=28
+    }
+}

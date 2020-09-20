@@ -1,0 +1,18 @@
+public table BzSedParameter {
+    t24:  BZ.SED.PARAMETER
+    fields:{
+        BzSedParameterDescription(SED.PARM.DESCRIPTION)=1
+        BzSedParameterRepertoire(SED.PARM.REPERTOIRE)=2
+        BzSedParameterLocalRef(SED.PARM.LOCAL.REF)=3
+        BzSedParameterOverride(SED.PARM.OVERRIDE)=4
+        BzSedParameterRecordStatus(SED.PARM.RECORD.STATUS)=5
+        BzSedParameterCurrNo(SED.PARM.CURR.NO)=6
+        BzSedParameterInputter(SED.PARM.INPUTTER)=7
+        BzSedParameterDateTime(SED.PARM.DATE.TIME)=8
+        BzSedParameterAuthoriser(SED.PARM.AUTHORISER)=9
+        BzSedParameterCoCode(SED.PARM.CO.CODE)=10
+        BzSedParameterDeptCode(SED.PARM.DEPT.CODE)=11
+        BzSedParameterAuditorCode(SED.PARM.AUDITOR.CODE)=12
+        BzSedParameterAuditDateTime(SED.PARM.AUDIT.DATE.TIME)=13
+    }
+}

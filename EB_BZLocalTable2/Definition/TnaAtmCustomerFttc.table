@@ -1,0 +1,19 @@
+public table TnaAtmCustomerFttc {
+    t24:  TNA.ATM.CUSTOMER.FTTC
+    fields:{
+        TnaAtmCustomerFttcFttc(ATM.FTTC)=1
+        TnaAtmCustomerFttcEpargneValDate(ATM.EPARGNE.VAL.DATE)=2
+        TnaAtmCustomerFttcMinBalance(ATM.MIN.BALANCE)=3
+        TnaAtmCustomerFttcLocalRef(ATM.LOCAL.REF)=4
+        TnaAtmCustomerFttcOverride(ATM.OVERRIDE)=5
+        TnaAtmCustomerFttcRecordStatus(ATM.RECORD.STATUS)=6
+        TnaAtmCustomerFttcCurrNo(ATM.CURR.NO)=7
+        TnaAtmCustomerFttcInputter(ATM.INPUTTER)=8
+        TnaAtmCustomerFttcDateTime(ATM.DATE.TIME)=9
+        TnaAtmCustomerFttcAuthoriser(ATM.AUTHORISER)=10
+        TnaAtmCustomerFttcCoCode(ATM.CO.CODE)=11
+        TnaAtmCustomerFttcDeptCode(ATM.DEPT.CODE)=12
+        TnaAtmCustomerFttcAuditorCode(ATM.AUDITOR.CODE)=13
+        TnaAtmCustomerFttcAuditDateTime(ATM.AUDIT.DATE.TIME)=14
+    }
+}

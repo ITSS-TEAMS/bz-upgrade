@@ -1,0 +1,29 @@
+public table BzMurProductsParameter {
+    t24:  BZ.MUR.PRODUCTS.PARAMETER
+    fields:{
+        BzMurProductsParameterImmoMur(PROD.PARA.IMMO.MUR)=1
+        BzMurProductsParameterImmoRmc(PROD.PARA.IMMO.RMC)=2
+        BzMurProductsParameterHorsimmoMur(PROD.PARA.HORSIMMO.MUR)=3
+        BzMurProductsParameterHorsimmoRmc(PROD.PARA.HORSIMMO.RMC)=4
+        BzMurProductsParameterReserved1(PROD.PARA.RESERVED.1)=5
+        BzMurProductsParameterReserved2(PROD.PARA.RESERVED.2)=6
+        BzMurProductsParameterReserved3(PROD.PARA.RESERVED.3)=7
+        BzMurProductsParameterReserved4(PROD.PARA.RESERVED.4)=8
+        BzMurProductsParameterReserved5(PROD.PARA.RESERVED.5)=9
+        BzMurProductsParameterReserved6(PROD.PARA.RESERVED.6)=10
+        BzMurProductsParameterReserved7(PROD.PARA.RESERVED.7)=11
+        BzMurProductsParameterReserved8(PROD.PARA.RESERVED.8)=12
+        BzMurProductsParameterReserved9(PROD.PARA.RESERVED.9)=13
+        BzMurProductsParameterReserved10(PROD.PARA.RESERVED.10)=14
+        BzMurProductsParameterOverride(PROD.PARA.OVERRIDE)=15
+        BzMurProductsParameterRecordStatus(PROD.PARA.RECORD.STATUS)=16
+        BzMurProductsParameterCurrNo(PROD.PARA.CURR.NO)=17
+        BzMurProductsParameterInputter(PROD.PARA.INPUTTER)=18
+        BzMurProductsParameterDateTime(PROD.PARA.DATE.TIME)=19
+        BzMurProductsParameterAuthoriser(PROD.PARA.AUTHORISER)=20
+        BzMurProductsParameterCoCode(PROD.PARA.CO.CODE)=21
+        BzMurProductsParameterDeptCode(PROD.PARA.DEPT.CODE)=22
+        BzMurProductsParameterAuditorCode(PROD.PARA.AUDITOR.CODE)=23
+        BzMurProductsParameterAuditDateTime(PROD.PARA.AUDIT.DATE.TIME)=24
+    }
+}

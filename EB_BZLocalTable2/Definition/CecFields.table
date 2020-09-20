@@ -1,0 +1,41 @@
+public table CecFields {
+    t24:  CEC.FIELDS
+    fields:{
+	CecFieldDestAppl(CEC.FIE.DEST.APPL) = 1
+	CecFieldDestJoin(CEC.FIE.DEST.JOIN) = 2
+	CecFieldDestFinal(CEC.FIE.DEST.FINAL) = 3
+	CecFieldDestFmtRtn(CEC.FIE.DEST.FMT.RTN) = 4
+	CecFieldDestJustify(CEC.FIE.DEST.JUSTIFY) = 5       
+	CecFieldDestChars(CEC.FIE.DEST.CHARS)  = 6
+    CecFieldOrigAppl(CEC.FIE.ORIG.APPL) = 7    
+	CecFieldOrigJoin(CEC.FIE.ORIG.JOIN) = 8 
+    CecFieldOrigFinal(CEC.FIE.ORIG.FINAL) = 9     
+	CecFieldOrigFmtRtn(CEC.FIE.ORIG.FMT.RTN) = 10
+    CecFieldOrigJustify(CEC.FIE.ORIG.JUSTIFY) = 11     
+	CecFieldOrigChars(CEC.FIE.ORIG.CHARS) = 12
+    CecFieldDescription(CEC.FIE.DESCRIPTION) = 13          
+	CecFieldLength(CEC.FIE.LENGTH) = 14
+    CecFieldAttribute(CEC.FIE.ATTRIBUTE) = 15   
+	CecFieldAllowedValue(CEC.FIE.ALLOWED.VALUE) = 16
+    CecFieldAllowedNarr(CEC.FIE.ALLOWED.NARR) = 17
+	CecFieldAllowedProcess(CEC.FIE.ALLOWED.PROCESS) = 18
+    CecFieldAllowedExpDay(CEC.FIE.ALLOWED.EXP.DAY) = 19    
+	CecFieldAllowedMap(CEC.FIE.ALLOWED.MAP) = 20
+    CecFieldVettingTable(CEC.FIE.VETTING.TABLE) = 21   
+	CecFieldVettingField(CEC.FIE.VETTING.FIELD) = 22
+    CecFieldReserved3(CEC.FIE.RESERVED.3) = 23    
+	CecFieldReserved2(CEC.FIE.RESERVED.2) = 24
+    CecFieldReserved1(CEC.FIE.RESERVED.1) = 25       
+	CecFieldLocalRef(CEC.FIE.LOCAL.REF) = 26
+    CecFieldOverride(CEC.FIE.OVERRIDE) = 27   
+	CecFieldRecordStatus(CEC.FIE.RECORD.STATUS) = 28
+    CecFieldCurrNo(CEC.FIE.CURR.NO) = 29        
+	CecFieldInputter(CEC.FIE.INPUTTER) = 30
+    CecFieldDateTime(CEC.FIE.DATE.TIME) = 31      
+	CecFieldAuthoriser(CEC.FIE.AUTHORISER) = 32
+    CecFieldCoCode(CEC.FIE.CO.CODE) = 33      
+    CecFieldDeptCode(CEC.FIE.DEPT.CODE) = 34
+    CecFieldAuditorCode(CEC.FIE.AUDITOR.CODE) = 35
+	CecFieldAuditDateTime(CEC.FIE.AUDIT.DATE.TIME) = 36
+	}
+	}

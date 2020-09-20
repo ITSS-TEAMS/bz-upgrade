@@ -1,0 +1,17 @@
+public table BzDeFormatType {
+    t24:  BZ.DE.FORMAT.TYPE
+    fields:{
+        BzDeFormatTypeDescription(DE.TYP.DESCRIPTION)=1
+        BzDeFormatTypeSens(DE.TYP.SENS)=2
+        BzDeFormatTypeOverride(DE.TYP.OVERRIDE)=3
+        BzDeFormatTypeRecordStatus(DE.TYP.RECORD.STATUS)=4
+        BzDeFormatTypeCurrNo(DE.TYP.CURR.NO)=5
+        BzDeFormatTypeInputter(DE.TYP.INPUTTER)=6
+        BzDeFormatTypeDateTime(DE.TYP.DATE.TIME)=7
+        BzDeFormatTypeAuthoriser(DE.TYP.AUTHORISER)=8
+        BzDeFormatTypeCoCode(DE.TYP.CO.CODE)=9
+        BzDeFormatTypeDeptCode(DE.TYP.DEPT.CODE)=10
+        BzDeFormatTypeAuditorCode(DE.TYP.AUDITOR.CODE)=11
+        BzDeFormatTypeAuditDateTime(DE.TYP.AUDIT.DATE.TIME)=12
+    }
+}

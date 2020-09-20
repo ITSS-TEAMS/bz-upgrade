@@ -1,0 +1,17 @@
+public table BzSedFamileBp {
+    t24:  BZ.SED.FAMILE.BP
+    fields:{
+        BzSedFamileBpDescription(SED.INT.DESCRIPTION)=1
+        BzSedFamileBpLocalRef(SED.INT.LOCAL.REF)=2
+        BzSedFamileBpOverride(SED.INT.OVERRIDE)=3
+        BzSedFamileBpRecordStatus(SED.INT.RECORD.STATUS)=4
+        BzSedFamileBpCurrNo(SED.INT.CURR.NO)=5
+        BzSedFamileBpInputter(SED.INT.INPUTTER)=6
+        BzSedFamileBpDateTime(SED.INT.DATE.TIME)=7
+        BzSedFamileBpAuthoriser(SED.INT.AUTHORISER)=8
+        BzSedFamileBpCoCode(SED.INT.CO.CODE)=9
+        BzSedFamileBpDeptCode(SED.INT.DEPT.CODE)=10
+        BzSedFamileBpAuditorCode(SED.INT.AUDITOR.CODE)=11
+        BzSedFamileBpAuditDateTime(SED.INT.AUDIT.DATE.TIME)=12
+    }
+}

@@ -1,0 +1,28 @@
+public table T24WPackMan {
+    t24: T24.W.PACK.MAN 
+    fields:{ 
+        T24WPackManVersionCheck(T24.PM.DEF.VERSION.CHECK)= 1
+        T24WPackManCompileCode(T24.PM.DEF.COMPILE.CODE)= 2
+        T24WPackManDirectory(T24.PM.DEF.DIRECTORY)= 3
+        T24WPackManSelectList(T24.PM.DEF.SELECT.LIST)= 4
+        T24WPackManAction(T24.PM.DEF.ACTION)= 5
+        T24WPackManOption(T24.PM.DEF.OPTION)= 6
+        T24WPackManFileName(T24.PM.DEF.FILE.NAME)= 7
+        T24WPackManRecordName(T24.PM.DEF.RECORD.NAME)= 8
+        T24WPackManHistoType(T24.PM.DEF.HISTO.TYPE)= 9
+        T24WPackManHistoUser(T24.PM.DEF.HISTO.USER)= 10
+        T24WPackManHistoDate(T24.PM.DEF.HISTO.DATE)= 11
+        T24WPackManReserved3(T24.PM.DEF.RESERVED3)= 12
+        T24WPackManReserved2(T24.PM.DEF.RESERVED2)= 13
+        T24WPackManReserved1(T24.PM.DEF.RESERVED1)= 14
+        T24WPackManRecordStatus(T24.PM.DEF.RECORD.STATUS)= 15
+        T24WPackManCurrNo(T24.PM.DEF.CURR.NO)= 16
+        T24WPackManInputter(T24.PM.DEF.INPUTTER)= 17
+        T24WPackManDateTime(T24.PM.DEF.DATE.TIME)= 18
+        T24WPackManAuthoriser(T24.PM.DEF.AUTHORISER)= 19
+        T24WPackManCoCode(T24.PM.DEF.CO.CODE)= 20
+        T24WPackManDeptCode(T24.PM.DEF.DEPT.CODE)= 21
+        T24WPackManAuditorCode(T24.PM.DEF.AUDITOR.CODE)= 22
+        T24WPackManAuditDateTime(T24.PM.DEF.AUDIT.DATE.TIME)= 23
+    }
+}

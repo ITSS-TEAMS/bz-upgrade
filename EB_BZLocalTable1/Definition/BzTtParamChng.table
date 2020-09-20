@@ -1,0 +1,28 @@
+public table BzTtParamChng {
+        t24:  BZ.TT.PARAM.CHNG
+        fields:{
+            BzTtParamChngDescription(BZ.TT.PARAM.CHNG.DESCRIPTION)=1
+            BzTtParamChngThresholdAmount(BZ.TT.PARAM.CHNG.THRESHOLD.AMOUNT)=2
+            BzTtParamChngRetrPeriod(BZ.TT.PARAM.CHNG.RETR.PERIOD)=3
+            BzTtParamChngReserved1(BZ.TT.PARAM.CHNG.RESERVED.1)=4
+            BzTtParamChngReserved2(BZ.TT.PARAM.CHNG.RESERVED.2)=5
+            BzTtParamChngReserved3(BZ.TT.PARAM.CHNG.RESERVED.3)=6
+            BzTtParamChngReserved4(BZ.TT.PARAM.CHNG.RESERVED.4)=7
+            BzTtParamChngReserved5(BZ.TT.PARAM.CHNG.RESERVED.5)=8
+            BzTtParamChngReserved6(BZ.TT.PARAM.CHNG.RESERVED.6)=9
+            BzTtParamChngReserved7(BZ.TT.PARAM.CHNG.RESERVED.7)=10
+            BzTtParamChngReserved8(BZ.TT.PARAM.CHNG.RESERVED.8)=11
+            BzTtParamChngReserved9(BZ.TT.PARAM.CHNG.RESERVED.9)=12
+            BzTtParamChngReserved10(BZ.TT.PARAM.CHNG.RESERVED.10)=13
+            BzTtParamChngOverride(BZ.TT.PARAM.CHNG.OVERRIDE)=14
+            BzTtParamChngRecordStatus(BZ.TT.PARAM.CHNG.RECORD.STATUS)=15
+            BzTtParamChngCurrNo(BZ.TT.PARAM.CHNG.CURR.NO)=16
+            BzTtParamChngInputter(BZ.TT.PARAM.CHNG.INPUTTER)=17
+            BzTtParamChngDateTime(BZ.TT.PARAM.CHNG.DATE.TIME)=18
+            BzTtParamChngAuthoriser(BZ.TT.PARAM.CHNG.AUTHORISER)=19
+            BzTtParamChngCoCode(BZ.TT.PARAM.CHNG.CO.CODE)=20
+            BzTtParamChngDeptCode(BZ.TT.PARAM.CHNG.DEPT.CODE)=21
+            BzTtParamChngAuditorCode(BZ.TT.PARAM.CHNG.AUDITOR.CODE)=22
+            BzTtParamChngAuditDateTime(BZ.TT.PARAM.CHNG.AUDIT.DATE.TIME)=23
+        }
+    }

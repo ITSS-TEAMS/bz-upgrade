@@ -1,0 +1,25 @@
+public table BzChargFichier {
+    t24:  BZ.CHARG.FICHIER
+    fields:{
+        BzChargFichierCodeTraitement(FICH.CODE.TRAITEMENT)=1
+        BzChargFichierRefFichier(FICH.REF.FICHIER)=2
+        BzChargFichierStatut(FICH.STATUT)=3
+        BzChargFichierDateCharg(FICH.DATE.CHARG)=4
+        BzChargFichierDatePec(FICH.DATE.PEC)=5
+        BzChargFichierTotDebit(FICH.TOT.DEBIT)=6
+        BzChargFichierTotCredit(FICH.TOT.CREDIT)=7
+        BzChargFichierNbre(FICH.NBRE)=8
+        BzChargFichierObservation(FICH.OBSERVATION)=9
+        BzChargFichierDateConfirmation(FICH.DATE.CONFIRMATION)=10
+        BzChargFichierOverride(FICH.OVERRIDE)=11
+        BzChargFichierRecordStatus(FICH.RECORD.STATUS)=12
+        BzChargFichierCurrNo(FICH.CURR.NO)=13
+        BzChargFichierInputter(FICH.INPUTTER)=14
+        BzChargFichierDateTime(FICH.DATE.TIME)=15
+        BzChargFichierAuthoriser(FICH.AUTHORISER)=16
+        BzChargFichierCoCode(FICH.CO.CODE)=17
+        BzChargFichierDeptCode(FICH.DEPT.CODE)=18
+        BzChargFichierAuditorCode(FICH.AUDITOR.CODE)=19
+        BzChargFichierAuditDateTime(FICH.AUDIT.DATE.TIME)=20
+    }
+} 

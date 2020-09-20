@@ -1,0 +1,31 @@
+public table BzTsaService {
+    t24:  BZ.TSA.SERVICE
+    fields:{
+        BzTsaServiceDescription(BZ.TSA.SERVICE.DESCRIPTION)=1
+        BzTsaServiceActive(BZ.TSA.SERVICE.ACTIVE)=2
+        BzTsaServiceSelection(BZ.TSA.SERVICE.SELECTION)=3
+        BzTsaServiceTable(BZ.TSA.SERVICE.TABLE)=4
+        BzTsaServicePosMsgOfs(BZ.TSA.SERVICE.POS.MSG.OFS)=5
+        BzTsaServicePosRefTxn(BZ.TSA.SERVICE.POS.REF.TXN)=6
+        BzTsaServicePosErreurMsg(BZ.TSA.SERVICE.POS.ERREUR.MSG)=7
+        BzTsaServiceReserved2(BZ.TSA.SERVICE.RESERVED.2)=8
+        BzTsaServiceReserved3(BZ.TSA.SERVICE.RESERVED.3)=9
+        BzTsaServiceReserved4(BZ.TSA.SERVICE.RESERVED.4)=10
+        BzTsaServiceReserved5(BZ.TSA.SERVICE.RESERVED.5)=11
+        BzTsaServiceReserved6(BZ.TSA.SERVICE.RESERVED.6)=12
+        BzTsaServiceReserved7(BZ.TSA.SERVICE.RESERVED.7)=13
+        BzTsaServiceReserved8(BZ.TSA.SERVICE.RESERVED.8)=14
+        BzTsaServiceReserved9(BZ.TSA.SERVICE.RESERVED.9)=15
+        BzTsaServiceReserved10(BZ.TSA.SERVICE.RESERVED.10)=16
+        BzTsaServiceOverride(BZ.TSA.SERVICE.OVERRIDE)=17
+        BzTsaServiceRecordStatus(BZ.TSA.SERVICE.RECORD.STATUS)=18
+        BzTsaServiceCurrNo(BZ.TSA.SERVICE.CURR.NO)=19
+        BzTsaServiceInputter(BZ.TSA.SERVICE.INPUTTER)=20
+        BzTsaServiceDateTime(BZ.TSA.SERVICE.DATE.TIME)=21
+        BzTsaServiceAuthoriser(BZ.TSA.SERVICE.AUTHORISER)=22
+        BzTsaServiceCoCode(BZ.TSA.SERVICE.CO.CODE)=23
+        BzTsaServiceDeptCode(BZ.TSA.SERVICE.DEPT.CODE)=24
+        BzTsaServiceAuditorCode(BZ.TSA.SERVICE.AUDITOR.CODE)=25
+        BzTsaServiceAuditDateTime(BZ.TSA.SERVICE.AUDIT.DATE.TIME)=26
+    }
+}

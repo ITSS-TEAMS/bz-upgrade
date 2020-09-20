@@ -1,0 +1,26 @@
+public table BzSmCommercant {
+    t24:  BZ.SM.COMMERCANT
+    fields:{
+        BzSmCommercantCompte(SM.COM.COMPTE)=1
+        BzSmCommercantCommAchat(SM.COM.COMM.ACHAT)=2
+        BzSmCommercantCodeClient(SM.COM.CODE.CLIENT)=3
+        BzSmCommercantTypeAffiliation(SM.COM.TYPE.AFFILIATION)=4
+        BzSmCommercantTauxVisa(SM.COM.TAUX.VISA)=5
+        BzSmCommercantTauxMcd(SM.COM.TAUX.MCD)=6
+        BzSmCommercantMontantLocation(SM.COM.MONTANT.LOCATION)=7
+        BzSmCommercantCodeMmc(SM.COM.CODE.MMC)=8
+        BzSmCommercantActive(SM.COM.ACTIVE)=9
+        BzSmCommercantCompteInactive(SM.COM.COMPTE.INACTIVE)=10
+        BzSmCommercantCompteTechnique(SM.COM.COMPTE.TECHNIQUE)=11
+        BzSmCommercantOverride(SM.COM.OVERRIDE)=12
+        BzSmCommercantRecordStatus(SM.COM.RECORD.STATUS)=13
+        BzSmCommercantCurrNo(SM.COM.CURR.NO)=14
+        BzSmCommercantInputter(SM.COM.INPUTTER)=15
+        BzSmCommercantDateTime(SM.COM.DATE.TIME)=16
+        BzSmCommercantAuthoriser(SM.COM.AUTHORISER)=17
+        BzSmCommercantCoCode(SM.COM.CO.CODE)=18
+        BzSmCommercantDeptCode(SM.COM.DEPT.CODE)=19
+        BzSmCommercantAuditorCode(SM.COM.AUDITOR.CODE)=20
+        BzSmCommercantAuditDateTime(SM.COM.AUDIT.DATE.TIME)=21
+    }
+}

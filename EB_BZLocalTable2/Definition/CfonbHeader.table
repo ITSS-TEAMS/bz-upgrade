@@ -1,0 +1,26 @@
+public table CfonbHeader {
+    t24:  CFONB.HEADER
+    fields:{
+
+CfonbHeaderDescription(CFB.HEA.DESCRIPTION) = 1    
+CfonbHeaderCodeOpeStart(CFB.HEA.CODE.OPE.START) = 2
+CfonbHeaderCodeOpeLength(CFB.HEA.CODE.OPE.LENGTH) = 3    
+CfonbHeaderDetCodeEnreg(CFB.HEA.DET.CODE.ENREG) = 4
+CfonbHeaderTrailerCodeEnreg(CFB.HEA.TRAILER.CODE.ENREG) = 5    
+CfonbHeaderCodeEnrStart(CFB.HEA.CODE.ENR.START) = 6
+CfonbHeaderCodeEnrLength(CFB.HEA.CODE.ENR.LENGTH) = 7    
+CfonbHeaderCodeEnrValue(CFB.HEA.CODE.ENR.VALUE) = 8 
+CfonbHeaderReserved1(CFB.HEA.RESERVED.2) = 9        
+CfonbHeaderReserved2(CFB.HEA.RESERVED.1) = 10 
+CfonbHeaderLocalRef(CFB.HEA.LOCAL.REF) = 11     
+CfonbHeaderRecordStatus(CFB.HEA.RECORD.STATUS) = 12 
+CfonbHeaderCurrNo(CFB.HEA.CURR.NO) = 13          
+CfonbHeaderInputter(CFB.HEA.INPUTTER) = 14 
+CfonbHeaderDateTime(CFB.HEA.DATE.TIME) = 15        
+CfonbHeaderAuthoriser(CFB.HEA.AUTHORISER) = 16 
+CfonbHeaderCoCode(CFB.HEA.CO.CODE) = 17         
+CfonbHeaderDeptCode(CFB.HEA.DEPT.CODE) = 18 
+CfonbHeaderAuditorCode(CFB.HEA.AUDITOR.CODE) = 19   
+CfonbHeaderAuditDateTime(CFB.HEA.AUDIT.DATE.TIME) = 20
+	  }
+	  }

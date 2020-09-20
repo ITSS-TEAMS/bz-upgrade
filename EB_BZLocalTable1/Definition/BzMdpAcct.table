@@ -1,0 +1,19 @@
+public table BzMdpAcct {
+    t24:  BZ.MDP.ACCT
+    fields:{
+        BzMdpAcctDescription(MDP.ACT.DESCRIPTION)=1
+        BzMdpAcctExecYN(MDP.ACT.EXEC.Y.N)=2
+        BzMdpAcctLocalRef(MDP.ACT.LOCAL.REF)=3
+        BzMdpAcctStmtNos(MDP.ACT.STMT.NOS)=4
+        BzMdpAcctOverride(MDP.ACT.OVERRIDE)=5
+        BzMdpAcctRecordStatus(MDP.ACT.RECORD.STATUS)=6
+        BzMdpAcctCurrNo(MDP.ACT.CURR.NO)=7
+        BzMdpAcctInputter(MDP.ACT.INPUTTER)=8
+        BzMdpAcctDateTime(MDP.ACT.DATE.TIME)=9
+        BzMdpAcctAuthoriser(MDP.ACT.AUTHORISER)=10
+        BzMdpAcctCoCode(MDP.ACT.CO.CODE)=11
+        BzMdpAcctDeptCode(MDP.ACT.DEPT.CODE)=12
+        BzMdpAcctAuditorCode(MDP.ACT.AUDITOR.CODE)=13
+        BzMdpAcctAuditDateTime(MDP.ACT.AUDIT.DATE.TIME)=14
+    }
+}

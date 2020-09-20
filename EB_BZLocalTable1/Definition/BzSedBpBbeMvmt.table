@@ -1,0 +1,22 @@
+public table BzSedBpBbeMvmt {
+        t24:  BZ.SED.BP.BBE.MVMT
+        fields:{
+            BzSedBpBbeMvmtDescription(SED.BP.MVMT.DESCRIPTION)=1
+            BzSedBpBbeMvmtReserved1(SED.BP.MVMT.RESERVED1)=2
+            BzSedBpBbeMvmtReserved2(SED.BP.MVMT.RESERVED2)=3
+            BzSedBpBbeMvmtReserved3(SED.BP.MVMT.RESERVED3)=4
+            BzSedBpBbeMvmtReserved4(SED.BP.MVMT.RESERVED4)=5
+            BzSedBpBbeMvmtReserved5(SED.BP.MVMT.RESERVED5)=6
+            BzSedBpBbeMvmtLocalRef(SED.BP.MVMT.LOCAL.REF)=7
+            BzSedBpBbeMvmtOverride(SED.BP.MVMT.OVERRIDE)=8
+            BzSedBpBbeMvmtRecordStatus(SED.BP.MVMT.RECORD.STATUS)=9
+            BzSedBpBbeMvmtCurrNo(SED.BP.MVMT.CURR.NO)=10
+            BzSedBpBbeMvmtInputter(SED.BP.MVMT.INPUTTER)=11
+            BzSedBpBbeMvmtDateTime(SED.BP.MVMT.DATE.TIME)=12
+            BzSedBpBbeMvmtAuthoriser(SED.BP.MVMT.AUTHORISER)=13
+            BzSedBpBbeMvmtCoCode(SED.BP.MVMT.CO.CODE)=14
+            BzSedBpBbeMvmtDeptCode(SED.BP.MVMT.DEPT.CODE)=15
+            BzSedBpBbeMvmtAuditorCode(SED.BP.MVMT.AUDITOR.CODE)=16
+            BzSedBpBbeMvmtAuditDateTime(SED.BP.MVMT.AUDIT.DATE.TIME)=17
+        }
+    }

@@ -1,0 +1,60 @@
+public table CfonbLayout {
+t24:  CFONB.LAYOUT
+fields:{
+
+		CfonbLayoutDescription(CFB.LAY.DESCRIPTION) = 1       
+		CfonbLayoutRecordNature(CFB.LAY.RECORD.NATURE) = 2 
+        CfonbLayoutLinkedLayout(CFB.LAY.LINKED.LAYOUT) = 3       
+	    CfonbLayoutRecordLength(CFB.LAY.RECORD.LENGTH) = 4 
+        CfonbLayoutCntKeyStart(CFB.LAY.CNT.KEY.START) = 5      
+        CfonbLayoutCntKeyLength(CFB.LAY.CNT.KEY.LENGTH) = 6 
+        CfonbLayoutFieldNmae(CFB.LAY.FIELD.NAME) = 7         
+		CfonbLayoutFieldStart(CFB.LAY.FIELD.START) = 8
+        CfonbLayoutFieldLength(CFB.LAY.FIELD.LENGTH) = 9          
+	    CfonbLayoutFieldType(CFB.LAY.FIELD.TYPE) = 10
+        CfonbLayoutFtFieldName(CFB.LAY.FT.FIELD.NAME) = 11         
+	    CfonbLayoutFixedText(CFB.LAY.FIXED.TEXT) = 12 
+        CfonbLayoutValidationRtn(CFB.LAY.VALIDATION.RTN) = 13        
+	    CfonbLayoutDestination(CFB.LAY.DESTINATION) = 14
+        CfonbLayoutTransType(CFB.LAY.TRANS.TYPE) = 15       
+		CfonbLayoutCutOffTime(CFB.LAY.CUT.OFF.TIME) = 16    
+        CfonbLayoutCustomerSign(CFB.LAY.CUSTOMER.SIGN) = 17    
+	    CfonbLayoutCommissionCode(CFB.LAY.COMMISSION.CODE) = 18  
+        CfonbLayoutChargeCode(CFB.LAY.CHARGE.CODE) = 19       
+	    CfonbLayoutProcessType(CFB.LAY.PROCESS.TYPE) = 20
+        CfonbLayoutGlobalAccounting(CFB.LAY.GLOBAL.ACCOUNTING) = 21 
+        CfonbLayoutOneByOneProcess(CFB.LAY.ONE.BY.ONE.PROCESS) = 22
+        CfonbLayoutMultipleOccurence(CFB.LAY.MULTIPLE.OCCURENCE) = 23       
+        CfonbLayoutFtGenAppl(CFB.LAY.FT.GEN.APPL) = 24
+        CfonbLayoutCustAcctNo(CFB.LAY.CUST.ACCT.NO) = 25      
+	    CfonbLayoutFileIdStart(CFB.LAY.FILE.ID.START) = 26
+        CfonbLayoutFileIdLength(CFB.LAY.FILE.ID.LENGTH) = 27     
+	    CfonbLayoutAfterAuthRtn(CFB.LAY.AFTER.AUTH.RTN) = 28 
+        CfonbLayoutOtherSuffixes(CFB.LAY.OTHER.SUFFIXES) = 29 
+	    CfonbLayoutOnlyForCustomers(CFB.LAY.ONLY.FOR.CUSTOMERS) = 30
+        CfonbLayoutMappingKey(CFB.LAY.MAPPING.KEY) = 31 
+	    CfonbLayoutApplicationFormat(CFB.LAY.APPLICATION.FORMAT) = 32 
+        CfonbLayoutDeliveryRoutine(CFB.LAY.DELIVERY.ROUTINE) = 33     
+        CfonbLayoutCrossValRtn(CFB.LAY.CROSS.VAL.RTN) = 34 
+        CfonbLayoutAddPendingDays(CFB.LAY.ADD.PENDING.DAYS) = 35    
+        CfonbLayoutDestLayoutTab(CFB.LAY.DEST.LAYOUT.TAB) = 36
+        CfonbLayoutDestLayoutId(CFB.LAY.DEST.LAYOUT.ID) = 37        
+	    CfonbLayoutReserved5(CFB.LAY.RESERVED.5) = 38
+        CfonbLayoutReserved4(CFB.LAY.RESERVED.4) = 39       
+		CfonbLayoutReserved3(CFB.LAY.RESERVED.3) = 40 
+        CfonbLayoutReserved2(CFB.LAY.RESERVED.2) = 41       
+		CfonbLayoutReserved1(CFB.LAY.RESERVED.1) = 42
+        CfonbLayoutLocalRef(CFB.LAY.LOCAL.REF) = 43        
+		CfonbLayoutOverride(CFB.LAY.OVERRIDE) = 44
+        CfonbLayoutRecordStatus(CFB.LAY.RECORD.STATUS) = 45         
+	    CfonbLayoutCurrNo(CFB.LAY.CURR.NO) = 46 
+        CfonbLayoutInputter(CFB.LAY.INPUTTER) = 47        
+		CfonbLayoutDateTime(CFB.LAY.DATE.TIME) = 48
+        CfonbLayoutAuthoriser(CFB.LAY.AUTHORISER) = 49        
+		CfonbLayoutCoCode(CFB.LAY.CO.CODE) = 50
+        CfonbLayoutDeptCode(CFB.LAY.DEPT.CODE) = 51      
+		CfonbLayoutAuditiorCode(CFB.LAY.AUDITOR.CODE) = 52
+        CfonbLayoutAuditDateTime(CFB.LAY.AUDIT.DATE.TIME) = 53
+
+}
+}

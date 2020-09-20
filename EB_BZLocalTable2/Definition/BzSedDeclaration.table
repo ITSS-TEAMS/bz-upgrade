@@ -1,0 +1,27 @@
+public table BzSedDeclaration {
+    t24:  BZ.SED.DECLARATION
+    fields:{
+        BzSedDeclarationDescription(SED.DEC.DESCRIPTION)=1
+        BzSedDeclarationDomaine(SED.DEC.DOMAINE)=2
+        BzSedDeclarationReserved1(SED.DEC.RESERVED.1)=3
+        BzSedDeclarationReserved2(SED.DEC.RESERVED.2)=4
+        BzSedDeclarationReserved3(SED.DEC.RESERVED.3)=5
+        BzSedDeclarationReserved4(SED.DEC.RESERVED.4)=6
+        BzSedDeclarationReserved5(SED.DEC.RESERVED.5)=7
+        BzSedDeclarationReserved6(SED.DEC.RESERVED.6)=8
+        BzSedDeclarationReserved7(SED.DEC.RESERVED.7)=9
+        BzSedDeclarationReserved8(SED.DEC.RESERVED.8)=10
+        BzSedDeclarationReserved9(SED.DEC.RESERVED.9)=11
+        BzSedDeclarationReserved10(SED.DEC.RESERVED.10)=12
+        BzSedDeclarationOverride(SED.DEC.OVERRIDE)=13
+        BzSedDeclarationRecordStatus(SED.DEC.RECORD.STATUS)=14
+        BzSedDeclarationCurrNo(SED.DEC.CURR.NO)=15
+        BzSedDeclarationInputter(SED.DEC.INPUTTER)=16
+        BzSedDeclarationDateTime(SED.DEC.DATE.TIME)=17
+        BzSedDeclarationAuthoriser(SED.DEC.AUTHORISER)=18
+        BzSedDeclarationCoCode(SED.DEC.CO.CODE)=19
+        BzSedDeclarationDeptCode(SED.DEC.DEPT.CODE)=20
+        BzSedDeclarationAuditorCode(SED.DEC.AUDITOR.CODE)=21
+        BzSedDeclarationAuditDateTime(SED.DEC.AUDIT.DATE.TIME)=22
+    }
+}

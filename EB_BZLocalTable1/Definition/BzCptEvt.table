@@ -1,0 +1,24 @@
+public table BzCptEvt {
+    t24:  BZ.CPT.EVT
+    fields:{
+        BzCptEvtDescription(EVT.CPT.DESCRIPTION)=1
+        BzCptEvtCodeTransaction(EVT.CPT.CODE.TRANSACTION)=2
+        BzCptEvtDbCompte(EVT.CPT.DB.COMPTE)=3
+        BzCptEvtCrCompte(EVT.CPT.CR.COMPTE)=4
+        BzCptEvtStatut(EVT.CPT.STATUT)=5
+        BzCptEvtEcran(EVT.CPT.ECRAN)=6
+        BzCptEvtCommission(EVT.CPT.COMMISSION)=7
+        BzCptEvtCodeCommission(EVT.CPT.CODE.COMMISSION)=8
+        BzCptEvtCodeTxnAvis(EVT.CPT.CODE.TXN.AVIS)=9
+        BzCptEvtOverride(EVT.CPT.OVERRIDE)=10
+        BzCptEvtRecordStatus(EVT.CPT.RECORD.STATUS)=11
+        BzCptEvtCurrNo(EVT.CPT.CURR.NO)=12
+        BzCptEvtInputter(EVT.CPT.INPUTTER)=13
+        BzCptEvtDateTime(EVT.CPT.DATE.TIME)=14
+        BzCptEvtAuthoriser(EVT.CPT.AUTHORISER)=15
+        BzCptEvtCoCode(EVT.CPT.CO.CODE)=16
+        BzCptEvtDeptCode(EVT.CPT.DEPT.CODE)=17
+        BzCptEvtAuditorCode(EVT.CPT.AUDITOR.CODE)=18
+        BzCptEvtAuditDateTime(EVT.CPT.AUDIT.DATE.TIME)=19
+    }
+}

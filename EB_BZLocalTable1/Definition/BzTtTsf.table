@@ -1,0 +1,39 @@
+public table BzTtTsf {
+    t24:  BZ.TT.TSF
+    fields:{
+        BzTtTsfTypeTsf(TSF.TYPE.TSF)=1
+        BzTtTsfDateEnvoi(TSF.DATE.ENVOI)=2
+        BzTtTsfUniteEnvoi(TSF.UNITE.ENVOI)=3
+        BzTtTsfCaisseEmet(TSF.CAISSE.EMET)=4
+        BzTtTsfCaissierEmet(TSF.CAISSIER.EMET)=5
+        BzTtTsfUniteReceptrice(TSF.UNITE.RECEPTRICE)=6
+        BzTtTsfMontant(TSF.MONTANT)=7
+        BzTtTsfDevise(TSF.DEVISE)=8
+        BzTtTsfCaisseRcpt(TSF.CAISSE.RCPT)=9
+        BzTtTsfCaissierRcpt(TSF.CAISSIER.RCPT)=10
+        BzTtTsfDateRcpt(TSF.DATE.RCPT)=11
+        BzTtTsfStatut(TSF.STATUT)=12
+        BzTtTsfRefRcpt(TSF.REF.RCPT)=13
+        BzTtTsfNombre(TSF.NOMBRE)=14
+        BzTtTsfReserved1(TSF.RESERVED.1)=15
+        BzTtTsfReserved2(TSF.RESERVED.2)=16
+        BzTtTsfReserved3(TSF.RESERVED.3)=17
+        BzTtTsfReserved4(TSF.RESERVED.4)=18
+        BzTtTsfReserved5(TSF.RESERVED.5)=19
+        BzTtTsfReserved6(TSF.RESERVED.6)=20
+        BzTtTsfReserved7(TSF.RESERVED.7)=21
+        BzTtTsfReserved8(TSF.RESERVED.8)=22
+        BzTtTsfReserved9(TSF.RESERVED.9)=23
+        BzTtTsfReserved10(TSF.RESERVED.10)=24
+        BzTtTsfOverride(TSF.OVERRIDE)=25
+        BzTtTsfRecordStatus(TSF.RECORD.STATUS)=26
+        BzTtTsfCurrNo(TSF.CURR.NO)=27
+        BzTtTsfInputter(TSF.INPUTTER)=28
+        BzTtTsfDateTime(TSF.DATE.TIME)=29
+        BzTtTsfAuthoriser(TSF.AUTHORISER)=30
+        BzTtTsfCoCode(TSF.CO.CODE)=31
+        BzTtTsfDeptCode(TSF.DEPT.CODE)=32
+        BzTtTsfAuditorCode(TSF.AUDITOR.CODE)=33
+        BzTtTsfAuditDateTime(TSF.AUDIT.DATE.TIME)=34
+    }
+}

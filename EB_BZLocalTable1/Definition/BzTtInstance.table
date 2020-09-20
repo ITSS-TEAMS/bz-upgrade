@@ -1,0 +1,33 @@
+public table BzTtInstance {
+    t24:  BZ.TT.INSTANCE
+    fields:{
+        BzTtInstanceTypeInstance(INS.TT.TYPE.INSTANCE)=1
+        BzTtInstanceDateOperation(INS.TT.DATE.OPERATION)=2
+        BzTtInstanceUniteIns(INS.TT.UNITE.INS)=3
+        BzTtInstanceCaisseEmet(INS.TT.CAISSE.EMET)=4
+        BzTtInstanceCaissierEmet(INS.TT.CAISSIER.EMET)=5
+        BzTtInstanceUniteReceptrice(INS.TT.UNITE.RECEPTRICE)=6
+        BzTtInstanceCaisseReceptrice(INS.TT.CAISSE.RECEPTRICE)=7
+        BzTtInstanceCaissierRecepteur(INS.TT.CAISSIER.RECEPTEUR)=8
+        BzTtInstanceMontant(INS.TT.MONTANT)=9
+        BzTtInstanceDevise(INS.TT.DEVISE)=10
+        BzTtInstanceDateReception(INS.TT.DATE.RECEPTION)=11
+        BzTtInstanceCours(INS.TT.COURS)=12
+        BzTtInstanceRefAppur(INS.TT.REF.APPUR)=13
+        BzTtInstanceCompte1(INS.TT.COMPTE.1)=14
+        BzTtInstanceCompte2(INS.TT.COMPTE.2)=15
+        BzTtInstanceStatut(INS.TT.STATUT)=16
+        BzTtInstanceMontantLcy(INS.TT.MONTANT.LCY)=17
+        BzTtInstanceLocalRef(INS.TT.LOCAL.REF)=18
+        BzTtInstanceOverride(INS.TT.OVERRIDE)=19
+        BzTtInstanceRecordStatus(INS.TT.RECORD.STATUS)=20
+        BzTtInstanceCurrNo(INS.TT.CURR.NO)=21
+        BzTtInstanceInputter(INS.TT.INPUTTER)=22
+        BzTtInstanceDateTime(INS.TT.DATE.TIME)=23
+        BzTtInstanceAuthoriser(INS.TT.AUTHORISER)=24
+        BzTtInstanceCoCode(INS.TT.CO.CODE)=25
+        BzTtInstanceDeptCode(INS.TT.DEPT.CODE)=26
+        BzTtInstanceAuditorCode(INS.TT.AUDITOR.CODE)=27
+        BzTtInstanceAuditDateTime(INS.TT.AUDIT.DATE.TIME)=28
+    }
+}

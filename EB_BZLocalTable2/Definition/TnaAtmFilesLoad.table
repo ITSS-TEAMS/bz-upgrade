@@ -1,0 +1,26 @@
+public table TnaAtmFilesLoad {
+    t24:  TNA.ATM.FILES.LOAD
+    fields:{
+        TnaAtmFilesLoadDescription(CHG.DESCRIPTION)=1
+        TnaAtmFilesLoadDossier(CHG.DOSSIER)=2
+        TnaAtmFilesLoadFichiers(CHG.FICHIERS)=3
+        TnaAtmFilesLoadNiveauTraitement(CHG.NIVEAU.TRAITEMENT)=4
+        TnaAtmFilesLoadAction(CHG.ACTION)=5
+        TnaAtmFilesLoadFileTotalDb(CHG.FILE.TOTAL.DB)=6
+        TnaAtmFilesLoadFileTotalCr(CHG.FILE.TOTAL.CR)=7
+        TnaAtmFilesLoadFtTotalDb(CHG.FT.TOTAL.DB)=8
+        TnaAtmFilesLoadFtTotalCr(CHG.FT.TOTAL.CR)=9
+        TnaAtmFilesLoadLinesWithErrors(CHG.LINES.WITH.ERRORS)=10
+        TnaAtmFilesLoadLocalRef(CHG.LOCAL.REF)=11
+        TnaAtmFilesLoadOverride(CHG.OVERRIDE)=12
+        TnaAtmFilesLoadRecordStatus(CHG.RECORD.STATUS)=13
+        TnaAtmFilesLoadCurrNo(CHG.CURR.NO)=14
+        TnaAtmFilesLoadInputter(CHG.INPUTTER)=15
+        TnaAtmFilesLoadDateTime(CHG.DATE.TIME)=16
+        TnaAtmFilesLoadAuthoriser(CHG.AUTHORISER)=17
+        TnaAtmFilesLoadCoCode(CHG.CO.CODE)=18
+        TnaAtmFilesLoadDeptCode(CHG.DEPT.CODE)=19
+        TnaAtmFilesLoadAuditorCode(CHG.AUDITOR.CODE)=20
+        TnaAtmFilesLoadAuditDateTime(CHG.AUDIT.DATE.TIME)=21
+    }
+}

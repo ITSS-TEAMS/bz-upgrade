@@ -1,0 +1,17 @@
+public table BzCf {
+    t24:  BZ.CF
+    fields:{
+        BzCfCustomer(CF.CUSTOMER)=1
+        BzCfLocalRef(CF.LOCAL.REF)=2
+        BzCfOverride(CF.OVERRIDE)=3
+        BzCfRecordStatus(CF.RECORD.STATUS)=4
+        BzCfCurrNo(CF.CURR.NO)=5
+        BzCfInputter(CF.INPUTTER)=6
+        BzCfDateTime(CF.DATE.TIME)=7
+        BzCfAuthoriser(CF.AUTHORISER)=8
+        BzCfCoCode(CF.CO.CODE)=9
+        BzCfDeptCode(CF.DEPT.CODE)=10
+        BzCfAuditorCode(CF.AUDITOR.CODE)=11
+        BzCfAuditDateTime(CF.AUDIT.DATE.TIME)=12
+    }
+}

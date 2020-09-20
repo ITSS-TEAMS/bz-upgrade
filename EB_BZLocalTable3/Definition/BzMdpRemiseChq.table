@@ -1,0 +1,39 @@
+public table BzMdpRemiseChq {
+    t24:  BZ.MDP.REMISE.CHQ
+    fields:{
+        BzMdpRemiseChqNumRem(REM.CHQ.NUM.REM)=1
+        BzMdpRemiseChqIdClient(REM.CHQ.ID.CLIENT)=2
+        BzMdpRemiseChqCompteRem(REM.CHQ.COMPTE.REM)=3
+        BzMdpRemiseChqDeviseRem(REM.CHQ.DEVISE.REM)=4
+        BzMdpRemiseChqRibBenef(REM.CHQ.RIB.BENEF)=5
+        BzMdpRemiseChqNomBenef(REM.CHQ.NOM.BENEF)=6
+        BzMdpRemiseChqSituationBenef(REM.CHQ.SITUATION.BENEF)=7
+        BzMdpRemiseChqNatureCompte(REM.CHQ.NATURE.COMPTE)=8
+        BzMdpRemiseChqNbreGlobal(REM.CHQ.NBRE.GLOBAL)=9
+        BzMdpRemiseChqMntGlobal(REM.CHQ.MNT.GLOBAL)=10
+        BzMdpRemiseChqStatut(REM.CHQ.STATUT)=11
+        BzMdpRemiseChqDateRem(REM.CHQ.DATE.REM)=12
+        BzMdpRemiseChqDateCps(REM.CHQ.DATE.CPS)=13
+        BzMdpRemiseChqAgenceRem(REM.CHQ.AGENCE.REM)=14
+        BzMdpRemiseChqRefScan(REM.CHQ.REF.SCAN)=15
+        BzMdpRemiseChqRefFichier(REM.CHQ.REF.FICHIER)=16
+        BzMdpRemiseChqFtLiqRem(REM.CHQ.FT.LIQ.REM)=17
+        BzMdpRemiseChqRefTemp(REM.CHQ.REF.TEMP)=18
+        BzMdpRemiseChqFtCommRem(REM.CHQ.FT.COMM.REM)=19
+        BzMdpRemiseChqCodeVal(REM.CHQ.CODE.VAL)=20
+        BzMdpRemiseChqUser(REM.CHQ.USER)=21
+        BzMdpRemiseChqDao(REM.CHQ.DAO)=22
+        BzMdpRemiseChqMntTotalInt(REM.CHQ.MNT.TOTAL.INT)=23
+        BzMdpRemiseChqOverride(REM.CHQ.OVERRIDE)=24
+        BzMdpRemiseChqLocalRef(REM.CHQ.LOCAL.REF)=25
+        BzMdpRemiseChqRecordStatus(REM.CHQ.RECORD.STATUS)=26
+        BzMdpRemiseChqCurrNo(REM.CHQ.CURR.NO)=27
+        BzMdpRemiseChqInputter(REM.CHQ.INPUTTER)=28
+        BzMdpRemiseChqDateTime(REM.CHQ.DATE.TIME)=29
+        BzMdpRemiseChqAuthoriser(REM.CHQ.AUTHORISER)=30
+        BzMdpRemiseChqCoCode(REM.CHQ.CO.CODE)=31
+        BzMdpRemiseChqDeptCode(REM.CHQ.DEPT.CODE)=32
+        BzMdpRemiseChqAuditorCode(REM.CHQ.AUDITOR.CODE)=33
+        BzMdpRemiseChqAuditDateTime(REM.CHQ.AUDIT.DATE.TIME)=34
+    }
+}

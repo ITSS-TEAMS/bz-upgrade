@@ -1,0 +1,23 @@
+public table BzIsbFournisseur {
+    t24:  BZ.ISB.FOURNISSEUR
+    fields:{
+        BzIsbFournisseurMatFisc(BZ.ISB.FOURNISSEUR.MAT.FISC)=1
+        BzIsbFournisseurCinRegcom(BZ.ISB.FOURNISSEUR.CIN.REGCOM)=2
+        BzIsbFournisseurAdrFrs(BZ.ISB.FOURNISSEUR.ADR.FRS)=3
+        BzIsbFournisseurActivite(BZ.ISB.FOURNISSEUR.ACTIVITE)=4
+        BzIsbFournisseurRibFrs(BZ.ISB.FOURNISSEUR.RIB.FRS)=5
+        BzIsbFournisseurCustomer(BZ.ISB.FOURNISSEUR.CUSTOMER)=6
+        BzIsbFournisseurRaisonSociale(BZ.ISB.FOURNISSEUR.RAISON.SOCIALE)=7
+        BzIsbFournisseurDateValidite(BZ.ISB.FOURNISSEUR.DATE.VALIDITE)=8
+        BzIsbFournisseurOverride(BZ.ISB.FOURNISSEUR.OVERRIDE)=9
+        BzIsbFournisseurRecordStatus(BZ.ISB.FOURNISSEUR.RECORD.STATUS)=10
+        BzIsbFournisseurCurrNo(BZ.ISB.FOURNISSEUR.CURR.NO)=11
+        BzIsbFournisseurInputter(BZ.ISB.FOURNISSEUR.INPUTTER)=12
+        BzIsbFournisseurDateTime(BZ.ISB.FOURNISSEUR.DATE.TIME)=13
+        BzIsbFournisseurAuthoriser(BZ.ISB.FOURNISSEUR.AUTHORISER)=14
+        BzIsbFournisseurCoCode(BZ.ISB.FOURNISSEUR.CO.CODE)=15
+        BzIsbFournisseurDeptCode(BZ.ISB.FOURNISSEUR.DEPT.CODE)=16
+        BzIsbFournisseurAuditorCode(BZ.ISB.FOURNISSEUR.AUDITOR.CODE)=17
+        BzIsbFournisseurAuditDateTime(BZ.ISB.FOURNISSEUR.AUDIT.DATE.TIME)=18
+    }
+}

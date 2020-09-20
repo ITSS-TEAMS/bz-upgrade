@@ -1,0 +1,21 @@
+public table BzIdentif {
+    t24:  BZ.IDENTIF
+    fields:{
+        BzIdentifNatureClient(BZ.IDENTIF.NATURE.CLIENT)=1
+        BzIdentifIdType(BZ.IDENTIF.ID.TYPE)=2
+        BzIdentifDocId(BZ.IDENTIF.DOC.ID)=3
+        BzIdentifNationalite(BZ.IDENTIF.NATIONALITE)=4
+        BzIdentifResidence(BZ.IDENTIF.RESIDENCE)=5
+        BzIdentifLocalRef(BZ.IDENTIF.LOCAL.REF)=6
+        BzIdentifOverride(BZ.IDENTIF.OVERRIDE)=7
+        BzIdentifRecordStatus(BZ.IDENTIF.RECORD.STATUS)=8
+        BzIdentifCurrNo(BZ.IDENTIF.CURR.NO)=9
+        BzIdentifInputter(BZ.IDENTIF.INPUTTER)=10
+        BzIdentifDateTime(BZ.IDENTIF.DATE.TIME)=11
+        BzIdentifAuthoriser(BZ.IDENTIF.AUTHORISER)=12
+        BzIdentifCoCode(BZ.IDENTIF.CO.CODE)=13
+        BzIdentifDeptCode(BZ.IDENTIF.DEPT.CODE)=14
+        BzIdentifAuditorCode(BZ.IDENTIF.AUDITOR.CODE)=15
+        BzIdentifAuditDateTime(BZ.IDENTIF.AUDIT.DATE.TIME)=16
+    }
+}

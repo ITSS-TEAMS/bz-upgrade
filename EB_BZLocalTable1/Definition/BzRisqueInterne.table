@@ -1,0 +1,17 @@
+public table BzRisqueInterne {
+    t24:  BZ.RISQUE.INTERNE
+    fields:{
+        BzRisqueInterneDescription(BZ.RI.DESCRIPTION)=1
+        BzRisqueInterneLocalRef(BZ.RI.LOCAL.REF)=2
+        BzRisqueInterneOverride(BZ.RI.OVERRIDE)=3
+        BzRisqueInterneRecordStatus(BZ.RI.RECORD.STATUS)=4
+        BzRisqueInterneCurrNo(BZ.RI.CURR.NO)=5
+        BzRisqueInterneInputter(BZ.RI.INPUTTER)=6
+        BzRisqueInterneDateTime(BZ.RI.DATE.TIME)=7
+        BzRisqueInterneAuthoriser(BZ.RI.AUTHORISER)=8
+        BzRisqueInterneCoCode(BZ.RI.CO.CODE)=9
+        BzRisqueInterneDeptCode(BZ.RI.DEPT.CODE)=10
+        BzRisqueInterneAuditorCode(BZ.RI.AUDITOR.CODE)=11
+        BzRisqueInterneAuditDateTime(BZ.RI.AUDIT.DATE.TIME)=12
+    }
+}

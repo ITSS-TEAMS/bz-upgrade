@@ -1,0 +1,25 @@
+public table BzDeskCoursPeriod {
+    t24:  BZ.DESK.COURS.PERIOD
+    fields:{
+        BzDeskCoursPeriodDevise(DESK.CRS.PRD.DEVISE)=1
+        BzDeskCoursPeriodCoursReval(DESK.CRS.PRD.COURS.REVAL)=2
+        BzDeskCoursPeriodPeriode(DESK.CRS.PRD.PERIODE)=3
+        BzDeskCoursPeriodMois(DESK.CRS.PRD.MOIS)=4
+        BzDeskCoursPeriodAnnee(DESK.CRS.PRD.ANNEE)=5
+        BzDeskCoursPeriodReserved1(DESK.CRS.PRD.RESERVED.1)=6
+        BzDeskCoursPeriodReserved2(DESK.CRS.PRD.RESERVED.2)=7
+        BzDeskCoursPeriodReserved3(DESK.CRS.PRD.RESERVED.3)=8
+        BzDeskCoursPeriodReserved4(DESK.CRS.PRD.RESERVED.4)=9
+        BzDeskCoursPeriodReserved5(DESK.CRS.PRD.RESERVED.5)=10
+        BzDeskCoursPeriodOverride(DESK.CRS.PRD.OVERRIDE)=11
+        BzDeskCoursPeriodRecordStatus(DESK.CRS.PRD.RECORD.STATUS)=12
+        BzDeskCoursPeriodCurrNo(DESK.CRS.PRD.CURR.NO)=13
+        BzDeskCoursPeriodInputter(DESK.CRS.PRD.INPUTTER)=14
+        BzDeskCoursPeriodDateTime(DESK.CRS.PRD.DATE.TIME)=15
+        BzDeskCoursPeriodAuthoriser(DESK.CRS.PRD.AUTHORISER)=16
+        BzDeskCoursPeriodCoCode(DESK.CRS.PRD.CO.CODE)=17
+        BzDeskCoursPeriodDeptCode(DESK.CRS.PRD.DEPT.CODE)=18
+        BzDeskCoursPeriodAuditorCode(DESK.CRS.PRD.AUDITOR.CODE)=19
+        BzDeskCoursPeriodAuditDateTime(DESK.CRS.PRD.AUDIT.DATE.TIME)=20
+    }
+} 

@@ -1,0 +1,26 @@
+public table BzKycPep {
+    t24:  BZ.KYC.PEP
+    fields:{
+        BzKycPepDescription(BZ.KYC.DESCRIPTION)=1
+        BzKycPepReserved1(BZ.KYC.RESERVED1)=2
+        BzKycPepReserved2(BZ.KYC.RESERVED2)=3
+        BzKycPepReserved3(BZ.KYC.RESERVED3)=4
+        BzKycPepReserved4(BZ.KYC.RESERVED4)=5
+        BzKycPepReserved5(BZ.KYC.RESERVED5)=6
+        BzKycPepReserved6(BZ.KYC.RESERVED6)=7
+        BzKycPepReserved7(BZ.KYC.RESERVED7)=8
+        BzKycPepReserved8(BZ.KYC.RESERVED8)=9
+        BzKycPepReserved9(BZ.KYC.RESERVED9)=10
+        BzKycPepReserved10(BZ.KYC.RESERVED10)=11
+        BzKycPepOverride(BZ.KYC.OVERRIDE)=12
+        BzKycPepRecordStatus(BZ.KYC.RECORD.STATUS)=13
+        BzKycPepCurrNo(BZ.KYC.CURR.NO)=14
+        BzKycPepInputter(BZ.KYC.INPUTTER)=15
+        BzKycPepDateTime(BZ.KYC.DATE.TIME)=16
+        BzKycPepAuthoriser(BZ.KYC.AUTHORISER)=17
+        BzKycPepCoCode(BZ.KYC.CO.CODE)=18
+        BzKycPepDeptCode(BZ.KYC.DEPT.CODE)=19
+        BzKycPepAuditorCode(BZ.KYC.AUDITOR.CODE)=20
+        BzKycPepAuditDateTime(BZ.KYC.AUDIT.DATE.TIME)=21
+    }
+}

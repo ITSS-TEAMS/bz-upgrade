@@ -1,0 +1,25 @@
+public table BzSoldeMoyen {
+    t24:  BZ.SOLDE.MOYEN
+    fields:{
+        BzSoldeMoyenCompte(SOLDE.COMPTE)=1
+        BzSoldeMoyenDevise(SOLDE.DEVISE)=2
+        BzSoldeMoyenNbrJousMois(SOLDE.NBR.JOUS.MOIS)=3
+        BzSoldeMoyenNbrJoursDb(SOLDE.NBR.JOURS.DB)=4
+        BzSoldeMoyenSoldeDb(SOLDE.SOLDE.DB)=5
+        BzSoldeMoyenNbrJoursCr(SOLDE.NBR.JOURS.CR)=6
+        BzSoldeMoyenSoldeCr(SOLDE.SOLDE.CR)=7
+        BzSoldeMoyenSoldeMoyenDb(SOLDE.SOLDE.MOYEN.DB)=8
+        BzSoldeMoyenSoldeMoyenCr(SOLDE.SOLDE.MOYEN.CR)=9
+        BzSoldeMoyenLocalRef(SOLDE.LOCAL.REF)=10
+        BzSoldeMoyenOverride(SOLDE.OVERRIDE)=11
+        BzSoldeMoyenRecordStatus(SOLDE.RECORD.STATUS)=12
+        BzSoldeMoyenCurrNo(SOLDE.CURR.NO)=13
+        BzSoldeMoyenInputter(SOLDE.INPUTTER)=14
+        BzSoldeMoyenDateTime(SOLDE.DATE.TIME)=15
+        BzSoldeMoyenAuthoriser(SOLDE.AUTHORISER)=16
+        BzSoldeMoyenCoCode(SOLDE.CO.CODE)=17
+        BzSoldeMoyenDeptCode(SOLDE.DEPT.CODE)=18
+        BzSoldeMoyenAuditorCode(SOLDE.AUDITOR.CODE)=19
+        BzSoldeMoyenAuditDateTime(SOLDE.AUDIT.DATE.TIME)=20
+    }
+}

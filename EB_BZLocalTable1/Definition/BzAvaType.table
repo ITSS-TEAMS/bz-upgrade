@@ -1,0 +1,32 @@
+public table BzAvaType {
+    t24:  BZ.AVA.TYPE
+    fields:{
+        BzAvaTypeDescription(AVA.TYP.DESCRIPTION)=1
+        BzAvaTypePeriodeValidite(AVA.TYP.PERIODE.VALIDITE)=2
+        BzAvaTypeMintAmt(AVA.TYP.MINT.AMT)=3
+        BzAvaTypeLimitAmount(AVA.TYP.LIMIT.AMOUNT)=4
+        BzAvaTypeFlatAmt(AVA.TYP.FLAT.AMT)=5
+        BzAvaTypeTauxAmt(AVA.TYP.TAUX.AMT)=6
+        BzAvaTypePlafond(AVA.TYP.PLAFOND)=7
+        BzAvaTypeCodeNatOp(AVA.TYP.CODE.NAT.OP)=8
+        BzAvaTypeTauxFixe(AVA.TYP.TAUX.FIXE)=9
+        BzAvaTypeMontantFixe(AVA.TYP.MONTANT.FIXE)=10
+        BzAvaTypeTypeBct(AVA.TYP.TYPE.BCT)=11
+        BzAvaTypeReserved1(AVA.TYP.RESERVED1)=12
+        BzAvaTypeReserved2(AVA.TYP.RESERVED2)=13
+        BzAvaTypeReserved3(AVA.TYP.RESERVED3)=14
+        BzAvaTypeReserved4(AVA.TYP.RESERVED4)=15
+        BzAvaTypeReserved5(AVA.TYP.RESERVED5)=16
+        BzAvaTypeLocalRef(AVA.TYP.LOCAL.REF)=17
+        BzAvaTypeOverride(AVA.TYP.OVERRIDE)=18
+        BzAvaTypeRecordStatus(AVA.TYP.RECORD.STATUS)=19
+        BzAvaTypeCurrNo(AVA.TYP.CURR.NO)=20
+        BzAvaTypeInputter(AVA.TYP.INPUTTER)=21
+        BzAvaTypeDateTime(AVA.TYP.DATE.TIME)=22
+        BzAvaTypeAuthoriser(AVA.TYP.AUTHORISER)=23
+        BzAvaTypeCoCode(AVA.TYP.CO.CODE)=24
+        BzAvaTypeDeptCode(AVA.TYP.DEPT.CODE)=25
+        BzAvaTypeAuditorCode(AVA.TYP.AUDITOR.CODE)=26
+        BzAvaTypeAuditDateTime(AVA.TYP.AUDIT.DATE.TIME)=27
+    }
+}

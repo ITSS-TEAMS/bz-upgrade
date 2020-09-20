@@ -1,0 +1,21 @@
+public table BzDeskParameters {
+        t24:  BZ.DESK.PARAMETERS
+        fields:{
+            BzDeskParametersDevise(DESK.PARAM.DEVISE)=1
+            BzDeskParametersReserved1(DESK.PARAM.RESERVED.1)=2
+            BzDeskParametersReserved2(DESK.PARAM.RESERVED.2)=3
+            BzDeskParametersReserved3(DESK.PARAM.RESERVED.3)=4
+            BzDeskParametersReserved4(DESK.PARAM.RESERVED.4)=5
+            BzDeskParametersReserved5(DESK.PARAM.RESERVED.5)=6
+            BzDeskParametersOverride(DESK.PARAM.OVERRIDE)=7
+            BzDeskParametersRecordStatus(DESK.PARAM.RECORD.STATUS)=8
+            BzDeskParametersCurrNo(DESK.PARAM.CURR.NO)=9
+            BzDeskParametersInputter(DESK.PARAM.INPUTTER)=10
+            BzDeskParametersDateTime(DESK.PARAM.DATE.TIME)=11
+            BzDeskParametersAuthoriser(DESK.PARAM.AUTHORISER)=12
+            BzDeskParametersCoCode(DESK.PARAM.CO.CODE)=13
+            BzDeskParametersDeptCode(DESK.PARAM.DEPT.CODE)=14
+            BzDeskParametersAuditorCode(DESK.PARAM.AUDITOR.CODE)=15
+            BzDeskParametersAuditDateTime(DESK.PARAM.AUDIT.DATE.TIME)=16
+        }
+    }

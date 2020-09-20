@@ -1,0 +1,34 @@
+public table TnaCardProduct {
+    t24:  TNA.CARD.PRODUCT
+    fields:{
+        TnaCardProductWording(PRODUCT.WORDING)=1
+        TnaCardProductNetworkCode(PRODUCT.NETWORK.CODE)=2
+        TnaCardProductMnemonic(PRODUCT.MNEMONIC)=3
+        TnaCardProductProductType(PRODUCT.PRODUCT.TYPE)=4
+        TnaCardProductServiceCode(PRODUCT.SERVICE.CODE)=5
+        TnaCardProductLimitsIndex(PRODUCT.LIMITS.INDEX)=6
+        TnaCardProductDeliveryFlag(PRODUCT.DELIVERY.FLAG)=7
+        TnaCardProductValidityPeriod(PRODUCT.VALIDITY.PERIOD)=8
+        TnaCardProductProductionFlag(PRODUCT.PRODUCTION.FLAG)=9
+        TnaCardProductPrimFeesCode(PRODUCT.PRIM.FEES.CODE)=10
+        TnaCardProductSecFeesCode(PRODUCT.SEC.FEES.CODE)=11
+        TnaCardProductLanguage(PRODUCT.LANGUAGE)=12
+        TnaCardProductRenewalOption(PRODUCT.RENEWAL.OPTION)=13
+        TnaCardProductCardTypeCaf(PRODUCT.CARD.TYPE.CAF)=14
+        TnaCardProductNumTraite(PRODUCT.NUM.TRAITE)=15
+        TnaCardProductTypeCarte(PRODUCT.TYPE.CARTE)=16
+        TnaCardProductCategory(PRODUCT.CATEGORY)=17
+        TnaCardProductInternational(PRODUCT.INTERNATIONAL)=18
+        TnaCardProductLocalRef(PRODUCT.LOCAL.REF)=19
+        TnaCardProductOverride(PRODUCT.OVERRIDE)=20
+        TnaCardProductRecordStatus(PRODUCT.RECORD.STATUS)=21
+        TnaCardProductCurrNo(PRODUCT.CURR.NO)=22
+        TnaCardProductInputter(PRODUCT.INPUTTER)=23
+        TnaCardProductDateTime(PRODUCT.DATE.TIME)=24
+        TnaCardProductAuthoriser(PRODUCT.AUTHORISER)=25
+        TnaCardProductCoCode(PRODUCT.CO.CODE)=26
+        TnaCardProductDeptCode(PRODUCT.DEPT.CODE)=27
+        TnaCardProductAuditorCode(PRODUCT.AUDITOR.CODE)=28
+        TnaCardProductAuditDateTime(PRODUCT.AUDIT.DATE.TIME)=29
+    }
+}

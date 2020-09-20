@@ -1,0 +1,33 @@
+public table BzTakafulProduit {
+        t24:  BZ.TAKAFUL.PRODUIT
+        fields:{
+            BzTakafulProduitDescription(PRD.TAKAFUL.DESCRIPTION)=1
+            BzTakafulProduitCompte(PRD.TAKAFUL.COMPTE)=2
+            BzTakafulProduitTauxCom(PRD.TAKAFUL.TAUX.COM)=3
+            BzTakafulProduitTauxRs(PRD.TAKAFUL.TAUX.RS)=4
+            BzTakafulProduitCategoryCom(PRD.TAKAFUL.CATEGORY.COM)=5
+            BzTakafulProduitTauxTaxe(PRD.TAKAFUL.TAUX.TAXE)=6
+            BzTakafulProduitFrais(PRD.TAKAFUL.FRAIS)=7
+            BzTakafulProduitFondsAssocie(PRD.TAKAFUL.FONDS.ASSOCIE)=8
+            BzTakafulProduitReserved1(PRD.TAKAFUL.RESERVED1)=9
+            BzTakafulProduitReserved2(PRD.TAKAFUL.RESERVED2)=10
+            BzTakafulProduitReserved3(PRD.TAKAFUL.RESERVED3)=11
+            BzTakafulProduitReserved4(PRD.TAKAFUL.RESERVED4)=12
+            BzTakafulProduitReserved5(PRD.TAKAFUL.RESERVED5)=13
+            BzTakafulProduitReserved6(PRD.TAKAFUL.RESERVED6)=14
+            BzTakafulProduitReserved7(PRD.TAKAFUL.RESERVED7)=15
+            BzTakafulProduitReserved8(PRD.TAKAFUL.RESERVED8)=16
+            BzTakafulProduitReserved9(PRD.TAKAFUL.RESERVED9)=17
+            BzTakafulProduitReserved10(PRD.TAKAFUL.RESERVED10)=18
+            BzTakafulProduitOverride(PRD.TAKAFUL.OVERRIDE)=19
+            BzTakafulProduitRecordStatus(PRD.TAKAFUL.RECORD.STATUS)=20
+            BzTakafulProduitCurrNo(PRD.TAKAFUL.CURR.NO)=21
+            BzTakafulProduitInputter(PRD.TAKAFUL.INPUTTER)=22
+            BzTakafulProduitDateTime(PRD.TAKAFUL.DATE.TIME)=23
+            BzTakafulProduitAuthoriser(PRD.TAKAFUL.AUTHORISER)=24
+            BzTakafulProduitCoCode(PRD.TAKAFUL.CO.CODE)=25
+            BzTakafulProduitDeptCode(PRD.TAKAFUL.DEPT.CODE)=26
+            BzTakafulProduitAuditorCode(PRD.TAKAFUL.AUDITOR.CODE)=27
+            BzTakafulProduitAuditDateTime(PRD.TAKAFUL.AUDIT.DATE.TIME)=28
+        }
+    }

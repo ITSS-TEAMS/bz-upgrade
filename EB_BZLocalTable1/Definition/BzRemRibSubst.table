@@ -1,0 +1,18 @@
+public table BzRemRibSubst {
+    t24:  BZ.REM.RIB.SUBST
+    fields:{
+        BzRemRibSubstRibSubstitut(RIB.SUB.RIB.SUBSTITUT)=1
+        BzRemRibSubstDateProcess(RIB.SUB.DATE.PROCESS)=2
+        BzRemRibSubstLocalRef(RIB.SUB.LOCAL.REF)=3
+        BzRemRibSubstOverride(RIB.SUB.OVERRIDE)=4
+        BzRemRibSubstRecordStatus(RIB.SUB.RECORD.STATUS)=5
+        BzRemRibSubstCurrNo(RIB.SUB.CURR.NO)=6
+        BzRemRibSubstInputter(RIB.SUB.INPUTTER)=7
+        BzRemRibSubstDateTime(RIB.SUB.DATE.TIME)=8
+        BzRemRibSubstAuthoriser(RIB.SUB.AUTHORISER)=9
+        BzRemRibSubstCoCode(RIB.SUB.CO.CODE)=10
+        BzRemRibSubstDeptCode(RIB.SUB.DEPT.CODE)=11
+        BzRemRibSubstAuditorCode(RIB.SUB.AUDITOR.CODE)=12
+        BzRemRibSubstAuditDateTime(RIB.SUB.AUDIT.DATE.TIME)=13
+    }
+}

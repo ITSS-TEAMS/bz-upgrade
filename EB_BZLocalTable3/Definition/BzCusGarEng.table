@@ -1,0 +1,38 @@
+public table BzCusGarEng {
+    t24:  BZ.CUS.GAR.ENG
+    fields:{
+        BzCusGarEngCodeClient(BZ.CUS.GAR.ENG.CODE.CLIENT)=1
+        BzCusGarEngRefCollRigth(BZ.CUS.GAR.ENG.REF.COLL.RIGTH)=2
+        BzCusGarEngMntCollRt(BZ.CUS.GAR.ENG.MNT.COLL.RT)=3
+        BzCusGarEngDeviseCollRt(BZ.CUS.GAR.ENG.DEVISE.COLL.RT)=4
+        BzCusGarEngCvMntCollRt(BZ.CUS.GAR.ENG.CV.MNT.COLL.RT)=5
+        BzCusGarEngRefColl(BZ.CUS.GAR.ENG.REF.COLL)=6
+        BzCusGarEngCollType(BZ.CUS.GAR.ENG.COLL.TYPE)=7
+        BzCusGarEngCollCode(BZ.CUS.GAR.ENG.COLL.CODE)=8
+        BzCusGarEngMntColl(BZ.CUS.GAR.ENG.MNT.COLL)=9
+        BzCusGarEngDeviseColl(BZ.CUS.GAR.ENG.DEVISE.COLL)=10
+        BzCusGarEngNiveauEng(BZ.CUS.GAR.ENG.NIVEAU.ENG)=11
+        BzCusGarEngCvMntColl(BZ.CUS.GAR.ENG.CV.MNT.COLL)=12
+        BzCusGarEngLimit(BZ.CUS.GAR.ENG.LIMIT)=13
+        BzCusGarEngMntLimit(BZ.CUS.GAR.ENG.MNT.LIMIT)=14
+        BzCusGarEngDeviseLimit(BZ.CUS.GAR.ENG.DEVISE.LIMIT)=15
+        BzCusGarEngCvMntLimit(BZ.CUS.GAR.ENG.CV.MNT.LIMIT)=16
+        BzCusGarEngRefEng(BZ.CUS.GAR.ENG.REF.ENG)=17
+        BzCusGarEngMntEng(BZ.CUS.GAR.ENG.MNT.ENG)=18
+        BzCusGarEngDeviseEng(BZ.CUS.GAR.ENG.DEVISE.ENG)=19
+        BzCusGarEngTypeEng(BZ.CUS.GAR.ENG.TYPE.ENG)=20
+        BzCusGarEngOrdreEng(BZ.CUS.GAR.ENG.ORDRE.ENG)=21
+        BzCusGarEngCvMntEng(BZ.CUS.GAR.ENG.CV.MNT.ENG)=22
+        BzCusGarEngLocalRef(BZ.CUS.GAR.ENG.LOCAL.REF)=23
+        BzCusGarEngOverride(BZ.CUS.GAR.ENG.OVERRIDE)=24
+        BzCusGarEngRecordStatus(BZ.CUS.GAR.ENG.RECORD.STATUS)=25
+        BzCusGarEngCurrNo(BZ.CUS.GAR.ENG.CURR.NO)=26
+        BzCusGarEngInputter(BZ.CUS.GAR.ENG.INPUTTER)=27
+        BzCusGarEngDateTime(BZ.CUS.GAR.ENG.DATE.TIME)=28
+        BzCusGarEngAuthoriser(BZ.CUS.GAR.ENG.AUTHORISER)=29
+        BzCusGarEngCoCode(BZ.CUS.GAR.ENG.CO.CODE)=30
+        BzCusGarEngDeptCode(BZ.CUS.GAR.ENG.DEPT.CODE)=31
+        BzCusGarEngAuditorCode(BZ.CUS.GAR.ENG.AUDITOR.CODE)=32
+        BzCusGarEngAuditDateTime(BZ.CUS.GAR.ENG.AUDIT.DATE.TIME)=33
+    }
+}

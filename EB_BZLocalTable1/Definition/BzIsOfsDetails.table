@@ -1,0 +1,20 @@
+public table BzIsOfsDetails {
+    t24:  BZ.IS.OFS.DETAILS
+    fields:{
+        BzIsOfsDetailsRefOfs(BZ.IS.OFS.DETAILS.REF.OFS)=1
+        BzIsOfsDetailsStatut(BZ.IS.OFS.DETAILS.STATUT)=2
+        BzIsOfsDetailsRefTrans(BZ.IS.OFS.DETAILS.REF.TRANS)=3
+        BzIsOfsDetailsErreurMessage(BZ.IS.OFS.DETAILS.ERREUR.MESSAGE)=4
+        BzIsOfsDetailsOfsMessage(BZ.IS.OFS.DETAILS.OFS.MESSAGE)=5
+        BzIsOfsDetailsOverride(BZ.IS.OFS.DETAILS.OVERRIDE)=6
+        BzIsOfsDetailsRecordStatus(BZ.IS.OFS.DETAILS.RECORD.STATUS)=7
+        BzIsOfsDetailsCurrNo(BZ.IS.OFS.DETAILS.CURR.NO)=8 
+        BzIsOfsDetailsInputter(BZ.IS.OFS.DETAILS.INPUTTER)=9
+        BzIsOfsDetailsDateTime(BZ.IS.OFS.DETAILS.DATE.TIME)=10
+        BzIsOfsDetailsAuthoriser(BZ.IS.OFS.DETAILS.AUTHORISER)=11
+        BzIsOfsDetailsCoCode(BZ.IS.OFS.DETAILS.CO.CODE)=12
+        BzIsOfsDetailsDeptCode(BZ.IS.OFS.DETAILS.DEPT.CODE)=13
+        BzIsOfsDetailsAuditorCode(BZ.IS.OFS.DETAILS.AUDITOR.CODE)=14
+        BzIsOfsDetailsAuditDateTime(BZ.IS.OFS.DETAILS.AUDIT.DATE.TIME)=15
+    }
+} 

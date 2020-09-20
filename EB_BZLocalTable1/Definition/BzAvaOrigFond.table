@@ -1,0 +1,23 @@
+public table BzAvaOrigFond {
+    t24:  BZ.AVA.ORIG.FOND
+    fields:{
+        BzAvaOrigFondDescription(ORI.FON.DESCRIPTION)=1
+        BzAvaOrigFondSens(ORI.FON.SENS)=2
+        BzAvaOrigFondReserved1(ORI.FON.RESERVED1)=3
+        BzAvaOrigFondReserved2(ORI.FON.RESERVED2)=4
+        BzAvaOrigFondReserved3(ORI.FON.RESERVED3)=5
+        BzAvaOrigFondReserved4(ORI.FON.RESERVED4)=6
+        BzAvaOrigFondReserved5(ORI.FON.RESERVED5)=7
+        BzAvaOrigFondLocalRef(ORI.FON.LOCAL.REF)=8
+        BzAvaOrigFondOverride(ORI.FON.OVERRIDE)=9
+        BzAvaOrigFondRecordStatus(ORI.FON.RECORD.STATUS)=10
+        BzAvaOrigFondCurrNo(ORI.FON.CURR.NO)=11
+        BzAvaOrigFondInputter(ORI.FON.INPUTTER)=12
+        BzAvaOrigFondDateTime(ORI.FON.DATE.TIME)=13
+        BzAvaOrigFondAuthoriser(ORI.FON.AUTHORISER)=14
+        BzAvaOrigFondCoCode(ORI.FON.CO.CODE)=15
+        BzAvaOrigFondDeptCode(ORI.FON.DEPT.CODE)=16
+        BzAvaOrigFondAuditorCode(ORI.FON.AUDITOR.CODE)=17
+        BzAvaOrigFondAuditDateTime(ORI.FON.AUDIT.DATE.TIME)=18
+    }
+}  

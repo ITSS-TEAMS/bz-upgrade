@@ -1,0 +1,44 @@
+public table BzSibtelPapCompEdit {
+    t24:  BZ.SIBTEL.PAP.COMP.EDIT
+    fields:{
+        BzSibtelPapCompEditSens(COM.PAP.SENS)=1
+        BzSibtelPapCompEditCodeValeur(COM.PAP.CODE.VALEUR)=2
+        BzSibtelPapCompEditNatureRemettant(COM.PAP.NATURE.REMETTANT)=3
+        BzSibtelPapCompEditCodeRemettant(COM.PAP.CODE.REMETTANT)=4
+        BzSibtelPapCompEditCodeCentreReg(COM.PAP.CODE.CENTRE.REG)=5
+        BzSibtelPapCompEditDateOperation(COM.PAP.DATE.OPERATION)=6
+        BzSibtelPapCompEditNumLot(COM.PAP.NUM.LOT)=7
+        BzSibtelPapCompEditCodeEnreg(COM.PAP.CODE.ENREG)=8
+        BzSibtelPapCompEditCodeDevise(COM.PAP.CODE.DEVISE)=9
+        BzSibtelPapCompEditRang(COM.PAP.RANG)=10
+        BzSibtelPapCompEditNumCheque(COM.PAP.NUM.CHEQUE)=11
+        BzSibtelPapCompEditRibTireur(COM.PAP.RIB.TIREUR)=12
+        BzSibtelPapCompEditDateEtabPap(COM.PAP.DATE.ETAB.PAP)=13
+        BzSibtelPapCompEditNumPap(COM.PAP.NUM.PAP)=14
+        BzSibtelPapCompEditNatPersonne(COM.PAP.NAT.PERSONNE)=15
+        BzSibtelPapCompEditType(COM.PAP.TYPE)=16
+        BzSibtelPapCompEditLegalId(COM.PAP.LEGAL.ID)=17
+        BzSibtelPapCompEditNomRs(COM.PAP.NOM.RS)=18
+        BzSibtelPapCompEditIdentifRcs(COM.PAP.IDENTIF.RCS)=19
+        BzSibtelPapCompEditNumero(COM.PAP.NUMERO)=20
+        BzSibtelPapCompEditNomRueAvenue(COM.PAP.NOM.RUE.AVENUE)=21
+        BzSibtelPapCompEditNumBp(COM.PAP.NUM.BP)=22
+        BzSibtelPapCompEditCodePostal(COM.PAP.CODE.POSTAL)=23
+        BzSibtelPapCompEditQualite(COM.PAP.QUALITE)=24
+        BzSibtelPapCompEditReserved1(COM.PAP.RESERVED1)=25
+        BzSibtelPapCompEditReserved2(COM.PAP.RESERVED2)=26
+        BzSibtelPapCompEditReserved3(COM.PAP.RESERVED3)=27
+        BzSibtelPapCompEditReserved4(COM.PAP.RESERVED4)=28
+        BzSibtelPapCompEditReserved5(COM.PAP.RESERVED5)=29
+        BzSibtelPapCompEditOverride(COM.PAP.OVERRIDE)=30
+        BzSibtelPapCompEditRecordStatus(COM.PAP.RECORD.STATUS)=31
+        BzSibtelPapCompEditCurrNo(COM.PAP.CURR.NO)=32
+        BzSibtelPapCompEditInputter(COM.PAP.INPUTTER)=33
+        BzSibtelPapCompEditDateTime(COM.PAP.DATE.TIME)=34
+        BzSibtelPapCompEditAuthoriser(COM.PAP.AUTHORISER)=35
+        BzSibtelPapCompEditCoCode(COM.PAP.CO.CODE)=36
+        BzSibtelPapCompEditDeptCode(COM.PAP.DEPT.CODE)=37
+        BzSibtelPapCompEditAuditorCode(COM.PAP.AUDITOR.CODE)=38
+        BzSibtelPapCompEditAuditDateTime(COM.PAP.AUDIT.DATE.TIME)=39
+    }
+}

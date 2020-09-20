@@ -1,0 +1,22 @@
+public table BzSoldeMoyenContract {
+    t24:  BZ.SOLDE.MOYEN.CONTRACT
+    fields:{
+        BzSoldeMoyenContractContrat(SOLDE.CONTRAT.CONTRAT)=1
+        BzSoldeMoyenContractDevise(SOLDE.CONTRAT.DEVISE)=2
+        BzSoldeMoyenContractNbrJousMois(SOLDE.CONTRAT.NBR.JOUS.MOIS)=3
+        BzSoldeMoyenContractNbrJours(SOLDE.CONTRAT.NBR.JOURS)=4
+        BzSoldeMoyenContractSolde(SOLDE.CONTRAT.SOLDE)=5
+        BzSoldeMoyenContractSoldeMoyen(SOLDE.CONTRAT.SOLDE.MOYEN)=6
+        BzSoldeMoyenContractLocalRef(SOLDE.CONTRAT.LOCAL.REF)=7
+        BzSoldeMoyenContractOverride(SOLDE.CONTRAT.OVERRIDE)=8
+        BzSoldeMoyenContractRecordStatus(SOLDE.CONTRAT.RECORD.STATUS)=9
+        BzSoldeMoyenContractCurrNo(SOLDE.CONTRAT.CURR.NO)=10
+        BzSoldeMoyenContractInputter(SOLDE.CONTRAT.INPUTTER)=11
+        BzSoldeMoyenContractDateTime(SOLDE.CONTRAT.DATE.TIME)=12
+        BzSoldeMoyenContractAuthoriser(SOLDE.CONTRAT.AUTHORISER)=13
+        BzSoldeMoyenContractCoCode(SOLDE.CONTRAT.CO.CODE)=14
+        BzSoldeMoyenContractDeptCode(SOLDE.CONTRAT.DEPT.CODE)=15
+        BzSoldeMoyenContractAuditorCode(SOLDE.CONTRAT.AUDITOR.CODE)=16
+        BzSoldeMoyenContractAuditDateTime(SOLDE.CONTRAT.AUDIT.DATE.TIME)=17
+    }
+}

@@ -1,0 +1,18 @@
+public table BzControlUnicite {
+    t24:  BZ.CONTROL.UNICITE
+    fields:{
+        BzControlUniciteDate(CU.DATE)=1
+        BzControlUniciteStatut(CU.STATUT)=2
+        BzControlUniciteClient(CU.CLIENT)=3
+        BzControlUniciteOverride(CU.OVERRIDE)=4
+        BzControlUniciteRecordStatus(CU.RECORD.STATUS)=5
+        BzControlUniciteCurrNo(CU.CURR.NO)=6
+        BzControlUniciteInputter(CU.INPUTTER)=7
+        BzControlUniciteDateTime(CU.DATE.TIME)=8
+        BzControlUniciteAuthoriser(CU.AUTHORISER)=9
+        BzControlUniciteCoCode(CU.CO.CODE)=10
+        BzControlUniciteDeptCode(CU.DEPT.CODE)=11
+        BzControlUniciteAuditorCode(CU.AUDITOR.CODE)=12
+        BzControlUniciteAuditDateTime(CU.AUDIT.DATE.TIME)=13
+    }
+}

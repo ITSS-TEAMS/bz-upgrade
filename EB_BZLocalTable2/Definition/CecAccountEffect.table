@@ -1,0 +1,8 @@
+public table CecAccountEffect {
+t24:  CEC.ACCOUNT.EFFECT
+fields:{
+
+CecAccountEffectEffect(CEC.ACE.EFFECT)=1
+
+}
+}

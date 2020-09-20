@@ -1,0 +1,25 @@
+public table BzMdpBonAPayerEmis {
+    t24:  BZ.MDP.BON.A.PAYER.EMIS
+    fields:{
+        BzMdpBonAPayerEmisNumCompte(BAP.NUM.COMPTE)=1
+        BzMdpBonAPayerEmisDateEcheance(BAP.DATE.ECHEANCE)=2
+        BzMdpBonAPayerEmisMontant(BAP.MONTANT)=3
+        BzMdpBonAPayerEmisBanqueBenef(BAP.BANQUE.BENEF)=4
+        BzMdpBonAPayerEmisNomBenef(BAP.NOM.BENEF)=5
+        BzMdpBonAPayerEmisDateRejet(BAP.DATE.REJET)=6
+        BzMdpBonAPayerEmisDateCreation(BAP.DATE.CREATION)=7
+        BzMdpBonAPayerEmisStatut(BAP.STATUT)=8
+        BzMdpBonAPayerEmisDateApurement(BAP.DATE.APUREMENT)=9
+        BzMdpBonAPayerEmisCptInterne(BAP.CPT.INTERNE)=10
+        BzMdpBonAPayerEmisOverride(BAP.OVERRIDE)=11
+        BzMdpBonAPayerEmisRecordStatus(BAP.RECORD.STATUS)=12
+        BzMdpBonAPayerEmisCurrNo(BAP.CURR.NO)=13
+        BzMdpBonAPayerEmisInputter(BAP.INPUTTER)=14
+        BzMdpBonAPayerEmisDateTime(BAP.DATE.TIME)=15 
+        BzMdpBonAPayerEmisAuthoriser(BAP.AUTHORISER)=16
+        BzMdpBonAPayerEmisCoCode(BAP.CO.CODE)=17
+        BzMdpBonAPayerEmisDeptCode(BAP.DEPT.CODE)=18
+        BzMdpBonAPayerEmisAuditorCode(BAP.AUDITOR.CODE)=19
+        BzMdpBonAPayerEmisAuditDateTime(BAP.AUDIT.DATE.TIME)=20
+    }
+}

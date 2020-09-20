@@ -1,0 +1,22 @@
+public table BzTunepsPassation {
+    t24:  BZ.TUNEPS.PASSATION
+    fields:{
+        BzTunepsPassationCode(TUNEPS.PASSA.CODE)=1
+        BzTunepsPassationDescription(TUNEPS.PASSA.DESCRIPTION)=2
+        BzTunepsPassationReserved1(TUNEPS.PASSA.RESERVED.1)=3
+        BzTunepsPassationReserved2(TUNEPS.PASSA.RESERVED.2)=4
+        BzTunepsPassationReserved3(TUNEPS.PASSA.RESERVED.3)=5
+        BzTunepsPassationReserved4(TUNEPS.PASSA.RESERVED.4)=6
+        BzTunepsPassationReserved5(TUNEPS.PASSA.RESERVED.5)=7
+        BzTunepsPassationOverride(TUNEPS.PASSA.OVERRIDE)=8
+        BzTunepsPassationRecordStatus(TUNEPS.PASSA.RECORD.STATUS)=9
+        BzTunepsPassationCurrNo(TUNEPS.PASSA.CURR.NO)=10
+        BzTunepsPassationInputter(TUNEPS.PASSA.INPUTTER)=11
+        BzTunepsPassationDateTime(TUNEPS.PASSA.DATE.TIME)=12
+        BzTunepsPassationAuthoriser(TUNEPS.PASSA.AUTHORISER)=13
+        BzTunepsPassationCoCode(TUNEPS.PASSA.CO.CODE)=14
+        BzTunepsPassationDeptCode(TUNEPS.PASSA.DEPT.CODE)=15
+        BzTunepsPassationAuditorCode(TUNEPS.PASSA.AUDITOR.CODE)=16
+        BzTunepsPassationAuditDateTime(TUNEPS.PASSA.AUDIT.DATE.TIME)=17
+    }
+}

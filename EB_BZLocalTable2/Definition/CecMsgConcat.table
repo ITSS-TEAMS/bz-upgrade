@@ -1,0 +1,9 @@
+public table CecMsgConcat {
+t24:  CEC.MSG.CONCAT
+fields:{
+
+CecMsgConcatFileId(CEC.TXNC.FILE.ID)=1
+CecMsgConcatMultiValue(CEC.TXNC.MULTI.VALUE)=2
+
+}
+}

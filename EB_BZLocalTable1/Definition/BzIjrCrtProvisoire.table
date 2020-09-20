@@ -1,0 +1,30 @@
+public table BzIjrCrtProvisoire {
+    t24:  BZ.IJR.CRT.PROVISOIRE
+    fields:{
+        BzIjrCrtProvisoireClient(IJR.CLIENT)=1
+        BzIjrCrtProvisoireProduit(IJR.PRODUIT)=2
+        BzIjrCrtProvisoireMontantBien(IJR.MONTANT.BIEN)=3
+        BzIjrCrtProvisoireMontantAcompte(IJR.MONTANT.ACOMPTE)=4
+        BzIjrCrtProvisoireMontantFin(IJR.MONTANT.FIN)=5
+        BzIjrCrtProvisoireDateValeur(IJR.DATE.VALEUR)=6
+        BzIjrCrtProvisoireDateEcheance(IJR.DATE.ECHEANCE)=7
+        BzIjrCrtProvisoirePeriodeGrace(IJR.PERIODE.GRACE)=8
+        BzIjrCrtProvisoireMarge(IJR.MARGE)=9
+        BzIjrCrtProvisoireTaux(IJR.TAUX)=10 
+        BzIjrCrtProvisoireSuspTvaClient(IJR.SUSP.TVA.CLIENT)=11
+        BzIjrCrtProvisoireSuspTvaContrat(IJR.SUSP.TVA.CONTRAT)=12
+        BzIjrCrtProvisoirePeriodicite(IJR.PERIODICITE)=13
+        BzIjrCrtProvisoireRefLd(IJR.REF.LD)=14
+        BzIjrCrtProvisoireNbrMois(IJR.NBR.MOIS)=15
+        BzIjrCrtProvisoirePrimeTakaful(IJR.PRIME.TAKAFUL)=16
+        BzIjrCrtProvisoireRecordStatus(IJR.RECORD.STATUS)=17
+        BzIjrCrtProvisoireCurrNo(IJR.CURR.NO)=18
+        BzIjrCrtProvisoireInputter(IJR.INPUTTER)=19
+        BzIjrCrtProvisoireDateTime(IJR.DATE.TIME)=20
+        BzIjrCrtProvisoireAuthoriser(IJR.AUTHORISER)=21
+        BzIjrCrtProvisoireCoCode(IJR.CO.CODE)=22
+        BzIjrCrtProvisoireDeptCode(IJR.DEPT.CODE)=23
+        BzIjrCrtProvisoireAuditorCode(IJR.AUDITOR.CODE)=24
+        BzIjrCrtProvisoireAuditDateTime(IJR.AUDIT.DATE.TIME)=25
+    }
+}

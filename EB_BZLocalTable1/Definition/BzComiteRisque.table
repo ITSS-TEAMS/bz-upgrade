@@ -1,0 +1,22 @@
+public table BzComiteRisque {
+    t24:  BZ.COMITE.RISQUE
+    fields:{
+        BzComiteRisqueAncienClsRisq(BZ.CR.ANCIEN.CLS.RISQ)=1
+        BzComiteRisqueNouvClsRisq(BZ.CR.NOUV.CLS.RISQ)=2
+        BzComiteRisqueDateModif(BZ.CR.DATE.MODIF)=3
+        BzComiteRisqueMotifModif(BZ.CR.MOTIF.MODIF)=4
+        BzComiteRisqueDateComite(BZ.CR.DATE.COMITE)=5
+        BzComiteRisqueModifiePar(BZ.CR.MODIFIE.PAR)=6
+        BzComiteRisqueLocalRef(BZ.CR.LOCAL.REF)=7
+        BzComiteRisqueOverride(BZ.CR.OVERRIDE)=8
+        BzComiteRisqueRecordStatus(BZ.CR.RECORD.STATUS)=9
+        BzComiteRisqueCurrNo(BZ.CR.CURR.NO)=10
+        BzComiteRisqueInputter(BZ.CR.INPUTTER)=11
+        BzComiteRisqueDateTime(BZ.CR.DATE.TIME)=12
+        BzComiteRisqueAuthoriser(BZ.CR.AUTHORISER)=13
+        BzComiteRisqueCoCode(BZ.CR.CO.CODE)=14
+        BzComiteRisqueDeptCode(BZ.CR.DEPT.CODE)=15
+        BzComiteRisqueAuditorCode(BZ.CR.AUDITOR.CODE)=16
+        BzComiteRisqueAuditDateTime(BZ.CR.AUDIT.DATE.TIME)=17
+    }
+}

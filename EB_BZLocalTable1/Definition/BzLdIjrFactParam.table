@@ -1,0 +1,32 @@
+public table BzLdIjrFactParam {
+    t24:  BZ.LD.IJR.FACT.PARAM
+    fields:{
+        BzLdIjrFactParamVatChrgCode(BZ.IJRF.P.VAT.CHRG.CODE)=1
+        BzLdIjrFactParamMatChrgCode(BZ.IJRF.P.MAT.CHRG.CODE)=2
+        BzLdIjrFactParamMatVatChrgCode(BZ.IJRF.P.MAT.VAT.CHRG.CODE)=3
+        BzLdIjrFactParamStampChrgCode(BZ.IJRF.P.STAMP.CHRG.CODE)=4
+        BzLdIjrFactParamCarrChrgCode(BZ.IJRF.P.CARR.CHRG.CODE)=5
+        BzLdIjrFactParamTakafulChrgCode(BZ.IJRF.P.TAKAFUL.CHRG.CODE)=6
+        BzLdIjrFactParamLocalRef(BZ.IJRF.P.LOCAL.REF)=7
+        BzLdIjrFactParamReserved10(BZ.IJRF.P.RESERVED10)=8
+        BzLdIjrFactParamReserved09(BZ.IJRF.P.RESERVED09)=9
+        BzLdIjrFactParamReserved08(BZ.IJRF.P.RESERVED08)=10
+        BzLdIjrFactParamReserved07(BZ.IJRF.P.RESERVED07)=11
+        BzLdIjrFactParamReserved06(BZ.IJRF.P.RESERVED06)=12
+        BzLdIjrFactParamReserved05(BZ.IJRF.P.RESERVED05)=13
+        BzLdIjrFactParamReserved04(BZ.IJRF.P.RESERVED04)=14
+        BzLdIjrFactParamReserved03(BZ.IJRF.P.RESERVED03)=15
+        BzLdIjrFactParamReserved02(BZ.IJRF.P.RESERVED02)=16
+        BzLdIjrFactParamReserved01(BZ.IJRF.P.RESERVED01)=17
+        BzLdIjrFactParamOverride(BZ.IJRF.P.OVERRIDE)=18
+        BzLdIjrFactParamRecordStatus(BZ.IJRF.P.RECORD.STATUS)=19
+        BzLdIjrFactParamCurrNo(BZ.IJRF.P.CURR.NO)=20
+        BzLdIjrFactParamInputter(BZ.IJRF.P.INPUTTER)=21
+        BzLdIjrFactParamDateTime(BZ.IJRF.P.DATE.TIME)=22
+        BzLdIjrFactParamAuthoriser(BZ.IJRF.P.AUTHORISER)=23
+        BzLdIjrFactParamCoCode(BZ.IJRF.P.CO.CODE)=24
+        BzLdIjrFactParamDeptCode(BZ.IJRF.P.DEPT.CODE)=25
+        BzLdIjrFactParamAuditorCode(BZ.IJRF.P.AUDITOR.CODE)=26
+        BzLdIjrFactParamAuditDateTime(BZ.IJRF.P.AUDIT.DATE.TIME)=27
+    }
+}

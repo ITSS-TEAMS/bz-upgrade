@@ -1,0 +1,18 @@
+public table BzSgmtBankCode {
+    t24:  BZ.SGMT.BANK.CODE
+    fields:{
+        BzSgmtBankCodeBic(SGMT.BK.BIC)=1
+        BzSgmtBankCodeRibCode(SGMT.BK.RIB.CODE)=2
+        BzSgmtBankCodeLocalRef(SGMT.BK.LOCAL.REF)=3
+        BzSgmtBankCodeOverride(SGMT.BK.OVERRIDE)=4
+        BzSgmtBankCodeRecordStatus(SGMT.BK.RECORD.STATUS)=5
+        BzSgmtBankCodeCurrNo(SGMT.BK.CURR.NO)=6
+        BzSgmtBankCodeInputter(SGMT.BK.INPUTTER)=7
+        BzSgmtBankCodeDateTime(SGMT.BK.DATE.TIME)=8
+        BzSgmtBankCodeAuthoriser(SGMT.BK.AUTHORISER)=9
+        BzSgmtBankCodeCoCode(SGMT.BK.CO.CODE)=10
+        BzSgmtBankCodeDeptCode(SGMT.BK.DEPT.CODE)=11
+        BzSgmtBankCodeAuditorCode(SGMT.BK.AUDITOR.CODE)=12
+        BzSgmtBankCodeAuditDateTime(SGMT.BK.AUDIT.DATE.TIME)=13
+    }
+}

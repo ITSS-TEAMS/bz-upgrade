@@ -1,0 +1,28 @@
+public table BzPaieRegistreAut {
+    t24:  BZ.PAIE.REGISTRE.AUT
+    fields:{
+        BzPaieRegistreAutAgence(PAIECHG.AGENCE)=1
+        BzPaieRegistreAutNumCompte(PAIECHG.NUM.COMPTE)=2
+        BzPaieRegistreAutMontant(PAIECHG.MONTANT)=3
+        BzPaieRegistreAutSens(PAIECHG.SENS)=4
+        BzPaieRegistreAutReference(PAIECHG.REFERENCE)=5
+        BzPaieRegistreAutRefFichier(PAIECHG.REF.FICHIER)=6
+        BzPaieRegistreAutStatut(PAIECHG.STATUT)=7
+        BzPaieRegistreAutDateChargement(PAIECHG.DATE.CHARGEMENT)=8
+        BzPaieRegistreAutReserved1(PAIECHG.RESERVED1)=9
+        BzPaieRegistreAutReserved2(PAIECHG.RESERVED2)=10
+        BzPaieRegistreAutReserved3(PAIECHG.RESERVED3)=11
+        BzPaieRegistreAutReserved4(PAIECHG.RESERVED4)=12
+        BzPaieRegistreAutReserved5(PAIECHG.RESERVED5)=13
+        BzPaieRegistreAutOverride(PAIECHG.OVERRIDE)=14
+        BzPaieRegistreAutRecordStatus(PAIECHG.RECORD.STATUS)=15
+        BzPaieRegistreAutCurrNo(PAIECHG.CURR.NO)=16
+        BzPaieRegistreAutInputter(PAIECHG.INPUTTER)=17
+        BzPaieRegistreAutDateTime(PAIECHG.DATE.TIME)=18
+        BzPaieRegistreAutAuthoriser(PAIECHG.AUTHORISER)=19
+        BzPaieRegistreAutCoCode(PAIECHG.CO.CODE)=20
+        BzPaieRegistreAutDeptCode(PAIECHG.DEPT.CODE)=21
+        BzPaieRegistreAutAuditorCode(PAIECHG.AUDITOR.CODE)=22
+        BzPaieRegistreAutAuditDateTime(PAIECHG.AUDIT.DATE.TIME)=23
+    }
+}

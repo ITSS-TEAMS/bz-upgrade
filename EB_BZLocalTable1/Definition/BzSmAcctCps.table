@@ -1,0 +1,18 @@
+public table BzSmAcctCps {
+    t24:  BZ.SM.ACCT.CPS
+    fields:{
+        BzSmAcctCpsCommentaire(NET.SM.COMMENTAIRE)=1
+        BzSmAcctCpsLocalRef(NET.SM.LOCAL.REF)=2
+        BzSmAcctCpsStmtNos(NET.SM.STMT.NOS)=3
+        BzSmAcctCpsOverride(NET.SM.OVERRIDE)=4
+        BzSmAcctCpsRecordStatus(NET.SM.RECORD.STATUS)=5
+        BzSmAcctCpsCurrNo(NET.SM.CURR.NO)=6
+        BzSmAcctCpsInputter(NET.SM.INPUTTER)=7
+        BzSmAcctCpsDateTime(NET.SM.DATE.TIME)=8
+        BzSmAcctCpsAuthoriser(NET.SM.AUTHORISER)=9
+        BzSmAcctCpsCoCode(NET.SM.CO.CODE)=10
+        BzSmAcctCpsDeptCode(NET.SM.DEPT.CODE)=11
+        BzSmAcctCpsAuditorCode(NET.SM.AUDITOR.CODE)=12
+        BzSmAcctCpsAuditDateTime(NET.SM.AUDIT.DATE.TIME)=13
+    }
+}

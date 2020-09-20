@@ -1,0 +1,21 @@
+public table TnaCardDeclAssurance {
+    t24:  TNA.CARD.DECL.ASSURANCE
+    fields:{
+        TnaCardDeclAssuranceClient(CARD.CLIENT)=1
+        TnaCardDeclAssuranceTypeProduit(CARD.TYPE.PRODUIT)=2
+        TnaCardDeclAssuranceTypeAdhesion(CARD.TYPE.ADHESION)=3
+        TnaCardDeclAssuranceTraite(CARD.TRAITE)=4
+        TnaCardDeclAssuranceDateCreation(CARD.DATE.CREATION)=5
+        TnaCardDeclAssuranceDateAnnulation(CARD.DATE.ANNULATION)=6
+        TnaCardDeclAssuranceOverride(CARD.OVERRIDE)=7
+        TnaCardDeclAssuranceRecordStatus(CARD.RECORD.STATUS)=8
+        TnaCardDeclAssuranceCurrNo(CARD.CURR.NO)=9
+        TnaCardDeclAssuranceInputter(CARD.INPUTTER)=10
+        TnaCardDeclAssuranceDateTime(CARD.DATE.TIME)=11
+        TnaCardDeclAssuranceAuthoriser(CARD.AUTHORISER)=12
+        TnaCardDeclAssuranceCoCode(CARD.CO.CODE)=13
+        TnaCardDeclAssuranceDeptCode(CARD.DEPT.CODE)=14
+        TnaCardDeclAssuranceAuditorCode(CARD.AUDITOR.CODE)=15
+        TnaCardDeclAssuranceAuditDateTime(CARD.AUDIT.DATE.TIME)=16
+    }
+}

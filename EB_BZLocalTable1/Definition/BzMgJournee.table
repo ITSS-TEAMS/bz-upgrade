@@ -1,0 +1,29 @@
+public table BzMgJournee {
+    t24:  BZ.MG.JOURNEE
+    fields:{
+        BzMgJourneeRefTraitement(MG.JOUR.REF.TRAITEMENT)=1
+        BzMgJourneeStatutPrinc(MG.JOUR.STATUT.PRINC)=2
+        BzMgJourneeStatutComm(MG.JOUR.STATUT.COMM)=3
+        BzMgJourneeTaux(MG.JOUR.TAUX)=4
+        BzMgJourneeDevise(MG.JOUR.DEVISE)=5
+        BzMgJourneeReserved2(MG.JOUR.RESERVED.2)=6
+        BzMgJourneeReserved3(MG.JOUR.RESERVED.3)=7
+        BzMgJourneeReserved4(MG.JOUR.RESERVED.4)=8
+        BzMgJourneeReserved5(MG.JOUR.RESERVED.5)=9
+        BzMgJourneeReserved6(MG.JOUR.RESERVED.6)=10
+        BzMgJourneeReserved7(MG.JOUR.RESERVED.7)=11
+        BzMgJourneeReserved8(MG.JOUR.RESERVED.8)=12
+        BzMgJourneeReserved9(MG.JOUR.RESERVED.9)=13
+        BzMgJourneeReserved10(MG.JOUR.RESERVED.10)=14
+        BzMgJourneeOverride(MG.JOUR.OVERRIDE)=15
+        BzMgJourneeRecordStatus(MG.JOUR.RECORD.STATUS)=16
+        BzMgJourneeCurrNo(MG.JOUR.CURR.NO)=17
+        BzMgJourneeInputter(MG.JOUR.INPUTTER)=18
+        BzMgJourneeDateTime(MG.JOUR.DATE.TIME)=19
+        BzMgJourneeAuthoriser(MG.JOUR.AUTHORISER)=20
+        BzMgJourneeCoCode(MG.JOUR.CO.CODE)=21
+        BzMgJourneeDeptCode(MG.JOUR.DEPT.CODE)=22
+        BzMgJourneeAuditorCode(MG.JOUR.AUDITOR.CODE)=23
+        BzMgJourneeAuditDateTime(MG.JOUR.AUDIT.DATE.TIME)=24
+    }
+}

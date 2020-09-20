@@ -1,0 +1,58 @@
+*-----------------------------------------------------------------------------
+* <Rating>-13</Rating>
+* Modification History :  
+*ZIT-UPG-R13-R19     :  No Changes.
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.DIFF.DATE.EN.MOIS
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+$INSERT I_COMMON
+$INSERT I_EQUATE
+$INSERT I_ENQUIRY.COMMON
+$INSERT I_F.LD.LOANS.AND.DEPOSITS
+
+    FN.LD.LOANS.AND.DEPOSITS = "F.LD.LOANS.AND.DEPOSITS"
+    F.LD.LOANS.AND.DEPOSITS = ""
+    ERR.LD = ""
+
+*    EXECUTE "COMO ON BZ.DIFF.DATE.EN.MOIS"
+*   PRINT O.DATA
+    CALL OPF(FN.LD.LOANS.AND.DEPOSITS, F.LD.LOANS.AND.DEPOSITS)
+
+* IF O.DATA EQ 'LD1021600017' THEN DEBUG
+
+    CALL F.READ(FN.LD.LOANS.AND.DEPOSITS, O.DATA , R.LD.LOANS.AND.DEPOSITS, F.LD.LOANS.AND.DEPOSITS, ERR.LD)
+
+*  PRINT O.DATA
+
+* $INSERT I_F.AC.CHARGE.REQUEST - Not Used anymore; '' THEN
+        O.DATA = ''
+        GOSUB END.PRG
+    END
+
+    VALUE.DATE = R.LD.LOANS.AND.DEPOSITS<LD.VALUE.DATE>
+    MATURITY.DATE = R.LD.LOANS.AND.DEPOSITS<LD.FIN.MAT.DATE>
+
+
+
+
+    DAYS = 'C'
+
+    CALL CDD('',VALUE.DATE,MATURITY.DATE,DAYS)
+
+
+    O.DATA  = DAYS
+
+    RETURN
+
+END.PRG:
+
+END

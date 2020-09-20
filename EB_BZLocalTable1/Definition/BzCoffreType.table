@@ -1,0 +1,18 @@
+public table BzCoffreType {
+        t24:  BZ.COFFRE.TYPE
+        fields:{
+            BzCoffreTypeDescription(CF.TYPE.DESCRIPTION)=1
+            BzCoffreTypeLoyerAnnuel(CF.TYPE.LOYER.ANNUEL)=2
+            BzCoffreTypeRetGarantie(CF.TYPE.RET.GARANTIE)=3
+            BzCoffreTypeOverride(CF.TYPE.OVERRIDE)=4
+            BzCoffreTypeRecordStatus(CF.TYPE.RECORD.STATUS)=5
+            BzCoffreTypeCurrNo(CF.TYPE.CURR.NO)=6
+            BzCoffreTypeInputter(CF.TYPE.INPUTTER)=7
+            BzCoffreTypeDateTime(CF.TYPE.DATE.TIME)=8
+            BzCoffreTypeAuthoriser(CF.TYPE.AUTHORISER)=9
+            BzCoffreTypeCoCode(CF.TYPE.CO.CODE)=10
+            BzCoffreTypeDeptCode(CF.TYPE.DEPT.CODE)=11
+            BzCoffreTypeAuditorCode(CF.TYPE.AUDITOR.CODE)=12
+            BzCoffreTypeAuditDateTime(CF.TYPE.AUDIT.DATE.TIME)=13
+        }
+    }

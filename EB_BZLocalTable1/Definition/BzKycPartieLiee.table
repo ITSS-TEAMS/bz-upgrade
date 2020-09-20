@@ -1,0 +1,26 @@
+public table BzKycPartieLiee {
+    t24:  BZ.KYC.PARTIE.LIEE
+    fields:{
+        BzKycPartieLieeDescription(KYC.PARTIE.DESCRIPTION)=1
+        BzKycPartieLieeReserved1(KYC.PARTIE.RESERVED1)=2
+        BzKycPartieLieeReserved2(KYC.PARTIE.RESERVED2)=3
+        BzKycPartieLieeReserved3(KYC.PARTIE.RESERVED3)=4
+        BzKycPartieLieeReserved4(KYC.PARTIE.RESERVED4)=5
+        BzKycPartieLieeReserved5(KYC.PARTIE.RESERVED5)=6
+        BzKycPartieLieeReserved6(KYC.PARTIE.RESERVED6)=7
+        BzKycPartieLieeReserved7(KYC.PARTIE.RESERVED7)=8
+        BzKycPartieLieeReserved8(KYC.PARTIE.RESERVED8)=9
+        BzKycPartieLieeReserved9(KYC.PARTIE.RESERVED9)=10
+        BzKycPartieLieeReserved10(KYC.PARTIE.RESERVED10)=11
+        BzKycPartieLieeOverride(KYC.PARTIE.OVERRIDE)=12
+        BzKycPartieLieeRecordStatus(KYC.PARTIE.RECORD.STATUS)=13
+        BzKycPartieLieeCurrNo(KYC.PARTIE.CURR.NO)=14
+        BzKycPartieLieeInputter(KYC.PARTIE.INPUTTER)=15
+        BzKycPartieLieeDateTime(KYC.PARTIE.DATE.TIME)=16
+        BzKycPartieLieeAuthoriser(KYC.PARTIE.AUTHORISER)=17
+        BzKycPartieLieeCoCode(KYC.PARTIE.CO.CODE)=18
+        BzKycPartieLieeDeptCode(KYC.PARTIE.DEPT.CODE)=19
+        BzKycPartieLieeAuditorCode(KYC.PARTIE.AUDITOR.CODE)=20
+        BzKycPartieLieeAuditDateTime(KYC.PARTIE.AUDIT.DATE.TIME)=21
+    }
+}

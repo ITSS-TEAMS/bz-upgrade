@@ -1,0 +1,17 @@
+public table TnaAtmFileLoadQueue {
+        t24:  TNA.ATM.FILE.LOAD.QUEUE
+        fields:{
+            TnaAtmFileLoadQueueAction(QUEUE.ACTION)=1
+            TnaAtmFileLoadQueueLocalRef(QUEUE.LOCAL.REF)=2
+            TnaAtmFileLoadQueueOverride(QUEUE.OVERRIDE)=3
+            TnaAtmFileLoadQueueRecordStatus(QUEUE.RECORD.STATUS)=4
+            TnaAtmFileLoadQueueCurrNo(QUEUE.CURR.NO)=5
+            TnaAtmFileLoadQueueInputter(QUEUE.INPUTTER)=6
+            TnaAtmFileLoadQueueDateTime(QUEUE.DATE.TIME)=7
+            TnaAtmFileLoadQueueAuthoriser(QUEUE.AUTHORISER)=8
+            TnaAtmFileLoadQueueCoCode(QUEUE.CO.CODE)=9
+            TnaAtmFileLoadQueueDeptCode(QUEUE.DEPT.CODE)=10
+            TnaAtmFileLoadQueueAuditorCode(QUEUE.AUDITOR.CODE)=11
+            TnaAtmFileLoadQueueAuditDateTime(QUEUE.AUDIT.DATE.TIME)=12
+        }
+    }

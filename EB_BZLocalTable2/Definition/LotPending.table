@@ -1,0 +1,11 @@
+public table LotPending {
+t24:  LOT.PENDING
+fields:{
+   LotPendingFileId(LOT.ICP.FILE.ID) = 1 
+   LotPendingRemitNum(LOT.ICP.REMIT.NUM) = 2
+   LotPendingBlockStatus(LOT.ICP.BLOCK.STATUS) = 3
+   LotPendingReserverd2(LOT.ICP.RESERVED.2) = 4 
+   LotPendingReserverd1(LOT.ICP.RESERVED.1) = 5 
+   LotPendingLocalRef(LOT.ICP.LOCAL.REF) = 6
+}
+}

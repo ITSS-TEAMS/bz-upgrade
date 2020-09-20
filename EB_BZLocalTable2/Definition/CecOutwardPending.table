@@ -1,0 +1,11 @@
+public table CecOutwardPending {
+    t24: CEC.OUTWARD.PENDING  
+    fields:{    
+        CecOutwardPendingTransCode(CEC.OCP.TRANS.CODE)=1
+        CecOutwardPendingPreviousMsgId(CEC.OCP.PREVIOUS.MSG.ID)=2
+        CecOutwardPendingTransFirst(CEC.OCP.TRANS.FIRST)=3
+        CecOutwardPendingTransLast(CEC.OCP.TRANS.LAST)=4
+        CecOutwardPendingTransFiles(CEC.OCP.TRANS.FILES)=5
+        CecOutwardPendingTransmissionId(CEC.OCP.TRANSMISSION.ID)=6
+    }
+}

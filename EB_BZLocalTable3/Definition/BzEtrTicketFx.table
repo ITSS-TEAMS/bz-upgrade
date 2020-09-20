@@ -1,0 +1,40 @@
+public table BzEtrTicketFx {
+    t24:  BZ.ETR.TICKET.FX
+    fields:{
+        BzEtrTicketFxReferenceFx(TIK.FX.REFERENCE.FX)=1
+        BzEtrTicketFxCustomer(TIK.FX.CUSTOMER)=2
+        BzEtrTicketFxDateOperation(TIK.FX.DATE.OPERATION)=3
+        BzEtrTicketFxCcyAchat(TIK.FX.CCY.ACHAT)=4
+        BzEtrTicketFxMntAchat(TIK.FX.MNT.ACHAT)=5
+        BzEtrTicketFxCcyVente(TIK.FX.CCY.VENTE)=6
+        BzEtrTicketFxMntVente(TIK.FX.MNT.VENTE)=7
+        BzEtrTicketFxSsiAchat(TIK.FX.SSI.ACHAT)=8
+        BzEtrTicketFxSsiVente(TIK.FX.SSI.VENTE)=9
+        BzEtrTicketFxCours(TIK.FX.COURS)=10
+        BzEtrTicketFxConsRefFt(TIK.FX.CONS.REF.FT)=11
+        BzEtrTicketFxConsDevise(TIK.FX.CONS.DEVISE)=12
+        BzEtrTicketFxConsMontant(TIK.FX.CONS.MONTANT)=13
+        BzEtrTicketFxRlqDevise(TIK.FX.RLQ.DEVISE)=14
+        BzEtrTicketFxRlqAmt(TIK.FX.RLQ.AMT)=15
+        BzEtrTicketFxReserved1(TIK.FX.RESERVED.1)=16
+        BzEtrTicketFxReserved2(TIK.FX.RESERVED.2)=17
+        BzEtrTicketFxReserved3(TIK.FX.RESERVED.3)=18
+        BzEtrTicketFxReserved4(TIK.FX.RESERVED.4)=19
+        BzEtrTicketFxReserved5(TIK.FX.RESERVED.5)=20
+        BzEtrTicketFxReserved6(TIK.FX.RESERVED.6)=21
+        BzEtrTicketFxReserved7(TIK.FX.RESERVED.7)=22
+        BzEtrTicketFxReserved8(TIK.FX.RESERVED.8)=23
+        BzEtrTicketFxReserved9(TIK.FX.RESERVED.9)=24
+        BzEtrTicketFxReserved10(TIK.FX.RESERVED.10)=25
+        BzEtrTicketFxOverride(TIK.FX.OVERRIDE)=26
+        BzEtrTicketFxRecordStatus(TIK.FX.RECORD.STATUS)=27
+        BzEtrTicketFxCurrNo(TIK.FX.CURR.NO)=28
+        BzEtrTicketFxInputter(TIK.FX.INPUTTER)=29
+        BzEtrTicketFxDateTime(TIK.FX.DATE.TIME)=30
+        BzEtrTicketFxAuthoriser(TIK.FX.AUTHORISER)=31
+        BzEtrTicketFxCoCode(TIK.FX.CO.CODE)=32
+        BzEtrTicketFxDeptCode(TIK.FX.DEPT.CODE)=33
+        BzEtrTicketFxAuditorCode(TIK.FX.AUDITOR.CODE)=34
+        BzEtrTicketFxAuditDateTime(TIK.FX.AUDIT.DATE.TIME)=35
+    }
+}

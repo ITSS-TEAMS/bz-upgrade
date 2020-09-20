@@ -1,0 +1,24 @@
+public table BzMdpBlocageChq {
+    t24:  BZ.MDP.BLOCAGE.CHQ
+    fields:{
+        BzMdpBlocageChqNumCheque(BLC.CHQ.NUM.CHEQUE)=1
+        BzMdpBlocageChqMntCheque(BLC.CHQ.MNT.CHEQUE)=2
+        BzMdpBlocageChqNumRib(BLC.CHQ.NUM.RIB)=3
+        BzMdpBlocageChqNumCpt(BLC.CHQ.NUM.CPT)=4
+        BzMdpBlocageChqDeviseCpt(BLC.CHQ.DEVISE.CPT)=5
+        BzMdpBlocageChqDateBlocage(BLC.CHQ.DATE.BLOCAGE)=6
+        BzMdpBlocageChqMntBlocage(BLC.CHQ.MNT.BLOCAGE)=7
+        BzMdpBlocageChqIndBlocage(BLC.CHQ.IND.BLOCAGE)=8
+        BzMdpBlocageChqStatut(BLC.CHQ.STATUT)=9
+        BzMdpBlocageChqOverride(BLC.CHQ.OVERRIDE)=10
+        BzMdpBlocageChqRecordStatus(BLC.CHQ.RECORD.STATUS)=11
+        BzMdpBlocageChqCurrNo(BLC.CHQ.CURR.NO)=12
+        BzMdpBlocageChqInputter(BLC.CHQ.INPUTTER)=13
+        BzMdpBlocageChqDateTime(BLC.CHQ.DATE.TIME)=14
+        BzMdpBlocageChqAuthoriser(BLC.CHQ.AUTHORISER)=15
+        BzMdpBlocageChqCoCode(BLC.CHQ.CO.CODE)=16
+        BzMdpBlocageChqDeptCode(BLC.CHQ.DEPT.CODE)=17
+        BzMdpBlocageChqAuditorCode(BLC.CHQ.AUDITOR.CODE)=18
+        BzMdpBlocageChqAuditDateTime(BLC.CHQ.AUDIT.DATE.TIME)=19
+    }
+}

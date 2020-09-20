@@ -1,0 +1,15 @@
+public table BzCommercantTransStatut {
+    t24:  BZ.COMMERCANT.TRANS.STATUT
+    fields:{
+        BzCommercantTransStatutStatut(COM.TRANS.STAT.STATUT)=1
+        BzCommercantTransStatutRecordStatus(COM.TRANS.STAT.RECORD.STATUS)=2
+        BzCommercantTransStatutCurrNo(COM.TRANS.STAT.CURR.NO)=3
+        BzCommercantTransStatutInputter(COM.TRANS.STAT.INPUTTER)=4
+        BzCommercantTransStatutDateTime(COM.TRANS.STAT.DATE.TIME)=5
+        BzCommercantTransStatutAuthoriser(COM.TRANS.STAT.AUTHORISER)=6
+        BzCommercantTransStatutCoCode(COM.TRANS.STAT.CO.CODE)=7
+        BzCommercantTransStatutDeptCode(COM.TRANS.STAT.DEPT.CODE)=8
+        BzCommercantTransStatutAuditorCode(COM.TRANS.STAT.AUDITOR.CODE)=9
+        BzCommercantTransStatutAuditDateTime(COM.TRANS.STAT.AUDIT.DATE.TIME)=10
+    }
+}

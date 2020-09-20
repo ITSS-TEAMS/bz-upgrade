@@ -1,0 +1,25 @@
+public table BzReconcilNosParameter {
+    t24:  BZ.RECONCIL.NOS.PARAMETER
+    fields:{
+        BzReconcilNosParameterCategory(BZ.RECON.CATEGORY)=1
+        BzReconcilNosParameterReserved1(BZ.RECON.RESERVED.1)=2
+        BzReconcilNosParameterReserved2(BZ.RECON.RESERVED.2)=3
+        BzReconcilNosParameterReserved3(BZ.RECON.RESERVED.3)=4
+        BzReconcilNosParameterReserved4(BZ.RECON.RESERVED.4)=5
+        BzReconcilNosParameterReserved5(BZ.RECON.RESERVED.5)=6
+        BzReconcilNosParameterReserved6(BZ.RECON.RESERVED.6)=7
+        BzReconcilNosParameterReserved7(BZ.RECON.RESERVED.7)=8
+        BzReconcilNosParameterReserved8(BZ.RECON.RESERVED.8)=9
+        BzReconcilNosParameterReserved9(BZ.RECON.RESERVED.9)=10
+        BzReconcilNosParameterReserved10(BZ.RECON.RESERVED.10)=11
+        BzReconcilNosParameterRecordStatus(BZ.RECON.RECORD.STATUS)=12
+        BzReconcilNosParameterCurrNo(BZ.RECON.CURR.NO)=13
+        BzReconcilNosParameterInputter(BZ.RECON.INPUTTER)=14
+        BzReconcilNosParameterDateTime(BZ.RECON.DATE.TIME)=15
+        BzReconcilNosParameterAuthoriser(BZ.RECON.AUTHORISER)=16
+        BzReconcilNosParameterCoCode(BZ.RECON.CO.CODE)=17
+        BzReconcilNosParameterDeptCode(BZ.RECON.DEPT.CODE)=18
+        BzReconcilNosParameterAuditorCode(BZ.RECON.AUDITOR.CODE)=19
+        BzReconcilNosParameterAuditDateTime(BZ.RECON.AUDIT.DATE.TIME)=20
+    }
+}

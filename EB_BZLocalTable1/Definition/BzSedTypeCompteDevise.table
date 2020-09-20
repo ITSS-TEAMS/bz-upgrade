@@ -1,0 +1,17 @@
+public table BzSedTypeCompteDevise {
+    t24:  BZ.SED.TYPE.COMPTE.DEVISE
+    fields:{
+        BzSedTypeCompteDeviseDescription(TYPCMP.DESCRIPTION)=1
+        BzSedTypeCompteDeviseLocalRef(TYPCMP.LOCAL.REF)=2
+        BzSedTypeCompteDeviseOverride(TYPCMP.OVERRIDE)=3
+        BzSedTypeCompteDeviseRecordStatus(TYPCMP.RECORD.STATUS)=4
+        BzSedTypeCompteDeviseCurrNo(TYPCMP.CURR.NO)=5
+        BzSedTypeCompteDeviseInputter(TYPCMP.INPUTTER)=6
+        BzSedTypeCompteDeviseDateTime(TYPCMP.DATE.TIME)=7
+        BzSedTypeCompteDeviseAuthoriser(TYPCMP.AUTHORISER)=8
+        BzSedTypeCompteDeviseCoCode(TYPCMP.CO.CODE)=9
+        BzSedTypeCompteDeviseDeptCode(TYPCMP.DEPT.CODE)=10
+        BzSedTypeCompteDeviseAuditorCode(TYPCMP.AUDITOR.CODE)=11
+        BzSedTypeCompteDeviseAuditDateTime(TYPCMP.AUDIT.DATE.TIME)=12
+    }
+}

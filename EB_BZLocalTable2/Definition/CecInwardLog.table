@@ -1,0 +1,22 @@
+public table CecInwardLog {
+    t24:  CEC.INWARD.LOG
+    fields:{
+	
+CecInwardLogFileName(CEC.ICL.FILE.NAME) = 1      
+CecInwardLogFileId(CEC.ICL.IN.FILE.ID) = 2
+CecInwardLogProcessLevel(CEC.ICL.PROCESS.LEVEL) = 3         
+CecInwardLogUserId(CEC.ICL.USER.ID) = 4   
+CecInwardLogEventTime(CEC.ICL.EVENT.TIME) = 5      
+CecInwardLogEventMess(CEC.ICL.EVENT.MESS) = 6  
+CecInwardLogEventLevel(CEC.ICL.EVENT.LEVEL) = 7    
+CecInwardLogProblemTime(CEC.ICL.PROBLEM.TIME) = 8  
+CecInwardLogProblemMess(CEC.ICL.PROBLEM.MESS) = 9   
+CecInwardLogProblemLevel(CEC.ICL.PROBLEM.LEVEL) = 10 
+CecInwardLogReserved5(CEC.ICL.RESERVED.5) = 11     
+CecInwardLogReserved4(CEC.ICL.RESERVED.4) = 12
+CecInwardLogReserved3(CEC.ICL.RESERVED.3) = 13     
+CecInwardLogReserved2(CEC.ICL.RESERVED.2) = 14
+CecInwardLogReserved1(CEC.ICL.RESERVED.1) = 15
+
+}
+}

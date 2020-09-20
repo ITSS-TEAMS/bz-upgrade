@@ -1,0 +1,206 @@
+*-----------------------------------------------------------------------------
+* <Rating>-81</Rating>
+*-----------------------------------------------------------------------------
+*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R09-R13  : $INSERT BP to $INCLUDE BZDEV.BP
+*ZIT-UPG-R13-R19  : NO CHANGES
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+* SUBROUTINE BZ.MDP.SORTIE.EFFET
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+    SUBROUTINE BZ.MDP.SORTIE.EFFET(TABLEAU)
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+*ZIT-UPG-R09-R13/S
+*$INSERT BP I_F.BZ.MDP.REGISTRE.EFF
+*$INSERT BP I_F.BZ.CPS.PARAMETER
+    $INSERT I_F.BZ.MDP.REGISTRE.EFF
+    $INSERT I_F.BZ.CPS.PARAMETER
+
+*ZIT-UPG-R09-R13/E
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+    RETURN
+***************************************
+INIT:
+
+    FN.REG.EFF='F.BZ.MDP.REGISTRE.EFF'
+    F.REG.EFF=''
+
+    Y.REC.CPS.PARAMS = ''
+    CALL BZ.MDP.GETCPS.PARAMS.RTN (Y.REC.CPS.PARAMS)
+
+    Y.DEALI.41 = Y.REC.CPS.PARAMS<CPS.PAR.DELAI.41>
+    Y.DEALI.41 = '+':Y.DEALI.41:'W'
+
+    Y.DEEB.SystemTables.getVFunction()CE = Y.REC.CPEB.SystemTables.getVFunction()PS.PAR.DELAIEB.SystemTables.getRNew()LFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus.40.PLACE ='+':Y.DEALI.40.PLACE:'W'
+
+    Y.DFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusY.REC.CPS.PARAMS<CPS.PAR.DELAI.40.HPLACE>
+    Y.DEALI.40.HPLACE ='+':Y.DEALI.40.HPLACE:'W'
+
+    RETURN
+***************************************
+OPENFILES:
+    CALL OPF(FN.REG.EFF,F.REG.EFF)
+    RETURN
+***************************************
+PROCESS:
+
+    DATE.ECHEANCE.40.PLACE=TODAY
+    CALL CDT('',DATE.ECHEANCE.40.PLACE,Y.DEALI.40.PLACE)
+
+    DATE.ECHEANCE.40.HPLACE=TODAY
+    CALL CDT('',DATE.ECHEANCE.40.HPLACE, Y.DEALI.40.HPLACE)
+
+    DATE.ECHEANCE.41=TODAY
+    CALL CDT('',DATE.ECHEANCE.41,Y.DEALI.41)
+
+    CODE.40=40
+    CODE.41=41
+SEL.LIST =''
+NO.OF.REC =''
+ERR1 =''
+    SEL.COMMAND="SELECT ":FN.REG.EFF:" WITH (STATUT EQ EFF.OUT.3 AND LOCALITE EQ 'PLACE' AND CODE.VALEUR EQ ":CODE.40:" AND DATE.ECHEANCE.CPS LE ":DATE.ECHEANCE.40.PLACE:") OR (STATUT EQ EFF.OUT.3 AND LOCALITE EQ 'HORS.PLACE' AND CODE.VALEUR EQ ":CODE.40:" AND DATE.ECHEANCE.CPS LE ":DATE.ECHEANCE.40.HPLACE:") OR (STATUT LE EFF.OUT.3 AND CODE.VALEUR EQ ":CODE.41:" AND DATE.ECHEANCE.CPS LE ":DATE.ECHEANCE.41:")"
+    EB.DataAccess.OpfREADLIST(SEL.COMMAND,SEL.LIST,'',NO.OF.REC,ERR1)
+
+    IF EB.DataAccess.Opf.LIST EQ '' THEN
+        E="Aucun Effet"
+        CALL ERR
+    END ELSE
+        LOOP
+          FT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefFROM SEL.LIST SETTING POS
+        WEB.DataAccess.FReadFFET :POS
+		REG.REC =''
+		ERR =''
+            CALL F.READ(FN.REG.EFF,EFFET,REG.REC,F.REG.EFF,ERR)
+
+            CODE.VALEUR=REEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer.ECHEANCE.CPS>
+            EB.SystemTables.setE(REG.REC<REG.EFF.NUM.LCN>)
+            MONTANT=REG.REC<REG.EFF.MNT.LCN>
+            RIB.TIREEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerEFF.REB.SystemTables.getIdNew()E.INIT>
+            RIB.CEDANT=REG.REC<REG.EFF.RIB.CEDANT>
+            NOM.CEB.DataAccess.FWriteEG.REC<REG.EFF.NOM.CEDANT>
+            DATE.ECHENACE.INIT=REG.REC<REG.EFF.DATE.ECHEANCE.INIT>
+            DATE.CREATION=REG.REC<REG.EFF.DATE.CREATION>
+            UNITE.GESTION=REG.REC<REG.EFF.UNITE.GESTION>
+
+      EB.SystemTables.setAf()*-----------------------------------------------------------------------------
+* <Rating>-81</Rating>
+*-----------------------------------------------------------------------------
+*Modification History:
+*-----------------------------------------------------------------------------
+*ZIT-UPG-R09-R13  : $INSERT BP to $INCLUDE BZDEV.BP
+*ZIT-UPG-R13-R19  : NO CHANGES
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+* SUBROUTINE BZ.MDP.SORTIE.EFFET
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+    SUBROUTINE BZ.MDP.SORTIE.EFFET(TABLEAU)
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+*ZIT-UPG-R09-R13/S
+*$INSERT BP I_F.BZ.MDP.REGISTRE.EFF
+*$INSERT BP I_F.BZ.CPS.PARAMETER
+    $INSERT I_F.BZ.MDP.REGISTRE.EFF
+    $INSERT I_F.BZ.CPS.PARAMETER
+
+*ZIT-UPG-R09-R13/E
+
+MAIN:
+
+    GOSUB INIT
+    GOSUB OPENFILES
+    GOSUB PROCESS
+    RETURN
+***************************************
+INIT:
+
+    FN.REG.EFF='F.BZ.MDP.REGISTRE.EFF'
+    F.REG.EFF=''
+
+    Y.REC.CPS.PARAMS = ''
+    CALL BZ.MDP.GETCPS.PARAMS.RTN (Y.REC.CPS.PARAMS)
+
+    Y.DEALI.41 = Y.REC.CPS.PARAMS<CPS.PAR.DELAI.41>
+    Y.DEALI.41 = '+':Y.DEALI.41:'W'
+
+    Y.DEALI.40.PLACE = Y.REC.CPS.PARAMS<CPS.PAR.DELAI.40.PLACE>
+    Y.DEALI.40.PLACE ='+':Y.DEALI.40.PLACE:'W'
+
+    Y.DEALI.40.HPLACE = Y.REC.CPS.PARAMS<CPS.PAR.DELAI.40.HPLACE>
+    Y.DEALI.40.HPLACE ='+':Y.DEALI.40.HPLACE:'W'
+
+    RETURN
+***************************************
+OPENFILES:
+    CALL OPF(FN.REG.EFF,F.REG.EFF)
+    RETURN
+***************************************
+PROCESS:
+
+    DATE.ECHEANCE.40.PLACE=TODAY
+    CALL CDT('',DATE.ECHEANCE.40.PLACE,Y.DEALI.40.PLACE)
+
+    DATE.ECHEANCE.40.HPLACE=TODAY
+    CALL CDT('',DATE.ECHEANCE.40.HPLACE, Y.DEALI.40.HPLACE)
+
+    DATE.ECHEANCE.41=TODAY
+    CALL CDT('',DATE.ECHEANCE.41,Y.DEALI.41)
+
+    CODE.40=40
+    CODE.41=41
+SEL.LIST =''
+NO.OF.REC =''
+ERR1 =''
+    SEL.COMMAND="SELECT ":FN.REG.EFF:" WITH (STATUT EQ EFF.OUT.3 AND LOCALITE EQ 'PLACE' AND CODE.VALEUR EQ ":CODE.40:" AND DATE.ECHEANCE.CPS LE ":DATE.ECHEANCE.40.PLACE:") OR (STATUT EQ EFF.OUT.3 AND LOCALITE EQ 'HORS.PLACE' AND CODE.VALEUR EQ ":CODE.40:" AND DATE.ECHEANCE.CPS LE ":DATE.ECHEANCE.40.HPLACE:") OR (STATUT LE EFF.OUT.3 AND CODE.VALEUR EQ ":CODE.41:" AND DATE.ECHEANCE.CPS LE ":DATE.ECHEANCE.41:")"
+    CALL EB.READLIST(SEL.COMMAND,SEL.LIST,'',NO.OF.REC,ERR1)
+
+    IF SEL.LIST EQ '' THEN
+        E="Aucun Effet"
+        CALL ERR
+    END ELSE
+        LOOP
+            REMOVE EFFET FROM SEL.LIST SETTING POS
+        WHILE EFFET :POS
+		REG.REC =''
+		ERR =''
+            CALL F.READ(FN.REG.EFF,EFFET,REG.REC,F.REG.EFF,ERR)
+
+            CODE.VALEUR=REG.REC<REG.EFF.DATE.ECHEANCE.CPS>
+            NUM.LCN=REG.REC<REG.EFF.NUM.LCN>
+            MONTANT=REG.REC<REG.EFF.MNT.LCN>
+            RIB.TIRE.INIT=REG.REC<REG.EFF.RIB.TIRE.INIT>
+            RIB.CEDANT=REG.REC<REG.EFF.RIB.CEDANT>
+            NOM.CEDANT=REG.REC<REG.EFF.NOM.CEDANT>
+            DATE.ECHENACE.INIT=REG.REC<REG.EFF.DATE.ECHEANCE.INIT>
+            DATE.CREATION=REG.REC<REG.EFF.DATE.CREATION>
+            UNITE.GESTION=REG.REC<REG.EFF.UNITE.GESTION>
+
+        EFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefsetE(EFFET: '*' :CODE.VALEUR: '*' :DATE.ECHENACE.INIT:'*' :NUM.LCN:'*' :MONTANT:'*' :RIB.TIRE.INIT:'*' :RIB.CEDANT:'*':NOM.CEDANT:'*':DATE.CREATION:'*':UNITE.GESTION)
+        REPEAT
+    END
+    RETURN
+END

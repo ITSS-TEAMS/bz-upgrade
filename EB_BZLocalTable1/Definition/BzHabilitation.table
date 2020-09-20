@@ -1,0 +1,23 @@
+public table BzHabilitation {
+    t24:  BZ.HABILITATION
+    fields:{
+        BzHabilitationUserRemplace1(HA.USER.REMPLACE.1)=1
+        BzHabilitationUserRemplace2(HA.USER.REMPLACE.2)=2
+        BzHabilitationUserRemplacant(HA.USER.REMPLACANT)=3
+        BzHabilitationDateDebut(HA.DATE.DEBUT)=4
+        BzHabilitationDateFin(HA.DATE.FIN)=5
+        BzHabilitationDateOperation(HA.DATE.OPERATION)=6
+        BzHabilitationStatutHabil(HA.STATUT.HABIL)=7
+        BzHabilitationStatutRehabil(HA.STATUT.REHABIL)=8
+        BzHabilitationOverride1(HA.OVERRIDE.1)=9
+        BzHabilitationRecordStatus(HA.RECORD.STATUS)=10
+        BzHabilitationCurrNo(HA.CURR.NO)=11
+        BzHabilitationInputter(HA.INPUTTER)=12
+        BzHabilitationDateTime(HA.DATE.TIME)=13
+        BzHabilitationAuthoriser(HA.AUTHORISER)=14
+        BzHabilitationCoCode(HA.CO.CODE)=15
+        BzHabilitationDeptCode(HA.DEPT.CODE)=16
+        BzHabilitationAuditorCode(HA.AUDITOR.CODE)=17
+        BzHabilitationAuditDateTime(HA.AUDIT.DATE.TIME)=18
+    }
+}

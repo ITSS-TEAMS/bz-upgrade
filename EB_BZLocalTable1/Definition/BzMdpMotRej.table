@@ -1,0 +1,18 @@
+public table BzMdpMotRej {
+    t24:  BZ.MDP.MOT.REJ
+    fields:{
+        BzMdpMotRejDescription(MOT.REJ.DESCRIPTION)=1
+        BzMdpMotRejRepr(MOT.REJ.REPR)=2
+        BzMdpMotRejLocalRef(MOT.REJ.LOCAL.REF)=3
+        BzMdpMotRejOverride(MOT.REJ.OVERRIDE)=4
+        BzMdpMotRejRecordStatus(MOT.REJ.RECORD.STATUS)=5
+        BzMdpMotRejCurrNo(MOT.REJ.CURR.NO)=6
+        BzMdpMotRejInputter(MOT.REJ.INPUTTER)=7
+        BzMdpMotRejDateTime(MOT.REJ.DATE.TIME)=8
+        BzMdpMotRejAuthoriser(MOT.REJ.AUTHORISER)=9
+        BzMdpMotRejCoCode(MOT.REJ.CO.CODE)=10
+        BzMdpMotRejDeptCode(MOT.REJ.DEPT.CODE)=11
+        BzMdpMotRejAuditorCode(MOT.REJ.AUDITOR.CODE)=12
+        BzMdpMotRejAuditDateTime(MOT.REJ.AUDIT.DATE.TIME)=13
+    }
+}

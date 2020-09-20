@@ -1,0 +1,18 @@
+public table BzDcBatchControlNew {
+    t24:  BZ.DC.BATCH.CONTROL.NEW
+    fields:{
+        BzDcBatchControlNewDateOperation(BZ.DC.DATE.OPERATION)=1
+        BzDcBatchControlNewStatut(BZ.DC.STATUT)=2
+        BzDcBatchControlNewOperation(BZ.DC.OPERATION)=3
+        BzDcBatchControlNewTxn(BZ.DC.TXN)=4
+        BzDcBatchControlNewRecordStatus(BZ.DC.RECORD.STATUS)=5
+        BzDcBatchControlNewCurrNo(BZ.DC.CURR.NO)=6
+        BzDcBatchControlNewInputter(BZ.DC.INPUTTER)=7
+        BzDcBatchControlNewDateTime(BZ.DC.DATE.TIME)=8
+        BzDcBatchControlNewAuthoriser(BZ.DC.AUTHORISER)=9
+        BzDcBatchControlNewCoCode(BZ.DC.CO.CODE)=10
+        BzDcBatchControlNewDeptCode(BZ.DC.DEPT.CODE)=11
+        BzDcBatchControlNewAuditorCode(BZ.DC.AUDITOR.CODE)=12
+        BzDcBatchControlNewAuditDateTime(BZ.DC.AUDIT.DATE.TIME)=13
+    }
+}

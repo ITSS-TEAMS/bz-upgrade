@@ -1,0 +1,21 @@
+public table TnaCardStopList {
+    t24: TNA.CARD.STOP.LIST
+    fields:{
+        TnaCardStopListDeclarationDate(STOP.DECLARATION.DATE)=1
+        TnaCardStopListEndDate(STOP.END.DATE)=2
+        TnaCardStopListReasonCode(STOP.REASON.CODE)=3
+        TnaCardStopListSendRecord(STOP.SEND.RECORD)=4
+        TnaCardStopListMemo(STOP.MEMO)=5
+        TnaCardStopListLocalRef(STOP.LOCAL.REF)=6
+        TnaCardStopListOverride(STOP.OVERRIDE)=7
+        TnaCardStopListRecordStatus(STOP.RECORD.STATUS)=8
+        TnaCardStopListCurrNo(STOP.CURR.NO)=9
+        TnaCardStopListInputter(STOP.INPUTTER)=10
+        TnaCardStopListDateTime(STOP.DATE.TIME)=11
+        TnaCardStopListAuthoriser(STOP.AUTHORISER)=12
+        TnaCardStopListCoCode(STOP.CO.CODE)=13
+        TnaCardStopListDeptCode(STOP.DEPT.CODE)=14
+        TnaCardStopListAuditorCode(STOP.AUDITOR.CODE)=15
+        TnaCardStopListAuditDateTime(STOP.AUDIT.DATE.TIME)=16
+    }
+}

@@ -1,0 +1,21 @@
+public table BzCodeMvmt {
+    t24:  BZ.CODE.MVMT
+    fields:{
+        BzCodeMvmtDescription(TYPE.DESCRIPTION)=1
+        BzCodeMvmtCodeTraitement(TYPE.CODE.TRAITEMENT)=2
+        BzCodeMvmtSens(TYPE.SENS)=3
+        BzCodeMvmtCodeTransaction(TYPE.CODE.TRANSACTION)=4
+        BzCodeMvmtDateValeur(TYPE.DATE.VALEUR)=5
+        BzCodeMvmtCompte(TYPE.COMPTE)=6
+        BzCodeMvmtOverride(TYPE.OVERRIDE)=7
+        BzCodeMvmtRecordStatus(TYPE.RECORD.STATUS)=8
+        BzCodeMvmtCurrNo(TYPE.CURR.NO)=9
+        BzCodeMvmtInputter(TYPE.INPUTTER)=10
+        BzCodeMvmtDateTime(TYPE.DATE.TIME)=11
+        BzCodeMvmtAuthoriser(TYPE.AUTHORISER)=12
+        BzCodeMvmtCoCode(TYPE.CO.CODE)=13
+        BzCodeMvmtDeptCode(TYPE.DEPT.CODE)=14
+        BzCodeMvmtAuditorCode(TYPE.AUDITOR.CODE)=15
+        BzCodeMvmtAuditDateTime(TYPE.AUDIT.DATE.TIME)=16
+    }
+}

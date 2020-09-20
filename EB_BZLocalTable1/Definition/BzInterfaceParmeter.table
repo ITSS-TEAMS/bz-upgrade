@@ -1,0 +1,25 @@
+public table BzInterfaceParmeter {
+    t24:  BZ.INTERFACE.PARMETER
+    fields:{
+        BzInterfaceParmeterRepSyncSoldeIn(INT.PRA.REP.SYNC.SOLDE.IN)=1
+        BzInterfaceParmeterRepSyncSoldeOut(INT.PRA.REP.SYNC.SOLDE.OUT)=2
+        BzInterfaceParmeterRepCreIn(INT.PRA.REP.CRE.IN)=3
+        BzInterfaceParmeterRepCreOut(INT.PRA.REP.CRE.OUT)=4
+        BzInterfaceParmeterReserved1(INT.PRA.RESERVED1)=5
+        BzInterfaceParmeterReserved2(INT.PRA.RESERVED2)=6
+        BzInterfaceParmeterReserved3(INT.PRA.RESERVED3)=7
+        BzInterfaceParmeterReserved4(INT.PRA.RESERVED4)=8
+        BzInterfaceParmeterReserved5(INT.PRA.RESERVED5)=9
+        BzInterfaceParmeterLocalRef(INT.PRA.LOCAL.REF)=10
+        BzInterfaceParmeterOverride(INT.PRA.OVERRIDE)=11
+        BzInterfaceParmeterRecordStatus(INT.PRA.RECORD.STATUS)=12
+        BzInterfaceParmeterCurrNo(INT.PRA.CURR.NO)=13
+        BzInterfaceParmeterInputter(INT.PRA.INPUTTER)=14
+        BzInterfaceParmeterDateTime(INT.PRA.DATE.TIME)=15
+        BzInterfaceParmeterAuthoriser(INT.PRA.AUTHORISER)=16
+        BzInterfaceParmeterCoCode(INT.PRA.CO.CODE)=17
+        BzInterfaceParmeterDeptCode(INT.PRA.DEPT.CODE)=18
+        BzInterfaceParmeterAuditorCode(INT.PRA.AUDITOR.CODE)=19
+        BzInterfaceParmeterAuditDateTime(INT.PRA.AUDIT.DATE.TIME)=20
+    }
+}

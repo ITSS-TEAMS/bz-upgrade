@@ -1,0 +1,21 @@
+public table BzAmlCustomer {
+    t24:  BZ.AML.CUSTOMER
+    fields:{
+        BzAmlCustomerCustomer(BZ.AML.CUSTOMER)=1
+        BzAmlCustomerCategory(BZ.AML.CATEGORY)=2
+        BzAmlCustomerNumContrat(BZ.AML.NUM.CONTRAT)=3
+        BzAmlCustomerApplication(BZ.AML.APPLICATION)=4
+        BzAmlCustomerTable(BZ.AML.TABLE)=5
+        BzAmlCustomerDateChargement(BZ.AML.DATE.CHARGEMENT)=6
+        BzAmlCustomerTransaction(BZ.AML.TRANSACTION)=7
+        BzAmlCustomerRecordStatus(BZ.AML.RECORD.STATUS)=8
+        BzAmlCustomerCurrNo(BZ.AML.CURR.NO)=9
+        BzAmlCustomerInputter(BZ.AML.INPUTTER)=10
+        BzAmlCustomerDateTime(BZ.AML.DATE.TIME)=11
+        BzAmlCustomerAuthoriser(BZ.AML.AUTHORISER)=12
+        BzAmlCustomerCoCode(BZ.AML.CO.CODE)=13
+        BzAmlCustomerDeptCode(BZ.AML.DEPT.CODE)=14
+        BzAmlCustomerAuditorCode(BZ.AML.AUDITOR.CODE)=15
+        BzAmlCustomerAuditDateTime(BZ.AML.AUDIT.DATE.TIME)=16
+    }
+}

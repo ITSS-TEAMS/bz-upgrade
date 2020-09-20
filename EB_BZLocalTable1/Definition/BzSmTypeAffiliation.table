@@ -1,0 +1,17 @@
+public table BzSmTypeAffiliation {
+        t24:  BZ.SM.TYPE.AFFILIATION
+        fields:{
+            BzSmTypeAffiliationDescription(STA.DESCRIPTION)=1
+            BzSmTypeAffiliationLocalRef(STA.LOCAL.REF)=2
+            BzSmTypeAffiliationOverride(STA.OVERRIDE)=3
+            BzSmTypeAffiliationRecordStatus(STA.RECORD.STATUS)=4
+            BzSmTypeAffiliationCurrNo(STA.CURR.NO)=5
+            BzSmTypeAffiliationInputter(STA.INPUTTER)=6
+            BzSmTypeAffiliationDateTime(STA.DATE.TIME)=7
+            BzSmTypeAffiliationAuthoriser(STA.AUTHORISER)=8
+            BzSmTypeAffiliationCoCode(STA.CO.CODE)=9
+            BzSmTypeAffiliationDeptCode(STA.DEPT.CODE)=10
+            BzSmTypeAffiliationAuditorCode(STA.AUDITOR.CODE)=11
+            BzSmTypeAffiliationAuditDateTime(STA.AUDIT.DATE.TIME)=12
+        }
+    }

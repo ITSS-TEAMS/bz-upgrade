@@ -1,0 +1,17 @@
+public table BzMdpFormatChequier {
+    t24:  BZ.MDP.FORMAT.CHEQUIER
+    fields:{
+        BzMdpFormatChequierDescription(FMT.CHEQ.DESCRIPTION)=1
+        BzMdpFormatChequierLocalRef(FMT.CHEQ.LOCAL.REF)=2
+        BzMdpFormatChequierOverride(FMT.CHEQ.OVERRIDE)=3
+        BzMdpFormatChequierRecordStatus(FMT.CHEQ.RECORD.STATUS)=4
+        BzMdpFormatChequierCurrNo(FMT.CHEQ.CURR.NO)=5
+        BzMdpFormatChequierInputter(FMT.CHEQ.INPUTTER)=6
+        BzMdpFormatChequierDateTime(FMT.CHEQ.DATE.TIME)=7
+        BzMdpFormatChequierAuthoriser(FMT.CHEQ.AUTHORISER)=8
+        BzMdpFormatChequierCoCode(FMT.CHEQ.CO.CODE)=9
+        BzMdpFormatChequierDeptCode(FMT.CHEQ.DEPT.CODE)=10
+        BzMdpFormatChequierAuditorCode(FMT.CHEQ.AUDITOR.CODE)=11
+        BzMdpFormatChequierAuditDateTime(FMT.CHEQ.AUDIT.DATE.TIME)=12
+    }
+}

@@ -1,0 +1,17 @@
+public table BzCptSysteme {
+    t24:  BZ.CPT.SYSTEME
+    fields:{
+        BzCptSystemeDescription(SYS.DESCRIPTION)=1
+        BzCptSystemeOverride(SYS.OVERRIDE)=2
+        BzCptSystemeLocalRef(SYS.LOCAL.REF)=3
+        BzCptSystemeRecordStatus(SYS.RECORD.STATUS)=4
+        BzCptSystemeCurrNo(SYS.CURR.NO)=5
+        BzCptSystemeInputter(SYS.INPUTTER)=6
+        BzCptSystemeDateTime(SYS.DATE.TIME)=7
+        BzCptSystemeAuthoriser(SYS.AUTHORISER)=8
+        BzCptSystemeCoCode(SYS.CO.CODE)=9
+        BzCptSystemeDeptCode(SYS.DEPT.CODE)=10
+        BzCptSystemeAuditorCode(SYS.AUDITOR.CODE)=11
+        BzCptSystemeAuditDateTime(SYS.AUDIT.DATE.TIME)=12
+    }
+}

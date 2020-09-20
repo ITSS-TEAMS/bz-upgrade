@@ -1,0 +1,22 @@
+public table BzLdDemande {
+    t24:  BZ.LD.DEMANDE
+    fields:{
+        BzLdDemandeRefLd(DF.LD.REF.LD)=1
+        BzLdDemandeAgence(DF.LD.AGENCE)=2
+        BzLdDemandeDateMep(DF.LD.DATE.MEP)=3
+        BzLdDemandeDateDecision(DF.LD.DATE.DECISION)=4
+        BzLdDemandeSegFin(DF.LD.SEG.FIN)=5
+        BzLdDemandeTypeProduit(DF.LD.TYPE.PRODUIT)=6
+        BzLdDemandeAmtFin(DF.LD.AMT.FIN)=7
+        BzLdDemandeNivRisque(DF.LD.NIV.RISQUE)=8
+        BzLdDemandeRecordStatus(DF.LD.RECORD.STATUS)=9
+        BzLdDemandeCurrNo(DF.LD.CURR.NO)=10
+        BzLdDemandeInputter(DF.LD.INPUTTER)=11
+        BzLdDemandeDateTime(DF.LD.DATE.TIME)=12
+        BzLdDemandeAuthoriser(DF.LD.AUTHORISER)=13
+        BzLdDemandeCoCode(DF.LD.CO.CODE)=14
+        BzLdDemandeDeptCode(DF.LD.DEPT.CODE)=15
+        BzLdDemandeAuditorCode(DF.LD.AUDITOR.CODE)=16
+        BzLdDemandeAuditDateTime(DF.LD.AUDIT.DATE.TIME)=17
+    }
+}

@@ -1,0 +1,32 @@
+public table BzLeasingClient {
+    t24:  BZ.LEASING.CLIENT
+    fields:{
+        BzLeasingClientDescription(CLT.LEAS.DESCRIPTION)=1
+        BzLeasingClientCustomer(CLT.LEAS.CUSTOMER)=2
+        BzLeasingClientCptTechnique(CLT.LEAS.CPT.TECHNIQUE)=3
+        BzLeasingClientTypeLiquidation(CLT.LEAS.TYPE.LIQUIDATION)=4
+        BzLeasingClientTypeStructure(CLT.LEAS.TYPE.STRUCTURE)=5
+        BzLeasingClientTypeRejet(CLT.LEAS.TYPE.REJET)=6
+        BzLeasingClientComptaGlobal(CLT.LEAS.COMPTA.GLOBAL)=7
+        BzLeasingClientReserved1(CLT.LEAS.RESERVED.1)=8
+        BzLeasingClientReserved2(CLT.LEAS.RESERVED.2)=9
+        BzLeasingClientReserved3(CLT.LEAS.RESERVED.3)=10
+        BzLeasingClientReserved4(CLT.LEAS.RESERVED.4)=11
+        BzLeasingClientReserved5(CLT.LEAS.RESERVED.5)=12
+        BzLeasingClientReserved6(CLT.LEAS.RESERVED.6)=13
+        BzLeasingClientReserved7(CLT.LEAS.RESERVED.7)=14
+        BzLeasingClientReserved8(CLT.LEAS.RESERVED.8)=15
+        BzLeasingClientReserved9(CLT.LEAS.RESERVED.9)=16
+        BzLeasingClientReserved10(CLT.LEAS.RESERVED.10)=17
+        BzLeasingClientOverride(CLT.LEAS.OVERRIDE)=18
+        BzLeasingClientRecordStatus(CLT.LEAS.RECORD.STATUS)=19
+        BzLeasingClientCurrNo(CLT.LEAS.CURR.NO)=20
+        BzLeasingClientInputter(CLT.LEAS.INPUTTER)=21
+        BzLeasingClientDateTime(CLT.LEAS.DATE.TIME)=22
+        BzLeasingClientAuthoriser(CLT.LEAS.AUTHORISER)=23
+        BzLeasingClientCoCode(CLT.LEAS.CO.CODE)=24
+        BzLeasingClientDeptCode(CLT.LEAS.DEPT.CODE)=25
+        BzLeasingClientAuditorCode(CLT.LEAS.AUDITOR.CODE)=26
+        BzLeasingClientAuditDateTime(CLT.LEAS.AUDIT.DATE.TIME)=27
+    }
+}

@@ -1,0 +1,32 @@
+public table LotDestination {
+    t24: LOT.DESTINATION  
+    fields:{ 
+        LotDestinationDescription(LOT.DES.DESCRIPTION)= 1
+        LotDestinationApplicationDest(LOT.DES.APPLICATION.DEST)= 2
+        LotDestinationGenRoutine(LOT.DES.APPL.GEN.ROUTINE)= 3
+        LotDestinationApplTransType(LOT.DES.APPL.TRANS.TYPE)= 4
+        LotDestinationTechAcctCr(LOT.DES.TECH.ACCT.CR)= 5
+        LotDestinationTechAcctDr(LOT.DES.TECH.ACCT.DB)= 6
+        LotDestinationTransactionType(LOT.DES.TRANSACTION.TYPE)= 7
+        LotDestinationCutOffTime(LOT.DES.CUT.OFF.TIME)= 8
+        LotDestinationOutwardRoutine(LOT.DES.OUTWARD.ROUTINE)= 9
+        LotDestinationApplProcessType(LOT.DES.APPL.PROCESS.TYPE)= 10
+        LotDestinationLinkedFtVersion(LOT.DES.LINKED.FT.VERSION)= 11
+        LotDestinationDestLayoutTable(LOT.DES.DEST.LAYOUT.TABLE)= 12
+        LotDestinationDestLayoutId(LOT.DES.DEST.LAYOUT.ID)= 13
+        LotDestinationReserved4(LOT.DES.RESERVED.4)= 14
+        LotDestinationReserved3(LOT.DES.RESERVED.3)= 17
+        LotDestinationReserved2(LOT.DES.RESERVED.2)= 16
+        LotDestinationReserved1(LOT.DES.RESERVED.1)= 18
+        LotDestinationLocalRef(LOT.DES.LOCAL.REF)= 18
+        LotDestinationRecordStatus(LOT.DES.RECORD.STATUS)= 19
+        LotDestinationCurrNo(LOT.DES.CURR.NO)= 20
+        LotDestinationInputter(LOT.DES.INPUTTER)= 21
+        LotDestinationDateTime(LOT.DES.DATE.TIME)= 22
+        LotDestinationAuthoriser(LOT.DES.AUTHORISER)= 23
+        LotDestinationCoCode(LOT.DES.CO.CODE)= 24
+        LotDestinationDeptCode(LOT.DES.DEPT.CODE)= 25
+        LotDestinationAuditorCode(LOT.DES.AUDITOR.CODE)= 26
+		LotDestinationAuditDateTime(LOT.DES.AUDIT.DATE.TIME)= 27
+    }
+}

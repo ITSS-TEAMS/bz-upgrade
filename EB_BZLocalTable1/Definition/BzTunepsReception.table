@@ -1,0 +1,22 @@
+public table BzTunepsReception {
+    t24:  BZ.TUNEPS.RECEPTION
+    fields:{
+        BzTunepsReceptionCode(TUNEPS.RECEP.CODE)=1
+        BzTunepsReceptionDescription(TUNEPS.RECEP.DESCRIPTION)=2
+        BzTunepsReceptionReserved1(TUNEPS.RECEP.RESERVED.1)=3
+        BzTunepsReceptionReserved2(TUNEPS.RECEP.RESERVED.2)=4
+        BzTunepsReceptionReserved3(TUNEPS.RECEP.RESERVED.3)=5
+        BzTunepsReceptionReserved4(TUNEPS.RECEP.RESERVED.4)=6
+        BzTunepsReceptionReserved5(TUNEPS.RECEP.RESERVED.5)=7
+        BzTunepsReceptionOverride(TUNEPS.RECEP.OVERRIDE)=8
+        BzTunepsReceptionRecordStatus(TUNEPS.RECEP.RECORD.STATUS)=9
+        BzTunepsReceptionCurrNo(TUNEPS.RECEP.CURR.NO)=10
+        BzTunepsReceptionInputter(TUNEPS.RECEP.INPUTTER)=11
+        BzTunepsReceptionDateTime(TUNEPS.RECEP.DATE.TIME)=12
+        BzTunepsReceptionAuthoriser(TUNEPS.RECEP.AUTHORISER)=13
+        BzTunepsReceptionCoCode(TUNEPS.RECEP.CO.CODE)=14
+        BzTunepsReceptionDeptCode(TUNEPS.RECEP.DEPT.CODE)=15
+        BzTunepsReceptionAuditorCode(TUNEPS.RECEP.AUDITOR.CODE)=16
+        BzTunepsReceptionAuditDateTime(TUNEPS.RECEP.AUDIT.DATE.TIME)=17
+    }
+}

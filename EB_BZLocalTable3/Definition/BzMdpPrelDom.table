@@ -1,0 +1,45 @@
+public table BzMdpPrelDom {
+    t24:  BZ.MDP.PREL.DOM
+    fields:{
+        BzMdpPrelDomCodeDest(PREL.DOM.CODE.DEST)=1
+        BzMdpPrelDomRibPayeur(PREL.DOM.RIB.PAYEUR)=2
+        BzMdpPrelDomRefDom(PREL.DOM.REF.DOM)=3
+        BzMdpPrelDomTelPayeur(PREL.DOM.TEL.PAYEUR)=4
+        BzMdpPrelDomCodePayeur(PREL.DOM.CODE.PAYEUR)=5
+        BzMdpPrelDomCodeMaj(PREL.DOM.CODE.MAJ)=6
+        BzMdpPrelDomDateContrat(PREL.DOM.DATE.CONTRAT)=7
+        BzMdpPrelDomDateResiliation(PREL.DOM.DATE.RESILIATION)=8
+        BzMdpPrelDomZoneLibre(PREL.DOM.ZONE.LIBRE)=9
+        BzMdpPrelDomLigneRecu(PREL.DOM.LIGNE.RECU)=10
+        BzMdpPrelDomStatut(PREL.DOM.STATUT)=11
+        BzMdpPrelDomDateChargement(PREL.DOM.DATE.CHARGEMENT)=12
+        BzMdpPrelDomRefGlobal(PREL.DOM.REF.GLOBAL)=13
+        BzMdpPrelDomRefChargement(PREL.DOM.REF.CHARGEMENT)=14
+        BzMdpPrelDomFichierEmis(PREL.DOM.FICHIER.EMIS)=15
+        BzMdpPrelDomFichierRecu(PREL.DOM.FICHIER.RECU)=16
+        BzMdpPrelDomDateOperation(PREL.DOM.DATE.OPERATION)=17
+        BzMdpPrelDomDateCompensation(PREL.DOM.DATE.COMPENSATION)=18
+        BzMdpPrelDomNumLot(PREL.DOM.NUM.LOT)=19
+        BzMdpPrelDomCodeEmetteur(PREL.DOM.CODE.EMETTEUR)=20
+        BzMdpPrelDomCodeRestricted(PREL.DOM.CODE.RESTRICTED)=21
+        BzMdpPrelDomAncienRibPay(PREL.DOM.ANCIEN.RIB.PAY)=22
+        BzMdpPrelDomMotifRestrict(PREL.DOM.MOTIF.RESTRICT)=23
+        BzMdpPrelDomDteRest(PREL.DOM.DTE.REST)=24
+        BzMdpPrelDomDteLevRest(PREL.DOM.DTE.LEV.REST)=25
+        BzMdpPrelDomRestricted(PREL.DOM.RESTRICTED)=26
+        BzMdpPrelDomReserved7(PREL.DOM.RESERVED.7)=27
+        BzMdpPrelDomReserved8(PREL.DOM.RESERVED.8)=28
+        BzMdpPrelDomReserved9(PREL.DOM.RESERVED.9)=29
+        BzMdpPrelDomReserved10(PREL.DOM.RESERVED.10)=30
+        BzMdpPrelDomOverride(PREL.DOM.OVERRIDE)=31
+        BzMdpPrelDomRecordStatus(PREL.DOM.RECORD.STATUS)=32
+        BzMdpPrelDomCurrNo(PREL.DOM.CURR.NO)=33
+        BzMdpPrelDomInputter(PREL.DOM.INPUTTER)=34
+        BzMdpPrelDomDateTime(PREL.DOM.DATE.TIME)=35
+        BzMdpPrelDomAuthoriser(PREL.DOM.AUTHORISER)=36
+        BzMdpPrelDomCoCode(PREL.DOM.CO.CODE)=37
+        BzMdpPrelDomDeptCode(PREL.DOM.DEPT.CODE)=38
+        BzMdpPrelDomAuditorCode(PREL.DOM.AUDITOR.CODE)=39
+        BzMdpPrelDomAuditDateTime(PREL.DOM.AUDIT.DATE.TIME)=40
+    }
+}

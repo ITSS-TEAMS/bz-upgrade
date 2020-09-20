@@ -1,0 +1,21 @@
+public table BzMdpRemiseDetail {
+    t24:  BZ.MDP.REMISE.DETAIL
+    fields:{
+        BzMdpRemiseDetailNombreTotal(REM.DET.NOMBRE.TOTAL)=1
+        BzMdpRemiseDetailNombreInter(REM.DET.NOMBRE.INTER)=2
+        BzMdpRemiseDetailNombreIntra(REM.DET.NOMBRE.INTRA)=3
+        BzMdpRemiseDetailStatut(REM.DET.STATUT)=4
+        BzMdpRemiseDetailGenerer(REM.DET.GENERER)=5
+        BzMdpRemiseDetailCodeValeur(REM.DET.CODE.VALEUR)=6
+        BzMdpRemiseDetailIdRegistre(REM.DET.ID.REGISTRE)=7
+        BzMdpRemiseDetailRecordStatus(REM.DET.RECORD.STATUS)=8
+        BzMdpRemiseDetailCurrNo(REM.DET.CURR.NO)=9
+        BzMdpRemiseDetailInputter(REM.DET.INPUTTER)=10
+        BzMdpRemiseDetailDateTime(REM.DET.DATE.TIME)=11
+        BzMdpRemiseDetailAuthoriser(REM.DET.AUTHORISER)=12
+        BzMdpRemiseDetailCoCode(REM.DET.CO.CODE)=13
+        BzMdpRemiseDetailDeptCode(REM.DET.DEPT.CODE)=14
+        BzMdpRemiseDetailAuditorCode(REM.DET.AUDITOR.CODE)=15
+        BzMdpRemiseDetailAuditDateTime(REM.DET.AUDIT.DATE.TIME)=16
+    }
+}

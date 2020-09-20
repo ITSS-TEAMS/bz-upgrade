@@ -1,0 +1,22 @@
+public table BzAvaMvmtStatut {
+    t24:  BZ.AVA.MVMT.STATUT
+    fields:{
+        BzAvaMvmtStatutDescription(MVT.STT.DESCRIPTION)=1
+        BzAvaMvmtStatutReserved1(MVT.STT.RESERVED1)=2
+        BzAvaMvmtStatutReserved2(MVT.STT.RESERVED2)=3
+        BzAvaMvmtStatutReserved3(MVT.STT.RESERVED3)=4
+        BzAvaMvmtStatutReserved4(MVT.STT.RESERVED4)=5
+        BzAvaMvmtStatutReserved5(MVT.STT.RESERVED5)=6
+        BzAvaMvmtStatutLocalRef(MVT.STT.LOCAL.REF)=7
+        BzAvaMvmtStatutOverride(MVT.STT.OVERRIDE)=8
+        BzAvaMvmtStatutRecordStatus(MVT.STT.RECORD.STATUS)=9
+        BzAvaMvmtStatutCurrNo(MVT.STT.CURR.NO)=10
+        BzAvaMvmtStatutInputter(MVT.STT.INPUTTER)=11
+        BzAvaMvmtStatutDateTime(MVT.STT.DATE.TIME)=12
+        BzAvaMvmtStatutAuthoriser(MVT.STT.AUTHORISER)=13
+        BzAvaMvmtStatutCoCode(MVT.STT.CO.CODE)=14
+        BzAvaMvmtStatutDeptCode(MVT.STT.DEPT.CODE)=15
+        BzAvaMvmtStatutAuditorCode(MVT.STT.AUDITOR.CODE)=16
+        BzAvaMvmtStatutAuditDateTime(MVT.STT.AUDIT.DATE.TIME)=17
+    }
+}

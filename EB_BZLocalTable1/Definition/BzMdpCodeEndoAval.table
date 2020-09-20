@@ -1,0 +1,17 @@
+public table BzMdpCodeEndoAval {
+    t24:  BZ.MDP.CODE.ENDO.AVAL
+    fields:{
+        BzMdpCodeEndoAvalDescription(COD.ENDO.DESCRIPTION)=1
+        BzMdpCodeEndoAvalLocalRef(COD.ENDO.LOCAL.REF)=2
+        BzMdpCodeEndoAvalOverride(COD.ENDO.OVERRIDE)=3
+        BzMdpCodeEndoAvalRecordStatus(COD.ENDO.RECORD.STATUS)=4
+        BzMdpCodeEndoAvalCurrNo(COD.ENDO.CURR.NO)=5
+        BzMdpCodeEndoAvalInputter(COD.ENDO.INPUTTER)=6
+        BzMdpCodeEndoAvalDateTime(COD.ENDO.DATE.TIME)=7
+        BzMdpCodeEndoAvalAuthoriser(COD.ENDO.AUTHORISER)=8
+        BzMdpCodeEndoAvalCoCode(COD.ENDO.CO.CODE)=9
+        BzMdpCodeEndoAvalDeptCode(COD.ENDO.DEPT.CODE)=10
+        BzMdpCodeEndoAvalAuditorCode(COD.ENDO.AUDITOR.CODE)=11
+        BzMdpCodeEndoAvalAuditDateTime(COD.ENDO.AUDIT.DATE.TIME)=12
+    }
+}

@@ -1,0 +1,16 @@
+public table BzMdpChqScanControl {
+    t24:  BZ.MDP.CHQ.SCAN.CONTROL
+    fields:{
+        BzMdpChqScanControlDateScan(CHQ.CTRL.DATE.SCAN)=1
+        BzMdpChqScanControlOverride(CHQ.CTRL.OVERRIDE)=2
+        BzMdpChqScanControlRecordStatus(CHQ.CTRL.RECORD.STATUS)=3
+        BzMdpChqScanControlCurrNo(CHQ.CTRL.CURR.NO)=4
+        BzMdpChqScanControlInputter(CHQ.CTRL.INPUTTER)=5
+        BzMdpChqScanControlDateTime(CHQ.CTRL.DATE.TIME)=6
+        BzMdpChqScanControlAuthoriser(CHQ.CTRL.AUTHORISER)=7
+        BzMdpChqScanControlCoCode(CHQ.CTRL.CO.CODE)=8
+        BzMdpChqScanControlDeptCode(CHQ.CTRL.DEPT.CODE)=9
+        BzMdpChqScanControlAuditorCode(CHQ.CTRL.AUDITOR.CODE)=10
+        BzMdpChqScanControlAuditDateTime(CHQ.CTRL.AUDIT.DATE.TIME)=11
+    }
+}

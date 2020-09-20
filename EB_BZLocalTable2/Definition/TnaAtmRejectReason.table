@@ -1,0 +1,17 @@
+public table TnaAtmRejectReason {
+    t24:  TNA.ATM.REJECT.REASON
+    fields:{
+        TnaAtmRejectReasonDescription(ATM.DESCRIPTION)=1
+        TnaAtmRejectReasonLocalRef(ATM.LOCAL.REF)=2
+        TnaAtmRejectReasonOverride(ATM.OVERRIDE)=3
+        TnaAtmRejectReasonRecordStatus(ATM.RECORD.STATUS)=4
+        TnaAtmRejectReasonCurrNo(ATM.CURR.NO)=5
+        TnaAtmRejectReasonInputter(ATM.INPUTTER)=6
+        TnaAtmRejectReasonDateTime(ATM.DATE.TIME)=7
+        TnaAtmRejectReasonAuthoriser(ATM.AUTHORISER)=8
+        TnaAtmRejectReasonCoCode(ATM.CO.CODE)=9
+        TnaAtmRejectReasonDeptCode(ATM.DEPT.CODE)=10
+        TnaAtmRejectReasonAuditorCode(ATM.AUDITOR.CODE)=11
+        TnaAtmRejectReasonAuditDateTime(ATM.AUDIT.DATE.TIME)=12
+    }
+}

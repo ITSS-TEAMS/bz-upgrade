@@ -1,0 +1,29 @@
+public table LotFiles {
+t24:  LOT.FILES
+fields:{
+
+        LotFilesFileName(LOT.FIL.FILE.NAME) = 1  
+	    LotFilesProcessDate(LOT.FIL.PROCESS.DATE) = 2  
+        LotFilesProcessTime(LOT.FIL.PROCESS.TIME) = 3  
+        LotFilesFileHeader(LOT.FIL.FILE.HEADER) = 4   
+        LotFilesRemHeader(LOT.FIL.REM.HEADER) = 5  
+	    LotFilesCfobLayout(LOT.FIL.CFONB.LAYOUT) = 6 
+        LotFilesGivenNbOfRec(LOT.FIL.GIVEN.NB.OF.REC) = 7 
+        LotFilesGivenAmount(LOT.FIL.GIVEN.AMOUNT) = 8   
+        LotFilesFoundNbOfRec(LOT.FIL.FOUND.NB.OF.REC) = 9 
+        LotFilesFoundAmount(LOT.FIL.FOUND.AMOUNT) = 10 
+        LotFilesLotDetailId(LOT.FIL.LOT.DETAIL.ID) = 11
+        LotFilesRemStmtNos(LOT.FIL.REM.STMT.NOS) = 12
+        LotFilesRemComment(LOT.FIL.REM.COMMENT) = 13 
+	    LotFilesRemTrailer(LOT.FIL.REM.TRAILER) = 14
+        LotFilesFileTrailer(LOT.FIL.FILE.TRAILER) = 15 
+        LotFilesContractId(LOT.FIL.CONTRACT.ID) = 16
+        LotFilesReserved5(LOT.FIL.RESERVED.5) = 17 
+	    LotFilesReserved4(LOT.FIL.RESERVED.4) = 18 
+        LotFilesReserved3(LOT.FIL.RESERVED.3) = 19  
+	    LotFilesReserved2(LOT.FIL.RESERVED.2) = 20 
+        LotFilesReserved1(LOT.FIL.RESERVED.1) = 21  
+	    LotFilesLocalRef(LOT.FIL.LOCAL.REF) = 22
+ 
+}
+}

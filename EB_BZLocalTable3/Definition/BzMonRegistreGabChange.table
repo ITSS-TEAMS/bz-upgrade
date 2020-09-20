@@ -1,0 +1,46 @@
+public table BzMonRegistreGabChange {
+    t24:  BZ.MON.REGISTRE.GAB.CHANGE
+    fields:{
+        BzMonRegistreGabChangeTermId(MON.CHG.TERM.ID)=1
+        BzMonRegistreGabChangeTermName(MON.CHG.TERM.NAME)=2
+        BzMonRegistreGabChangeTransType(MON.CHG.TRANS.TYPE)=3
+        BzMonRegistreGabChangeTransCode(MON.CHG.TRANS.CODE)=4
+        BzMonRegistreGabChangeTransSeq(MON.CHG.TRANS.SEQ)=5
+        BzMonRegistreGabChangeTransDate(MON.CHG.TRANS.DATE)=6
+        BzMonRegistreGabChangeCcyCode1(MON.CHG.CCY.CODE.1)=7
+        BzMonRegistreGabChangeAmtDep1(MON.CHG.AMT.DEP.1)=8
+        BzMonRegistreGabChangeConvRate1(MON.CHG.CONV.RATE.1)=9
+        BzMonRegistreGabChangeConvAmt1(MON.CHG.CONV.AMT.1)=10
+        BzMonRegistreGabChangeCcyCode2(MON.CHG.CCY.CODE.2)=11
+        BzMonRegistreGabChangeAmtDep2(MON.CHG.AMT.DEP.2)=12
+        BzMonRegistreGabChangeConvRate2(MON.CHG.CONV.RATE.2)=13
+        BzMonRegistreGabChangeConvAmt2(MON.CHG.CONV.AMT.2)=14
+        BzMonRegistreGabChangeTransStatus(MON.CHG.TRANS.STATUS)=15
+        BzMonRegistreGabChangeCassCount1(MON.CHG.CASS.COUNT.1)=16
+        BzMonRegistreGabChangeCassCount2(MON.CHG.CASS.COUNT.2)=17
+        BzMonRegistreGabChangeHopCount1(MON.CHG.HOP.COUNT.1)=18
+        BzMonRegistreGabChangeHopCount2(MON.CHG.HOP.COUNT.2)=19
+        BzMonRegistreGabChangeReserved(MON.CHG.RESERVED)=20
+        BzMonRegistreGabChangeCcyComAmt(MON.CHG.CCY.COM.AMT)=21
+        BzMonRegistreGabChangeComAmt(MON.CHG.COM.AMT)=22
+        BzMonRegistreGabChangeCcyNetAmt(MON.CHG.CCY.NET.AMT)=23
+        BzMonRegistreGabChangeNetAmt(MON.CHG.NET.AMT)=24
+        BzMonRegistreGabChangeCcyDispAmt(MON.CHG.CCY.DISP.AMT)=25
+        BzMonRegistreGabChangeDispAmt(MON.CHG.DISP.AMT)=26
+        BzMonRegistreGabChangeDateChargement(MON.CHG.DATE.CHARGEMENT)=27
+        BzMonRegistreGabChangeFichierRecu(MON.CHG.FICHIER.RECU)=28
+        BzMonRegistreGabChangeStatut(MON.CHG.STATUT)=29
+        BzMonRegistreGabChangeRefTrans1(MON.CHG.REF.TRANS.1)=30
+        BzMonRegistreGabChangeRefTrans2(MON.CHG.REF.TRANS.2)=31
+        BzMonRegistreGabChangeRefTransPl(MON.CHG.REF.TRANS.PL)=32
+        BzMonRegistreGabChangeRecordStatus(MON.CHG.RECORD.STATUS)=33
+        BzMonRegistreGabChangeCurrNo(MON.CHG.CURR.NO)=34
+        BzMonRegistreGabChangeInputter(MON.CHG.INPUTTER)=35
+        BzMonRegistreGabChangeDateTime(MON.CHG.DATE.TIME)=36
+        BzMonRegistreGabChangeAuthoriser(MON.CHG.AUTHORISER)=37
+        BzMonRegistreGabChangeCoCode(MON.CHG.CO.CODE)=38
+        BzMonRegistreGabChangeDeptCode(MON.CHG.DEPT.CODE)=39
+        BzMonRegistreGabChangeAuditorCode(MON.CHG.AUDITOR.CODE)=40
+        BzMonRegistreGabChangeAuditDateTime(MON.CHG.AUDIT.DATE.TIME)=41
+    }
+}

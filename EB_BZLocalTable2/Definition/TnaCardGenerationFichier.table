@@ -1,0 +1,19 @@
+public table TnaCardGenerationFichier {
+        t24:  TNA.CARD.GENERATION.FICHIER
+        fields:{
+            TnaCardGenerationFichierAllBatch(GENERATION.ALL.BATCH)=1
+            TnaCardGenerationFichierBatchNum(GENERATION.BATCH.NUM)=2
+            TnaCardGenerationFichierNomRepertoire(GENERATION.NOM.REPERTOIRE)=3
+            TnaCardGenerationFichierLocalRef(GENERATION.LOCAL.REF)=4
+            TnaCardGenerationFichierOverride(GENERATION.OVERRIDE)=5
+            TnaCardGenerationFichierRecordStatus(GENERATION.RECORD.STATUS)=6
+            TnaCardGenerationFichierCurrNo(GENERATION.CURR.NO)=7
+            TnaCardGenerationFichierInputter(GENERATION.INPUTTER)=8
+            TnaCardGenerationFichierDateTime(GENERATION.DATE.TIME)=9
+            TnaCardGenerationFichierAuthoriser(GENERATION.AUTHORISER)=10
+            TnaCardGenerationFichierCoCode(GENERATION.CO.CODE)=11
+            TnaCardGenerationFichierDeptCode(GENERATION.DEPT.CODE)=12
+            TnaCardGenerationFichierAuditorCode(GENERATION.AUDITOR.CODE)=13
+            TnaCardGenerationFichierAuditDateTime(GENERATION.AUDIT.DATE.TIME)=14
+        }
+    }

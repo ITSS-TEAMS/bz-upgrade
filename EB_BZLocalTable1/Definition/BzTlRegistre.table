@@ -1,0 +1,34 @@
+public table BzTlRegistre {
+    t24:  BZ.TL.REGISTRE
+    fields:{
+        BzTlRegistreBanqueAcquereur(REG.TL.BANQUE.ACQUEREUR)=1
+        BzTlRegistreRefDab(REG.TL.REF.DAB)=2
+        BzTlRegistreBanqueEmetteur(REG.TL.BANQUE.EMETTEUR)=3
+        BzTlRegistreTypeMessage(REG.TL.TYPE.MESSAGE)=4
+        BzTlRegistreDateTrans(REG.TL.DATE.TRANS)=5
+        BzTlRegistreHeure(REG.TL.HEURE)=6
+        BzTlRegistreMontant(REG.TL.MONTANT)=7
+        BzTlRegistreResponseCode(REG.TL.RESPONSE.CODE)=8
+        BzTlRegistreDateCloture(REG.TL.DATE.CLOTURE)=9
+        BzTlRegistreStatut(REG.TL.STATUT)=10
+        BzTlRegistreRefFichier(REG.TL.REF.FICHIER)=11
+        BzTlRegistreDateChargement(REG.TL.DATE.CHARGEMENT)=12
+        BzTlRegistreReserved4(REG.TL.RESERVED4)=13
+        BzTlRegistreReserved5(REG.TL.RESERVED5)=14
+        BzTlRegistreReserved6(REG.TL.RESERVED6)=15
+        BzTlRegistreReserved7(REG.TL.RESERVED7)=16
+        BzTlRegistreReserved8(REG.TL.RESERVED8)=17
+        BzTlRegistreReserved9(REG.TL.RESERVED9)=18
+        BzTlRegistreReserved10(REG.TL.RESERVED10)=19
+        BzTlRegistreOverride(REG.TL.OVERRIDE)=20
+        BzTlRegistreRecordStatus(REG.TL.RECORD.STATUS)=21
+        BzTlRegistreCurrNo(REG.TL.CURR.NO)=22
+        BzTlRegistreInputter(REG.TL.INPUTTER)=23
+        BzTlRegistreDateTime(REG.TL.DATE.TIME)=24
+        BzTlRegistreAuthoriser(REG.TL.AUTHORISER)=25
+        BzTlRegistreCoCode(REG.TL.CO.CODE)=26
+        BzTlRegistreDeptCode(REG.TL.DEPT.CODE)=27
+        BzTlRegistreAuditorCode(REG.TL.AUDITOR.CODE)=28
+        BzTlRegistreAuditDateTime(REG.TL.AUDIT.DATE.TIME)=29
+    }
+}

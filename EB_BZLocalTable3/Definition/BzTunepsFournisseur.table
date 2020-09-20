@@ -1,0 +1,36 @@
+public table BzTunepsFournisseur {
+    t24:  BZ.TUNEPS.FOURNISSEUR
+    fields:{
+        BzTunepsFournisseurHeureRecu(TUNEPS.FRS.HEURE.RECU)=1
+        BzTunepsFournisseurCodeResultat(TUNEPS.FRS.CODE.RESULTAT)=2
+        BzTunepsFournisseurMessageResultat(TUNEPS.FRS.MESSAGE.RESULTAT)=3
+        BzTunepsFournisseurIdTransmission(TUNEPS.FRS.ID.TRANSMISSION)=4
+        BzTunepsFournisseurRaisonSociale(TUNEPS.FRS.RAISON.SOCIALE)=5
+        BzTunepsFournisseurNumTuneps(TUNEPS.FRS.NUM.TUNEPS)=6
+        BzTunepsFournisseurNomGerant(TUNEPS.FRS.NOM.GERANT)=7
+        BzTunepsFournisseurCodeStructure(TUNEPS.FRS.CODE.STRUCTURE)=8
+        BzTunepsFournisseurDateCreation(TUNEPS.FRS.DATE.CREATION)=9
+        BzTunepsFournisseurAdresse(TUNEPS.FRS.ADRESSE)=10
+        BzTunepsFournisseurCodePostal(TUNEPS.FRS.CODE.POSTAL)=11
+        BzTunepsFournisseurNumTel(TUNEPS.FRS.NUM.TEL)=12
+        BzTunepsFournisseurNumFax(TUNEPS.FRS.NUM.FAX)=13
+        BzTunepsFournisseurSiteWeb(TUNEPS.FRS.SITE.WEB)=14
+        BzTunepsFournisseurEmail(TUNEPS.FRS.EMAIL)=15
+        BzTunepsFournisseurDateEnreg(TUNEPS.FRS.DATE.ENREG)=16
+        BzTunepsFournisseurNomStucture(TUNEPS.FRS.NOM.STUCTURE)=17
+        BzTunepsFournisseurReserved2(TUNEPS.FRS.RESERVED.2)=18
+        BzTunepsFournisseurReserved3(TUNEPS.FRS.RESERVED.3)=19
+        BzTunepsFournisseurReserved4(TUNEPS.FRS.RESERVED.4)=20
+        BzTunepsFournisseurReserved5(TUNEPS.FRS.RESERVED.5)=21
+        BzTunepsFournisseurOverride(TUNEPS.FRS.OVERRIDE)=22
+        BzTunepsFournisseurRecordStatus(TUNEPS.FRS.RECORD.STATUS)=23
+        BzTunepsFournisseurCurrNo(TUNEPS.FRS.CURR.NO)=24
+        BzTunepsFournisseurInputter(TUNEPS.FRS.INPUTTER)=25
+        BzTunepsFournisseurDateTime(TUNEPS.FRS.DATE.TIME)=26
+        BzTunepsFournisseurAuthoriser(TUNEPS.FRS.AUTHORISER)=27
+        BzTunepsFournisseurCoCode(TUNEPS.FRS.CO.CODE)=28
+        BzTunepsFournisseurDeptCode(TUNEPS.FRS.DEPT.CODE)=29
+        BzTunepsFournisseurAuditorCode(TUNEPS.FRS.AUDITOR.CODE)=30
+        BzTunepsFournisseurAuditDateTime(TUNEPS.FRS.AUDIT.DATE.TIME)=31
+    }
+}

@@ -1,0 +1,42 @@
+public table BzFactureIjara {
+    t24:  BZ.FACTURE.IJARA
+    fields:{
+        BzFactureIjaraNumCpte(FACT.NUM.CPTE)=1
+        BzFactureIjaraCodeClient(FACT.CODE.CLIENT)=2
+        BzFactureIjaraAgence(FACT.AGENCE)=3
+        BzFactureIjaraDateOperation(FACT.DATE.OPERATION)=4
+        BzFactureIjaraDateGeneration(FACT.DATE.GENERATION)=5
+        BzFactureIjaraNomClient(FACT.NOM.CLIENT)=6
+        BzFactureIjaraAdresse(FACT.ADRESSE)=7
+        BzFactureIjaraMatFiscale(FACT.MAT.FISCALE)=8
+        BzFactureIjaraNumContrat(FACT.NUM.CONTRAT)=9
+        BzFactureIjaraNumFacture(FACT.NUM.FACTURE)=10
+        BzFactureIjaraMois(FACT.MOIS)=11
+        BzFactureIjaraDateEmission(FACT.DATE.EMISSION)=12
+        BzFactureIjaraDateEcheance(FACT.DATE.ECHEANCE)=13
+        BzFactureIjaraPeriodeDu(FACT.PERIODE.DU)=14
+        BzFactureIjaraPeriodeAu(FACT.PERIODE.AU)=15
+        BzFactureIjaraDescBien(FACT.DESC.BIEN)=16
+        BzFactureIjaraMontantPrinc(FACT.MONTANT.PRINC)=17
+        BzFactureIjaraMontantPrft(FACT.MONTANT.PRFT)=18
+        BzFactureIjaraMontantLoyerHt(FACT.MONTANT.LOYER.HT)=19
+        BzFactureIjaraMontantTva(FACT.MONTANT.TVA)=20
+        BzFactureIjaraMontantTtc(FACT.MONTANT.TTC)=21
+        BzFactureIjaraMontantCommEch(FACT.MONTANT.COMM.ECH)=22
+        BzFactureIjaraMontantTvaEch(FACT.MONTANT.TVA.ECH)=23
+        BzFactureIjaraMontantTimbre(FACT.MONTANT.TIMBRE)=24
+        BzFactureIjaraFraisPortLettre(FACT.FRAIS.PORT.LETTRE)=25
+        BzFactureIjaraMontantTotPayer(FACT.MONTANT.TOT.PAYER)=26
+        BzFactureIjaraMontantTotLettre(FACT.MONTANT.TOT.LETTRE)=27
+        BzFactureIjaraMontantTakaful(FACT.MONTANT.TAKAFUL)=28
+        BzFactureIjaraRecordStatus(FACT.RECORD.STATUS)=29
+        BzFactureIjaraCurrNo(FACT.CURR.NO)=30
+        BzFactureIjaraInputter(FACT.INPUTTER)=31
+        BzFactureIjaraDateTime(FACT.DATE.TIME)=32
+        BzFactureIjaraAuthoriser(FACT.AUTHORISER)=33
+        BzFactureIjaraCoCode(FACT.CO.CODE)=34
+        BzFactureIjaraDeptCode(FACT.DEPT.CODE)=35
+        BzFactureIjaraAuditorCode(FACT.AUDITOR.CODE)=36
+        BzFactureIjaraAuditDateTime(FACT.AUDIT.DATE.TIME)=37
+    }
+} 

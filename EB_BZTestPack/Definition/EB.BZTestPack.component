@@ -1,0 +1,54 @@
+component EB.BZTestPack
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+# ZIT-UPG-R09-R20 / E
+private method bzAvaCreateMvmt (
+    INOUT REF.AVA string,
+    INOUT TYPE.AVA string,
+    INOUT BENEFICIARE string,
+    INOUT SENS string,
+    INOUT LIBELLE string,
+    INOUT REF.MVMT string,
+    INOUT DATE.MOUVEMENT string,
+    INOUT MONTANT.TND string,
+    INOUT ORIGINE.FOND string,
+    INOUT BASE.CALCUL string,
+    INOUT DATE.DEPART string,
+    INOUT DATE.RETOUR string,
+    INOUT TRANS.CUMULE string,
+    INOUT DROIT.CUMULE string,
+    INOUT RESERVE3 string,
+    INOUT REF.MVMT.CR.BBE string
+
+    ){
+        jBC: BZ.AVA.CREATE.MVMT
+    }
+    private method bzCalcTauxEqFinDeviseChreq (
+
+        ){
+            jBC: BZ.CALC.TAUX.EQ.FIN.DEVISE.CHREQ
+        }
+        private method bzDemandeIsbFields (
+
+            ){
+                jBC: BZ.DEMANDE.ISB.FIELDS
+            }
+            private method bzIsOfsDetailsFields (
+
+                ){
+                    jBC: BZ.IS.OFS.DETAILS.FIELDS
+                }
+                private method cecOutwardPending (
+
+                    ){
+                        jBC: CEC.OUTWARD.PENDING
+                    }
+                    private method testTrim (
+
+                        ){
+                            jBC: TEST.TRIM
+                        }
+
+                        # ZIT-UPG-R09-R20 / S
+

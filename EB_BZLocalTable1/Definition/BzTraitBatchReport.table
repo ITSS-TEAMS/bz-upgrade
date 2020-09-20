@@ -1,0 +1,21 @@
+public table BzTraitBatchReport {
+    t24:  BZ.TRAIT.BATCH.REPORT
+    fields:{
+        BzTraitBatchReportDescription(BCH.REP.DESCRIPTION)=1
+        BzTraitBatchReportTraitBatch(BCH.REP.TRAIT.BATCH)=2
+        BzTraitBatchReportDateExecution(BCH.REP.DATE.EXECUTION)=3
+        BzTraitBatchReportDebutExecution(BCH.REP.DEBUT.EXECUTION)=4
+        BzTraitBatchReportFinExecution(BCH.REP.FIN.EXECUTION)=5
+        BzTraitBatchReportStatutTraitemnt(BCH.REP.STATUT.TRAITEMNT)=6
+        BzTraitBatchReportMessageErreur(BCH.REP.MESSAGE.ERREUR)=7
+        BzTraitBatchReportRecordStatus(BCH.REP.RECORD.STATUS)=8
+        BzTraitBatchReportCurrNo(BCH.REP.CURR.NO)=9
+        BzTraitBatchReportInputter(BCH.REP.INPUTTER)=10
+        BzTraitBatchReportDateTime(BCH.REP.DATE.TIME)=11
+        BzTraitBatchReportAuthoriser(BCH.REP.AUTHORISER)=12
+        BzTraitBatchReportCoCode(BCH.REP.CO.CODE)=13
+        BzTraitBatchReportDeptCode(BCH.REP.DEPT.CODE)=14
+        BzTraitBatchReportAuditorCode(BCH.REP.AUDITOR.CODE)=15
+        BzTraitBatchReportAuditDateTime(BCH.REP.AUDIT.DATE.TIME)=16
+    }
+}

@@ -1,0 +1,21 @@
+public table BzZitTamkeenRegistre {
+    t24:  BZ.ZIT.TAMKEEN.REGISTRE
+    fields:{
+        BzZitTamkeenRegistrePieceId(FICH.ZT.PIECE.ID)=1
+        BzZitTamkeenRegistreCodePjt(FICH.ZT.CODE.PJT)=2
+        BzZitTamkeenRegistreNomPrenom(FICH.ZT.NOM.PRENOM)=3
+        BzZitTamkeenRegistreReferenceFichier(FICH.ZT.REFERENCE.FICHIER)=4
+        BzZitTamkeenRegistreStatut(FICH.ZT.STATUT)=5
+        BzZitTamkeenRegistreReserved1(FICH.ZT.RESERVED.1)=6
+        BzZitTamkeenRegistreReserved2(FICH.ZT.RESERVED.2)=7
+        BzZitTamkeenRegistreRecordStatus(FICH.ZT.RECORD.STATUS)=8
+        BzZitTamkeenRegistreCurrNo(FICH.ZT.CURR.NO)=9
+        BzZitTamkeenRegistreInputter(FICH.ZT.INPUTTER)=10
+        BzZitTamkeenRegistreDateTime(FICH.ZT.DATE.TIME)=11
+        BzZitTamkeenRegistreAuthoriser(FICH.ZT.AUTHORISER)=12
+        BzZitTamkeenRegistreCoCode(FICH.ZT.CO.CODE)=13
+        BzZitTamkeenRegistreDeptCode(FICH.ZT.DEPT.CODE)=14
+        BzZitTamkeenRegistreAuditorCode(FICH.ZT.AUDITOR.CODE)=15
+        BzZitTamkeenRegistreAuditDateTime(FICH.ZT.AUDIT.DATE.TIME)=16
+    }
+}

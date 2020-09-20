@@ -1,0 +1,17 @@
+public table BzSedNatureOperation {
+    t24:  BZ.SED.NATURE.OPERATION
+    fields:{
+        BzSedNatureOperationDescription(NATOP.DESCRIPTION)=1
+        BzSedNatureOperationLocalRef(NATOP.LOCAL.REF)=2
+        BzSedNatureOperationOverride(NATOP.OVERRIDE)=3
+        BzSedNatureOperationRecordStatus(NATOP.RECORD.STATUS)=4
+        BzSedNatureOperationCurrNo(NATOP.CURR.NO)=5
+        BzSedNatureOperationInputter(NATOP.INPUTTER)=6
+        BzSedNatureOperationDateTime(NATOP.DATE.TIME)=7
+        BzSedNatureOperationAuthoriser(NATOP.AUTHORISER)=8
+        BzSedNatureOperationCoCode(NATOP.CO.CODE)=9
+        BzSedNatureOperationDeptCode(NATOP.DEPT.CODE)=10
+        BzSedNatureOperationAuditorCode(NATOP.AUDITOR.CODE)=11
+        BzSedNatureOperationAuditDateTime(NATOP.AUDIT.DATE.TIME)=12
+    }
+}

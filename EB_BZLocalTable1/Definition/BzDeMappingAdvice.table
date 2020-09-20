@@ -1,0 +1,27 @@
+public table BzDeMappingAdvice {
+    t24:  BZ.DE.MAPPING.ADVICE
+    fields:{
+        BzDeMappingAdviceType(DE.MAP.TYPE)=1
+        BzDeMappingAdviceZone(DE.MAP.ZONE)=2
+        BzDeMappingAdviceLibelle(DE.MAP.LIBELLE)=3
+        BzDeMappingAdviceValue(DE.MAP.VALUE)=4
+        BzDeMappingAdviceConversion(DE.MAP.CONVERSION)=5
+        BzDeMappingAdviceRoutine(DE.MAP.ROUTINE)=6
+        BzDeMappingAdviceTable(DE.MAP.TABLE)=7
+        BzDeMappingAdviceSelection(DE.MAP.SELECTION)=8
+        BzDeMappingAdviceOperand(DE.MAP.OPERAND)=9
+        BzDeMappingAdviceSelValue(DE.MAP.SEL.VALUE)=10
+        BzDeMappingAdviceActive(DE.MAP.ACTIVE)=11
+        BzDeMappingAdviceBuildRoutine(DE.MAP.BUILD.ROUTINE)=12
+        BzDeMappingAdviceOverride(DE.MAP.OVERRIDE)=13
+        BzDeMappingAdviceRecordStatus(DE.MAP.RECORD.STATUS)=14
+        BzDeMappingAdviceCurrNo(DE.MAP.CURR.NO)=15
+        BzDeMappingAdviceInputter(DE.MAP.INPUTTER)=16
+        BzDeMappingAdviceDateTime(DE.MAP.DATE.TIME)=17
+        BzDeMappingAdviceAuthoriser(DE.MAP.AUTHORISER)=18
+        BzDeMappingAdviceCoCode(DE.MAP.CO.CODE)=19
+        BzDeMappingAdviceDeptCode(DE.MAP.DEPT.CODE)=20
+        BzDeMappingAdviceAuditorCode(DE.MAP.AUDITOR.CODE)=21
+        BzDeMappingAdviceAuditDateTime(DE.MAP.AUDIT.DATE.TIME)=22
+    }
+}

@@ -1,0 +1,17 @@
+public table BzCodeBic {
+    t24:  BZ.CODE.BIC
+    fields:{
+        BzCodeBicRib(BZ.BIC.RIB)=1
+        BzCodeBicLocalRef(BZ.BIC.LOCAL.REF)=2
+        BzCodeBicOverride(BZ.BIC.OVERRIDE)=3
+        BzCodeBicRecordStatus(BZ.BIC.RECORD.STATUS)=4
+        BzCodeBicCurrNo(BZ.BIC.CURR.NO)=5
+        BzCodeBicInputter(BZ.BIC.INPUTTER)=6
+        BzCodeBicDateTime(BZ.BIC.DATE.TIME)=7
+        BzCodeBicAuthoriser(BZ.BIC.AUTHORISER)=8
+        BzCodeBicCoCode(BZ.BIC.CO.CODE)=9
+        BzCodeBicDeptCode(BZ.BIC.DEPT.CODE)=10
+        BzCodeBicAuditorCode(BZ.BIC.AUDITOR.CODE)=11
+        BzCodeBicAuditDateTime(BZ.BIC.AUDIT.DATE.TIME)=12
+    }
+}

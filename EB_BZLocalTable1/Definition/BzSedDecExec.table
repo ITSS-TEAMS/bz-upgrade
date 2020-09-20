@@ -1,0 +1,33 @@
+public table BzSedDecExec {
+    t24:  BZ.SED.DEC.EXEC
+    fields:{
+        BzSedDecExecDeclaration(SED.EXEC.DECLARATION)=1
+        BzSedDecExecDateOperation(SED.EXEC.DATE.OPERATION)=2
+        BzSedDecExecMessage(SED.EXEC.MESSAGE)=3
+        BzSedDecExecFichDeclaration(SED.EXEC.FICH.DECLARATION)=4
+        BzSedDecExecDomaine(SED.EXEC.DOMAINE)=5
+        BzSedDecExecStatut(SED.EXEC.STATUT)=6
+        BzSedDecExecDateDebut(SED.EXEC.DATE.DEBUT)=7
+        BzSedDecExecDateFin(SED.EXEC.DATE.FIN)=8
+        BzSedDecExecMoisDec(SED.EXEC.MOIS.DEC)=9
+        BzSedDecExecReserved2(SED.EXEC.RESERVED.2)=10
+        BzSedDecExecReserved3(SED.EXEC.RESERVED.3)=11
+        BzSedDecExecReserved4(SED.EXEC.RESERVED.4)=12
+        BzSedDecExecReserved5(SED.EXEC.RESERVED.5)=13
+        BzSedDecExecReserved6(SED.EXEC.RESERVED.6)=14
+        BzSedDecExecReserved7(SED.EXEC.RESERVED.7)=15
+        BzSedDecExecReserved8(SED.EXEC.RESERVED.8)=16
+        BzSedDecExecReserved9(SED.EXEC.RESERVED.9)=17
+        BzSedDecExecReserved10(SED.EXEC.RESERVED.10)=18
+        BzSedDecExecOverride(SED.EXEC.OVERRIDE)=19
+        BzSedDecExecRecordStatus(SED.EXEC.RECORD.STATUS)=20
+        BzSedDecExecCurrNo(SED.EXEC.CURR.NO)=21
+        BzSedDecExecInputter(SED.EXEC.INPUTTER)=22
+        BzSedDecExecDateTime(SED.EXEC.DATE.TIME)=23
+        BzSedDecExecAuthoriser(SED.EXEC.AUTHORISER)=24
+        BzSedDecExecCoCode(SED.EXEC.CO.CODE)=25
+        BzSedDecExecDeptCode(SED.EXEC.DEPT.CODE)=26
+        BzSedDecExecAuditorCode(SED.EXEC.AUDITOR.CODE)=27
+        BzSedDecExecAuditDateTime(SED.EXEC.AUDIT.DATE.TIME)=28
+    }
+}

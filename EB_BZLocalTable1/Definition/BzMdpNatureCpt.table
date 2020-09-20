@@ -1,0 +1,16 @@
+public table BzMdpNatureCpt {
+    t24:  BZ.MDP.NATURE.CPT
+    fields:{
+        BzMdpNatureCptDesignation(NAT.CPT.DESIGNATION)=1
+        BzMdpNatureCptOverride(NAT.CPT.OVERRIDE)=2
+        BzMdpNatureCptRecordStatus(NAT.CPT.RECORD.STATUS)=3
+        BzMdpNatureCptCurrNo(NAT.CPT.CURR.NO)=4
+        BzMdpNatureCptInputter(NAT.CPT.INPUTTER)=5
+        BzMdpNatureCptDateTime(NAT.CPT.DATE.TIME)=6
+        BzMdpNatureCptAuthoriser(NAT.CPT.AUTHORISER)=7
+        BzMdpNatureCptCoCode(NAT.CPT.CO.CODE)=8
+        BzMdpNatureCptDeptCode(NAT.CPT.DEPT.CODE)=9
+        BzMdpNatureCptAuditorCode(NAT.CPT.AUDITOR.CODE)=10
+        BzMdpNatureCptAuditDateTime(NAT.CPT.AUDIT.DATE.TIME)=11
+    }
+}

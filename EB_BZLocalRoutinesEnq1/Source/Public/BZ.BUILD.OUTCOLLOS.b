@@ -1,0 +1,409 @@
+*-----------------------------------------------------------------------------
+* <Rating>-50</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.BUILD.OUTCOLLOS(ENQ.DATA)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;VM,FM TO @VM,@FM;CONVERT TO CHANGE
+********************************************************
+
+	$INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.LC.TYPES
+    $INSERT I_F.LETTER.OF.CREDIT
+
+    GOSUB INIT
+    GOSUB SEL.RECS
+    GOSUB PROCESS
+
+    RETURN
+
+INIT:
+
+* $INSERT I_COMMON - Not Used anymore;.LC.TYPES'
+* $INSERT I_EQUATE - Not Used anymore;
+* $INSERT I_ENQUIRY.COMMON - Not Used anymore;C.TYPES)
+
+    FN.LC = 'F.LETTER.OF.CREDIT'
+    F.LC = ''
+    CALL OPF(FN.LC,F.LC)
+
+    LC.ID = ''
+    LC.CURR = ''
+    LC.CUST = ''
+    EXP.DATE = ''
+    RETURN
+
+SEL.RECS:
+
+    ENQ.DATA.FIELDS = ENQ.DATA<2>
+    E.DAEB.SystemTables.getVFunction()ATA<4>
+*    CONVERT VM TO FM IN ENQ.DATAFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusVERT VM TO FM IN E.DATA
+	CHANGE @VM TO @FM INFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus  ;*REPLACED CONVERT WITH CHANGE
+    CHANGE @VM TO @FM IN E.DATA
+    
+	LOCATE '@ID' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.ID = E.DATA<POS>
+    END
+
+    LOCATE 'LC.CURRENCY' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CURR = E.DATA<POS>
+    END
+
+    LOCATE 'APPLICANT.CUSTNO' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CUST = E.DATA<POS>
+    END
+
+    LOCATE 'EXPIRY.DATE' IN ENQ.DATA.FIELDS SETTING POS THEN
+        EXP.DATE = E.DATA<POS>
+    END
+
+    RETURN
+
+PROCESS:
+	SEL.LIST=''
+	NO.OF.RECS=''
+	SEL.ERR=''
+    SEL.CMD = "SELECT ":FN.LC.TYPES:" WITH IMPORT.EXPORT EQ 'E' AND DOC.COLLECTION EQ 'YES'"
+    EB.DataAccess.OpfREADLIST(SEL.CMD,SEL.LIST,'',NO.OF.RECS,SEL.ERR)
+    TYPE.EB.DataAccess.Opf= SEL.LIST
+*    CONVERT @FM TO ' ' IN TYPE.ID
+	CHANGE @FM TO ' ' IN TYPE.ID
+    GOSUB GET.LC.REC
+
+    RETURN
+
+GET.LC.REEFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefead    SEL.LC.CMD = "SELECT ":FN.LC:" WITH LC.TYPE EQ ":TYPE.ID:
+    IF LC.ID NE '' THEN
+        SEL.LC.CMD :=" AND WEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer
+    END
+
+    IF LC.EB.SystemTables.setE()*-----------------------------------------------------------------------------
+* <Rating>-50</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.BUILD.OUTCOLLOS(ENQ.DATA)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;VM,FM TO @VM,@FM;CONVERT TO CHANGE
+********************************************************
+
+	$INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.LC.TYPES
+    $INSERT I_F.LETTER.OF.CREDIT
+
+    GOSUB INIT
+    GOSUB SEL.RECS
+    GOSUB PROCESS
+
+    RETURN
+
+INIT:
+
+    FN.LC.TYPES = 'F.LC.TYPES'
+    F.LC.TYPES = ''
+    CALL OPF(FN.LC.TYPES,F.LC.TYPES)
+
+    FN.LC = 'F.LETTER.OF.CREDIT'
+    F.LC = ''
+    CALL OPF(FN.LC,F.LC)
+
+    LC.ID = ''
+    LC.CURR = ''
+    LC.CUST = ''
+    EXP.DATE = ''
+    RETURN
+
+SEL.RECS:
+
+    ENQ.DATA.FIELDS = ENQ.DATA<2>
+    E.DATA = ENQ.DATA<4>
+*    CONVERT VM TO FM IN ENQ.DATA.FIELDS
+*    CONVERT VM TO FM IN E.DATA
+	CHANGE @VM TO @FM IN ENQ.DATA.FIELDS   ;*REPLACED CONVERT WITH CHANGE
+    CHANGE @VM TO @FM IN E.DATA
+    
+	LOCATE '@ID' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.ID = E.DATA<POS>
+    END
+
+    LOCATE 'LC.CURRENCY' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CURR = E.DATA<POS>
+    END
+
+    LOCATE 'APPLICANT.CUSTNO' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CUST = E.DATA<POS>
+    END
+
+    LOCATE 'EXPIRY.DATE' IN ENQ.DATA.FIELDS SETTING POS THEN
+        EXP.DATE = E.DATA<POS>
+    END
+
+    RETURN
+
+PROCESS:
+	SEL.LIST=''
+	NO.OF.RECS=''
+	SEL.ERR=''
+    SEL.CMD = "SELECT ":FN.LC.TYPES:" WITH IMPORT.EXPORT EQ 'E' AND DOC.COLLECTION EQ 'YES'"
+    CALL EB.READLIST(SEL.CMD,SEL.LIST,'',NO.OF.RECS,SEL.ERR)
+    TYPE.ID = SEL.LIST
+*    CONVERT @FM TO ' ' IN TYPE.ID
+	CHANGE @FM TO ' ' IN TYPE.ID
+    GOSUB GET.LC.REC
+
+    RETURN
+
+GET.LC.REC:
+
+    SEL.LC.CMD = "SELECT ":FN.LC:" WITH LC.TYPE EQ ":TYPE.ID:
+    IF LC.ID NE '' THEN
+        SEL.LC.CMD :=" AND WITH @ID EQ ":LC.ID
+    END
+
+    IF LC.CUST NE '' THEN
+        SEL.LC.CMD:=EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyerNT.CUEB.SystemTables.getIdNew()Q ":LC.CUST
+    END
+
+    IF LC.CURR EB.DataAccess.FWriteHEN
+        SEL.LC.CMD:=" AND WITH LC.CURRENCY EQ ":LC.CURR
+    END
+
+    IFEB.SystemTables.setAf()*-----------------------------------------------------------------------------
+* <Rating>-50</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.BUILD.OUTCOLLOS(ENQ.DATA)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;VM,FM TO @VM,@FM;CONVERT TO CHANGE
+********************************************************
+
+	$INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.LC.TYPES
+    $INSERT I_F.LETTER.OF.CREDIT
+
+    GOSUB INIT
+    GOSUB SEL.RECS
+    GOSUB PROCESS
+
+    RETURN
+
+INIT:
+
+    FN.LC.TYPES = 'F.LC.TYPES'
+    F.LC.TYPES = ''
+    CALL OPF(FN.LC.TYPES,F.LC.TYPES)
+
+    FN.LC = 'F.LETTER.OF.CREDIT'
+    F.LC = ''
+    CALL OPF(FN.LC,F.LC)
+
+    LC.ID = ''
+    LC.CURR = ''
+    LC.CUST = ''
+    EXP.DATE = ''
+    RETURN
+
+SEL.RECS:
+
+    ENQ.DATA.FIELDS = ENQ.DATA<2>
+    E.DATA = ENQ.DATA<4>
+*    CONVERT VM TO FM IN ENQ.DATA.FIELDS
+*    CONVERT VM TO FM IN E.DATA
+	CHANGE @VM TO @FM IN ENQ.DATA.FIELDS   ;*REPLACED CONVERT WITH CHANGE
+    CHANGE @VM TO @FM IN E.DATA
+    
+	LOCATE '@ID' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.ID = E.DATA<POS>
+    END
+
+    LOCATE 'LC.CURRENCY' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CURR = E.DATA<POS>
+    END
+
+    LOCATE 'APPLICANT.CUSTNO' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CUST = E.DATA<POS>
+    END
+
+    LOCATE 'EXPIRY.DATE' IN ENQ.DATA.FIELDS SETTING POS THEN
+        EXP.DATE = E.DATA<POS>
+    END
+
+    RETURN
+
+PROCESS:
+	SEL.LIST=''
+	NO.OF.RECS=''
+	SEL.ERR=''
+    SEL.CMD = "SELECT ":FN.LC.TYPES:" WITH IMPORT.EXPORT EQ 'E' AND DOC.COLLECTION EQ 'YES'"
+    CALL EB.READLIST(SEL.CMD,SEL.LIST,'',NO.OF.RECS,SEL.ERR)
+    TYPE.ID = SEL.LIST
+*    CONVERT @FM TO ' ' IN TYPE.ID
+	CHANGE @FM TO ' ' IN TYPE.ID
+    GOSUB GET.LC.REC
+
+    RETURN
+
+GET.LC.REC:
+
+    SEL.LC.CMD = "SELECT ":FN.LC:" WITH LC.TYPE EQ ":TYPE.ID:
+    IF LC.ID NE '' THEN
+        SEL.LC.CMD :=" AND WITH @ID EQ ":LC.ID
+    END
+
+    IF LC.CUST NE '' THEN
+        SEL.LC.CMD:=" AND WITH APPLICANT.CUSTNO EQ ":LC.CUST
+    END
+
+    IF LC.CURR NE '' THEN
+        SEL.LC.CMD:=" AND WITH LC.CURRENCY EQ ":LC.CURR
+    END
+
+    IF EEFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefsetE()*-----------------------------------------------------------------------------
+* <Rating>-50</Rating>
+*-----------------------------------------------------------------------------
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.BUILD.OUTCOLLOS(ENQ.DATA)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+*-------------------------------------------------------
+*MODIFICATION HISTORY:
+*ZIT-UPG-R13-R19-INITIALISED VARIABLES;VM,FM TO @VM,@FM;CONVERT TO CHANGE
+********************************************************
+
+	$INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.LC.TYPES
+    $INSERT I_F.LETTER.OF.CREDIT
+
+    GOSUB INIT
+    GOSUB SEL.RECS
+    GOSUB PROCESS
+
+    RETURN
+
+INIT:
+
+    FN.LC.TYPES = 'F.LC.TYPES'
+    F.LC.TYPES = ''
+    CALL OPF(FN.LC.TYPES,F.LC.TYPES)
+
+    FN.LC = 'F.LETTER.OF.CREDIT'
+    F.LC = ''
+    CALL OPF(FN.LC,F.LC)
+
+    LC.ID = ''
+    LC.CURR = ''
+    LC.CUST = ''
+    EXP.DATE = ''
+    RETURN
+
+SEL.RECS:
+
+    ENQ.DATA.FIELDS = ENQ.DATA<2>
+    E.DATA = ENQ.DATA<4>
+*    CONVERT VM TO FM IN ENQ.DATA.FIELDS
+*    CONVERT VM TO FM IN E.DATA
+	CHANGE @VM TO @FM IN ENQ.DATA.FIELDS   ;*REPLACED CONVERT WITH CHANGE
+    CHANGE @VM TO @FM IN E.DATA
+    
+	LOCATE '@ID' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.ID = E.DATA<POS>
+    END
+
+    LOCATE 'LC.CURRENCY' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CURR = E.DATA<POS>
+    END
+
+    LOCATE 'APPLICANT.CUSTNO' IN ENQ.DATA.FIELDS SETTING POS THEN
+        LC.CUST = E.DATA<POS>
+    END
+
+    LOCATE 'EXPIRY.DATE' IN ENQ.DATA.FIELDS SETTING POS THEN
+        EXP.DATE = E.DATA<POS>
+    END
+
+    RETURN
+
+PROCESS:
+	SEL.LIST=''
+	NO.OF.RECS=''
+	SEL.ERR=''
+    SEL.CMD = "SELECT ":FN.LC.TYPES:" WITH IMPORT.EXPORT EQ 'E' AND DOC.COLLECTION EQ 'YES'"
+    CALL EB.READLIST(SEL.CMD,SEL.LIST,'',NO.OF.RECS,SEL.ERR)
+    TYPE.ID = SEL.LIST
+*    CONVERT @FM TO ' ' IN TYPE.ID
+	CHANGE @FM TO ' ' IN TYPE.ID
+    GOSUB GET.LC.REC
+
+    RETURN
+
+GET.LC.REC:
+
+    SEL.LC.CMD = "SELECT ":FN.LC:" WITH LC.TYPE EQ ":TYPE.ID:
+    IF LC.ID NE '' THEN
+        SEL.LC.CMD :=" AND WITH @ID EQ ":LC.ID
+    END
+
+    IF LC.CUST NE '' THEN
+        SEL.LC.CMD:=" AND WITH APPLICANT.CUSTNO EQ ":LC.CUST
+    END
+
+    IF LC.CURR NE '' THEN
+        SEL.LC.CMD:=" AND WITH LC.CURRENCY EQ ":LC.CURR
+    END
+
+    IF EXP.DATE NE '' THEN
+        SEL.LC.CMD:=" AND WITH EXPIRY.DATE EQ ":EXP.DATE
+    END
+	
+	SEL.LC.LIST=''
+	NO.OF.LC=''
+	SEL.LC.ERR=''
+    CALL EB.READLIST(SEL.LC.CMD,SEL.LC.LIST,'',NO.OF.LC,SEL.LC.ERR)
+    LC.IDS = SEL.LC.LIST
+*    CONVERT @FM TO ' ' IN LC.IDS
+	CHANGE @FM TO ' ' IN LC.IDS
+    ENQ.DATA<2,1> = '@ID'
+    ENQ.DATA<3,1> = 'EQ'
+    ENQ.DATA<4,1> = LC.IDS
+
+    RETURN

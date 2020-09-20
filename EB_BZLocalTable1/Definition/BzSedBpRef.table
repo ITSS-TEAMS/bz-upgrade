@@ -1,0 +1,25 @@
+public table BzSedBpRef {
+    t24:  BZ.SED.BP.REF
+    fields:{
+        BzSedBpRefCode(SED.BP.REF.CODE)=1
+        BzSedBpRefRubrique(SED.BP.REF.RUBRIQUE)=2
+        BzSedBpRefCategorie(SED.BP.REF.CATEGORIE)=3
+        BzSedBpRefTypeOperation(SED.BP.REF.TYPE.OPERATION)=4
+        BzSedBpRefReserved1(SED.BP.REF.RESERVED1)=5
+        BzSedBpRefReserved2(SED.BP.REF.RESERVED2)=6
+        BzSedBpRefReserved3(SED.BP.REF.RESERVED3)=7
+        BzSedBpRefReserved4(SED.BP.REF.RESERVED4)=8
+        BzSedBpRefReserved5(SED.BP.REF.RESERVED5)=9
+        BzSedBpRefLocalRef(SED.BP.REF.LOCAL.REF)=10
+        BzSedBpRefOverride(SED.BP.REF.OVERRIDE)=11
+        BzSedBpRefRecordStatus(SED.BP.REF.RECORD.STATUS)=12
+        BzSedBpRefCurrNo(SED.BP.REF.CURR.NO)=13
+        BzSedBpRefInputter(SED.BP.REF.INPUTTER)=14
+        BzSedBpRefDateTime(SED.BP.REF.DATE.TIME)=15
+        BzSedBpRefAuthoriser(SED.BP.REF.AUTHORISER)=16
+        BzSedBpRefCoCode(SED.BP.REF.CO.CODE)=17
+        BzSedBpRefDeptCode(SED.BP.REF.DEPT.CODE)=18
+        BzSedBpRefAuditorCode(SED.BP.REF.AUDITOR.CODE)=19
+        BzSedBpRefAuditDateTime(SED.BP.REF.AUDIT.DATE.TIME)=20
+    }
+}

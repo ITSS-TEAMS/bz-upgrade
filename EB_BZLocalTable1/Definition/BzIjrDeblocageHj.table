@@ -1,0 +1,24 @@
+public table BzIjrDeblocageHj {
+    t24:  BZ.IJR.DEBLOCAGE.HJ
+    fields:{
+        BzIjrDeblocageHjRefLd(DEBLOC.HJ.REF.LD)=1
+        BzIjrDeblocageHjDateExecution(DEBLOC.HJ.DATE.EXECUTION)=2
+        BzIjrDeblocageHjDateCreation(DEBLOC.HJ.DATE.CREATION)=3
+        BzIjrDeblocageHjMontant(DEBLOC.HJ.MONTANT)=4
+        BzIjrDeblocageHjCompteHj(DEBLOC.HJ.COMPTE.HJ)=5
+        BzIjrDeblocageHjCompteClient(DEBLOC.HJ.COMPTE.CLIENT)=6
+        BzIjrDeblocageHjRefDeblocage(DEBLOC.HJ.REF.DEBLOCAGE)=7
+        BzIjrDeblocageHjDateDeblocage(DEBLOC.HJ.DATE.DEBLOCAGE)=8
+        BzIjrDeblocageHjRefOfs(DEBLOC.HJ.REF.OFS)=9
+        BzIjrDeblocageHjStatut(DEBLOC.HJ.STATUT)=10
+        BzIjrDeblocageHjRecordStatus(DEBLOC.HJ.RECORD.STATUS)=11
+        BzIjrDeblocageHjCurrNo(DEBLOC.HJ.CURR.NO)=12
+        BzIjrDeblocageHjInputter(DEBLOC.HJ.INPUTTER)=13
+        BzIjrDeblocageHjDateTime(DEBLOC.HJ.DATE.TIME)=14
+        BzIjrDeblocageHjAuthoriser(DEBLOC.HJ.AUTHORISER)=15
+        BzIjrDeblocageHjCoCode(DEBLOC.HJ.CO.CODE)=16
+        BzIjrDeblocageHjDeptCode(DEBLOC.HJ.DEPT.CODE)=17
+        BzIjrDeblocageHjAuditorCode(DEBLOC.HJ.AUDITOR.CODE)=18
+        BzIjrDeblocageHjAuditDateTime(DEBLOC.HJ.AUDIT.DATE.TIME)=19
+    }
+}

@@ -1,0 +1,30 @@
+public table TnaCardBzRenouvGen {
+    t24:  TNA.CARD.BZ.RENOUV.GEN
+    fields:{
+        TnaCardBzRenouvGenDateOperation(TNA.CARD.GEN.DATE.OPERATION)=1
+        TnaCardBzRenouvGenTime(TNA.CARD.GEN.TIME)=2
+        TnaCardBzRenouvGenNomFichier(TNA.CARD.GEN.NOM.FICHIER)=3
+        TnaCardBzRenouvGenNbrCarte(TNA.CARD.GEN.NBR.CARTE)=4
+        TnaCardBzRenouvGenStatut(TNA.CARD.GEN.STATUT)=5
+        TnaCardBzRenouvGenReserved1(TNA.CARD.GEN.RESERVED.1)=6
+        TnaCardBzRenouvGenReserved2(TNA.CARD.GEN.RESERVED.2)=7
+        TnaCardBzRenouvGenReserved3(TNA.CARD.GEN.RESERVED.3)=8
+        TnaCardBzRenouvGenReserved4(TNA.CARD.GEN.RESERVED.4)=9
+        TnaCardBzRenouvGenReserved5(TNA.CARD.GEN.RESERVED.5)=10
+        TnaCardBzRenouvGenReserved6(TNA.CARD.GEN.RESERVED.6)=11
+        TnaCardBzRenouvGenReserved7(TNA.CARD.GEN.RESERVED.7)=12
+        TnaCardBzRenouvGenReserved8(TNA.CARD.GEN.RESERVED.8)=13
+        TnaCardBzRenouvGenReserved9(TNA.CARD.GEN.RESERVED.9)=14
+        TnaCardBzRenouvGenReserved10(TNA.CARD.GEN.RESERVED.10)=15
+        TnaCardBzRenouvGenOverride(TNA.CARD.GEN.OVERRIDE)=16
+        TnaCardBzRenouvGenRecordStatus(TNA.CARD.GEN.RECORD.STATUS)=17
+        TnaCardBzRenouvGenCurrNo(TNA.CARD.GEN.CURR.NO)=18
+        TnaCardBzRenouvGenInputter(TNA.CARD.GEN.INPUTTER)=19
+        TnaCardBzRenouvGenDateTime(TNA.CARD.GEN.DATE.TIME)=20
+        TnaCardBzRenouvGenAuthoriser(TNA.CARD.GEN.AUTHORISER)=21
+        TnaCardBzRenouvGenCoCode(TNA.CARD.GEN.CO.CODE)=22
+        TnaCardBzRenouvGenDeptCode(TNA.CARD.GEN.DEPT.CODE)=23
+        TnaCardBzRenouvGenAuditorCode(TNA.CARD.GEN.AUDITOR.CODE)=24
+        TnaCardBzRenouvGenAuditDateTime(TNA.CARD.GEN.AUDIT.DATE.TIME)=25
+    }
+}

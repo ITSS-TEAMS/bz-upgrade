@@ -1,0 +1,23 @@
+public table BzSeqId {
+    t24:  BZ.SEQ.ID
+    fields:{
+        BzSeqIdLastNum(BZ.SEQ.LAST.NUM)=1
+        BzSeqIdStatut(BZ.SEQ.STATUT)=2
+        BzSeqIdReserverd1(BZ.SEQ.RESERVERD.1)=3
+        BzSeqIdReserverd2(BZ.SEQ.RESERVERD.2)=4
+        BzSeqIdReserverd3(BZ.SEQ.RESERVERD.3)=5
+        BzSeqIdReserverd4(BZ.SEQ.RESERVERD.4)=6
+        BzSeqIdReserverd5(BZ.SEQ.RESERVERD.5)=7
+        BzSeqIdLocalRef(BZ.SEQ.LOCAL.REF)=8
+        BzSeqIdOverride(BZ.SEQ.OVERRIDE)=9
+        BzSeqIdRecordStatus(BZ.SEQ.RECORD.STATUS)=10
+        BzSeqIdCurrNo(BZ.SEQ.CURR.NO)=11
+        BzSeqIdInputter(BZ.SEQ.INPUTTER)=12
+        BzSeqIdDateTime(BZ.SEQ.DATE.TIME)=13
+        BzSeqIdAuthoriser(BZ.SEQ.AUTHORISER)=14
+        BzSeqIdCoCode(BZ.SEQ.CO.CODE)=15
+        BzSeqIdDeptCode(BZ.SEQ.DEPT.CODE)=16
+        BzSeqIdAuditorCode(BZ.SEQ.AUDITOR.CODE)=17
+        BzSeqIdAuditDateTime(BZ.SEQ.AUDIT.DATE.TIME)=18
+    }
+}

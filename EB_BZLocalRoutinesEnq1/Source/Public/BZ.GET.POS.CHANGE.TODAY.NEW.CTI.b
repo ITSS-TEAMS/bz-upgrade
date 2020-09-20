@@ -1,0 +1,715 @@
+$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.GET.POS.CHANGE.TODAY.NEW.CTI(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+**AUTHOR :BOUNOUARA FEHMI
+**DATE 22/06/2016
+**DESCRIPTION: POSITION DE CHANGE VENTE
+*------------------------------------------------------------------------
+* Modification History :
+*ZIT-UPG-R13-R19:CONVERT converted to CHANGE
+*               :VM,SM converted to @VM,@SM
+*               :Arithmetic operators converted to T24 Operands
+*               :++ converted to += 1    
+*-------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.CCY.HISTORY
+    $INSERT I_F.POS.MVMT.TODAY
+
+
+    GOSUB INIT
+* $INSERT I_COMMON - Not Used anymore;
+
+    GOSUB PROCESS.HIST
+    GOSUB PROCESS
+
+INIT:
+
+    CONDITION.SEL=""
+
+    FN.AC = "F.ACCOUNT"
+    F.AC=""
+
+    FN.CURR="F.CURRENCY"
+    F.CURR=""
+
+    FN.CURR.HIS="F.CURRENCY$HIS"
+    F.CURR.HIS=""
+
+    FN.CCY.HIS="F.CCY.HISTORY"
+    F.CCY.HIS=""
+
+    LFT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusIN D.FIELDS<1> SETTING CURR.POS THEN
+        FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatusNGE.AND.VALUE<CURR.POS>
+*ZIT-UPG-R13-R19 S
+*       CONVERT SM TO " " IN Y.CURRENCY
+		CHANGE @SM TO " " IN Y.CURRENCY
+*ZIT-UPG-R13-R19 E
+    END ELSE
+        Y.CURRENCY = ""
+    END
+
+    IF Y.CURRENCY NE '' THEN
+        CONDITION.SEL = " WITH @ID EQ ":Y.CURRENCY
+    END
+
+    FN.POS.MVMT = "F.POS.MVMT.TODAY"
+    F.POS.MVMT = ""
+
+    FN.POS.MVMT.HIST = "F.POS.MVMT.HIST"
+    F.POS.MVMT.HIST = ""
+
+    NBRE.REC = 0
+    NBRE.DEVISE = 0
+
+    Y.YESTERDAY = TODAY
+    CALL CDT('',Y.YESTERDAY,'-1W')
+
+    Y.YEB.DataAccess.OpfB.DataAccess.OpfDAY.YEARS = Y.YESTERDAY[1,4]
+
+    SEL.CMD.CURR="SELECT ":FN.CURR
+	ENTRY.IDS.CURR=''
+	ENTRY.COUNT.CURR=''
+	ENTRY.ERROEB.SystemTables.getRNew()RFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefB.READLIST(SEL.CMD.CURR, ENTRY.IDS.CURR, '', ENTRY.COUNT.CURR, ENTRY.ERROR.CURR)
+    ENTRYEB.DataAccess.FRead.CURR = ENTRY.COUNT.CURR - 2
+
+    RETURN
+
+OPENFILES:
+
+    CALL OPF(FEB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer  CALL OPF(FN.CURR.HIS,F.CURR.HIS)
+    CALL OPF(FN.CCY.EB.BZLocalTable1.BzCoffreLoyer.BzCoffreLoyerRefLoyer  CALL OPF(FN.AC,F.AC)
+    EB.DataAccess.FWrite,F.POS.MVMT)
+    CALL OPF(FN.POS.MVMT.HIST ,F.POS.MVMT.HIST)
+    RETURN
+
+PROCESS.EB.SystemTables.setAf()$PACKAGE EB.BZLocalRoutinesEnq1
+    SUBROUTINE BZ.GET.POS.CHANGE.TODAY.NEW.CTI(TABLEAU)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+**AUTHOR :BOUNOUARA FEHMI
+**DATE 22/06/2016
+**DESCRIPTION: POSITION DE CHANGE VENTE
+*------------------------------------------------------------------------
+* Modification History :
+*ZIT-UPG-R13-R19:CONVERT converted to CHANGE
+*               :VM,SM converted to @VM,@SM
+*               :Arithmetic operators converted to T24 Operands
+*               :++ converted to += 1    
+*-------------------------------------------------------------------------
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.ACCOUNT
+    $INSERT I_F.CURRENCY
+    $INSERT I_F.CCY.HISTORY
+    $INSERT I_F.POS.MVMT.TODAY
+
+
+    GOSUB INIT
+    GOSUB OPENFILES
+
+    GOSUB PROCESS.HIST
+    GOSUB PROCESS
+
+INIT:
+
+    CONDITION.SEL=""
+
+    FN.AC = "F.ACCOUNT"
+    F.AC=""
+
+    FN.CURR="F.CURRENCY"
+    F.CURR=""
+
+    FN.CURR.HIS="F.CURRENCY$HIS"
+    F.CURR.HIS=""
+
+    FN.CCY.HIS="F.CCY.HISTORY"
+    F.CCY.HIS=""
+
+    LOCATE "CURRENCY" IN D.FIELDS<1> SETTING CURR.POS THEN
+        Y.CURRENCY = D.RANGE.AND.VALUE<CURR.POS>
+*ZIT-UPG-R13-R19 S
+*       CONVERT SM TO " " IN Y.CURRENCY
+		CHANGE @SM TO " " IN Y.CURRENCY
+*ZIT-UPG-R13-R19 E
+    END ELSE
+        Y.CURRENCY = ""
+    END
+
+    IF Y.CURRENCY NE '' THEN
+        CONDITION.SEL = " WITH @ID EQ ":Y.CURRENCY
+    END
+
+    FN.POS.MVMT = "F.POS.MVMT.TODAY"
+    F.POS.MVMT = ""
+
+    FN.POS.MVMT.HIST = "F.POS.MVMT.HIST"
+    F.POS.MVMT.HIST = ""
+
+    NBRE.REC = 0
+    NBRE.DEVISE = 0
+
+    Y.YESTERDAY = TODAY
+    CALL CDT('',Y.YESTERDAY,'-1W')
+
+    Y.YESTERDAY.YEARS = Y.YESTERDAY[1,4]
+
+    SEL.CMD.CURR="SELECT ":FN.CURR
+	ENTRY.IDS.CURR=''
+	ENTRY.COUNT.CURR=''
+	ENTRY.ERROR.CURR=''
+    CALL EB.READLIST(SEL.CMD.CURR, ENTRY.IDS.CURR, '', ENTRY.COUNT.CURR, ENTRY.ERROR.CURR)
+    ENTRY.COUNT.CURR = ENTRY.COUNT.CURR - 2
+
+    RETURN
+
+OPENFILES:
+
+    CALL OPF(FN.CURR,F.CURR)
+    CALL OPF(FN.CURR.HIS,F.CURR.HIS)
+    CALL OPF(FN.CCY.HIS,F.CCY.HIS)
+    CALL OPF(FN.AC,F.AC)
+    CALL OPF(FN.POS.MVMT,F.POS.MVMT)
+    CALL OPF(FN.POS.MVMT.HIST ,F.POS.MVMT.HIST)
+    RETURN
+
+PROCESS.HISFT.AdhocChargeRequests.AcChargeRequest.ChgRelatedRefSystemTables.setE("")
+    TAB.SOLDE.HIST = ""
+    NBRE.DEVISE.HIST =""
+    Y.SOMME.HIST = 0
+    Y.SOMME.HIST.LCY = 0
+
+    SEL.CMD="SSELECT ":FN.POS.MVMT.HIST:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1...' AND TRANSACTION.CODE EQ 'EOD'"
+
+    ENTRY.IDS=''
+	ENTRY.COUNT=''
+	ENTRY.ERROR=''
+    CALL EB.READLIST(SEL.CMD, ENTRY.IDS, '', ENTRY.COUNT, ENTRY.ERROR)
+
+    IF ENTRY.IDS THEN
+
+        FOR COMPTEUR.HIS =1 TO ENTRY.COUNT
+
+            Y.CHANGE = 0
+
+            R.POS.RECORD.MVMT.HIST=''
+			POS.MVMT.ERR=''
+            CALL F.READ(FN.POS.MVMT.HIST,ENTRY.IDS<COMPTEUR.HIS>,R.POS.RECORD.MVMT.HIST,F.POS.MVMT.HIST,POS.MVMT.ERR)
+
+            IF R.POS.RECORD.MVMT.HIST THEN
+
+                Y.DEVISE.TMP = R.POS.RECORD.MVMT.HIST<12>   ;* DEVISE
+
+                IF TAB.DEVISE.HIST EQ "" THEN
+                    NBRE.DEVISE.HIST += 1
+                    TAB.DEVISE.HIST<NBRE.DEVISE.HIST> = Y.DEVISE.TMP
+
+                    Y.SOMME.HIST += R.POS.RECORD.MVMT.HIST<13>
+                    Y.SOMME.HIST.LCY += R.POS.RECORD.MVMT.HIST<3>
+                END ELSE
+                    IF Y.DEVISE.TMP NE TAB.DEVISE.HIST<NBRE.DEVISE.HIST> THEN
+                        Y.CHANGE = 1
+                        NBRE.DEVISE.HIST += 1
+                        TAB.DEVISE.HIST<NBRE.DEVISE.HIST> = Y.DEVISE.TMP
+
+                        TAB.SOLDE.HIST<NBRE.DEVISE.HIST-1,1> = Y.SOMME.HIST * -1
+                        TAB.SOLDE.HIST<NBRE.DEVISE.HIST-1,2> = Y.SOMME.HIST.LCY * -1
+
+                        Y.SOMME.HIST = 0
+                        Y.SOMME.HIST.LCY = 0
+
+                        Y.SOMME.HIST += R.POS.RECORD.MVMT.HIST<13>
+                        Y.SOMME.HIST.LCY += R.POS.RECORD.MVMT.HIST<3>
+
+                    END ELSE
+                        Y.SOMME.HIST += R.POS.RECORD.MVMT.HIST<13>
+                        Y.SOMME.HIST.LCY += R.POS.RECORD.MVMT.HIST<3>
+                    END
+
+                END
+
+            END
+
+        NEXT COMPTEUR.HIS
+
+        TAB.SOLDE.HIST<NBRE.DEVISE.HIST,1> = Y.SOMME.HIST * -1
+        TAB.SOLDE.HIST<NBRE.DEVISE.HIST,2> = Y.SOMME.HIST.LCY * -1
+
+    END
+
+    RETURN
+
+***************
+GET.SOMME.HIST:
+***************
+
+    LOCATE TAB.DEVISE<COMPTEUR.DEV> IN TAB.DEVISE.HIST SETTING POS.DEV ELSE POS.DEV = 0
+
+    IF POS.DEV GT 0 THEN
+        SOLDE.HIST = TAB.SOLDE.HIST<POS.DEV,1>
+        SOLDE.HIST.LCY = TAB.SOLDE.HIST<POS.DEV,2>
+    END ELSE
+        SOLDE.HIST = 0
+        SOLDE.HIST.LCY = 0
+    END
+
+    RETURN
+
+**************
+PROCESS:
+**************
+
+    Y.SOMME.MVMT.ACHAT = 0
+    Y.SOMME.MVMT.ACHAT.REV = 0
+    Y.SOMME.MVMT.ACHAT.RST = 0
+
+    Y.SOMME.MVMT.VENTE = 0
+    Y.SOMME.MVMT.VENTE.REV = 0
+    Y.SOMME.MVMT.VENTE.RST = 0
+
+    TAB.DEVISE = ""
+    TAB.SOLDE = ""
+
+    SEL.CMD="SSELECT ":FN.POS.MVMT:" WITH @ID UNLIKE *999999* AND @ID LIKE 'TN00100011TRF1...'"
+
+    ENTRY.IDS=''
+	ENTRY.COUNT=''
+	ENTRY.ERROR=''
+    CALL EB.READLIST(SEL.CMD, ENTRY.IDS, '', ENTRY.COUNT, ENTRY.ERROR)
+
+    KEY.LIST = ENTRY.IDS
+    NKEY = KEY.LIST ;* Build list of keys for enquiry
+    NEW.KEYS = ''
+    YPOS.OPEN.BAL = 0
+    YPOS.OPEN.BAL.LCY = 0
+*
+* Read the correct record and store in R.POS.RECORD
+*
+    LOOP
+        REMOVE YKEY FROM NKEY SETTING YD
+        AST.POS = INDEX(YKEY,'*',1)
+        IF AST.POS THEN
+            AST.POS += 1
+            SEQ.NO = YKEY['*',2,1]
+
+            IF SEQ.NO EQ '' THEN
+                SEQ.NO = '0'
+            END
+        END
+*
+    UNTIL YKEY = ""
+*
+        Y.CHANGE = 0
+
+        R.POS.RECORD.MVMT=''
+		POS.MVMT.ERR=''
+        CALL F.READ(FN.POS.MVMT,YKEY,R.POS.RECORD.MVMT,F.POS.MVMT,POS.MVMT.ERR)
+
+        IF R.POS.RECORD.MVMT THEN
+            IF R.POS.RECORD.MVMT<PSE.CURRENCY> MATCHES "":@VM:LCCY THEN
+                R.POS.RECORD.MVMT<PSE.AMOUNT.FCY> = R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>     ;* makes calculation easier
+            END
+
+            NBRE.REC += 1
+
+            Y.DEVISE.TMP = R.POS.RECORD.MVMT<PSE.CURRENCY>
+
+            IF TAB.DEVISE EQ "" THEN
+                NBRE.DEVISE += 1
+                TAB.DEVISE<NBRE.DEVISE> = Y.DEVISE.TMP
+            END ELSE
+                IF Y.DEVISE.TMP NE TAB.DEVISE<NBRE.DEVISE> THEN
+                    Y.CHANGE = 1
+                    NBRE.DEVISE += 1
+                    TAB.DEVISE<NBRE.DEVISE> = Y.DEVISE.TMP
+                END
+
+            END
+
+        END
+
+        IF SEQ.NO EQ '0' THEN
+
+            GOSUB READ.FILE
+
+            IF Y.CHANGE EQ 1 THEN
+                TAB.SOLDE<NBRE.DEVISE-1,1,1> = YPOS.OPEN.BAL
+                TAB.SOLDE<NBRE.DEVISE-1,1,2> = YPOS.OPEN.BAL.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,2,1> = Y.SOMME.MVMT.ACHAT
+                TAB.SOLDE<NBRE.DEVISE-1,2,2> = Y.SOMME.MVMT.ACHAT.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,3,1> = Y.SOMME.MVMT.ACHAT.REV
+                TAB.SOLDE<NBRE.DEVISE-1,3,2> = Y.SOMME.MVMT.ACHAT.REV.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,4,1> = Y.SOMME.MVMT.VENTE
+                TAB.SOLDE<NBRE.DEVISE-1,4,2> = Y.SOMME.MVMT.VENTE.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,5,1> = Y.SOMME.MVMT.VENTE.REV
+                TAB.SOLDE<NBRE.DEVISE-1,5,2> = Y.SOMME.MVMT.VENTE.REV.LCY
+
+
+                YPOS.OPEN.BAL = 0
+                YPOS.OPEN.BAL.LCY = 0
+                Y.SOMME.MVMT.ACHAT = 0
+                Y.SOMME.MVMT.ACHAT.REV = 0
+                Y.SOMME.MVMT.VENTE = 0
+                Y.SOMME.MVMT.VENTE.REV = 0
+
+                Y.SOMME.MVMT.ACHAT.LCY = 0
+                Y.SOMME.MVMT.ACHAT.REV.LCY = 0
+                Y.SOMME.MVMT.VENTE.LCY = 0
+                Y.SOMME.MVMT.VENTE.REV.LCY = 0
+
+                YPOS.OPEN.BAL += R.POS.RECORD<PSE.AMOUNT.FCY>
+                YPOS.OPEN.BAL.LCY += R.POS.RECORD<PSE.AMOUNT.LCY>
+
+            END ELSE
+                YPOS.OPEN.BAL += R.POS.RECORD<PSE.AMOUNT.FCY>
+                YPOS.OPEN.BAL.LCY += R.POS.RECORD<PSE.AMOUNT.LCY>
+            END
+
+        END ELSE
+*****
+            IF Y.CHANGE EQ 1 THEN
+
+                TAB.SOLDE<NBRE.DEVISE-1,1,1> = YPOS.OPEN.BAL
+                TAB.SOLDE<NBRE.DEVISE-1,1,2> = YPOS.OPEN.BAL.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,2,1> = Y.SOMME.MVMT.ACHAT
+                TAB.SOLDE<NBRE.DEVISE-1,2,2> = Y.SOMME.MVMT.ACHAT.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,3,1> = Y.SOMME.MVMT.ACHAT.REV
+                TAB.SOLDE<NBRE.DEVISE-1,3,2> = Y.SOMME.MVMT.ACHAT.REV.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,4,1> = Y.SOMME.MVMT.VENTE
+                TAB.SOLDE<NBRE.DEVISE-1,4,2> = Y.SOMME.MVMT.VENTE.LCY
+
+                TAB.SOLDE<NBRE.DEVISE-1,5,1> = Y.SOMME.MVMT.VENTE.REV
+                TAB.SOLDE<NBRE.DEVISE-1,5,2> = Y.SOMME.MVMT.VENTE.REV.LCY
+
+                YPOS.OPEN.BAL = 0
+                YPOS.OPEN.BAL.LCY = 0
+                Y.SOMME.MVMT.ACHAT = 0
+                Y.SOMME.MVMT.ACHAT.REV = 0
+                Y.SOMME.MVMT.VENTE = 0
+                Y.SOMME.MVMT.VENTE.REV = 0
+
+                Y.SOMME.MVMT.ACHAT.LCY = 0
+                Y.SOMME.MVMT.ACHAT.REV.LCY = 0
+                Y.SOMME.MVMT.VENTE.LCY = 0
+                Y.SOMME.MVMT.VENTE.REV.LCY = 0
+                GOSUB TRAIT.DETAIL
+
+
+            END ELSE
+
+                GOSUB TRAIT.DETAIL
+
+            END
+******
+
+        END
+
+    REPEAT
+
+    TAB.SOLDE<NBRE.DEVISE,1,1> = YPOS.OPEN.BAL
+    TAB.SOLDE<NBRE.DEVISE,1,2> = YPOS.OPEN.BAL.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,2,1> = Y.SOMME.MVMT.ACHAT
+    TAB.SOLDE<NBRE.DEVISE,2,2> = Y.SOMME.MVMT.ACHAT.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,3,1> = Y.SOMME.MVMT.ACHAT.REV
+    TAB.SOLDE<NBRE.DEVISE,3,2> = Y.SOMME.MVMT.ACHAT.REV.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,4,1> = Y.SOMME.MVMT.VENTE
+    TAB.SOLDE<NBRE.DEVISE,4,2> = Y.SOMME.MVMT.VENTE.LCY
+
+    TAB.SOLDE<NBRE.DEVISE,5,1> = Y.SOMME.MVMT.VENTE.REV
+    TAB.SOLDE<NBRE.DEVISE,5,2> = Y.SOMME.MVMT.VENTE.REV.LCY
+
+
+
+    FOR COMPTEUR.DEV = 1 TO NBRE.DEVISE
+
+        IF TAB.DEVISE<COMPTEUR.DEV> MATCHES "TND":@VM:"TNC" THEN
+            CONTINUE
+        END
+        IF TAB.DEVISE<COMPTEUR.DEV> EQ "CAD" THEN
+            DEBUG
+        END
+        GOSUB GET.COURS
+        GOSUB GET.SOMME.HIST
+
+        IF SOLDE.HIST EQ "" THEN
+            SOLDE.HIST = 0
+            SOLDE.HIST.LCY = 0
+        END
+
+        Y.OPENNING.BALANCE =     TAB.SOLDE<COMPTEUR.DEV,1,1> * -1
+        Y.OPENNING.BALANCE.LCY = TAB.SOLDE<COMPTEUR.DEV,1,2> * -1
+
+************
+        Y.SOMME.MVMT.ACHAT = TAB.SOLDE<COMPTEUR.DEV,2,1>
+        Y.SOMME.MVMT.ACHAT.REV = TAB.SOLDE<COMPTEUR.DEV,3,1>
+        Y.SOMME.MVMT.ACHAT.RST = (Y.SOMME.MVMT.ACHAT + Y.SOMME.MVMT.ACHAT.REV) * -1
+
+        Y.SOMME.MVMT.ACHAT.LCY = (TAB.SOLDE<COMPTEUR.DEV,2,2> + TAB.SOLDE<COMPTEUR.DEV,3,2>) * -1
+************
+************
+        Y.SOMME.MVMT.VENTE = TAB.SOLDE<COMPTEUR.DEV,4,1>
+        Y.SOMME.MVMT.VENTE.REV = TAB.SOLDE<COMPTEUR.DEV,5,1>
+        Y.SOMME.MVMT.VENTE.RST = (Y.SOMME.MVMT.VENTE + Y.SOMME.MVMT.VENTE.REV) * -1
+
+        Y.SOMME.MVMT.VENTE.LCY = (TAB.SOLDE<COMPTEUR.DEV,4,2> +TAB.SOLDE<COMPTEUR.DEV,5,2>) * -1
+
+************
+************
+        Y.ONLINE.BALANCE.SUM = Y.SOMME.MVMT.ACHAT.RST + Y.SOMME.MVMT.VENTE.RST + Y.OPENNING.BALANCE
+
+        Y.MVMT.SUM = Y.ONLINE.BALANCE.SUM - Y.OPENNING.BALANCE
+
+        GOSUB GET.COURS.VEILLE
+
+        Y.ONLINE.BALANCE.SUM.LCY = Y.ONLINE.BALANCE.SUM * (Y.COUS.REVAL/Y.QUTATION.FINAL)
+        CALL EB.ROUND.AMOUNT("TND",Y.ONLINE.BALANCE.SUM.LCY, '','')
+
+        Y.COUS.REVAL.HIS = ""
+
+        Y.OPENNING.BALANCE.LCY = (Y.OPENNING.BALANCE) * (Y.COUS.REVAL.VEI/Y.QUTATION.FINAL.VEI)
+        CALL EB.ROUND.AMOUNT("TND",Y.OPENNING.BALANCE.LCY, '','')
+
+        Y.RESULT.REVAL = (Y.ONLINE.BALANCE.SUM.LCY) - (Y.OPENNING.BALANCE.LCY + Y.SOMME.MVMT.ACHAT.LCY + Y.SOMME.MVMT.VENTE.LCY)
+
+        TABLEAU.TMP<-1>=TAB.DEVISE<COMPTEUR.DEV>:'*':Y.OPENNING.BALANCE:'*':Y.MVMT.SUM:'*':Y.ONLINE.BALANCE.SUM:'*':Y.COUS.REVAL.HIS:'*':Y.COUS.REVAL:'*':Y.RESULT.REVAL:'*':Y.SOMME.MVMT.ACHAT.RST :'*': Y.SOMME.MVMT.VENTE.RST:'*':Y.SOMME.MVMT.ACHAT.LCY :'*': Y.SOMME.MVMT.VENTE.LCY:'*':SOLDE.HIST :'*': SOLDE.HIST.LCY:'*':Y.OPENNING.BALANCE.LCY:'*':Y.ONLINE.BALANCE.SUM.LCY:"*":Y.COUS.REVAL.VEI
+
+
+    NEXT COMPTEUR.DEV
+
+    GOSUB TRI.DEVISE
+
+    RETURN
+
+
+*****************
+TRI.DEVISE:
+*****************
+
+    NBRE.DEVISE.TRI= 10
+
+    FOR COMPTEUR.RST = 1 TO ENTRY.COUNT.CURR
+
+        Y.DEVISE = FIELD(TABLEAU.TMP<COMPTEUR.RST>,"*",1)
+
+        BEGIN CASE
+
+        CASE Y.DEVISE EQ "EUR"
+            TABLEAU<1> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "USD"
+            TABLEAU<2> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "GBP"
+            TABLEAU<3> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "JPY"
+            TABLEAU<4> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "CHF"
+            TABLEAU<5> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "CAD"
+            TABLEAU<6> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "SEK"
+            TABLEAU<7> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "NOK"
+            TABLEAU<8> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "DKK"
+            TABLEAU<9> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE Y.DEVISE EQ "MAD"
+            TABLEAU<10> = TABLEAU.TMP<COMPTEUR.RST>
+
+*  CASE Y.DEVISE EQ "DZD"
+*     TABLEAU<11> = TABLEAU.TMP<COMPTEUR.RST>
+
+* CASE Y.DEVISE EQ "LYD"
+*    TABLEAU<12> = TABLEAU.TMP<COMPTEUR.RST>
+
+        CASE 1
+
+            NBRE.DEVISE.TRI = NBRE.DEVISE.TRI + 1
+            TABLEAU<NBRE.DEVISE.TRI> = TABLEAU.TMP<COMPTEUR.RST>
+
+        END CASE
+
+    NEXT COMPTEUR.RST
+
+    RETURN
+
+******************
+GET.COURS:
+******************
+    Y.COUS.REVAL = ""
+    Y.COUS.REVAL = ""
+    Y.QUTATION = ""
+    Y.QUTATION.FINAL=""
+
+    CURR.REC=''
+	CURR.ERR=''
+    CALL F.READ(FN.CURR,TAB.DEVISE<COMPTEUR.DEV>,CURR.REC,F.CURR,CURR.ERR)
+
+    IF CURR.REC THEN
+        Y.COUS.REVAL = CURR.REC<EB.CUR.REVAL.RATE,1>
+        Y.QUTATION = CURR.REC<EB.CUR.QUOTATION.CODE,1>
+        Y.QUTATION.FINAL=PWR(10,Y.QUTATION)
+    END ELSE
+        E ="ERROR CURRENCY"
+    END
+
+    RETURN
+
+
+******************
+GET.COURS.VEILLE:
+******************
+    Y.COUS.REVAL.VEI = ""
+    Y.QUTATION.VEI = ""
+    Y.QUTATION.FINAL.VEI=""
+
+    Y.CCY.HIS.TMP.DATE = TAB.DEVISE<COMPTEUR.DEV>:".":Y.YESTERDAY.YEARS
+
+    CCY.HIS.REC=''
+	CURR.HIS.ERR=''
+    CALL F.READ(FN.CCY.HIS,Y.CCY.HIS.TMP.DATE,CCY.HIS.REC,F.CCY.HIS,CURR.HIS.ERR)
+
+    IF CCY.HIS.REC THEN
+        Y.EFFECETICE.DATE = CCY.HIS.REC<CHT.EFFECTIVE.DATE>
+
+        NBRE.DATES = COUNT(Y.EFFECETICE.DATE,@VM)
+
+        FOR COMPTEUR.DATE = 1 TO NBRE.DATES
+
+            Y.EFFECETICE.DATE.TMP = Y.EFFECETICE.DATE<1,COMPTEUR.DATE>
+
+            IF Y.YESTERDAY GE Y.EFFECETICE.DATE.TMP THEN
+
+                Y.CURR.NO = CCY.HIS.REC<CHT.CCY.CURR.NO><1,COMPTEUR.DATE>
+
+                Y.CCY.HIS.TMP = TAB.DEVISE<COMPTEUR.DEV>:";":Y.CURR.NO
+
+                CURR.REC=''
+				CURR.ERR=''
+                CALL F.READ(FN.CURR,TAB.DEVISE<COMPTEUR.DEV>,CURR.REC,F.CURR,CURR.ERR)
+                IF CURR.REC THEN
+                    Y.CURR.NO.COURANT = CURR.REC<EB.CUR.CURR.NO>
+                    IF Y.CURR.NO.COURANT EQ Y.CURR.NO THEN
+                        Y.COUS.REVAL.VEI = CURR.REC<EB.CUR.REVAL.RATE,1>
+                        Y.QUTATION.VEI = CURR.REC<EB.CUR.QUOTATION.CODE,1>
+                        Y.QUTATION.FINAL.VEI=PWR(10,Y.QUTATION)
+                        BREAK
+                    END ELSE
+					    CURR.HIS.REC=''
+						CURR.HIS.ERR=''
+                        CALL F.READ(FN.CURR.HIS,Y.CCY.HIS.TMP,CURR.HIS.REC,F.CURR.HIS,CURR.HIS.ERR)
+                        IF CURR.HIS.REC THEN
+                            IF CURR.HIS.REC<EB.CUR.REVAL.RATE,1> THEN
+                                Y.COUS.REVAL.VEI = CURR.HIS.REC<EB.CUR.REVAL.RATE,1>
+                                Y.QUTATION.VEI = CURR.HIS.REC<EB.CUR.QUOTATION.CODE,1>
+                                Y.QUTATION.FINAL.VEI=PWR(10,Y.QUTATION)
+                                BREAK
+                            END
+                        END ELSE
+                            Y.COUS.REVAL.VEI = 0
+                            Y.QUTATION.VEI = 0
+                            Y.QUTATION.FINAL.VEI=0
+                        END
+                    END
+                END
+            END
+
+        NEXT COMPTEUR.DATE
+
+    END ELSE
+        E ="ERROR CURRENCY"
+    END
+
+    RETURN
+
+****************
+TRAIT.DETAIL:
+****************
+
+    IF R.POS.RECORD.MVMT<PSE.OTHER.CCY> EQ "TNC" THEN
+        Y.TMP.SOLDE.LCY = R.POS.RECORD.MVMT<PSE.OTHER.AMOUNT> * -1
+    END ELSE
+        Y.TMP.SOLDE.LCY = R.POS.RECORD.MVMT<PSE.AMOUNT.LCY>
+    END
+
+    BEGIN CASE
+    CASE R.POS.RECORD.MVMT<PSE.AMOUNT.LCY> LT 0 AND R.POS.RECORD.MVMT<PSE.TRANSACTION.CODE> MATCHES "DEL":@VM:"REV"
+        BUY.SELL = "S*"
+        Y.SOMME.MVMT.VENTE.REV = Y.SOMME.MVMT.VENTE.REV + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.VENTE.REV.LCY = Y.SOMME.MVMT.VENTE.REV.LCY + Y.TMP.SOLDE.LCY
+
+
+    CASE R.POS.RECORD.MVMT<PSE.AMOUNT.LCY> LT 0
+        BUY.SELL = "P"
+        Y.SOMME.MVMT.ACHAT = Y.SOMME.MVMT.ACHAT + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.ACHAT.LCY = Y.SOMME.MVMT.ACHAT.LCY + Y.TMP.SOLDE.LCY
+
+    CASE R.POS.RECORD.MVMT<PSE.TRANSACTION.CODE> MATCHES "DEL":@VM:"REV"
+        BUY.SELL = "P*"
+        Y.SOMME.MVMT.ACHAT.REV = Y.SOMME.MVMT.ACHAT.REV + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.ACHAT.REV.LCY = Y.SOMME.MVMT.ACHAT.REV.LCY + Y.TMP.SOLDE.LCY
+
+
+    CASE 1
+        BUY.SELL = "S"
+        Y.SOMME.MVMT.VENTE = Y.SOMME.MVMT.VENTE + R.POS.RECORD.MVMT<PSE.AMOUNT.FCY>
+        Y.SOMME.MVMT.VENTE.LCY = Y.SOMME.MVMT.VENTE.LCY + Y.TMP.SOLDE.LCY
+
+    END CASE
+
+    RETURN
+
+READ.FILE:
+*=========
+*
+    R.POS.RECORD=''
+	POS.MVMT.ERR=''
+    CALL F.READ(FN.POS.MVMT,YKEY,R.POS.RECORD,F.POS.MVMT,POS.MVMT.ERR)
+    IF R.POS.RECORD THEN
+        IF R.POS.RECORD<PSE.CURRENCY> MATCHES "":@VM:LCCY THEN
+
+            R.POS.RECORD<PSE.AMOUNT.FCY> = R.POS.RECORD<PSE.AMOUNT.LCY>         ;* makes calculation easier
+        END
+    END
+    RETURN
+
+END

@@ -1,0 +1,17 @@
+public table BzModPmnt {
+    t24:  BZ.MOD.PMNT
+    fields:{
+        BzModPmntLibelle(MOD.PAI.LIBELLE)=1
+        BzModPmntLocalRef(MOD.PAI.LOCAL.REF)=2
+        BzModPmntOverride(MOD.PAI.OVERRIDE)=3
+        BzModPmntRecordStatus(MOD.PAI.RECORD.STATUS)=4
+        BzModPmntCurrNo(MOD.PAI.CURR.NO)=5
+        BzModPmntInputter(MOD.PAI.INPUTTER)=6
+        BzModPmntDateTime(MOD.PAI.DATE.TIME)=7
+        BzModPmntAuthoriser(MOD.PAI.AUTHORISER)=8
+        BzModPmntCoCode(MOD.PAI.CO.CODE)=9
+        BzModPmntDeptCode(MOD.PAI.DEPT.CODE)=10
+        BzModPmntAuditorCode(MOD.PAI.AUDITOR.CODE)=11
+        BzModPmntAuditDateTime(MOD.PAI.AUDIT.DATE.TIME)=12
+    }
+}

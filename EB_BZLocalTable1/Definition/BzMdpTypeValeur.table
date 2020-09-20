@@ -1,0 +1,16 @@
+public table BzMdpTypeValeur {
+    t24:  BZ.MDP.TYPE.VALEUR
+    fields:{ 
+        BzMdpTypeValeurDescription(TYP.VAL.DESCRIPTION)=1
+        BzMdpTypeValeurOverride(TYP.VAL.OVERRIDE)=2
+        BzMdpTypeValeurRecordStatus(TYP.VAL.RECORD.STATUS)=3
+        BzMdpTypeValeurCurrNo(TYP.VAL.CURR.NO)=4
+        BzMdpTypeValeurInputter(TYP.VAL.INPUTTER)=5
+        BzMdpTypeValeurDateTime(TYP.VAL.DATE.TIME)=6
+        BzMdpTypeValeurAuthoriser(TYP.VAL.AUTHORISER)=7
+        BzMdpTypeValeurCoCode(TYP.VAL.CO.CODE)=8
+        BzMdpTypeValeurDeptCode(TYP.VAL.DEPT.CODE)=9
+        BzMdpTypeValeurAuditorCode(TYP.VAL.AUDITOR.CODE)=10
+        BzMdpTypeValeurAuditDateTime(TYP.VAL.AUDIT.DATE.TIME)=11
+    }
+}

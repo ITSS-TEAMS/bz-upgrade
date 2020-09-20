@@ -1,0 +1,26 @@
+public table TnaCardBatch {
+    t24:  TNA.CARD.BATCH
+    fields:{
+        TnaCardBatchDescription(BATCH.DESCRIPTION)=1
+        TnaCardBatchBranchCode(BATCH.BRANCH.CODE)=2
+        TnaCardBatchNumCreate(BATCH.NUM.CREATE)=3
+        TnaCardBatchNumReplace(BATCH.NUM.REPLACE)=4
+        TnaCardBatchNumModif(BATCH.NUM.MODIF)=5
+        TnaCardBatchNumCanceled(BATCH.NUM.CANCELED)=6
+        TnaCardBatchNumProdReq(BATCH.NUM.PROD.REQ)=7
+        TnaCardBatchNumPinReq(BATCH.NUM.PIN.REQ)=8
+        TnaCardBatchNumRenew(BATCH.NUM.RENEW)=9
+        TnaCardBatchBatchStatus(BATCH.BATCH.STATUS)=10
+        TnaCardBatchLocalRef(BATCH.LOCAL.REF)=11
+        TnaCardBatchOverride(BATCH.OVERRIDE)=12
+        TnaCardBatchRecordStatus(BATCH.RECORD.STATUS)=13
+        TnaCardBatchCurrNo(BATCH.CURR.NO)=14
+        TnaCardBatchInputter(BATCH.INPUTTER)=15
+        TnaCardBatchDateTime(BATCH.DATE.TIME)=16
+        TnaCardBatchAuthoriser(BATCH.AUTHORISER)=17
+        TnaCardBatchCoCode(BATCH.CO.CODE)=18
+        TnaCardBatchDeptCode(BATCH.DEPT.CODE)=19
+        TnaCardBatchAuditorCode(BATCH.AUDITOR.CODE)=20
+        TnaCardBatchAuditDateTime(BATCH.AUDIT.DATE.TIME)=21
+    }
+}

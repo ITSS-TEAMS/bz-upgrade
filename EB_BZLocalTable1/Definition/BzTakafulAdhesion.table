@@ -1,0 +1,29 @@
+public table BzTakafulAdhesion {
+    t24:  BZ.TAKAFUL.ADHESION
+    fields:{
+        BzTakafulAdhesionTypeTakaful(ADH.TAKAFUL.TYPE.TAKAFUL)=1
+        BzTakafulAdhesionTypeFinancement(ADH.TAKAFUL.TYPE.FINANCEMENT)=2
+        BzTakafulAdhesionRefFinancement(ADH.TAKAFUL.REF.FINANCEMENT)=3
+        BzTakafulAdhesionCompte(ADH.TAKAFUL.COMPTE)=4
+        BzTakafulAdhesionDateCreation(ADH.TAKAFUL.DATE.CREATION)=5
+        BzTakafulAdhesionDateEffet(ADH.TAKAFUL.DATE.EFFET)=6
+        BzTakafulAdhesionRefContribution(ADH.TAKAFUL.REF.CONTRIBUTION)=7
+        BzTakafulAdhesionRefCommission(ADH.TAKAFUL.REF.COMMISSION)=8
+        BzTakafulAdhesionRefRs(ADH.TAKAFUL.REF.RS)=9
+        BzTakafulAdhesionReserved1(ADH.TAKAFUL.RESERVED1)=10
+        BzTakafulAdhesionReserved2(ADH.TAKAFUL.RESERVED2)=11
+        BzTakafulAdhesionReserved3(ADH.TAKAFUL.RESERVED3)=12
+        BzTakafulAdhesionReserved4(ADH.TAKAFUL.RESERVED4)=13
+        BzTakafulAdhesionReserved5(ADH.TAKAFUL.RESERVED5)=14
+        BzTakafulAdhesionOverride(ADH.TAKAFUL.OVERRIDE)=15
+        BzTakafulAdhesionRecordStatus(ADH.TAKAFUL.RECORD.STATUS)=16
+        BzTakafulAdhesionCurrNo(ADH.TAKAFUL.CURR.NO)=17
+        BzTakafulAdhesionInputter(ADH.TAKAFUL.INPUTTER)=18
+        BzTakafulAdhesionDateTime(ADH.TAKAFUL.DATE.TIME)=19
+        BzTakafulAdhesionAuthoriser(ADH.TAKAFUL.AUTHORISER)=20
+        BzTakafulAdhesionCoCode(ADH.TAKAFUL.CO.CODE)=21
+        BzTakafulAdhesionDeptCode(ADH.TAKAFUL.DEPT.CODE)=22
+        BzTakafulAdhesionAuditorCode(ADH.TAKAFUL.AUDITOR.CODE)=23
+        BzTakafulAdhesionAuditDateTime(ADH.TAKAFUL.AUDIT.DATE.TIME)=24
+    }
+}

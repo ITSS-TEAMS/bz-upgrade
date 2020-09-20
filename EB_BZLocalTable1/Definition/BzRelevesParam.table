@@ -1,0 +1,26 @@
+public table BzRelevesParam {
+    t24:  BZ.RELEVES.PARAM
+    fields:{
+        BzRelevesParamRelAccount(REL.PARAM.REL.ACCOUNT)=1
+        BzRelevesParamRelDebCategory(REL.PARAM.REL.DEB.CATEGORY)=2
+        BzRelevesParamRelFinCategory(REL.PARAM.REL.FIN.CATEGORY)=3
+        BzRelevesParamDateDebut(REL.PARAM.DATE.DEBUT)=4
+        BzRelevesParamDateFin(REL.PARAM.DATE.FIN)=5
+        BzRelevesParamReserved1(REL.PARAM.RESERVED.1)=6
+        BzRelevesParamReserved2(REL.PARAM.RESERVED.2)=7
+        BzRelevesParamReserved3(REL.PARAM.RESERVED.3)=8
+        BzRelevesParamReserved4(REL.PARAM.RESERVED.4)=9
+        BzRelevesParamReserved5(REL.PARAM.RESERVED.5)=10
+        BzRelevesParamLocalRef(REL.PARAM.LOCAL.REF)=11
+        BzRelevesParamOverride(REL.PARAM.OVERRIDE)=12
+        BzRelevesParamRecordStatus(REL.PARAM.RECORD.STATUS)=13
+        BzRelevesParamCurrNo(REL.PARAM.CURR.NO)=14
+        BzRelevesParamInputter(REL.PARAM.INPUTTER)=15
+        BzRelevesParamDateTime(REL.PARAM.DATE.TIME)=16
+        BzRelevesParamAuthoriser(REL.PARAM.AUTHORISER)=17
+        BzRelevesParamCoCode(REL.PARAM.CO.CODE)=18
+        BzRelevesParamDeptCode(REL.PARAM.DEPT.CODE)=19
+        BzRelevesParamAuditorCode(REL.PARAM.AUDITOR.CODE)=20
+        BzRelevesParamAuditDateTime(REL.PARAM.AUDIT.DATE.TIME)=21
+    }
+}

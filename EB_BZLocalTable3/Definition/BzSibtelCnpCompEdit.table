@@ -1,0 +1,44 @@
+public table BzSibtelCnpCompEdit {
+    t24:  BZ.SIBTEL.CNP.COMP.EDIT
+    fields:{
+        BzSibtelCnpCompEditSens(COM.CNP.SENS)=1
+        BzSibtelCnpCompEditCodeValeur(COM.CNP.CODE.VALEUR)=2
+        BzSibtelCnpCompEditNatureRemettant(COM.CNP.NATURE.REMETTANT)=3
+        BzSibtelCnpCompEditCodeRemettant(COM.CNP.CODE.REMETTANT)=4
+        BzSibtelCnpCompEditCodeCentreReg(COM.CNP.CODE.CENTRE.REG)=5
+        BzSibtelCnpCompEditDateOperation(COM.CNP.DATE.OPERATION)=6
+        BzSibtelCnpCompEditNumLot(COM.CNP.NUM.LOT)=7
+        BzSibtelCnpCompEditCodeEnreg(COM.CNP.CODE.ENREG)=8
+        BzSibtelCnpCompEditCodeDevise(COM.CNP.CODE.DEVISE)=9
+        BzSibtelCnpCompEditRang(COM.CNP.RANG)=10
+        BzSibtelCnpCompEditNumCheque(COM.CNP.NUM.CHEQUE)=11
+        BzSibtelCnpCompEditRibTireur(COM.CNP.RIB.TIREUR)=12
+        BzSibtelCnpCompEditDateEtabCnp(COM.CNP.DATE.ETAB.CNP)=13
+        BzSibtelCnpCompEditNumCnp(COM.CNP.NUM.CNP)=14
+        BzSibtelCnpCompEditNatPersonne(COM.CNP.NAT.PERSONNE)=15
+        BzSibtelCnpCompEditType(COM.CNP.TYPE)=16
+        BzSibtelCnpCompEditLegalId(COM.CNP.LEGAL.ID)=17
+        BzSibtelCnpCompEditNomRs(COM.CNP.NOM.RS)=18
+        BzSibtelCnpCompEditIdentifRcs(COM.CNP.IDENTIF.RCS)=19
+        BzSibtelCnpCompEditNumero(COM.CNP.NUMERO)=20
+        BzSibtelCnpCompEditNomRueAvenue(COM.CNP.NOM.RUE.AVENUE)=21
+        BzSibtelCnpCompEditNumBp(COM.CNP.NUM.BP)=22
+        BzSibtelCnpCompEditCodePostal(COM.CNP.CODE.POSTAL)=23
+        BzSibtelCnpCompEditQualite(COM.CNP.QUALITE)=24
+        BzSibtelCnpCompEditReserved1(COM.CNP.RESERVED1)=25
+        BzSibtelCnpCompEditReserved2(COM.CNP.RESERVED2)=26
+        BzSibtelCnpCompEditReserved3(COM.CNP.RESERVED3)=27
+        BzSibtelCnpCompEditReserved4(COM.CNP.RESERVED4)=28
+        BzSibtelCnpCompEditReserved5(COM.CNP.RESERVED5)=29
+        BzSibtelCnpCompEditOverride(COM.CNP.OVERRIDE)=30
+        BzSibtelCnpCompEditRecordStatus(COM.CNP.RECORD.STATUS)=31
+        BzSibtelCnpCompEditCurrNo(COM.CNP.CURR.NO)=32
+        BzSibtelCnpCompEditInputter(COM.CNP.INPUTTER)=33
+        BzSibtelCnpCompEditDateTime(COM.CNP.DATE.TIME)=34
+        BzSibtelCnpCompEditAuthoriser(COM.CNP.AUTHORISER)=35
+        BzSibtelCnpCompEditCoCode(COM.CNP.CO.CODE)=36
+        BzSibtelCnpCompEditDeptCode(COM.CNP.DEPT.CODE)=37
+        BzSibtelCnpCompEditAuditorCode(COM.CNP.AUDITOR.CODE)=38
+        BzSibtelCnpCompEditAuditDateTime(COM.CNP.AUDIT.DATE.TIME)=39
+    }
+}

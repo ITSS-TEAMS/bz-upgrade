@@ -1,0 +1,37 @@
+public table CecDomiciliation {
+t24:  CEC.DOMICILIATION
+fields:{
+        CecDomiciliationObject(CEC.DOM.OBJECT)=1
+        CecDomiciliationActionType(CEC.DOM.ACTION.TYPE)=2
+        CecDomiciliationActionComment(CEC.DOM.ACTION.COMMENT)=3
+        CecDomiciliationActionStart(CEC.DOM.ACTION.START)=4
+        CecDomiciliationActionEnd(CEC.DOM.ACTION.END)=5
+        CecDomiciliationDebtorAccount(CEC.DOM.DEBTOR.ACCOUNT)=6
+        CecDomiciliationDebtorBban(CEC.DOM.DEBTOR.BBAN)=7
+        CecDomiciliationDebtorPhone(CEC.DOM.DEBTOR.PHONE)=8
+        CecDomiciliationDebtorCode(CEC.DOM.DEBTOR.CODE)=9
+		CecDomiciliationReserved6(CEC.DOM.RESERVED.6)=10
+		CecDomiciliationCreditorId(CEC.DOM.CREDITOR.ID)=11
+		CecDomiciliationMandateId(CEC.DOM.MANDATE.ID)=12
+		CecDomiciliationHistDate(CEC.DOM.HIST.DATE)=13
+		CecDomiciliationHistAction(CEC.DOM.HIST.ACTION)=14
+		CecDomiciliationHistReference(CEC.DOM.HIST.REFERENCE)=15
+		CecDomiciliationHistComment(CEC.DOM.HIST.COMMENT)=16
+		CecDomiciliationReserved5(CEC.DOM.RESERVED.5)=17
+		CecDomiciliationReserved4(CEC.DOM.RESERVED.4)=18
+		CecDomiciliationReserved3(CEC.DOM.RESERVED.3)=19
+		CecDomiciliationReserved2(CEC.DOM.RESERVED.2)=20
+		CecDomiciliationReserved1(CEC.DOM.RESERVED.1)=21
+		CecDomiciliationLocalRef(CEC.DOM.LOCAL.REF)=22
+		CecDomiciliationOverride(CEC.DOM.OVERRIDE)=23
+		CecDomiciliationRecordStatus(CEC.DOM.RECORD.STATUS)=24
+		CecDomiciliationCurrNo(CEC.DOM.CURR.NO)=25
+		CecDomiciliationInputter(CEC.DOM.INPUTTER)=26
+		CecDomiciliationDateTime(CEC.DOM.DATE.TIME)=27
+		CecDomiciliationAuthoriser(CEC.DOM.AUTHORISER)=28
+		CecDomiciliationCoCode(CEC.DOM.CO.CODE)=29
+		CecDomiciliationDeptCode(CEC.DOM.DEPT.CODE)=30
+		CecDomiciliationAuditorCode(CEC.DOM.AUDITOR.CODE)=31
+		CecDomiciliationAuditDateTime(CEC.DOM.AUDIT.DATE.TIME)=32
+}
+}

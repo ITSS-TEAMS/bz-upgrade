@@ -1,0 +1,40 @@
+public table BzEmissionChqBq {
+    t24:  BZ.EMISSION.CHQ.BQ
+    fields:{
+        BzEmissionChqBqUniteEmission(ECD.UNITE.EMISSION)=1
+        BzEmissionChqBqDateEmission(ECD.DATE.EMISSION)=2
+        BzEmissionChqBqRefBlocage(ECD.REF.BLOCAGE)=3
+        BzEmissionChqBqNumCheque(ECD.NUM.CHEQUE)=4
+        BzEmissionChqBqRib(ECD.RIB)=5
+        BzEmissionChqBqCptClient(ECD.CPT.CLIENT)=6
+        BzEmissionChqBqMontant(ECD.MONTANT)=7
+        BzEmissionChqBqCptChq(ECD.CPT.CHQ)=8
+        BzEmissionChqBqObjetEmission(ECD.OBJET.EMISSION)=9
+        BzEmissionChqBqStatut(ECD.STATUT)=10
+        BzEmissionChqBqDateSort(ECD.DATE.SORT)=11
+        BzEmissionChqBqRefPaiement(ECD.REF.PAIEMENT)=12
+        BzEmissionChqBqBeneficiaire(ECD.BENEFICIAIRE)=13
+        BzEmissionChqBqEdition(ECD.EDITION)=14
+        BzEmissionChqBqIdChqRecu(ECD.ID.CHQ.RECU)=15
+        BzEmissionChqBqDateBlocage(ECD.DATE.BLOCAGE)=16
+        BzEmissionChqBqRefAnnulation(ECD.REF.ANNULATION)=17
+        BzEmissionChqBqIdInsChqPai(ECD.ID.INS.CHQ.PAI)=18
+        BzEmissionChqBqCptAvance(ECD.CPT.AVANCE)=19
+        BzEmissionChqBqMntAvance(ECD.MNT.AVANCE)=20
+        BzEmissionChqBqAnticipe(ECD.ANTICIPE)=21
+        BzEmissionChqBqClient(ECD.CLIENT)=22
+        BzEmissionChqBqDecision(ECD.DECISION)=23
+        BzEmissionChqBqCommentaire(ECD.COMMENTAIRE)=24
+        BzEmissionChqBqLocalRef(ECD.LOCAL.REF)=25
+        BzEmissionChqBqOverride(ECD.OVERRIDE)=26
+        BzEmissionChqBqRecordStatus(ECD.RECORD.STATUS)=27
+        BzEmissionChqBqCurrNo(ECD.CURR.NO)=28
+        BzEmissionChqBqInputter(ECD.INPUTTER)=29
+        BzEmissionChqBqDateTime(ECD.DATE.TIME)=30
+        BzEmissionChqBqAuthoriser(ECD.AUTHORISER)=31
+        BzEmissionChqBqCoCode(ECD.CO.CODE)=32
+        BzEmissionChqBqDeptCode(ECD.DEPT.CODE)=33
+        BzEmissionChqBqAuditorCode(ECD.AUDITOR.CODE)=34
+        BzEmissionChqBqAuditDateTime(ECD.AUDIT.DATE.TIME)=35
+    }
+}

@@ -1,0 +1,17 @@
+public table BzChrgSystem {
+    t24:  BZ.CHRG.SYSTEM
+    fields:{
+        BzChrgSystemDescription(BZ.CHRG.DESCRIPTION)=1
+        BzChrgSystemDao(BZ.CHRG.DAO)=2
+        BzChrgSystemOverride(BZ.CHRG.OVERRIDE)=3
+        BzChrgSystemRecordStatus(BZ.CHRG.RECORD.STATUS)=4
+        BzChrgSystemCurrNo(BZ.CHRG.CURR.NO)=5
+        BzChrgSystemInputter(BZ.CHRG.INPUTTER)=6
+        BzChrgSystemDateTime(BZ.CHRG.DATE.TIME)=7
+        BzChrgSystemAuthoriser(BZ.CHRG.AUTHORISER)=8
+        BzChrgSystemCoCode(BZ.CHRG.CO.CODE)=9
+        BzChrgSystemDeptCode(BZ.CHRG.DEPT.CODE)=10
+        BzChrgSystemAuditorCode(BZ.CHRG.AUDITOR.CODE)=11
+        BzChrgSystemAuditDateTime(BZ.CHRG.AUDIT.DATE.TIME)=12
+    }
+}

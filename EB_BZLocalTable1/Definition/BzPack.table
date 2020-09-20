@@ -1,0 +1,38 @@
+public table BzPack {
+    t24:  BZ.PACK
+    fields:{
+        BzPackCustomerNo(PK.CUSTOMER.NO)=1
+        BzPackPackType(PK.PACK.TYPE)=2
+        BzPackFrequency(PK.FREQUENCY)=3
+        BzPackEffectiveDate(PK.EFFECTIVE.DATE)=4
+        BzPackPackAmt(PK.PACK.AMT)=5
+        BzPackAccountNo(PK.ACCOUNT.NO)=6
+        BzPackCardNo(PK.CARD.NO)=7
+        BzPackTawassoolNo(PK.TAWASSOOL.NO)=8
+        BzPackTpeNo(PK.TPE.NO)=9
+        BzPackOpenningDate(PK.OPENNING.DATE)=10
+        BzPackStatus(PK.STATUS)=11
+        BzPackValidationDate(PK.VALIDATION.DATE)=12
+        BzPackResiliationDate(PK.RESILIATION.DATE)=13
+        BzPackCardNoOld(PK.CARD.NO.OLD)=14
+        BzPackRelatedPack(PK.RELATED.PACK)=15
+        BzPackChargeKey(PK.CHARGE.KEY)=16
+        BzPackReserved2(PK.RESERVED.2)=17
+        BzPackReserved3(PK.RESERVED.3)=18
+        BzPackReserved4(PK.RESERVED.4)=19
+        BzPackReserved5(PK.RESERVED.5)=20
+        BzPackReserved6(PK.RESERVED.6)=21
+        BzPackReserved7(PK.RESERVED.7)=22
+        BzPackReserved8(PK.RESERVED.8)=23
+        BzPackOverride(PK.OVERRIDE)=24
+        BzPackRecordStatus(PK.RECORD.STATUS)=25
+        BzPackCurrNo(PK.CURR.NO)=26
+        BzPackInputter(PK.INPUTTER)=27
+        BzPackDateTime(PK.DATE.TIME)=28
+        BzPackAuthoriser(PK.AUTHORISER)=29
+        BzPackCoCode(PK.CO.CODE)=30
+        BzPackDeptCode(PK.DEPT.CODE)=31
+        BzPackAuditorCode(PK.AUDITOR.CODE)=32
+        BzPackAuditDateTime(PK.AUDIT.DATE.TIME)=33
+    }
+}

@@ -1,0 +1,25 @@
+public table BzCoffreLoyer {
+    t24:  BZ.COFFRE.LOYER
+    fields:{
+        BzCoffreLoyerIdContrat(CF.LOYER.ID.CONTRAT)=1
+        BzCoffreLoyerDateLoyer(CF.LOYER.DATE.LOYER)=2
+        BzCoffreLoyerRefOfs(CF.LOYER.REF.OFS)=3
+        BzCoffreLoyerRefLoyer(CF.LOYER.REF.LOYER)=4
+        BzCoffreLoyerDatePrelevement(CF.LOYER.DATE.PRELEVEMENT)=5
+        BzCoffreLoyerMontant(CF.LOYER.MONTANT)=6
+        BzCoffreLoyerCompte(CF.LOYER.COMPTE)=7
+        BzCoffreLoyerDevise(CF.LOYER.DEVISE)=8
+        BzCoffreLoyerNumCoffre(CF.LOYER.NUM.COFFRE)=9
+        BzCoffreLoyerChargeCode(CF.LOYER.CHARGE.CODE)=10
+        BzCoffreLoyerOverride(CF.LOYER.OVERRIDE)=11
+        BzCoffreLoyerRecordStatus(CF.LOYER.RECORD.STATUS)=12
+        BzCoffreLoyerCurrNo(CF.LOYER.CURR.NO)=13
+        BzCoffreLoyerInputter(CF.LOYER.INPUTTER)=14
+        BzCoffreLoyerDateTime(CF.LOYER.DATE.TIME)=15
+        BzCoffreLoyerAuthoriser(CF.LOYER.AUTHORISER)=16
+        BzCoffreLoyerCoCode(CF.LOYER.CO.CODE)=17
+        BzCoffreLoyerDeptCode(CF.LOYER.DEPT.CODE)=18
+        BzCoffreLoyerAuditorCode(CF.LOYER.AUDITOR.CODE)=19
+        BzCoffreLoyerAuditDateTime(CF.LOYER.AUDIT.DATE.TIME)=20
+    }
+}

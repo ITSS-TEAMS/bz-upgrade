@@ -1,0 +1,22 @@
+public table BzAvaTypeOuverture {
+    t24:  BZ.AVA.TYPE.OUVERTURE
+    fields:{
+        BzAvaTypeOuvertureDescription(TYP.OUV.DESCRIPTION)=1
+        BzAvaTypeOuvertureReserved1(TYP.OUV.RESERVED1)=2
+        BzAvaTypeOuvertureReserved2(TYP.OUV.RESERVED2)=3
+        BzAvaTypeOuvertureReserved3(TYP.OUV.RESERVED3)=4
+        BzAvaTypeOuvertureReserved4(TYP.OUV.RESERVED4)=5
+        BzAvaTypeOuvertureReserved5(TYP.OUV.RESERVED5)=6
+        BzAvaTypeOuvertureLocalRef(TYP.OUV.LOCAL.REF)=7
+        BzAvaTypeOuvertureOverride(TYP.OUV.OVERRIDE)=8
+        BzAvaTypeOuvertureRecordStatus(TYP.OUV.RECORD.STATUS)=9
+        BzAvaTypeOuvertureCurrNo(TYP.OUV.CURR.NO)=10
+        BzAvaTypeOuvertureInputter(TYP.OUV.INPUTTER)=11
+        BzAvaTypeOuvertureDateTime(TYP.OUV.DATE.TIME)=12
+        BzAvaTypeOuvertureAuthoriser(TYP.OUV.AUTHORISER)=13
+        BzAvaTypeOuvertureCoCode(TYP.OUV.CO.CODE)=14
+        BzAvaTypeOuvertureDeptCode(TYP.OUV.DEPT.CODE)=15
+        BzAvaTypeOuvertureAuditorCode(TYP.OUV.AUDITOR.CODE)=16
+        BzAvaTypeOuvertureAuditDateTime(TYP.OUV.AUDIT.DATE.TIME)=17
+    }
+} 

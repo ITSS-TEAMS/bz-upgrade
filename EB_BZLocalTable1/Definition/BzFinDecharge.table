@@ -1,0 +1,30 @@
+public table BzFinDecharge {
+        t24:  BZ.FIN.DECHARGE
+        fields:{
+            BzFinDechargeCustomer(DECH.CUSTOMER)=1
+            BzFinDechargeAgence(DECH.AGENCE)=2
+            BzFinDechargeTypeProduit(DECH.TYPE.PRODUIT)=3
+            BzFinDechargeProduit(DECH.PRODUIT)=4
+            BzFinDechargeMontantBien(DECH.MONTANT.BIEN)=5
+            BzFinDechargeMontantAcompte(DECH.MONTANT.ACOMPTE)=6
+            BzFinDechargeMontantFin(DECH.MONTANT.FIN)=7
+            BzFinDechargeDateDecharge(DECH.DATE.DECHARGE)=8
+            BzFinDechargeDureeFinancement(DECH.DUREE.FINANCEMENT)=9
+            BzFinDechargeTypeFinancement(DECH.TYPE.FINANCEMENT)=10
+            BzFinDechargeRefUtilisee(DECH.REF.UTILISEE)=11
+            BzFinDechargeReserved4(DECH.RESERVED.4)=12
+            BzFinDechargeReserved5(DECH.RESERVED.5)=13
+            BzFinDechargeReserved6(DECH.RESERVED.6)=14
+            BzFinDechargeLocalRef(DECH.LOCAL.REF)=15
+            BzFinDechargeOverride(DECH.OVERRIDE)=16
+            BzFinDechargeRecordStatus(DECH.RECORD.STATUS)=17
+            BzFinDechargeCurrNo(DECH.CURR.NO)=18
+            BzFinDechargeInputter(DECH.INPUTTER)=19
+            BzFinDechargeDateTime(DECH.DATE.TIME)=20
+            BzFinDechargeAuthoriser(DECH.AUTHORISER)=21
+            BzFinDechargeCoCode(DECH.CO.CODE)=22
+            BzFinDechargeDeptCode(DECH.DEPT.CODE)=23
+            BzFinDechargeAuditorCode(DECH.AUDITOR.CODE)=24
+            BzFinDechargeAuditDateTime(DECH.AUDIT.DATE.TIME)=25
+        }
+    }

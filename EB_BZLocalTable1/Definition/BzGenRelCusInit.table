@@ -1,0 +1,31 @@
+public table BzGenRelCusInit {
+    t24:  BZ.GEN.REL.CUS.INIT
+    fields:{
+        BzGenRelCusInitStatus(GEN.CUS.STATUS)=1
+        BzGenRelCusInitProcessType(GEN.CUS.PROCESS.TYPE)=2
+        BzGenRelCusInitStartCategory(GEN.CUS.START.CATEGORY)=3
+        BzGenRelCusInitEndCategory(GEN.CUS.END.CATEGORY)=4
+        BzGenRelCusInitExclCategory(GEN.CUS.EXCL.CATEGORY)=5
+        BzGenRelCusInitCateg(GEN.CUS.CATEG)=6
+        BzGenRelCusInitAcctId(GEN.CUS.ACCT.ID)=7
+        BzGenRelCusInitGenStartDate(GEN.CUS.GEN.START.DATE)=8
+        BzGenRelCusInitGenEndDate(GEN.CUS.GEN.END.DATE)=9
+        BzGenRelCusInitGenPath(GEN.CUS.GEN.PATH)=10
+        BzGenRelCusInitWorkProfile(GEN.CUS.WORK.PROFILE)=11
+        BzGenRelCusInitLastStarted(GEN.CUS.LAST.STARTED)=12
+        BzGenRelCusInitLastStopped(GEN.CUS.LAST.STOPPED)=13
+        BzGenRelCusInitLastElapsed(GEN.CUS.LAST.ELAPSED)=14
+        BzGenRelCusInitNoMvmtGen(GEN.CUS.NO.MVMT.GEN)=15
+        BzGenRelCusInitLocalRef(GEN.CUS.LOCAL.REF)=16
+        BzGenRelCusInitOverride(GEN.CUS.OVERRIDE)=17
+        BzGenRelCusInitRecordStatus(GEN.CUS.RECORD.STATUS)=18
+        BzGenRelCusInitCurrNo(GEN.CUS.CURR.NO)=19
+        BzGenRelCusInitInputter(GEN.CUS.INPUTTER)=20
+        BzGenRelCusInitDateTime(GEN.CUS.DATE.TIME)=21
+        BzGenRelCusInitAuthoriser(GEN.CUS.AUTHORISER)=22
+        BzGenRelCusInitCoCode(GEN.CUS.CO.CODE)=23
+        BzGenRelCusInitDeptCode(GEN.CUS.DEPT.CODE)=24
+        BzGenRelCusInitAuditorCode(GEN.CUS.AUDITOR.CODE)=25
+        BzGenRelCusInitAuditDateTime(GEN.CUS.AUDIT.DATE.TIME)=26
+    }
+}

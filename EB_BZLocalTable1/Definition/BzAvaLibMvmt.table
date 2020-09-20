@@ -1,0 +1,23 @@
+public table BzAvaLibMvmt {
+        t24:  BZ.AVA.LIB.MVMT
+        fields:{
+            BzAvaLibMvmtDescription(LIB.MVT.DESCRIPTION)=1
+            BzAvaLibMvmtSens(LIB.MVT.SENS)=2
+            BzAvaLibMvmtReserved1(LIB.MVT.RESERVED1)=3
+            BzAvaLibMvmtReserved2(LIB.MVT.RESERVED2)=4
+            BzAvaLibMvmtReserved3(LIB.MVT.RESERVED3)=5
+            BzAvaLibMvmtReserved4(LIB.MVT.RESERVED4)=6
+            BzAvaLibMvmtReserved5(LIB.MVT.RESERVED5)=7
+            BzAvaLibMvmtLocalRef(LIB.MVT.LOCAL.REF)=8
+            BzAvaLibMvmtOverride(LIB.MVT.OVERRIDE)=9
+            BzAvaLibMvmtRecordStatus(LIB.MVT.RECORD.STATUS)=10
+            BzAvaLibMvmtCurrNo(LIB.MVT.CURR.NO)=11
+            BzAvaLibMvmtInputter(LIB.MVT.INPUTTER)=12
+            BzAvaLibMvmtDateTime(LIB.MVT.DATE.TIME)=13
+            BzAvaLibMvmtAuthoriser(LIB.MVT.AUTHORISER)=14
+            BzAvaLibMvmtCoCode(LIB.MVT.CO.CODE)=15
+            BzAvaLibMvmtDeptCode(LIB.MVT.DEPT.CODE)=16
+            BzAvaLibMvmtAuditorCode(LIB.MVT.AUDITOR.CODE)=17
+            BzAvaLibMvmtAuditDateTime(LIB.MVT.AUDIT.DATE.TIME)=18
+        }
+    }

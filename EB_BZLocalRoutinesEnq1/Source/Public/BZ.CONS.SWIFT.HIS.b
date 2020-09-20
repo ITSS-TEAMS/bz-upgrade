@@ -1,0 +1,78 @@
+*-----------------------------------------------------------------------------
+*Modification History:
+*ZIT-UPG-R13-R19: NO CHANGES
+*----------------------------------------------------------------------------- 
+$PACKAGE EB.BZLocalRoutinesEnq1
+   SUBROUTINE BZ.CONS.SWIFT.HIS(Y.LIST.TYPE)
+$USING EB.API
+$USING EB.SystemTables
+$USING EB.Reports
+$USING EB.DataAccess
+$USING EB.ErrorProcessing
+$USING EB.BZLocalTable1
+$USING EB.BZLocalTable2
+$USING EB.BZLocalTable3
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+    $INSERT I_F.USER
+    $INSERT I_F.FUNDS.TRANSFER
+
+
+    GOSUB INITIALISATION
+    GOSUB MAIN.PROCESS
+
+    RETURN
+
+INITIALISATION:
+
+    FN.FT = "F.FUNDS.TRANSFER"
+    F.FT = ""
+
+* $INSERT I_COMMON - Not Used anymore;F.FT)
+
+* $INSERT I_ENQUIRY.COMMON - Not Used anymore;NSFER$HIS"
+    F.FT.HIS = ""
+
+    CALL OPF(FN.FT.HIS, F.FT.HIS)
+
+    RECORD.FINAL = ""
+    Y.LIST.TYPE = ''
+
+    RETURN
+
+MAIN.PROCESS:
+
+    LOCATE "@ID" IN D.FIELDS<1> SETTING POS.ID ELSE NULL
+    DATA.ID = D.RANGE.AND.VALUE<POS.ID>
+    OPERANDE.ID= D.LOGICAL.OPERANDS<POS.ID>
+
+tmp.V$FUNCTION = EB.SystemTables.getVFunction()
+    CALL F.READ(FN.FT,DATA.IDtmp.V$FUNCTIONFT,FT.ERR)
+EB.SystemTables.setVFunction(tmp.V$FUNCTION)
+
+    FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus       RECORD.FINAL = FT.REC
+    END ELSE
+  FT.AdhocChargeRequests.AcChargeRequest.ChgRecordStatus.HISTORY(FN.FT.HIS,DATA.ID,FT.HIS.REC,F.FT.HIS,FT.HIS.ERR)
+        IF FT.HIS.REC THEN
+            RECORD.FINAL = FT.HIS.REC
+        END
+    END
+
+    IF RECORD.FINAL THEN
+        TRANSACTION.TYPE  = RECORD.FINAL<FT.TRANSACTION.TYPE>
+        DEBIT.ACCT.NO   = RECORD.FINAL<FT.DEBIT.ACCT.NO>
+        DEBIT.CURRENCY   = RECORD.FINAL<FT.DEBIT.CURRENCY>
+        DEBIT.AMOUNT  = RECORD.FINAL<FT.DEBIT.AMOUNT>
+        CREDIT.ACCT.NO   = RECORD.FINAL<FT.CREDIT.ACCT.NO>
+        CREDIT.CURRENCY  = RECORD.FINAL<FT.CREDIT.CURRENCY>
+        CREDIT.AMOUNT   = RECORD.FINAL<FT.CREDIT.AMOUNT>
+
+        DATA.ID = FIELD(DATA.ID,";",1)
+        Y.LIST.TYPE<-1> = DATA.ID:'*':TRANSACTION.TYPE:'*':DEBIT.ACCT.NO:'*':DEBIT.CURRENCY:'*':DEBIT.AMOUNT:'*':CREDIT.ACCT.NO:'*':CREDIT.CURRENCY:'*':CREDIT.AMOUNT
+    END
+
+    RETURN
+
+END

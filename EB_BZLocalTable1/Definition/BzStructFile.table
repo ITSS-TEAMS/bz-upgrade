@@ -1,0 +1,33 @@
+public table BzStructFile {
+    t24:  BZ.STRUCT.FILE
+    fields:{
+        BzStructFileDescription(BZ.STR.DESCRIPTION)=1
+        BzStructFileTable(BZ.STR.TABLE)=2
+        BzStructFileChamps(BZ.STR.CHAMPS)=3
+        BzStructFilePosition(BZ.STR.POSITION)=4
+        BzStructFileLongeur(BZ.STR.LONGEUR)=5
+        BzStructFileChampst24(BZ.STR.CHAMPST24)=6
+        BzStructFileType(BZ.STR.TYPE)=7
+        BzStructFileInFolder(BZ.STR.IN.FOLDER)=8
+        BzStructFileInArcFolder(BZ.STR.IN.ARC.FOLDER)=9
+        BzStructFileSystem(BZ.STR.SYSTEM)=10
+        BzStructFilePrefix(BZ.STR.PREFIX)=11
+        BzStructFileLigneGlob(BZ.STR.LIGNE.GLOB)=12
+        BzStructFileEcran(BZ.STR.ECRAN)=13
+        BzStructFileReserved1(BZ.STR.RESERVED1)=14
+        BzStructFileReserved2(BZ.STR.RESERVED2)=15
+        BzStructFileReserved3(BZ.STR.RESERVED3)=16
+        BzStructFileReserved4(BZ.STR.RESERVED4)=17
+        BzStructFileReserved5(BZ.STR.RESERVED5)=18
+        BzStructFileOverride(BZ.STR.OVERRIDE)=19
+        BzStructFileRecordStatus(BZ.STR.RECORD.STATUS)=20
+        BzStructFileCurrNo(BZ.STR.CURR.NO)=21
+        BzStructFileInputter(BZ.STR.INPUTTER)=22
+        BzStructFileDateTime(BZ.STR.DATE.TIME)=23
+        BzStructFileAuthoriser(BZ.STR.AUTHORISER)=24
+        BzStructFileCoCode(BZ.STR.CO.CODE)=25
+        BzStructFileDeptCode(BZ.STR.DEPT.CODE)=26
+        BzStructFileAuditorCode(BZ.STR.AUDITOR.CODE)=27
+        BzStructFileAuditDateTime(BZ.STR.AUDIT.DATE.TIME)=28
+    }
+}

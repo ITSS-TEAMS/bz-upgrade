@@ -1,0 +1,21 @@
+public table BzCoffreMandat {
+    t24:  BZ.COFFRE.MANDAT
+    fields:{
+        BzCoffreMandatIdContrat(CF.MDT.ID.CONTRAT)=1
+        BzCoffreMandatIdClient(CF.MDT.ID.CLIENT)=2
+        BzCoffreMandatDateCreation(CF.MDT.DATE.CREATION)=3
+        BzCoffreMandatDateDebut(CF.MDT.DATE.DEBUT)=4
+        BzCoffreMandatDateAnnulation(CF.MDT.DATE.ANNULATION)=5
+        BzCoffreMandatMandatAnnule(CF.MDT.MANDAT.ANNULE)=6
+        BzCoffreMandatOverride(CF.MDT.OVERRIDE)=7
+        BzCoffreMandatRecordStatus(CF.MDT.RECORD.STATUS)=8
+        BzCoffreMandatCurrNo(CF.MDT.CURR.NO)=9
+        BzCoffreMandatInputter(CF.MDT.INPUTTER)=10
+        BzCoffreMandatDateTime(CF.MDT.DATE.TIME)=11
+        BzCoffreMandatAuthoriser(CF.MDT.AUTHORISER)=12
+        BzCoffreMandatCoCode(CF.MDT.CO.CODE)=13
+        BzCoffreMandatDeptCode(CF.MDT.DEPT.CODE)=14
+        BzCoffreMandatAuditorCode(CF.MDT.AUDITOR.CODE)=15
+        BzCoffreMandatAuditDateTime(CF.MDT.AUDIT.DATE.TIME)=16
+    }
+}

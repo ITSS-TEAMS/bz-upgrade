@@ -1,0 +1,45 @@
+public table EditiqueParameters {
+    t24:  EDITIQUE.PARAMETERS
+    fields:{
+        EditiqueParametersdriverclassname(ED.PAR.driverClassName)=1
+        EditiqueParametersurl(ED.PAR.url)=2
+        EditiqueParametersusername(ED.PAR.username)=3
+        EditiqueParameterspassword(ED.PAR.password)=4
+        EditiqueParametersSqlTable(ED.PAR.SQL.TABLE)=5
+        EditiqueParametersNbrFieldMax(ED.PAR.NBR.FIELD.MAX)=6
+        EditiqueParametersFieldName(ED.PAR.FIELD.NAME)=7
+        EditiqueParametersFieldPosition(ED.PAR.FIELD.POSITION)=8
+        EditiqueParametersFieldType(ED.PAR.FIELD.TYPE)=9
+        EditiqueParametersFieldLength(ED.PAR.FIELD.LENGTH)=10
+        EditiqueParametersSqlFieldName(ED.PAR.SQL.FIELD.NAME)=11
+        EditiqueParametersLrName(ED.PAR.LR.NAME)=12
+        EditiqueParametersLrPosition(ED.PAR.LR.POSITION)=13
+        EditiqueParametersLrFieldType(ED.PAR.LR.FIELD.TYPE)=14
+        EditiqueParametersLrFieldLength(ED.PAR.LR.FIELD.LENGTH)=15
+        EditiqueParametersSqlLrName(ED.PAR.SQL.LR.NAME)=16
+        EditiqueParametersSsLrNo(ED.PAR.SS.LR.NO)=17
+        EditiqueParametersSendAllData(ED.PAR.SEND.ALL.DATA)=18
+        EditiqueParametersCrateSqlStr(ED.PAR.CRATE.SQL.STR)=19
+        EditiqueParametersSelectFilter(ED.PAR.SELECT.FILTER)=20
+        EditiqueParametersReserved1(ED.PAR.RESERVED.1)=21
+        EditiqueParametersReserved2(ED.PAR.RESERVED.2)=22
+        EditiqueParametersReserved3(ED.PAR.RESERVED.3)=23
+        EditiqueParametersReserved4(ED.PAR.RESERVED.4)=24
+        EditiqueParametersReserved5(ED.PAR.RESERVED.5)=25
+        EditiqueParametersReserved6(ED.PAR.RESERVED.6)=26
+        EditiqueParametersReserved7(ED.PAR.RESERVED.7)=27
+        EditiqueParametersReserved8(ED.PAR.RESERVED.8)=28
+        EditiqueParametersReserved9(ED.PAR.RESERVED.9)=29
+        EditiqueParametersReserved10(ED.PAR.RESERVED.10)=30
+        EditiqueParametersOverride(ED.PAR.OVERRIDE)=31
+        EditiqueParametersRecordStatus(ED.PAR.RECORD.STATUS)=32
+        EditiqueParametersCurrNo(ED.PAR.CURR.NO)=33
+        EditiqueParametersInputter(ED.PAR.INPUTTER)=34
+        EditiqueParametersDateTime(ED.PAR.DATE.TIME)=35
+        EditiqueParametersAuthoriser(ED.PAR.AUTHORISER)=36
+        EditiqueParametersCoCode(ED.PAR.CO.CODE)=37
+        EditiqueParametersDeptCode(ED.PAR.DEPT.CODE)=38
+        EditiqueParametersAuditorCode(ED.PAR.AUDITOR.CODE)=39
+        EditiqueParametersAuditDateTime(ED.PAR.AUDIT.DATE.TIME)=40
+    }
+}

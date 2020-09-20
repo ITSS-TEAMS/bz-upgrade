@@ -1,0 +1,23 @@
+public table BzFinMurConditions {
+    t24:  BZ.FIN.MUR.CONDITIONS
+    fields:{
+        BzFinMurConditionsDescription(FIN.MUR.COND.DESCRIPTION)=1
+        BzFinMurConditionsCodeProduit(FIN.MUR.COND.CODE.PRODUIT)=2
+        BzFinMurConditionsDescProduit(FIN.MUR.COND.DESC.PRODUIT)=3
+        BzFinMurConditionsLibelle(FIN.MUR.COND.LIBELLE)=4
+        BzFinMurConditionsReserved2(FIN.MUR.COND.RESERVED.2)=5
+        BzFinMurConditionsReserved3(FIN.MUR.COND.RESERVED.3)=6
+        BzFinMurConditionsReserved4(FIN.MUR.COND.RESERVED.4)=7
+        BzFinMurConditionsReserved5(FIN.MUR.COND.RESERVED.5)=8
+        BzFinMurConditionsOverride(FIN.MUR.COND.OVERRIDE)=9
+        BzFinMurConditionsRecordStatus(FIN.MUR.COND.RECORD.STATUS)=10
+        BzFinMurConditionsCurrNo(FIN.MUR.COND.CURR.NO)=11
+        BzFinMurConditionsInputter(FIN.MUR.COND.INPUTTER)=12
+        BzFinMurConditionsDateTime(FIN.MUR.COND.DATE.TIME)=13
+        BzFinMurConditionsAuthoriser(FIN.MUR.COND.AUTHORISER)=14
+        BzFinMurConditionsCoCode(FIN.MUR.COND.CO.CODE)=15
+        BzFinMurConditionsDeptCode(FIN.MUR.COND.DEPT.CODE)=16
+        BzFinMurConditionsAuditorCode(FIN.MUR.COND.AUDITOR.CODE)=17
+        BzFinMurConditionsAuditDateTime(FIN.MUR.COND.AUDIT.DATE.TIME)=18
+    }
+}

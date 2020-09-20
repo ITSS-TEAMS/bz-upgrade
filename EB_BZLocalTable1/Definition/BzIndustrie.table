@@ -1,0 +1,19 @@
+public table BzIndustrie {
+    t24:  BZ.INDUSTRIE
+    fields:{
+        BzIndustrieCodeBct(BZ.INDUS.CODE.BCT)=1
+        BzIndustrieLibelle(BZ.INDUS.LIBELLE)=2
+        BzIndustrieTypeIndus(BZ.INDUS.TYPE.INDUS)=3
+        BzIndustrieLocalRef(BZ.INDUS.LOCAL.REF)=4
+        BzIndustrieOverride(BZ.INDUS.OVERRIDE)=5
+        BzIndustrieRecordStatus(BZ.INDUS.RECORD.STATUS)=6
+        BzIndustrieCurrNo(BZ.INDUS.CURR.NO)=7
+        BzIndustrieInputter(BZ.INDUS.INPUTTER)=8
+        BzIndustrieDateTime(BZ.INDUS.DATE.TIME)=9
+        BzIndustrieAuthoriser(BZ.INDUS.AUTHORISER)=10
+        BzIndustrieCoCode(BZ.INDUS.CO.CODE)=11
+        BzIndustrieDeptCode(BZ.INDUS.DEPT.CODE)=12
+        BzIndustrieAuditorCode(BZ.INDUS.AUDITOR.CODE)=13
+        BzIndustrieAuditDateTime(BZ.INDUS.AUDIT.DATE.TIME)=14
+    }
+}

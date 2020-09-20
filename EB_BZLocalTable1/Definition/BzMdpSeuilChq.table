@@ -1,0 +1,20 @@
+public table BzMdpSeuilChq {
+    t24:  BZ.MDP.SEUIL.CHQ
+    fields:{
+        BzMdpSeuilChqDescription(SEUIL.CHQ.DESCRIPTION)=1
+        BzMdpSeuilChqSeuilTimeDeb(SEUIL.CHQ.SEUIL.TIME.DEB)=2
+        BzMdpSeuilChqSeuilTimeFin(SEUIL.CHQ.SEUIL.TIME.FIN)=3
+        BzMdpSeuilChqSeuilNombre(SEUIL.CHQ.SEUIL.NOMBRE)=4
+        BzMdpSeuilChqOverride(SEUIL.CHQ.OVERRIDE)=5
+        BzMdpSeuilChqLocalRef(SEUIL.CHQ.LOCAL.REF)=6
+        BzMdpSeuilChqRecordStatus(SEUIL.CHQ.RECORD.STATUS)=7
+        BzMdpSeuilChqCurrNo(SEUIL.CHQ.CURR.NO)=8
+        BzMdpSeuilChqInputter(SEUIL.CHQ.INPUTTER)=9
+        BzMdpSeuilChqDateTime(SEUIL.CHQ.DATE.TIME)=10
+        BzMdpSeuilChqAuthoriser(SEUIL.CHQ.AUTHORISER)=11
+        BzMdpSeuilChqCoCode(SEUIL.CHQ.CO.CODE)=12
+        BzMdpSeuilChqDeptCode(SEUIL.CHQ.DEPT.CODE)=13
+        BzMdpSeuilChqAuditorCode(SEUIL.CHQ.AUDITOR.CODE)=14
+        BzMdpSeuilChqAuditDateTime(SEUIL.CHQ.AUDIT.DATE.TIME)=15
+    }
+}

@@ -1,0 +1,19 @@
+public table CustNegCoursValJour {
+    t24:  CUST.NEG.COURS.VAL.JOUR
+    fields:{
+        CustNegCoursValJourNomPrenom(NEG.VAL.NOM.PRENOM)=1
+        CustNegCoursValJourValeurJour(NEG.VAL.VALEUR.JOUR)=2
+        CustNegCoursValJourNegocCours(NEG.VAL.NEGOC.COURS)=3
+        CustNegCoursValJourLocalRef(NEG.VAL.LOCAL.REF)=4
+        CustNegCoursValJourOverride(NEG.VAL.OVERRIDE)=5
+        CustNegCoursValJourRecordStatus(NEG.VAL.RECORD.STATUS)=6
+        CustNegCoursValJourCurrNo(NEG.VAL.CURR.NO)=7
+        CustNegCoursValJourInputter(NEG.VAL.INPUTTER)=8
+        CustNegCoursValJourDateTime(NEG.VAL.DATE.TIME)=9
+        CustNegCoursValJourAuthoriser(NEG.VAL.AUTHORISER)=10
+        CustNegCoursValJourCoCode(NEG.VAL.CO.CODE)=11
+        CustNegCoursValJourDeptCode(NEG.VAL.DEPT.CODE)=12
+        CustNegCoursValJourAuditorCode(NEG.VAL.AUDITOR.CODE)=13
+        CustNegCoursValJourAuditDateTime(NEG.VAL.AUDIT.DATE.TIME)=14
+    }
+}

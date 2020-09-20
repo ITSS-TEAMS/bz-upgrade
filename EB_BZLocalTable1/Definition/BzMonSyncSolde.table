@@ -1,0 +1,30 @@
+public table BzMonSyncSolde {
+    t24:  BZ.MON.SYNC.SOLDE
+    fields:{
+        BzMonSyncSoldeDateChargement(MON.SYN.DATE.CHARGEMENT)=1
+        BzMonSyncSoldeStatut(MON.SYN.STATUT)=2
+        BzMonSyncSoldeNbLignesIn(MON.SYN.NB.LIGNES.IN)=3
+        BzMonSyncSoldeNbLignesOut(MON.SYN.NB.LIGNES.OUT)=4
+        BzMonSyncSoldeNbLignesErr(MON.SYN.NB.LIGNES.ERR)=5
+        BzMonSyncSoldeMntTotal(MON.SYN.MNT.TOTAL)=6
+        BzMonSyncSoldeRefFichierIn(MON.SYN.REF.FICHIER.IN)=7
+        BzMonSyncSoldeRefFichierOut(MON.SYN.REF.FICHIER.OUT)=8
+        BzMonSyncSoldeRefFichierErr(MON.SYN.REF.FICHIER.ERR)=9
+        BzMonSyncSoldeReserved1(MON.SYN.RESERVED1)=10
+        BzMonSyncSoldeReserved2(MON.SYN.RESERVED2)=11
+        BzMonSyncSoldeReserved3(MON.SYN.RESERVED3)=12
+        BzMonSyncSoldeReserved4(MON.SYN.RESERVED4)=13
+        BzMonSyncSoldeReserved5(MON.SYN.RESERVED5)=14
+        BzMonSyncSoldeLocalRef(MON.SYN.LOCAL.REF)=15
+        BzMonSyncSoldeOverride(MON.SYN.OVERRIDE)=16
+        BzMonSyncSoldeRecordStatus(MON.SYN.RECORD.STATUS)=17
+        BzMonSyncSoldeCurrNo(MON.SYN.CURR.NO)=18
+        BzMonSyncSoldeInputter(MON.SYN.INPUTTER)=19
+        BzMonSyncSoldeDateTime(MON.SYN.DATE.TIME)=20
+        BzMonSyncSoldeAuthoriser(MON.SYN.AUTHORISER)=21
+        BzMonSyncSoldeCoCode(MON.SYN.CO.CODE)=22
+        BzMonSyncSoldeDeptCode(MON.SYN.DEPT.CODE)=23
+        BzMonSyncSoldeAuditorCode(MON.SYN.AUDITOR.CODE)=24
+        BzMonSyncSoldeAuditDateTime(MON.SYN.AUDIT.DATE.TIME)=25
+    }
+}

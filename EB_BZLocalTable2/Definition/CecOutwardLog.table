@@ -1,0 +1,22 @@
+public table CecOutwardLog {
+    t24:  CEC.OUTWARD.LOG
+    fields:{
+	
+CecOutwardLogFileName(CEC.OCL.FILE.NAME) = 1      
+CecOutwardLogFileId(CEC.OCL.IN.FILE.ID) = 2
+CecOutwardLogProcessLevel(CEC.OCL.PROCESS.LEVEL) = 3         
+CecOutwardLogUserId(CEC.OCL.USER.ID) = 4   
+CecOutwardLogEventTime(CEC.OCL.EVENT.TIME) = 5      
+CecOutwardLogEventMess(CEC.OCL.EVENT.MESS) = 6  
+CecOutwardLogEventLevel(CEC.OCL.EVENT.LEVEL) = 7    
+CecOutwardLogProblemTime(CEC.OCL.PROBLEM.TIME) = 8  
+CecOutwardLogProblemMess(CEC.OCL.PROBLEM.MESS) = 9   
+CecOutwardLogProblemLevel(CEC.OCL.PROBLEM.LEVEL) = 10 
+CecOutwardLogReserved5(CEC.OCL.RESERVED.5) = 11     
+CecOutwardLogReserved4(CEC.OCL.RESERVED.4) = 12
+CecOutwardLogReserved3(CEC.OCL.RESERVED.3) = 13     
+CecOutwardLogReserved2(CEC.OCL.RESERVED.2) = 14
+CecOutwardLogReserved1(CEC.OCL.RESERVED.1) = 15
+
+}
+}

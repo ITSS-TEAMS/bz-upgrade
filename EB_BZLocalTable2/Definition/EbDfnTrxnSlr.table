@@ -1,0 +1,19 @@
+public table EbDfnTrxnSlr {
+    t24:  EB.DFN.TRXN.SLR
+    fields:{
+        EbDfnTrxnSlrNomFichier(RH.NOM.FICHIER)=1
+        EbDfnTrxnSlrMois(RH.MOIS)=2
+        EbDfnTrxnSlrDateChargement(RH.DATE.CHARGEMENT)=3
+        EbDfnTrxnSlrSalaire(RH.SALAIRE)=4
+        EbDfnTrxnSlrOverride(RH.OVERRIDE)=5
+        EbDfnTrxnSlrRecordStatus(RH.RECORD.STATUS)=6
+        EbDfnTrxnSlrCurrNo(RH.CURR.NO)=7
+        EbDfnTrxnSlrInputter(RH.INPUTTER)=8
+        EbDfnTrxnSlrDateTime(RH.DATE.TIME)=9
+        EbDfnTrxnSlrAuthoriser(RH.AUTHORISER)=10
+        EbDfnTrxnSlrCoCode(RH.CO.CODE)=11
+        EbDfnTrxnSlrDeptCode(RH.DEPT.CODE)=12
+        EbDfnTrxnSlrAuditorCode(RH.AUDITOR.CODE)=13
+        EbDfnTrxnSlrAuditDateTime(RH.AUDIT.DATE.TIME)=14
+    }
+}

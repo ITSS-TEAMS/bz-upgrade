@@ -1,0 +1,40 @@
+public table TnaCardTransactionLogFile {
+    t24:  TNA.CARD.TRANSACTION.LOG.FILE
+    fields:{
+        TnaCardTransactionLogFileDateTraitement(TRANSACTION.DATE.TRAITEMENT)=1
+        TnaCardTransactionLogFileNumCommercant(TRANSACTION.NUM.COMMERCANT)=2
+        TnaCardTransactionLogFileDateTrx(TRANSACTION.DATE.TRX)=3
+        TnaCardTransactionLogFileTimeTrx(TRANSACTION.TIME.TRX)=4
+        TnaCardTransactionLogFileNumCarte(TRANSACTION.NUM.CARTE)=5
+        TnaCardTransactionLogFileServiceCode(TRANSACTION.SERVICE.CODE)=6
+        TnaCardTransactionLogFileCodeTrx(TRANSACTION.CODE.TRX)=7
+        TnaCardTransactionLogFileSeqTrx(TRANSACTION.SEQ.TRX)=8
+        TnaCardTransactionLogFileMessage(TRANSACTION.MESSAGE)=9
+        TnaCardTransactionLogFileRevReason(TRANSACTION.REV.REASON)=10
+        TnaCardTransactionLogFileAcqId(TRANSACTION.ACQ.ID)=11
+        TnaCardTransactionLogFileIssId(TRANSACTION.ISS.ID)=12
+        TnaCardTransactionLogFileAuto(TRANSACTION.AUTO)=13
+        TnaCardTransactionLogFileMontant(TRANSACTION.MONTANT)=14
+        TnaCardTransactionLogFileRespCode(TRANSACTION.RESP.CODE)=15
+        TnaCardTransactionLogFileInvoiceNbr(TRANSACTION.INVOICE.NBR)=16
+        TnaCardTransactionLogFileTermId(TRANSACTION.TERM.ID)=17
+        TnaCardTransactionLogFileComLocalite(TRANSACTION.COM.LOCALITE)=18
+        TnaCardTransactionLogFileTxnComEns(TRANSACTION.TXN.COM.ENS)=19
+        TnaCardTransactionLogFileCommZone(TRANSACTION.COMM.ZONE)=20
+        TnaCardTransactionLogFileCommPays(TRANSACTION.COMM.PAYS)=21
+        TnaCardTransactionLogFileTrxMonnaie(TRANSACTION.TRX.MONNAIE)=22
+        TnaCardTransactionLogFileTypeCompte(TRANSACTION.TYPE.COMPTE)=23
+        TnaCardTransactionLogFileTableOrigine(TRANSACTION.TABLE.ORIGINE)=24
+        TnaCardTransactionLogFileLocalRef(TRANSACTION.LOCAL.REF)=25
+        TnaCardTransactionLogFileOverride(TRANSACTION.OVERRIDE)=26
+        TnaCardTransactionLogFileRecordStatus(TRANSACTION.RECORD.STATUS)=27
+        TnaCardTransactionLogFileCurrNo(TRANSACTION.CURR.NO)=28
+        TnaCardTransactionLogFileInputter(TRANSACTION.INPUTTER)=29
+        TnaCardTransactionLogFileDateTime(TRANSACTION.DATE.TIME)=30
+        TnaCardTransactionLogFileAuthoriser(TRANSACTION.AUTHORISER)=31
+        TnaCardTransactionLogFileCoCode(TRANSACTION.CO.CODE)=32
+        TnaCardTransactionLogFileDeptCode(TRANSACTION.DEPT.CODE)=33
+        TnaCardTransactionLogFileAuditorCode(TRANSACTION.AUDITOR.CODE)=34
+        TnaCardTransactionLogFileAuditDateTime(TRANSACTION.AUDIT.DATE.TIME)=35
+    }
+}

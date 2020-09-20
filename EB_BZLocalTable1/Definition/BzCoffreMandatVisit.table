@@ -1,0 +1,20 @@
+public table BzCoffreMandatVisit {
+    t24:  BZ.COFFRE.MANDAT.VISIT
+    fields:{
+        BzCoffreMandatVisitIdMandat(CF.VST.ID.MANDAT)=1
+        BzCoffreMandatVisitIdContrat(CF.VST.ID.CONTRAT)=2
+        BzCoffreMandatVisitDateVisite(CF.VST.DATE.VISITE)=3
+        BzCoffreMandatVisitHeureVisite(CF.VST.HEURE.VISITE)=4
+        BzCoffreMandatVisitObservations(CF.VST.OBSERVATIONS)=5
+        BzCoffreMandatVisitOverride(CF.VST.OVERRIDE)=6
+        BzCoffreMandatVisitRecordStatus(CF.VST.RECORD.STATUS)=7
+        BzCoffreMandatVisitCurrNo(CF.VST.CURR.NO)=8
+        BzCoffreMandatVisitInputter(CF.VST.INPUTTER)=9
+        BzCoffreMandatVisitDateTime(CF.VST.DATE.TIME)=10
+        BzCoffreMandatVisitAuthoriser(CF.VST.AUTHORISER)=11
+        BzCoffreMandatVisitCoCode(CF.VST.CO.CODE)=12
+        BzCoffreMandatVisitDeptCode(CF.VST.DEPT.CODE)=13
+        BzCoffreMandatVisitAuditorCode(CF.VST.AUDITOR.CODE)=14
+        BzCoffreMandatVisitAuditDateTime(CF.VST.AUDIT.DATE.TIME)=15
+    }
+}

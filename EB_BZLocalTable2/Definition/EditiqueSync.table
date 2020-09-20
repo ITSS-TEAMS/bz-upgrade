@@ -1,0 +1,35 @@
+public table EditiqueSync {
+    t24:  EDITIQUE.SYNC
+    fields:{
+        EditiqueSyncReqSql(ED.SYNC.REQ.SQL)=1
+        EditiqueSyncTable(ED.SYNC.TABLE)=2
+        EditiqueSyncFunction(ED.SYNC.FUNCTION)=3
+        EditiqueSyncColone(ED.SYNC.COLONE)=4
+        EditiqueSyncValeur(ED.SYNC.VALEUR)=5
+        EditiqueSyncDateSync(ED.SYNC.DATE.SYNC)=6
+        EditiqueSyncStatut(ED.SYNC.STATUT)=7
+        EditiqueSyncIdEnregistrement(ED.SYNC.ID.ENREGISTREMENT)=8
+        EditiqueSyncErrorMsg(ED.SYNC.ERROR.MSG)=9
+        EditiqueSyncExSql(ED.SYNC.EX.SQL)=10
+        EditiqueSyncReserved1(ED.SYNC.RESERVED.1)=11
+        EditiqueSyncReserved2(ED.SYNC.RESERVED.2)=12
+        EditiqueSyncReserved3(ED.SYNC.RESERVED.3)=13
+        EditiqueSyncReserved4(ED.SYNC.RESERVED.4)=14
+        EditiqueSyncReserved5(ED.SYNC.RESERVED.5)=15
+        EditiqueSyncReserved6(ED.SYNC.RESERVED.6)=16
+        EditiqueSyncReserved7(ED.SYNC.RESERVED.7)=17
+        EditiqueSyncReserved8(ED.SYNC.RESERVED.8)=18
+        EditiqueSyncReserved9(ED.SYNC.RESERVED.9)=19
+        EditiqueSyncReserved10(ED.SYNC.RESERVED.10)=20
+        EditiqueSyncOverride(ED.SYNC.OVERRIDE)=21
+        EditiqueSyncRecordStatus(ED.SYNC.RECORD.STATUS)=22
+        EditiqueSyncCurrNo(ED.SYNC.CURR.NO)=23
+        EditiqueSyncInputter(ED.SYNC.INPUTTER)=24
+        EditiqueSyncDateTime(ED.SYNC.DATE.TIME)=25
+        EditiqueSyncAuthoriser(ED.SYNC.AUTHORISER)=26
+        EditiqueSyncCoCode(ED.SYNC.CO.CODE)=27
+        EditiqueSyncDeptCode(ED.SYNC.DEPT.CODE)=28
+        EditiqueSyncAuditorCode(ED.SYNC.AUDITOR.CODE)=29
+        EditiqueSyncAuditDateTime(ED.SYNC.AUDIT.DATE.TIME)=30
+    }
+}

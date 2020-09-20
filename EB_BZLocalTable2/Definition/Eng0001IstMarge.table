@@ -1,0 +1,23 @@
+public table Eng0001IstMarge {
+    t24:  ENG0001.IST.MARGE
+    fields:{
+        Eng0001IstMargePeriodicite(MRG.IST.PERIODICITE)=1
+        Eng0001IstMargeMarge(MRG.IST.MARGE)=2
+        Eng0001IstMargeReserved1(MRG.IST.RESERVED.1)=3
+        Eng0001IstMargeReserved2(MRG.IST.RESERVED.2)=4
+        Eng0001IstMargeReserved3(MRG.IST.RESERVED.3)=5
+        Eng0001IstMargeReserved4(MRG.IST.RESERVED.4)=6
+        Eng0001IstMargeReserved5(MRG.IST.RESERVED.5)=7
+        Eng0001IstMargeLocalRef(MRG.IST.LOCAL.REF)=8
+        Eng0001IstMargeOverride(MRG.IST.OVERRIDE)=9
+        Eng0001IstMargeRecordStatus(MRG.IST.RECORD.STATUS)=10
+        Eng0001IstMargeCurrNo(MRG.IST.CURR.NO)=11
+        Eng0001IstMargeInputter(MRG.IST.INPUTTER)=12
+        Eng0001IstMargeDateTime(MRG.IST.DATE.TIME)=13
+        Eng0001IstMargeAuthoriser(MRG.IST.AUTHORISER)=14
+        Eng0001IstMargeCoCode(MRG.IST.CO.CODE)=15
+        Eng0001IstMargeDeptCode(MRG.IST.DEPT.CODE)=16
+        Eng0001IstMargeAuditorCode(MRG.IST.AUDITOR.CODE)=17
+        Eng0001IstMargeAuditDateTime(MRG.IST.AUDIT.DATE.TIME)=18
+    }
+}

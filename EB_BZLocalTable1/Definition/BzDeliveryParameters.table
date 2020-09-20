@@ -1,0 +1,24 @@
+public table BzDeliveryParameters {
+    t24:  BZ.DELIVERY.PARAMETERS
+    fields:{
+        BzDeliveryParametersSystemName(BZ.DELIV.SYSTEM.NAME)=1
+        BzDeliveryParametersHost(BZ.DELIV.HOST)=2
+        BzDeliveryParametersPort(BZ.DELIV.PORT)=3
+        BzDeliveryParametersStatut(BZ.DELIV.STATUT)=4
+        BzDeliveryParametersReserved1(BZ.DELIV.RESERVED.1)=5
+        BzDeliveryParametersReserved2(BZ.DELIV.RESERVED.2)=6
+        BzDeliveryParametersReserved3(BZ.DELIV.RESERVED.3)=7
+        BzDeliveryParametersReserved4(BZ.DELIV.RESERVED.4)=8
+        BzDeliveryParametersLocalRef(BZ.DELIV.LOCAL.REF)=9
+        BzDeliveryParametersOverride(BZ.DELIV.OVERRIDE)=10
+        BzDeliveryParametersRecordStatus(BZ.DELIV.RECORD.STATUS)=11
+        BzDeliveryParametersCurrNo(BZ.DELIV.CURR.NO)=12
+        BzDeliveryParametersInputter(BZ.DELIV.INPUTTER)=13
+        BzDeliveryParametersDateTime(BZ.DELIV.DATE.TIME)=14
+        BzDeliveryParametersAuthoriser(BZ.DELIV.AUTHORISER)=15
+        BzDeliveryParametersCoCode(BZ.DELIV.CO.CODE)=16
+        BzDeliveryParametersDeptCode(BZ.DELIV.DEPT.CODE)=17
+        BzDeliveryParametersAuditorCode(BZ.DELIV.AUDITOR.CODE)=18
+        BzDeliveryParametersAuditDateTime(BZ.DELIV.AUDIT.DATE.TIME)=19
+    }
+}

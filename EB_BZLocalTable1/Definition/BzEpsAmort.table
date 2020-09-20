@@ -1,0 +1,31 @@
+public table BzEpsAmort {
+    t24:  BZ.EPS.AMORT
+    fields:{
+        BzEpsAmortCustomer(BZ.EPS.AMORT.CUSTOMER)=1
+        BzEpsAmortRefCaution(BZ.EPS.AMORT.REF.CAUTION)=2
+        BzEpsAmortCpteAmort(BZ.EPS.AMORT.CPTE.AMORT)=3
+        BzEpsAmortMontantAmort(BZ.EPS.AMORT.MONTANT.AMORT)=4
+        BzEpsAmortNbrAmort(BZ.EPS.AMORT.NBR.AMORT)=5
+        BzEpsAmortOutstanding(BZ.EPS.AMORT.OUTSTANDING)=6
+        BzEpsAmortFrequence(BZ.EPS.AMORT.FREQUENCE)=7
+        BzEpsAmortLastExecution(BZ.EPS.AMORT.LAST.EXECUTION)=8
+        BzEpsAmortNextExecution(BZ.EPS.AMORT.NEXT.EXECUTION)=9
+        BzEpsAmortDateCreation(BZ.EPS.AMORT.DATE.CREATION)=10
+        BzEpsAmortMontantEch(BZ.EPS.AMORT.MONTANT.ECH)=11
+        BzEpsAmortRefTxnCompta(BZ.EPS.AMORT.REF.TXN.COMPTA)=12
+        BzEpsAmortDevise(BZ.EPS.AMORT.DEVISE)=13
+        BzEpsAmortCptePlComm(BZ.EPS.AMORT.CPTE.PL.COMM)=14
+        BzEpsAmortCodeComm(BZ.EPS.AMORT.CODE.COMM)=15
+        BzEpsAmortLocalRef(BZ.EPS.AMORT.LOCAL.REF)=16
+        BzEpsAmortOverride(BZ.EPS.AMORT.OVERRIDE)=17
+        BzEpsAmortRecordStatus(BZ.EPS.AMORT.RECORD.STATUS)=18
+        BzEpsAmortCurrNo(BZ.EPS.AMORT.CURR.NO)=19
+        BzEpsAmortInputter(BZ.EPS.AMORT.INPUTTER)=20
+        BzEpsAmortDateTime(BZ.EPS.AMORT.DATE.TIME)=21
+        BzEpsAmortAuthoriser(BZ.EPS.AMORT.AUTHORISER)=22
+        BzEpsAmortCoCode(BZ.EPS.AMORT.CO.CODE)=23
+        BzEpsAmortDeptCode(BZ.EPS.AMORT.DEPT.CODE)=24
+        BzEpsAmortAuditorCode(BZ.EPS.AMORT.AUDITOR.CODE)=25
+        BzEpsAmortAuditDateTime(BZ.EPS.AMORT.AUDIT.DATE.TIME)=26
+    }
+}

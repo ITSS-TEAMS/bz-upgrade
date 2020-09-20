@@ -1,0 +1,31 @@
+public table BzIsChqFrs {
+    t24:  BZ.IS.CHQ.FRS
+    fields:{
+        BzIsChqFrsNumCheque(BZ.IS.CHQ.FRS.NUM.CHEQUE)=1
+        BzIsChqFrsRefDemande(BZ.IS.CHQ.FRS.REF.DEMANDE)=2
+        BzIsChqFrsCodeFrs(BZ.IS.CHQ.FRS.CODE.FRS)=3
+        BzIsChqFrsCustomer(BZ.IS.CHQ.FRS.CUSTOMER)=4
+        BzIsChqFrsMontantPaiement(BZ.IS.CHQ.FRS.MONTANT.PAIEMENT)=5
+        BzIsChqFrsCpteChqLiv(BZ.IS.CHQ.FRS.CPTE.CHQ.LIV)=6
+        BzIsChqFrsDatePaiment(BZ.IS.CHQ.FRS.DATE.PAIMENT)=7
+        BzIsChqFrsDateLivraison(BZ.IS.CHQ.FRS.DATE.LIVRAISON)=8
+        BzIsChqFrsUniteGestion(BZ.IS.CHQ.FRS.UNITE.GESTION)=9
+        BzIsChqFrsStatut(BZ.IS.CHQ.FRS.STATUT)=10
+        BzIsChqFrsRefCreation(BZ.IS.CHQ.FRS.REF.CREATION)=11
+        BzIsChqFrsRefApurement(BZ.IS.CHQ.FRS.REF.APUREMENT)=12
+        BzIsChqFrsNomFrs(BZ.IS.CHQ.FRS.NOM.FRS)=13
+        BzIsChqFrsUniteTrans(BZ.IS.CHQ.FRS.UNITE.TRANS)=14
+        BzIsChqFrsDateTrans(BZ.IS.CHQ.FRS.DATE.TRANS)=15
+        BzIsChqFrsLocalRef(BZ.IS.CHQ.FRS.LOCAL.REF)=16
+        BzIsChqFrsOverride(BZ.IS.CHQ.FRS.OVERRIDE)=17
+        BzIsChqFrsRecordStatus(BZ.IS.CHQ.FRS.RECORD.STATUS)=18
+        BzIsChqFrsCurrNo(BZ.IS.CHQ.FRS.CURR.NO)=19
+        BzIsChqFrsInputter(BZ.IS.CHQ.FRS.INPUTTER)=20
+        BzIsChqFrsDateTime(BZ.IS.CHQ.FRS.DATE.TIME)=21
+        BzIsChqFrsAuthoriser(BZ.IS.CHQ.FRS.AUTHORISER)=22
+        BzIsChqFrsCoCode(BZ.IS.CHQ.FRS.CO.CODE)=23
+        BzIsChqFrsDeptCode(BZ.IS.CHQ.FRS.DEPT.CODE)=24
+        BzIsChqFrsAuditorCode(BZ.IS.CHQ.FRS.AUDITOR.CODE)=25
+        BzIsChqFrsAuditDateTime(BZ.IS.CHQ.FRS.AUDIT.DATE.TIME)=26
+    }
+}

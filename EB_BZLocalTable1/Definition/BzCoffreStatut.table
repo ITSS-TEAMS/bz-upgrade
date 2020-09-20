@@ -1,0 +1,16 @@
+public table BzCoffreStatut {
+        t24:  BZ.COFFRE.STATUT
+        fields:{
+            BzCoffreStatutDescription(CF.STATUT.DESCRIPTION)=1
+            BzCoffreStatutOverride(CF.STATUT.OVERRIDE)=2
+            BzCoffreStatutRecordStatus(CF.STATUT.RECORD.STATUS)=3
+            BzCoffreStatutCurrNo(CF.STATUT.CURR.NO)=4
+            BzCoffreStatutInputter(CF.STATUT.INPUTTER)=5
+            BzCoffreStatutDateTime(CF.STATUT.DATE.TIME)=6
+            BzCoffreStatutAuthoriser(CF.STATUT.AUTHORISER)=7
+            BzCoffreStatutCoCode(CF.STATUT.CO.CODE)=8
+            BzCoffreStatutDeptCode(CF.STATUT.DEPT.CODE)=9
+            BzCoffreStatutAuditorCode(CF.STATUT.AUDITOR.CODE)=10
+            BzCoffreStatutAuditDateTime(CF.STATUT.AUDIT.DATE.TIME)=11
+        }
+    }

@@ -1,0 +1,27 @@
+public table BzIbJournalFact {
+    t24:  BZ.IB.JOURNAL.FACT
+    fields:{
+        BzIbJournalFactCompte(JRNL.COMPTE)=1
+        BzIbJournalFactPack(JRNL.PACK)=2
+        BzIbJournalFactDate(JRNL.DATE)=3
+        BzIbJournalFactReference(JRNL.REFERENCE)=4
+        BzIbJournalFactAbonnement(JRNL.ABONNEMENT)=5
+        BzIbJournalFactMontant(JRNL.MONTANT)=6
+        BzIbJournalFactDateDernAnniv(JRNL.DATE.DERN.ANNIV)=7
+        BzIbJournalFactReserved2(JRNL.RESERVED.2)=8
+        BzIbJournalFactReserved3(JRNL.RESERVED.3)=9
+        BzIbJournalFactReserved4(JRNL.RESERVED.4)=10
+        BzIbJournalFactReserved5(JRNL.RESERVED.5)=11
+        BzIbJournalFactLocalRef(JRNL.LOCAL.REF)=12
+        BzIbJournalFactOverride(JRNL.OVERRIDE)=13
+        BzIbJournalFactRecordStatus(JRNL.RECORD.STATUS)=14
+        BzIbJournalFactCurrNo(JRNL.CURR.NO)=15
+        BzIbJournalFactInputter(JRNL.INPUTTER)=16
+        BzIbJournalFactDateTime(JRNL.DATE.TIME)=17
+        BzIbJournalFactAuthoriser(JRNL.AUTHORISER)=18
+        BzIbJournalFactCoCode(JRNL.CO.CODE)=19
+        BzIbJournalFactDeptCode(JRNL.DEPT.CODE)=20
+        BzIbJournalFactAuditorCode(JRNL.AUDITOR.CODE)=21
+        BzIbJournalFactAuditDateTime(JRNL.AUDIT.DATE.TIME)=22
+    }
+}
